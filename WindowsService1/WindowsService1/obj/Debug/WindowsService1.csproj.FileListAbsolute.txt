@@ -1,0 +1,9 @@
+c:\users\hoholee12\documents\visual studio 2013\Projects\WindowsService1\WindowsService1\bin\Debug\myFuckingService.exe.config
+c:\users\hoholee12\documents\visual studio 2013\Projects\WindowsService1\WindowsService1\obj\Debug\WindowsService1.csprojResolveAssemblyReference.cache
+c:\users\hoholee12\documents\visual studio 2013\Projects\WindowsService1\WindowsService1\obj\Debug\myFuckingService.ProjectInstaller.resources
+c:\users\hoholee12\documents\visual studio 2013\Projects\WindowsService1\WindowsService1\obj\Debug\myFuckingService.MyFuckingService.resources
+c:\users\hoholee12\documents\visual studio 2013\Projects\WindowsService1\WindowsService1\obj\Debug\WindowsService1.csproj.GenerateResource.Cache
+c:\users\hoholee12\documents\visual studio 2013\Projects\WindowsService1\WindowsService1\bin\Debug\myFuckingService.exe
+c:\users\hoholee12\documents\visual studio 2013\Projects\WindowsService1\WindowsService1\bin\Debug\myFuckingService.pdb
+c:\users\hoholee12\documents\visual studio 2013\Projects\WindowsService1\WindowsService1\obj\Debug\myFuckingService.exe
+c:\users\hoholee12\documents\visual studio 2013\Projects\WindowsService1\WindowsService1\obj\Debug\myFuckingService.pdb
