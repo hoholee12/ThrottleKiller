@@ -40,7 +40,10 @@ namespace myFuckingService
         [DllImport("advapi32.dll", SetLastError = true)]
         private static extern bool SetServiceStatus(System.IntPtr handle, ref ServiceStatus serviceStatus);
 
-        
+        //power policy classes
+        //https://docs.microsoft.com/en-us/previous-versions//dd904518(v=vs.85)?redirectedfrom=MSDN
+        //power scheme management
+        //https://docs.microsoft.com/ko-kr/windows/win32/power/managing-power-schemes?redirectedfrom=MSDN
         
 
         private int eventId = 1;
