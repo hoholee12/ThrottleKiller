@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 using System.Runtime.InteropServices;
+using OpenHardwareMonitor;
 
 
 namespace myFuckingService
@@ -38,6 +39,9 @@ namespace myFuckingService
         
         [DllImport("advapi32.dll", SetLastError = true)]
         private static extern bool SetServiceStatus(System.IntPtr handle, ref ServiceStatus serviceStatus);
+
+        
+        
 
         private int eventId = 1;
         private string[] args;

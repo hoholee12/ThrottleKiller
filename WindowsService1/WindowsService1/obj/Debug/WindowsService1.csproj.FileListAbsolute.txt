@@ -7,3 +7,6 @@ c:\users\hoholee12\documents\visual studio 2013\Projects\WindowsService1\Windows
 c:\users\hoholee12\documents\visual studio 2013\Projects\WindowsService1\WindowsService1\bin\Debug\myFuckingService.pdb
 c:\users\hoholee12\documents\visual studio 2013\Projects\WindowsService1\WindowsService1\obj\Debug\myFuckingService.exe
 c:\users\hoholee12\documents\visual studio 2013\Projects\WindowsService1\WindowsService1\obj\Debug\myFuckingService.pdb
+C:\Users\User\Documents\GitHub\Auto_PowerManager\WindowsService1\WindowsService1\bin\Debug\myFuckingService.exe.config
+C:\Users\User\Documents\GitHub\Auto_PowerManager\WindowsService1\WindowsService1\obj\Debug\myFuckingService.exe
+C:\Users\User\Documents\GitHub\Auto_PowerManager\WindowsService1\WindowsService1\obj\Debug\myFuckingService.pdb
