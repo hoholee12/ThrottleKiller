@@ -1,3 +1,6 @@
+#get-member: lists all members of a classtype
+
+
 #load dll
 [system.reflection.assembly]::loadfile("" + (get-location) + "\openhardwaremonitorlib.dll")
 

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Timers;
 using System.Runtime.InteropServices;
 using OpenHardwareMonitor;
-
+using System.Management;
 
 namespace myFuckingService
 {
@@ -39,13 +39,18 @@ namespace myFuckingService
         
         [DllImport("advapi32.dll", SetLastError = true)]
         private static extern bool SetServiceStatus(System.IntPtr handle, ref ServiceStatus serviceStatus);
+        
+        //get wmiobject
+        //https://docs.microsoft.com/en-us/windows/win32/wmisdk/retrieving-an-instance
+        ManagementObject objInst = new ManagementObject("Win32_Processor");
 
         //power policy classes
         //https://docs.microsoft.com/en-us/previous-versions//dd904518(v=vs.85)?redirectedfrom=MSDN
         //power scheme management
         //https://docs.microsoft.com/ko-kr/windows/win32/power/managing-power-schemes?redirectedfrom=MSDN
         
-
+        
+        
         private int eventId = 1;
         private string[] args;
         public MyFuckingService()
