@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication40
 {
-    class Auto_PowerManager
+    class AutoPowerManager
     {
          /*TODO: port everything from xtu_scheduler.ps1
          auto_powermanager core
@@ -209,7 +209,7 @@ bc5038f7-23e0-4960-96da-33abaf5935ec = 100          # processor high clockspeed 
 ea062031-0e34-4ff1-9b6d-eb1059334028 = 100";
         }
 
-        public Auto_PowerManager()
+        public AutoPowerManager()
         {
             initPath();
         }

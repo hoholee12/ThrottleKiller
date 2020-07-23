@@ -7,3 +7,6 @@ c:\users\hoholee12\documents\visual studio 2013\Projects\ConsoleApplication40\Co
 C:\Users\hoholee12\Documents\GitHub\Auto_PowerManager\ConsoleApplication40\ConsoleApplication40\bin\Debug\ConsoleApplication40.exe.config
 C:\Users\hoholee12\Documents\GitHub\Auto_PowerManager\ConsoleApplication40\ConsoleApplication40\obj\Debug\ConsoleApplication40.exe
 C:\Users\hoholee12\Documents\GitHub\Auto_PowerManager\ConsoleApplication40\ConsoleApplication40\obj\Debug\ConsoleApplication40.pdb
+C:\Users\hoholee12\Documents\GitHub\Auto_PowerManager\ConsoleApplication40\ConsoleApplication40\bin\Debug\ConsoleApplication40.exe
+C:\Users\hoholee12\Documents\GitHub\Auto_PowerManager\ConsoleApplication40\ConsoleApplication40\bin\Debug\ConsoleApplication40.pdb
+C:\Users\hoholee12\Documents\GitHub\Auto_PowerManager\ConsoleApplication40\ConsoleApplication40\obj\Debug\ConsoleApplication40.csprojResolveAssemblyReference.cache

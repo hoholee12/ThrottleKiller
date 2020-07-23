@@ -9,19 +9,19 @@ namespace ConsoleApplication40
 {
     class Program
     {
-        
+        static AutoPowerManager autoPowerManager;
        
         static void Main(string[] args)
         {
-            Auto_PowerManager apm = new Auto_PowerManager();
+            autoPowerManager = new AutoPowerManager();
 
             if (args.Length == 1) {
-                apm.changePath(args[1]);
+                autoPowerManager.changePath(args[1]);
             
             
             }
 
-            apm.start();
+            autoPowerManager.start();
             
         }
     }
