@@ -16,3 +16,6 @@ C:\Users\User\Documents\GitHub\Auto_PowerManager\WindowsService1\WindowsService1
 C:\Users\User\Documents\GitHub\Auto_PowerManager\WindowsService1\WindowsService1\obj\Debug\myFuckingService.ProjectInstaller.resources
 C:\Users\User\Documents\GitHub\Auto_PowerManager\WindowsService1\WindowsService1\obj\Debug\myFuckingService.MyFuckingService.resources
 C:\Users\User\Documents\GitHub\Auto_PowerManager\WindowsService1\WindowsService1\obj\Debug\WindowsService1.csproj.GenerateResource.Cache
+C:\Users\hoholee12\Documents\GitHub\Auto_PowerManager\WindowsService1\WindowsService1\bin\Debug\myFuckingService.exe.config
+C:\Users\hoholee12\Documents\GitHub\Auto_PowerManager\WindowsService1\WindowsService1\obj\Debug\myFuckingService.exe
+C:\Users\hoholee12\Documents\GitHub\Auto_PowerManager\WindowsService1\WindowsService1\obj\Debug\myFuckingService.pdb

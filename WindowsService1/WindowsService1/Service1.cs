@@ -11,6 +11,7 @@ using System.Timers;
 using System.Runtime.InteropServices;
 using OpenHardwareMonitor;
 using System.Management;
+using System.IO;
 
 namespace myFuckingService
 {
@@ -60,6 +61,8 @@ namespace myFuckingService
          */
 
 
+
+
         private int eventId = 1;
         private string[] args;
         public MyFuckingService()
@@ -99,7 +102,7 @@ namespace myFuckingService
 
         protected override void OnStart(string[] args)
         {
-            eventLog1.WriteEntry("In Onstart.");
+            eventLog1.WriteEntry("auto_powermanager service started.");
             Timer timer = new Timer();
             timer.Interval = 60000;
             timer.Elapsed += new ElapsedEventHandler(this.OnTimer);
@@ -119,13 +122,13 @@ namespace myFuckingService
         protected void OnTimer(object sender, ElapsedEventArgs e)
         {
             //throw new NotImplementedException();
-            eventLog1.WriteEntry("monitoring system", EventLogEntryType.Information, eventId);
+            //eventLog1.WriteEntry("monitoring system", EventLogEntryType.Information, eventId);
             eventId++;
         }
 
         protected override void OnStop()
         {
-            eventLog1.WriteEntry("In OnStop");
+            eventLog1.WriteEntry("auto_powermanager service stopped.");
 
             ServiceStatus serviceStatus = new ServiceStatus();
             serviceStatus.dwCurrentState = ServiceState.SERVICE_STOP_PENDING;
@@ -138,7 +141,7 @@ namespace myFuckingService
 
         protected override void OnContinue()
         {
-            eventLog1.WriteEntry("In OnContinue");
+            
         }
     }
 }
