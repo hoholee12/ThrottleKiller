@@ -49,8 +49,17 @@ namespace myFuckingService
         //power scheme management
         //https://docs.microsoft.com/ko-kr/windows/win32/power/managing-power-schemes?redirectedfrom=MSDN
         
-        
-        
+        //other things
+        /*https://docs.microsoft.com/en-us/windows/win32/wmisdk/retrieving-an-instance
+         *https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-how-to
+         * https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/walkthrough-simple-object-model-and-query-csharp
+         * https://docs.microsoft.com/en-us/dotnet/api/system.runtime.interopservices.marshal?view=netcore-3.1
+         * https://docs.microsoft.com/en-us/dotnet/api/system.data.dataset.load?view=netcore-3.1
+         * https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/serialization/
+         * https://docs.microsoft.com/en-us/dotnet/api/system.io.file?view=netcore-3.1
+         */
+
+
         private int eventId = 1;
         private string[] args;
         public MyFuckingService()
