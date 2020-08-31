@@ -1,0 +1,8 @@
+2020-08-31 오후 7:20:59: create folder: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config
+2020-08-31 오후 7:20:59: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\special_programs
+2020-08-31 오후 7:20:59: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\programs_running_cfg_cpu
+2020-08-31 오후 7:20:59: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\programs_running_cfg_xtu
+2020-08-31 오후 7:20:59: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\programs_running_cfg_nice
+2020-08-31 오후 7:20:59: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\loop_delay
+2020-08-31 오후 7:20:59: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\boost_cycle_delay
+2020-08-31 오후 7:20:59: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\ac_offset

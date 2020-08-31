@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication40
+using System.IO;
+
+namespace ThrottleSchedulerService
 {
-    class AutoPowerManager
+    class ThrottleScheduler
     {
-         /*TODO: port everything from xtu_scheduler.ps1
+        /*TODO: port everything from xtu_scheduler.ps1
          auto_powermanager core
          * 1. get list from db
          * 2. check hardware
@@ -25,10 +27,13 @@ namespace ConsoleApplication40
         //settings paths
         public struct SettingsToken {
             public string path;
+            public string name;
             public string content;
 
         };
-        public SettingsToken mypath;
+
+
+        //config files
         public SettingsToken special_programs;
         public SettingsToken programs_running_cfg_cpu;
         public SettingsToken programs_running_cfg_xtu;
@@ -38,6 +43,9 @@ namespace ConsoleApplication40
         public SettingsToken ac_offset;
         public SettingsToken processor_guid_tweak;
         public SettingsToken xtu_scheduler_log;
+
+        const string cfgname = @"xtu_scheduler_config";
+        string path = AppDomain.CurrentDomain.BaseDirectory + cfgname;   //verbatim string literal @: for directory string
 
         //GUIDs
         public string guid0 = @"381b4222-f694-41f0-9685-ff5bb260df2e";		// you can change to any powerplan you want as default!
@@ -52,11 +60,6 @@ namespace ConsoleApplication40
         //1 = Balanced(Maximum Battery Life is useless)
         //2 = Maximum Performance(seems to remove long term throttling...)
 
-
-        public void findFiles(string setting_string)
-        {
-            
-        }
         public void checkMaxSpeed() { }
         public void cpuproc(string arg0, string arg1) { }
         public void xtuproc(string arg0) { }
@@ -64,8 +67,14 @@ namespace ConsoleApplication40
         public void printSettings() { }
 
         //create config files if nonexistant
-        public void checkFiles(SettingsToken st) { }
+        public void checkFiles(SettingsToken st) {
 
+            if (!Directory.Exists(st.path)) { Directory.CreateDirectory(st.path); WriteLog("create folder: " + st.path); }
+            if (!File.Exists(fullname(st))) { File.WriteAllText(fullname(st), st.content); WriteLog("create file: " + fullname(st)); }
+        }
+        public string fullname(SettingsToken st) {
+            return st.path + @"\" + st.name;
+        }
         //batch checkfiles
         public void checkFiles_myfiles()
         {
@@ -79,25 +88,50 @@ namespace ConsoleApplication40
         }
 
         //logging
-        public void msgbox(string setting_string) { }
-        public void msg(string setting_string) { }
+        public void MsgBox(string msg) {
+        
+        }
+        public void WriteLog(string msg)
+        {
+            string folderpath = path + @"\logs";
+            if (!Directory.Exists(folderpath)) Directory.CreateDirectory(folderpath);
 
-        public void changePath(string path) { initPath(path); }
-        public void initPath(string path = @"xtu_scheduler_config\")
+            string filepath = path + @"\logs\" + cfgname +
+                DateTime.Now.Date.ToShortDateString().Replace('/', '_') + ".txt";
+            if (!File.Exists(filepath))
+                using (StreamWriter sw = File.CreateText(filepath)) sw.WriteLine(DateTime.Now + ": " + msg);
+            else
+                using (StreamWriter sw = File.AppendText(filepath)) sw.WriteLine(DateTime.Now + ": " + msg);
+        }
+
+
+
+
+        public void initPath()
         {
 
             //settings
+
             //initialize paths
-            mypath.path = @"xtu_scheduler_config\";   //verbatim string literal @: for directory string
-            special_programs.path = mypath.path + "special_programs";
-            programs_running_cfg_cpu.path = mypath.path + "programs_running_cfg_cpu";
-            programs_running_cfg_xtu.path = mypath.path + "programs_running_cfg_xtu";
-            programs_running_cfg_nice.path = mypath.path + "programs_running_cfg_nice";
-            loop_delay.path = mypath.path + "loop_delay";
-            boost_cycle_delay.path = mypath.path + "boost_cycle_delay";
-            ac_offset.path = mypath.path + "ac_offset";
-            processor_guid_tweak.path = mypath.path + "processor_guid_tweak";
-            xtu_scheduler_log.path = mypath.path + "xtu_scheduler_log";
+            special_programs.path = path;
+            programs_running_cfg_cpu.path = path;
+            programs_running_cfg_xtu.path = path;
+            programs_running_cfg_nice.path = path;
+            loop_delay.path = path;
+            boost_cycle_delay.path = path;
+            ac_offset.path = path;
+            processor_guid_tweak.path = path;
+            xtu_scheduler_log.path = path;
+
+            special_programs.name = "special_programs";
+            programs_running_cfg_cpu.name = "programs_running_cfg_cpu";
+            programs_running_cfg_xtu.name = "programs_running_cfg_xtu";
+            programs_running_cfg_nice.name = "programs_running_cfg_nice";
+            loop_delay.name = "loop_delay";
+            boost_cycle_delay.name = "boost_cycle_delay";
+            ac_offset.name = "ac_offset";
+            processor_guid_tweak.name = "processor_guid_tweak";
+            xtu_scheduler_log.name = "xtu_scheduler_log";
 
             //initialize contents
             special_programs.content =
@@ -209,14 +243,15 @@ bc5038f7-23e0-4960-96da-33abaf5935ec = 100          # processor high clockspeed 
 ea062031-0e34-4ff1-9b6d-eb1059334028 = 100";
         }
 
-        public AutoPowerManager()
+        public ThrottleScheduler()
         {
             initPath();
         }
 
 
         //start main loop
-        public void start() { }
-
+        public void monitor() {
+            checkFiles_myfiles();
+        }
     }
 }

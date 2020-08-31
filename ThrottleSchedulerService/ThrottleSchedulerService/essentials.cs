@@ -11,10 +11,10 @@ namespace ThrottleSchedulerService
     class essentials
     {
         public void WriteLog(string msg) {
-            string folderpath = AppDomain.CurrentDomain.BaseDirectory + "\\logs";
+            string folderpath = AppDomain.CurrentDomain.BaseDirectory + @"\logs";
             if (!Directory.Exists(folderpath)) Directory.CreateDirectory(folderpath);
 
-            string filepath = AppDomain.CurrentDomain.BaseDirectory + "\\logs\\" +
+            string filepath = AppDomain.CurrentDomain.BaseDirectory + @"\logs\" +
                 DateTime.Now.Date.ToShortDateString().Replace('/', '_') + ".txt";
             if (!File.Exists(filepath)) 
                 using (StreamWriter sw = File.CreateText(filepath)) sw.WriteLine(DateTime.Now + ": " + msg);

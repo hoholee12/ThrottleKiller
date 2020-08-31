@@ -16,8 +16,7 @@ namespace ThrottleSchedulerService
     {
         Timer timer = new Timer();
         essentials ess = new essentials();
-
-        int count = 0;
+        ThrottleScheduler ts = new ThrottleScheduler();
 
         public Service1()
         {
@@ -27,13 +26,15 @@ namespace ThrottleSchedulerService
         protected override void OnStart(string[] args)
         {
             ess.WriteLog("service started");
+            
             timer.Elapsed += new ElapsedEventHandler(OnTimerCount);
-            timer.Interval = 1000;
+            timer.Interval = 5000;
             timer.Enabled = true;
+            
         }
 
         private void OnTimerCount(Object src, ElapsedEventArgs args) {
-            ess.WriteLog("service running " + count++ + " times");
+            ts.monitor();
         }
 
         protected override void OnStop()
