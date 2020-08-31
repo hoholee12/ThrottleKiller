@@ -34,7 +34,7 @@ namespace ThrottleSchedulerService
         }
 
         private void OnTimerCount(Object src, ElapsedEventArgs args) {
-            ts.monitor();
+            ts.mainflow();
         }
 
         protected override void OnStop()

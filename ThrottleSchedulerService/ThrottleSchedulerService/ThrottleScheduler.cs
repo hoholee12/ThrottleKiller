@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 using System.IO;
+using System.Management;
+using OpenHardwareMonitor.Hardware;
 
 namespace ThrottleSchedulerService
 {
@@ -23,6 +25,63 @@ namespace ThrottleSchedulerService
          * 9. loop to 2.
          * 
          */
+
+       
+
+        public class UpdateVisitor : IVisitor
+        {
+            public void VisitComputer(IComputer computer)
+            {
+                computer.Traverse(this);
+            }
+            public void VisitHardware(IHardware hardware)
+            {
+                hardware.Update();
+                foreach (IHardware subHardware in hardware.SubHardware) subHardware.Accept(this);
+            }
+            public void VisitSensor(ISensor sensor) { }
+            public void VisitParameter(IParameter parameter) { }
+        }
+        
+        //monitor init
+        Computer computer = new Computer();
+        UpdateVisitor updateVisitor = new UpdateVisitor();
+        ManagementObject obj = new ManagementObject("Win32_Processor.DeviceID='CPU0'");
+
+
+        int getLoad(){
+            obj.Get();
+            return int.Parse(obj["LoadPercentage"].ToString());
+        }
+        int getCLK() {
+            obj.Get();
+            return int.Parse(obj["CurrentClockSpeed"].ToString());
+        }
+        int getTemp() {
+            computer.Open();
+            computer.CPUEnabled = true;
+            computer.Accept(updateVisitor);
+            for (int i = 0; i < computer.Hardware.Length; i++)
+            {
+                if (computer.Hardware[i].HardwareType == HardwareType.CPU)
+                {
+                    for (int j = 0; j < computer.Hardware[i].Sensors.Length; j++)
+                    {
+                        if (computer.Hardware[i].Sensors[j].SensorType == SensorType.Temperature)
+                        {
+                            int hello = int.Parse(computer.Hardware[i].Sensors[j].Value.ToString());
+                            computer.Close();
+                            return hello;
+                        }
+                    }
+                }
+            }
+            computer.Close();
+            return -1;
+        }
+        //for management wmi
+
+            
 
         //settings paths
         public struct SettingsToken {
@@ -105,7 +164,10 @@ namespace ThrottleSchedulerService
         }
 
 
-
+        public void initMonitor() {
+            
+            
+        }
 
         public void initPath()
         {
@@ -250,8 +312,10 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100";
 
 
         //start main loop
-        public void monitor() {
+        public void mainflow() {
             checkFiles_myfiles();
+            WriteLog("clk:" + getCLK() + ", load:" + getLoad() + ", temp:" + getTemp());
+            
         }
     }
 }
