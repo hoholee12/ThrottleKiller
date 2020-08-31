@@ -1,0 +1,7 @@
+c:\users\hoholee12\documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\ThrottleSchedulerService.exe.config
+c:\users\hoholee12\documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\ThrottleSchedulerService.exe
+c:\users\hoholee12\documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\ThrottleSchedulerService.pdb
+c:\users\hoholee12\documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\obj\Debug\ThrottleSchedulerService.ProjectInstaller.resources
+c:\users\hoholee12\documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\obj\Debug\ThrottleSchedulerService.csproj.GenerateResource.Cache
+c:\users\hoholee12\documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\obj\Debug\ThrottleSchedulerService.exe
+c:\users\hoholee12\documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\obj\Debug\ThrottleSchedulerService.pdb
