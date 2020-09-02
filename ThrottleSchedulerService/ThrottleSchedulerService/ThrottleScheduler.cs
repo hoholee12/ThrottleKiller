@@ -27,7 +27,7 @@ namespace ThrottleSchedulerService
          */
 
        
-
+        //needed for opm
         public class UpdateVisitor : IVisitor
         {
             public void VisitComputer(IComputer computer)
@@ -81,14 +81,14 @@ namespace ThrottleSchedulerService
         }
         //for management wmi
 
-            
-
         //settings paths
         public struct SettingsToken {
             public string path;
             public string name;
             public string content;
-
+            public DateTime lastModifiedTime;
+            public IDictionary<object, object> configList;
+            public Type Tkey, Tval;
         };
 
 
@@ -101,7 +101,7 @@ namespace ThrottleSchedulerService
         public SettingsToken boost_cycle_delay;
         public SettingsToken ac_offset;
         public SettingsToken processor_guid_tweak;
-        public SettingsToken xtu_scheduler_log;
+
 
         const string cfgname = @"xtu_scheduler_config";
         string path = AppDomain.CurrentDomain.BaseDirectory + cfgname;   //verbatim string literal @: for directory string
@@ -122,16 +122,63 @@ namespace ThrottleSchedulerService
         public void checkMaxSpeed() { }
         public void cpuproc(string arg0, string arg1) { }
         public void xtuproc(string arg0) { }
-        public void checkSettings(SettingsToken st) { }
-        public void printSettings() { }
+
+        public void checkSettings() {
+            checkFiles_myfiles();
+        }
 
         //create config files if nonexistant
         public void checkFiles(SettingsToken st) {
 
             if (!Directory.Exists(st.path)) { Directory.CreateDirectory(st.path); WriteLog("create folder: " + st.path); }
-            if (!File.Exists(fullname(st))) { File.WriteAllText(fullname(st), st.content); WriteLog("create file: " + fullname(st)); }
+            else if (!File.Exists(fullname(st))) { File.WriteAllText(fullname(st), st.content); WriteLog("create file: " + fullname(st)); }
+            else if (st.lastModifiedTime.ToString("hh:mm:ss.fff") != File.GetLastWriteTime(fullname(st)).ToString("hh:mm:ss.fff"))
+            {
+                //update
+                st.lastModifiedTime = File.GetLastWriteTime(fullname(st));
+                if (File.GetLastWriteTime(fullname(st)).ToString("hh:mm:ss.fff") != File.GetCreationTime(fullname(st)).ToString("hh:mm:ss.fff"))
+                {
+                    WriteLog("settings changed for: " + st.name + "!, reimporting..." + st.lastModifiedTime.ToString("hh:mm:ss.fff") + " " + File.GetLastWriteTime(fullname(st)).ToString("hh:mm:ss.fff"));
+                }
+                else {
+                    WriteLog("importing settings for: " + st.name + "..." + st.lastModifiedTime.ToString("hh:mm:ss.fff") + " " + File.GetLastWriteTime(fullname(st)).ToString("hh:mm:ss.fff"));
+                }
+                //reset dictionary
+                st.configList.Clear();
+                //reread again
+                using(StreamReader sr = File.OpenText(fullname(st))){
+                    string line;
+                    while ((line = sr.ReadLine()) != null) {
+                        string[] items = line.Split('=');
+                        string a = items[0].Trim();
+                        string b = items[1].Trim();
+             
+                        if ((st.Tkey == typeof(string)) && (st.Tval == typeof(int)))
+                        {
+                            st.configList.Add(a, int.Parse(b));
+                        }
+                        else if ((st.Tkey == typeof(int)) && (st.Tval == typeof(int)))
+                        {
+                            st.configList.Add(int.Parse(a), int.Parse(b));
+                        }
+                        else if ((st.Tkey == typeof(int)) && (st.Tval == typeof(float)))
+                        {
+                            st.configList.Add(int.Parse(a), float.Parse(b));
+                        }
+                        else if ((st.Tkey == typeof(int)) && (st.Tval == typeof(string)))
+                        {
+                            st.configList.Add(int.Parse(a), b);
+                        }
+                        
+                    }
+                
+                }
+
+            }
+
         }
-        public string fullname(SettingsToken st) {
+        public string fullname(SettingsToken st)
+        {
             return st.path + @"\" + st.name;
         }
         //batch checkfiles
@@ -147,9 +194,6 @@ namespace ThrottleSchedulerService
         }
 
         //logging
-        public void MsgBox(string msg) {
-        
-        }
         public void WriteLog(string msg)
         {
             string folderpath = path + @"\logs";
@@ -163,13 +207,7 @@ namespace ThrottleSchedulerService
                 using (StreamWriter sw = File.AppendText(filepath)) sw.WriteLine(DateTime.Now + ": " + msg);
         }
 
-
-        public void initMonitor() {
-            
-            
-        }
-
-        public void initPath()
+        public void initConfig()
         {
 
             //settings
@@ -183,7 +221,6 @@ namespace ThrottleSchedulerService
             boost_cycle_delay.path = path;
             ac_offset.path = path;
             processor_guid_tweak.path = path;
-            xtu_scheduler_log.path = path;
 
             special_programs.name = "special_programs";
             programs_running_cfg_cpu.name = "programs_running_cfg_cpu";
@@ -193,7 +230,6 @@ namespace ThrottleSchedulerService
             boost_cycle_delay.name = "boost_cycle_delay";
             ac_offset.name = "ac_offset";
             processor_guid_tweak.name = "processor_guid_tweak";
-            xtu_scheduler_log.name = "xtu_scheduler_log";
 
             //initialize contents
             special_programs.content =
@@ -303,17 +339,61 @@ namespace ThrottleSchedulerService
 94d3a615-a899-4ac5-ae2b-e4d8f634367f = 1
 bc5038f7-23e0-4960-96da-33abaf5935ec = 100          # processor high clockspeed limit
 ea062031-0e34-4ff1-9b6d-eb1059334028 = 100";
+
+            //initialize dictionary
+            special_programs.configList = new Dictionary<object, object>();
+            programs_running_cfg_cpu.configList = new Dictionary<object, object>();
+            programs_running_cfg_xtu.configList = new Dictionary<object, object>();
+            programs_running_cfg_nice.configList = new Dictionary<object, object>();
+            loop_delay.configList = new Dictionary<object, object>();
+            boost_cycle_delay.configList = new Dictionary<object, object>();
+            ac_offset.configList = new Dictionary<object, object>();
+            processor_guid_tweak.configList = new Dictionary<object, object>();
+
+            //set key value pair type
+            special_programs.Tkey = typeof(string);
+            special_programs.Tval = typeof(int);
+            programs_running_cfg_cpu.Tkey = typeof(int);
+            programs_running_cfg_cpu.Tval = typeof(int);
+            programs_running_cfg_xtu.Tkey = typeof(int);
+            programs_running_cfg_xtu.Tval = typeof(float);
+            programs_running_cfg_nice.Tkey = typeof(int);
+            programs_running_cfg_nice.Tval = typeof(string);
+            loop_delay.Tkey = typeof(string);
+            loop_delay.Tval = typeof(int);
+            boost_cycle_delay.Tkey = typeof(string);
+            boost_cycle_delay.Tval = typeof(int);
+            ac_offset.Tkey = typeof(string);
+            ac_offset.Tval = typeof(int);
+            processor_guid_tweak.Tkey = typeof(string);
+            processor_guid_tweak.Tval = typeof(int);
+        
+
+            //batch create first/read settings
+            checkFiles_myfiles();
+
+
+            //and then get last modified date
+            special_programs.lastModifiedTime = File.GetLastWriteTime(fullname(special_programs));
+            programs_running_cfg_cpu.lastModifiedTime = File.GetLastWriteTime(fullname(programs_running_cfg_cpu));
+            programs_running_cfg_xtu.lastModifiedTime = File.GetLastWriteTime(fullname(programs_running_cfg_xtu));
+            programs_running_cfg_nice.lastModifiedTime = File.GetLastWriteTime(fullname(programs_running_cfg_nice));
+            loop_delay.lastModifiedTime = File.GetLastWriteTime(fullname(loop_delay));
+            boost_cycle_delay.lastModifiedTime = File.GetLastWriteTime(fullname(boost_cycle_delay));
+            ac_offset.lastModifiedTime = File.GetLastWriteTime(fullname(ac_offset));
+            processor_guid_tweak.lastModifiedTime = File.GetLastWriteTime(fullname(processor_guid_tweak));
+
         }
 
         public ThrottleScheduler()
         {
-            initPath();
+            initConfig();
         }
 
 
         //start main loop
         public void mainflow() {
-            checkFiles_myfiles();
+            checkSettings();
             WriteLog("clk:" + getCLK() + ", load:" + getLoad() + ", temp:" + getTemp());
             
         }

@@ -1,0 +1,14 @@
+2020-09-02 오전 6:42:49: service started
+2020-09-02 오전 6:43:18: service stopped
+2020-09-02 오전 6:44:00: service started
+2020-09-02 오전 6:44:12: service stopped
+2020-09-02 오전 6:44:15: service started
+2020-09-02 오전 6:46:16: service stopped
+2020-09-02 오전 6:47:06: service started
+2020-09-02 오전 6:47:41: service stopped
+2020-09-02 오전 6:50:35: service started
+2020-09-02 오전 6:59:58: service stopped
+2020-09-02 오전 7:00:11: service started
+2020-09-02 오전 7:01:20: service stopped
+2020-09-02 오전 7:01:31: service started
+2020-09-02 오전 7:03:29: service stopped
