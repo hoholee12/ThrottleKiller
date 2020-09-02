@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 
 using System.IO;
 using System.Management;
 using OpenHardwareMonitor.Hardware;
+
+
 
 namespace ThrottleSchedulerService
 {
@@ -14,19 +17,19 @@ namespace ThrottleSchedulerService
     {
         /*TODO: port everything from xtu_scheduler.ps1
          auto_powermanager core
-         * 1. get list from db
-         * 2. check hardware
+             * 1. get list from db - DONE
+             * 2. check hardware - DONE
          * 3. check list and apply accordingly
-         * 4. check if list changed(reload if changed)
+             * 4. check if list changed(reload if changed) - DONE
          * 5. check throttle
          * 6. check list and apply accordingly
          * 7. change setting if still throttles
-         * 8. sleep
-         * 9. loop to 2.
+             * 8. sleep - DONE
+             * 9. loop to 2. - DONE
          * 
          */
 
-       
+
         //needed for opm
         public class UpdateVisitor : IVisitor
         {
@@ -42,22 +45,25 @@ namespace ThrottleSchedulerService
             public void VisitSensor(ISensor sensor) { }
             public void VisitParameter(IParameter parameter) { }
         }
-        
+
         //monitor init
         Computer computer = new Computer();
         UpdateVisitor updateVisitor = new UpdateVisitor();
         ManagementObject obj = new ManagementObject("Win32_Processor.DeviceID='CPU0'");
 
 
-        int getLoad(){
+        int getLoad()
+        {
             obj.Get();
             return int.Parse(obj["LoadPercentage"].ToString());
         }
-        int getCLK() {
+        int getCLK()
+        {
             obj.Get();
             return int.Parse(obj["CurrentClockSpeed"].ToString());
         }
-        int getTemp() {
+        int getTemp()
+        {
             computer.Open();
             computer.CPUEnabled = true;
             computer.Accept(updateVisitor);
@@ -80,16 +86,6 @@ namespace ThrottleSchedulerService
             return -1;
         }
         //for management wmi
-
-        //settings paths
-        public struct SettingsToken {
-            public string path;
-            public string name;
-            public string content;
-            public DateTime lastModifiedTime;
-            public IDictionary<object, object> configList;
-            public Type Tkey, Tval;
-        };
 
 
         //config files
@@ -123,36 +119,43 @@ namespace ThrottleSchedulerService
         public void cpuproc(string arg0, string arg1) { }
         public void xtuproc(string arg0) { }
 
-        public void checkSettings() {
+        public void checkSettings()
+        {
             checkFiles_myfiles();
         }
 
-        //create config files if nonexistant
-        public void checkFiles(SettingsToken st) {
 
-            if (!Directory.Exists(st.path)) { Directory.CreateDirectory(st.path); WriteLog("create folder: " + st.path); }
-            else if (!File.Exists(fullname(st))) { File.WriteAllText(fullname(st), st.content); WriteLog("create file: " + fullname(st)); }
-            else if (st.lastModifiedTime.ToString("hh:mm:ss.fff") != File.GetLastWriteTime(fullname(st)).ToString("hh:mm:ss.fff"))
+
+        //create config files if nonexistant
+        public void checkFiles(SettingsToken st)
+        {
+
+            if (!Directory.Exists(st.getPath())) { Directory.CreateDirectory(st.getPath()); WriteLog("create folder: " + st.getPath()); }
+            else if (!File.Exists(st.getFullName())) { File.WriteAllText(st.getFullName(), st.getContent()); WriteLog("create file: " + st.getFullName()); }
+            else if (st.getLastModifiedTime() != File.GetLastWriteTime(st.getFullName()).Ticks)
             {
                 //update
-                st.lastModifiedTime = File.GetLastWriteTime(fullname(st));
-                if (File.GetLastWriteTime(fullname(st)).ToString("hh:mm:ss.fff") != File.GetCreationTime(fullname(st)).ToString("hh:mm:ss.fff"))
+                st.setLastModifiedTime(File.GetLastWriteTime(st.getFullName()).Ticks);
+                if (File.GetLastWriteTime(st.getFullName()) != File.GetCreationTime(st.getFullName()))
                 {
-                    WriteLog("settings changed for: " + st.name + "!, reimporting..." + st.lastModifiedTime.ToString("hh:mm:ss.fff") + " " + File.GetLastWriteTime(fullname(st)).ToString("hh:mm:ss.fff"));
+                    WriteLog("settings changed for: " + st.getName() + "!, reimporting...");
                 }
-                else {
-                    WriteLog("importing settings for: " + st.name + "..." + st.lastModifiedTime.ToString("hh:mm:ss.fff") + " " + File.GetLastWriteTime(fullname(st)).ToString("hh:mm:ss.fff"));
+                else
+                {
+                    WriteLog("importing settings for: " + st.getName() + "...");
                 }
                 //reset dictionary
                 st.configList.Clear();
                 //reread again
-                using(StreamReader sr = File.OpenText(fullname(st))){
+                using (StreamReader sr = File.OpenText(st.getFullName()))
+                {
                     string line;
-                    while ((line = sr.ReadLine()) != null) {
+                    while ((line = sr.ReadLine()) != null)
+                    {
                         string[] items = line.Split('=');
                         string a = items[0].Trim();
                         string b = items[1].Trim();
-             
+
                         if ((st.Tkey == typeof(string)) && (st.Tval == typeof(int)))
                         {
                             st.configList.Add(a, int.Parse(b));
@@ -169,18 +172,15 @@ namespace ThrottleSchedulerService
                         {
                             st.configList.Add(int.Parse(a), b);
                         }
-                        
+
                     }
-                
+
                 }
 
             }
 
         }
-        public string fullname(SettingsToken st)
-        {
-            return st.path + @"\" + st.name;
-        }
+
         //batch checkfiles
         public void checkFiles_myfiles()
         {
@@ -196,6 +196,9 @@ namespace ThrottleSchedulerService
         //logging
         public void WriteLog(string msg)
         {
+            Console.WriteLine(msg);
+
+
             string folderpath = path + @"\logs";
             if (!Directory.Exists(folderpath)) Directory.CreateDirectory(folderpath);
 
@@ -211,28 +214,37 @@ namespace ThrottleSchedulerService
         {
 
             //settings
+            special_programs = new SettingsToken();
+            programs_running_cfg_cpu = new SettingsToken();
+            programs_running_cfg_xtu = new SettingsToken();
+            programs_running_cfg_nice = new SettingsToken();
+            loop_delay = new SettingsToken();
+            boost_cycle_delay = new SettingsToken();
+            ac_offset = new SettingsToken();
+            processor_guid_tweak = new SettingsToken();
+
 
             //initialize paths
-            special_programs.path = path;
-            programs_running_cfg_cpu.path = path;
-            programs_running_cfg_xtu.path = path;
-            programs_running_cfg_nice.path = path;
-            loop_delay.path = path;
-            boost_cycle_delay.path = path;
-            ac_offset.path = path;
-            processor_guid_tweak.path = path;
+            special_programs.setPath(path);
+            programs_running_cfg_cpu.setPath(path);
+            programs_running_cfg_xtu.setPath(path);
+            programs_running_cfg_nice.setPath(path);
+            loop_delay.setPath(path);
+            boost_cycle_delay.setPath(path);
+            ac_offset.setPath(path);
+            processor_guid_tweak.setPath(path);
 
-            special_programs.name = "special_programs";
-            programs_running_cfg_cpu.name = "programs_running_cfg_cpu";
-            programs_running_cfg_xtu.name = "programs_running_cfg_xtu";
-            programs_running_cfg_nice.name = "programs_running_cfg_nice";
-            loop_delay.name = "loop_delay";
-            boost_cycle_delay.name = "boost_cycle_delay";
-            ac_offset.name = "ac_offset";
-            processor_guid_tweak.name = "processor_guid_tweak";
+            special_programs.setName("special_programs");
+            programs_running_cfg_cpu.setName("programs_running_cfg_cpu");
+            programs_running_cfg_xtu.setName("programs_running_cfg_xtu");
+            programs_running_cfg_nice.setName("programs_running_cfg_nice");
+            loop_delay.setName("loop_delay");
+            boost_cycle_delay.setName("boost_cycle_delay");
+            ac_offset.setName("ac_offset");
+            processor_guid_tweak.setName("processor_guid_tweak");
 
             //initialize contents
-            special_programs.content =
+            special_programs.setContent(
 @"'jdownloader2' = 0
 'github' = 0
 'steam' = 0
@@ -296,8 +308,8 @@ namespace ThrottleSchedulerService
 'bootcamp' = 6
 'obs' = 6
 'remoteplay' = 6
-'discord' = 6";
-            programs_running_cfg_cpu.content =
+'discord' = 6");
+            programs_running_cfg_cpu.setContent(
 @"0 = 65
 1 = 98
 2 = 100
@@ -305,8 +317,8 @@ namespace ThrottleSchedulerService
 4 = 95
 5 = 100
 6 = 65
-7 = 100";
-            programs_running_cfg_xtu.content =
+7 = 100");
+            programs_running_cfg_xtu.setContent(
 @"0 = 7.5
 1 = 5.5
 2 = 4.5
@@ -314,8 +326,8 @@ namespace ThrottleSchedulerService
 4 = 6.5
 5 = 4.5
 6 = 7.5
-7 = 7.5";
-            programs_running_cfg_nice.content =
+7 = 7.5");
+            programs_running_cfg_nice.setContent(
 @"0 = idle
 1 = high
 2 = high
@@ -323,11 +335,11 @@ namespace ThrottleSchedulerService
 4 = high
 5 = idle
 6 = realtime
-7 = high";
-            loop_delay.content = @"loop_delay = 5";
-            boost_cycle_delay.content = @"boost_cycle_delay = 6";
-            ac_offset.content = @"ac_offset = 1";
-            processor_guid_tweak.content = @"
+7 = high");
+            loop_delay.setContent(@"loop_delay = 5");
+            boost_cycle_delay.setContent(@"boost_cycle_delay = 6");
+            ac_offset.setContent(@"ac_offset = 1");
+            processor_guid_tweak.setContent(@"
 06cadf0e-64ed-448a-8927-ce7bf90eb35d = 30			# processor high threshold; lower this for performance
 0cc5b647-c1df-4637-891a-dec35c318583 = 100
 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6 = 15			# processor low threshold; upper this for batterylife
@@ -338,17 +350,7 @@ namespace ThrottleSchedulerService
 893dee8e-2bef-41e0-89c6-b55d0929964c = 5			# processor low clockspeed limit
 94d3a615-a899-4ac5-ae2b-e4d8f634367f = 1
 bc5038f7-23e0-4960-96da-33abaf5935ec = 100          # processor high clockspeed limit
-ea062031-0e34-4ff1-9b6d-eb1059334028 = 100";
-
-            //initialize dictionary
-            special_programs.configList = new Dictionary<object, object>();
-            programs_running_cfg_cpu.configList = new Dictionary<object, object>();
-            programs_running_cfg_xtu.configList = new Dictionary<object, object>();
-            programs_running_cfg_nice.configList = new Dictionary<object, object>();
-            loop_delay.configList = new Dictionary<object, object>();
-            boost_cycle_delay.configList = new Dictionary<object, object>();
-            ac_offset.configList = new Dictionary<object, object>();
-            processor_guid_tweak.configList = new Dictionary<object, object>();
+ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
 
             //set key value pair type
             special_programs.Tkey = typeof(string);
@@ -367,21 +369,21 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100";
             ac_offset.Tval = typeof(int);
             processor_guid_tweak.Tkey = typeof(string);
             processor_guid_tweak.Tval = typeof(int);
-        
+
 
             //batch create first/read settings
             checkFiles_myfiles();
 
 
             //and then get last modified date
-            special_programs.lastModifiedTime = File.GetLastWriteTime(fullname(special_programs));
-            programs_running_cfg_cpu.lastModifiedTime = File.GetLastWriteTime(fullname(programs_running_cfg_cpu));
-            programs_running_cfg_xtu.lastModifiedTime = File.GetLastWriteTime(fullname(programs_running_cfg_xtu));
-            programs_running_cfg_nice.lastModifiedTime = File.GetLastWriteTime(fullname(programs_running_cfg_nice));
-            loop_delay.lastModifiedTime = File.GetLastWriteTime(fullname(loop_delay));
-            boost_cycle_delay.lastModifiedTime = File.GetLastWriteTime(fullname(boost_cycle_delay));
-            ac_offset.lastModifiedTime = File.GetLastWriteTime(fullname(ac_offset));
-            processor_guid_tweak.lastModifiedTime = File.GetLastWriteTime(fullname(processor_guid_tweak));
+            special_programs.setLastModifiedTime(File.GetLastWriteTime(special_programs.getFullName()).Ticks);
+            programs_running_cfg_cpu.setLastModifiedTime(File.GetLastWriteTime(programs_running_cfg_cpu.getFullName()).Ticks);
+            programs_running_cfg_xtu.setLastModifiedTime(File.GetLastWriteTime(programs_running_cfg_xtu.getFullName()).Ticks);
+            programs_running_cfg_nice.setLastModifiedTime(File.GetLastWriteTime(programs_running_cfg_nice.getFullName()).Ticks);
+            loop_delay.setLastModifiedTime(File.GetLastWriteTime(loop_delay.getFullName()).Ticks);
+            boost_cycle_delay.setLastModifiedTime(File.GetLastWriteTime(boost_cycle_delay.getFullName()).Ticks);
+            ac_offset.setLastModifiedTime(File.GetLastWriteTime(ac_offset.getFullName()).Ticks);
+            processor_guid_tweak.setLastModifiedTime(File.GetLastWriteTime(processor_guid_tweak.getFullName()).Ticks);
 
         }
 
@@ -392,10 +394,14 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100";
 
 
         //start main loop
-        public void mainflow() {
+        public void mainflow()
+        {
             checkSettings();
             WriteLog("clk:" + getCLK() + ", load:" + getLoad() + ", temp:" + getTemp());
-            
+
         }
+
+        
     }
+
 }

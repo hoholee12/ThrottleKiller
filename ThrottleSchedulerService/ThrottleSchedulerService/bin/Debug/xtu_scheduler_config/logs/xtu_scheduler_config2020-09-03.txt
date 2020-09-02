@@ -1,0 +1,47 @@
+2020-09-03 오전 4:15:33: create folder: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config
+2020-09-03 오전 4:15:33: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\programs_running_cfg_cpu
+2020-09-03 오전 4:15:33: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\programs_running_cfg_xtu
+2020-09-03 오전 4:15:33: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\programs_running_cfg_nice
+2020-09-03 오전 4:15:33: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\loop_delay
+2020-09-03 오전 4:15:33: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\boost_cycle_delay
+2020-09-03 오전 4:15:33: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\ac_offset
+2020-09-03 오전 4:15:35: clk:2701, load:14, temp:69
+2020-09-03 오전 4:15:38: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\special_programs
+2020-09-03 오전 4:15:38: importing settings for: programs_running_cfg_cpu...
+2020-09-03 오전 4:15:38: importing settings for: programs_running_cfg_xtu...
+2020-09-03 오전 4:15:38: importing settings for: programs_running_cfg_nice...
+2020-09-03 오전 4:15:38: importing settings for: loop_delay...
+2020-09-03 오전 4:15:38: settings changed for: boost_cycle_delay!, reimporting...
+2020-09-03 오전 4:15:38: importing settings for: ac_offset...
+2020-09-03 오전 4:15:40: clk:2701, load:3, temp:68
+2020-09-03 오전 4:15:43: importing settings for: special_programs...
+2020-09-03 오전 4:15:45: clk:2701, load:17, temp:69
+2020-09-03 오전 4:15:50: clk:1200, load:11, temp:68
+2020-09-03 오전 4:15:55: clk:2000, load:9, temp:68
+2020-09-03 오전 4:16:00: clk:2701, load:11, temp:75
+2020-09-03 오전 4:16:05: clk:2701, load:4, temp:73
+2020-09-03 오전 4:16:10: clk:2701, load:10, temp:68
+2020-09-03 오전 4:16:15: clk:2701, load:3, temp:71
+2020-09-03 오전 4:16:20: clk:1200, load:6, temp:66
+2020-09-03 오전 4:16:25: clk:2701, load:15, temp:68
+2020-09-03 오전 4:16:30: clk:1800, load:12, temp:69
+2020-09-03 오전 4:16:35: clk:2000, load:16, temp:70
+2020-09-03 오전 4:16:40: clk:2701, load:14, temp:69
+2020-09-03 오전 4:16:45: clk:2000, load:9, temp:70
+2020-09-03 오전 4:16:50: clk:2701, load:14, temp:71
+2020-09-03 오전 4:16:55: clk:2701, load:23, temp:71
+2020-09-03 오전 4:17:00: clk:2300, load:7, temp:69
+2020-09-03 오전 4:17:03: settings changed for: special_programs!, reimporting...
+2020-09-03 오전 4:17:05: clk:2701, load:4, temp:68
+2020-09-03 오전 4:17:10: clk:2300, load:14, temp:69
+2020-09-03 오전 4:17:15: clk:1400, load:8, temp:69
+2020-09-03 오전 4:17:20: clk:2300, load:9, temp:67
+2020-09-03 오전 4:17:25: clk:2300, load:11, temp:69
+2020-09-03 오전 4:17:30: clk:2701, load:5, temp:67
+2020-09-03 오전 4:17:35: clk:2701, load:3, temp:72
+2020-09-03 오전 4:17:40: clk:2701, load:5, temp:69
+2020-09-03 오전 4:17:45: clk:1400, load:4, temp:72
+2020-09-03 오전 4:17:50: clk:2701, load:4, temp:68
+2020-09-03 오전 4:17:55: clk:2701, load:6, temp:73
+2020-09-03 오전 4:18:00: clk:2300, load:25, temp:71
+2020-09-03 오전 4:18:05: clk:2701, load:17, temp:69
