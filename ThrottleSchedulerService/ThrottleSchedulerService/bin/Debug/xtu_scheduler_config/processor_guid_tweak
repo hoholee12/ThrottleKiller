@@ -1,0 +1,12 @@
+
+06cadf0e-64ed-448a-8927-ce7bf90eb35d = 30			# processor high threshold; lower this for performance
+0cc5b647-c1df-4637-891a-dec35c318583 = 100
+12a0ab44-fe28-4fa9-b3bd-4b64f44960a6 = 15			# processor low threshold; upper this for batterylife
+40fbefc7-2e9d-4d25-a185-0cfd8574bac6 = 1
+45bcc044-d885-43e2-8605-ee0ec6e96b59 = 100
+465e1f50-b610-473a-ab58-00d1077dc418 = 2
+4d2b0152-7d5c-498b-88e2-34345392a2c5 = 15
+893dee8e-2bef-41e0-89c6-b55d0929964c = 5			# processor low clockspeed limit
+94d3a615-a899-4ac5-ae2b-e4d8f634367f = 1
+bc5038f7-23e0-4960-96da-33abaf5935ec = 100          # processor high clockspeed limit
+ea062031-0e34-4ff1-9b6d-eb1059334028 = 100
