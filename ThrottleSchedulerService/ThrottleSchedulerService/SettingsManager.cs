@@ -67,6 +67,7 @@ namespace ThrottleSchedulerService
             loop_delay.checkFiles();
             boost_cycle_delay.checkFiles();
             ac_offset.checkFiles();
+            processor_guid_tweak.checkFiles();
         }
 
         public void initConfig(Logger log) {     

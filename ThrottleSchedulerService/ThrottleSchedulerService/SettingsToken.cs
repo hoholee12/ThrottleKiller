@@ -65,25 +65,32 @@ namespace ThrottleSchedulerService
                     string line;
                     while ((line = sr.ReadLine()) != null)
                     {
+                        if (line == "") continue; //skip empty line
+                        
                         string[] items = line.Split('=');
+                        
                         string a = items[0].Trim();
-                        string b = items[1].Trim();
+                        string b = items[1].Split('#')[0].Trim();
 
                         if ((Tkey == typeof(string)) && (Tval == typeof(int)))
                         {
                             configList.Add(a, int.Parse(b));
+                            log.WriteLog("writing: key = " + a + ", value = " + configList[a]);
                         }
                         else if ((Tkey == typeof(int)) && (Tval == typeof(int)))
                         {
                             configList.Add(int.Parse(a), int.Parse(b));
+                            log.WriteLog("writing: key = " + int.Parse(a) + ", value = " + configList[int.Parse(a)]);
                         }
                         else if ((Tkey == typeof(int)) && (Tval == typeof(float)))
                         {
                             configList.Add(int.Parse(a), float.Parse(b));
+                            log.WriteLog("writing: key = " + int.Parse(a) + ", value = " + configList[int.Parse(a)]);
                         }
                         else if ((Tkey == typeof(int)) && (Tval == typeof(string)))
                         {
                             configList.Add(int.Parse(a), b);
+                            log.WriteLog("writing: key = " + int.Parse(a) + ", value = " + configList[int.Parse(a)]);
                         }
 
                     }

@@ -54,7 +54,7 @@ namespace ThrottleSchedulerService
         {
             settings.checkSettings();
             log.WriteLog("clk:" + tweaker.getCLK() + ", load:" + tweaker.getLoad() + ", temp:" + tweaker.getTemp());
-
+            if (tweaker.isCurrentlyThrottling(settings.processor_guid_tweak)) log.WriteLog("throttle detected!");
         }
 
         

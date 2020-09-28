@@ -91,7 +91,10 @@ namespace ThrottleSchedulerService
          * 2. if load is over 30 and clockspeed is not fullspeed -> throttling.
          */
         public bool isCurrentlyThrottling(SettingsToken st){
+            //<string, int>
+            int high = (int)st.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
 
+            if ((getLoad() > high) && (getCLK() < MaxClockSpeed)) return true;
             return false;
         }
 
