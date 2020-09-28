@@ -6,3 +6,4 @@ c:\users\hoholee12\documents\visual studio 2013\Projects\ThrottleSchedulerServic
 c:\users\hoholee12\documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\obj\Debug\ThrottleSchedulerService.exe
 c:\users\hoholee12\documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\obj\Debug\ThrottleSchedulerService.pdb
 C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\OpenHardwareMonitorLib.dll
+C:\Users\hoholee12\documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\obj\Debug\ThrottleSchedulerService.csprojResolveAssemblyReference.cache

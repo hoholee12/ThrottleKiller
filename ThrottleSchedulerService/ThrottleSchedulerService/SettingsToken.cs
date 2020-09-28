@@ -3,18 +3,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
+
+using System.IO;
+using System.Management;
+using OpenHardwareMonitor.Hardware;
 
 namespace ThrottleSchedulerService
 {
     //settings paths
     class SettingsToken
     {
-        public IList<object> mconfig;
-        public IDictionary<object, object> configList;
+        public IList<object> mconfig;   //file
+        public IDictionary<object, object> configList;  //loaded config
         public Type Tkey, Tval;
+        public Logger log;
 
-        public SettingsToken()
+        public SettingsToken(Logger log)
         {
+            this.log = log;
             mconfig = new List<object>();
             configList = new Dictionary<object, object>();
             for (int i = 0; i < 4; i++) mconfig.Add(new long());
@@ -31,5 +38,60 @@ namespace ThrottleSchedulerService
         public long getLastModifiedTime() { return (long)mconfig[3]; }
 
         public string getFullName() { return getPath() + @"\" + getName(); }
+
+        //create config files if nonexistant
+        public void checkFiles()
+        {
+
+            if (!Directory.Exists(getPath())) { Directory.CreateDirectory(getPath()); log.WriteLog("create folder: " + getPath()); }
+            else if (!File.Exists(getFullName())) { File.WriteAllText(getFullName(), getContent()); log.WriteLog("create file: " + getFullName()); }
+            else if (getLastModifiedTime() != File.GetLastWriteTime(getFullName()).Ticks)
+            {
+                //update
+                setLastModifiedTime(File.GetLastWriteTime(getFullName()).Ticks);
+                if (File.GetLastWriteTime(getFullName()) != File.GetCreationTime(getFullName()))
+                {
+                    log.WriteLog("settings changed for: " + getName() + "!, reimporting...");
+                }
+                else
+                {
+                    log.WriteLog("importing settings for: " + getName() + "...");
+                }
+                //reset dictionary
+                configList.Clear();
+                //reread again
+                using (StreamReader sr = File.OpenText(getFullName()))
+                {
+                    string line;
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        string[] items = line.Split('=');
+                        string a = items[0].Trim();
+                        string b = items[1].Trim();
+
+                        if ((Tkey == typeof(string)) && (Tval == typeof(int)))
+                        {
+                            configList.Add(a, int.Parse(b));
+                        }
+                        else if ((Tkey == typeof(int)) && (Tval == typeof(int)))
+                        {
+                            configList.Add(int.Parse(a), int.Parse(b));
+                        }
+                        else if ((Tkey == typeof(int)) && (Tval == typeof(float)))
+                        {
+                            configList.Add(int.Parse(a), float.Parse(b));
+                        }
+                        else if ((Tkey == typeof(int)) && (Tval == typeof(string)))
+                        {
+                            configList.Add(int.Parse(a), b);
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
     };
 }

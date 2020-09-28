@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="essentials.cs" />
+    <Compile Include="Logger.cs" />
     <Compile Include="ProjectInstaller.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -65,8 +66,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SettingsManager.cs" />
     <Compile Include="SettingsToken.cs" />
     <Compile Include="ThrottleScheduler.cs" />
+    <Compile Include="Tweaker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
