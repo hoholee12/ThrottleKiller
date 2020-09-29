@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
+using System.Runtime.InteropServices;
+using System.Diagnostics;
 
 using System.IO;
 using System.Management;
@@ -14,9 +16,15 @@ namespace ThrottleSchedulerService
     class TweakerChecker
     {
 
+        [DllImport("user32.dll")]
+        private static extern IntPtr GetForegroundWindow();
+        [DllImport("user32.dll", SetLastError = true)]
+        static extern uint GetWindowThreadProcessId(IntPtr hWnd, out uint lpdwProcessId);
+
         public Logger log;
 
         int MaxClockSpeed;
+        float MaxXTU;   //safe measure
 
         //needed for opm
         public class UpdateVisitor : IVisitor
@@ -80,7 +88,7 @@ namespace ThrottleSchedulerService
         }
         //for management wmi
 
-        public void init(Logger log) {
+        public void initCLK(Logger log) {
             this.log = log;
             MaxClockSpeed = getMaxCLK();
         }
@@ -96,6 +104,29 @@ namespace ThrottleSchedulerService
 
             if ((getLoad() > high) && (getCLK() < MaxClockSpeed)) return true;
             return false;
+        }
+
+        //return the process obj if any process in the list runs as focused
+        public Process detectFgProc(SettingsManager sm) {
+            uint processID = 0;
+            IntPtr hWnd = GetForegroundWindow(); // Get foreground window handle
+            uint threadID = GetWindowThreadProcessId(hWnd, out processID); // Get PID from window handle
+            Process fgProc = Process.GetProcessById(Convert.ToInt32(processID)); // Get it as a C# obj.
+            // NOTE: In some rare cases ProcessID will be NULL. Handle this how you want. 
+
+            foreach(string name in sm.special_programs.configList.Keys){
+                if (fgProc.ProcessName.ToLower().Contains(name.ToLower())) {
+                    log.WriteLog("process: " + name + " found!");
+                    return fgProc;
+                }
+            }
+
+            return null;
+        }
+
+        //safe measure
+        public void initXTU(TweakerController controller) {
+            MaxXTU = controller.getXTU();
         }
 
     }

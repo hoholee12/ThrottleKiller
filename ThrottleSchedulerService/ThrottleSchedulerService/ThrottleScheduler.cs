@@ -16,18 +16,18 @@ namespace ThrottleSchedulerService
     class ThrottleScheduler
     {
         /*TODO: port everything from xtu_scheduler.ps1
-         auto_powermanager core
-             * 1. get list from db - DONE
-             * 2. check hardware - DONE
-         * 3. check list and apply accordingly
-             * 4. check if list changed(reload if changed) - DONE
-         * 5. check throttle
-         * 6. check list and apply accordingly
-         * 7. change setting if still throttles
-             * 8. sleep - DONE
-             * 9. loop to 2. - DONE
-         * 
-         */
+        auto_powermanager core
+        * 1. get list from db                           - DONE
+        * 2. check hardware                             - DONE
+        * 3. check list and apply accordingly
+        * 4. check if list changed(reload if changed)   - DONE
+        * 5. check throttle                             - DONE
+        * 6. check list and apply accordingly           
+        * 7. change setting if still throttles
+        * 8. sleep                                      - DONE
+        * 9. loop to 2.                                 - DONE
+        * 
+        */
 
         public TweakerChecker checker;
         public SettingsManager settings;
@@ -45,20 +45,31 @@ namespace ThrottleSchedulerService
             settings.initPath();
             log = new Logger(settings.path, settings.cfgname);
             settings.initConfig(log);
-            checker.init(log);
+            checker.initCLK(log);
 
             controller = new TweakerController(log);
 
+            //initial load
+            initflow();
+
         }
 
+        public void initflow() {
+            controller.initPowerCFG(settings);
+            checker.initXTU(controller);
+        
+        }
 
         //start main loop
         public void mainflow()
         {
             settings.checkSettings();
-            log.WriteLog("clk:" + checker.getCLK() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp() + ", xtu:" + controller.getXTU());
+            log.WriteLog("clk:" + checker.getCLK() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
             if (checker.isCurrentlyThrottling(settings)) log.WriteLog("throttle detected!");
             //controller.setXTU(10.5);
+            checker.detectFgProc(settings);
+            //controller.setCLK(settings, 100, 1);
+            
         }
 
         

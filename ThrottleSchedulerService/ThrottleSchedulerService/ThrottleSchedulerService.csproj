@@ -69,8 +69,8 @@
     <Compile Include="SettingsManager.cs" />
     <Compile Include="SettingsToken.cs" />
     <Compile Include="ThrottleScheduler.cs" />
-    <Compile Include="Tweaker.cs" />
-    <Compile Include="XTUControl.cs" />
+    <Compile Include="TweakerChecker.cs" />
+    <Compile Include="TweakerController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

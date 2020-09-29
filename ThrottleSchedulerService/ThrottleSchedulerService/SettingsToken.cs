@@ -74,6 +74,7 @@ namespace ThrottleSchedulerService
 
                         if ((Tkey == typeof(string)) && (Tval == typeof(int)))
                         {
+                            a = a.Replace("\'", "");
                             configList.Add(a, int.Parse(b));
                             log.WriteLog("writing: key = " + a + ", value = " + configList[a]);
                         }
