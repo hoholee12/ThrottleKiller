@@ -29,25 +29,25 @@ namespace ThrottleSchedulerService
          * 
          */
 
-        public Tweaker tweaker;
+        public TweakerChecker checker;
         public SettingsManager settings;
         public Logger log;
-        public XTUControl xtu;
+        public TweakerController controller;
 
         
         //init every objects here!
         public ThrottleScheduler()
         {
-            tweaker = new Tweaker();
+            checker = new TweakerChecker();
 
             //messy init
             settings = new SettingsManager();
             settings.initPath();
             log = new Logger(settings.path, settings.cfgname);
             settings.initConfig(log);
-            tweaker.init(log);
+            checker.init(log);
 
-            xtu = new XTUControl(log);
+            controller = new TweakerController(log);
 
         }
 
@@ -56,9 +56,9 @@ namespace ThrottleSchedulerService
         public void mainflow()
         {
             settings.checkSettings();
-            log.WriteLog("clk:" + tweaker.getCLK() + ", load:" + tweaker.getLoad() + ", temp:" + tweaker.getTemp() + ", xtu:" + xtu.getXTU());
-            if (tweaker.isCurrentlyThrottling(settings)) log.WriteLog("throttle detected!");
-            
+            log.WriteLog("clk:" + checker.getCLK() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp() + ", xtu:" + controller.getXTU());
+            if (checker.isCurrentlyThrottling(settings)) log.WriteLog("throttle detected!");
+            //controller.setXTU(10.5);
         }
 
         

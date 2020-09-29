@@ -9,11 +9,14 @@ using System.Diagnostics;
 
 namespace ThrottleSchedulerService
 {
-    class XTUControl
+
+    //VERY HEAVY DO NOT USE IT TO PROBE
+    class TweakerController
     {
         Process pshell;
 
-        public XTUControl(Logger log) {
+        public TweakerController(Logger log)
+        {
             try
             {
                 pshell = new Process();
@@ -43,18 +46,25 @@ namespace ThrottleSchedulerService
                 log.WriteLog("XTU ok");
             }
 
+
+            pshell.StartInfo.FileName = "xtucli";
+
+
+
         }
 
         public float getXTU() {
-            pshell.StartInfo.Arguments = "-noprofile -command \"((& xtucli -t -id 59 | select-string \\\"59\\\" | %{ -split $_ | select -index 5} | out-string) -replace \\\"x\\\",'').trim()\"";
+            //pshell.StartInfo.Arguments = "-noprofile -command \"((& xtucli -t -id 59 | select-string \\\"59\\\" | %{ -split $_ | select -index 5} | out-string) -replace \\\"x\\\",'').trim()\"";
+            pshell.StartInfo.Arguments = "-t -id 59";
             pshell.Start();
-            string result = pshell.StandardOutput.ReadToEnd();
+            string[] result = pshell.StandardOutput.ReadToEnd().Split(' ');
             pshell.WaitForExit();
-            return float.Parse(result);
+            string temp = result.Last().Replace("x", "").Trim();
+            return float.Parse(temp);
         }
 
-        public void setXTU(float value) {
-            pshell.StartInfo.Arguments = "-noprofile -command \"((& xtucli -t -id 59 -v " + value.ToString() + " | select-string \\\"59\\\" | %{ -split $_ | select -index 5} | out-string) -replace \\\"x\\\",'').trim()\"";
+        public void setXTU(double value) {
+            pshell.StartInfo.Arguments = "-t -id 59 -v " + value;
             pshell.Start();
             pshell.WaitForExit();
         }

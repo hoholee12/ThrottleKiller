@@ -11,7 +11,7 @@ using OpenHardwareMonitor.Hardware;
 
 namespace ThrottleSchedulerService
 {
-    class Tweaker
+    class TweakerChecker
     {
 
         public Logger log;
