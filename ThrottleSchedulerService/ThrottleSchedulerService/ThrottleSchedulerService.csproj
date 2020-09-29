@@ -70,6 +70,7 @@
     <Compile Include="SettingsToken.cs" />
     <Compile Include="ThrottleScheduler.cs" />
     <Compile Include="Tweaker.cs" />
+    <Compile Include="XTUControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

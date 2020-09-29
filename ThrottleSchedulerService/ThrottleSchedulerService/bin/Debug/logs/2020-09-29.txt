@@ -1,3 +1,5 @@
 2020-09-29 오전 3:35:34: service started
 2020-09-29 오전 4:21:23: service stopped
 2020-09-29 오전 4:22:02: service started
+2020-09-29 오전 4:24:01: service stopped
+2020-09-29 오후 4:25:12: service started
