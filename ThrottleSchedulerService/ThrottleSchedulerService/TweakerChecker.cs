@@ -129,12 +129,16 @@ namespace ThrottleSchedulerService
         public bool isCurrentlyThrottling(SettingsManager sm){
             //<string, int>
             int high = (int)sm.processor_guid_tweak.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
-
-            //save cpu cycle on check
-            if (getLoad() > high)   //level1: most of the time cpu sits around less than 'high' on idle
-                if(getCLK() < MaxClockSpeed)    //level2: check if clockspeed is wrong
-                    return true;
-            return false;
+            int loop = 0;
+            int check = 2;  //check twice
+            do
+            {
+                //save cpu cycle on check
+                if (getLoad() > high)   //level1: most of the time cpu sits around less than 'high' on idle
+                    if (getCLK() < MaxClockSpeed)    //level2: check if clockspeed is wrong
+                        loop++;
+            } while (loop!=0 && loop != check); //check twice
+            return (loop == check);
         }
 
         //return the process obj if any process in the list runs as focused
