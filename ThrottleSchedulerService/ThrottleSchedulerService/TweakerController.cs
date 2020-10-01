@@ -15,6 +15,8 @@ namespace ThrottleSchedulerService
         Process pshell;
         Logger log;
 
+        int count = 0;
+
         //for powercfg init
         string guid0 = "381b4222-f694-41f0-9685-ff5bb260df2e";		// you can change to any powerplan you want as default!
         string guid1 = "54533251-82be-4824-96c1-47b60b740d00";		// processor power management
@@ -125,6 +127,70 @@ namespace ThrottleSchedulerService
             runpowercfg("/setacvalueindex " + guid0 + " " + guid4 + " " + guid5 + " " + setgpu);
 
             runpowercfg("/setactive " + guid0); //apply
+        }
+
+        //per process
+        public void setProcNice(Process proc, SettingsManager sm) {
+            int temp = -1;
+            foreach (string name in sm.special_programs.configList.Keys)
+            {
+                if (proc.ProcessName.ToLower().Contains(name.ToLower()))
+                {
+                    temp = (int)sm.special_programs.configList[name];
+                }
+            }
+            if (temp == -1) return; //not in my list
+
+            try
+            {
+                ProcessPriorityClass temp2 =
+                    (ProcessPriorityClass)sm.programs_running_cfg_nice.configList[temp];
+                if (proc.PriorityClass != temp2)
+                {
+                    log.WriteLog("setting niceness: " + proc.ProcessName + " to " + temp2.ToString());
+                    proc.PriorityClass = temp2;
+                }
+            }
+            catch (Exception) { }
+        }
+
+        //apply based on profile
+        public void setNiceProfile(SettingsManager sm)
+        {
+
+            Process[] plist = Process.GetProcesses();
+
+
+            //simple check to see if theres new processes or not
+            int ctemp = plist.Count();
+            if (count != ctemp) {
+                count = ctemp;
+
+                plist.ToList().ForEach(proc =>
+                {
+                    int temp = -1;
+                    foreach (string name in sm.special_programs.configList.Keys)
+                    {
+                        if (proc.ProcessName.ToLower().Contains(name.ToLower()))
+                        {
+                            temp = (int)sm.special_programs.configList[name];
+                        }
+                    }
+                    if (temp == -1) return; //not in my list
+
+                    try
+                    {
+                        ProcessPriorityClass temp2 =
+                            (ProcessPriorityClass)sm.programs_running_cfg_nice.configList[temp];
+                        if (proc.PriorityClass != temp2)
+                        {
+                            log.WriteLog("setting niceness: " + proc.ProcessName + " to " + temp2.ToString());
+                            proc.PriorityClass = temp2;
+                        }
+                    }
+                    catch (Exception) { }
+                });
+            }
         }
 
     }

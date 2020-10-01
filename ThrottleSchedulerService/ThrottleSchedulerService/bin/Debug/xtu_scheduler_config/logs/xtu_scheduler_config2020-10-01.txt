@@ -1,0 +1,120 @@
+2020-10-01 오후 10:06:51: settings changed for: special_programs!, reimporting...
+2020-10-01 오후 10:06:51: writing: key = jdownloader2, value = 0
+2020-10-01 오후 10:06:51: writing: key = github, value = 0
+2020-10-01 오후 10:06:51: writing: key = steam, value = 0
+2020-10-01 오후 10:06:51: writing: key = origin, value = 0
+2020-10-01 오후 10:06:51: writing: key = mbam, value = 0
+2020-10-01 오후 10:06:51: writing: key = shellexperiencehost, value = 0
+2020-10-01 오후 10:06:51: writing: key = svchost, value = 0
+2020-10-01 오후 10:06:51: writing: key = subprocess, value = 0
+2020-10-01 오후 10:06:51: writing: key = gtavlauncher, value = 0
+2020-10-01 오후 10:06:51: writing: key = acad, value = 1
+2020-10-01 오후 10:06:51: writing: key = launcher, value = 7
+2020-10-01 오후 10:06:51: writing: key = tesv, value = 1
+2020-10-01 오후 10:06:51: writing: key = fsx, value = 1
+2020-10-01 오후 10:06:51: writing: key = Journey, value = 1
+2020-10-01 오후 10:06:51: writing: key = nullDC, value = 1
+2020-10-01 오후 10:06:51: writing: key = pcsxr, value = 1
+2020-10-01 오후 10:06:51: writing: key = ppsspp, value = 1
+2020-10-01 오후 10:06:51: writing: key = Project64, value = 1
+2020-10-01 오후 10:06:51: writing: key = ace7game, value = 1
+2020-10-01 오후 10:06:51: writing: key = pcars, value = 1
+2020-10-01 오후 10:06:51: writing: key = doom, value = 1
+2020-10-01 오후 10:06:51: writing: key = gtaiv, value = 4
+2020-10-01 오후 10:06:51: writing: key = nfs, value = 1
+2020-10-01 오후 10:06:51: writing: key = dirt, value = 1
+2020-10-01 오후 10:06:51: writing: key = grid, value = 1
+2020-10-01 오후 10:06:51: writing: key = studio64, value = 2
+2020-10-01 오후 10:06:51: writing: key = arcade64, value = 2
+2020-10-01 오후 10:06:51: writing: key = djmax, value = 2
+2020-10-01 오후 10:06:51: writing: key = streaming_client, value = 2
+2020-10-01 오후 10:06:51: writing: key = moonlight, value = 2
+2020-10-01 오후 10:06:51: writing: key = pcsx2, value = 2
+2020-10-01 오후 10:06:51: writing: key = dolphin, value = 2
+2020-10-01 오후 10:06:51: writing: key = vmware-vmx, value = 2
+2020-10-01 오후 10:06:51: writing: key = virtualbox, value = 2
+2020-10-01 오후 10:06:51: writing: key = dosbox, value = 2
+2020-10-01 오후 10:06:51: writing: key = cemu, value = 2
+2020-10-01 오후 10:06:51: writing: key = citra, value = 2
+2020-10-01 오후 10:06:51: writing: key = rpcs3, value = 7
+2020-10-01 오후 10:06:51: writing: key = drt, value = 3
+2020-10-01 오후 10:06:51: writing: key = dirtrally2, value = 3
+2020-10-01 오후 10:06:51: writing: key = tombraider, value = 3
+2020-10-01 오후 10:06:51: writing: key = rottr, value = 3
+2020-10-01 오후 10:06:51: writing: key = bf, value = 4
+2020-10-01 오후 10:06:51: writing: key = gta5, value = 4
+2020-10-01 오후 10:06:51: writing: key = borderlands2, value = 4
+2020-10-01 오후 10:06:51: writing: key = katamari, value = 4
+2020-10-01 오후 10:06:51: writing: key = bold, value = 4
+2020-10-01 오후 10:06:51: writing: key = setup, value = 5
+2020-10-01 오후 10:06:51: writing: key = minecraft, value = 5
+2020-10-01 오후 10:06:51: writing: key = cl, value = 5
+2020-10-01 오후 10:06:51: writing: key = link, value = 5
+2020-10-01 오후 10:06:51: writing: key = ffmpeg, value = 5
+2020-10-01 오후 10:06:51: writing: key = 7z, value = 5
+2020-10-01 오후 10:06:51: writing: key = vegas, value = 5
+2020-10-01 오후 10:06:51: writing: key = bandizip, value = 5
+2020-10-01 오후 10:06:51: writing: key = handbrake, value = 5
+2020-10-01 오후 10:06:51: writing: key = mpc-hc, value = 5
+2020-10-01 오후 10:06:51: writing: key = consoleapplication, value = 5
+2020-10-01 오후 10:06:51: writing: key = macsfancontrol, value = 6
+2020-10-01 오후 10:06:51: writing: key = lubbosfancontrol, value = 6
+2020-10-01 오후 10:06:51: writing: key = bootcamp, value = 6
+2020-10-01 오후 10:06:51: writing: key = obs, value = 6
+2020-10-01 오후 10:06:51: writing: key = remoteplay, value = 6
+2020-10-01 오후 10:06:51: writing: key = discord, value = 6
+2020-10-01 오후 10:06:51: importing settings for: loop_delay...
+2020-10-01 오후 10:06:51: writing: key = loop_delay, value = 5
+2020-10-01 오후 10:06:51: importing settings for: programs_running_cfg_cpu...
+2020-10-01 오후 10:06:51: writing: key = 0, value = 65
+2020-10-01 오후 10:06:51: writing: key = 1, value = 98
+2020-10-01 오후 10:06:51: writing: key = 2, value = 100
+2020-10-01 오후 10:06:51: writing: key = 3, value = 65
+2020-10-01 오후 10:06:51: writing: key = 4, value = 95
+2020-10-01 오후 10:06:51: writing: key = 5, value = 100
+2020-10-01 오후 10:06:51: writing: key = 6, value = 65
+2020-10-01 오후 10:06:51: writing: key = 7, value = 100
+2020-10-01 오후 10:06:51: importing settings for: boost_cycle_delay...
+2020-10-01 오후 10:06:51: writing: key = boost_cycle_delay, value = 6
+2020-10-01 오후 10:06:51: importing settings for: programs_running_cfg_xtu...
+2020-10-01 오후 10:06:51: writing: key = 0, value = 7.5
+2020-10-01 오후 10:06:51: writing: key = 1, value = 5.5
+2020-10-01 오후 10:06:51: writing: key = 2, value = 4.5
+2020-10-01 오후 10:06:51: writing: key = 3, value = 7.5
+2020-10-01 오후 10:06:51: writing: key = 4, value = 6.5
+2020-10-01 오후 10:06:51: writing: key = 5, value = 4.5
+2020-10-01 오후 10:06:51: writing: key = 6, value = 7.5
+2020-10-01 오후 10:06:51: writing: key = 7, value = 7.5
+2020-10-01 오후 10:06:51: importing settings for: ac_offset...
+2020-10-01 오후 10:06:51: writing: key = ac_offset, value = 1
+2020-10-01 오후 10:06:51: importing settings for: programs_running_cfg_nice...
+2020-10-01 오후 10:06:51: writing: key = 0, value = Idle
+2020-10-01 오후 10:06:51: writing: key = 1, value = High
+2020-10-01 오후 10:06:51: writing: key = 2, value = High
+2020-10-01 오후 10:06:51: writing: key = 3, value = High
+2020-10-01 오후 10:06:51: writing: key = 4, value = High
+2020-10-01 오후 10:06:51: writing: key = 5, value = Idle
+2020-10-01 오후 10:06:51: writing: key = 6, value = RealTime
+2020-10-01 오후 10:06:51: writing: key = 7, value = High
+2020-10-01 오후 10:06:51: importing settings for: processor_guid_tweak...
+2020-10-01 오후 10:06:51: writing: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-01 오후 10:06:51: writing: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-01 오후 10:06:51: writing: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-01 오후 10:06:51: writing: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-01 오후 10:06:51: writing: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-01 오후 10:06:51: writing: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-01 오후 10:06:51: writing: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-01 오후 10:06:51: writing: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-01 오후 10:06:51: writing: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-01 오후 10:06:51: writing: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-01 오후 10:06:51: writing: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-01 오후 10:06:52: checking XTU cmdlet
+2020-10-01 오후 10:06:54: XTU ok
+2020-10-01 오후 10:07:04: clk:2701, load:21, temp:58
+2020-10-01 오후 10:07:09: clk:2000, load:15, temp:57
+2020-10-01 오후 10:07:14: clk:2300, load:25, temp:55
+2020-10-01 오후 10:07:19: clk:2701, load:19, temp:55
+2020-10-01 오후 10:07:21: throttle detected!
+2020-10-01 오후 10:07:24: clk:2701, load:22, temp:55
+2020-10-01 오후 10:07:29: clk:2300, load:19, temp:58
+2020-10-01 오후 10:07:34: clk:2701, load:23, temp:66

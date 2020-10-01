@@ -24,7 +24,9 @@ namespace ThrottleSchedulerService
         public Logger log;
 
         int MaxClockSpeed;
-        float MaxXTU;   //safe measure
+        float MaxXTU;   //safe measure        
+
+        int prevtemp_i = 0, prevtemp_j = 0;   //slow down io usage
 
         //needed for opm
         public class UpdateVisitor : IVisitor
@@ -50,21 +52,42 @@ namespace ThrottleSchedulerService
 
         public int getLoad()
         {
-            obj.Get();
-            return int.Parse(obj["LoadPercentage"].ToString());
+            while (true)
+            {
+                try
+                {
+                    obj.Get();
+                    return int.Parse(obj["LoadPercentage"].ToString());
+                }
+                catch (Exception) { }
+            }
+
         }
         public int getCLK()
         {
-            obj.Get();
-            return int.Parse(obj["CurrentClockSpeed"].ToString());
+            while (true)
+            {
+                try
+                {
+                    obj.Get();
+                    return int.Parse(obj["CurrentClockSpeed"].ToString());
+                }
+                catch (Exception) { }
+            }
         }
         public int getMaxCLK() {
-            obj.Get();
-            return int.Parse(obj["MaxClockSpeed"].ToString());
+            while (true)
+            {
+                try
+                {
+                    obj.Get();
+                    return int.Parse(obj["MaxClockSpeed"].ToString());
+               }
+                catch (Exception) { }
+            }
         }
 
-        public int getTemp()
-        {
+        public void initTemp() {
             computer.Open();
             computer.CPUEnabled = true;
             computer.Accept(updateVisitor);
@@ -76,15 +99,20 @@ namespace ThrottleSchedulerService
                     {
                         if (computer.Hardware[i].Sensors[j].SensorType == SensorType.Temperature)
                         {
-                            int hello = int.Parse(computer.Hardware[i].Sensors[j].Value.ToString());
-                            computer.Close();
-                            return hello;
+                            prevtemp_i = i;
+                            prevtemp_j = j;
+                            return;
                         }
                     }
                 }
             }
-            computer.Close();
-            return -1;
+        }
+
+        public int getTemp()
+        {
+            computer.Accept(updateVisitor);
+            return int.Parse(computer.Hardware[prevtemp_i].Sensors[prevtemp_j].Value.ToString());
+            
         }
         //for management wmi
 
@@ -102,32 +130,30 @@ namespace ThrottleSchedulerService
             //<string, int>
             int high = (int)sm.processor_guid_tweak.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
 
-            if ((getLoad() > high) && (getCLK() < MaxClockSpeed)) return true;
+            //save cpu cycle on check
+            if (getLoad() > high)   //level1: most of the time cpu sits around less than 'high' on idle
+                if(getCLK() < MaxClockSpeed)    //level2: check if clockspeed is wrong
+                    return true;
             return false;
         }
 
         //return the process obj if any process in the list runs as focused
-        public Process detectFgProc(SettingsManager sm) {
+        public Process detectFgProc(SettingsManager sm)
+        {
             uint processID = 0;
             IntPtr hWnd = GetForegroundWindow(); // Get foreground window handle
             uint threadID = GetWindowThreadProcessId(hWnd, out processID); // Get PID from window handle
             Process fgProc = Process.GetProcessById(Convert.ToInt32(processID)); // Get it as a C# obj.
             // NOTE: In some rare cases ProcessID will be NULL. Handle this how you want. 
 
-            foreach(string name in sm.special_programs.configList.Keys){
-                if (fgProc.ProcessName.ToLower().Contains(name.ToLower())) {
-                    log.WriteLog("process: " + name + " found!");
-                    return fgProc;
-                }
-            }
-
-            return null;
+            return fgProc;
         }
 
         //safe measure
         public void initXTU(TweakerController controller) {
             MaxXTU = controller.getXTU();
         }
+
 
     }
 }

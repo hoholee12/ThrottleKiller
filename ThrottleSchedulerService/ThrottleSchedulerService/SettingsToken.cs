@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
+using System.Runtime.InteropServices;
+using System.Diagnostics;
 
 using System.IO;
 using System.Management;
@@ -88,10 +90,20 @@ namespace ThrottleSchedulerService
                             configList.Add(int.Parse(a), float.Parse(b));
                             log.WriteLog("writing: key = " + int.Parse(a) + ", value = " + configList[int.Parse(a)]);
                         }
-                        else if ((Tkey == typeof(int)) && (Tval == typeof(string)))
+                        else if ((Tkey == typeof(int)) && (Tval == typeof(ProcessPriorityClass)))
                         {
-                            configList.Add(int.Parse(a), b);
-                            log.WriteLog("writing: key = " + int.Parse(a) + ", value = " + configList[int.Parse(a)]);
+                            ProcessPriorityClass result = ProcessPriorityClass.Normal;
+                            switch (b)
+                            {
+                                case "idle": result = ProcessPriorityClass.Idle; break;
+                                case "high": result = ProcessPriorityClass.High; break;
+                                case "realtime": result = ProcessPriorityClass.RealTime; break;
+                                case "normal": result = ProcessPriorityClass.Normal; break;
+                                case "belownormal": result = ProcessPriorityClass.BelowNormal; break;
+                                case "abovenormal": result = ProcessPriorityClass.AboveNormal; break;
+                            }
+                            configList.Add(int.Parse(a), result);
+                            log.WriteLog("writing: key = " + int.Parse(a) + ", value = " + configList[int.Parse(a)].ToString());
                         }
 
                     }

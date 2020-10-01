@@ -19,11 +19,12 @@ namespace ThrottleSchedulerService
         auto_powermanager core
         * 1. get list from db                           - DONE
         * 2. check hardware                             - DONE
-        * 3. check list and apply accordingly
+        * 3. check list and apply accordingly(nice)     - DONE
         * 4. check if list changed(reload if changed)   - DONE
         * 5. check throttle                             - DONE
         * 6. check list and apply accordingly           
         * 7. change setting if still throttles
+        * 7.5 writeback changes to settings file
         * 8. sleep                                      - DONE
         * 9. loop to 2.                                 - DONE
         * 
@@ -46,6 +47,7 @@ namespace ThrottleSchedulerService
             log = new Logger(settings.path, settings.cfgname);
             settings.initConfig(log);
             checker.initCLK(log);
+            checker.initTemp();
 
             controller = new TweakerController(log);
 
@@ -57,19 +59,18 @@ namespace ThrottleSchedulerService
         public void initflow() {
             controller.initPowerCFG(settings);
             checker.initXTU(controller);
-        
         }
 
         //start main loop
         public void mainflow()
         {
-            settings.checkSettings();
+            settings.checkSettingsInit();   //no need to save io here
             log.WriteLog("clk:" + checker.getCLK() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
             if (checker.isCurrentlyThrottling(settings)) log.WriteLog("throttle detected!");
             //controller.setXTU(10.5);
-            checker.detectFgProc(settings);
+            //checker.detectFgProc(settings);
             //controller.setCLK(settings, 100, 1);
-            
+            controller.setProcNice(checker.detectFgProc(settings), settings);
         }
 
         

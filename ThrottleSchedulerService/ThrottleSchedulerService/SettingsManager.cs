@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
+using System.Runtime.InteropServices;
+using System.Diagnostics;
 
 using System.IO;
 using System.Management;
@@ -13,6 +15,8 @@ namespace ThrottleSchedulerService
 {
     class SettingsManager
     {
+
+        public long perfx = 0;   //slowdown io usage
 
         //config files
         public SettingsToken special_programs;
@@ -52,7 +56,12 @@ namespace ThrottleSchedulerService
             checkFiles_myfiles();
         }
 
-
+        public void checkSettingsInit() {
+            checkFiles_myfiles();
+            checkFiles_myfiles();
+            checkFiles_myfiles();
+            checkFiles_myfiles();
+        }
 
 
         
@@ -60,14 +69,27 @@ namespace ThrottleSchedulerService
         //batch checkfiles
         public void checkFiles_myfiles()
         {
-            special_programs.checkFiles();
-            programs_running_cfg_cpu.checkFiles();
-            programs_running_cfg_xtu.checkFiles();
-            programs_running_cfg_nice.checkFiles();
-            loop_delay.checkFiles();
-            boost_cycle_delay.checkFiles();
-            ac_offset.checkFiles();
-            processor_guid_tweak.checkFiles();
+
+            //slowdown io usage
+            for (int i = 0; i < 2; i++)
+            {
+                long caseme = 4 * i + (perfx % 4);
+                
+                //loop twice 0,4 1,5 ...
+                switch (caseme)
+                {
+                    case 0: special_programs.checkFiles(); break;
+                    case 1: programs_running_cfg_cpu.checkFiles(); break;
+                    case 2: programs_running_cfg_xtu.checkFiles(); break;
+                    case 3: programs_running_cfg_nice.checkFiles(); break;
+                    case 4: loop_delay.checkFiles(); break;
+                    case 5: boost_cycle_delay.checkFiles(); break;
+                    case 6: ac_offset.checkFiles(); break;
+                    case 7: processor_guid_tweak.checkFiles(); break;
+                }
+            }
+            //increment
+            perfx++;
         }
 
         public void initConfig(Logger log) {     
@@ -222,7 +244,7 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             programs_running_cfg_xtu.Tkey = typeof(int);
             programs_running_cfg_xtu.Tval = typeof(float);
             programs_running_cfg_nice.Tkey = typeof(int);
-            programs_running_cfg_nice.Tval = typeof(string);
+            programs_running_cfg_nice.Tval = typeof(ProcessPriorityClass);
             loop_delay.Tkey = typeof(string);
             loop_delay.Tval = typeof(int);
             boost_cycle_delay.Tkey = typeof(string);
@@ -235,7 +257,7 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
 
 
             //batch create first/read settings
-            checkFiles_myfiles();
+            checkSettingsInit();
 
 
             //and then get last modified date
