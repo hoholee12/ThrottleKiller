@@ -14,6 +14,7 @@ namespace ThrottleSchedulerService
     {
         Process pshell;
         Logger log;
+        TweakerChecker checker;
 
         int count = 0;
 
@@ -29,10 +30,10 @@ namespace ThrottleSchedulerService
         //	2 = Maximum Performance(seems to remove long term throttling...)
         Process powercfg;
 
-        public TweakerController(Logger log)
+        public TweakerController(Logger log, TweakerChecker checker)
         {
             this.log = log;
-
+            this.checker = checker;
             try
             {
                 pshell = new Process();
@@ -78,10 +79,12 @@ namespace ThrottleSchedulerService
 
 
 
-        public void runpowercfg(string str) {
+        public string runpowercfg(string str) {
             powercfg.StartInfo.Arguments = str;
             powercfg.Start();
+            string output = powercfg.StandardOutput.ReadToEnd();
             powercfg.WaitForExit();
+            return output;
         }
 
         public float getXTU() {
@@ -116,29 +119,52 @@ namespace ThrottleSchedulerService
         //intel graphics settings
         //	1 = Balanced(Maximum Battery Life is useless)
         //	2 = Maximum Performance(seems to remove long term throttling...)
-        public void setCLK(SettingsManager sm, int setval, int setgpu) {
-            log.WriteLog("setting CLK:" + setval + " GPU:" + setgpu);
+        public void setPWR(SettingsManager sm, int setval, bool gpuflag) {
+            int gpux = 1;   //balanced
+            if (gpuflag)
+            {
+                log.WriteLog("setting PWR:" + setval + " GPU: performance");
+                gpux = 2;  //performance
+            }
+            else {
+                log.WriteLog("setting PWR:" + setval + " GPU: balanced");
+            }
+
 
             runpowercfg("/setdcvalueindex " + guid0 + " " + guid1 + " " + guid2 + " " + setval);
             runpowercfg("/setacvalueindex " + guid0 + " " + guid1 + " " + guid2 + " " + (setval - (int)sm.ac_offset.configList["ac_offset"])); //hotter when plugged in
 
             //gpu power scheduler
-            runpowercfg("/setdcvalueindex " + guid0 + " " + guid4 + " " + guid5 + " " + setgpu);
-            runpowercfg("/setacvalueindex " + guid0 + " " + guid4 + " " + guid5 + " " + setgpu);
+            runpowercfg("/setdcvalueindex " + guid0 + " " + guid4 + " " + guid5 + " " + gpux);
+            runpowercfg("/setacvalueindex " + guid0 + " " + guid4 + " " + guid5 + " " + gpux);
 
             runpowercfg("/setactive " + guid0); //apply
         }
 
-        //per process
-        public void setProcNice(Process proc, SettingsManager sm) {
+        public int getPWR() {
+            string temp = runpowercfg("/query " + guid0 + " " + guid1 + " " + guid2);
+            string temp2 = temp.Split(' ').Last().Trim();
+            int temp3 = Convert.ToInt32(temp2, 16);
+            return temp3;
+        }
+
+        //-1: not found
+        public int checkInList(Process proc, SettingsManager sm) {
             int temp = -1;
             foreach (string name in sm.special_programs.configList.Keys)
             {
                 if (proc.ProcessName.ToLower().Contains(name.ToLower()))
                 {
                     temp = (int)sm.special_programs.configList[name];
+                    break;
                 }
             }
+            return temp;
+        }
+
+        //apply nice per process
+        public void setProcNice(Process proc, SettingsManager sm) {
+            int temp = checkInList(proc, sm);
             if (temp == -1) return; //not in my list
 
             try
@@ -152,6 +178,25 @@ namespace ThrottleSchedulerService
                 }
             }
             catch (Exception) { }
+        }
+
+        //apply power per process
+        public void setPower(Process proc, SettingsManager sm) {
+            int temp = checkInList(proc, sm);
+            if (temp == -1) return; //not in my list
+            
+            try
+            {
+                int temp2 = (int)sm.programs_running_cfg_cpu.configList[temp];
+
+                if (getPWR() != temp2)
+                {
+                    log.WriteLog("setting power: " + proc.ProcessName + " to " + temp2.ToString());
+                    setPWR(sm, temp2, false);
+                }
+            }
+            catch (Exception) { }
+
         }
 
         //apply based on profile

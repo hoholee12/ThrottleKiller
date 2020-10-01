@@ -49,7 +49,8 @@ namespace ThrottleSchedulerService
             checker.initCLK(log);
             checker.initTemp();
 
-            controller = new TweakerController(log);
+            controller = new TweakerController(log, checker);
+
 
             //initial load
             initflow();
@@ -71,6 +72,8 @@ namespace ThrottleSchedulerService
             //checker.detectFgProc(settings);
             //controller.setCLK(settings, 100, 1);
             controller.setProcNice(checker.detectFgProc(settings), settings);
+
+            controller.getPWR();
         }
 
         
