@@ -18,13 +18,29 @@ namespace ThrottleSchedulerService
 
         int count = 0;
 
+
+
+/*
+        //GUIDs
+        public string guid0 = @"381b4222-f694-41f0-9685-ff5bb260df2e";		// you can change to any powerplan you want as default!
+        public string guid1 = @"54533251-82be-4824-96c1-47b60b740d00";		// processor power management
+        public string guid2 = @"bc5038f7-23e0-4960-96da-33abaf5935ec";		// processor high clockspeed limit
+        public string guid3 = @"893dee8e-2bef-41e0-89c6-b55d0929964c";		// processor low clockspeed limit
+        public string guid4 = @"44f3beca-a7c0-460e-9df2-bb8b99e0cba6";		// intel graphics power management
+        public string guid5 = @"3619c3f2-afb2-4afc-b0e9-e7fef372de36";		// submenu of intel graphics power management
+
+        //intel graphics settings
+        //1 = Balanced(Maximum Battery Life is useless)
+        //2 = Maximum Performance(seems to remove long term throttling...)
+*/
+
         //for powercfg init
-        string guid0 = "381b4222-f694-41f0-9685-ff5bb260df2e";		// you can change to any powerplan you want as default!
-        string guid1 = "54533251-82be-4824-96c1-47b60b740d00";		// processor power management
-        string guid2 = "bc5038f7-23e0-4960-96da-33abaf5935ec";	    // processor high clockspeed limit
-        string guid3 = "893dee8e-2bef-41e0-89c6-b55d0929964c";		// processor low clockspeed limit
-        string guid4 = "44f3beca-a7c0-460e-9df2-bb8b99e0cba6";		// intel graphics power management
-        string guid5 = "3619c3f2-afb2-4afc-b0e9-e7fef372de36";	    // submenu of intel graphics power management
+        string powerplan = "381b4222-f694-41f0-9685-ff5bb260df2e";		// you can change to any powerplan you want as default!
+        string processor = "54533251-82be-4824-96c1-47b60b740d00";		// processor power management
+        string procsubh = "bc5038f7-23e0-4960-96da-33abaf5935ec";	    // processor high clockspeed limit
+        string procsubl = "893dee8e-2bef-41e0-89c6-b55d0929964c";		// processor low clockspeed limit
+        string gpupplan = "44f3beca-a7c0-460e-9df2-bb8b99e0cba6";		// intel graphics power management
+        string gpuppsub = "3619c3f2-afb2-4afc-b0e9-e7fef372de36";	    // submenu of intel graphics power management
         //intel graphics settings
         //	1 = Balanced(Maximum Battery Life is useless)
         //	2 = Maximum Performance(seems to remove long term throttling...)
@@ -106,13 +122,13 @@ namespace ThrottleSchedulerService
         public void initPowerCFG(SettingsManager sm) {
             
             foreach (string temp in sm.processor_guid_tweak.configList.Keys) {
-                runpowercfg("/attributes " + guid1 + " " + temp + " -ATTRIB_HIDE");
-                runpowercfg("/setdcvalueindex " + guid0 + " " + guid1 + " " + temp + " " + sm.processor_guid_tweak.configList[temp]);
-                runpowercfg("/setacvalueindex " + guid0 + " " + guid1 + " " + temp + " " + sm.processor_guid_tweak.configList[temp]);
+                runpowercfg("/attributes " + processor + " " + temp + " -ATTRIB_HIDE");
+                runpowercfg("/setdcvalueindex " + powerplan + " " + processor + " " + temp + " " + sm.processor_guid_tweak.configList[temp]);
+                runpowercfg("/setacvalueindex " + powerplan + " " + processor + " " + temp + " " + sm.processor_guid_tweak.configList[temp]);
             }
-            runpowercfg("/attributes " + guid4 + " " + guid5 + " -ATTRIB_HIDE");
+            runpowercfg("/attributes " + gpupplan + " " + gpuppsub + " -ATTRIB_HIDE");
            
-            runpowercfg("/setactive " + guid0); //apply
+            runpowercfg("/setactive " + powerplan); //apply
         
         }
 
@@ -131,18 +147,18 @@ namespace ThrottleSchedulerService
             }
 
 
-            runpowercfg("/setdcvalueindex " + guid0 + " " + guid1 + " " + guid2 + " " + setval);
-            runpowercfg("/setacvalueindex " + guid0 + " " + guid1 + " " + guid2 + " " + (setval - (int)sm.ac_offset.configList["ac_offset"])); //hotter when plugged in
+            runpowercfg("/setdcvalueindex " + powerplan + " " + processor + " " + procsubh + " " + setval);
+            runpowercfg("/setacvalueindex " + powerplan + " " + processor + " " + procsubh + " " + (setval - (int)sm.ac_offset.configList["ac_offset"])); //hotter when plugged in
 
             //gpu power scheduler
-            runpowercfg("/setdcvalueindex " + guid0 + " " + guid4 + " " + guid5 + " " + gpux);
-            runpowercfg("/setacvalueindex " + guid0 + " " + guid4 + " " + guid5 + " " + gpux);
+            runpowercfg("/setdcvalueindex " + powerplan + " " + gpupplan + " " + gpuppsub + " " + gpux);
+            runpowercfg("/setacvalueindex " + powerplan + " " + gpupplan + " " + gpuppsub + " " + gpux);
 
-            runpowercfg("/setactive " + guid0); //apply
+            runpowercfg("/setactive " + powerplan); //apply
         }
 
         public int getPWR() {
-            string temp = runpowercfg("/query " + guid0 + " " + guid1 + " " + guid2);
+            string temp = runpowercfg("/query " + powerplan + " " + processor + " " + procsubh);
             string temp2 = temp.Split(' ').Last().Trim();
             int temp3 = Convert.ToInt32(temp2, 16);
             return temp3;
@@ -198,6 +214,41 @@ namespace ThrottleSchedulerService
                 }
             }
             catch (Exception) { }
+
+        }
+
+        //generate CLK list
+        //CLK = powerplan value, PWR = real clockspeed
+        public void generateCLKlist(SettingsManager sm, TweakerChecker tc) {
+            if (sm.generatedCLK.getCount() > 1) return; //all generated
+
+            //else
+            log.WriteLog("================start of CLK list generation================");
+
+            int prevPWR = int.MaxValue;
+            //start looping from 100 down to 50
+            for(int i = 100; i > 50; i--){
+                runpowercfg("/setdcvalueindex " + powerplan + " " + processor + " " + procsubh + " " + i);
+                runpowercfg("/setacvalueindex " + powerplan + " " + processor + " " + procsubh + " " + i);
+                runpowercfg("/setdcvalueindex " + powerplan + " " + processor + " " + procsubl + " " + i);
+                runpowercfg("/setacvalueindex " + powerplan + " " + processor + " " + procsubl + " " + i);
+                runpowercfg("/setactive " + powerplan); //apply
+
+                if (prevPWR != tc.getPWR())
+                {
+                    prevPWR = tc.getPWR();
+                    
+                    //add
+                    sm.generatedCLK.configList.Add(i, prevPWR);
+                    log.WriteLog("new CLK: " + i + " clockspeed: " + prevPWR);
+                }
+            
+            }
+            //write back
+            log.WriteLog("writeback to file commencing...");
+            sm.generatedCLK.completeWriteBack();
+
+            log.WriteLog("================end of CLK list generation================");
 
         }
 

@@ -30,6 +30,8 @@ namespace ThrottleSchedulerService
         * 
         */
 
+        //CLK = powerplan value, PWR = real clockspeed
+
         public TweakerChecker checker;
         public SettingsManager settings;
         public Logger log;
@@ -49,7 +51,7 @@ namespace ThrottleSchedulerService
             settings.initPath();
             log = new Logger(settings.path, settings.cfgname);
             settings.initConfig(log);
-            checker.initCLK(log);
+            checker.initPWR(log);
             checker.initTemp();
 
             //timesync
@@ -65,16 +67,18 @@ namespace ThrottleSchedulerService
         public void initflow() {
             controller.initPowerCFG(settings);
             checker.initXTU(controller);
+            controller.generateCLKlist(settings, checker);
         }
 
         //start main loop
         public void mainflow()
         {
+            
             //log.WriteLog("loop");
             if (settings.timeSync)
             {
-                settings.checkSettingsInit();   //no need to save io here
-                log.WriteLog("clk:" + checker.getCLK() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
+                settings.checkSettings();   //no need to save io here
+                log.WriteLog("clk:" + checker.getPWR() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
                 if (checker.isCurrentlyThrottling(settings))
                 {
                     log.WriteLog("throttle detected!");

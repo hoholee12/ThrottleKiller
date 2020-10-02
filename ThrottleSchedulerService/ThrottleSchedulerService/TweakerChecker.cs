@@ -65,7 +65,7 @@ namespace ThrottleSchedulerService
             }
 
         }
-        public int getCLK()
+        public int getPWR()
         {
             while (true)
             {
@@ -77,7 +77,7 @@ namespace ThrottleSchedulerService
                 catch (Exception) { }
             }
         }
-        public int getMaxCLK() {
+        public int getMaxPWR() {
             while (true)
             {
                 try
@@ -118,9 +118,9 @@ namespace ThrottleSchedulerService
         }
         //for management wmi
 
-        public void initCLK(Logger log) {
+        public void initPWR(Logger log) {
             this.log = log;
-            MaxClockSpeed = getMaxCLK();
+            MaxClockSpeed = getMaxPWR();
         }
 
         /* its currently throttling if:
@@ -141,7 +141,7 @@ namespace ThrottleSchedulerService
                 //<string, int>
                 int high = (int)sm.processor_guid_tweak.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
                 int load = getLoad();
-                int clk = getCLK();
+                int clk = getPWR();
                 if (load > high && clk < MaxClockSpeed)
                 {
                     log.WriteLog("throttle? load = " + load + " ,clk = " + clk);

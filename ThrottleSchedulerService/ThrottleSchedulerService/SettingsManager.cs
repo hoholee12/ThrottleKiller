@@ -28,6 +28,8 @@ namespace ThrottleSchedulerService
         public SettingsToken ac_offset;
         public SettingsToken processor_guid_tweak;
 
+        public SettingsToken generatedCLK;
+
         //BASE DIRECTORY
         public string cfgname = @"xtu_scheduler_config";
         public string path; //later
@@ -86,21 +88,6 @@ namespace ThrottleSchedulerService
             }
         }
 
-
-
-        //GUIDs
-        public string guid0 = @"381b4222-f694-41f0-9685-ff5bb260df2e";		// you can change to any powerplan you want as default!
-        public string guid1 = @"54533251-82be-4824-96c1-47b60b740d00";		// processor power management
-        public string guid2 = @"bc5038f7-23e0-4960-96da-33abaf5935ec";		// processor high clockspeed limit
-        public string guid3 = @"893dee8e-2bef-41e0-89c6-b55d0929964c";		// processor low clockspeed limit
-
-        public string guid4 = @"44f3beca-a7c0-460e-9df2-bb8b99e0cba6";		// intel graphics power management
-        public string guid5 = @"3619c3f2-afb2-4afc-b0e9-e7fef372de36";		// submenu of intel graphics power management
-
-        //intel graphics settings
-        //1 = Balanced(Maximum Battery Life is useless)
-        //2 = Maximum Performance(seems to remove long term throttling...)
-
         public void checkMaxSpeed() { }
         public void cpuproc(string arg0, string arg1) { }
         public void xtuproc(string arg0) { }
@@ -110,40 +97,21 @@ namespace ThrottleSchedulerService
             checkFiles_myfiles();
         }
 
-        public void checkSettingsInit() {
-            checkFiles_myfiles();
-            checkFiles_myfiles();
-            checkFiles_myfiles();
-            checkFiles_myfiles();
-        }
-
-
-        
 
         //batch checkfiles
         public void checkFiles_myfiles()
         {
 
-            //slowdown io usage
-            for (int i = 0; i < 2; i++)
-            {
-                long caseme = 4 * i + (perfx % 4);
-                
-                //loop twice 0,4 1,5 ...
-                switch (caseme)
-                {
-                    case 0: special_programs.checkFiles(); break;
-                    case 1: programs_running_cfg_cpu.checkFiles(); break;
-                    case 2: programs_running_cfg_xtu.checkFiles(); break;
-                    case 3: programs_running_cfg_nice.checkFiles(); break;
-                    case 4: loop_delay.checkFiles(); break;
-                    case 5: boost_cycle_delay.checkFiles(); break;
-                    case 6: ac_offset.checkFiles(); break;
-                    case 7: processor_guid_tweak.checkFiles(); break;
-                }
-            }
-            //increment
-            perfx++;
+            special_programs.checkFiles();
+            programs_running_cfg_cpu.checkFiles();
+            programs_running_cfg_xtu.checkFiles();
+            programs_running_cfg_nice.checkFiles();
+            loop_delay.checkFiles();
+            boost_cycle_delay.checkFiles();
+            ac_offset.checkFiles();
+            processor_guid_tweak.checkFiles();
+            generatedCLK.checkFiles();
+
         }
 
         public void initConfig(Logger log) {     
@@ -160,8 +128,11 @@ namespace ThrottleSchedulerService
             boost_cycle_delay = new SettingsToken(log);
             ac_offset = new SettingsToken(log);
             processor_guid_tweak = new SettingsToken(log);
-
-
+            generatedCLK = new SettingsToken(log);
+            
+            
+            
+            
             //initialize paths
             special_programs.setPath(path);
             programs_running_cfg_cpu.setPath(path);
@@ -171,6 +142,7 @@ namespace ThrottleSchedulerService
             boost_cycle_delay.setPath(path);
             ac_offset.setPath(path);
             processor_guid_tweak.setPath(path);
+            generatedCLK.setPath(path);
 
             special_programs.setName("special_programs");
             programs_running_cfg_cpu.setName("programs_running_cfg_cpu");
@@ -180,6 +152,7 @@ namespace ThrottleSchedulerService
             boost_cycle_delay.setName("boost_cycle_delay");
             ac_offset.setName("ac_offset");
             processor_guid_tweak.setName("processor_guid_tweak");
+            generatedCLK.setName("generatedCLK");
 
             //initialize contents
             special_programs.setContent(
@@ -289,6 +262,7 @@ namespace ThrottleSchedulerService
 94d3a615-a899-4ac5-ae2b-e4d8f634367f = 1
 bc5038f7-23e0-4960-96da-33abaf5935ec = 100          # processor high clockspeed limit
 ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
+            generatedCLK.setContent("");
 
             //set key value pair type
             special_programs.Tkey = typeof(string);
@@ -307,11 +281,13 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             ac_offset.Tval = typeof(int);
             processor_guid_tweak.Tkey = typeof(string);
             processor_guid_tweak.Tval = typeof(int);
+            generatedCLK.Tkey = typeof(int);
+            generatedCLK.Tval = typeof(int);
 
 
 
             //batch create first/read settings
-            checkSettingsInit();
+            checkSettings();
 
 
             //and then get last modified date
@@ -323,6 +299,8 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             boost_cycle_delay.setLastModifiedTime(File.GetLastWriteTime(boost_cycle_delay.getFullName()).Ticks);
             ac_offset.setLastModifiedTime(File.GetLastWriteTime(ac_offset.getFullName()).Ticks);
             processor_guid_tweak.setLastModifiedTime(File.GetLastWriteTime(processor_guid_tweak.getFullName()).Ticks);
+            generatedCLK.setLastModifiedTime(File.GetLastWriteTime(generatedCLK.getFullName()).Ticks);
+
         }
         
         public void initPath()

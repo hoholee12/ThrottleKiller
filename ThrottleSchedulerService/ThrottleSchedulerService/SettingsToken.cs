@@ -41,6 +41,37 @@ namespace ThrottleSchedulerService
 
         public string getFullName() { return getPath() + @"\" + getName() + ".txt"; }
 
+        public int getCount() {
+            string[] count = File.ReadAllLines(getFullName());
+            return count.Count();
+        }
+
+        public void completeWriteBack() {
+            var temp = new List<string>();
+            foreach (KeyValuePair<object, object> kvp in configList) {
+                if ((Tkey == typeof(string)) && (Tval == typeof(int)))
+                {
+                    temp.Add((string)kvp.Key + " = " + (int)kvp.Value);
+                }
+                else if ((Tkey == typeof(int)) && (Tval == typeof(int)))
+                {
+                    temp.Add((int)kvp.Key + " = " + (int)kvp.Value);
+                }
+                else if ((Tkey == typeof(int)) && (Tval == typeof(float)))
+                {
+                    temp.Add((int)kvp.Key + " = " + (float)kvp.Value);
+                }
+                else if ((Tkey == typeof(int)) && (Tval == typeof(ProcessPriorityClass)))
+                {
+                    temp.Add((int)kvp.Key + " = " + (ProcessPriorityClass)kvp.Value);
+                }
+            }
+
+            File.WriteAllLines(getFullName(), temp);
+
+            checkFiles();   //reload settings
+        }
+
         //changes can be appended to config file
         public void appendChanges(object key, object value) {
             try {
