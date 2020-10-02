@@ -22,7 +22,7 @@ namespace ThrottleSchedulerService
         * 3. check list and apply accordingly(nice)     - DONE
         * 4. check if list changed(reload if changed)   - DONE
         * 5. check throttle                             - DONE
-        * 6. check list and apply accordingly           
+        * 6. check list and apply accordingly           - DONE
         * 7. change setting if still throttles
         * 7.5 writeback changes to settings file
         * 8. sleep                                      - DONE
@@ -75,7 +75,10 @@ namespace ThrottleSchedulerService
             {
                 settings.checkSettingsInit();   //no need to save io here
                 log.WriteLog("clk:" + checker.getCLK() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
-                if (checker.isCurrentlyThrottling(settings)) log.WriteLog("throttle detected!");
+                if (checker.isCurrentlyThrottling(settings))
+                {
+                    log.WriteLog("throttle detected!");
+                }
                 //controller.setXTU(10.5);
                 //checker.detectFgProc(settings);
                 //controller.setCLK(settings, 100, 1);

@@ -41,6 +41,52 @@ namespace ThrottleSchedulerService
 
         public string getFullName() { return getPath() + @"\" + getName() + ".txt"; }
 
+        //changes can be appended to config file
+        public void appendChanges(object key, object value) {
+            try {
+                string[] readfile = File.ReadAllLines(getFullName());
+
+                //find @append
+                bool appendexists = false;
+                foreach(string line in readfile) {
+                    
+                    if (line == "@append") {
+                        appendexists = true;
+                        break;
+                    }
+                }
+
+                if (!appendexists) File.AppendAllText(getFullName(), "@append");
+                
+                /////////////////////////////////////////////////////////////////
+                if ((Tkey == typeof(string)) && (Tval == typeof(int)))
+                {
+                    File.AppendAllText(getFullName(), (string)key + " = " + (int)value);
+                    log.WriteLog("appending: key = " + (string)key + ", value = " + (int)value);
+                }
+                else if ((Tkey == typeof(int)) && (Tval == typeof(int)))
+                {
+                    File.AppendAllText(getFullName(), (int)key + " = " + (int)value);
+                    log.WriteLog("appending: key = " + (int)key + ", value = " + (int)value);
+                }
+                else if ((Tkey == typeof(int)) && (Tval == typeof(float)))
+                {
+                    File.AppendAllText(getFullName(), (int)key + " = " + (float)value);
+                    log.WriteLog("appending: key = " + (int)key + ", value = " + (float)value);
+                }
+                else if ((Tkey == typeof(int)) && (Tval == typeof(ProcessPriorityClass)))
+                {
+                    File.AppendAllText(getFullName(), (int)key + " = " + ((ProcessPriorityClass)value).ToString().ToLower());
+                    log.WriteLog("appending: key = " + (int)key + ", value = " + ((ProcessPriorityClass)value).ToString().ToLower());
+                }
+
+                
+                /////////////////////////////////////////////////////////////////
+            }
+            catch (Exception) { }   //just in case file gets deleted before appending
+            checkFiles();   //reload settings
+        }
+
         //create config files if nonexistant
         public void checkFiles()
         {
@@ -62,12 +108,13 @@ namespace ThrottleSchedulerService
                 //reset dictionary
                 configList.Clear();
                 //reread again
-                using (StreamReader sr = File.OpenText(getFullName()))
+                using (var sr = File.OpenText(getFullName()))
                 {
                     string line;
                     while ((line = sr.ReadLine()) != null)
                     {
-                        if (line == "") continue; //skip empty line
+                        if (!line.Contains("=")) continue;
+                        if ((line.IndexOf("=") > line.IndexOf("#")) && line.Contains("=") && line.Contains("#")) continue; //skip empty line
                         
                         string[] items = line.Split('=');
                         
@@ -93,7 +140,7 @@ namespace ThrottleSchedulerService
                         else if ((Tkey == typeof(int)) && (Tval == typeof(ProcessPriorityClass)))
                         {
                             ProcessPriorityClass result = ProcessPriorityClass.Normal;
-                            switch (b)
+                            switch (b.ToLower())
                             {
                                 case "idle": result = ProcessPriorityClass.Idle; break;
                                 case "high": result = ProcessPriorityClass.High; break;
