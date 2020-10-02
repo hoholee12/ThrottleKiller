@@ -84,6 +84,23 @@ namespace ThrottleSchedulerService
                 controller.setPower(checker.detectFgProc(settings), settings);
 
                 //3. check throttle
+                /*
+                 * 
+                 *  per profile scheduling.
+                 * 
+                 *  store intermediate values on settingsmanager.
+                 * 
+                 *  on throttle:
+                 *      cpuload 80%(tweakable)
+                 *      -get median upto throttleSync(tweakable)
+                 *  
+                 *  if app on the same profile throttles:
+                 *      profile gets modified affecting other relevant apps.
+                 *  
+                 *  if app is not in any profile:
+                 *      monitor performance for throttleSync(tweakable) cycles and assign to closest one.
+                 *      
+                 */
                 log.WriteLog("clk:" + checker.getPWR() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
                 
                 if (checker.isCurrentlyThrottling(settings, controller))

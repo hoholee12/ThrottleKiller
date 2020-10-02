@@ -148,6 +148,7 @@ namespace ThrottleSchedulerService
                 int high = (int)sm.processor_guid_tweak.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
                 int load = getLoad();
                 int pwr = getPWR();
+                //TODO: MaxClockSpeed incorrect
                 if (load > high && pwr < MaxClockSpeed)
                 {
                     log.WriteLog("throttle? load = " + load + " ,clk = " + pwr);
@@ -158,7 +159,11 @@ namespace ThrottleSchedulerService
                         throttledelay--;
                 }
 
-
+                /*
+                 *  on throttle:
+                 *      cpuload 80%(tweakable)
+                 *      -get median upto throttleSync(tweakable)
+                 */
                 sm.throttleMode = 0;
                 if (sm.throttleSync && throttledelay > 0)
                 {
