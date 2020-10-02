@@ -34,6 +34,60 @@ namespace ThrottleSchedulerService
 
         public Logger log;  //init from other side
 
+        public int base_msec = 0;
+        public int accumulated_msec = 0;
+        public int target_msec = 0;
+        public int bc_target_msec = 0;
+
+        public bool timeSync { get; set; }   //run myself on true
+        public bool throttleSync { get; set; }   //throttle delay sync
+
+        public void initTimeSync(int msec) {
+            try
+            {
+                base_msec = msec;
+                target_msec = int.Parse(loop_delay.configList["loop_delay"].ToString()) * 1000;
+                bc_target_msec = int.Parse(boost_cycle_delay.configList["boost_cycle_delay"].ToString()) * 1000;
+            }
+            catch (Exception) {
+                log.WriteErr("config file bug");
+            }
+        }
+
+        public void updateTimeSync() {
+            try
+            {
+                
+                if (accumulated_msec % target_msec == 0)
+                {
+                    timeSync = true;
+                    target_msec = int.Parse(loop_delay.configList["loop_delay"].ToString()) * 1000;
+                    
+                }
+                else {
+                    timeSync = false;
+                }
+                
+                //with updated target_msec
+                if (accumulated_msec % (bc_target_msec * target_msec) == 0)
+                {
+                    throttleSync = true;
+                    bc_target_msec = int.Parse(boost_cycle_delay.configList["boost_cycle_delay"].ToString()) * 1000;
+                }
+                else
+                {
+                    throttleSync = false;
+                }
+
+                accumulated_msec += base_msec;
+            }
+            catch (Exception) {
+                log.WriteErr("config file bug");
+            }
+        }
+
+
+
         //GUIDs
         public string guid0 = @"381b4222-f694-41f0-9685-ff5bb260df2e";		// you can change to any powerplan you want as default!
         public string guid1 = @"54533251-82be-4824-96c1-47b60b740d00";		// processor power management
@@ -220,8 +274,8 @@ namespace ThrottleSchedulerService
 5 = idle
 6 = realtime
 7 = high");
-            loop_delay.setContent(@"loop_delay = 5");
-            boost_cycle_delay.setContent(@"boost_cycle_delay = 6");
+            loop_delay.setContent(@"loop_delay = 1");
+            boost_cycle_delay.setContent(@"boost_cycle_delay = 5");
             ac_offset.setContent(@"ac_offset = 1");
             processor_guid_tweak.setContent(@"
 06cadf0e-64ed-448a-8927-ce7bf90eb35d = 30			# processor high threshold; lower this for performance

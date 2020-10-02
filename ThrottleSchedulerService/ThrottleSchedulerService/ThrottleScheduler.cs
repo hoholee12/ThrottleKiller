@@ -35,10 +35,13 @@ namespace ThrottleSchedulerService
         public Logger log;
         public TweakerController controller;
 
+        int msec;
+
         
         //init every objects here!
-        public ThrottleScheduler()
+        public ThrottleScheduler(int msec)
         {
+            this.msec = msec;
             checker = new TweakerChecker();
 
             //messy init
@@ -48,9 +51,9 @@ namespace ThrottleSchedulerService
             settings.initConfig(log);
             checker.initCLK(log);
             checker.initTemp();
+            settings.initTimeSync(msec);
 
             controller = new TweakerController(log, checker);
-
 
             //initial load
             initflow();
@@ -65,15 +68,20 @@ namespace ThrottleSchedulerService
         //start main loop
         public void mainflow()
         {
-            settings.checkSettingsInit();   //no need to save io here
-            log.WriteLog("clk:" + checker.getCLK() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
-            if (checker.isCurrentlyThrottling(settings)) log.WriteLog("throttle detected!");
-            //controller.setXTU(10.5);
-            //checker.detectFgProc(settings);
-            //controller.setCLK(settings, 100, 1);
-            controller.setProcNice(checker.detectFgProc(settings), settings);
+            //log.WriteLog("loop");
+            if (settings.timeSync)
+            {
+                settings.checkSettingsInit();   //no need to save io here
+                log.WriteLog("clk:" + checker.getCLK() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
+                if (checker.isCurrentlyThrottling(settings)) log.WriteLog("throttle detected!");
+                //controller.setXTU(10.5);
+                //checker.detectFgProc(settings);
+                //controller.setCLK(settings, 100, 1);
+                controller.setProcNice(checker.detectFgProc(settings), settings);
 
-            controller.getPWR();
+                controller.getPWR();
+            }
+            settings.updateTimeSync();
         }
 
         

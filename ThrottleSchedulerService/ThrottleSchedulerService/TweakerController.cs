@@ -9,7 +9,7 @@ using System.Diagnostics;
 namespace ThrottleSchedulerService
 {
 
-    //VERY HEAVY DO NOT USE IT TO PROBE
+    //XTU VERY HEAVY DO NOT USE IT TO PROBE
     class TweakerController
     {
         Process pshell;
@@ -88,7 +88,6 @@ namespace ThrottleSchedulerService
         }
 
         public float getXTU() {
-            //pshell.StartInfo.Arguments = "-noprofile -command \"((& xtucli -t -id 59 | select-string \\\"59\\\" | %{ -split $_ | select -index 5} | out-string) -replace \\\"x\\\",'').trim()\"";
             pshell.StartInfo.Arguments = "-t -id 59";
             pshell.Start();
             string[] result = pshell.StandardOutput.ReadToEnd().Split(' ');

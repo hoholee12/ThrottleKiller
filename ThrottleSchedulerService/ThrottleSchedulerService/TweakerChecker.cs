@@ -24,7 +24,9 @@ namespace ThrottleSchedulerService
         public Logger log;
 
         int MaxClockSpeed;
-        float MaxXTU;   //safe measure        
+        float MaxXTU;   //safe measure
+
+        int throttledelay = 0; //for throttling check margin
 
         int prevtemp_i = 0, prevtemp_j = 0;   //slow down io usage
 
@@ -127,18 +129,37 @@ namespace ThrottleSchedulerService
          * 2. if load is over 30 and clockspeed is not fullspeed -> throttling.
          */
         public bool isCurrentlyThrottling(SettingsManager sm){
-            //<string, int>
-            int high = (int)sm.processor_guid_tweak.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
-            int loop = 0;
-            int check = 2;  //check twice
-            do
+            try
             {
-                //save cpu cycle on check
-                if (getLoad() > high)   //level1: most of the time cpu sits around less than 'high' on idle
-                    if (getCLK() < MaxClockSpeed)    //level2: check if clockspeed is wrong
-                        loop++;
-            } while (loop!=0 && loop != check); //check twice
-            return (loop == check);
+                /*
+                 * 1. keep checking throttle
+                 * 2. on throttleSync:  //for margin of error
+                 * 3.   if throttledelay != 0:
+                 * 4.       return true
+                 */
+                
+                //<string, int>
+                int high = (int)sm.processor_guid_tweak.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
+                int load = getLoad();
+                int clk = getCLK();
+                if (load > high && clk < MaxClockSpeed)
+                {
+                    log.WriteLog("throttle? load = " + load + " ,clk = " + clk);
+                    throttledelay++;
+                }
+                else{
+                    if(throttledelay > 0)
+                        throttledelay--;
+                }
+
+                if (sm.throttleSync && throttledelay > 0) return true;
+                else return false;
+
+            }
+            catch (Exception) { //config file bug
+                log.WriteErr("config file is broken");
+                return false;   //this will never be reached
+            }
         }
 
         //return the process obj if any process in the list runs as focused

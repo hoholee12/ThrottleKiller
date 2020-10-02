@@ -37,5 +37,10 @@ namespace ThrottleSchedulerService
             else
                 using (StreamWriter sw = File.AppendText(filepath)) sw.WriteLine(DateTime.Now + ": " + msg);
         }
+
+        public void WriteErr(string msg) {
+            WriteLog("Error!: " + msg + "; system exited.");
+            Environment.Exit(1);
+        }
     }
 }
