@@ -92,10 +92,12 @@ namespace ThrottleSchedulerService
         public void xtuproc(string arg0) { }
 
 
+        public bool checkPowerCFGFlag { get; set; }
+
         //batch checkfiles
         public void batchCheckFiles()
         {
-
+            checkPowerCFGFlag = false;
             special_programs.checkFiles();
             programs_running_cfg_cpu.checkFiles();
             programs_running_cfg_xtu.checkFiles();
@@ -103,7 +105,7 @@ namespace ThrottleSchedulerService
             loop_delay.checkFiles();
             boost_cycle_delay.checkFiles();
             ac_offset.checkFiles();
-            processor_guid_tweak.checkFiles();
+            checkPowerCFGFlag = processor_guid_tweak.checkFiles();
             generatedCLK.checkFiles();
 
         }

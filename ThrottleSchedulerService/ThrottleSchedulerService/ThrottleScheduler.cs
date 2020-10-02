@@ -75,8 +75,16 @@ namespace ThrottleSchedulerService
          
             if (settings.timeSync)
             {
+                //1. check config
                 controller.generateCLKlist(settings, checker);  //before batchCheck
                 settings.batchCheckFiles();   //no need to save io here
+                if (settings.checkPowerCFGFlag) controller.initPowerCFG(settings);
+
+                //2. apply settings
+                controller.setProcNice(checker.detectFgProc(settings), settings);
+                controller.setPower(checker.detectFgProc(settings), settings);
+
+                //3. check throttle
                 log.WriteLog("clk:" + checker.getPWR() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
                 if (checker.isCurrentlyThrottling(settings))
                 {
@@ -85,8 +93,7 @@ namespace ThrottleSchedulerService
                 //controller.setXTU(10.5);
                 //checker.detectFgProc(settings);
                 //controller.setCLK(settings, 100, 1);
-                controller.setProcNice(checker.detectFgProc(settings), settings);
-                controller.setPower(checker.detectFgProc(settings), settings);
+                
                 
             }
             settings.updateTimeSync();

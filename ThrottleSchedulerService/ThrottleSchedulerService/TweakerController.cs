@@ -18,8 +18,6 @@ namespace ThrottleSchedulerService
 
         int count = 0;
 
-
-
 /*
         //GUIDs
         public string guid0 = @"381b4222-f694-41f0-9685-ff5bb260df2e";		// you can change to any powerplan you want as default!
@@ -139,7 +137,8 @@ namespace ThrottleSchedulerService
         }
 
         public void initPowerCFG(SettingsManager sm) {
-            
+
+            log.WriteLog("initial PowerCFG settings");
             foreach (string temp in sm.processor_guid_tweak.configList.Keys) {
                 runpowercfg("/attributes " + processor + " " + temp + " -ATTRIB_HIDE");
                 runpowercfg("/setdcvalueindex " + powerplan + " " + processor + " " + temp + " " + sm.processor_guid_tweak.configList[temp]);
@@ -152,8 +151,6 @@ namespace ThrottleSchedulerService
         }
 
         public void setCLK(SettingsManager sm, int setval, bool low) {
-            
-            
 
             if (low)
             {

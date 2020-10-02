@@ -126,7 +126,8 @@ namespace ThrottleSchedulerService
         }
 
         //create config files if nonexistant
-        public void checkFiles()
+        //return true if file is created, false if not.
+        public bool checkFiles()
         {
             //they need to work in tandem
             if (!Directory.Exists(getPath())) { Directory.CreateDirectory(getPath()); log.WriteLog("create folder: " + getPath()); }
@@ -195,7 +196,10 @@ namespace ThrottleSchedulerService
 
                 }
 
+                return true;
+
             }
+            return false;
 
         }
     };

@@ -141,10 +141,10 @@ namespace ThrottleSchedulerService
                 //<string, int>
                 int high = (int)sm.processor_guid_tweak.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
                 int load = getLoad();
-                int clk = getPWR();
-                if (load > high && clk < MaxClockSpeed)
+                int pwr = getPWR();
+                if (load > high && pwr < MaxClockSpeed)
                 {
-                    log.WriteLog("throttle? load = " + load + " ,clk = " + clk);
+                    log.WriteLog("throttle? load = " + load + " ,clk = " + pwr);
                     throttledelay++;
                 }
                 else{
