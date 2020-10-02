@@ -24,7 +24,6 @@ namespace ThrottleSchedulerService
         public Logger log;
 
         int MaxClockSpeed;
-        float MaxXTU;   //safe measure
 
         int throttledelay = 0; //for throttling check margin
 
@@ -128,7 +127,14 @@ namespace ThrottleSchedulerService
          *              06cadf0e-64ed-448a-8927-ce7bf90eb35d = 30   //rocket
          * 2. if load is over 30 and clockspeed is not fullspeed -> throttling.
          */
-        public bool isCurrentlyThrottling(SettingsManager sm){
+        /*
+         * sm.throttleMode:
+         * 0 -> nein
+         * 1 -> cpu(cpu usage under 80)
+         * 2 -> gpu(cpu usage over 80)
+         * cpu is more important than gpu
+         */
+        public bool isCurrentlyThrottling(SettingsManager sm, TweakerController ts){
             try
             {
                 /*
@@ -152,7 +158,22 @@ namespace ThrottleSchedulerService
                         throttledelay--;
                 }
 
-                if (sm.throttleSync && throttledelay > 0) return true;
+
+                sm.throttleMode = 0;
+                if (sm.throttleSync && throttledelay > 0)
+                {
+                    //check which side
+                    if (load < 80)
+                    {
+                        //cpu side
+                        sm.throttleMode = 1;
+                    }
+                    else {
+                        sm.throttleMode = 2;
+                    }
+
+                    return true;
+                }
                 else return false;
 
             }
@@ -172,11 +193,6 @@ namespace ThrottleSchedulerService
             // NOTE: In some rare cases ProcessID will be NULL. Handle this how you want. 
 
             return fgProc;
-        }
-
-        //safe measure
-        public void initXTU(TweakerController controller) {
-            MaxXTU = controller.getXTU();
         }
 
 

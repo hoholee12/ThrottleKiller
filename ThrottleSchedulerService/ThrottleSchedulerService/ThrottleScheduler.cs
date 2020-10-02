@@ -66,7 +66,6 @@ namespace ThrottleSchedulerService
 
         public void initflow() {
             controller.initPowerCFG(settings);
-            checker.initXTU(controller);
         }
 
         //start main loop
@@ -86,9 +85,29 @@ namespace ThrottleSchedulerService
 
                 //3. check throttle
                 log.WriteLog("clk:" + checker.getPWR() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
-                if (checker.isCurrentlyThrottling(settings))
+                
+                if (checker.isCurrentlyThrottling(settings, controller))
                 {
                     log.WriteLog("throttle detected!");
+
+                    /*
+                    * sm.throttleMode:
+                    * 0 -> nein
+                    * 1 -> cpu(cpu usage under 80)
+                    * 2 -> gpu(cpu usage over 80)
+                    * cpu is more important than gpu
+                    */
+                    //TODO
+                    switch (settings.throttleMode) {
+                        case 0: break;
+                        case 1:
+                            
+                            
+                            
+                            break;
+                        case 2: break;
+                    }
+                    settings.throttleMode = 0;
                 }
                 //controller.setXTU(10.5);
                 //checker.detectFgProc(settings);

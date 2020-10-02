@@ -163,17 +163,17 @@ namespace ThrottleSchedulerService
                         if ((Tkey == typeof(string)) && (Tval == typeof(int)))
                         {
                             a = a.Replace("\'", "");
-                            configList.Add(a, int.Parse(b));
+                            configList[a] = int.Parse(b);
                             log.WriteLog("reading: key = " + a + ", value = " + configList[a]);
                         }
                         else if ((Tkey == typeof(int)) && (Tval == typeof(int)))
                         {
-                            configList.Add(int.Parse(a), int.Parse(b));
+                            configList[int.Parse(a)] = int.Parse(b);
                             log.WriteLog("reading: key = " + int.Parse(a) + ", value = " + configList[int.Parse(a)]);
                         }
                         else if ((Tkey == typeof(int)) && (Tval == typeof(float)))
                         {
-                            configList.Add(int.Parse(a), float.Parse(b));
+                            configList[int.Parse(a)] = float.Parse(b);
                             log.WriteLog("reading: key = " + int.Parse(a) + ", value = " + configList[int.Parse(a)]);
                         }
                         else if ((Tkey == typeof(int)) && (Tval == typeof(ProcessPriorityClass)))
@@ -188,7 +188,7 @@ namespace ThrottleSchedulerService
                                 case "belownormal": result = ProcessPriorityClass.BelowNormal; break;
                                 case "abovenormal": result = ProcessPriorityClass.AboveNormal; break;
                             }
-                            configList.Add(int.Parse(a), result);
+                            configList[int.Parse(a)] = result;
                             log.WriteLog("reading: key = " + int.Parse(a) + ", value = " + configList[int.Parse(a)].ToString());
                         }
 

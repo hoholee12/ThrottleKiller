@@ -44,6 +44,8 @@ namespace ThrottleSchedulerService
         //	2 = Maximum Performance(seems to remove long term throttling...)
         Process powercfg;
 
+        float MaxXTU;   //initial xtu value(safe measure)
+
         public TweakerController(Logger log, TweakerChecker checker)
         {
             this.log = log;
@@ -88,7 +90,7 @@ namespace ThrottleSchedulerService
             powercfg.StartInfo.RedirectStandardOutput = true;
             powercfg.StartInfo.CreateNoWindow = true;
 
-
+            MaxXTU = getXTU();  //get initial xtu value
         }
 
 
@@ -115,6 +117,7 @@ namespace ThrottleSchedulerService
         //	false = Balanced(Maximum Battery Life is useless)
         //	true = Maximum Performance(seems to remove long term throttling...)
         public void setXTU(SettingsManager sm, double value, bool gpuplan) {
+
             log.WriteLog("setting XTU: " + value);
             pshell.StartInfo.Arguments = "-t -id 59 -v " + value;
             pshell.Start();
@@ -138,7 +141,7 @@ namespace ThrottleSchedulerService
 
         public void initPowerCFG(SettingsManager sm) {
 
-            log.WriteLog("initial PowerCFG settings");
+            log.WriteLog("init PowerCFG settings");
             foreach (string temp in sm.processor_guid_tweak.configList.Keys) {
                 runpowercfg("/attributes " + processor + " " + temp + " -ATTRIB_HIDE");
                 runpowercfg("/setdcvalueindex " + powerplan + " " + processor + " " + temp + " " + sm.processor_guid_tweak.configList[temp]);
@@ -212,7 +215,7 @@ namespace ThrottleSchedulerService
         //apply power per process
         public void setPower(Process proc, SettingsManager sm) {
             int temp = checkInList(proc, sm);
-            if (temp == -1) return; //not in my list
+            if (temp == -1) temp = 0; //not in my list, go apply default 0
             
             try
             {
@@ -221,8 +224,13 @@ namespace ThrottleSchedulerService
 
                 if (getCLK(false) != temp2)
                 {
-                    log.WriteLog("setting power: " + proc.ProcessName + " to " + temp2.ToString());
+                    if (temp != 0) log.WriteLog("setting power: " + proc.ProcessName + " to " + temp2.ToString());
+                    else log.WriteLog("setting power back to " + temp2.ToString()); //default 0
                     setCLK(sm, temp2, false);
+                    if (MaxXTU < temp3) {
+                        log.WriteLog("oh no, XTU value bad... you may want to restart your computer");
+                        return;
+                    }
                     setXTU(sm, temp3, false);
                 }
             }
@@ -272,6 +280,9 @@ namespace ThrottleSchedulerService
             log.WriteLog("================end of CLK list generation================");
 
         }
+
+
+        
 
         //apply based on profile
         public void setNiceProfile(SettingsManager sm)

@@ -94,6 +94,15 @@ namespace ThrottleSchedulerService
 
         public bool checkPowerCFGFlag { get; set; }
 
+        /*
+         * sm.throttleMode:
+         * 0 -> nein
+         * 1 -> cpu(cpu usage under 80)
+         * 2 -> gpu(cpu usage over 80)
+         * cpu is more important than gpu
+         */
+        public int throttleMode { get; set; }
+
         //batch checkfiles
         public void batchCheckFiles()
         {
