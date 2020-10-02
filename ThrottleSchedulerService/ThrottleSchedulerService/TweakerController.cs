@@ -96,7 +96,8 @@ namespace ThrottleSchedulerService
             return float.Parse(temp);
         }
 
-        public void setXTU(double value) {
+        public void setXTU(SettingsManager sm, double value) {
+            log.WriteLog("setting XTU: " + value);
             pshell.StartInfo.Arguments = "-t -id 59 -v " + value;
             pshell.Start();
             pshell.WaitForExit();
@@ -116,17 +117,17 @@ namespace ThrottleSchedulerService
         }
 
         //intel graphics settings
-        //	1 = Balanced(Maximum Battery Life is useless)
-        //	2 = Maximum Performance(seems to remove long term throttling...)
+        //	false = Balanced(Maximum Battery Life is useless)
+        //	true = Maximum Performance(seems to remove long term throttling...)
         public void setPWR(SettingsManager sm, int setval, bool gpuflag) {
             int gpux = 1;   //balanced
             if (gpuflag)
             {
-                log.WriteLog("setting PWR:" + setval + " GPU: performance");
+                log.WriteLog("setting PWR: " + setval + " GPU: performance");
                 gpux = 2;  //performance
             }
             else {
-                log.WriteLog("setting PWR:" + setval + " GPU: balanced");
+                log.WriteLog("setting PWR: " + setval + " GPU: balanced");
             }
 
 
@@ -187,11 +188,13 @@ namespace ThrottleSchedulerService
             try
             {
                 int temp2 = (int)sm.programs_running_cfg_cpu.configList[temp];
+                double temp3 = (float)sm.programs_running_cfg_xtu.configList[temp];
 
                 if (getPWR() != temp2)
                 {
                     log.WriteLog("setting power: " + proc.ProcessName + " to " + temp2.ToString());
                     setPWR(sm, temp2, false);
+                    setXTU(sm, temp3);
                 }
             }
             catch (Exception) { }

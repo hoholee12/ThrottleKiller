@@ -51,6 +51,8 @@ namespace ThrottleSchedulerService
             settings.initConfig(log);
             checker.initCLK(log);
             checker.initTemp();
+
+            //timesync
             settings.initTimeSync(msec);
 
             controller = new TweakerController(log, checker);
@@ -78,8 +80,8 @@ namespace ThrottleSchedulerService
                 //checker.detectFgProc(settings);
                 //controller.setCLK(settings, 100, 1);
                 controller.setProcNice(checker.detectFgProc(settings), settings);
-
-                controller.getPWR();
+                controller.setPower(checker.detectFgProc(settings), settings);
+                
             }
             settings.updateTimeSync();
         }
