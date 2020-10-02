@@ -27,7 +27,6 @@ namespace ThrottleSchedulerService
         public SettingsToken boost_cycle_delay;
         public SettingsToken ac_offset;
         public SettingsToken processor_guid_tweak;
-
         public SettingsToken generatedCLK;
 
         //BASE DIRECTORY
@@ -92,14 +91,9 @@ namespace ThrottleSchedulerService
         public void cpuproc(string arg0, string arg1) { }
         public void xtuproc(string arg0) { }
 
-        public void checkSettings()
-        {
-            checkFiles_myfiles();
-        }
-
 
         //batch checkfiles
-        public void checkFiles_myfiles()
+        public void batchCheckFiles()
         {
 
             special_programs.checkFiles();
@@ -283,11 +277,10 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             processor_guid_tweak.Tval = typeof(int);
             generatedCLK.Tkey = typeof(int);
             generatedCLK.Tval = typeof(int);
-
-
+            
 
             //batch create first/read settings
-            checkSettings();
+            batchCheckFiles();
 
 
             //and then get last modified date

@@ -67,17 +67,16 @@ namespace ThrottleSchedulerService
         public void initflow() {
             controller.initPowerCFG(settings);
             checker.initXTU(controller);
-            controller.generateCLKlist(settings, checker);
         }
 
         //start main loop
         public void mainflow()
         {
-            
-            //log.WriteLog("loop");
+         
             if (settings.timeSync)
             {
-                settings.checkSettings();   //no need to save io here
+                controller.generateCLKlist(settings, checker);  //before batchCheck
+                settings.batchCheckFiles();   //no need to save io here
                 log.WriteLog("clk:" + checker.getPWR() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
                 if (checker.isCurrentlyThrottling(settings))
                 {

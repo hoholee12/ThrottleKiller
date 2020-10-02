@@ -13,6 +13,7 @@ using OpenHardwareMonitor.Hardware;
 
 namespace ThrottleSchedulerService
 {
+
     //settings paths
     class SettingsToken
     {
@@ -42,8 +43,14 @@ namespace ThrottleSchedulerService
         public string getFullName() { return getPath() + @"\" + getName() + ".txt"; }
 
         public int getCount() {
-            string[] count = File.ReadAllLines(getFullName());
-            return count.Count();
+            try
+            {
+                string[] count = File.ReadAllLines(getFullName());
+                return count.Count();
+            }
+            catch (Exception) {
+                return 0;
+            }
         }
 
         public void completeWriteBack() {

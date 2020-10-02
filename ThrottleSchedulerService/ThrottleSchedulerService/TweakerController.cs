@@ -112,11 +112,30 @@ namespace ThrottleSchedulerService
             return float.Parse(temp);
         }
 
-        public void setXTU(SettingsManager sm, double value) {
+
+        //intel graphics settings
+        //	false = Balanced(Maximum Battery Life is useless)
+        //	true = Maximum Performance(seems to remove long term throttling...)
+        public void setXTU(SettingsManager sm, double value, bool gpuplan) {
             log.WriteLog("setting XTU: " + value);
             pshell.StartInfo.Arguments = "-t -id 59 -v " + value;
             pshell.Start();
             pshell.WaitForExit();
+            int gpux = 1;   //balanced
+            if (gpuplan)
+            {
+                log.WriteLog("setting GPU: performance");
+                gpux = 2;  //performance
+            }
+            else {
+                log.WriteLog("setting GPU: balanced");
+            }
+            //gpu power scheduler
+            runpowercfg("/setdcvalueindex " + powerplan + " " + gpupplan + " " + gpuppsub + " " + gpux);
+            runpowercfg("/setacvalueindex " + powerplan + " " + gpupplan + " " + gpuppsub + " " + gpux);
+
+            runpowercfg("/setactive " + powerplan); //apply
+
         }
 
         public void initPowerCFG(SettingsManager sm) {
@@ -132,33 +151,30 @@ namespace ThrottleSchedulerService
         
         }
 
-        //intel graphics settings
-        //	false = Balanced(Maximum Battery Life is useless)
-        //	true = Maximum Performance(seems to remove long term throttling...)
-        public void setPWR(SettingsManager sm, int setval, bool gpuflag) {
-            int gpux = 1;   //balanced
-            if (gpuflag)
+        public void setCLK(SettingsManager sm, int setval, bool low) {
+            
+            
+
+            if (low)
             {
-                log.WriteLog("setting PWR: " + setval + " GPU: performance");
-                gpux = 2;  //performance
+                runpowercfg("/setdcvalueindex " + powerplan + " " + processor + " " + procsubl + " " + setval);
+                runpowercfg("/setacvalueindex " + powerplan + " " + processor + " " + procsubl + " " + setval);
+                log.WriteLog("setting base CLK: " + setval);
             }
-            else {
-                log.WriteLog("setting PWR: " + setval + " GPU: balanced");
+            else
+            {
+                runpowercfg("/setdcvalueindex " + powerplan + " " + processor + " " + procsubh + " " + setval);
+                runpowercfg("/setacvalueindex " + powerplan + " " + processor + " " + procsubh + " " + (setval - (int)sm.ac_offset.configList["ac_offset"])); //hotter when plugged in
+                log.WriteLog("setting CLK: " + setval);
             }
-
-
-            runpowercfg("/setdcvalueindex " + powerplan + " " + processor + " " + procsubh + " " + setval);
-            runpowercfg("/setacvalueindex " + powerplan + " " + processor + " " + procsubh + " " + (setval - (int)sm.ac_offset.configList["ac_offset"])); //hotter when plugged in
-
-            //gpu power scheduler
-            runpowercfg("/setdcvalueindex " + powerplan + " " + gpupplan + " " + gpuppsub + " " + gpux);
-            runpowercfg("/setacvalueindex " + powerplan + " " + gpupplan + " " + gpuppsub + " " + gpux);
 
             runpowercfg("/setactive " + powerplan); //apply
         }
 
-        public int getPWR() {
-            string temp = runpowercfg("/query " + powerplan + " " + processor + " " + procsubh);
+        public int getCLK(bool low) {
+            string temp;
+            if (low) temp = runpowercfg("/query " + powerplan + " " + processor + " " + procsubl);
+            else temp = runpowercfg("/query " + powerplan + " " + processor + " " + procsubh);
             string temp2 = temp.Split(' ').Last().Trim();
             int temp3 = Convert.ToInt32(temp2, 16);
             return temp3;
@@ -206,11 +222,11 @@ namespace ThrottleSchedulerService
                 int temp2 = (int)sm.programs_running_cfg_cpu.configList[temp];
                 double temp3 = (float)sm.programs_running_cfg_xtu.configList[temp];
 
-                if (getPWR() != temp2)
+                if (getCLK(false) != temp2)
                 {
                     log.WriteLog("setting power: " + proc.ProcessName + " to " + temp2.ToString());
-                    setPWR(sm, temp2, false);
-                    setXTU(sm, temp3);
+                    setCLK(sm, temp2, false);
+                    setXTU(sm, temp3, false);
                 }
             }
             catch (Exception) { }
@@ -222,8 +238,14 @@ namespace ThrottleSchedulerService
         public void generateCLKlist(SettingsManager sm, TweakerChecker tc) {
             if (sm.generatedCLK.getCount() > 1) return; //all generated
 
+            int clkbackuph = getCLK(false);
+            int clkbackupl = getCLK(true);
+
+            sm.generatedCLK.configList.Clear();
+
             //else
             log.WriteLog("================start of CLK list generation================");
+            log.WriteLog("do NOT run anything power intensive!!!");
 
             int prevPWR = int.MaxValue;
             //start looping from 100 down to 50
@@ -248,6 +270,8 @@ namespace ThrottleSchedulerService
             log.WriteLog("writeback to file commencing...");
             sm.generatedCLK.completeWriteBack();
 
+            setCLK(sm, clkbackuph, false);   //restore old clk
+            setCLK(sm, clkbackupl, true);   //restore old clk
             log.WriteLog("================end of CLK list generation================");
 
         }
