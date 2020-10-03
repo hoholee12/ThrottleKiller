@@ -39,7 +39,7 @@ namespace ThrottleSchedulerService
 
         private void OnTimerCount(Object src, ElapsedEventArgs args) {
             //actual sync
-            stopwatch.Start();
+            stopwatch.Restart();
             timer.Enabled = false;
 
             ts.mainflow();
@@ -51,7 +51,7 @@ namespace ThrottleSchedulerService
             timer.Interval = interval;
             timer.Enabled = true;
 
-            ess.WriteLog("service timer interval = " + timer.Interval);
+            ess.WriteLog("system elapsed time = " + stopwatch.ElapsedMilliseconds + ", service timer interval = " + timer.Interval);
         }
 
         protected override void OnStop()

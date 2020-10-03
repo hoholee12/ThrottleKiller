@@ -1,392 +1,150 @@
-2020-10-04 오전 2:06:37: service started
-2020-10-04 오전 2:07:25: service stopped
-2020-10-04 오전 2:07:35: service started
-2020-10-04 오전 2:07:38: service stopped
-2020-10-04 오전 2:08:00: service started
-2020-10-04 오전 2:09:27: service stopped
-2020-10-04 오전 2:10:27: service started
-2020-10-04 오전 2:10:28: service timer interval = 0.1
-2020-10-04 오전 2:11:54: service timer interval = 0.1
-2020-10-04 오전 2:11:56: service timer interval = 0.1
-2020-10-04 오전 2:11:58: service timer interval = 0.1
-2020-10-04 오전 2:12:01: service timer interval = 0.1
-2020-10-04 오전 2:12:03: service timer interval = 0.1
-2020-10-04 오전 2:12:05: service timer interval = 0.1
-2020-10-04 오전 2:12:07: service timer interval = 0.1
-2020-10-04 오전 2:12:09: service timer interval = 0.1
-2020-10-04 오전 2:12:12: service timer interval = 0.1
-2020-10-04 오전 2:12:14: service timer interval = 0.1
-2020-10-04 오전 2:12:16: service timer interval = 0.1
-2020-10-04 오전 2:12:18: service timer interval = 0.1
-2020-10-04 오전 2:12:20: service timer interval = 0.1
-2020-10-04 오전 2:12:22: service timer interval = 0.1
-2020-10-04 오전 2:12:25: service timer interval = 0.1
-2020-10-04 오전 2:12:27: service timer interval = 0.1
-2020-10-04 오전 2:12:29: service timer interval = 0.1
-2020-10-04 오전 2:12:31: service timer interval = 0.1
-2020-10-04 오전 2:12:33: service timer interval = 0.1
-2020-10-04 오전 2:12:35: service timer interval = 0.1
-2020-10-04 오전 2:12:38: service timer interval = 0.1
-2020-10-04 오전 2:12:40: service timer interval = 0.1
-2020-10-04 오전 2:12:42: service timer interval = 0.1
-2020-10-04 오전 2:12:44: service timer interval = 0.1
-2020-10-04 오전 2:12:46: service timer interval = 0.1
-2020-10-04 오전 2:12:48: service timer interval = 0.1
-2020-10-04 오전 2:12:51: service timer interval = 0.1
-2020-10-04 오전 2:12:53: service timer interval = 0.1
-2020-10-04 오전 2:12:55: service timer interval = 0.1
-2020-10-04 오전 2:12:57: service timer interval = 0.1
-2020-10-04 오전 2:12:59: service timer interval = 0.1
-2020-10-04 오전 2:13:01: service timer interval = 0.1
-2020-10-04 오전 2:13:04: service timer interval = 0.1
-2020-10-04 오전 2:13:06: service timer interval = 0.1
-2020-10-04 오전 2:13:08: service timer interval = 0.1
-2020-10-04 오전 2:13:10: service timer interval = 0.1
-2020-10-04 오전 2:13:12: service timer interval = 0.1
-2020-10-04 오전 2:13:14: service timer interval = 0.1
-2020-10-04 오전 2:13:17: service timer interval = 0.1
-2020-10-04 오전 2:13:19: service timer interval = 0.1
-2020-10-04 오전 2:13:21: service timer interval = 0.1
-2020-10-04 오전 2:13:23: service timer interval = 0.1
-2020-10-04 오전 2:13:25: service timer interval = 0.1
-2020-10-04 오전 2:13:27: service timer interval = 0.1
-2020-10-04 오전 2:13:30: service timer interval = 0.1
-2020-10-04 오전 2:13:32: service timer interval = 0.1
-2020-10-04 오전 2:13:34: service timer interval = 0.1
-2020-10-04 오전 2:13:36: service timer interval = 0.1
-2020-10-04 오전 2:13:38: service timer interval = 0.1
-2020-10-04 오전 2:13:40: service timer interval = 0.1
-2020-10-04 오전 2:13:43: service timer interval = 0.1
-2020-10-04 오전 2:13:45: service timer interval = 0.1
-2020-10-04 오전 2:13:47: service timer interval = 0.1
-2020-10-04 오전 2:13:49: service timer interval = 0.1
-2020-10-04 오전 2:13:51: service timer interval = 0.1
-2020-10-04 오전 2:13:53: service timer interval = 0.1
-2020-10-04 오전 2:13:56: service timer interval = 0.1
-2020-10-04 오전 2:13:58: service timer interval = 0.1
-2020-10-04 오전 2:14:00: service timer interval = 0.1
-2020-10-04 오전 2:14:02: service timer interval = 0.1
-2020-10-04 오전 2:14:04: service timer interval = 0.1
-2020-10-04 오전 2:14:06: service timer interval = 0.1
-2020-10-04 오전 2:14:09: service timer interval = 0.1
-2020-10-04 오전 2:14:11: service timer interval = 0.1
-2020-10-04 오전 2:14:13: service timer interval = 0.1
-2020-10-04 오전 2:14:15: service timer interval = 0.1
-2020-10-04 오전 2:14:17: service timer interval = 0.1
-2020-10-04 오전 2:14:19: service timer interval = 0.1
-2020-10-04 오전 2:14:22: service timer interval = 0.1
-2020-10-04 오전 2:14:24: service timer interval = 0.1
-2020-10-04 오전 2:14:26: service timer interval = 0.1
-2020-10-04 오전 2:14:28: service timer interval = 0.1
-2020-10-04 오전 2:14:30: service timer interval = 0.1
-2020-10-04 오전 2:14:33: service timer interval = 0.1
-2020-10-04 오전 2:14:35: service timer interval = 0.1
-2020-10-04 오전 2:14:37: service timer interval = 0.1
-2020-10-04 오전 2:14:39: service timer interval = 0.1
-2020-10-04 오전 2:14:41: service timer interval = 0.1
-2020-10-04 오전 2:14:43: service timer interval = 0.1
-2020-10-04 오전 2:14:45: service timer interval = 0.1
-2020-10-04 오전 2:14:48: service timer interval = 0.1
-2020-10-04 오전 2:14:49: service stopped
-2020-10-04 오전 2:15:11: service started
-2020-10-04 오전 2:15:12: service timer interval = 0.1
-2020-10-04 오전 2:15:19: service timer interval = 0.1
-2020-10-04 오전 2:15:21: service timer interval = 0.1
-2020-10-04 오전 2:15:24: service timer interval = 0.1
-2020-10-04 오전 2:15:26: service timer interval = 0.1
-2020-10-04 오전 2:15:28: service timer interval = 0.1
-2020-10-04 오전 2:15:30: service timer interval = 0.1
-2020-10-04 오전 2:15:32: service timer interval = 0.1
-2020-10-04 오전 2:15:35: service timer interval = 0.1
-2020-10-04 오전 2:15:37: service timer interval = 0.1
-2020-10-04 오전 2:15:39: service timer interval = 0.1
-2020-10-04 오전 2:15:41: service timer interval = 0.1
-2020-10-04 오전 2:15:43: service timer interval = 0.1
-2020-10-04 오전 2:15:45: service timer interval = 0.1
-2020-10-04 오전 2:15:48: service timer interval = 0.1
-2020-10-04 오전 2:15:50: service timer interval = 0.1
-2020-10-04 오전 2:15:52: service timer interval = 0.1
-2020-10-04 오전 2:15:54: service timer interval = 0.1
-2020-10-04 오전 2:15:56: service timer interval = 0.1
-2020-10-04 오전 2:15:58: service timer interval = 0.1
-2020-10-04 오전 2:16:01: service timer interval = 0.1
-2020-10-04 오전 2:16:03: service timer interval = 0.1
-2020-10-04 오전 2:16:05: service timer interval = 0.1
-2020-10-04 오전 2:16:07: service timer interval = 0.1
-2020-10-04 오전 2:16:09: service timer interval = 0.1
-2020-10-04 오전 2:16:11: service timer interval = 0.1
-2020-10-04 오전 2:16:14: service timer interval = 0.1
-2020-10-04 오전 2:16:16: service timer interval = 0.1
-2020-10-04 오전 2:16:18: service timer interval = 0.1
-2020-10-04 오전 2:16:20: service timer interval = 0.1
-2020-10-04 오전 2:16:22: service timer interval = 0.1
-2020-10-04 오전 2:16:24: service timer interval = 0.1
-2020-10-04 오전 2:16:27: service timer interval = 0.1
-2020-10-04 오전 2:16:29: service timer interval = 0.1
-2020-10-04 오전 2:16:31: service timer interval = 0.1
-2020-10-04 오전 2:16:31: service timer interval = 0.1
-2020-10-04 오전 2:16:33: service timer interval = 0.1
-2020-10-04 오전 2:16:33: service timer interval = 0.1
-2020-10-04 오전 2:16:33: service timer interval = 0.1
-2020-10-04 오전 2:16:33: service timer interval = 0.1
-2020-10-04 오전 2:16:33: service timer interval = 0.1
-2020-10-04 오전 2:16:35: service timer interval = 0.1
-2020-10-04 오전 2:16:35: service timer interval = 0.1
-2020-10-04 오전 2:16:35: service timer interval = 0.1
-2020-10-04 오전 2:16:35: service timer interval = 0.1
-2020-10-04 오전 2:16:35: service timer interval = 0.1
-2020-10-04 오전 2:16:38: service timer interval = 0.1
-2020-10-04 오전 2:16:38: service timer interval = 0.1
-2020-10-04 오전 2:16:38: service timer interval = 0.1
-2020-10-04 오전 2:16:38: service timer interval = 0.1
-2020-10-04 오전 2:16:38: service timer interval = 0.1
-2020-10-04 오전 2:16:40: service timer interval = 0.1
-2020-10-04 오전 2:16:40: service timer interval = 0.1
-2020-10-04 오전 2:16:40: service timer interval = 0.1
-2020-10-04 오전 2:16:40: service timer interval = 0.1
-2020-10-04 오전 2:16:40: service timer interval = 0.1
-2020-10-04 오전 2:16:42: service timer interval = 0.1
-2020-10-04 오전 2:16:42: service timer interval = 0.1
-2020-10-04 오전 2:16:42: service timer interval = 0.1
-2020-10-04 오전 2:16:42: service timer interval = 0.1
-2020-10-04 오전 2:16:42: service timer interval = 0.1
-2020-10-04 오전 2:16:44: service timer interval = 0.1
-2020-10-04 오전 2:16:44: service timer interval = 0.1
-2020-10-04 오전 2:16:44: service timer interval = 0.1
-2020-10-04 오전 2:16:44: service timer interval = 0.1
-2020-10-04 오전 2:16:44: service timer interval = 0.1
-2020-10-04 오전 2:16:47: service timer interval = 0.1
-2020-10-04 오전 2:16:47: service timer interval = 0.1
-2020-10-04 오전 2:16:47: service timer interval = 0.1
-2020-10-04 오전 2:16:47: service timer interval = 0.1
-2020-10-04 오전 2:16:47: service timer interval = 0.1
-2020-10-04 오전 2:16:49: service timer interval = 0.1
-2020-10-04 오전 2:16:49: service timer interval = 0.1
-2020-10-04 오전 2:16:49: service timer interval = 0.1
-2020-10-04 오전 2:16:49: service timer interval = 0.1
-2020-10-04 오전 2:16:49: service timer interval = 0.1
-2020-10-04 오전 2:16:51: service timer interval = 0.1
-2020-10-04 오전 2:16:51: service timer interval = 0.1
-2020-10-04 오전 2:16:51: service timer interval = 0.1
-2020-10-04 오전 2:16:51: service timer interval = 0.1
-2020-10-04 오전 2:16:53: service timer interval = 0.1
-2020-10-04 오전 2:16:53: service timer interval = 0.1
-2020-10-04 오전 2:16:53: service timer interval = 0.1
-2020-10-04 오전 2:16:53: service timer interval = 0.1
-2020-10-04 오전 2:16:53: service timer interval = 0.1
-2020-10-04 오전 2:16:55: service timer interval = 0.1
-2020-10-04 오전 2:16:55: service timer interval = 0.1
-2020-10-04 오전 2:16:55: service timer interval = 0.1
-2020-10-04 오전 2:16:55: service timer interval = 0.1
-2020-10-04 오전 2:16:56: service timer interval = 0.1
-2020-10-04 오전 2:16:58: service timer interval = 0.1
-2020-10-04 오전 2:16:58: service timer interval = 0.1
-2020-10-04 오전 2:16:58: service timer interval = 0.1
-2020-10-04 오전 2:16:58: service timer interval = 0.1
-2020-10-04 오전 2:16:58: service timer interval = 0.1
-2020-10-04 오전 2:17:00: service timer interval = 0.1
-2020-10-04 오전 2:17:00: service timer interval = 0.1
-2020-10-04 오전 2:17:00: service timer interval = 0.1
-2020-10-04 오전 2:17:00: service timer interval = 0.1
-2020-10-04 오전 2:17:00: service timer interval = 0.1
-2020-10-04 오전 2:17:02: service timer interval = 0.1
-2020-10-04 오전 2:17:02: service timer interval = 0.1
-2020-10-04 오전 2:17:02: service timer interval = 0.1
-2020-10-04 오전 2:17:02: service timer interval = 0.1
-2020-10-04 오전 2:17:02: service timer interval = 0.1
-2020-10-04 오전 2:17:04: service timer interval = 0.1
-2020-10-04 오전 2:17:04: service timer interval = 0.1
-2020-10-04 오전 2:17:04: service timer interval = 0.1
-2020-10-04 오전 2:17:04: service timer interval = 0.1
-2020-10-04 오전 2:17:04: service timer interval = 0.1
-2020-10-04 오전 2:17:07: service timer interval = 0.1
-2020-10-04 오전 2:17:07: service timer interval = 0.1
-2020-10-04 오전 2:17:07: service timer interval = 0.1
-2020-10-04 오전 2:17:07: service timer interval = 0.1
-2020-10-04 오전 2:17:07: service timer interval = 0.1
-2020-10-04 오전 2:17:09: service timer interval = 0.1
-2020-10-04 오전 2:17:09: service timer interval = 0.1
-2020-10-04 오전 2:17:09: service timer interval = 0.1
-2020-10-04 오전 2:17:09: service timer interval = 0.1
-2020-10-04 오전 2:17:09: service timer interval = 0.1
-2020-10-04 오전 2:17:11: service timer interval = 0.1
-2020-10-04 오전 2:17:11: service timer interval = 0.1
-2020-10-04 오전 2:17:11: service timer interval = 0.1
-2020-10-04 오전 2:17:11: service timer interval = 0.1
-2020-10-04 오전 2:17:11: service timer interval = 0.1
-2020-10-04 오전 2:17:13: service timer interval = 0.1
-2020-10-04 오전 2:17:13: service timer interval = 0.1
-2020-10-04 오전 2:17:13: service timer interval = 0.1
-2020-10-04 오전 2:17:13: service timer interval = 0.1
-2020-10-04 오전 2:17:13: service timer interval = 0.1
-2020-10-04 오전 2:17:16: service timer interval = 0.1
-2020-10-04 오전 2:17:16: service timer interval = 0.1
-2020-10-04 오전 2:17:16: service timer interval = 0.1
-2020-10-04 오전 2:17:16: service timer interval = 0.1
-2020-10-04 오전 2:17:16: service timer interval = 0.1
-2020-10-04 오전 2:17:18: service timer interval = 0.1
-2020-10-04 오전 2:17:18: service timer interval = 0.1
-2020-10-04 오전 2:17:18: service timer interval = 0.1
-2020-10-04 오전 2:17:18: service timer interval = 0.1
-2020-10-04 오전 2:17:18: service timer interval = 0.1
-2020-10-04 오전 2:17:20: service timer interval = 0.1
-2020-10-04 오전 2:17:20: service timer interval = 0.1
-2020-10-04 오전 2:17:20: service timer interval = 0.1
-2020-10-04 오전 2:17:20: service timer interval = 0.1
-2020-10-04 오전 2:17:20: service timer interval = 0.1
-2020-10-04 오전 2:17:22: service timer interval = 0.1
-2020-10-04 오전 2:17:22: service timer interval = 0.1
-2020-10-04 오전 2:17:22: service timer interval = 0.1
-2020-10-04 오전 2:17:22: service timer interval = 0.1
-2020-10-04 오전 2:17:22: service timer interval = 0.1
-2020-10-04 오전 2:17:24: service timer interval = 0.1
-2020-10-04 오전 2:17:24: service timer interval = 0.1
-2020-10-04 오전 2:17:24: service timer interval = 0.1
-2020-10-04 오전 2:17:24: service timer interval = 0.1
-2020-10-04 오전 2:17:24: service timer interval = 0.1
-2020-10-04 오전 2:17:27: service timer interval = 0.1
-2020-10-04 오전 2:17:27: service timer interval = 0.1
-2020-10-04 오전 2:17:27: service timer interval = 0.1
-2020-10-04 오전 2:17:27: service timer interval = 0.1
-2020-10-04 오전 2:17:27: service timer interval = 0.1
-2020-10-04 오전 2:17:29: service timer interval = 0.1
-2020-10-04 오전 2:17:29: service timer interval = 0.1
-2020-10-04 오전 2:17:29: service timer interval = 0.1
-2020-10-04 오전 2:17:29: service timer interval = 0.1
-2020-10-04 오전 2:17:29: service timer interval = 0.1
-2020-10-04 오전 2:17:31: service timer interval = 0.1
-2020-10-04 오전 2:17:31: service timer interval = 0.1
-2020-10-04 오전 2:17:31: service timer interval = 0.1
-2020-10-04 오전 2:17:31: service timer interval = 0.1
-2020-10-04 오전 2:17:31: service timer interval = 0.1
-2020-10-04 오전 2:17:33: service timer interval = 0.1
-2020-10-04 오전 2:17:33: service timer interval = 0.1
-2020-10-04 오전 2:17:33: service timer interval = 0.1
-2020-10-04 오전 2:17:33: service timer interval = 0.1
-2020-10-04 오전 2:17:33: service timer interval = 0.1
-2020-10-04 오전 2:17:36: service timer interval = 0.1
-2020-10-04 오전 2:17:36: service timer interval = 0.1
-2020-10-04 오전 2:17:36: service timer interval = 0.1
-2020-10-04 오전 2:17:36: service timer interval = 0.1
-2020-10-04 오전 2:17:36: service timer interval = 0.1
-2020-10-04 오전 2:17:38: service timer interval = 0.1
-2020-10-04 오전 2:17:38: service timer interval = 0.1
-2020-10-04 오전 2:17:38: service timer interval = 0.1
-2020-10-04 오전 2:17:38: service timer interval = 0.1
-2020-10-04 오전 2:17:38: service timer interval = 0.1
-2020-10-04 오전 2:17:40: service timer interval = 0.1
-2020-10-04 오전 2:17:40: service timer interval = 0.1
-2020-10-04 오전 2:17:40: service timer interval = 0.1
-2020-10-04 오전 2:17:40: service timer interval = 0.1
-2020-10-04 오전 2:17:40: service timer interval = 0.1
-2020-10-04 오전 2:17:42: service timer interval = 0.1
-2020-10-04 오전 2:17:42: service timer interval = 0.1
-2020-10-04 오전 2:17:42: service timer interval = 0.1
-2020-10-04 오전 2:17:42: service timer interval = 0.1
-2020-10-04 오전 2:17:42: service timer interval = 0.1
-2020-10-04 오전 2:17:44: service timer interval = 0.1
-2020-10-04 오전 2:17:44: service timer interval = 0.1
-2020-10-04 오전 2:17:44: service timer interval = 0.1
-2020-10-04 오전 2:17:45: service timer interval = 0.1
-2020-10-04 오전 2:17:45: service timer interval = 0.1
-2020-10-04 오전 2:17:47: service timer interval = 0.1
-2020-10-04 오전 2:17:47: service timer interval = 0.1
-2020-10-04 오전 2:17:47: service timer interval = 0.1
-2020-10-04 오전 2:17:47: service timer interval = 0.1
-2020-10-04 오전 2:17:47: service timer interval = 0.1
-2020-10-04 오전 2:17:49: service timer interval = 0.1
-2020-10-04 오전 2:17:49: service timer interval = 0.1
-2020-10-04 오전 2:17:49: service timer interval = 0.1
-2020-10-04 오전 2:17:49: service timer interval = 0.1
-2020-10-04 오전 2:17:49: service timer interval = 0.1
-2020-10-04 오전 2:17:51: service timer interval = 0.1
-2020-10-04 오전 2:17:51: service timer interval = 0.1
-2020-10-04 오전 2:17:51: service timer interval = 0.1
-2020-10-04 오전 2:17:51: service timer interval = 0.1
-2020-10-04 오전 2:17:51: service timer interval = 0.1
-2020-10-04 오전 2:17:53: service timer interval = 0.1
-2020-10-04 오전 2:17:53: service timer interval = 0.1
-2020-10-04 오전 2:17:53: service timer interval = 0.1
-2020-10-04 오전 2:17:53: service timer interval = 0.1
-2020-10-04 오전 2:17:53: service timer interval = 0.1
-2020-10-04 오전 2:17:56: service timer interval = 0.1
-2020-10-04 오전 2:17:56: service timer interval = 0.1
-2020-10-04 오전 2:17:56: service timer interval = 0.1
-2020-10-04 오전 2:17:56: service timer interval = 0.1
-2020-10-04 오전 2:17:56: service timer interval = 0.1
-2020-10-04 오전 2:17:58: service timer interval = 0.1
-2020-10-04 오전 2:17:58: service timer interval = 0.1
-2020-10-04 오전 2:17:58: service timer interval = 0.1
-2020-10-04 오전 2:17:58: service timer interval = 0.1
-2020-10-04 오전 2:17:58: service timer interval = 0.1
-2020-10-04 오전 2:18:00: service timer interval = 0.1
-2020-10-04 오전 2:18:00: service timer interval = 0.1
-2020-10-04 오전 2:18:00: service timer interval = 0.1
-2020-10-04 오전 2:18:00: service timer interval = 0.1
-2020-10-04 오전 2:18:00: service timer interval = 0.1
-2020-10-04 오전 2:18:02: service timer interval = 0.1
-2020-10-04 오전 2:18:02: service timer interval = 0.1
-2020-10-04 오전 2:18:02: service timer interval = 0.1
-2020-10-04 오전 2:18:02: service timer interval = 0.1
-2020-10-04 오전 2:18:02: service timer interval = 0.1
-2020-10-04 오전 2:18:04: service timer interval = 0.1
-2020-10-04 오전 2:18:04: service timer interval = 0.1
-2020-10-04 오전 2:18:05: service timer interval = 0.1
-2020-10-04 오전 2:18:05: service timer interval = 0.1
-2020-10-04 오전 2:18:05: service timer interval = 0.1
-2020-10-04 오전 2:18:07: service timer interval = 0.1
-2020-10-04 오전 2:18:07: service timer interval = 0.1
-2020-10-04 오전 2:18:07: service timer interval = 0.1
-2020-10-04 오전 2:18:07: service timer interval = 0.1
-2020-10-04 오전 2:18:07: service timer interval = 0.1
-2020-10-04 오전 2:18:09: service timer interval = 0.1
-2020-10-04 오전 2:18:09: service timer interval = 0.1
-2020-10-04 오전 2:18:09: service timer interval = 0.1
-2020-10-04 오전 2:18:09: service timer interval = 0.1
-2020-10-04 오전 2:18:09: service timer interval = 0.1
-2020-10-04 오전 2:18:11: service timer interval = 0.1
-2020-10-04 오전 2:18:11: service timer interval = 0.1
-2020-10-04 오전 2:18:11: service timer interval = 0.1
-2020-10-04 오전 2:18:11: service timer interval = 0.1
-2020-10-04 오전 2:18:11: service timer interval = 0.1
-2020-10-04 오전 2:18:13: service timer interval = 0.1
-2020-10-04 오전 2:18:13: service timer interval = 0.1
-2020-10-04 오전 2:18:13: service timer interval = 0.1
-2020-10-04 오전 2:18:13: service timer interval = 0.1
-2020-10-04 오전 2:18:13: service timer interval = 0.1
-2020-10-04 오전 2:18:16: service timer interval = 0.1
-2020-10-04 오전 2:18:16: service timer interval = 0.1
-2020-10-04 오전 2:18:16: service timer interval = 0.1
-2020-10-04 오전 2:18:16: service timer interval = 0.1
-2020-10-04 오전 2:18:16: service timer interval = 0.1
-2020-10-04 오전 2:18:18: service timer interval = 0.1
-2020-10-04 오전 2:18:18: service timer interval = 0.1
-2020-10-04 오전 2:18:18: service timer interval = 0.1
-2020-10-04 오전 2:18:18: service timer interval = 0.1
-2020-10-04 오전 2:18:18: service timer interval = 0.1
-2020-10-04 오전 2:18:20: service timer interval = 0.1
-2020-10-04 오전 2:18:20: service timer interval = 0.1
-2020-10-04 오전 2:18:20: service timer interval = 0.1
-2020-10-04 오전 2:18:20: service timer interval = 0.1
-2020-10-04 오전 2:18:20: service timer interval = 0.1
-2020-10-04 오전 2:18:22: service timer interval = 0.1
-2020-10-04 오전 2:18:22: service timer interval = 0.1
-2020-10-04 오전 2:18:22: service timer interval = 0.1
-2020-10-04 오전 2:18:22: service timer interval = 0.1
-2020-10-04 오전 2:18:22: service timer interval = 0.1
-2020-10-04 오전 2:18:25: service timer interval = 0.1
-2020-10-04 오전 2:18:25: service timer interval = 0.1
-2020-10-04 오전 2:18:25: service timer interval = 0.1
-2020-10-04 오전 2:18:25: service timer interval = 0.1
-2020-10-04 오전 2:18:25: service timer interval = 0.1
-2020-10-04 오전 2:18:27: service timer interval = 0.1
-2020-10-04 오전 2:18:27: service timer interval = 0.1
-2020-10-04 오전 2:18:27: service timer interval = 0.1
-2020-10-04 오전 2:18:27: service timer interval = 0.1
-2020-10-04 오전 2:18:27: service timer interval = 0.1
-2020-10-04 오전 2:18:29: service timer interval = 0.1
-2020-10-04 오전 2:18:29: service timer interval = 0.1
-2020-10-04 오전 2:18:29: service timer interval = 0.1
-2020-10-04 오전 2:18:29: service timer interval = 0.1
-2020-10-04 오전 2:18:29: service timer interval = 0.1
-2020-10-04 오전 2:18:30: service stopped
+2020-10-04 오전 2:50:12: service started
+2020-10-04 오전 2:50:13: system elapsed time = 1, service timer interval = 999
+2020-10-04 오전 2:51:39: system elapsed time = 84970, service timer interval = 0.1
+2020-10-04 오전 2:51:41: system elapsed time = 2173, service timer interval = 0.1
+2020-10-04 오전 2:51:43: system elapsed time = 2142, service timer interval = 0.1
+2020-10-04 오전 2:51:45: system elapsed time = 2190, service timer interval = 0.1
+2020-10-04 오전 2:51:47: system elapsed time = 2162, service timer interval = 0.1
+2020-10-04 오전 2:51:49: system elapsed time = 2142, service timer interval = 0.1
+2020-10-04 오전 2:51:52: system elapsed time = 2152, service timer interval = 0.1
+2020-10-04 오전 2:51:54: system elapsed time = 2146, service timer interval = 0.1
+2020-10-04 오전 2:51:56: system elapsed time = 2184, service timer interval = 0.1
+2020-10-04 오전 2:51:58: system elapsed time = 2165, service timer interval = 0.1
+2020-10-04 오전 2:52:00: system elapsed time = 2196, service timer interval = 0.1
+2020-10-04 오전 2:52:03: system elapsed time = 2147, service timer interval = 0.1
+2020-10-04 오전 2:52:05: system elapsed time = 2140, service timer interval = 0.1
+2020-10-04 오전 2:52:07: system elapsed time = 2143, service timer interval = 0.1
+2020-10-04 오전 2:52:09: system elapsed time = 2145, service timer interval = 0.1
+2020-10-04 오전 2:52:11: system elapsed time = 2163, service timer interval = 0.1
+2020-10-04 오전 2:52:13: system elapsed time = 2157, service timer interval = 0.1
+2020-10-04 오전 2:52:15: system elapsed time = 2158, service timer interval = 0.1
+2020-10-04 오전 2:52:18: system elapsed time = 2143, service timer interval = 0.1
+2020-10-04 오전 2:52:20: system elapsed time = 2158, service timer interval = 0.1
+2020-10-04 오전 2:52:22: system elapsed time = 2143, service timer interval = 0.1
+2020-10-04 오전 2:52:24: system elapsed time = 2141, service timer interval = 0.1
+2020-10-04 오전 2:52:26: system elapsed time = 2143, service timer interval = 0.1
+2020-10-04 오전 2:52:28: system elapsed time = 2157, service timer interval = 0.1
+2020-10-04 오전 2:52:31: system elapsed time = 2144, service timer interval = 0.1
+2020-10-04 오전 2:52:33: system elapsed time = 2155, service timer interval = 0.1
+2020-10-04 오전 2:52:35: system elapsed time = 2154, service timer interval = 0.1
+2020-10-04 오전 2:52:37: system elapsed time = 2161, service timer interval = 0.1
+2020-10-04 오전 2:52:39: system elapsed time = 2151, service timer interval = 0.1
+2020-10-04 오전 2:52:41: system elapsed time = 2153, service timer interval = 0.1
+2020-10-04 오전 2:52:44: system elapsed time = 2149, service timer interval = 0.1
+2020-10-04 오전 2:52:46: system elapsed time = 2144, service timer interval = 0.1
+2020-10-04 오전 2:52:48: system elapsed time = 2141, service timer interval = 0.1
+2020-10-04 오전 2:52:50: system elapsed time = 2186, service timer interval = 0.1
+2020-10-04 오전 2:52:52: system elapsed time = 2142, service timer interval = 0.1
+2020-10-04 오전 2:52:55: system elapsed time = 2158, service timer interval = 0.1
+2020-10-04 오전 2:52:57: system elapsed time = 2186, service timer interval = 0.1
+2020-10-04 오전 2:52:59: system elapsed time = 2143, service timer interval = 0.1
+2020-10-04 오전 2:53:01: system elapsed time = 2146, service timer interval = 0.1
+2020-10-04 오전 2:53:03: system elapsed time = 2143, service timer interval = 0.1
+2020-10-04 오전 2:53:05: system elapsed time = 2143, service timer interval = 0.1
+2020-10-04 오전 2:53:07: system elapsed time = 2154, service timer interval = 0.1
+2020-10-04 오전 2:53:10: system elapsed time = 2150, service timer interval = 0.1
+2020-10-04 오전 2:53:12: system elapsed time = 2147, service timer interval = 0.1
+2020-10-04 오전 2:53:14: system elapsed time = 2142, service timer interval = 0.1
+2020-10-04 오전 2:53:16: system elapsed time = 2140, service timer interval = 0.1
+2020-10-04 오전 2:53:18: system elapsed time = 2157, service timer interval = 0.1
+2020-10-04 오전 2:53:20: system elapsed time = 2147, service timer interval = 0.1
+2020-10-04 오전 2:53:23: system elapsed time = 2139, service timer interval = 0.1
+2020-10-04 오전 2:53:25: system elapsed time = 2152, service timer interval = 0.1
+2020-10-04 오전 2:53:27: system elapsed time = 2180, service timer interval = 0.1
+2020-10-04 오전 2:53:29: system elapsed time = 2159, service timer interval = 0.1
+2020-10-04 오전 2:53:29: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:30: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:31: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:34: system elapsed time = 2155, service timer interval = 0.1
+2020-10-04 오전 2:53:34: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:35: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:36: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:37: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:41: system elapsed time = 2139, service timer interval = 0.1
+2020-10-04 오전 2:53:41: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:42: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:43: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:44: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:47: system elapsed time = 2149, service timer interval = 0.1
+2020-10-04 오전 2:53:47: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:48: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:49: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:50: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:53: system elapsed time = 2142, service timer interval = 0.1
+2020-10-04 오전 2:53:53: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:54: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:55: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:56: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:53:59: system elapsed time = 2143, service timer interval = 0.1
+2020-10-04 오전 2:53:59: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:00: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:01: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:02: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:05: system elapsed time = 2149, service timer interval = 0.1
+2020-10-04 오전 2:54:05: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:06: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:07: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:08: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:11: system elapsed time = 2146, service timer interval = 0.1
+2020-10-04 오전 2:54:11: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:13: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:14: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:15: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:18: system elapsed time = 2159, service timer interval = 0.1
+2020-10-04 오전 2:54:18: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:19: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:20: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:21: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:24: system elapsed time = 2159, service timer interval = 0.1
+2020-10-04 오전 2:54:24: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:25: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:26: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:27: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:30: system elapsed time = 2147, service timer interval = 0.1
+2020-10-04 오전 2:54:30: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:31: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:32: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:33: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:36: system elapsed time = 2145, service timer interval = 0.1
+2020-10-04 오전 2:54:36: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:37: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:38: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:39: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:42: system elapsed time = 2159, service timer interval = 0.1
+2020-10-04 오전 2:54:42: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:44: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:45: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:46: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:49: system elapsed time = 2148, service timer interval = 0.1
+2020-10-04 오전 2:54:49: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:50: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:51: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:52: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:55: system elapsed time = 2154, service timer interval = 0.1
+2020-10-04 오전 2:54:55: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:56: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:57: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:54:58: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:55:01: system elapsed time = 2149, service timer interval = 0.1
+2020-10-04 오전 2:55:01: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:55:02: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:55:03: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:55:04: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:55:07: system elapsed time = 2141, service timer interval = 0.1
+2020-10-04 오전 2:55:07: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:55:08: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:55:09: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:55:10: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:55:13: system elapsed time = 2140, service timer interval = 0.1
+2020-10-04 오전 2:55:13: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:55:14: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:55:15: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:55:16: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:55:20: system elapsed time = 2157, service timer interval = 0.1
+2020-10-04 오전 2:55:20: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:55:21: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:55:22: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:55:23: system elapsed time = 0, service timer interval = 1000
+2020-10-04 오전 2:55:23: service stopped
+2020-10-04 오전 2:55:45: service started
+2020-10-04 오전 2:55:46: system elapsed time = 1, service timer interval = 999

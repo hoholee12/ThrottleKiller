@@ -315,8 +315,8 @@ namespace ThrottleSchedulerService
 5 = idle
 6 = realtime
 7 = high");
-            loop_delay.setContent(@"loop_delay = 1");
-            boost_cycle_delay.setContent(@"boost_cycle_delay = 5");
+            loop_delay.setContent(@"loop_delay = 5");
+            boost_cycle_delay.setContent(@"boost_cycle_delay = 6");
             ac_offset.setContent(@"ac_offset = 1");
             processor_guid_tweak.setContent(@"
 06cadf0e-64ed-448a-8927-ce7bf90eb35d = 30			# processor high threshold; lower this for performance
