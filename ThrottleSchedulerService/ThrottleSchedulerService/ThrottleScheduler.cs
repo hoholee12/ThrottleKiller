@@ -79,9 +79,10 @@ namespace ThrottleSchedulerService
                 settings.batchCheckFiles();   //no need to save io here
                 if (settings.checkPowerCFGFlag) controller.initPowerCFG(settings);
 
-                //2. apply settings
-                controller.setProcNice(checker.detectFgProc(settings), settings);
-                controller.setPower(checker.detectFgProc(settings), settings);
+                //2. apply settings(add app if dont exist)
+                var currfg = checker.detectFgProc(settings);
+                controller.setProcNice(currfg, settings);
+                controller.setPower(currfg, settings);
 
                 //3. check throttle
                 /*
@@ -101,38 +102,53 @@ namespace ThrottleSchedulerService
                  *      monitor performance for throttleSync(tweakable) cycles and assign to closest one.
                  *      
                  */
-                //log.WriteLog("clockspeed:" + checker.getPWR() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
-                
-                if (checker.isCurrentlyThrottling(settings, controller))
-                {
+                log.WriteLog("clockspeed:" + checker.getPWR() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
+
+                /*current app info
+                *  1. skip if its not in list
+                *  2. which throttle mode
+                */
+
+                //current profile:
+                int currprof = controller.checkInList(currfg, settings);
+
+                //if app has a profile:
+                if (currprof != -1){
+                    if (checker.isCurrentlyThrottling(settings, controller)){
                     
+                        int mode = settings.throttleMode;   //save mode
+                        settings.throttleMode = 0;  //reset
 
-                    /*
-                    * sm.throttleMode:
-                    * 0 -> nein
-                    * 1 -> cpu(cpu usage under 80)
-                    * 2 -> gpu(cpu usage over 80)
-                    * cpu is more important than gpu
-                    */
-                    //TODO
-                    switch (settings.throttleMode) {
-                        case 0: break;
-                        case 1:
+                        //new clk value for cpu throttle (newclk)
+                        var gclklist = settings.generatedCLK.configList.Keys.Cast<int>().ToList();
+                        gclklist.Sort((a, b) => a.CompareTo(b));    //ascending order
+                        int newindex = gclklist.IndexOf(controller.getCLK(false));
+                        if (newindex > 0) newindex--; //ensure 0 is the end(noindex is -1)
+                        int newclk = gclklist.ElementAt(newindex);    //clk value goes in
 
-                            
-                            break;
-                        case 2:
-                            
+                        //new xtu value for gpu throttle (newxtu)
+                        float newxtu = controller.getXTU();
+                        if (newxtu > controller.getBaseXTU(settings)) newxtu -= 1.0f;
 
-                            break;
+                        switch (mode) {
+                            case 0: break;
+                            case 1: //cpu
+                                settings.programs_running_cfg_cpu.appendChanges(currprof, newclk);
+
+                                break;
+                            case 2: //gpu
+                                settings.programs_running_cfg_xtu.appendChanges(currprof, newxtu);
+
+
+                                break;
+                        
+                        }
+
                     }
-                    settings.throttleMode = 0;
                 }
-                //controller.setXTU(10.5);
-                //checker.detectFgProc(settings);
-                //controller.setCLK(settings, 100, 1);
-                
-                
+                    
+                    
+                    
             }
             settings.updateTimeSync();
         }

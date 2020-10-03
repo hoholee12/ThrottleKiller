@@ -94,27 +94,30 @@ namespace ThrottleSchedulerService
                     }
                 }
 
-                if (!appendexists) File.AppendAllText(getFullName(), "@append");
+                if (!appendexists)
+                {
+                    using (var stream = File.AppendText(getFullName())) { stream.WriteLine(); stream.WriteLine("@append"); }
+                }
                 
                 /////////////////////////////////////////////////////////////////
                 if ((Tkey == typeof(string)) && (Tval == typeof(int)))
                 {
-                    File.AppendAllText(getFullName(), (string)key + " = " + (int)value);
+                    using (var stream = File.AppendText(getFullName())) { stream.WriteLine(); stream.WriteLine((string)key + " = " + (int)value); }
                     log.WriteLog("appending: key = " + (string)key + ", value = " + (int)value);
                 }
                 else if ((Tkey == typeof(int)) && (Tval == typeof(int)))
                 {
-                    File.AppendAllText(getFullName(), (int)key + " = " + (int)value);
+                    using (var stream = File.AppendText(getFullName())) { stream.WriteLine(); stream.WriteLine((int)key + " = " + (int)value); }
                     log.WriteLog("appending: key = " + (int)key + ", value = " + (int)value);
                 }
                 else if ((Tkey == typeof(int)) && (Tval == typeof(float)))
                 {
-                    File.AppendAllText(getFullName(), (int)key + " = " + (float)value);
+                    using (var stream = File.AppendText(getFullName())) { stream.WriteLine(); stream.WriteLine((int)key + " = " + (float)value); }
                     log.WriteLog("appending: key = " + (int)key + ", value = " + (float)value);
                 }
                 else if ((Tkey == typeof(int)) && (Tval == typeof(ProcessPriorityClass)))
                 {
-                    File.AppendAllText(getFullName(), (int)key + " = " + ((ProcessPriorityClass)value).ToString().ToLower());
+                    using (var stream = File.AppendText(getFullName())) { stream.WriteLine(); stream.WriteLine((int)key + " = " + ((ProcessPriorityClass)value).ToString().ToLower()); }
                     log.WriteLog("appending: key = " + (int)key + ", value = " + ((ProcessPriorityClass)value).ToString().ToLower());
                 }
 

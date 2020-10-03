@@ -19,8 +19,14 @@ namespace ThrottleSchedulerService
 
         int count = 0;
 
+        //magic number to reduce wasted time
         public int lastCLK = 1234;
         public int lastBaseCLK = 1234;
+        public float lastXTU = 1234;
+        public float lastBaseXTU = 1234;
+
+        //force reapply
+        public bool forceApply = false;
 
 /*
         //GUIDs
@@ -110,20 +116,39 @@ namespace ThrottleSchedulerService
         }
 
         public float getXTU() {
+            if (lastXTU != 1234) return lastXTU;
             pshell.StartInfo.Arguments = "-t -id 59";
             pshell.Start();
             pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
             string[] result = pshell.StandardOutput.ReadToEnd().Split(' ');
             pshell.WaitForExit();
             string temp = result.Last().Replace("x", "").Trim();
-            return float.Parse(temp);
+            lastXTU = float.Parse(temp);
+            return lastXTU;
+        }
+
+        public float getBaseXTU(SettingsManager sm) {
+            if (lastBaseXTU != 1234) return lastBaseXTU;
+            float temp = getXTU();   //init lastXTU
+            //powersave gpuplan forces base clockspeed
+            runpowercfg("/setdcvalueindex " + powerplan + " " + gpupplan + " " + gpuppsub + " " + 0);
+            runpowercfg("/setacvalueindex " + powerplan + " " + gpupplan + " " + gpuppsub + " " + 0);
+
+            runpowercfg("/setactive " + powerplan); //apply
+
+            lastBaseXTU = getXTU();
+
+            log.WriteLog("baseXTU is: " + lastBaseXTU);
+            setXTU(sm, temp);   //reset back
+            return lastBaseXTU;
         }
 
 
         //intel graphics settings
         //	false = Balanced(Maximum Battery Life is useless)
         //	true = Maximum Performance(seems to remove long term throttling...)
-        public void setXTU(SettingsManager sm, double value, bool gpuplan) {
+        public void setXTU(SettingsManager sm, double value) {
+            lastXTU = (float)value;
 
             log.WriteLog("setting XTU: " + value);
             pshell.StartInfo.Arguments = "-t -id 59 -v " + value;
@@ -131,7 +156,7 @@ namespace ThrottleSchedulerService
             pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
             pshell.WaitForExit();
             int gpux = 1;   //balanced
-            if (gpuplan)
+            if ((int)sm.gpuplan.configList["gpuplan"] == 1)
             {
                 log.WriteLog("setting GPU: performance");
                 gpux = 2;  //performance
@@ -258,7 +283,7 @@ namespace ThrottleSchedulerService
                 int temp2 = (int)sm.programs_running_cfg_cpu.configList[temp];
                 double temp3 = (float)sm.programs_running_cfg_xtu.configList[temp];
 
-                if (getCLK(false) != temp2)
+                if (getCLK(false) != temp2 || forceApply)   //forceApply for throttle config
                 {
                     if (temp != 0) log.WriteLog("setting power: " + proc.ProcessName + " to " + temp2.ToString());
                     else log.WriteLog("setting power back to " + temp2.ToString()); //default 0
@@ -267,7 +292,7 @@ namespace ThrottleSchedulerService
                         log.WriteLog("oh no, XTU value bad... you may want to restart your computer");
                         return;
                     }
-                    setXTU(sm, temp3, false);
+                    setXTU(sm, temp3);
                 }
             }
             catch (Exception) { }
@@ -317,7 +342,9 @@ namespace ThrottleSchedulerService
 
         }
 
-
+        public void decrCLK() {
+            
+        }
         
 
         //apply based on profile

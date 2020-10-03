@@ -29,6 +29,7 @@ namespace ThrottleSchedulerService
         public SettingsToken processor_guid_tweak;
         public SettingsToken generatedCLK;
         public SettingsToken throttle_median;
+        public SettingsToken gpuplan;
 
         //BASE DIRECTORY
         public string cfgname = @"xtu_scheduler_config";
@@ -174,6 +175,7 @@ namespace ThrottleSchedulerService
             checkPowerCFGFlag = processor_guid_tweak.checkFiles();
             generatedCLK.checkFiles();
             throttle_median.checkFiles();
+            gpuplan.checkFiles();
         }
 
         public void initConfig(Logger log) {     
@@ -192,7 +194,7 @@ namespace ThrottleSchedulerService
             processor_guid_tweak = new SettingsToken(log);
             generatedCLK = new SettingsToken(log);
             throttle_median = new SettingsToken(log);
-            
+            gpuplan = new SettingsToken(log);
             
             
             //initialize paths
@@ -206,6 +208,7 @@ namespace ThrottleSchedulerService
             processor_guid_tweak.setPath(path);
             generatedCLK.setPath(path);
             throttle_median.setPath(path);
+            gpuplan.setPath(path);
 
             special_programs.setName("special_programs");
             programs_running_cfg_cpu.setName("programs_running_cfg_cpu");
@@ -217,6 +220,7 @@ namespace ThrottleSchedulerService
             processor_guid_tweak.setName("processor_guid_tweak");
             generatedCLK.setName("generatedCLK");
             throttle_median.setName("throttle_median");
+            gpuplan.setName("gpuplan");
 
             //initialize contents
             special_programs.setContent(
@@ -328,6 +332,7 @@ bc5038f7-23e0-4960-96da-33abaf5935ec = 100          # processor high clockspeed 
 ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             generatedCLK.setContent("");
             throttle_median.setContent(@"throttle_median = 80");
+            gpuplan.setContent(@"gpuplan = 1");
 
             //set key value pair type
             special_programs.Tkey = typeof(string);
@@ -350,6 +355,8 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             generatedCLK.Tval = typeof(int);
             throttle_median.Tkey = typeof(string);
             throttle_median.Tval = typeof(int);
+            gpuplan.Tkey = typeof(string);
+            gpuplan.Tval = typeof(int);
 
             //batch create first/read settings
             batchCheckFiles();
@@ -366,6 +373,7 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             processor_guid_tweak.setLastModifiedTime(File.GetLastWriteTime(processor_guid_tweak.getFullName()).Ticks);
             generatedCLK.setLastModifiedTime(File.GetLastWriteTime(generatedCLK.getFullName()).Ticks);
             throttle_median.setLastModifiedTime(File.GetLastWriteTime(throttle_median.getFullName()).Ticks);
+            gpuplan.setLastModifiedTime(File.GetLastWriteTime(gpuplan.getFullName()).Ticks);
         }
         
         public void initPath()
