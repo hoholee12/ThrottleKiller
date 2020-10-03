@@ -1,0 +1,194 @@
+2020-10-04 오전 1:19:53: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\special_programs.txt
+2020-10-04 오전 1:19:54: settings changed for: special_programs!, reimporting...
+2020-10-04 오전 1:19:54: reading: key = jdownloader2, value = 0
+2020-10-04 오전 1:19:54: reading: key = github, value = 0
+2020-10-04 오전 1:19:54: reading: key = steam, value = 0
+2020-10-04 오전 1:19:54: reading: key = origin, value = 0
+2020-10-04 오전 1:19:54: reading: key = mbam, value = 0
+2020-10-04 오전 1:19:54: reading: key = shellexperiencehost, value = 0
+2020-10-04 오전 1:19:54: reading: key = svchost, value = 0
+2020-10-04 오전 1:19:54: reading: key = subprocess, value = 0
+2020-10-04 오전 1:19:54: reading: key = gtavlauncher, value = 0
+2020-10-04 오전 1:19:54: reading: key = acad, value = 1
+2020-10-04 오전 1:19:54: reading: key = launcher, value = 7
+2020-10-04 오전 1:19:54: reading: key = tesv, value = 1
+2020-10-04 오전 1:19:54: reading: key = fsx, value = 1
+2020-10-04 오전 1:19:54: reading: key = Journey, value = 1
+2020-10-04 오전 1:19:54: reading: key = nullDC, value = 1
+2020-10-04 오전 1:19:54: reading: key = pcsxr, value = 1
+2020-10-04 오전 1:19:54: reading: key = ppsspp, value = 1
+2020-10-04 오전 1:19:54: reading: key = Project64, value = 1
+2020-10-04 오전 1:19:54: reading: key = ace7game, value = 1
+2020-10-04 오전 1:19:54: reading: key = pcars, value = 1
+2020-10-04 오전 1:19:54: reading: key = doom, value = 1
+2020-10-04 오전 1:19:54: reading: key = gtaiv, value = 4
+2020-10-04 오전 1:19:54: reading: key = nfs, value = 1
+2020-10-04 오전 1:19:54: reading: key = dirt, value = 1
+2020-10-04 오전 1:19:54: reading: key = grid, value = 1
+2020-10-04 오전 1:19:54: reading: key = studio64, value = 2
+2020-10-04 오전 1:19:54: reading: key = arcade64, value = 2
+2020-10-04 오전 1:19:54: reading: key = djmax, value = 2
+2020-10-04 오전 1:19:54: reading: key = streaming_client, value = 2
+2020-10-04 오전 1:19:54: reading: key = moonlight, value = 2
+2020-10-04 오전 1:19:54: reading: key = pcsx2, value = 2
+2020-10-04 오전 1:19:54: reading: key = dolphin, value = 2
+2020-10-04 오전 1:19:54: reading: key = vmware-vmx, value = 2
+2020-10-04 오전 1:19:54: reading: key = virtualbox, value = 2
+2020-10-04 오전 1:19:54: reading: key = dosbox, value = 2
+2020-10-04 오전 1:19:54: reading: key = cemu, value = 2
+2020-10-04 오전 1:19:54: reading: key = citra, value = 2
+2020-10-04 오전 1:19:54: reading: key = rpcs3, value = 7
+2020-10-04 오전 1:19:54: reading: key = drt, value = 3
+2020-10-04 오전 1:19:54: reading: key = dirtrally2, value = 3
+2020-10-04 오전 1:19:54: reading: key = tombraider, value = 3
+2020-10-04 오전 1:19:54: reading: key = rottr, value = 3
+2020-10-04 오전 1:19:54: reading: key = bf, value = 4
+2020-10-04 오전 1:19:54: reading: key = gta5, value = 4
+2020-10-04 오전 1:19:54: reading: key = borderlands2, value = 4
+2020-10-04 오전 1:19:54: reading: key = katamari, value = 4
+2020-10-04 오전 1:19:54: reading: key = bold, value = 4
+2020-10-04 오전 1:19:54: reading: key = setup, value = 5
+2020-10-04 오전 1:19:54: reading: key = minecraft, value = 5
+2020-10-04 오전 1:19:54: reading: key = cl, value = 5
+2020-10-04 오전 1:19:54: reading: key = link, value = 5
+2020-10-04 오전 1:19:54: reading: key = ffmpeg, value = 5
+2020-10-04 오전 1:19:54: reading: key = 7z, value = 5
+2020-10-04 오전 1:19:54: reading: key = vegas, value = 5
+2020-10-04 오전 1:19:54: reading: key = bandizip, value = 5
+2020-10-04 오전 1:19:54: reading: key = handbrake, value = 5
+2020-10-04 오전 1:19:54: reading: key = mpc-hc, value = 5
+2020-10-04 오전 1:19:54: reading: key = consoleapplication, value = 5
+2020-10-04 오전 1:19:54: reading: key = macsfancontrol, value = 6
+2020-10-04 오전 1:19:54: reading: key = lubbosfancontrol, value = 6
+2020-10-04 오전 1:19:54: reading: key = bootcamp, value = 6
+2020-10-04 오전 1:19:54: reading: key = obs, value = 6
+2020-10-04 오전 1:19:54: reading: key = remoteplay, value = 6
+2020-10-04 오전 1:19:54: reading: key = discord, value = 6
+2020-10-04 오전 1:19:54: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\programs_running_cfg_cpu.txt
+2020-10-04 오전 1:19:54: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-04 오전 1:19:54: reading: key = 0, value = 65
+2020-10-04 오전 1:19:54: reading: key = 1, value = 98
+2020-10-04 오전 1:19:54: reading: key = 2, value = 100
+2020-10-04 오전 1:19:54: reading: key = 3, value = 65
+2020-10-04 오전 1:19:54: reading: key = 4, value = 95
+2020-10-04 오전 1:19:54: reading: key = 5, value = 100
+2020-10-04 오전 1:19:54: reading: key = 6, value = 65
+2020-10-04 오전 1:19:54: reading: key = 7, value = 100
+2020-10-04 오전 1:19:54: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\programs_running_cfg_xtu.txt
+2020-10-04 오전 1:19:54: importing settings for: programs_running_cfg_xtu...
+2020-10-04 오전 1:19:54: reading: key = 0, value = 7.5
+2020-10-04 오전 1:19:54: reading: key = 1, value = 5.5
+2020-10-04 오전 1:19:54: reading: key = 2, value = 4.5
+2020-10-04 오전 1:19:54: reading: key = 3, value = 7.5
+2020-10-04 오전 1:19:54: reading: key = 4, value = 6.5
+2020-10-04 오전 1:19:54: reading: key = 5, value = 4.5
+2020-10-04 오전 1:19:54: reading: key = 6, value = 7.5
+2020-10-04 오전 1:19:54: reading: key = 7, value = 7.5
+2020-10-04 오전 1:19:54: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\programs_running_cfg_nice.txt
+2020-10-04 오전 1:19:54: importing settings for: programs_running_cfg_nice...
+2020-10-04 오전 1:19:54: reading: key = 0, value = Idle
+2020-10-04 오전 1:19:54: reading: key = 1, value = High
+2020-10-04 오전 1:19:54: reading: key = 2, value = High
+2020-10-04 오전 1:19:54: reading: key = 3, value = High
+2020-10-04 오전 1:19:54: reading: key = 4, value = High
+2020-10-04 오전 1:19:54: reading: key = 5, value = Idle
+2020-10-04 오전 1:19:54: reading: key = 6, value = RealTime
+2020-10-04 오전 1:19:54: reading: key = 7, value = High
+2020-10-04 오전 1:19:54: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\loop_delay.txt
+2020-10-04 오전 1:19:54: settings changed for: loop_delay!, reimporting...
+2020-10-04 오전 1:19:54: reading: key = loop_delay, value = 1
+2020-10-04 오전 1:19:54: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\boost_cycle_delay.txt
+2020-10-04 오전 1:19:54: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-04 오전 1:19:54: reading: key = boost_cycle_delay, value = 5
+2020-10-04 오전 1:19:54: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\ac_offset.txt
+2020-10-04 오전 1:19:54: importing settings for: ac_offset...
+2020-10-04 오전 1:19:54: reading: key = ac_offset, value = 1
+2020-10-04 오전 1:19:54: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\processor_guid_tweak.txt
+2020-10-04 오전 1:19:54: importing settings for: processor_guid_tweak...
+2020-10-04 오전 1:19:54: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-04 오전 1:19:54: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-04 오전 1:19:54: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-04 오전 1:19:54: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-04 오전 1:19:54: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-04 오전 1:19:54: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-04 오전 1:19:54: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-04 오전 1:19:54: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-04 오전 1:19:54: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-04 오전 1:19:54: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-04 오전 1:19:54: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-04 오전 1:19:54: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\generatedCLK.txt
+2020-10-04 오전 1:19:54: importing settings for: generatedCLK...
+2020-10-04 오전 1:19:54: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\throttle_median.txt
+2020-10-04 오전 1:19:54: importing settings for: throttle_median...
+2020-10-04 오전 1:19:54: reading: key = throttle_median, value = 80
+2020-10-04 오전 1:19:54: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ThrottleSchedulerService\ThrottleSchedulerService\bin\Debug\xtu_scheduler_config\gpuplan.txt
+2020-10-04 오전 1:19:54: settings changed for: gpuplan!, reimporting...
+2020-10-04 오전 1:19:54: reading: key = gpuplan, value = 1
+2020-10-04 오전 1:19:56: checking XTU cmdlet
+2020-10-04 오전 1:20:00: XTU ok
+2020-10-04 오전 1:20:04: init PowerCFG settings
+2020-10-04 오전 1:20:09: ================start of CLK list generation================
+2020-10-04 오전 1:20:09: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:09: ================start of CLK list generation================
+2020-10-04 오전 1:20:09: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:10: ================start of CLK list generation================
+2020-10-04 오전 1:20:10: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:11: new CLK: 100 clockspeed: 2701
+2020-10-04 오전 1:20:11: ================start of CLK list generation================
+2020-10-04 오전 1:20:11: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:12: new CLK: 100 clockspeed: 2701
+2020-10-04 오전 1:20:12: ================start of CLK list generation================
+2020-10-04 오전 1:20:12: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:13: new CLK: 100 clockspeed: 2701
+2020-10-04 오전 1:20:13: new CLK: 99 clockspeed: 2700
+2020-10-04 오전 1:20:13: ================start of CLK list generation================
+2020-10-04 오전 1:20:13: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:14: new CLK: 100 clockspeed: 2701
+2020-10-04 오전 1:20:14: new CLK: 99 clockspeed: 2700
+2020-10-04 오전 1:20:15: ================start of CLK list generation================
+2020-10-04 오전 1:20:15: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:15: new CLK: 99 clockspeed: 2700
+2020-10-04 오전 1:20:15: new CLK: 98 clockspeed: 2600
+2020-10-04 오전 1:20:16: ================start of CLK list generation================
+2020-10-04 오전 1:20:16: new CLK: 100 clockspeed: 2600
+2020-10-04 오전 1:20:16: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:16: new CLK: 99 clockspeed: 2701
+2020-10-04 오전 1:20:16: new CLK: 98 clockspeed: 2600
+2020-10-04 오전 1:20:17: ================start of CLK list generation================
+2020-10-04 오전 1:20:17: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:17: new CLK: 98 clockspeed: 2701
+2020-10-04 오전 1:20:18: ================start of CLK list generation================
+2020-10-04 오전 1:20:18: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:18: new CLK: 99 clockspeed: 2600
+2020-10-04 오전 1:20:18: new CLK: 100 clockspeed: 2600
+2020-10-04 오전 1:20:19: new CLK: 98 clockspeed: 2701
+2020-10-04 오전 1:20:19: ================start of CLK list generation================
+2020-10-04 오전 1:20:19: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:20: new CLK: 100 clockspeed: 2701
+2020-10-04 오전 1:20:20: new CLK: 97 clockspeed: 2701
+2020-10-04 오전 1:20:21: new CLK: 95 clockspeed: 2701
+2020-10-04 오전 1:20:21: ================start of CLK list generation================
+2020-10-04 오전 1:20:21: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:22: new CLK: 95 clockspeed: 2600
+2020-10-04 오전 1:20:22: new CLK: 100 clockspeed: 2600
+2020-10-04 오전 1:20:22: ================start of CLK list generation================
+2020-10-04 오전 1:20:22: new CLK: 96 clockspeed: 2300
+2020-10-04 오전 1:20:22: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:23: new CLK: 94 clockspeed: 2600
+2020-10-04 오전 1:20:23: ================start of CLK list generation================
+2020-10-04 오전 1:20:23: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:23: new CLK: 98 clockspeed: 2700
+2020-10-04 오전 1:20:24: ================start of CLK list generation================
+2020-10-04 오전 1:20:24: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:24: new CLK: 99 clockspeed: 2600
+2020-10-04 오전 1:20:25: new CLK: 100 clockspeed: 2701
+2020-10-04 오전 1:20:25: ================start of CLK list generation================
+2020-10-04 오전 1:20:25: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:26: new CLK: 93 clockspeed: 2600
+2020-10-04 오전 1:20:26: new CLK: 97 clockspeed: 2600
+2020-10-04 오전 1:20:26: ================start of CLK list generation================
+2020-10-04 오전 1:20:26: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:27: new CLK: 99 clockspeed: 2600
+2020-10-04 오전 1:20:27: ================start of CLK list generation================
+2020-10-04 오전 1:20:27: do NOT run anything power intensive!!!
+2020-10-04 오전 1:20:28: new CLK: 100 clockspeed: 2701

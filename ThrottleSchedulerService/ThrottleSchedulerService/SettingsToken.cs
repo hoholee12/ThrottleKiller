@@ -102,30 +102,32 @@ namespace ThrottleSchedulerService
                 /////////////////////////////////////////////////////////////////
                 if ((Tkey == typeof(string)) && (Tval == typeof(int)))
                 {
-                    using (var stream = File.AppendText(getFullName())) { stream.WriteLine(); stream.WriteLine((string)key + " = " + (int)value); }
+                    using (var stream = File.AppendText(getFullName())) { stream.WriteLine((string)key + " = " + (int)value); }
                     log.WriteLog("appending: key = " + (string)key + ", value = " + (int)value);
                 }
                 else if ((Tkey == typeof(int)) && (Tval == typeof(int)))
                 {
-                    using (var stream = File.AppendText(getFullName())) { stream.WriteLine(); stream.WriteLine((int)key + " = " + (int)value); }
+                    using (var stream = File.AppendText(getFullName())) { stream.WriteLine((int)key + " = " + (int)value); }
                     log.WriteLog("appending: key = " + (int)key + ", value = " + (int)value);
                 }
                 else if ((Tkey == typeof(int)) && (Tval == typeof(float)))
                 {
-                    using (var stream = File.AppendText(getFullName())) { stream.WriteLine(); stream.WriteLine((int)key + " = " + (float)value); }
+                    using (var stream = File.AppendText(getFullName())) { stream.WriteLine((int)key + " = " + (float)value); }
                     log.WriteLog("appending: key = " + (int)key + ", value = " + (float)value);
                 }
                 else if ((Tkey == typeof(int)) && (Tval == typeof(ProcessPriorityClass)))
                 {
-                    using (var stream = File.AppendText(getFullName())) { stream.WriteLine(); stream.WriteLine((int)key + " = " + ((ProcessPriorityClass)value).ToString().ToLower()); }
+                    using (var stream = File.AppendText(getFullName())) { stream.WriteLine((int)key + " = " + ((ProcessPriorityClass)value).ToString().ToLower()); }
                     log.WriteLog("appending: key = " + (int)key + ", value = " + ((ProcessPriorityClass)value).ToString().ToLower());
                 }
 
                 
                 /////////////////////////////////////////////////////////////////
+
+                checkFiles();   //reload settings
             }
             catch (Exception) { }   //just in case file gets deleted before appending
-            checkFiles();   //reload settings
+            
         }
 
         //create config files if nonexistant

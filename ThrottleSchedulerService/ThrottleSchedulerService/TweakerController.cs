@@ -285,6 +285,8 @@ namespace ThrottleSchedulerService
 
                 if (getCLK(false) != temp2 || forceApply)   //forceApply for throttle config
                 {
+                    forceApply = false;
+
                     if (temp != 0) log.WriteLog("setting power: " + proc.ProcessName + " to " + temp2.ToString());
                     else log.WriteLog("setting power back to " + temp2.ToString()); //default 0
                     setCLK(sm, temp2, false);

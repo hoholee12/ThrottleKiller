@@ -23,10 +23,15 @@ namespace ThrottleSchedulerService
         * 4. check if list changed(reload if changed)   - DONE
         * 5. check throttle                             - DONE
         * 6. check list and apply accordingly           - DONE
-        * 7. change setting if still throttles
-        * 7.5 writeback changes to settings file
+        * 7. change setting if still throttles          - DONE
+        * 7.5 writeback changes to settings file        - DONE
         * 8. sleep                                      - DONE
         * 9. loop to 2.                                 - DONE
+        * 
+        * 
+        * 10. generate CLK list                         - DONE
+        * 11. add mechanism for new apps
+        * 12. IPC with GUI app
         * 
         */
 
@@ -77,7 +82,11 @@ namespace ThrottleSchedulerService
                 //1. check config
                 controller.generateCLKlist(settings, checker);  //before batchCheck
                 settings.batchCheckFiles();   //no need to save io here
-                if (settings.checkPowerCFGFlag) controller.initPowerCFG(settings);
+                if (settings.checkPowerCFGFlag)
+                {
+                    controller.initPowerCFG(settings);
+                    controller.forceApply = true;   //just in case
+                }
 
                 //2. apply settings(add app if dont exist)
                 var currfg = checker.detectFgProc(settings);

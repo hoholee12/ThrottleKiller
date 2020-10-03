@@ -1,0 +1,8 @@
+0 = idle
+1 = high
+2 = high
+3 = high
+4 = high
+5 = idle
+6 = realtime
+7 = high
