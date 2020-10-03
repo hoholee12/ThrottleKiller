@@ -63,6 +63,7 @@ namespace ThrottleSchedulerService
                 pshell.StartInfo.UseShellExecute = false;
                 pshell.StartInfo.RedirectStandardOutput = true;
                 pshell.StartInfo.CreateNoWindow = true;
+                pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
 
                 //check if exists
                 log.WriteLog("checking XTU cmdlet");
