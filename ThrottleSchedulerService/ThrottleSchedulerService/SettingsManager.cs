@@ -111,6 +111,7 @@ namespace ThrottleSchedulerService
          */
         public int throttleMode { get; set; }
 
+
         //batch checkfiles
         public void batchCheckFiles()
         {

@@ -26,6 +26,7 @@ namespace ThrottleSchedulerService
         int MaxClockSpeed;
 
         int throttledelay = 0; //for throttling check margin
+        List<int> throttle_acc = new List<int>();
 
         int prevtemp_i = 0, prevtemp_j = 0;   //slow down io usage
 
@@ -148,43 +149,63 @@ namespace ThrottleSchedulerService
                 int high = (int)sm.processor_guid_tweak.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
                 int load = getLoad();
                 int pwr = getPWR();
-                //TODO: MaxClockSpeed incorrect
-                if (load > high && pwr < MaxClockSpeed)
+                int target_pwr = (int)sm.generatedCLK.configList[ts.lastCLK];
+
+                if (load > high && pwr < target_pwr)
                 {
                     log.WriteLog("throttle? load = " + load + " ,clk = " + pwr);
                     throttledelay++;
                 }
                 else{
-                    if(throttledelay > 0)
+                    if(throttledelay > 0)   //do not go under 0
                         throttledelay--;
                 }
 
                 /*
                  *  on throttle:
                  *      cpuload 80%(tweakable)
-                 *      -get median upto throttleSync(tweakable)
+                 *      -get average upto throttleSync(tweakable)
                  */
-                sm.throttleMode = 0;
+                
+
+                //accumulate
+                if (throttledelay > 0)
+                {
+                    throttle_acc.Add(load);
+                }
+
+                //on throttleSync timer
                 if (sm.throttleSync && throttledelay > 0)
                 {
-                    //check which side
-                    if (load < 80)
-                    {
-                        //cpu side
+                    sm.throttleMode = 0;
+
+                    throttle_acc.Sort();
+                    //throttleMode notifier:
+                    //  if throttle_acc median doesnt exceed default median (ex)80:
+                    //      decrease cpu
+                    //  else:
+                    //      decrease gpu
+                    if (throttle_acc[throttle_acc.Count() / 2] < (int)sm.throttle_median.configList["throttle_median"]) {
                         sm.throttleMode = 1;
                     }
                     else {
                         sm.throttleMode = 2;
                     }
 
+                    //clear
+                    throttle_acc.Clear();
+
+                    //initiate throttle!
                     return true;
                 }
-                else return false;
+                
+                //skip for now
+                return false;
 
             }
             catch (Exception) { //config file bug
                 log.WriteErr("config file is broken");
-                return false;   //this will never be reached
+                return false;   //this will never reach
             }
         }
 

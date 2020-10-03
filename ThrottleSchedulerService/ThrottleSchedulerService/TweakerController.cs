@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using System.Diagnostics;
 
+
 namespace ThrottleSchedulerService
 {
 
@@ -17,6 +18,9 @@ namespace ThrottleSchedulerService
         TweakerChecker checker;
 
         int count = 0;
+
+        public int lastCLK = 1234;
+        public int lastBaseCLK = 1234;
 
 /*
         //GUIDs
@@ -157,12 +161,14 @@ namespace ThrottleSchedulerService
 
             if (low)
             {
+                lastBaseCLK = setval;
                 runpowercfg("/setdcvalueindex " + powerplan + " " + processor + " " + procsubl + " " + setval);
                 runpowercfg("/setacvalueindex " + powerplan + " " + processor + " " + procsubl + " " + setval);
                 log.WriteLog("setting base CLK: " + setval);
             }
             else
             {
+                lastCLK = setval;   //maxCLK for other use
                 runpowercfg("/setdcvalueindex " + powerplan + " " + processor + " " + procsubh + " " + setval);
                 runpowercfg("/setacvalueindex " + powerplan + " " + processor + " " + procsubh + " " + (setval - (int)sm.ac_offset.configList["ac_offset"])); //hotter when plugged in
                 log.WriteLog("setting CLK: " + setval);
@@ -171,12 +177,38 @@ namespace ThrottleSchedulerService
             runpowercfg("/setactive " + powerplan); //apply
         }
 
+        //track lastCLK because launching app is quite heavy...
         public int getCLK(bool low) {
+            if (low)
+            {
+                if (lastBaseCLK != 1234) { return lastBaseCLK; }
+            }
+            else
+            {
+                if (lastCLK != 1234) { return lastCLK; }
+            }
+
             string temp;
-            if (low) temp = runpowercfg("/query " + powerplan + " " + processor + " " + procsubl);
-            else temp = runpowercfg("/query " + powerplan + " " + processor + " " + procsubh);
+            if (low)
+            {
+                temp = runpowercfg("/query " + powerplan + " " + processor + " " + procsubl);
+            }
+            else
+            {
+                temp = runpowercfg("/query " + powerplan + " " + processor + " " + procsubh);
+            }
             string temp2 = temp.Split(' ').Last().Trim();
             int temp3 = Convert.ToInt32(temp2, 16);
+
+            if (low)
+            {
+                lastBaseCLK = temp3;
+            }
+            else 
+            {
+                lastCLK = temp3;
+            }
+
             return temp3;
         }
 
