@@ -63,11 +63,11 @@ namespace ThrottleSchedulerService
                 pshell.StartInfo.UseShellExecute = false;
                 pshell.StartInfo.RedirectStandardOutput = true;
                 pshell.StartInfo.CreateNoWindow = true;
-                pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
 
                 //check if exists
                 log.WriteLog("checking XTU cmdlet");
                 pshell.Start();
+                pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
                 pshell.WaitForExit();
 
                 if (pshell.ExitCode == 1)
@@ -103,6 +103,7 @@ namespace ThrottleSchedulerService
         public string runpowercfg(string str) {
             powercfg.StartInfo.Arguments = str;
             powercfg.Start();
+            powercfg.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
             string output = powercfg.StandardOutput.ReadToEnd();
             powercfg.WaitForExit();
             return output;
@@ -111,6 +112,7 @@ namespace ThrottleSchedulerService
         public float getXTU() {
             pshell.StartInfo.Arguments = "-t -id 59";
             pshell.Start();
+            pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
             string[] result = pshell.StandardOutput.ReadToEnd().Split(' ');
             pshell.WaitForExit();
             string temp = result.Last().Replace("x", "").Trim();
@@ -126,6 +128,7 @@ namespace ThrottleSchedulerService
             log.WriteLog("setting XTU: " + value);
             pshell.StartInfo.Arguments = "-t -id 59 -v " + value;
             pshell.Start();
+            pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
             pshell.WaitForExit();
             int gpux = 1;   //balanced
             if (gpuplan)
