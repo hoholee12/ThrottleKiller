@@ -101,7 +101,8 @@ namespace ThrottleSchedulerService
                  *      monitor performance for throttleSync(tweakable) cycles and assign to closest one.
                  *      
                  */
-                log.WriteLog("clockspeed:" + checker.getPWR() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
+                if(settings.throttleSync)
+                    log.WriteLog("clockspeed:" + checker.getPWR() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
                 
                 if (checker.isCurrentlyThrottling(settings, controller))
                 {

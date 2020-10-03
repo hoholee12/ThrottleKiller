@@ -77,8 +77,8 @@ namespace ThrottleSchedulerService
                     timeSync = false;
                 }
                 
-                //with updated target_msec
-                if (accumulated_msec % (bc_target_msec * target_msec) == 0)
+                //for bc_target_msec
+                if (accumulated_msec % bc_target_msec == 0)
                 {
                     throttleSync = true;
                     bc_target_msec = int.Parse(boost_cycle_delay.configList["boost_cycle_delay"].ToString()) * 1000;
