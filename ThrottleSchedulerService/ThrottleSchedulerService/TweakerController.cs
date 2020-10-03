@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using System.Diagnostics;
-
+using System.Timers;
 
 namespace ThrottleSchedulerService
 {
@@ -304,6 +304,7 @@ namespace ThrottleSchedulerService
         //generate CLK list
         //CLK = powerplan value, PWR = real clockspeed
         public void generateCLKlist(SettingsManager sm, TweakerChecker tc) {
+
             if (sm.generatedCLK.getCount() > 1) return; //all generated
 
             int clkbackuph = getCLK(false);

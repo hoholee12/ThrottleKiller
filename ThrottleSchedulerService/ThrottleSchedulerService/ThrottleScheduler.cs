@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Threading;
 
+using System.Diagnostics;
 using System.IO;
 using System.Management;
 using OpenHardwareMonitor.Hardware;
 
-
+using System.Timers;
 
 namespace ThrottleSchedulerService
 {
@@ -76,7 +76,8 @@ namespace ThrottleSchedulerService
         //start main loop
         public void mainflow()
         {
-         
+            
+            //internal sync
             if (settings.timeSync)
             {
                 //1. check config
@@ -160,8 +161,10 @@ namespace ThrottleSchedulerService
                     
             }
             settings.updateTimeSync();
-        }
+            
 
+        }
+        
         
     }
 

@@ -16,12 +16,15 @@ namespace ThrottleSchedulerService
     {
         Timer timer = new Timer();
         essentials ess = new essentials();
-        static int time = 1000;
-        ThrottleScheduler ts = new ThrottleScheduler(time);
+        int msec = 1000;
+        ThrottleScheduler ts;
+        Stopwatch stopwatch;
 
         public Service1()
         {
             InitializeComponent();
+            ts = new ThrottleScheduler(msec);
+            stopwatch = Stopwatch.StartNew();
         }
 
         protected override void OnStart(string[] args)
@@ -29,13 +32,26 @@ namespace ThrottleSchedulerService
             ess.WriteLog("service started");
             
             timer.Elapsed += new ElapsedEventHandler(OnTimerCount);
-            timer.Interval = time;
+            timer.Interval = msec;
             timer.Enabled = true;
             
         }
 
         private void OnTimerCount(Object src, ElapsedEventArgs args) {
+            //actual sync
+            stopwatch.Start();
+            timer.Enabled = false;
+
             ts.mainflow();
+
+            //actual sync
+            stopwatch.Stop();
+            double interval = msec - stopwatch.ElapsedMilliseconds;
+            if (interval < 0.1) interval = 0.1;
+            timer.Interval = interval;
+            timer.Enabled = true;
+
+            ess.WriteLog("service timer interval = " + timer.Interval);
         }
 
         protected override void OnStop()
