@@ -1,0 +1,7 @@
+c:\users\hoholee12\documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\ConsoleApplication41.exe.config
+c:\users\hoholee12\documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\ConsoleApplication41.exe
+c:\users\hoholee12\documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\ConsoleApplication41.pdb
+c:\users\hoholee12\documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\obj\Debug\ConsoleApplication41.csprojResolveAssemblyReference.cache
+c:\users\hoholee12\documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\obj\Debug\ConsoleApplication41.exe
+c:\users\hoholee12\documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\obj\Debug\ConsoleApplication41.pdb
+C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\OpenHardwareMonitorLib.dll

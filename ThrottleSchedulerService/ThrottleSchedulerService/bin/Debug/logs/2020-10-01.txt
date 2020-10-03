@@ -1,3 +1,0 @@
-2020-10-01 오후 10:06:57: service started
-2020-10-01 오후 10:09:34: service stopped
-2020-10-01 오후 10:22:11: service started
