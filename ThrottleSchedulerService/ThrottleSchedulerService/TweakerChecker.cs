@@ -160,14 +160,18 @@ namespace ThrottleSchedulerService
 
                 if (load > high && pwr < target_pwr)
                 {
-                    log.WriteLog("semi throttle cycle load = " + load + " ,clk = " + pwr);
+                    
+
+                    sm.startThrottleSync();
                     
                     //accumulate
                     throttle_acc.Add(load);
                     throttledelay++;
+                    log.WriteLog("semi throttle cycle load = " + load + " ,clk = " + pwr + " ,throttledelay = " + throttledelay);
                 }
                 else{
                     if (throttledelay > 0) throttledelay--;   //do not go under 0
+                    log.WriteLog("no throttle cycle load = " + load + " ,clk = " + pwr + " ,throttledelay = " + throttledelay);
                 }
 
                 /*
@@ -177,9 +181,8 @@ namespace ThrottleSchedulerService
                  */
 
                 //on throttleSync timer
-                if (sm.throttleSync && throttledelay > 0)
+                if (sm.checkThrottleSync() && throttledelay > 0)
                 {
-                    log.WriteLog("complete throttle sync load = " + load + " ,clk = " + pwr);
                     sm.throttleMode = 0;
 
                     throttle_acc.Sort();
@@ -188,16 +191,27 @@ namespace ThrottleSchedulerService
                     //      decrease cpu
                     //  else:
                     //      decrease gpu
-                    if (throttle_acc[throttle_acc.Count() / 2] < (int)sm.throttle_median.configList["throttle_median"]) {
+
+                    int temp = throttle_acc[throttle_acc.Count() / 2];
+                    int temp2 = (int)sm.throttle_median.configList["throttle_median"];
+                    log.WriteLog("complete throttle sync load(median) = " + temp + " ,default median = " + temp2);
+
+                    if (temp < temp2) {
+                        log.WriteLog("cpu throttle detected!");
                         sm.throttleMode = 1;
                     }
                     else {
+                        log.WriteLog("gpu throttle detected!");
                         sm.throttleMode = 2;
                     }
 
                     //clear
                     throttle_acc.Clear();
 
+                    //reset acc
+                    throttledelay = 0;
+
+                    
                     //initiate throttle!
                     return true;
                 }
@@ -207,7 +221,7 @@ namespace ThrottleSchedulerService
 
             }
             catch (Exception) { //config file bug
-                log.WriteErr("config file is broken");
+                //log.WriteErr("config file is broken");
                 return false;   //this will never reach
             }
         }

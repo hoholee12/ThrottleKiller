@@ -101,12 +101,11 @@ namespace ThrottleSchedulerService
                  *      monitor performance for throttleSync(tweakable) cycles and assign to closest one.
                  *      
                  */
-                if(settings.throttleSync)
-                    log.WriteLog("clockspeed:" + checker.getPWR() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
+                //log.WriteLog("clockspeed:" + checker.getPWR() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
                 
                 if (checker.isCurrentlyThrottling(settings, controller))
                 {
-                    log.WriteLog("throttle detected!");
+                    
 
                     /*
                     * sm.throttleMode:
@@ -119,11 +118,13 @@ namespace ThrottleSchedulerService
                     switch (settings.throttleMode) {
                         case 0: break;
                         case 1:
-                            
-                            
+
                             
                             break;
-                        case 2: break;
+                        case 2:
+                            
+
+                            break;
                     }
                     settings.throttleMode = 0;
                 }

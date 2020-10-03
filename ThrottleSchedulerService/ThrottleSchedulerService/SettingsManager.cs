@@ -39,8 +39,11 @@ namespace ThrottleSchedulerService
         //=======================================================================
         //why on settingsmanager? -  its the most frequently passed around object
         public int base_msec = 0;
+        
         public int accumulated_msec = 0;
         public int target_msec = 0;
+
+        public int bc_acc_msec = 0;
         public int bc_target_msec = 0;
 
         public bool timeSync { get; set; }   //run myself on true
@@ -63,32 +66,77 @@ namespace ThrottleSchedulerService
             }
         }
 
+        public void startThrottleSync() {
+            //state1 to state2
+            if (!throttleSync && bc_acc_msec == 0)
+            {
+                throttleSync = true;
+            }
+        }
+        public bool checkThrottleSync() {
+            //state4 to state1
+            if (throttleSync && bc_acc_msec != 0)
+            {
+                bc_acc_msec = 0;
+                throttleSync = false;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         public void updateTimeSync() {
             try
             {
-                
+                //general timer
                 if (accumulated_msec % target_msec == 0)
                 {
                     timeSync = true;
                     target_msec = int.Parse(loop_delay.configList["loop_delay"].ToString()) * 1000;
-                    
                 }
                 else {
                     timeSync = false;
                 }
+                accumulated_msec += base_msec;
                 
-                //for bc_target_msec
-                if (accumulated_msec % bc_target_msec == 0)
-                {
-                    throttleSync = true;
-                    bc_target_msec = int.Parse(boost_cycle_delay.configList["boost_cycle_delay"].ToString()) * 1000;
-                }
-                else
-                {
+
+                //throttle timer
+                /* states:
+                 * 1. throttleSync = false, bc_acc_msec = 0: (launch)
+                 * 2. throttleSync = true, bc_acc_msec = 0:
+                 *      start timer:
+                 *          accumulate bc_acc_msec
+                 * 3. throttleSync = false, bc_acc_msec != 0:
+                 *      check sync:
+                 *          set throttleSync = true
+                 *          set bc_acc_msec = 0
+                 *      else:
+                 *          acumulate bc_acc_msec
+                 * 4. throttleSync = true, bc_acc_msec != 0: (exit)
+                 *      to: state 1
+                 */
+
+                //state 2
+                if (throttleSync && bc_acc_msec == 0) {
+                    log.WriteLog("start of throttle timer");
                     throttleSync = false;
+                    bc_acc_msec += base_msec;
+                }
+                //state 3
+                else if(!throttleSync && bc_acc_msec != 0){
+                    if (bc_acc_msec % bc_target_msec == 0)
+                    {
+                        throttleSync = true;
+                        bc_target_msec = int.Parse(boost_cycle_delay.configList["boost_cycle_delay"].ToString()) * 1000;
+                    }
+                    else
+                    {
+                        bc_acc_msec += base_msec;
+                    }
                 }
 
-                accumulated_msec += base_msec;
             }
             catch (Exception) {
                 log.WriteErr("config file bug");
