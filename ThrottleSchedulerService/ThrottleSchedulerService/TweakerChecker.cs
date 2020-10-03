@@ -139,26 +139,35 @@ namespace ThrottleSchedulerService
             try
             {
                 /*
-                 * 1. keep checking throttle
-                 * 2. on throttleSync:  //for margin of error
-                 * 3.   if throttledelay != 0:
-                 * 4.       return true
+                 * ex) 1 sync = 5 cycles
+                 * 
+                 *  all cycles synchronized under:
+                 *      -throttleSync
+                 *  
+                 *  throttle decision is done by:
+                 *      -throttledelay(2/5 no throttle: nothing happens in this sync)
+                 *  
+                 *  which side to throttle is decided by:
+                 *      -throttle_acc median(accumulates all throttled cycle over throttledelay)
+                 *      -user tweakable throttle_median bar
                  */
                 
                 //<string, int>
                 int high = (int)sm.processor_guid_tweak.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
                 int load = getLoad();
                 int pwr = getPWR();
-                int target_pwr = (int)sm.generatedCLK.configList[ts.lastCLK];
+                int target_pwr = (int)sm.generatedCLK.configList[ts.getCLK(false)];
 
                 if (load > high && pwr < target_pwr)
                 {
-                    log.WriteLog("throttle? load = " + load + " ,clk = " + pwr);
+                    log.WriteLog("semi throttle cycle load = " + load + " ,clk = " + pwr);
+                    
+                    //accumulate
+                    throttle_acc.Add(load);
                     throttledelay++;
                 }
                 else{
-                    if(throttledelay > 0)   //do not go under 0
-                        throttledelay--;
+                    if (throttledelay > 0) throttledelay--;   //do not go under 0
                 }
 
                 /*
@@ -166,17 +175,11 @@ namespace ThrottleSchedulerService
                  *      cpuload 80%(tweakable)
                  *      -get average upto throttleSync(tweakable)
                  */
-                
-
-                //accumulate
-                if (throttledelay > 0)
-                {
-                    throttle_acc.Add(load);
-                }
 
                 //on throttleSync timer
                 if (sm.throttleSync && throttledelay > 0)
                 {
+                    log.WriteLog("complete throttle sync load = " + load + " ,clk = " + pwr);
                     sm.throttleMode = 0;
 
                     throttle_acc.Sort();
