@@ -28,6 +28,9 @@ namespace ThrottleSchedulerService
         int throttledelay = 0; //for throttling check margin
         List<int> throttle_acc = new List<int>();
 
+        Process temp = null;
+        List<int> newlist_acc = new List<int>();
+
         int prevtemp_i = 0, prevtemp_j = 0;   //slow down io usage
 
         //needed for opm
@@ -121,6 +124,66 @@ namespace ThrottleSchedulerService
         public void initPWR(Logger log) {
             this.log = log;
             MaxClockSpeed = getMaxPWR();
+        }
+
+        public List<int> sortedCLKlist(SettingsManager sm) {
+            var temp = sm.generatedCLK.configList.Keys.Cast<int>().ToList();
+            temp.Sort();
+            return temp;
+        }
+
+        public List<int> sortedPWRlist(SettingsManager sm)
+        {
+            var temp = sm.generatedCLK.configList.Values.Cast<int>().ToList();
+            temp.Sort();
+            return temp;
+        }
+
+        //assume cpu is clk 100
+        public void autoCheckInsert(Process proc, SettingsManager sm, TweakerController ts)
+        {
+            if (ts.checkInList(proc, sm) != -1) return;    //its in the list
+
+            //different process!
+            if (temp != null)
+                if (temp.Id != proc.Id)
+                {
+                    newlist_acc.Clear();
+                    sm.resetNewlistSync();
+                }
+
+            //insert proc
+            temp = proc;
+
+
+            //launch timer
+            sm.startNewlistSync();
+            int load = getLoad();
+            newlist_acc.Add(load);
+
+
+            //if time
+            if (sm.checkNewlistSync())
+            {
+                int avgload = (int)newlist_acc.Average();    //average load
+                var pwrlist = sortedPWRlist(sm);
+                int toppwr = pwrlist[0];
+
+                //average pwr(clockspeed)
+                //ex) 2700mhz / 100 * 3(load) = 81mhz
+                int target = toppwr / 100 * avgload;
+
+                //find index
+                int index = sm.generatedCLK.configList.Count() - 1; //0~11
+                foreach(int val in sortedPWRlist(sm)){
+                    if (val > target) break;
+                    index--;
+                }
+
+                //insert profile
+                sm.special_programs.appendChanges(proc.ProcessName, index);
+            }
+
         }
 
         /* its currently throttling if:

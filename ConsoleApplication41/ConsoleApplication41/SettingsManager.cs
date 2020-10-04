@@ -28,6 +28,7 @@ namespace ThrottleSchedulerService
         public SettingsToken ac_offset;
         public SettingsToken processor_guid_tweak;
         public SettingsToken generatedCLK;
+        public SettingsToken generatedXTU;
         public SettingsToken throttle_median;
         public SettingsToken gpuplan;
 
@@ -41,14 +42,20 @@ namespace ThrottleSchedulerService
         //why on settingsmanager? -  its the most frequently passed around object
         public int base_msec = 0;
         
+        //for target
         public int accumulated_msec = 0;
         public int target_msec = 0;
+        public bool timeSync { get; set; }   //run myself on true
 
+        //for bc_target
         public int bc_acc_msec = 0;
         public int bc_target_msec = 0;
-
-        public bool timeSync { get; set; }   //run myself on true
         public bool throttleSync { get; set; }   //throttle delay sync
+
+        //for newlist_target
+        public int new_acc_msec = 0;
+        public int new_target_msec = 0;
+        public bool newlistSync { get; set; }   //newlist delay sync
 
 
         //=======================================================================
@@ -61,6 +68,7 @@ namespace ThrottleSchedulerService
                 base_msec = msec;
                 target_msec = int.Parse(loop_delay.configList["loop_delay"].ToString()) * 1000;
                 bc_target_msec = int.Parse(boost_cycle_delay.configList["boost_cycle_delay"].ToString()) * 1000;
+                new_target_msec = bc_target_msec;
             }
             catch (Exception) {
                 log.WriteErr("config file bug");
@@ -87,6 +95,33 @@ namespace ThrottleSchedulerService
                 return false;
             }
         }
+        //to state 1
+        public void resetThrottleSync() { throttleSync = false; bc_acc_msec = 0; }
+
+        public void startNewlistSync()
+        {
+            //state1 to state2
+            if (!newlistSync && new_acc_msec == 0)
+            {
+                newlistSync = true;
+            }
+        }
+        public bool checkNewlistSync()
+        {
+            //state4 to state1
+            if (newlistSync && new_acc_msec != 0)
+            {
+                new_acc_msec = 0;
+                newlistSync = false;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        //to state 1
+        public void resetNewlistSync() { newlistSync = false; new_acc_msec = 0; }
 
         public void updateTimeSync() {
             try
@@ -129,12 +164,51 @@ namespace ThrottleSchedulerService
                 else if(!throttleSync && bc_acc_msec != 0){
                     if (bc_acc_msec % bc_target_msec == 0)
                     {
+                        log.WriteLog("time to sync for throttle");
                         throttleSync = true;
                         bc_target_msec = int.Parse(boost_cycle_delay.configList["boost_cycle_delay"].ToString()) * 1000;
                     }
                     else
                     {
                         bc_acc_msec += base_msec;
+                    }
+                }
+
+                //newlist timer - copy of throttle timer
+                /* states:
+                 * 1. newlistSync = false, new_acc_msec = 0: (launch)
+                 * 2. newlistSync = true, new_acc_msec = 0:
+                 *      start timer:
+                 *          accumulate new_acc_msec
+                 * 3. newlistSync = false, new_acc_msec != 0:
+                 *      check sync:
+                 *          set newlistSync = true
+                 *          set new_acc_msec = 0
+                 *      else:
+                 *          acumulate new_acc_msec
+                 * 4. newlistSync = true, new_acc_msec != 0: (exit)
+                 *      to: state 1
+                 */
+
+                //state 2
+                if (newlistSync && new_acc_msec == 0)
+                {
+                    log.WriteLog("start of newlist timer");
+                    newlistSync = false;
+                    new_acc_msec += base_msec;
+                }
+                //state 3
+                else if (!newlistSync && new_acc_msec != 0)
+                {
+                    if (new_acc_msec % new_target_msec == 0)
+                    {
+                        log.WriteLog("time to sync for newlist");
+                        newlistSync = true;
+                        new_target_msec = int.Parse(boost_cycle_delay.configList["boost_cycle_delay"].ToString()) * 1000;
+                    }
+                    else
+                    {
+                        new_acc_msec += base_msec;
                     }
                 }
 
@@ -174,6 +248,7 @@ namespace ThrottleSchedulerService
             ac_offset.checkFiles();
             checkPowerCFGFlag = processor_guid_tweak.checkFiles();
             generatedCLK.checkFiles();
+            generatedXTU.checkFiles();
             throttle_median.checkFiles();
             gpuplan.checkFiles();
         }
@@ -193,6 +268,7 @@ namespace ThrottleSchedulerService
             ac_offset = new SettingsToken(log);
             processor_guid_tweak = new SettingsToken(log);
             generatedCLK = new SettingsToken(log);
+            generatedXTU = new SettingsToken(log);
             throttle_median = new SettingsToken(log);
             gpuplan = new SettingsToken(log);
             
@@ -207,6 +283,7 @@ namespace ThrottleSchedulerService
             ac_offset.setPath(path);
             processor_guid_tweak.setPath(path);
             generatedCLK.setPath(path);
+            generatedXTU.setPath(path);
             throttle_median.setPath(path);
             gpuplan.setPath(path);
 
@@ -219,93 +296,42 @@ namespace ThrottleSchedulerService
             ac_offset.setName("ac_offset");
             processor_guid_tweak.setName("processor_guid_tweak");
             generatedCLK.setName("generatedCLK");
+            generatedXTU.setName("generatedXTU");
             throttle_median.setName("throttle_median");
             gpuplan.setName("gpuplan");
 
             //initialize contents
             special_programs.setContent(
-@"'jdownloader2' = 0
-'github' = 0
-'steam' = 0
-'origin' = 0
-'mbam' = 0
-'shellexperiencehost' = 0
-'svchost' = 0
-'subprocess' = 0
-'gtavlauncher' = 0
-'acad' = 1
-'launcher' = 7
-'tesv' = 1
-'fsx' = 1
-'Journey' = 1
-'nullDC' = 1
-'pcsxr' = 1
-'ppsspp' = 1
-'Project64' = 1
-'ace7game' = 1
-'pcars' = 1
-'doom' = 1
-'gtaiv' = 4
-'nfs' = 1
-'dirt' = 1
-'grid' = 1
-'studio64' = 2
-'arcade64' = 2
-'djmax' = 2
-'streaming_client' = 2
-'moonlight' = 2
-'pcsx2' = 2
-'dolphin' = 2
-'vmware-vmx' = 2
-'virtualbox' = 2
-'dosbox' = 2
-'cemu' = 2
-'citra' = 2
-'rpcs3' = 7
-'drt' = 3
-'dirtrally2' = 3
-'tombraider' = 3
-'rottr' = 3
-'bf' = 4
-'gta5' = 4
-'borderlands2' = 4
-'katamari' = 4
-'bold' = 4
-'setup' = 5
-'minecraft' = 5
-'cl' = 5
-'link' = 5
-'ffmpeg' = 5
-'7z' = 5
-'vegas' = 5
-'bandizip' = 5
-'handbrake' = 5
-'mpc-hc' = 5
-'consoleapplication' = 5
-'macsfancontrol' = 6
-'lubbosfancontrol' = 6
-'bootcamp' = 6
-'obs' = 6
-'remoteplay' = 6
-'discord' = 6");
+@"explorer = 0
+");    //apps can be added
             programs_running_cfg_cpu.setContent(
-@"0 = 65
-1 = 98
-2 = 100
-3 = 65
-4 = 95
-5 = 100
+@"0 = 100
+1 = 99
+2 = 98
+3 = 95
+4 = 84
+5 = 73
 6 = 65
-7 = 100");
+7 = 58
+8 = 50
+9 = 43
+10 = 32
+11 = 24
+");
             programs_running_cfg_xtu.setContent(
-@"0 = 7.5
-1 = 5.5
-2 = 4.5
-3 = 7.5
-4 = 6.5
-5 = 4.5
+@"11 = 10
+10 = 9.5
+9 = 9
+8 = 8.5
+7 = 8
 6 = 7.5
-7 = 7.5");
+5 = 7
+4 = 6.5
+3 = 6
+2 = 5.5
+1 = 5
+0 = 4.5
+");
             programs_running_cfg_nice.setContent(
 @"0 = idle
 1 = high
@@ -331,6 +357,7 @@ namespace ThrottleSchedulerService
 bc5038f7-23e0-4960-96da-33abaf5935ec = 100          # processor high clockspeed limit
 ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             generatedCLK.setContent("");
+            generatedXTU.setContent("");
             throttle_median.setContent(@"throttle_median = 80");
             gpuplan.setContent(@"gpuplan = 1");
 
@@ -353,6 +380,8 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             processor_guid_tweak.Tval = typeof(int);
             generatedCLK.Tkey = typeof(int);
             generatedCLK.Tval = typeof(int);
+            generatedXTU.Tkey = typeof(int);
+            generatedXTU.Tval = typeof(float);
             throttle_median.Tkey = typeof(string);
             throttle_median.Tval = typeof(int);
             gpuplan.Tkey = typeof(string);
@@ -372,6 +401,7 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             ac_offset.setLastModifiedTime(File.GetLastWriteTime(ac_offset.getFullName()).Ticks);
             processor_guid_tweak.setLastModifiedTime(File.GetLastWriteTime(processor_guid_tweak.getFullName()).Ticks);
             generatedCLK.setLastModifiedTime(File.GetLastWriteTime(generatedCLK.getFullName()).Ticks);
+            generatedXTU.setLastModifiedTime(File.GetLastWriteTime(generatedXTU.getFullName()).Ticks);
             throttle_median.setLastModifiedTime(File.GetLastWriteTime(throttle_median.getFullName()).Ticks);
             gpuplan.setLastModifiedTime(File.GetLastWriteTime(gpuplan.getFullName()).Ticks);
         }

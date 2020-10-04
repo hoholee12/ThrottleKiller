@@ -23,7 +23,6 @@ namespace ThrottleSchedulerService
         public int lastCLK = 1234;
         public int lastBaseCLK = 1234;
         public float lastXTU = 1234;
-        public float lastBaseXTU = 1234;
 
         //force reapply
         public bool forceApply = false;
@@ -55,8 +54,9 @@ namespace ThrottleSchedulerService
         Process powercfg;
 
         float MaxXTU;   //initial xtu value(safe measure)
+        float BaseXTU;  //generated on init CLKXTU list
 
-        public TweakerController(Logger log, TweakerChecker checker)
+        public TweakerController(Logger log, TweakerChecker checker, SettingsManager sm)
         {
             this.log = log;
             this.checker = checker;
@@ -104,6 +104,19 @@ namespace ThrottleSchedulerService
             MaxXTU = getXTU();  //get initial xtu value
         }
 
+        //requires XTU list generation
+        public float getBaseXTU(SettingsManager sm) {
+            try {
+                return (float)sm.generatedXTU.configList[100];
+            }
+            catch (Exception) {
+                forceApply = true;
+                generateCLKlist(sm, checker);
+
+            }
+
+            return BaseXTU;
+        }
 
 
         public string runpowercfg(string str) {
@@ -115,8 +128,12 @@ namespace ThrottleSchedulerService
             return output;
         }
 
-        public float getXTU() {
-            if (lastXTU != 1234) return lastXTU;
+        public float getXTU()
+        {
+            if (!forceApply) if (lastXTU != 1234) return lastXTU;
+            forceApply = false;
+
+
             pshell.StartInfo.Arguments = "-t -id 59";
             pshell.Start();
             pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
@@ -124,25 +141,10 @@ namespace ThrottleSchedulerService
             pshell.WaitForExit();
             string temp = result.Last().Replace("x", "").Trim();
             lastXTU = float.Parse(temp);
+
+            log.WriteLog("result = " + lastXTU);
             return lastXTU;
         }
-
-        public float getBaseXTU(SettingsManager sm) {
-            if (lastBaseXTU != 1234) return lastBaseXTU;
-            float temp = getXTU();   //init lastXTU
-            //powersave gpuplan forces base clockspeed
-            runpowercfg("/setdcvalueindex " + powerplan + " " + gpupplan + " " + gpuppsub + " " + 0);
-            runpowercfg("/setacvalueindex " + powerplan + " " + gpupplan + " " + gpuppsub + " " + 0);
-
-            runpowercfg("/setactive " + powerplan); //apply
-
-            lastBaseXTU = getXTU();
-
-            log.WriteLog("baseXTU is: " + lastBaseXTU);
-            setXTU(sm, temp);   //reset back
-            return lastBaseXTU;
-        }
-
 
         //intel graphics settings
         //	false = Balanced(Maximum Battery Life is useless)
@@ -155,7 +157,14 @@ namespace ThrottleSchedulerService
             pshell.Start();
             pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
             pshell.WaitForExit();
+            
+            
             int gpux = 1;   //balanced
+            
+            
+            if (forceApply) return; //passthrough
+
+
             if ((int)sm.gpuplan.configList["gpuplan"] == 1)
             {
                 log.WriteLog("setting GPU: performance");
@@ -208,6 +217,7 @@ namespace ThrottleSchedulerService
 
         //track lastCLK because launching app is quite heavy...
         public int getCLK(bool low) {
+            if (!forceApply)
             if (low)
             {
                 if (lastBaseCLK != 1234) { return lastBaseCLK; }
@@ -216,6 +226,8 @@ namespace ThrottleSchedulerService
             {
                 if (lastCLK != 1234) { return lastCLK; }
             }
+
+            forceApply = false;
 
             string temp;
             if (low)
@@ -255,6 +267,7 @@ namespace ThrottleSchedulerService
             return temp;
         }
 
+
         //apply nice per process
         public void setProcNice(Process proc, SettingsManager sm) {
             int temp = checkInList(proc, sm);
@@ -283,7 +296,7 @@ namespace ThrottleSchedulerService
                 int temp2 = (int)sm.programs_running_cfg_cpu.configList[temp];
                 double temp3 = (float)sm.programs_running_cfg_xtu.configList[temp];
 
-                if (getCLK(false) != temp2 || forceApply)   //forceApply for throttle config
+                if (getCLK(false) != temp2 || getXTU() != temp3 || forceApply)   //forceApply for throttle config
                 {
                     forceApply = false;
 
@@ -303,22 +316,45 @@ namespace ThrottleSchedulerService
 
         //generate CLK list
         //CLK = powerplan value, PWR = real clockspeed
+        /*
+         *  profile number: (ascending order)
+         *      least = CPU high/ GPU low
+         *      most = CPU low/ GPU high
+         * 
+         *      **by default least is done to monitor correct cpu load for new apps.
+         * 
+         * 
+         * 
+         * 
+         */
         public void generateCLKlist(SettingsManager sm, TweakerChecker tc) {
-
-            if (sm.generatedCLK.getCount() > 1) return; //all generated
+            if(!forceApply)
+            if ((sm.generatedCLK.getCount() > 1)
+                && (sm.generatedXTU.getCount() > 1)
+                && (sm.programs_running_cfg_cpu.getCount() > 1)
+                && (sm.programs_running_cfg_xtu.getCount() > 1)
+                ) return;  //all generated
+            forceApply = false;
 
             int clkbackuph = getCLK(false);
             int clkbackupl = getCLK(true);
+            float xtubackup = getXTU();
 
+            forceApply = true;
             sm.generatedCLK.configList.Clear();
+            sm.generatedXTU.configList.Clear();
+            sm.programs_running_cfg_cpu.configList.Clear();
+            sm.programs_running_cfg_xtu.configList.Clear();
 
             //else
-            log.WriteLog("================start of CLK list generation================");
+            log.WriteLog("================start of CLK + XTU list generation================");
             log.WriteLog("do NOT run anything power intensive!!!");
 
             int prevPWR = int.MaxValue;
-            //start looping from 100 down to 50
-            for(int i = 100; i > 50; i--){
+            
+            //start looping from 100 down to 0
+            int x = 0;
+            for(int i = 100; i >= 0; i--){
                 runpowercfg("/setdcvalueindex " + powerplan + " " + processor + " " + procsubh + " " + i);
                 runpowercfg("/setacvalueindex " + powerplan + " " + processor + " " + procsubh + " " + i);
                 runpowercfg("/setdcvalueindex " + powerplan + " " + processor + " " + procsubl + " " + i);
@@ -331,22 +367,35 @@ namespace ThrottleSchedulerService
                     
                     //add
                     sm.generatedCLK.configList.Add(i, prevPWR);
+                    sm.programs_running_cfg_cpu.configList.Add(x++, i);
                     log.WriteLog("new CLK: " + i + " clockspeed: " + prevPWR);
                 }
             
             }
+
+            float xtutemp = MaxXTU;
+            var listtemp = tc.sortedCLKlist(sm);
+            foreach (int j in listtemp) {
+                xtutemp -= 0.5f;
+                sm.generatedXTU.configList.Add(j, xtutemp);
+                sm.programs_running_cfg_xtu.configList.Add(--x, xtutemp);
+                log.WriteLog("new XTU: " + xtutemp + " for CLK: " + j);
+            }
+            BaseXTU = xtutemp;
+
+
             //write back
             log.WriteLog("writeback to file commencing...");
             sm.generatedCLK.completeWriteBack();
+            sm.generatedXTU.completeWriteBack();
+            sm.programs_running_cfg_cpu.completeWriteBack();
+            sm.programs_running_cfg_xtu.completeWriteBack();
 
             setCLK(sm, clkbackuph, false);   //restore old clk
             setCLK(sm, clkbackupl, true);   //restore old clk
-            log.WriteLog("================end of CLK list generation================");
+            setXTU(sm, xtubackup);          //restore old xtu
+            log.WriteLog("================end of CLK + XTU list generation================");
 
-        }
-
-        public void decrCLK() {
-            
         }
         
 

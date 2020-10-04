@@ -62,7 +62,7 @@ namespace ThrottleSchedulerService
             //timesync
             settings.initTimeSync(msec);
 
-            controller = new TweakerController(log, checker);
+            controller = new TweakerController(log, checker, settings);
 
             //initial load
             initflow();
@@ -91,8 +91,11 @@ namespace ThrottleSchedulerService
 
                 //2. apply settings(add app if dont exist)
                 var currfg = checker.detectFgProc(settings);
+                checker.autoCheckInsert(currfg, settings, controller);
                 controller.setProcNice(currfg, settings);
                 controller.setPower(currfg, settings);
+
+
 
                 //3. check throttle
                 /*
@@ -130,15 +133,14 @@ namespace ThrottleSchedulerService
                         settings.throttleMode = 0;  //reset
 
                         //new clk value for cpu throttle (newclk)
-                        var gclklist = settings.generatedCLK.configList.Keys.Cast<int>().ToList();
-                        gclklist.Sort((a, b) => a.CompareTo(b));    //ascending order
+                        var gclklist = checker.sortedCLKlist(settings);
                         int newindex = gclklist.IndexOf(controller.getCLK(false));
                         if (newindex > 0) newindex--; //ensure 0 is the end(noindex is -1)
                         int newclk = gclklist.ElementAt(newindex);    //clk value goes in
 
                         //new xtu value for gpu throttle (newxtu)
                         float newxtu = controller.getXTU();
-                        if (newxtu > controller.getBaseXTU(settings)) newxtu -= 1.0f;
+                        if (newxtu > controller.getBaseXTU(settings)) newxtu -= 0.5f;
 
                         switch (mode) {
                             case 0: break;
