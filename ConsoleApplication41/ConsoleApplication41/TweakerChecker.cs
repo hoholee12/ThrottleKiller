@@ -174,9 +174,24 @@ namespace ThrottleSchedulerService
                 int target = toppwr / 100 * avgload;
 
                 //find index
-                int index = sm.generatedCLK.configList.Count() - 1; //0~11
+                int index = 0;
+                int limit = (int)sm.newlist_median.configList["newlist_median"];
+                foreach(int val in sortedCLKlist(sm)){
+                    if (val > limit)
+                    {
+                        limit = val;
+                        break;
+                    }
+                    index++;
+                }
+                limit = (int)sm.generatedCLK.configList[limit];
+
+                index = sm.generatedCLK.configList.Count() - 1; //-1 to start from 0
                 foreach(int val in sortedPWRlist(sm)){
-                    if (val > target) break;
+                    if (val > target && val > limit)
+                    {
+                        break;
+                    }
                     index--;
                 }
 

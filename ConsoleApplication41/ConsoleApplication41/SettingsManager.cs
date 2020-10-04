@@ -30,6 +30,7 @@ namespace ThrottleSchedulerService
         public SettingsToken generatedCLK;
         public SettingsToken generatedXTU;
         public SettingsToken throttle_median;
+        public SettingsToken newlist_median;
         public SettingsToken gpuplan;
 
         //BASE DIRECTORY
@@ -250,6 +251,7 @@ namespace ThrottleSchedulerService
             generatedCLK.checkFiles();
             generatedXTU.checkFiles();
             throttle_median.checkFiles();
+            newlist_median.checkFiles();
             gpuplan.checkFiles();
         }
 
@@ -270,6 +272,7 @@ namespace ThrottleSchedulerService
             generatedCLK = new SettingsToken(log);
             generatedXTU = new SettingsToken(log);
             throttle_median = new SettingsToken(log);
+            newlist_median = new SettingsToken(log);
             gpuplan = new SettingsToken(log);
             
             
@@ -285,6 +288,7 @@ namespace ThrottleSchedulerService
             generatedCLK.setPath(path);
             generatedXTU.setPath(path);
             throttle_median.setPath(path);
+            newlist_median.setPath(path);
             gpuplan.setPath(path);
 
             special_programs.setName("special_programs");
@@ -298,6 +302,7 @@ namespace ThrottleSchedulerService
             generatedCLK.setName("generatedCLK");
             generatedXTU.setName("generatedXTU");
             throttle_median.setName("throttle_median");
+            newlist_median.setName("newlist_median");
             gpuplan.setName("gpuplan");
 
             //initialize contents
@@ -359,6 +364,7 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             generatedCLK.setContent("");
             generatedXTU.setContent("");
             throttle_median.setContent(@"throttle_median = 80");
+            newlist_median.setContent(@"newlist_median = 50");
             gpuplan.setContent(@"gpuplan = 1");
 
             //set key value pair type
@@ -384,6 +390,8 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             generatedXTU.Tval = typeof(float);
             throttle_median.Tkey = typeof(string);
             throttle_median.Tval = typeof(int);
+            newlist_median.Tkey = typeof(string);
+            newlist_median.Tval = typeof(int);
             gpuplan.Tkey = typeof(string);
             gpuplan.Tval = typeof(int);
 
@@ -403,6 +411,7 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             generatedCLK.setLastModifiedTime(File.GetLastWriteTime(generatedCLK.getFullName()).Ticks);
             generatedXTU.setLastModifiedTime(File.GetLastWriteTime(generatedXTU.getFullName()).Ticks);
             throttle_median.setLastModifiedTime(File.GetLastWriteTime(throttle_median.getFullName()).Ticks);
+            newlist_median.setLastModifiedTime(File.GetLastWriteTime(newlist_median.getFullName()).Ticks);
             gpuplan.setLastModifiedTime(File.GetLastWriteTime(gpuplan.getFullName()).Ticks);
         }
         

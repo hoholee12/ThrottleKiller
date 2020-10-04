@@ -1,5 +1,5 @@
 explorer = 0
 
 @append
-cmd = 11
-notepad++ = 11
+ConsoleApplication41.vshost = 6
+cmd = 6
