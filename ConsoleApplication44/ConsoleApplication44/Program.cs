@@ -21,7 +21,7 @@ namespace ConsoleApplication44
                 try
                 {
                     TcpClient client = new TcpClient("127.0.0.1", 1999);
-                    Byte[] data = System.Text.Encoding.ASCII.GetBytes("info");
+                    Byte[] data = System.Text.Encoding.ASCII.GetBytes("sysinfo");
 
                     NetworkStream stream = client.GetStream();
 

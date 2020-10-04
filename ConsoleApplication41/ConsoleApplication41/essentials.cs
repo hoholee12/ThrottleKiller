@@ -11,6 +11,8 @@ namespace ThrottleSchedulerService
     class essentials
     {
         public void WriteLog(string msg) {
+            Console.WriteLine(msg);
+
             string folderpath = AppDomain.CurrentDomain.BaseDirectory + @"\logs";
             if (!Directory.Exists(folderpath)) Directory.CreateDirectory(folderpath);
 
