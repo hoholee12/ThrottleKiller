@@ -22,7 +22,7 @@ namespace ThrottleSchedulerService
         }
 
         //logging
-        public void WriteLog(string msg)
+        public string WriteLog(string msg)
         {
             Console.WriteLine(msg);
 
@@ -36,6 +36,8 @@ namespace ThrottleSchedulerService
                 using (StreamWriter sw = File.CreateText(filepath)) sw.WriteLine(DateTime.Now + ": " + msg);
             else
                 using (StreamWriter sw = File.AppendText(filepath)) sw.WriteLine(DateTime.Now + ": " + msg);
+
+            return msg;
         }
 
         public void WriteErr(string msg) {

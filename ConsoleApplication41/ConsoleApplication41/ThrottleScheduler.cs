@@ -30,8 +30,8 @@ namespace ThrottleSchedulerService
         * 
         * 
         * 10. generate CLK list                         - DONE
-        * 11. add mechanism for new apps
-        * 12. IPC with GUI app
+        * 11. add mechanism for new apps                - DONE
+        * 12. IPC with GUI app                          - DONE
         * 
         */
 
@@ -43,6 +43,8 @@ namespace ThrottleSchedulerService
         public TweakerController controller;
 
         int msec;
+
+        bool shutdownval = false;
 
         
         //init every objects here!
@@ -73,9 +75,25 @@ namespace ThrottleSchedulerService
             controller.initPowerCFG(settings);
         }
 
+        ///////////////////////////////////////////for client
+        public string getSysInfo() {
+            return log.WriteLog("pwr " + checker.getPWR() + " load " + checker.getLoad() + " temp "
+                + checker.getTemp() + " throttleMode " + settings.throttleMode.ToString() + " wrong " + controller.wrong.ToString());
+        }
+        public string reset() {
+            settings.batchResetFiles();
+            return "all_files_reset.";
+        }
+        public string shutdown() {
+            shutdownval = true;
+            return "shutting_down.";
+        }
+        ///////////////////////////////////////////for client
         //start main loop
         public void mainflow()
         {
+
+            if (shutdownval) Environment.Exit(0);
             
             //internal sync
             if (settings.timeSync)
@@ -115,7 +133,7 @@ namespace ThrottleSchedulerService
                  *      monitor performance for throttleSync(tweakable) cycles and assign to closest one.
                  *      
                  */
-                log.WriteLog("clockspeed:" + checker.getPWR() + ", load:" + checker.getLoad() + ", temp:" + checker.getTemp());
+                
 
                 /*current app info
                 *  1. skip if its not in list

@@ -1,5 +1,1 @@
 explorer = 0
-
-@append
-ConsoleApplication41.vshost = 6
-cmd = 6

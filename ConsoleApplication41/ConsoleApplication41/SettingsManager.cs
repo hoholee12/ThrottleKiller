@@ -255,6 +255,23 @@ namespace ThrottleSchedulerService
             gpuplan.checkFiles();
         }
 
+        //for client
+        public void batchResetFiles() {
+            special_programs.resetFiles();
+            programs_running_cfg_cpu.resetFiles();
+            programs_running_cfg_xtu.resetFiles();
+            programs_running_cfg_nice.resetFiles();
+            loop_delay.resetFiles();
+            boost_cycle_delay.resetFiles();
+            ac_offset.resetFiles();
+            processor_guid_tweak.resetFiles();
+            generatedCLK.resetFiles();
+            generatedXTU.resetFiles();
+            throttle_median.resetFiles();
+            newlist_median.resetFiles();
+            gpuplan.resetFiles();
+        }
+
         public void initConfig(Logger log) {     
             //get log object
             this.log = log;

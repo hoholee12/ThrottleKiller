@@ -14,6 +14,9 @@ using System.Runtime.InteropServices;
 
 using System.Threading;
 
+using System.Net;
+using System.Net.Sockets;
+
 namespace ThrottleSchedulerService
 {
     class Program
@@ -53,6 +56,56 @@ namespace ThrottleSchedulerService
             ess.WriteLog("system elapsed time = " + stopwatch.ElapsedMilliseconds + ", service timer interval = " + timer.Interval);
         }
 
+        public void inputserver() {
+            //IPC by TCP connection
+
+            try
+            {
+                var listener = new TcpListener(IPAddress.Parse("127.0.0.1"), 1999);
+                listener.Start();
+
+                var bytes = new Byte[256];
+                string data = null;
+
+                //always listen
+                while (true)
+                {
+                    Console.WriteLine("waiting for input...");
+                    var client = listener.AcceptTcpClient();
+                    NetworkStream stream = client.GetStream();
+
+                    int i;
+                    while ((i = stream.Read(bytes, 0, bytes.Length)) != 0)
+                    {
+                        data = System.Text.Encoding.ASCII.GetString(bytes, 0, i);
+                        Console.WriteLine("UI App requests: " + data);
+                        byte[] output = null;
+                        string temp = null;
+                        switch (data)
+                        {
+                            case "sysinfo":
+                                temp = ts.getSysInfo();
+                                break;
+                            case "reset":
+                                temp = ts.reset();
+                                break;
+                            case "shutdown":
+                                temp = ts.shutdown();
+                                break;
+                        }
+                        output = System.Text.Encoding.ASCII.GetBytes(temp);
+                        Console.WriteLine("sending output: " + temp);
+                        stream.Write(output, 0, output.Length);
+
+
+                    }
+                    client.Close();
+                }
+            }
+            catch (Exception) { }
+
+        }
+
         public void service() {
             ts = new ThrottleScheduler(msec);
             stopwatch = Stopwatch.StartNew();
@@ -62,6 +115,12 @@ namespace ThrottleSchedulerService
             timer.Enabled = true;
 
             timer.Start();
+
+            while (true) {
+                inputserver();
+            }
+
+
         }
 
         public static void Main() {

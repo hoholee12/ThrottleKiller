@@ -130,6 +130,10 @@ namespace ThrottleSchedulerService
             
         }
 
+        public void resetFiles() {
+            File.WriteAllText(getFullName(), getContent()); log.WriteLog("create file: " + getFullName());
+        }
+
         //create config files if nonexistant
         //return true if file is created, false if not.
         public bool checkFiles()

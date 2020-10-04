@@ -27,6 +27,9 @@ namespace ThrottleSchedulerService
         //force reapply
         public bool forceApply = false;
 
+        //wrong
+        public bool wrong = false;
+
 /*
         //GUIDs
         public string guid0 = @"381b4222-f694-41f0-9685-ff5bb260df2e";		// you can change to any powerplan you want as default!
@@ -305,6 +308,7 @@ namespace ThrottleSchedulerService
                     setCLK(sm, temp2, false);
                     if (MaxXTU < temp3) {
                         log.WriteLog("oh no, XTU value bad... you may want to restart your computer");
+                        wrong = true;
                         return;
                     }
                     setXTU(sm, temp3);
