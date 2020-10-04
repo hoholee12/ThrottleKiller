@@ -127,21 +127,27 @@ namespace ThrottleSchedulerService
         }
 
         public List<int> sortedCLKlist(SettingsManager sm) {
+            sm.IPClocked = true;
             var temp = sm.generatedCLK.configList.Keys.Cast<int>().ToList();
             temp.Sort();
+            sm.IPClocked = false;
             return temp;
         }
 
         public List<int> sortedPWRlist(SettingsManager sm)
         {
+            sm.IPClocked = true;
             var temp = sm.generatedCLK.configList.Values.Cast<int>().ToList();
             temp.Sort();
+            sm.IPClocked = false;
             return temp;
         }
 
         //assume cpu is clk 100
         public void autoCheckInsert(Process proc, SettingsManager sm, TweakerController ts)
         {
+            sm.IPClocked = true;
+
             if (ts.checkInList(proc, sm) != -1) return;    //its in the list
 
             //different process!
@@ -199,6 +205,8 @@ namespace ThrottleSchedulerService
                 sm.special_programs.appendChanges(proc.ProcessName, index);
             }
 
+
+            sm.IPClocked = false;
         }
 
         /* its currently throttling if:
@@ -214,6 +222,8 @@ namespace ThrottleSchedulerService
          * cpu is more important than gpu
          */
         public bool isCurrentlyThrottling(SettingsManager sm, TweakerController ts){
+            sm.IPClocked = true;
+
             try
             {
                 /*
@@ -289,19 +299,23 @@ namespace ThrottleSchedulerService
                     //reset acc
                     throttledelay = 0;
 
-                    
+                    sm.IPClocked = false;
                     //initiate throttle!
                     return true;
                 }
-                
+
+                sm.IPClocked = false;
                 //skip for now
                 return false;
 
             }
             catch (Exception) { //config file bug
                 //log.WriteErr("config file is broken");
-                return false;   //this will never reach
+
             }
+
+            sm.IPClocked = false;
+            return false;   //this will never reach
         }
 
         //return the process obj if any process in the list runs as focused

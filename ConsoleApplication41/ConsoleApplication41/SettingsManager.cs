@@ -61,6 +61,8 @@ namespace ThrottleSchedulerService
 
         //=======================================================================
 
+        //simple locking mechanism for important stuff that cant be interrupted midway
+        public bool IPClocked = false;
 
 
         public void initTimeSync(int msec) {

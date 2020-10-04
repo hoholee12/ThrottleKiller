@@ -10,6 +10,7 @@ using System.Management;
 using OpenHardwareMonitor.Hardware;
 
 using System.Timers;
+using System.Threading;
 
 namespace ThrottleSchedulerService
 {
@@ -45,7 +46,6 @@ namespace ThrottleSchedulerService
         int msec;
 
         bool shutdownval = false;
-
         
         //init every objects here!
         public ThrottleScheduler(int msec)
@@ -77,14 +77,19 @@ namespace ThrottleSchedulerService
 
         ///////////////////////////////////////////for client
         public string getSysInfo() {
+            while (settings.IPClocked);
             return log.WriteLog("pwr " + checker.getPWR() + " load " + checker.getLoad() + " temp "
                 + checker.getTemp() + " throttleMode " + settings.throttleMode.ToString() + " wrong " + controller.wrong.ToString());
         }
         public string reset() {
-            settings.batchResetFiles();
-            return "all_files_reset.";
+            while (settings.IPClocked);
+            settings.generatedCLK.resetFiles();
+            settings.generatedXTU.resetFiles();
+            settings.special_programs.resetFiles();
+            return "clklist_reset.";
         }
         public string shutdown() {
+            //while (settings.IPClocked);
             shutdownval = true;
             return "shutting_down.";
         }

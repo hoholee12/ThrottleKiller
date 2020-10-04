@@ -109,6 +109,8 @@ namespace ThrottleSchedulerService
 
         //requires XTU list generation
         public float getBaseXTU(SettingsManager sm) {
+            sm.IPClocked = true;
+
             try {
                 return (float)sm.generatedXTU.configList[100];
             }
@@ -117,6 +119,8 @@ namespace ThrottleSchedulerService
                 generateCLKlist(sm, checker);
 
             }
+
+            sm.IPClocked = false;
 
             return BaseXTU;
         }
@@ -185,6 +189,7 @@ namespace ThrottleSchedulerService
         }
 
         public void initPowerCFG(SettingsManager sm) {
+            sm.IPClocked = true;
 
             log.WriteLog("init PowerCFG settings");
             foreach (string temp in sm.processor_guid_tweak.configList.Keys) {
@@ -195,10 +200,13 @@ namespace ThrottleSchedulerService
             runpowercfg("/attributes " + gpupplan + " " + gpuppsub + " -ATTRIB_HIDE");
            
             runpowercfg("/setactive " + powerplan); //apply
+
+            sm.IPClocked = false;
         
         }
 
         public void setCLK(SettingsManager sm, int setval, bool low) {
+            sm.IPClocked = true;
 
             if (low)
             {
@@ -216,6 +224,8 @@ namespace ThrottleSchedulerService
             }
 
             runpowercfg("/setactive " + powerplan); //apply
+
+            sm.IPClocked = false;
         }
 
         //track lastCLK because launching app is quite heavy...
@@ -258,6 +268,8 @@ namespace ThrottleSchedulerService
 
         //-1: not found
         public int checkInList(Process proc, SettingsManager sm) {
+            sm.IPClocked = true;
+
             int temp = -1;
             foreach (string name in sm.special_programs.configList.Keys)
             {
@@ -267,6 +279,9 @@ namespace ThrottleSchedulerService
                     break;
                 }
             }
+
+            sm.IPClocked = false;
+
             return temp;
         }
 
@@ -291,6 +306,8 @@ namespace ThrottleSchedulerService
 
         //apply power per process
         public void setPower(Process proc, SettingsManager sm) {
+            sm.IPClocked = true;
+
             int temp = checkInList(proc, sm);
             if (temp == -1) temp = 0; //not in my list, go apply default 0
             
@@ -316,6 +333,8 @@ namespace ThrottleSchedulerService
             }
             catch (Exception) { }
 
+            sm.IPClocked = false;
+
         }
 
         //generate CLK list
@@ -332,6 +351,8 @@ namespace ThrottleSchedulerService
          * 
          */
         public void generateCLKlist(SettingsManager sm, TweakerChecker tc) {
+            sm.IPClocked = true;
+
             if(!forceApply)
             if ((sm.generatedCLK.getCount() > 1)
                 && (sm.generatedXTU.getCount() > 1)
@@ -400,12 +421,14 @@ namespace ThrottleSchedulerService
             setXTU(sm, xtubackup);          //restore old xtu
             log.WriteLog("================end of CLK + XTU list generation================");
 
+            sm.IPClocked = false;
         }
         
 
         //apply based on profile
         public void setNiceProfile(SettingsManager sm)
         {
+            sm.IPClocked = true;
 
             Process[] plist = Process.GetProcesses();
 
@@ -440,6 +463,8 @@ namespace ThrottleSchedulerService
                     catch (Exception) { }
                 });
             }
+
+            sm.IPClocked = false;
         }
 
     }
