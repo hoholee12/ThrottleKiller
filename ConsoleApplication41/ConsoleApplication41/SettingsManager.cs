@@ -25,6 +25,7 @@ namespace ThrottleSchedulerService
         public SettingsToken programs_running_cfg_nice;
         public SettingsToken loop_delay;
         public SettingsToken boost_cycle_delay;
+        public SettingsToken newlist_cycle_delay;
         public SettingsToken ac_offset;
         public SettingsToken processor_guid_tweak;
         public SettingsToken generatedCLK;
@@ -71,7 +72,7 @@ namespace ThrottleSchedulerService
                 base_msec = msec;
                 target_msec = int.Parse(loop_delay.configList["loop_delay"].ToString()) * 1000;
                 bc_target_msec = int.Parse(boost_cycle_delay.configList["boost_cycle_delay"].ToString()) * 1000;
-                new_target_msec = bc_target_msec;
+                new_target_msec = int.Parse(newlist_cycle_delay.configList["newlist_cycle_delay"].ToString()) * 1000;
             }
             catch (Exception) {
                 log.WriteErr("config file bug");
@@ -207,7 +208,7 @@ namespace ThrottleSchedulerService
                     {
                         log.WriteLog("time to sync for newlist");
                         newlistSync = true;
-                        new_target_msec = int.Parse(boost_cycle_delay.configList["boost_cycle_delay"].ToString()) * 1000;
+                        new_target_msec = int.Parse(newlist_cycle_delay.configList["newlist_cycle_delay"].ToString()) * 1000;
                     }
                     else
                     {
@@ -248,6 +249,7 @@ namespace ThrottleSchedulerService
             programs_running_cfg_nice.checkFiles();
             loop_delay.checkFiles();
             boost_cycle_delay.checkFiles();
+            newlist_cycle_delay.checkFiles();
             ac_offset.checkFiles();
             checkPowerCFGFlag = processor_guid_tweak.checkFiles();
             generatedCLK.checkFiles();
@@ -265,6 +267,7 @@ namespace ThrottleSchedulerService
             programs_running_cfg_nice.resetFiles();
             loop_delay.resetFiles();
             boost_cycle_delay.resetFiles();
+            newlist_cycle_delay.resetFiles();
             ac_offset.resetFiles();
             processor_guid_tweak.resetFiles();
             generatedCLK.resetFiles();
@@ -286,6 +289,7 @@ namespace ThrottleSchedulerService
             programs_running_cfg_nice = new SettingsToken(log);
             loop_delay = new SettingsToken(log);
             boost_cycle_delay = new SettingsToken(log);
+            newlist_cycle_delay = new SettingsToken(log);
             ac_offset = new SettingsToken(log);
             processor_guid_tweak = new SettingsToken(log);
             generatedCLK = new SettingsToken(log);
@@ -302,6 +306,7 @@ namespace ThrottleSchedulerService
             programs_running_cfg_nice.setPath(path);
             loop_delay.setPath(path);
             boost_cycle_delay.setPath(path);
+            newlist_cycle_delay.setPath(path);
             ac_offset.setPath(path);
             processor_guid_tweak.setPath(path);
             generatedCLK.setPath(path);
@@ -316,6 +321,7 @@ namespace ThrottleSchedulerService
             programs_running_cfg_nice.setName("programs_running_cfg_nice");
             loop_delay.setName("loop_delay");
             boost_cycle_delay.setName("boost_cycle_delay");
+            newlist_cycle_delay.setName("newlist_cycle_delay");
             ac_offset.setName("ac_offset");
             processor_guid_tweak.setName("processor_guid_tweak");
             generatedCLK.setName("generatedCLK");
@@ -365,8 +371,9 @@ namespace ThrottleSchedulerService
 5 = idle
 6 = realtime
 7 = high");
-            loop_delay.setContent(@"loop_delay = 5");
-            boost_cycle_delay.setContent(@"boost_cycle_delay = 6");
+            loop_delay.setContent(@"loop_delay = 1");
+            boost_cycle_delay.setContent(@"boost_cycle_delay = 5");
+            newlist_cycle_delay.setContent(@"newlist_cycle_delay = 30");
             ac_offset.setContent(@"ac_offset = 1");
             processor_guid_tweak.setContent(@"
 06cadf0e-64ed-448a-8927-ce7bf90eb35d = 30			# processor high threshold; lower this for performance
@@ -399,6 +406,8 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             loop_delay.Tval = typeof(int);
             boost_cycle_delay.Tkey = typeof(string);
             boost_cycle_delay.Tval = typeof(int);
+            newlist_cycle_delay.Tkey = typeof(string);
+            newlist_cycle_delay.Tval = typeof(int);
             ac_offset.Tkey = typeof(string);
             ac_offset.Tval = typeof(int);
             processor_guid_tweak.Tkey = typeof(string);
@@ -425,6 +434,7 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             programs_running_cfg_nice.setLastModifiedTime(File.GetLastWriteTime(programs_running_cfg_nice.getFullName()).Ticks);
             loop_delay.setLastModifiedTime(File.GetLastWriteTime(loop_delay.getFullName()).Ticks);
             boost_cycle_delay.setLastModifiedTime(File.GetLastWriteTime(boost_cycle_delay.getFullName()).Ticks);
+            newlist_cycle_delay.setLastModifiedTime(File.GetLastWriteTime(newlist_cycle_delay.getFullName()).Ticks);
             ac_offset.setLastModifiedTime(File.GetLastWriteTime(ac_offset.getFullName()).Ticks);
             processor_guid_tweak.setLastModifiedTime(File.GetLastWriteTime(processor_guid_tweak.getFullName()).Ticks);
             generatedCLK.setLastModifiedTime(File.GetLastWriteTime(generatedCLK.getFullName()).Ticks);

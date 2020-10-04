@@ -1,0 +1,26 @@
+2020-10-05(월) 오전 12:17:51: waiting for input...
+2020-10-05(월) 오전 12:17:52: system elapsed time = 1, service timer interval = 999
+2020-10-05(월) 오전 12:21:22: system elapsed time = 209136, service timer interval = 0.1
+2020-10-05(월) 오전 12:21:22: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:23: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:24: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:25: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:27: system elapsed time = 1048, service timer interval = 0.1
+2020-10-05(월) 오전 12:21:27: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:28: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:29: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:30: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:32: system elapsed time = 1073, service timer interval = 0.1
+2020-10-05(월) 오전 12:21:32: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:33: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:34: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:35: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:38: system elapsed time = 2084, service timer interval = 0.1
+2020-10-05(월) 오전 12:21:38: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:39: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:40: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:41: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:43: system elapsed time = 1050, service timer interval = 0.1
+2020-10-05(월) 오전 12:21:43: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:44: system elapsed time = 0, service timer interval = 1000
+2020-10-05(월) 오전 12:21:45: system elapsed time = 0, service timer interval = 1000
