@@ -70,7 +70,7 @@ namespace ThrottleSchedulerService
                 //always listen
                 while (true)
                 {
-                    Console.WriteLine("waiting for input...");
+                    ess.WriteLog("waiting for input...");
                     var client = listener.AcceptTcpClient();
                     NetworkStream stream = client.GetStream();
 
@@ -78,7 +78,7 @@ namespace ThrottleSchedulerService
                     while ((i = stream.Read(bytes, 0, bytes.Length)) != 0)
                     {
                         data = System.Text.Encoding.ASCII.GetString(bytes, 0, i);
-                        Console.WriteLine("UI App requests: " + data);
+                        ess.WriteLog("UI App requests: " + data);
                         byte[] output = null;
                         string temp = null;
                         switch (data)
@@ -94,7 +94,7 @@ namespace ThrottleSchedulerService
                                 break;
                         }
                         output = System.Text.Encoding.ASCII.GetBytes(temp);
-                        Console.WriteLine("sending output: " + temp);
+                        ess.WriteLog("sending output: " + temp);
                         stream.Write(output, 0, output.Length);
 
 

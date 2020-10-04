@@ -10519,3 +10519,188 @@
 2020-10-04(일) 오후 10:21:26: new CLK: 98 clockspeed: 2600
 2020-10-04(일) 오후 10:21:31: new CLK: 95 clockspeed: 2300
 2020-10-04(일) 오후 10:21:49: new CLK: 84 clockspeed: 2000
+2020-10-04(일) 오후 10:22:11: new CLK: 73 clockspeed: 1800
+2020-10-04(일) 오후 10:22:29: new CLK: 65 clockspeed: 1600
+2020-10-04(일) 오후 10:22:42: new CLK: 58 clockspeed: 1400
+2020-10-04(일) 오후 10:22:57: new CLK: 50 clockspeed: 1200
+2020-10-04(일) 오후 10:23:12: new CLK: 43 clockspeed: 900
+2020-10-04(일) 오후 10:24:44: settings changed for: special_programs!, reimporting...
+2020-10-04(일) 오후 10:24:44: reading: key = explorer, value = 0
+2020-10-04(일) 오후 10:24:44: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-04(일) 오후 10:24:44: reading: key = 0, value = 100
+2020-10-04(일) 오후 10:24:44: reading: key = 1, value = 99
+2020-10-04(일) 오후 10:24:44: reading: key = 2, value = 98
+2020-10-04(일) 오후 10:24:44: reading: key = 3, value = 95
+2020-10-04(일) 오후 10:24:44: reading: key = 4, value = 84
+2020-10-04(일) 오후 10:24:44: reading: key = 5, value = 73
+2020-10-04(일) 오후 10:24:44: reading: key = 6, value = 65
+2020-10-04(일) 오후 10:24:44: reading: key = 7, value = 58
+2020-10-04(일) 오후 10:24:44: reading: key = 8, value = 50
+2020-10-04(일) 오후 10:24:44: reading: key = 9, value = 43
+2020-10-04(일) 오후 10:24:44: reading: key = 10, value = 32
+2020-10-04(일) 오후 10:24:44: reading: key = 11, value = 24
+2020-10-04(일) 오후 10:24:44: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-04(일) 오후 10:24:44: reading: key = 11, value = 10
+2020-10-04(일) 오후 10:24:44: reading: key = 10, value = 9.5
+2020-10-04(일) 오후 10:24:44: reading: key = 9, value = 9
+2020-10-04(일) 오후 10:24:44: reading: key = 8, value = 8.5
+2020-10-04(일) 오후 10:24:44: reading: key = 7, value = 8
+2020-10-04(일) 오후 10:24:44: reading: key = 6, value = 7.5
+2020-10-04(일) 오후 10:24:44: reading: key = 5, value = 7
+2020-10-04(일) 오후 10:24:44: reading: key = 4, value = 6.5
+2020-10-04(일) 오후 10:24:44: reading: key = 3, value = 6
+2020-10-04(일) 오후 10:24:44: reading: key = 2, value = 5.5
+2020-10-04(일) 오후 10:24:44: reading: key = 1, value = 5
+2020-10-04(일) 오후 10:24:44: reading: key = 0, value = 4.5
+2020-10-04(일) 오후 10:24:44: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-04(일) 오후 10:24:45: reading: key = 0, value = Idle
+2020-10-04(일) 오후 10:24:45: reading: key = 1, value = High
+2020-10-04(일) 오후 10:24:45: reading: key = 2, value = High
+2020-10-04(일) 오후 10:24:45: reading: key = 3, value = High
+2020-10-04(일) 오후 10:24:45: reading: key = 4, value = High
+2020-10-04(일) 오후 10:24:45: reading: key = 5, value = Idle
+2020-10-04(일) 오후 10:24:45: reading: key = 6, value = RealTime
+2020-10-04(일) 오후 10:24:45: reading: key = 7, value = High
+2020-10-04(일) 오후 10:24:45: settings changed for: loop_delay!, reimporting...
+2020-10-04(일) 오후 10:24:45: reading: key = loop_delay, value = 5
+2020-10-04(일) 오후 10:24:45: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-04(일) 오후 10:24:45: reading: key = boost_cycle_delay, value = 6
+2020-10-04(일) 오후 10:24:45: settings changed for: ac_offset!, reimporting...
+2020-10-04(일) 오후 10:24:45: reading: key = ac_offset, value = 1
+2020-10-04(일) 오후 10:24:45: settings changed for: processor_guid_tweak!, reimporting...
+2020-10-04(일) 오후 10:24:45: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-04(일) 오후 10:24:45: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-04(일) 오후 10:24:45: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-04(일) 오후 10:24:45: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-04(일) 오후 10:24:45: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-04(일) 오후 10:24:45: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-04(일) 오후 10:24:45: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-04(일) 오후 10:24:45: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-04(일) 오후 10:24:45: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-04(일) 오후 10:24:45: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-04(일) 오후 10:24:45: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-04(일) 오후 10:24:45: settings changed for: generatedCLK!, reimporting...
+2020-10-04(일) 오후 10:24:45: settings changed for: generatedXTU!, reimporting...
+2020-10-04(일) 오후 10:24:45: settings changed for: throttle_median!, reimporting...
+2020-10-04(일) 오후 10:24:45: reading: key = throttle_median, value = 80
+2020-10-04(일) 오후 10:24:45: settings changed for: newlist_median!, reimporting...
+2020-10-04(일) 오후 10:24:45: reading: key = newlist_median, value = 50
+2020-10-04(일) 오후 10:24:45: settings changed for: gpuplan!, reimporting...
+2020-10-04(일) 오후 10:24:45: reading: key = gpuplan, value = 1
+2020-10-04(일) 오후 10:24:50: checking XTU cmdlet
+2020-10-04(일) 오후 10:25:01: XTU ok
+2020-10-04(일) 오후 10:25:12: result = 7.5
+2020-10-04(일) 오후 10:25:12: init PowerCFG settings
+2020-10-04(일) 오후 10:25:21: ================start of CLK + XTU list generation================
+2020-10-04(일) 오후 10:25:21: do NOT run anything power intensive!!!
+2020-10-04(일) 오후 10:25:23: new CLK: 100 clockspeed: 2701
+2020-10-04(일) 오후 10:25:26: new CLK: 99 clockspeed: 2700
+2020-10-04(일) 오후 10:25:28: new CLK: 98 clockspeed: 2600
+2020-10-04(일) 오후 10:25:33: new CLK: 95 clockspeed: 2300
+2020-10-04(일) 오후 10:25:50: new CLK: 84 clockspeed: 2000
+2020-10-04(일) 오후 10:26:07: new CLK: 73 clockspeed: 1800
+2020-10-04(일) 오후 10:26:20: new CLK: 65 clockspeed: 1600
+2020-10-04(일) 오후 10:26:32: new CLK: 58 clockspeed: 1400
+2020-10-04(일) 오후 10:26:47: new CLK: 50 clockspeed: 1200
+2020-10-04(일) 오후 10:27:01: new CLK: 43 clockspeed: 900
+2020-10-04(일) 오후 10:27:26: new CLK: 32 clockspeed: 700
+2020-10-04(일) 오후 10:27:45: new CLK: 24 clockspeed: 500
+2020-10-04(일) 오후 10:28:38: new XTU: 7 for CLK: 24
+2020-10-04(일) 오후 10:28:38: new XTU: 6.5 for CLK: 32
+2020-10-04(일) 오후 10:28:38: new XTU: 6 for CLK: 43
+2020-10-04(일) 오후 10:28:38: new XTU: 5.5 for CLK: 50
+2020-10-04(일) 오후 10:28:38: new XTU: 5 for CLK: 58
+2020-10-04(일) 오후 10:28:38: new XTU: 4.5 for CLK: 65
+2020-10-04(일) 오후 10:28:38: new XTU: 4 for CLK: 73
+2020-10-04(일) 오후 10:28:38: new XTU: 3.5 for CLK: 84
+2020-10-04(일) 오후 10:28:38: new XTU: 3 for CLK: 95
+2020-10-04(일) 오후 10:28:38: new XTU: 2.5 for CLK: 98
+2020-10-04(일) 오후 10:28:38: new XTU: 2 for CLK: 99
+2020-10-04(일) 오후 10:28:38: new XTU: 1.5 for CLK: 100
+2020-10-04(일) 오후 10:28:38: writeback to file commencing...
+2020-10-04(일) 오후 10:28:38: settings changed for: generatedCLK!, reimporting...
+2020-10-04(일) 오후 10:28:38: reading: key = 100, value = 2701
+2020-10-04(일) 오후 10:28:38: reading: key = 99, value = 2700
+2020-10-04(일) 오후 10:28:38: reading: key = 98, value = 2600
+2020-10-04(일) 오후 10:28:38: reading: key = 95, value = 2300
+2020-10-04(일) 오후 10:28:38: reading: key = 84, value = 2000
+2020-10-04(일) 오후 10:28:38: reading: key = 73, value = 1800
+2020-10-04(일) 오후 10:28:38: reading: key = 65, value = 1600
+2020-10-04(일) 오후 10:28:38: reading: key = 58, value = 1400
+2020-10-04(일) 오후 10:28:38: reading: key = 50, value = 1200
+2020-10-04(일) 오후 10:28:38: reading: key = 43, value = 900
+2020-10-04(일) 오후 10:28:38: reading: key = 32, value = 700
+2020-10-04(일) 오후 10:28:38: reading: key = 24, value = 500
+2020-10-04(일) 오후 10:28:38: settings changed for: generatedXTU!, reimporting...
+2020-10-04(일) 오후 10:28:38: reading: key = 24, value = 7
+2020-10-04(일) 오후 10:28:38: reading: key = 32, value = 6.5
+2020-10-04(일) 오후 10:28:38: reading: key = 43, value = 6
+2020-10-04(일) 오후 10:28:38: reading: key = 50, value = 5.5
+2020-10-04(일) 오후 10:28:38: reading: key = 58, value = 5
+2020-10-04(일) 오후 10:28:38: reading: key = 65, value = 4.5
+2020-10-04(일) 오후 10:28:38: reading: key = 73, value = 4
+2020-10-04(일) 오후 10:28:38: reading: key = 84, value = 3.5
+2020-10-04(일) 오후 10:28:38: reading: key = 95, value = 3
+2020-10-04(일) 오후 10:28:38: reading: key = 98, value = 2.5
+2020-10-04(일) 오후 10:28:38: reading: key = 99, value = 2
+2020-10-04(일) 오후 10:28:38: reading: key = 100, value = 1.5
+2020-10-04(일) 오후 10:28:38: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-04(일) 오후 10:28:38: reading: key = 0, value = 100
+2020-10-04(일) 오후 10:28:38: reading: key = 1, value = 99
+2020-10-04(일) 오후 10:28:38: reading: key = 2, value = 98
+2020-10-04(일) 오후 10:28:38: reading: key = 3, value = 95
+2020-10-04(일) 오후 10:28:38: reading: key = 4, value = 84
+2020-10-04(일) 오후 10:28:38: reading: key = 5, value = 73
+2020-10-04(일) 오후 10:28:38: reading: key = 6, value = 65
+2020-10-04(일) 오후 10:28:38: reading: key = 7, value = 58
+2020-10-04(일) 오후 10:28:38: reading: key = 8, value = 50
+2020-10-04(일) 오후 10:28:38: reading: key = 9, value = 43
+2020-10-04(일) 오후 10:28:38: reading: key = 10, value = 32
+2020-10-04(일) 오후 10:28:38: reading: key = 11, value = 24
+2020-10-04(일) 오후 10:28:38: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-04(일) 오후 10:28:38: reading: key = 11, value = 7
+2020-10-04(일) 오후 10:28:38: reading: key = 10, value = 6.5
+2020-10-04(일) 오후 10:28:38: reading: key = 9, value = 6
+2020-10-04(일) 오후 10:28:38: reading: key = 8, value = 5.5
+2020-10-04(일) 오후 10:28:38: reading: key = 7, value = 5
+2020-10-04(일) 오후 10:28:38: reading: key = 6, value = 4.5
+2020-10-04(일) 오후 10:28:38: reading: key = 5, value = 4
+2020-10-04(일) 오후 10:28:38: reading: key = 4, value = 3.5
+2020-10-04(일) 오후 10:28:38: reading: key = 3, value = 3
+2020-10-04(일) 오후 10:28:38: reading: key = 2, value = 2.5
+2020-10-04(일) 오후 10:28:38: reading: key = 1, value = 2
+2020-10-04(일) 오후 10:28:38: reading: key = 0, value = 1.5
+2020-10-04(일) 오후 10:28:39: setting CLK: 100
+2020-10-04(일) 오후 10:28:39: setting base CLK: 5
+2020-10-04(일) 오후 10:28:40: setting XTU: 7.5
+2020-10-04(일) 오후 10:28:42: ================end of CLK + XTU list generation================
+2020-10-04(일) 오후 10:28:43: setting power back to 100
+2020-10-04(일) 오후 10:28:43: setting CLK: 100
+2020-10-04(일) 오후 10:28:43: setting XTU: 1.5
+2020-10-04(일) 오후 10:28:44: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\generatedCLK.txt
+2020-10-04(일) 오후 10:28:44: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\generatedXTU.txt
+2020-10-04(일) 오후 10:28:44: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\special_programs.txt
+2020-10-04(일) 오후 10:28:45: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\generatedCLK.txt
+2020-10-04(일) 오후 10:28:45: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\generatedXTU.txt
+2020-10-04(일) 오후 10:28:45: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\special_programs.txt
+2020-10-04(일) 오후 10:28:46: setting GPU: performance
+2020-10-04(일) 오후 10:28:46: start of newlist timer
+2020-10-04(일) 오후 10:28:46: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\generatedCLK.txt
+2020-10-04(일) 오후 10:28:46: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\generatedXTU.txt
+2020-10-04(일) 오후 10:28:46: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\special_programs.txt
+2020-10-04(일) 오후 10:28:47: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\generatedCLK.txt
+2020-10-04(일) 오후 10:28:47: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\generatedXTU.txt
+2020-10-04(일) 오후 10:28:47: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\special_programs.txt
+2020-10-04(일) 오후 10:28:48: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\generatedCLK.txt
+2020-10-04(일) 오후 10:28:48: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\generatedXTU.txt
+2020-10-04(일) 오후 10:28:48: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\special_programs.txt
+2020-10-04(일) 오후 10:28:49: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\generatedCLK.txt
+2020-10-04(일) 오후 10:28:49: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\generatedXTU.txt
+2020-10-04(일) 오후 10:28:49: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\special_programs.txt
+2020-10-04(일) 오후 10:28:50: ================start of CLK + XTU list generation================
+2020-10-04(일) 오후 10:28:50: do NOT run anything power intensive!!!
+2020-10-04(일) 오후 10:28:52: new CLK: 100 clockspeed: 2701
+2020-10-04(일) 오후 10:28:55: new CLK: 99 clockspeed: 2700
+2020-10-04(일) 오후 10:28:57: new CLK: 98 clockspeed: 2600
+2020-10-04(일) 오후 10:29:02: new CLK: 95 clockspeed: 2300
+2020-10-04(일) 오후 10:29:18: new CLK: 84 clockspeed: 2000

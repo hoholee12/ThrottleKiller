@@ -77,19 +77,19 @@ namespace ThrottleSchedulerService
 
         ///////////////////////////////////////////for client
         public string getSysInfo() {
-            while (settings.IPClocked);
+            while (settings.IPClocked) Thread.Sleep(100);
             return log.WriteLog("pwr " + checker.getPWR() + " load " + checker.getLoad() + " temp "
                 + checker.getTemp() + " throttleMode " + settings.throttleMode.ToString() + " wrong " + controller.wrong.ToString());
         }
         public string reset() {
-            while (settings.IPClocked);
+            while (settings.IPClocked) Thread.Sleep(100);
             settings.generatedCLK.resetFiles();
             settings.generatedXTU.resetFiles();
             settings.special_programs.resetFiles();
             return "clklist_reset.";
         }
         public string shutdown() {
-            //while (settings.IPClocked);
+            //while (settings.IPClocked) Thread.Sleep(100);
             shutdownval = true;
             return "shutting_down.";
         }

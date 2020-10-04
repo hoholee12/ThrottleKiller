@@ -1574,3 +1574,31 @@
 2020-10-04(일) 오후 10:21:15: system elapsed time = 0, service timer interval = 1000
 2020-10-04(일) 오후 10:21:16: system elapsed time = 0, service timer interval = 1000
 2020-10-04(일) 오후 10:21:17: system elapsed time = 0, service timer interval = 1000
+2020-10-04(일) 오후 10:25:19: waiting for input...
+2020-10-04(일) 오후 10:25:20: system elapsed time = 1, service timer interval = 999
+2020-10-04(일) 오후 10:26:00: UI App requests: reset
+2020-10-04(일) 오후 10:28:43: waiting for input...
+2020-10-04(일) 오후 10:28:44: UI App requests: reset
+2020-10-04(일) 오후 10:28:44: sending output: clklist_reset.
+2020-10-04(일) 오후 10:28:44: waiting for input...
+2020-10-04(일) 오후 10:28:45: UI App requests: reset
+2020-10-04(일) 오후 10:28:45: sending output: clklist_reset.
+2020-10-04(일) 오후 10:28:45: waiting for input...
+2020-10-04(일) 오후 10:28:46: system elapsed time = 205091, service timer interval = 0.1
+2020-10-04(일) 오후 10:28:46: system elapsed time = 0, service timer interval = 1000
+2020-10-04(일) 오후 10:28:46: UI App requests: reset
+2020-10-04(일) 오후 10:28:46: sending output: clklist_reset.
+2020-10-04(일) 오후 10:28:46: waiting for input...
+2020-10-04(일) 오후 10:28:47: system elapsed time = 0, service timer interval = 1000
+2020-10-04(일) 오후 10:28:47: UI App requests: reset
+2020-10-04(일) 오후 10:28:47: sending output: clklist_reset.
+2020-10-04(일) 오후 10:28:47: waiting for input...
+2020-10-04(일) 오후 10:28:48: system elapsed time = 0, service timer interval = 1000
+2020-10-04(일) 오후 10:28:48: UI App requests: reset
+2020-10-04(일) 오후 10:28:48: sending output: clklist_reset.
+2020-10-04(일) 오후 10:28:48: waiting for input...
+2020-10-04(일) 오후 10:28:49: system elapsed time = 0, service timer interval = 1000
+2020-10-04(일) 오후 10:28:49: UI App requests: reset
+2020-10-04(일) 오후 10:28:49: sending output: clklist_reset.
+2020-10-04(일) 오후 10:28:49: waiting for input...
+2020-10-04(일) 오후 10:28:50: UI App requests: reset
