@@ -1,1 +1,5 @@
 explorer = 0
+
+@append
+ConsoleApplication41 = 6
+notepad++ = 6

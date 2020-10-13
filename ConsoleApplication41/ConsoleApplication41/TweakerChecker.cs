@@ -171,13 +171,14 @@ namespace ThrottleSchedulerService
             //if time
             if (sm.checkNewlistSync())
             {
-                int avgload = (int)newlist_acc.Average();    //average load
+                newlist_acc.Sort();
+                int medload = (int)newlist_acc[newlist_acc.Count() / 2];
                 var pwrlist = sortedPWRlist(sm);
                 int toppwr = pwrlist[0];
 
                 //average pwr(clockspeed)
                 //ex) 2700mhz / 100 * 3(load) = 81mhz
-                int target = toppwr / 100 * avgload;
+                int target = toppwr / 100 * medload;
 
                 //find index
                 int index = 0;
