@@ -168,3 +168,1555 @@
 2020-10-13(화) 오후 10:43:50: setting CLK: 65
 2020-10-13(화) 오후 10:43:50: oh no, XTU value bad... you may want to restart your computer
 2020-10-13(화) 오후 10:43:53: no throttle cycle load = 1 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:53:52: settings changed for: special_programs!, reimporting...
+2020-10-13(화) 오후 10:53:52: reading: key = explorer, value = 0
+2020-10-13(화) 오후 10:53:52: reading: key = ConsoleApplication41, value = 6
+2020-10-13(화) 오후 10:53:52: reading: key = notepad++, value = 6
+2020-10-13(화) 오후 10:53:52: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-13(화) 오후 10:53:52: reading: key = 0, value = 100
+2020-10-13(화) 오후 10:53:52: reading: key = 1, value = 99
+2020-10-13(화) 오후 10:53:52: reading: key = 2, value = 98
+2020-10-13(화) 오후 10:53:52: reading: key = 3, value = 95
+2020-10-13(화) 오후 10:53:52: reading: key = 4, value = 84
+2020-10-13(화) 오후 10:53:52: reading: key = 5, value = 73
+2020-10-13(화) 오후 10:53:52: reading: key = 6, value = 65
+2020-10-13(화) 오후 10:53:52: reading: key = 7, value = 58
+2020-10-13(화) 오후 10:53:52: reading: key = 8, value = 50
+2020-10-13(화) 오후 10:53:52: reading: key = 9, value = 43
+2020-10-13(화) 오후 10:53:52: reading: key = 10, value = 32
+2020-10-13(화) 오후 10:53:52: reading: key = 11, value = 24
+2020-10-13(화) 오후 10:53:52: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-13(화) 오후 10:53:52: reading: key = 11, value = 10
+2020-10-13(화) 오후 10:53:52: reading: key = 10, value = 9.5
+2020-10-13(화) 오후 10:53:52: reading: key = 9, value = 9
+2020-10-13(화) 오후 10:53:52: reading: key = 8, value = 8.5
+2020-10-13(화) 오후 10:53:52: reading: key = 7, value = 8
+2020-10-13(화) 오후 10:53:52: reading: key = 6, value = 7.5
+2020-10-13(화) 오후 10:53:52: reading: key = 5, value = 7
+2020-10-13(화) 오후 10:53:52: reading: key = 4, value = 6.5
+2020-10-13(화) 오후 10:53:52: reading: key = 3, value = 6
+2020-10-13(화) 오후 10:53:52: reading: key = 2, value = 5.5
+2020-10-13(화) 오후 10:53:52: reading: key = 1, value = 5
+2020-10-13(화) 오후 10:53:52: reading: key = 0, value = 4.5
+2020-10-13(화) 오후 10:53:52: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-13(화) 오후 10:53:52: reading: key = 0, value = Idle
+2020-10-13(화) 오후 10:53:52: reading: key = 1, value = High
+2020-10-13(화) 오후 10:53:52: reading: key = 2, value = High
+2020-10-13(화) 오후 10:53:52: reading: key = 3, value = High
+2020-10-13(화) 오후 10:53:52: reading: key = 4, value = High
+2020-10-13(화) 오후 10:53:52: reading: key = 5, value = Idle
+2020-10-13(화) 오후 10:53:52: reading: key = 6, value = RealTime
+2020-10-13(화) 오후 10:53:52: reading: key = 7, value = High
+2020-10-13(화) 오후 10:53:52: settings changed for: loop_delay!, reimporting...
+2020-10-13(화) 오후 10:53:52: reading: key = loop_delay, value = 5
+2020-10-13(화) 오후 10:53:52: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-13(화) 오후 10:53:52: reading: key = boost_cycle_delay, value = 6
+2020-10-13(화) 오후 10:53:52: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-13(화) 오후 10:53:52: reading: key = newlist_cycle_delay, value = 30
+2020-10-13(화) 오후 10:53:52: settings changed for: ac_offset!, reimporting...
+2020-10-13(화) 오후 10:53:52: reading: key = ac_offset, value = 1
+2020-10-13(화) 오후 10:53:52: settings changed for: processor_guid_tweak!, reimporting...
+2020-10-13(화) 오후 10:53:52: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-13(화) 오후 10:53:52: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-13(화) 오후 10:53:52: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-13(화) 오후 10:53:52: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-13(화) 오후 10:53:52: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-13(화) 오후 10:53:52: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-13(화) 오후 10:53:52: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-13(화) 오후 10:53:52: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-13(화) 오후 10:53:52: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-13(화) 오후 10:53:52: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-13(화) 오후 10:53:52: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-13(화) 오후 10:53:52: settings changed for: generatedCLK!, reimporting...
+2020-10-13(화) 오후 10:53:52: reading: key = 100, value = 2701
+2020-10-13(화) 오후 10:53:52: reading: key = 99, value = 2700
+2020-10-13(화) 오후 10:53:52: reading: key = 98, value = 2600
+2020-10-13(화) 오후 10:53:52: reading: key = 95, value = 2300
+2020-10-13(화) 오후 10:53:52: reading: key = 84, value = 2000
+2020-10-13(화) 오후 10:53:52: reading: key = 73, value = 1800
+2020-10-13(화) 오후 10:53:52: reading: key = 65, value = 1600
+2020-10-13(화) 오후 10:53:52: reading: key = 58, value = 1400
+2020-10-13(화) 오후 10:53:52: reading: key = 50, value = 1200
+2020-10-13(화) 오후 10:53:52: reading: key = 43, value = 900
+2020-10-13(화) 오후 10:53:52: reading: key = 32, value = 700
+2020-10-13(화) 오후 10:53:52: reading: key = 24, value = 500
+2020-10-13(화) 오후 10:53:52: settings changed for: generatedXTU!, reimporting...
+2020-10-13(화) 오후 10:53:52: reading: key = 24, value = 10
+2020-10-13(화) 오후 10:53:52: reading: key = 32, value = 9.5
+2020-10-13(화) 오후 10:53:52: reading: key = 43, value = 9
+2020-10-13(화) 오후 10:53:52: reading: key = 50, value = 8.5
+2020-10-13(화) 오후 10:53:52: reading: key = 58, value = 8
+2020-10-13(화) 오후 10:53:52: reading: key = 65, value = 7.5
+2020-10-13(화) 오후 10:53:52: reading: key = 73, value = 7
+2020-10-13(화) 오후 10:53:52: reading: key = 84, value = 6.5
+2020-10-13(화) 오후 10:53:52: reading: key = 95, value = 6
+2020-10-13(화) 오후 10:53:52: reading: key = 98, value = 5.5
+2020-10-13(화) 오후 10:53:52: reading: key = 99, value = 5
+2020-10-13(화) 오후 10:53:52: reading: key = 100, value = 4.5
+2020-10-13(화) 오후 10:53:52: settings changed for: throttle_median!, reimporting...
+2020-10-13(화) 오후 10:53:52: reading: key = throttle_median, value = 80
+2020-10-13(화) 오후 10:53:52: settings changed for: newlist_median!, reimporting...
+2020-10-13(화) 오후 10:53:52: reading: key = newlist_median, value = 50
+2020-10-13(화) 오후 10:53:52: settings changed for: gpuplan!, reimporting...
+2020-10-13(화) 오후 10:53:52: reading: key = gpuplan, value = 1
+2020-10-13(화) 오후 10:53:57: checking XTU cmdlet
+2020-10-13(화) 오후 10:54:00: XTU ok
+2020-10-13(화) 오후 10:54:04: result = 10.5
+2020-10-13(화) 오후 10:54:04: init PowerCFG settings
+2020-10-13(화) 오후 10:54:09: setting niceness: ConsoleApplication41 to RealTime
+2020-10-13(화) 오후 10:54:09: setting power: ConsoleApplication41 to 65
+2020-10-13(화) 오후 10:54:09: setting CLK: 65
+2020-10-13(화) 오후 10:54:09: setting XTU: 7.5
+2020-10-13(화) 오후 10:54:14: setting GPU: performance
+2020-10-13(화) 오후 10:54:16: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:54:23: no throttle cycle load = 4 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:54:29: no throttle cycle load = 2 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:54:35: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:54:40: setting power back to 100
+2020-10-13(화) 오후 10:54:40: setting CLK: 100
+2020-10-13(화) 오후 10:54:40: setting XTU: 4.5
+2020-10-13(화) 오후 10:54:43: setting GPU: performance
+2020-10-13(화) 오후 10:54:43: start of newlist timer
+2020-10-13(화) 오후 10:55:14: time to sync for newlist
+2020-10-13(화) 오후 10:55:19: appending: key = Hwp, value = 6
+2020-10-13(화) 오후 10:55:19: settings changed for: special_programs!, reimporting...
+2020-10-13(화) 오후 10:55:19: reading: key = explorer, value = 0
+2020-10-13(화) 오후 10:55:19: reading: key = ConsoleApplication41, value = 6
+2020-10-13(화) 오후 10:55:19: reading: key = notepad++, value = 6
+2020-10-13(화) 오후 10:55:19: reading: key = Hwp, value = 6
+2020-10-13(화) 오후 10:55:19: setting niceness: Hwp to RealTime
+2020-10-13(화) 오후 10:55:19: setting power: Hwp to 65
+2020-10-13(화) 오후 10:55:19: setting CLK: 65
+2020-10-13(화) 오후 10:55:19: setting XTU: 7.5
+2020-10-13(화) 오후 10:55:23: setting GPU: performance
+2020-10-13(화) 오후 10:55:26: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:55:32: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:55:38: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:55:44: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:55:51: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:55:57: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:56:03: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:56:09: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:56:15: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:56:21: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:56:28: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:56:34: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:56:40: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:56:46: no throttle cycle load = 2 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:56:52: no throttle cycle load = 17 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:56:56: setting niceness: explorer to Idle
+2020-10-13(화) 오후 10:56:56: setting power back to 100
+2020-10-13(화) 오후 10:56:57: setting CLK: 100
+2020-10-13(화) 오후 10:56:57: setting XTU: 4.5
+2020-10-13(화) 오후 10:57:00: setting GPU: performance
+2020-10-13(화) 오후 10:57:02: no throttle cycle load = 12 ,clk = 2701 ,throttledelay = 0
+2020-10-13(화) 오후 10:57:06: setting niceness: notepad++ to RealTime
+2020-10-13(화) 오후 10:57:06: setting power: notepad++ to 65
+2020-10-13(화) 오후 10:57:06: setting CLK: 65
+2020-10-13(화) 오후 10:57:06: setting XTU: 7.5
+2020-10-13(화) 오후 10:57:11: setting GPU: performance
+2020-10-13(화) 오후 10:57:14: no throttle cycle load = 27 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:57:20: no throttle cycle load = 13 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:57:26: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:57:32: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:57:38: no throttle cycle load = 19 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:57:42: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-13(화) 오후 10:57:42: reading: key = 0, value = Idle
+2020-10-13(화) 오후 10:57:42: reading: key = 1, value = High
+2020-10-13(화) 오후 10:57:42: reading: key = 2, value = High
+2020-10-13(화) 오후 10:57:42: reading: key = 3, value = High
+2020-10-13(화) 오후 10:57:42: reading: key = 4, value = High
+2020-10-13(화) 오후 10:57:42: reading: key = 5, value = Idle
+2020-10-13(화) 오후 10:57:42: reading: key = 6, value = High
+2020-10-13(화) 오후 10:57:43: reading: key = 7, value = High
+2020-10-13(화) 오후 10:57:43: setting niceness: notepad++ to High
+2020-10-13(화) 오후 10:57:45: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:57:49: setting niceness: ConsoleApplication41 to High
+2020-10-13(화) 오후 10:57:51: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:57:57: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:58:02: setting power back to 100
+2020-10-13(화) 오후 10:58:02: setting CLK: 100
+2020-10-13(화) 오후 10:58:02: setting XTU: 4.5
+2020-10-13(화) 오후 10:58:05: setting GPU: performance
+2020-10-13(화) 오후 10:58:05: start of newlist timer
+2020-10-13(화) 오후 10:58:09: setting power: notepad++ to 65
+2020-10-13(화) 오후 10:58:09: setting CLK: 65
+2020-10-13(화) 오후 10:58:09: setting XTU: 7.5
+2020-10-13(화) 오후 10:58:14: setting GPU: performance
+2020-10-13(화) 오후 10:58:16: no throttle cycle load = 20 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:58:21: setting niceness: Hwp to High
+2020-10-13(화) 오후 10:58:23: no throttle cycle load = 27 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:58:29: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:58:35: no throttle cycle load = 19 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:58:41: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:58:47: no throttle cycle load = 25 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:58:47: time to sync for newlist
+2020-10-13(화) 오후 10:58:54: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:59:00: no throttle cycle load = 1 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:59:06: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:59:12: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:59:18: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:59:24: no throttle cycle load = 4 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:59:31: no throttle cycle load = 1 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:59:37: no throttle cycle load = 71 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:59:43: no throttle cycle load = 34 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:59:49: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 10:59:55: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:00:01: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:00:06: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-13(화) 오후 11:00:06: reading: key = boost_cycle_delay, value = 12
+2020-10-13(화) 오후 11:00:08: no throttle cycle load = 2 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:00:14: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:00:20: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:00:25: setting power back to 100
+2020-10-13(화) 오후 11:00:25: setting CLK: 100
+2020-10-13(화) 오후 11:00:25: setting XTU: 4.5
+2020-10-13(화) 오후 11:00:28: setting GPU: performance
+2020-10-13(화) 오후 11:00:29: start of newlist timer
+2020-10-13(화) 오후 11:00:34: start of newlist timer
+2020-10-13(화) 오후 11:01:04: time to sync for newlist
+2020-10-13(화) 오후 11:01:09: appending: key = mintty, value = 6
+2020-10-13(화) 오후 11:01:09: settings changed for: special_programs!, reimporting...
+2020-10-13(화) 오후 11:01:09: reading: key = explorer, value = 0
+2020-10-13(화) 오후 11:01:09: reading: key = ConsoleApplication41, value = 6
+2020-10-13(화) 오후 11:01:09: reading: key = notepad++, value = 6
+2020-10-13(화) 오후 11:01:09: reading: key = Hwp, value = 6
+2020-10-13(화) 오후 11:01:09: reading: key = mintty, value = 6
+2020-10-13(화) 오후 11:01:09: setting niceness: mintty to High
+2020-10-13(화) 오후 11:01:09: setting power: mintty to 65
+2020-10-13(화) 오후 11:01:10: setting CLK: 65
+2020-10-13(화) 오후 11:01:10: setting XTU: 7.5
+2020-10-13(화) 오후 11:01:14: setting GPU: performance
+2020-10-13(화) 오후 11:01:17: no throttle cycle load = 27 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:01:23: no throttle cycle load = 41 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:01:29: no throttle cycle load = 31 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:01:35: no throttle cycle load = 27 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:01:42: no throttle cycle load = 19 ,clk = 1200 ,throttledelay = 0
+2020-10-13(화) 오후 11:01:48: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:01:54: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:02:00: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:02:05: setting power back to 100
+2020-10-13(화) 오후 11:02:05: setting CLK: 100
+2020-10-13(화) 오후 11:02:06: setting XTU: 4.5
+2020-10-13(화) 오후 11:02:08: setting GPU: performance
+2020-10-13(화) 오후 11:02:08: start of newlist timer
+2020-10-13(화) 오후 11:02:20: pwr 2701 load 2 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:02:23: pwr 2701 load 4 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:02:23: start of newlist timer
+2020-10-13(화) 오후 11:02:26: pwr 2701 load 3 temp 58 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:02:29: pwr 2701 load 5 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:02:32: pwr 2701 load 1 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:02:35: pwr 2701 load 1 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:02:38: setting power: ConsoleApplication41 to 65
+2020-10-13(화) 오후 11:02:38: setting CLK: 65
+2020-10-13(화) 오후 11:02:38: setting XTU: 7.5
+2020-10-13(화) 오후 11:02:39: pwr 2701 load 38 temp 56 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:02:42: pwr 1600 load 26 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:02:42: setting GPU: performance
+2020-10-13(화) 오후 11:02:45: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:02:47: pwr 1600 load 7 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:02:50: setting power back to 100
+2020-10-13(화) 오후 11:02:50: setting CLK: 100
+2020-10-13(화) 오후 11:02:50: pwr 1600 load 9 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:02:50: setting XTU: 4.5
+2020-10-13(화) 오후 11:02:52: setting GPU: performance
+2020-10-13(화) 오후 11:02:53: pwr 2701 load 13 temp 55 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:02:56: pwr 2701 load 3 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:02:56: setting power: mintty to 65
+2020-10-13(화) 오후 11:02:57: setting CLK: 65
+2020-10-13(화) 오후 11:02:57: setting XTU: 7.5
+2020-10-13(화) 오후 11:02:59: pwr 1600 load 28 temp 56 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:01: setting GPU: performance
+2020-10-13(화) 오후 11:03:02: pwr 1600 load 6 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:03: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:03:06: pwr 1600 load 17 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:09: pwr 1600 load 40 temp 57 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:10: no throttle cycle load = 41 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:03:10: time to sync for newlist
+2020-10-13(화) 오후 11:03:12: pwr 1600 load 32 temp 57 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:15: pwr 1600 load 41 temp 57 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:16: no throttle cycle load = 40 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:03:18: pwr 1600 load 26 temp 57 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:20: settings changed for: special_programs!, reimporting...
+2020-10-13(화) 오후 11:03:20: reading: key = explorer, value = 0
+2020-10-13(화) 오후 11:03:20: reading: key = ConsoleApplication41, value = 6
+2020-10-13(화) 오후 11:03:20: reading: key = notepad++, value = 6
+2020-10-13(화) 오후 11:03:20: reading: key = Hwp, value = 6
+2020-10-13(화) 오후 11:03:21: appending: key = cmd, value = 6
+2020-10-13(화) 오후 11:03:21: settings changed for: special_programs!, reimporting...
+2020-10-13(화) 오후 11:03:21: reading: key = explorer, value = 0
+2020-10-13(화) 오후 11:03:21: reading: key = ConsoleApplication41, value = 6
+2020-10-13(화) 오후 11:03:21: reading: key = notepad++, value = 6
+2020-10-13(화) 오후 11:03:21: reading: key = Hwp, value = 6
+2020-10-13(화) 오후 11:03:21: reading: key = cmd, value = 6
+2020-10-13(화) 오후 11:03:21: setting niceness: cmd to High
+2020-10-13(화) 오후 11:03:21: pwr 1600 load 34 temp 57 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:23: no throttle cycle load = 51 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:03:25: pwr 1600 load 24 temp 56 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:28: setting power back to 100
+2020-10-13(화) 오후 11:03:28: setting CLK: 100
+2020-10-13(화) 오후 11:03:28: pwr 1600 load 43 temp 58 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:29: setting XTU: 4.5
+2020-10-13(화) 오후 11:03:31: setting GPU: performance
+2020-10-13(화) 오후 11:03:31: start of newlist timer
+2020-10-13(화) 오후 11:03:32: pwr 2701 load 69 temp 71 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:35: pwr 2701 load 25 temp 71 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:38: pwr 2701 load 16 temp 72 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:41: pwr 2701 load 33 temp 73 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:44: pwr 2701 load 28 temp 66 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:47: pwr 2701 load 25 temp 67 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:50: pwr 2701 load 25 temp 66 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:53: pwr 2701 load 36 temp 71 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:03:57: pwr 2701 load 33 temp 68 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:00: pwr 2701 load 34 temp 67 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:01: setting power: notepad++ to 65
+2020-10-13(화) 오후 11:04:01: setting CLK: 65
+2020-10-13(화) 오후 11:04:01: setting XTU: 7.5
+2020-10-13(화) 오후 11:04:03: pwr 1600 load 46 temp 65 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:06: setting GPU: performance
+2020-10-13(화) 오후 11:04:06: pwr 1600 load 79 temp 64 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:08: no throttle cycle load = 32 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:04:08: time to sync for newlist
+2020-10-13(화) 오후 11:04:11: pwr 1600 load 38 temp 60 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:14: pwr 1600 load 35 temp 61 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:15: no throttle cycle load = 41 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:04:17: pwr 1600 load 21 temp 61 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:20: pwr 1600 load 32 temp 61 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:21: no throttle cycle load = 25 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:04:23: pwr 1600 load 33 temp 58 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:26: pwr 1600 load 32 temp 58 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:27: no throttle cycle load = 22 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:04:30: pwr 1600 load 27 temp 60 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:33: pwr 1600 load 37 temp 58 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:33: no throttle cycle load = 30 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:04:36: pwr 1600 load 28 temp 59 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:39: pwr 1600 load 37 temp 57 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:39: no throttle cycle load = 33 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:04:42: pwr 1600 load 34 temp 58 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:45: pwr 1600 load 26 temp 57 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:45: no throttle cycle load = 24 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:04:49: pwr 1600 load 35 temp 58 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:52: no throttle cycle load = 33 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:04:54: pwr 1600 load 5 temp 55 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:57: pwr 1600 load 10 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:04:58: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:05:00: pwr 1600 load 4 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:03: pwr 1600 load 14 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:04: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:05:06: pwr 1600 load 8 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:09: setting power back to 100
+2020-10-13(화) 오후 11:05:09: setting CLK: 100
+2020-10-13(화) 오후 11:05:09: setting XTU: 4.5
+2020-10-13(화) 오후 11:05:09: pwr 1600 load 29 temp 64 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:12: setting GPU: performance
+2020-10-13(화) 오후 11:05:12: start of newlist timer
+2020-10-13(화) 오후 11:05:13: pwr 2701 load 32 temp 55 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:16: pwr 2701 load 3 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:16: setting power: Hwp to 65
+2020-10-13(화) 오후 11:05:16: setting CLK: 65
+2020-10-13(화) 오후 11:05:16: setting XTU: 7.5
+2020-10-13(화) 오후 11:05:19: pwr 1600 load 31 temp 58 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:21: setting GPU: performance
+2020-10-13(화) 오후 11:05:22: pwr 1600 load 6 temp 57 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:23: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:05:25: pwr 1600 load 5 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:28: pwr 1600 load 7 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:29: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:05:31: pwr 1600 load 3 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:35: pwr 1600 load 3 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:35: no throttle cycle load = 2 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:05:38: pwr 1600 load 6 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:41: pwr 1600 load 6 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:42: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:05:44: pwr 1600 load 6 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:47: pwr 1600 load 9 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:48: no throttle cycle load = 13 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:05:50: pwr 1600 load 5 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:53: pwr 1600 load 8 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:05:54: no throttle cycle load = 2 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:05:54: time to sync for newlist
+2020-10-13(화) 오후 11:05:57: pwr 1600 load 8 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:00: pwr 1600 load 9 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:00: no throttle cycle load = 5 ,clk = 1400 ,throttledelay = 0
+2020-10-13(화) 오후 11:06:03: pwr 1600 load 4 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:06: pwr 1600 load 11 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:06: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:06:09: pwr 1600 load 4 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:12: pwr 1600 load 7 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:12: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:06:15: pwr 1600 load 4 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:19: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:06:21: pwr 1600 load 34 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:24: setting power back to 100
+2020-10-13(화) 오후 11:06:24: setting CLK: 100
+2020-10-13(화) 오후 11:06:24: pwr 1600 load 62 temp 56 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:24: setting XTU: 4.5
+2020-10-13(화) 오후 11:06:27: setting GPU: performance
+2020-10-13(화) 오후 11:06:27: pwr 2701 load 60 temp 71 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:27: start of newlist timer
+2020-10-13(화) 오후 11:06:30: pwr 2701 load 14 temp 60 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:33: pwr 2701 load 9 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:36: pwr 2701 load 8 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:39: pwr 2701 load 14 temp 56 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:43: pwr 2701 load 6 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:46: pwr 2000 load 2 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:49: pwr 2701 load 3 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:52: pwr 2701 load 2 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:55: pwr 2300 load 6 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:06:58: time to sync for newlist
+2020-10-13(화) 오후 11:06:58: pwr 2701 load 2 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:01: pwr 1600 load 3 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:03: appending: key = POWERPNT, value = 6
+2020-10-13(화) 오후 11:07:03: settings changed for: special_programs!, reimporting...
+2020-10-13(화) 오후 11:07:03: reading: key = explorer, value = 0
+2020-10-13(화) 오후 11:07:03: reading: key = ConsoleApplication41, value = 6
+2020-10-13(화) 오후 11:07:03: reading: key = notepad++, value = 6
+2020-10-13(화) 오후 11:07:03: reading: key = Hwp, value = 6
+2020-10-13(화) 오후 11:07:03: reading: key = cmd, value = 6
+2020-10-13(화) 오후 11:07:03: reading: key = POWERPNT, value = 6
+2020-10-13(화) 오후 11:07:03: setting niceness: POWERPNT to High
+2020-10-13(화) 오후 11:07:03: setting power: POWERPNT to 65
+2020-10-13(화) 오후 11:07:03: setting CLK: 65
+2020-10-13(화) 오후 11:07:03: setting XTU: 7.5
+2020-10-13(화) 오후 11:07:04: pwr 2701 load 31 temp 55 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:08: pwr 1600 load 63 temp 58 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:08: setting GPU: performance
+2020-10-13(화) 오후 11:07:10: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:07:12: pwr 1600 load 2 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:14: settings changed for: special_programs!, reimporting...
+2020-10-13(화) 오후 11:07:14: reading: key = explorer, value = 0
+2020-10-13(화) 오후 11:07:14: reading: key = ConsoleApplication41, value = 6
+2020-10-13(화) 오후 11:07:14: reading: key = notepad++, value = 6
+2020-10-13(화) 오후 11:07:14: reading: key = Hwp, value = 6
+2020-10-13(화) 오후 11:07:14: reading: key = cmd, value = 6
+2020-10-13(화) 오후 11:07:14: reading: key = POWERPNT, value = 6
+2020-10-13(화) 오후 11:07:16: pwr 1600 load 15 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:16: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:07:19: pwr 1600 load 6 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:22: pwr 1600 load 3 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:23: no throttle cycle load = 4 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:07:25: pwr 1600 load 3 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:28: pwr 1600 load 8 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:29: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:07:31: pwr 1600 load 6 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:34: pwr 1600 load 22 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:35: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:07:38: pwr 1600 load 3 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:41: pwr 1600 load 8 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:41: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:07:44: pwr 1600 load 2 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:47: pwr 1600 load 3 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:47: no throttle cycle load = 4 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:07:50: pwr 1600 load 3 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:53: pwr 1600 load 12 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:53: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:07:56: pwr 1600 load 3 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:07:59: pwr 1600 load 11 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:00: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:08:03: pwr 1600 load 3 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:06: pwr 1600 load 7 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:06: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:08:09: pwr 1600 load 2 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:12: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:08:14: pwr 1600 load 4 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:17: pwr 1600 load 11 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:18: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:08:20: pwr 1600 load 7 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:24: pwr 1600 load 12 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:24: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:08:27: pwr 1600 load 12 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:30: pwr 1600 load 37 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:30: no throttle cycle load = 13 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:08:33: pwr 1600 load 6 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:36: pwr 1600 load 10 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:37: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:08:39: pwr 1600 load 14 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:42: pwr 1600 load 7 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:43: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:08:46: pwr 1600 load 6 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:49: pwr 1600 load 3 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:49: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:08:52: pwr 1600 load 4 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:55: pwr 1600 load 12 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:08:55: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:08:58: pwr 1600 load 3 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:01: pwr 1600 load 3 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:01: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:09:05: pwr 1600 load 0 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:08: no throttle cycle load = 2 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:09:10: pwr 1600 load 2 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:13: pwr 1600 load 2 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:14: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:09:16: pwr 1600 load 9 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:19: pwr 1600 load 6 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:20: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:09:22: pwr 1600 load 0 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:25: pwr 1600 load 12 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:26: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:09:29: pwr 1600 load 3 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:32: pwr 1600 load 6 temp 45 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:32: no throttle cycle load = 4 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:09:35: pwr 1600 load 3 temp 45 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:38: pwr 1600 load 6 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:38: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:09:41: pwr 1600 load 27 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:44: pwr 1600 load 16 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:45: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:09:48: pwr 1600 load 5 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:51: pwr 1600 load 10 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:51: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:09:54: pwr 1600 load 8 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:09:57: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:09:59: pwr 1600 load 6 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:02: pwr 1600 load 9 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:03: no throttle cycle load = 13 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:10:05: pwr 1600 load 12 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:08: pwr 1600 load 13 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:09: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:10:12: pwr 1600 load 16 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:15: pwr 1600 load 11 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:15: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:10:18: pwr 1600 load 5 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:21: pwr 1600 load 19 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:22: no throttle cycle load = 25 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:10:24: pwr 1600 load 6 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:27: pwr 1600 load 13 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:28: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:10:30: pwr 1600 load 6 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:34: pwr 1600 load 6 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:34: no throttle cycle load = 13 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:10:37: pwr 1600 load 8 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:40: pwr 1600 load 15 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:40: no throttle cycle load = 26 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:10:43: pwr 1600 load 11 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:46: pwr 1600 load 10 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:46: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:10:49: pwr 1600 load 5 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:53: pwr 1600 load 6 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:53: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:10:56: pwr 1600 load 6 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:10:59: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:11:01: pwr 1600 load 23 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:04: setting power back to 100
+2020-10-13(화) 오후 11:11:04: setting CLK: 100
+2020-10-13(화) 오후 11:11:04: pwr 1600 load 32 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:04: setting XTU: 4.5
+2020-10-13(화) 오후 11:11:06: setting GPU: performance
+2020-10-13(화) 오후 11:11:07: start of newlist timer
+2020-10-13(화) 오후 11:11:07: pwr 2701 load 20 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:10: pwr 2701 load 6 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:11: setting power: Hwp to 65
+2020-10-13(화) 오후 11:11:11: setting CLK: 65
+2020-10-13(화) 오후 11:11:11: setting XTU: 7.5
+2020-10-13(화) 오후 11:11:14: pwr 1600 load 33 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:15: setting GPU: performance
+2020-10-13(화) 오후 11:11:17: pwr 1600 load 9 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:18: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:11:20: pwr 1600 load 3 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:23: pwr 1600 load 7 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:24: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:11:26: pwr 1600 load 12 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:29: pwr 1600 load 19 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:30: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:11:33: pwr 1600 load 0 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:35: setting power back to 100
+2020-10-13(화) 오후 11:11:35: setting CLK: 100
+2020-10-13(화) 오후 11:11:35: setting XTU: 4.5
+2020-10-13(화) 오후 11:11:36: pwr 1600 load 26 temp 57 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:38: setting GPU: performance
+2020-10-13(화) 오후 11:11:38: start of newlist timer
+2020-10-13(화) 오후 11:11:39: pwr 2701 load 26 temp 58 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:42: setting power: notepad++ to 65
+2020-10-13(화) 오후 11:11:42: setting CLK: 65
+2020-10-13(화) 오후 11:11:42: pwr 2701 load 6 temp 61 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:42: setting XTU: 7.5
+2020-10-13(화) 오후 11:11:45: pwr 1600 load 25 temp 56 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:47: setting GPU: performance
+2020-10-13(화) 오후 11:11:48: pwr 1600 load 8 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:49: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:11:51: pwr 1600 load 5 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:55: pwr 1600 load 17 temp 55 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:11:55: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:11:58: pwr 1600 load 5 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:01: pwr 1600 load 5 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:02: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:12:04: pwr 1600 load 5 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:06: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-13(화) 오후 11:12:06: reading: key = 0, value = Normal
+2020-10-13(화) 오후 11:12:06: reading: key = 1, value = Normal
+2020-10-13(화) 오후 11:12:06: reading: key = 2, value = Normal
+2020-10-13(화) 오후 11:12:06: reading: key = 3, value = Normal
+2020-10-13(화) 오후 11:12:06: reading: key = 4, value = Normal
+2020-10-13(화) 오후 11:12:06: reading: key = 5, value = Normal
+2020-10-13(화) 오후 11:12:06: reading: key = 6, value = Normal
+2020-10-13(화) 오후 11:12:06: reading: key = 7, value = Normal
+2020-10-13(화) 오후 11:12:06: setting niceness: notepad++ to Normal
+2020-10-13(화) 오후 11:12:07: pwr 1600 load 4 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:08: no throttle cycle load = 1 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:12:10: pwr 1600 load 9 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:12: setting niceness: cmd to Normal
+2020-10-13(화) 오후 11:12:13: pwr 1600 load 7 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:14: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:12:17: pwr 1600 load 4 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:18: setting niceness: ConsoleApplication41 to Normal
+2020-10-13(화) 오후 11:12:20: pwr 1600 load 7 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:20: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:12:20: time to sync for newlist
+2020-10-13(화) 오후 11:12:23: pwr 1600 load 6 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:24: setting niceness: Hwp to Normal
+2020-10-13(화) 오후 11:12:26: pwr 1600 load 4 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:26: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:12:29: pwr 1600 load 4 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:32: pwr 1600 load 6 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:32: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:12:35: pwr 1600 load 28 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:39: no throttle cycle load = 23 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:12:41: pwr 1600 load 43 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:44: pwr 1600 load 7 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:45: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:12:47: pwr 1600 load 1 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:50: pwr 1600 load 3 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:51: no throttle cycle load = 0 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:12:53: pwr 1600 load 9 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:56: pwr 1600 load 9 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:12:57: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:13:00: pwr 1600 load 3 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:03: pwr 1600 load 9 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:03: no throttle cycle load = 21 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:13:06: pwr 1600 load 10 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:09: pwr 1600 load 9 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:09: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:13:12: pwr 1600 load 1 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:15: pwr 1600 load 8 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:15: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:13:18: pwr 1600 load 5 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:22: pwr 1600 load 3 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:22: no throttle cycle load = 4 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:13:25: pwr 1600 load 4 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:28: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:13:30: pwr 1600 load 1 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:33: pwr 1600 load 33 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:34: no throttle cycle load = 32 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:13:36: pwr 1600 load 31 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:38: setting niceness: Hwp to Normal
+2020-10-13(화) 오후 11:13:39: pwr 1600 load 3 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:40: no throttle cycle load = 2 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:13:43: pwr 1600 load 9 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:46: pwr 1600 load 3 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:46: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:13:49: pwr 1600 load 1 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:52: pwr 1600 load 11 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:53: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:13:55: pwr 1600 load 0 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:58: pwr 1400 load 5 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:13:59: no throttle cycle load = 7 ,clk = 1400 ,throttledelay = 0
+2020-10-13(화) 오후 11:14:02: pwr 1600 load 3 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:14:05: pwr 1600 load 10 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:14:05: no throttle cycle load = 18 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:14:08: pwr 1600 load 5 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:14:11: pwr 1600 load 0 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:14:11: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:14:14: pwr 1600 load 6 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:14:17: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:14:19: pwr 1600 load 6 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:14:23: pwr 1600 load 8 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:14:23: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:14:26: pwr 1600 load 5 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:14:29: pwr 1600 load 5 temp 45 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:14:29: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:14:32: pwr 1600 load 4 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:14:35: pwr 1600 load 5 temp 45 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:14:36: no throttle cycle load = 3 ,clk = 1400 ,throttledelay = 0
+2020-10-13(화) 오후 11:14:38: pwr 1600 load 5 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:14:41: pwr 1600 load 6 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:14:42: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:14:45: pwr 1600 load 0 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:14:48: pwr 1600 load 15 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:14:48: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:14:51: pwr 1600 load 1 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:14:54: pwr 1600 load 3 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:14:54: no throttle cycle load = 2 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:14:57: pwr 1600 load 12 temp 45 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:00: pwr 1600 load 7 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:00: no throttle cycle load = 4 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:15:03: pwr 1600 load 1 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:06: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:15:09: pwr 1600 load 9 temp 45 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:12: pwr 1600 load 12 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:13: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:15:15: pwr 1600 load 3 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:18: pwr 1600 load 9 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:19: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:15:21: pwr 1600 load 3 temp 45 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:24: pwr 1600 load 6 temp 45 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:25: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:15:27: pwr 1600 load 8 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:31: pwr 1600 load 6 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:31: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:15:34: pwr 1600 load 3 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:37: pwr 1600 load 6 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:37: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:15:40: pwr 1600 load 5 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:43: pwr 1600 load 9 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:43: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:15:46: pwr 1600 load 7 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:49: pwr 1600 load 4 temp 45 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:50: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:15:53: pwr 1600 load 12 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:56: pwr 1600 load 4 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:15:56: no throttle cycle load = 16 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:15:59: pwr 1600 load 13 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:02: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:16:04: pwr 1600 load 12 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:07: pwr 1600 load 11 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:08: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:16:10: pwr 1600 load 5 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:14: pwr 1600 load 5 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:14: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:16:17: pwr 1600 load 3 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:20: pwr 1600 load 3 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:20: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:16:23: pwr 1600 load 0 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:26: pwr 1200 load 8 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:27: no throttle cycle load = 4 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:16:29: pwr 1600 load 3 temp 45 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:32: pwr 1600 load 6 temp 45 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:33: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:16:36: pwr 1600 load 4 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:39: pwr 1600 load 12 temp 45 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:39: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:16:42: pwr 1600 load 6 temp 45 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:45: pwr 1600 load 6 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:45: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:16:48: pwr 1600 load 4 temp 45 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:51: pwr 1600 load 34 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:51: no throttle cycle load = 19 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:16:54: pwr 1600 load 100 temp 55 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:16:58: no throttle cycle load = 70 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:17:00: pwr 1600 load 99 temp 57 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:03: pwr 1600 load 100 temp 58 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:04: no throttle cycle load = 97 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:17:06: pwr 1600 load 99 temp 58 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:09: pwr 1600 load 65 temp 58 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:10: no throttle cycle load = 81 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:17:13: pwr 1600 load 90 temp 59 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:16: pwr 1600 load 100 temp 60 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:16: no throttle cycle load = 100 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:17:19: pwr 1600 load 100 temp 60 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:22: pwr 1600 load 100 temp 60 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:22: no throttle cycle load = 100 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:17:25: pwr 1600 load 93 temp 60 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:29: pwr 1600 load 80 temp 59 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:29: no throttle cycle load = 88 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:17:32: pwr 1600 load 26 temp 57 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:35: no throttle cycle load = 22 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:17:37: pwr 1600 load 21 temp 58 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:40: pwr 1600 load 51 temp 59 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:41: no throttle cycle load = 54 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:17:44: pwr 1600 load 12 temp 56 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:47: pwr 1600 load 21 temp 57 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:47: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:17:50: pwr 1600 load 15 temp 57 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:53: pwr 1600 load 34 temp 55 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:54: no throttle cycle load = 16 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:17:56: pwr 1600 load 17 temp 57 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:17:59: pwr 1600 load 17 temp 56 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:00: no throttle cycle load = 22 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:18:03: pwr 1600 load 16 temp 55 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:06: pwr 1600 load 16 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:06: no throttle cycle load = 13 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:18:09: pwr 1600 load 8 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:12: pwr 1600 load 17 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:12: no throttle cycle load = 19 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:18:15: pwr 1600 load 17 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:18: no throttle cycle load = 22 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:18:21: pwr 1600 load 49 temp 57 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:24: pwr 1600 load 96 temp 59 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:24: no throttle cycle load = 88 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:18:27: pwr 1600 load 77 temp 59 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:30: pwr 1600 load 54 temp 59 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:31: no throttle cycle load = 48 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:18:33: pwr 1600 load 24 temp 56 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:36: pwr 1600 load 11 temp 55 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:37: no throttle cycle load = 17 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:18:40: pwr 1600 load 23 temp 56 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:43: pwr 1600 load 12 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:43: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:18:46: pwr 1600 load 19 temp 55 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:47: setting niceness: POWERPNT to Normal
+2020-10-13(화) 오후 11:18:49: pwr 1600 load 15 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:49: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:18:52: pwr 1600 load 20 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:55: pwr 1600 load 12 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:18:55: no throttle cycle load = 17 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:18:58: pwr 1600 load 12 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:02: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:19:04: pwr 1600 load 12 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:07: pwr 1600 load 22 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:08: no throttle cycle load = 20 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:19:10: pwr 1600 load 12 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:13: pwr 1600 load 9 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:14: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:19:16: pwr 1600 load 7 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:20: pwr 1600 load 3 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:20: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:19:23: pwr 1600 load 5 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:26: pwr 1600 load 11 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:26: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:19:29: pwr 1600 load 9 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:32: pwr 1600 load 9 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:32: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:19:35: pwr 1600 load 10 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:38: pwr 1600 load 8 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:39: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:19:42: pwr 1600 load 9 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:45: pwr 1600 load 7 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:45: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:19:48: pwr 1600 load 7 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:51: pwr 1600 load 12 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:51: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:19:54: pwr 1600 load 6 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:19:57: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:19:59: pwr 1600 load 5 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:03: pwr 1600 load 4 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:03: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:20:06: pwr 1600 load 7 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:09: pwr 1600 load 7 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:10: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:20:12: pwr 1600 load 7 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:15: pwr 1600 load 40 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:16: no throttle cycle load = 28 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:20:18: pwr 1600 load 13 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:21: pwr 1600 load 2 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:22: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:20:25: pwr 1600 load 4 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:28: pwr 1600 load 10 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:28: no throttle cycle load = 4 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:20:31: pwr 1600 load 3 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:34: pwr 1600 load 8 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:34: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:20:37: pwr 1600 load 10 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:40: pwr 1600 load 6 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:40: no throttle cycle load = 4 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:20:43: pwr 1600 load 12 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:47: pwr 1600 load 15 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:47: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:20:50: pwr 1600 load 9 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:53: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:20:55: pwr 1600 load 6 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:58: pwr 1600 load 7 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:20:59: no throttle cycle load = 4 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:21:01: pwr 1600 load 7 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:21:04: pwr 1600 load 7 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:21:05: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:21:08: pwr 1600 load 3 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:21:11: pwr 1600 load 7 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:21:11: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:21:14: pwr 1600 load 10 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:21:17: pwr 1600 load 7 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:21:18: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:21:20: pwr 1600 load 7 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:21:23: pwr 1600 load 7 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:21:24: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:21:26: pwr 1600 load 7 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:21:30: pwr 1600 load 10 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:21:30: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:21:33: pwr 1600 load 6 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:21:36: pwr 1600 load 12 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:21:36: no throttle cycle load = 18 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:21:39: pwr 1600 load 8 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:21:42: pwr 1600 load 10 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:21:42: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:21:45: pwr 1600 load 8 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:21:48: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:21:51: pwr 1600 load 9 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:21:54: pwr 1600 load 8 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:21:54: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:21:57: pwr 1600 load 4 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:00: pwr 1600 load 8 temp 46 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:01: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:22:03: pwr 1600 load 8 temp 45 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:06: pwr 1600 load 5 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:07: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:22:09: pwr 1600 load 8 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:13: pwr 1600 load 77 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:13: no throttle cycle load = 52 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:22:16: pwr 1600 load 8 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:19: pwr 1600 load 10 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:19: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:22:22: pwr 1600 load 30 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:25: pwr 1600 load 3 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:25: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:22:28: pwr 1600 load 13 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:31: pwr 1600 load 8 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:32: no throttle cycle load = 29 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:22:35: pwr 1600 load 15 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:38: pwr 1600 load 6 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:38: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:22:41: pwr 1600 load 34 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:44: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:22:46: pwr 1600 load 7 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:49: pwr 1600 load 40 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:50: no throttle cycle load = 37 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:22:52: pwr 1600 load 10 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:56: pwr 1600 load 14 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:22:56: no throttle cycle load = 13 ,clk = 1400 ,throttledelay = 0
+2020-10-13(화) 오후 11:22:59: pwr 1600 load 16 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:02: pwr 1600 load 14 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:03: no throttle cycle load = 19 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:23:05: pwr 1600 load 30 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:08: pwr 1600 load 22 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:09: no throttle cycle load = 22 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:23:11: pwr 1600 load 12 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:15: pwr 1600 load 11 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:15: no throttle cycle load = 23 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:23:18: pwr 1600 load 2 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:21: pwr 1600 load 10 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:21: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:23:24: pwr 1600 load 8 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:27: pwr 1600 load 8 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:27: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:23:30: pwr 1600 load 4 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:33: pwr 1600 load 7 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:33: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:23:37: pwr 1600 load 24 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:40: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:23:42: pwr 1600 load 21 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:45: pwr 1600 load 17 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:46: no throttle cycle load = 17 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:23:48: pwr 1600 load 21 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:51: pwr 1600 load 23 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:52: no throttle cycle load = 24 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:23:54: pwr 1600 load 22 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:58: pwr 1600 load 7 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:23:58: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:24:01: pwr 1600 load 9 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:24:04: pwr 1600 load 24 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:24:04: no throttle cycle load = 26 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:24:07: pwr 1600 load 28 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:24:10: pwr 1600 load 24 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:24:10: no throttle cycle load = 30 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:24:13: pwr 1600 load 13 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:24:17: pwr 1600 load 15 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:24:17: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:24:20: pwr 1600 load 6 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:24:23: no throttle cycle load = 7 ,clk = 1200 ,throttledelay = 0
+2020-10-13(화) 오후 11:24:25: pwr 1600 load 19 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:24:28: pwr 1600 load 16 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:24:29: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:24:31: pwr 1600 load 11 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:24:34: pwr 1600 load 8 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:24:35: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:24:38: pwr 1600 load 14 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:24:41: pwr 1600 load 18 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:24:41: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:24:44: pwr 1600 load 12 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:24:47: pwr 1600 load 11 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:24:47: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:24:50: pwr 1600 load 12 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:24:53: pwr 1600 load 13 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:24:54: no throttle cycle load = 13 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:24:57: pwr 1600 load 9 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:00: pwr 1600 load 12 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:00: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:25:03: pwr 1600 load 7 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:06: pwr 1600 load 23 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:06: no throttle cycle load = 28 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:25:09: pwr 1600 load 14 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:12: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:25:14: pwr 1600 load 17 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:18: pwr 1600 load 10 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:18: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:25:21: pwr 1600 load 15 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:24: pwr 1600 load 23 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:25: no throttle cycle load = 22 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:25:27: pwr 1600 load 15 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:30: pwr 1600 load 12 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:31: no throttle cycle load = 20 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:25:33: pwr 1600 load 12 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:36: pwr 1600 load 6 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:37: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:25:40: pwr 1600 load 12 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:43: pwr 1600 load 12 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:43: no throttle cycle load = 29 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:25:46: pwr 1600 load 20 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:49: pwr 1600 load 17 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:49: no throttle cycle load = 24 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:25:52: pwr 1600 load 28 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:55: pwr 1600 load 17 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:25:55: no throttle cycle load = 17 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:25:59: pwr 1600 load 9 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:02: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:26:04: pwr 1600 load 7 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:07: pwr 1600 load 10 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:08: no throttle cycle load = 17 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:26:10: pwr 1600 load 9 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:13: pwr 1600 load 3 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:14: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:26:16: pwr 1600 load 4 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:20: pwr 1600 load 7 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:20: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:26:23: pwr 1600 load 12 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:26: pwr 1600 load 11 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:26: no throttle cycle load = 16 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:26:29: pwr 1600 load 12 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:32: pwr 1600 load 46 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:32: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:26:35: pwr 1600 load 14 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:38: pwr 1600 load 25 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:39: no throttle cycle load = 17 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:26:42: pwr 1600 load 11 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:45: pwr 1600 load 11 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:45: no throttle cycle load = 16 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:26:48: pwr 1600 load 14 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:51: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:26:53: pwr 1600 load 14 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:56: pwr 1600 load 17 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:26:57: no throttle cycle load = 18 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:26:59: pwr 1600 load 13 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:03: pwr 1600 load 30 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:03: no throttle cycle load = 31 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:27:06: pwr 1600 load 9 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:09: pwr 1600 load 7 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:10: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:27:12: pwr 1600 load 10 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:15: pwr 1600 load 11 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:16: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:27:18: pwr 1600 load 9 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:22: pwr 1600 load 26 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:22: no throttle cycle load = 13 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:27:25: pwr 1600 load 8 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:28: pwr 1600 load 12 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:28: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:27:31: pwr 1600 load 12 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:34: pwr 1600 load 11 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:34: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:27:37: pwr 1600 load 14 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:40: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:27:43: pwr 1600 load 12 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:46: pwr 1600 load 14 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:47: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:27:49: pwr 1600 load 11 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:52: pwr 1600 load 9 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:53: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:27:55: pwr 1600 load 9 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:58: pwr 1600 load 9 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:27:59: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:28:01: pwr 1600 load 9 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:28:05: pwr 1600 load 9 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:28:05: no throttle cycle load = 13 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:28:08: pwr 1600 load 11 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:28:11: pwr 1600 load 5 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:28:11: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:28:14: pwr 1600 load 15 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:28:17: pwr 1600 load 15 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:28:17: no throttle cycle load = 13 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:28:20: pwr 1600 load 4 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:28:23: pwr 1600 load 7 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:28:24: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:28:27: pwr 1600 load 6 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:28:30: pwr 1600 load 9 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:28:30: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:28:33: pwr 1600 load 9 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:28:36: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:28:38: pwr 1600 load 8 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:28:41: pwr 1600 load 15 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:28:42: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:28:44: pwr 1600 load 15 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:28:47: pwr 1600 load 13 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:28:48: no throttle cycle load = 16 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:28:51: pwr 1600 load 10 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:28:54: pwr 1600 load 14 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:28:54: no throttle cycle load = 13 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:28:57: pwr 1600 load 20 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:00: pwr 1600 load 7 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:01: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:29:03: pwr 1600 load 3 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:06: pwr 1600 load 11 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:07: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:29:10: pwr 1600 load 20 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:13: pwr 1600 load 30 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:13: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:29:16: pwr 1600 load 21 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:19: pwr 1600 load 27 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:19: no throttle cycle load = 19 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:29:22: pwr 1600 load 21 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:24: setting power back to 100
+2020-10-13(화) 오후 11:29:24: setting CLK: 100
+2020-10-13(화) 오후 11:29:25: setting XTU: 4.5
+2020-10-13(화) 오후 11:29:25: pwr 1600 load 49 temp 60 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:27: setting GPU: performance
+2020-10-13(화) 오후 11:29:27: start of newlist timer
+2020-10-13(화) 오후 11:29:28: pwr 2701 load 4 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:31: setting power: Hwp to 65
+2020-10-13(화) 오후 11:29:32: pwr 2701 load 8 temp 59 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:32: setting CLK: 65
+2020-10-13(화) 오후 11:29:32: setting XTU: 7.5
+2020-10-13(화) 오후 11:29:35: pwr 1600 load 40 temp 56 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:36: setting GPU: performance
+2020-10-13(화) 오후 11:29:38: pwr 1600 load 16 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:39: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:29:41: pwr 1600 load 12 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:44: pwr 1600 load 10 temp 54 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:45: no throttle cycle load = 18 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:29:47: pwr 1600 load 7 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:50: pwr 1600 load 10 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:51: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:29:54: pwr 1600 load 31 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:57: pwr 1600 load 16 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:29:57: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:30:00: pwr 1600 load 12 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:03: pwr 1600 load 22 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:03: no throttle cycle load = 24 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:30:06: pwr 1600 load 9 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:09: pwr 1600 load 19 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:10: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:30:10: time to sync for newlist
+2020-10-13(화) 오후 11:30:12: pwr 1600 load 13 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:16: pwr 1600 load 12 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:16: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:30:19: pwr 1600 load 7 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:22: pwr 1600 load 18 temp 53 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:22: no throttle cycle load = 16 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:30:25: pwr 1600 load 29 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:28: pwr 1600 load 11 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:28: no throttle cycle load = 20 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:30:31: pwr 1600 load 9 temp 51 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:34: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:30:37: pwr 1600 load 10 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:40: pwr 1600 load 8 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:41: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:30:43: pwr 1600 load 7 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:46: pwr 1600 load 14 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:47: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:30:49: pwr 1600 load 10 temp 52 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:52: pwr 1600 load 8 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:53: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:30:55: pwr 1600 load 6 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:59: pwr 1600 load 11 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:30:59: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:31:02: pwr 1600 load 12 temp 50 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:31:05: pwr 1600 load 9 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:31:05: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:31:08: pwr 1600 load 6 temp 48 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:31:11: pwr 1600 load 8 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:31:11: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:31:14: pwr 1600 load 9 temp 47 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:31:17: pwr 1600 load 5 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:31:18: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:31:21: pwr 1600 load 14 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:31:24: pwr 1600 load 10 temp 49 throttleMode 0 wrong False
+2020-10-13(화) 오후 11:31:24: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:31:30: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:31:36: no throttle cycle load = 22 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:31:42: no throttle cycle load = 26 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:31:48: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:31:55: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:32:01: no throttle cycle load = 25 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:32:07: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:32:13: no throttle cycle load = 35 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:32:19: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:32:26: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:32:32: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:32:38: no throttle cycle load = 17 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:32:44: no throttle cycle load = 18 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:32:50: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:32:56: no throttle cycle load = 22 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:33:03: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:33:09: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:33:15: no throttle cycle load = 17 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:33:21: no throttle cycle load = 16 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:33:27: no throttle cycle load = 23 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:33:34: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:33:40: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:33:46: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:33:52: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:33:58: no throttle cycle load = 17 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:34:04: no throttle cycle load = 24 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:34:11: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:34:17: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:34:23: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:34:27: setting niceness: explorer to Normal
+2020-10-13(화) 오후 11:34:27: setting power back to 100
+2020-10-13(화) 오후 11:34:27: setting CLK: 100
+2020-10-13(화) 오후 11:34:27: setting XTU: 4.5
+2020-10-13(화) 오후 11:34:30: setting GPU: performance
+2020-10-13(화) 오후 11:34:32: no throttle cycle load = 36 ,clk = 2701 ,throttledelay = 0
+2020-10-13(화) 오후 11:34:38: start of newlist timer
+2020-10-13(화) 오후 11:34:42: setting power: Hwp to 65
+2020-10-13(화) 오후 11:34:42: setting CLK: 65
+2020-10-13(화) 오후 11:34:42: setting XTU: 7.5
+2020-10-13(화) 오후 11:34:47: setting GPU: performance
+2020-10-13(화) 오후 11:34:49: no throttle cycle load = 20 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:34:56: no throttle cycle load = 21 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:35:02: no throttle cycle load = 16 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:35:08: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:35:14: no throttle cycle load = 36 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:35:20: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:35:20: time to sync for newlist
+2020-10-13(화) 오후 11:35:26: no throttle cycle load = 20 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:35:33: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:35:39: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:35:45: no throttle cycle load = 46 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:35:51: no throttle cycle load = 29 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:35:57: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:36:04: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:36:10: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:36:16: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:36:22: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:36:28: no throttle cycle load = 36 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:36:34: no throttle cycle load = 25 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:36:41: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:36:47: no throttle cycle load = 25 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:36:53: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:36:59: no throttle cycle load = 20 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:37:05: no throttle cycle load = 37 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:37:12: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:37:18: no throttle cycle load = 16 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:37:24: no throttle cycle load = 16 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:37:30: no throttle cycle load = 16 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:37:36: no throttle cycle load = 21 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:37:42: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:37:49: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:37:55: no throttle cycle load = 20 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:38:01: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:38:07: no throttle cycle load = 18 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:38:13: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:38:19: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:38:26: no throttle cycle load = 22 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:38:32: no throttle cycle load = 23 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:38:38: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:38:44: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:38:50: no throttle cycle load = 32 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:38:57: no throttle cycle load = 20 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:39:03: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:39:09: no throttle cycle load = 16 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:39:15: no throttle cycle load = 18 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:39:21: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:39:27: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:39:34: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:39:40: no throttle cycle load = 13 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:39:46: no throttle cycle load = 19 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:39:52: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:39:58: no throttle cycle load = 22 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:40:04: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:40:11: no throttle cycle load = 37 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:40:17: no throttle cycle load = 36 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:40:23: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:40:29: no throttle cycle load = 13 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:40:35: no throttle cycle load = 4 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:40:41: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:40:48: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:40:54: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:41:00: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:41:06: no throttle cycle load = 25 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:41:12: no throttle cycle load = 35 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:41:19: no throttle cycle load = 33 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:41:25: no throttle cycle load = 13 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:41:31: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:41:37: no throttle cycle load = 20 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:41:43: no throttle cycle load = 18 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:41:49: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:41:56: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:42:02: no throttle cycle load = 9 ,clk = 1400 ,throttledelay = 0
+2020-10-13(화) 오후 11:42:08: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:42:14: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:42:20: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:42:27: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:42:33: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:42:39: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:42:45: no throttle cycle load = 23 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:42:51: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:42:58: no throttle cycle load = 27 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:43:04: no throttle cycle load = 29 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:43:10: no throttle cycle load = 19 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:43:16: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:43:22: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:43:28: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:43:35: no throttle cycle load = 22 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:43:41: no throttle cycle load = 18 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:43:47: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:43:53: no throttle cycle load = 23 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:43:59: no throttle cycle load = 13 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:44:06: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:44:12: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:44:18: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:44:24: no throttle cycle load = 18 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:44:29: appending: key = devenv, value = 6
+2020-10-13(화) 오후 11:44:29: settings changed for: special_programs!, reimporting...
+2020-10-13(화) 오후 11:44:29: reading: key = explorer, value = 0
+2020-10-13(화) 오후 11:44:29: reading: key = ConsoleApplication41, value = 6
+2020-10-13(화) 오후 11:44:29: reading: key = notepad++, value = 6
+2020-10-13(화) 오후 11:44:29: reading: key = Hwp, value = 6
+2020-10-13(화) 오후 11:44:29: reading: key = cmd, value = 6
+2020-10-13(화) 오후 11:44:29: reading: key = POWERPNT, value = 6
+2020-10-13(화) 오후 11:44:29: reading: key = devenv, value = 6
+2020-10-13(화) 오후 11:44:29: setting niceness: devenv to Normal
+2020-10-13(화) 오후 11:44:32: no throttle cycle load = 76 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:44:38: no throttle cycle load = 49 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:44:44: no throttle cycle load = 33 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:44:50: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:44:56: no throttle cycle load = 19 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:45:02: no throttle cycle load = 25 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:45:09: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:45:15: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:45:21: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:45:27: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:45:33: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:45:40: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:45:46: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:45:52: no throttle cycle load = 16 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:45:58: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:46:04: no throttle cycle load = 37 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:46:10: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:46:17: no throttle cycle load = 25 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:46:23: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:46:29: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:46:35: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:46:41: no throttle cycle load = 22 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:46:48: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:46:54: no throttle cycle load = 5 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:47:00: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:47:06: no throttle cycle load = 49 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:47:12: no throttle cycle load = 57 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:47:19: no throttle cycle load = 51 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:47:25: no throttle cycle load = 43 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:47:31: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:47:37: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:47:43: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:47:49: no throttle cycle load = 1 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:47:56: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:48:02: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:48:08: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:48:14: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:48:20: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:48:27: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:48:33: no throttle cycle load = 17 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:48:39: no throttle cycle load = 11 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:48:45: no throttle cycle load = 2 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:48:51: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:48:57: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:49:04: no throttle cycle load = 4 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:49:10: no throttle cycle load = 4 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:49:16: no throttle cycle load = 8 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:49:22: no throttle cycle load = 12 ,clk = 1600 ,throttledelay = 0
+2020-10-13(화) 오후 11:50:14: settings changed for: special_programs!, reimporting...
+2020-10-13(화) 오후 11:50:14: reading: key = explorer, value = 0
+2020-10-13(화) 오후 11:50:14: reading: key = ConsoleApplication41, value = 6
+2020-10-13(화) 오후 11:50:14: reading: key = notepad++, value = 6
+2020-10-13(화) 오후 11:50:14: reading: key = Hwp, value = 6
+2020-10-13(화) 오후 11:50:14: reading: key = cmd, value = 6
+2020-10-13(화) 오후 11:50:14: reading: key = POWERPNT, value = 6
+2020-10-13(화) 오후 11:50:14: reading: key = devenv, value = 6
+2020-10-13(화) 오후 11:50:14: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-13(화) 오후 11:50:14: reading: key = 0, value = 100
+2020-10-13(화) 오후 11:50:14: reading: key = 1, value = 99
+2020-10-13(화) 오후 11:50:14: reading: key = 2, value = 98
+2020-10-13(화) 오후 11:50:14: reading: key = 3, value = 95
+2020-10-13(화) 오후 11:50:14: reading: key = 4, value = 84
+2020-10-13(화) 오후 11:50:14: reading: key = 5, value = 73
+2020-10-13(화) 오후 11:50:14: reading: key = 6, value = 65
+2020-10-13(화) 오후 11:50:14: reading: key = 7, value = 58
+2020-10-13(화) 오후 11:50:14: reading: key = 8, value = 50
+2020-10-13(화) 오후 11:50:14: reading: key = 9, value = 43
+2020-10-13(화) 오후 11:50:14: reading: key = 10, value = 32
+2020-10-13(화) 오후 11:50:14: reading: key = 11, value = 24
+2020-10-13(화) 오후 11:50:14: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-13(화) 오후 11:50:14: reading: key = 11, value = 10
+2020-10-13(화) 오후 11:50:14: reading: key = 10, value = 9.5
+2020-10-13(화) 오후 11:50:14: reading: key = 9, value = 9
+2020-10-13(화) 오후 11:50:14: reading: key = 8, value = 8.5
+2020-10-13(화) 오후 11:50:14: reading: key = 7, value = 8
+2020-10-13(화) 오후 11:50:15: reading: key = 6, value = 7.5
+2020-10-13(화) 오후 11:50:15: reading: key = 5, value = 7
+2020-10-13(화) 오후 11:50:15: reading: key = 4, value = 6.5
+2020-10-13(화) 오후 11:50:15: reading: key = 3, value = 6
+2020-10-13(화) 오후 11:50:15: reading: key = 2, value = 5.5
+2020-10-13(화) 오후 11:50:15: reading: key = 1, value = 5
+2020-10-13(화) 오후 11:50:15: reading: key = 0, value = 4.5
+2020-10-13(화) 오후 11:50:15: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-13(화) 오후 11:50:15: reading: key = 0, value = Normal
+2020-10-13(화) 오후 11:50:15: reading: key = 1, value = Normal
+2020-10-13(화) 오후 11:50:15: reading: key = 2, value = Normal
+2020-10-13(화) 오후 11:50:15: reading: key = 3, value = Normal
+2020-10-13(화) 오후 11:50:15: reading: key = 4, value = Normal
+2020-10-13(화) 오후 11:50:15: reading: key = 5, value = Normal
+2020-10-13(화) 오후 11:50:15: reading: key = 6, value = Normal
+2020-10-13(화) 오후 11:50:15: reading: key = 7, value = Normal
+2020-10-13(화) 오후 11:50:15: settings changed for: loop_delay!, reimporting...
+2020-10-13(화) 오후 11:50:15: reading: key = loop_delay, value = 5
+2020-10-13(화) 오후 11:50:15: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-13(화) 오후 11:50:15: reading: key = boost_cycle_delay, value = 12
+2020-10-13(화) 오후 11:50:15: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-13(화) 오후 11:50:15: reading: key = newlist_cycle_delay, value = 30
+2020-10-13(화) 오후 11:50:15: settings changed for: ac_offset!, reimporting...
+2020-10-13(화) 오후 11:50:15: reading: key = ac_offset, value = 1
+2020-10-13(화) 오후 11:50:15: settings changed for: processor_guid_tweak!, reimporting...
+2020-10-13(화) 오후 11:50:15: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-13(화) 오후 11:50:15: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-13(화) 오후 11:50:15: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-13(화) 오후 11:50:15: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-13(화) 오후 11:50:15: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-13(화) 오후 11:50:15: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-13(화) 오후 11:50:15: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-13(화) 오후 11:50:15: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-13(화) 오후 11:50:15: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-13(화) 오후 11:50:15: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-13(화) 오후 11:50:15: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-13(화) 오후 11:50:15: settings changed for: generatedCLK!, reimporting...
+2020-10-13(화) 오후 11:50:15: reading: key = 100, value = 2701
+2020-10-13(화) 오후 11:50:15: reading: key = 99, value = 2700
+2020-10-13(화) 오후 11:50:15: reading: key = 98, value = 2600
+2020-10-13(화) 오후 11:50:15: reading: key = 95, value = 2300
+2020-10-13(화) 오후 11:50:15: reading: key = 84, value = 2000
+2020-10-13(화) 오후 11:50:15: reading: key = 73, value = 1800
+2020-10-13(화) 오후 11:50:15: reading: key = 65, value = 1600
+2020-10-13(화) 오후 11:50:15: reading: key = 58, value = 1400
+2020-10-13(화) 오후 11:50:15: reading: key = 50, value = 1200
+2020-10-13(화) 오후 11:50:15: reading: key = 43, value = 900
+2020-10-13(화) 오후 11:50:15: reading: key = 32, value = 700
+2020-10-13(화) 오후 11:50:15: reading: key = 24, value = 500
+2020-10-13(화) 오후 11:50:15: settings changed for: generatedXTU!, reimporting...
+2020-10-13(화) 오후 11:50:15: reading: key = 24, value = 10
+2020-10-13(화) 오후 11:50:15: reading: key = 32, value = 9.5
+2020-10-13(화) 오후 11:50:15: reading: key = 43, value = 9
+2020-10-13(화) 오후 11:50:15: reading: key = 50, value = 8.5
+2020-10-13(화) 오후 11:50:15: reading: key = 58, value = 8
+2020-10-13(화) 오후 11:50:15: reading: key = 65, value = 7.5
+2020-10-13(화) 오후 11:50:15: reading: key = 73, value = 7
+2020-10-13(화) 오후 11:50:15: reading: key = 84, value = 6.5
+2020-10-13(화) 오후 11:50:15: reading: key = 95, value = 6
+2020-10-13(화) 오후 11:50:15: reading: key = 98, value = 5.5
+2020-10-13(화) 오후 11:50:15: reading: key = 99, value = 5
+2020-10-13(화) 오후 11:50:15: reading: key = 100, value = 4.5
+2020-10-13(화) 오후 11:50:15: settings changed for: throttle_median!, reimporting...
+2020-10-13(화) 오후 11:50:15: reading: key = throttle_median, value = 80
+2020-10-13(화) 오후 11:50:15: settings changed for: newlist_median!, reimporting...
+2020-10-13(화) 오후 11:50:15: reading: key = newlist_median, value = 50
+2020-10-13(화) 오후 11:50:15: settings changed for: gpuplan!, reimporting...
+2020-10-13(화) 오후 11:50:15: reading: key = gpuplan, value = 1
+2020-10-13(화) 오후 11:50:18: checking XTU cmdlet
+2020-10-13(화) 오후 11:50:21: XTU ok
+2020-10-13(화) 오후 11:50:26: result = 7.5
+2020-10-13(화) 오후 11:50:26: init PowerCFG settings
+2020-10-13(화) 오후 11:50:31: setting power back to 100
+2020-10-13(화) 오후 11:50:32: setting CLK: 100
+2020-10-13(화) 오후 11:50:32: setting XTU: 4.5
+2020-10-13(화) 오후 11:50:34: setting GPU: performance
+2020-10-13(화) 오후 11:50:34: start of newlist timer
+2020-10-13(화) 오후 11:51:05: time to sync for newlist
+2020-10-13(화) 오후 11:52:16: settings changed for: special_programs!, reimporting...
+2020-10-13(화) 오후 11:52:16: reading: key = explorer, value = 0
+2020-10-13(화) 오후 11:52:16: reading: key = ConsoleApplication41, value = 6
+2020-10-13(화) 오후 11:52:16: reading: key = notepad++, value = 6
+2020-10-13(화) 오후 11:52:16: reading: key = Hwp, value = 6
+2020-10-13(화) 오후 11:52:16: reading: key = cmd, value = 6
+2020-10-13(화) 오후 11:52:16: reading: key = POWERPNT, value = 6
+2020-10-13(화) 오후 11:52:16: reading: key = devenv, value = 6
+2020-10-13(화) 오후 11:52:16: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-13(화) 오후 11:52:16: reading: key = 0, value = 100
+2020-10-13(화) 오후 11:52:16: reading: key = 1, value = 99
+2020-10-13(화) 오후 11:52:16: reading: key = 2, value = 98
+2020-10-13(화) 오후 11:52:16: reading: key = 3, value = 95
+2020-10-13(화) 오후 11:52:16: reading: key = 4, value = 84
+2020-10-13(화) 오후 11:52:16: reading: key = 5, value = 73
+2020-10-13(화) 오후 11:52:16: reading: key = 6, value = 65
+2020-10-13(화) 오후 11:52:16: reading: key = 7, value = 58
+2020-10-13(화) 오후 11:52:16: reading: key = 8, value = 50
+2020-10-13(화) 오후 11:52:16: reading: key = 9, value = 43
+2020-10-13(화) 오후 11:52:16: reading: key = 10, value = 32
+2020-10-13(화) 오후 11:52:16: reading: key = 11, value = 24
+2020-10-13(화) 오후 11:52:16: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-13(화) 오후 11:52:16: reading: key = 11, value = 10
+2020-10-13(화) 오후 11:52:16: reading: key = 10, value = 9.5
+2020-10-13(화) 오후 11:52:16: reading: key = 9, value = 9
+2020-10-13(화) 오후 11:52:16: reading: key = 8, value = 8.5
+2020-10-13(화) 오후 11:52:16: reading: key = 7, value = 8
+2020-10-13(화) 오후 11:52:16: reading: key = 6, value = 7.5
+2020-10-13(화) 오후 11:52:16: reading: key = 5, value = 7
+2020-10-13(화) 오후 11:52:16: reading: key = 4, value = 6.5
+2020-10-13(화) 오후 11:52:16: reading: key = 3, value = 6
+2020-10-13(화) 오후 11:52:16: reading: key = 2, value = 5.5
+2020-10-13(화) 오후 11:52:16: reading: key = 1, value = 5
+2020-10-13(화) 오후 11:52:16: reading: key = 0, value = 4.5
+2020-10-13(화) 오후 11:52:16: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-13(화) 오후 11:52:16: reading: key = 0, value = Normal
+2020-10-13(화) 오후 11:52:16: reading: key = 1, value = Normal
+2020-10-13(화) 오후 11:52:16: reading: key = 2, value = Normal
+2020-10-13(화) 오후 11:52:16: reading: key = 3, value = Normal
+2020-10-13(화) 오후 11:52:16: reading: key = 4, value = Normal
+2020-10-13(화) 오후 11:52:16: reading: key = 5, value = Normal
+2020-10-13(화) 오후 11:52:16: reading: key = 6, value = Normal
+2020-10-13(화) 오후 11:52:16: reading: key = 7, value = Normal
+2020-10-13(화) 오후 11:52:16: settings changed for: loop_delay!, reimporting...
+2020-10-13(화) 오후 11:52:16: reading: key = loop_delay, value = 5
+2020-10-13(화) 오후 11:52:16: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-13(화) 오후 11:52:16: reading: key = boost_cycle_delay, value = 12
+2020-10-13(화) 오후 11:52:16: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-13(화) 오후 11:52:16: reading: key = newlist_cycle_delay, value = 30
+2020-10-13(화) 오후 11:52:16: settings changed for: ac_offset!, reimporting...
+2020-10-13(화) 오후 11:52:16: reading: key = ac_offset, value = 1
+2020-10-13(화) 오후 11:52:16: settings changed for: processor_guid_tweak!, reimporting...
+2020-10-13(화) 오후 11:52:16: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-13(화) 오후 11:52:16: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-13(화) 오후 11:52:16: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-13(화) 오후 11:52:16: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-13(화) 오후 11:52:16: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-13(화) 오후 11:52:16: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-13(화) 오후 11:52:16: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-13(화) 오후 11:52:16: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-13(화) 오후 11:52:16: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-13(화) 오후 11:52:16: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-13(화) 오후 11:52:16: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-13(화) 오후 11:52:16: settings changed for: generatedCLK!, reimporting...
+2020-10-13(화) 오후 11:52:16: reading: key = 100, value = 2701
+2020-10-13(화) 오후 11:52:16: reading: key = 99, value = 2700
+2020-10-13(화) 오후 11:52:16: reading: key = 98, value = 2600
+2020-10-13(화) 오후 11:52:16: reading: key = 95, value = 2300
+2020-10-13(화) 오후 11:52:16: reading: key = 84, value = 2000
+2020-10-13(화) 오후 11:52:16: reading: key = 73, value = 1800
+2020-10-13(화) 오후 11:52:16: reading: key = 65, value = 1600
+2020-10-13(화) 오후 11:52:16: reading: key = 58, value = 1400
+2020-10-13(화) 오후 11:52:16: reading: key = 50, value = 1200
+2020-10-13(화) 오후 11:52:16: reading: key = 43, value = 900
+2020-10-13(화) 오후 11:52:16: reading: key = 32, value = 700
+2020-10-13(화) 오후 11:52:16: reading: key = 24, value = 500
+2020-10-13(화) 오후 11:52:16: settings changed for: generatedXTU!, reimporting...
+2020-10-13(화) 오후 11:52:16: reading: key = 24, value = 10
+2020-10-13(화) 오후 11:52:16: reading: key = 32, value = 9.5
+2020-10-13(화) 오후 11:52:16: reading: key = 43, value = 9
+2020-10-13(화) 오후 11:52:16: reading: key = 50, value = 8.5
+2020-10-13(화) 오후 11:52:16: reading: key = 58, value = 8
+2020-10-13(화) 오후 11:52:16: reading: key = 65, value = 7.5
+2020-10-13(화) 오후 11:52:16: reading: key = 73, value = 7
+2020-10-13(화) 오후 11:52:16: reading: key = 84, value = 6.5
+2020-10-13(화) 오후 11:52:16: reading: key = 95, value = 6
+2020-10-13(화) 오후 11:52:16: reading: key = 98, value = 5.5
+2020-10-13(화) 오후 11:52:16: reading: key = 99, value = 5
+2020-10-13(화) 오후 11:52:16: reading: key = 100, value = 4.5
+2020-10-13(화) 오후 11:52:16: settings changed for: throttle_median!, reimporting...
+2020-10-13(화) 오후 11:52:16: reading: key = throttle_median, value = 80
+2020-10-13(화) 오후 11:52:16: settings changed for: newlist_median!, reimporting...
+2020-10-13(화) 오후 11:52:16: reading: key = newlist_median, value = 50
+2020-10-13(화) 오후 11:52:16: settings changed for: gpuplan!, reimporting...
+2020-10-13(화) 오후 11:52:16: reading: key = gpuplan, value = 1
+2020-10-13(화) 오후 11:52:19: checking XTU cmdlet
+2020-10-13(화) 오후 11:52:20: XTU ok
+2020-10-13(화) 오후 11:52:22: result = 10.5
+2020-10-13(화) 오후 11:52:22: init PowerCFG settings
+2020-10-13(화) 오후 11:52:27: setting power back to 100
+2020-10-13(화) 오후 11:52:27: setting CLK: 100
+2020-10-13(화) 오후 11:52:27: setting XTU: 4.5
+2020-10-13(화) 오후 11:52:29: setting GPU: performance
+2020-10-13(화) 오후 11:52:30: start of newlist timer
+2020-10-13(화) 오후 11:53:00: time to sync for newlist
+2020-10-13(화) 오후 11:55:05: appending: key = mspaint, value = 6
+2020-10-13(화) 오후 11:55:05: settings changed for: special_programs!, reimporting...
+2020-10-13(화) 오후 11:55:05: reading: key = explorer, value = 0
+2020-10-13(화) 오후 11:55:05: reading: key = ConsoleApplication41, value = 6
+2020-10-13(화) 오후 11:55:05: reading: key = notepad++, value = 6
+2020-10-13(화) 오후 11:55:05: reading: key = Hwp, value = 6
+2020-10-13(화) 오후 11:55:05: reading: key = cmd, value = 6
+2020-10-13(화) 오후 11:55:05: reading: key = POWERPNT, value = 6
+2020-10-13(화) 오후 11:55:05: reading: key = devenv, value = 6
+2020-10-13(화) 오후 11:55:05: reading: key = mspaint, value = 6

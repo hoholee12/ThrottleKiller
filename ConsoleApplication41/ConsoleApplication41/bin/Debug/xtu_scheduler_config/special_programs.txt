@@ -3,3 +3,10 @@ explorer = 0
 @append
 ConsoleApplication41 = 6
 notepad++ = 6
+Hwp = 6
+cmd = 6
+POWERPNT = 6
+devenv = 6
+
+mspaint = 3
+mintty = 3

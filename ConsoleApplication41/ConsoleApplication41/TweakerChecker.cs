@@ -174,28 +174,37 @@ namespace ThrottleSchedulerService
                 newlist_acc.Sort();
                 int medload = (int)newlist_acc[newlist_acc.Count() / 2];
                 var pwrlist = sortedPWRlist(sm);
-                int toppwr = pwrlist[0];
+                int toppwr = pwrlist[pwrlist.Count() - 1];
 
                 //average pwr(clockspeed)
                 //ex) 2700mhz / 100 * 3(load) = 81mhz
                 int target = toppwr / 100 * medload;
 
-                //find index
+                //find index of low limit(newlist median)
                 int index = 0;
-                int limit = (int)sm.newlist_median.configList["newlist_median"];
+                int limit = (int)sm.newlist_median.configList["newlist_median"];    //ex) 50
+                int listcount = sm.generatedCLK.configList.Count();                 //ex) 12
+                int indexlimit = listcount * limit / 100;                           //ex) 6
+                //get low limit through sorted clk
                 foreach(int val in sortedCLKlist(sm)){
-                    if (val > limit)
+                    if (index < indexlimit) {
+                        index++;
+                    }
+                    else
                     {
                         limit = val;
                         break;
                     }
-                    index++;
                 }
-                limit = (int)sm.generatedCLK.configList[limit];
 
+                //convert low limit to pwr
+                int pwr = (int)sm.generatedCLK.configList[limit];
+
+                //find index for pwr
+                //with low limit
                 index = sm.generatedCLK.configList.Count() - 1; //-1 to start from 0
                 foreach(int val in sortedPWRlist(sm)){
-                    if (val > target && val > limit)
+                    if (val > target && val >= pwr)
                     {
                         break;
                     }
@@ -245,7 +254,8 @@ namespace ThrottleSchedulerService
                 int high = (int)sm.processor_guid_tweak.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
                 int load = getLoad();
                 int pwr = getPWR();
-                int target_pwr = (int)sm.generatedCLK.configList[ts.getCLK(false)];
+                int currclk = ts.getCLK(false);
+                int target_pwr = (int)sm.generatedCLK.configList[currclk];
 
                 if (load > high && pwr < target_pwr)
                 {
@@ -276,22 +286,49 @@ namespace ThrottleSchedulerService
 
                     throttle_acc.Sort();
                     //throttleMode notifier:
+                    //
+                    //      dont confuse!
+                    //      *throttle_median: cpu load median
+                    //      *newlist_median: low limit clk median.
+                    //
                     //  if throttle_acc median doesnt exceed default median (ex)80:
                     //      decrease cpu
-                    //  else:
+                    //  else if cpu cant be decreased:
                     //      decrease gpu
 
                     int temp = throttle_acc[throttle_acc.Count() / 2];
                     int temp2 = (int)sm.throttle_median.configList["throttle_median"];
                     log.WriteLog("complete throttle sync load(median) = " + temp + " ,default median = " + temp2);
 
-                    if (temp < temp2) {
+                    //find index of low limit(newlist median)
+                    int index = 0;
+                    int limit = (int)sm.newlist_median.configList["newlist_median"];    //ex) 50
+                    int listcount = sm.generatedCLK.configList.Count();                 //ex) 12
+                    int indexlimit = listcount * limit / 100;                           //ex) 6
+                    //get low limit through sorted clk
+                    foreach (int val in sortedCLKlist(sm))
+                    {
+                        if (index < indexlimit)
+                        {
+                            index++;
+                        }
+                        else
+                        {
+                            limit = val;
+                            break;
+                        }
+                    }
+
+                    //dont exceed throttle median && current clk is over limit
+                    if (temp < temp2 && limit < currclk)
+                    {
                         log.WriteLog("cpu throttle detected!");
                         sm.throttleMode = 1;
                     }
                     else {
                         log.WriteLog("gpu throttle detected!");
                         sm.throttleMode = 2;
+                        if (limit >= currclk) log.WriteLog("reason: cpu low limit reached (newlist_median)");
                     }
 
                     //clear
