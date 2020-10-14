@@ -1,12 +1,10 @@
-explorer = 0
 
 @append
-ConsoleApplication41 = 6
-notepad++ = 6
+mspaint = 7
 Hwp = 6
-cmd = 6
-POWERPNT = 6
 devenv = 6
-
-mspaint = 3
-mintty = 3
+POWERPNT = 6
+chrome = 4
+cmd = 6
+vlc = 6
+mintty = 6

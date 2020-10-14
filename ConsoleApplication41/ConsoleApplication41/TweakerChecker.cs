@@ -23,7 +23,7 @@ namespace ThrottleSchedulerService
 
         public Logger log;
 
-        int MaxClockSpeed;
+        int MaxClockSpeed = 1234;
 
         int throttledelay = 0; //for throttling check margin
         List<int> throttle_acc = new List<int>();
@@ -83,10 +83,12 @@ namespace ThrottleSchedulerService
         public int getMaxPWR() {
             while (true)
             {
+                if (MaxClockSpeed != 1234) return MaxClockSpeed;
                 try
                 {
                     obj.Get();
-                    return int.Parse(obj["MaxClockSpeed"].ToString());
+                    MaxClockSpeed = int.Parse(obj["MaxClockSpeed"].ToString());
+                    return MaxClockSpeed;
                }
                 catch (Exception) { }
             }
@@ -164,8 +166,14 @@ namespace ThrottleSchedulerService
 
             //launch timer
             sm.startNewlistSync();
+            //default cpu speed is always MaxPWR
             int load = getLoad();
-            newlist_acc.Add(load);
+            int currpwr = getPWR();
+            int maxpwr = getMaxPWR();
+            int globalload = load * currpwr / maxpwr;        //include circumstance of throttling
+            newlist_acc.Add(globalload);
+
+            log.WriteLog("newlist accumulated current pwr:" + currpwr + " load:" + load + " globalload:" + globalload);
 
 
             //if time
@@ -177,7 +185,7 @@ namespace ThrottleSchedulerService
                 int toppwr = pwrlist[pwrlist.Count() - 1];
 
                 //average pwr(clockspeed)
-                //ex) 2700mhz / 100 * 3(load) = 81mhz
+                //ex) 2701mhz / 100 * 3(load) = 81mhz
                 int target = toppwr / 100 * medload;
 
                 //find index of low limit(newlist median)
