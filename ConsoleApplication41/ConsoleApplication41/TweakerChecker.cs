@@ -32,6 +32,9 @@ namespace ThrottleSchedulerService
         Process temp = null;
         List<int> newlist_acc = new List<int>();
 
+        int resurstate = 0; //rate of speed
+        List<int> resur_acc = new List<int>();
+
         int prevtemp_i = 0, prevtemp_j = 0;   //slow down io usage
 
         //needed for opm
@@ -56,27 +59,47 @@ namespace ThrottleSchedulerService
         ManagementObject obj = new ManagementObject("Win32_Processor.DeviceID='CPU0'");
 
 
+        public void resettick() {
+            loadtick = true;
+            pwrtick = true;
+            thermaltick = true;
+        }
+
+        public bool loadtick = true;
+        public int prevload = 0;
         public int getLoad()
         {
             while (true)
             {
                 try
                 {
-                    obj.Get();
-                    return int.Parse(obj["LoadPercentage"].ToString());
+                    if (loadtick)
+                    {
+                        obj.Get();
+                        prevload = int.Parse(obj["LoadPercentage"].ToString());
+                        loadtick = false;
+                    }
+                    return prevload;
                 }
                 catch (Exception) { }
             }
 
         }
+        public bool pwrtick = true;
+        public int prevpwr = 0;
         public int getPWR()
         {
             while (true)
             {
                 try
                 {
-                    obj.Get();
-                    return int.Parse(obj["CurrentClockSpeed"].ToString());
+                    if (pwrtick)
+                    {
+                        obj.Get();
+                        prevpwr = int.Parse(obj["CurrentClockSpeed"].ToString());
+                        pwrtick = false;
+                    }
+                    return prevpwr;
                 }
                 catch (Exception) { }
             }
@@ -148,10 +171,17 @@ namespace ThrottleSchedulerService
             }
         }
 
+        public bool thermaltick = true;
+        public int prevthermal = 0;
         public int getTemp()
         {
-            computer.Accept(updateVisitor);
-            return int.Parse(computer.Hardware[prevtemp_i].Sensors[prevtemp_j].Value.ToString());
+            if (thermaltick)
+            {
+                computer.Accept(updateVisitor);
+                prevthermal = int.Parse(computer.Hardware[prevtemp_i].Sensors[prevtemp_j].Value.ToString());
+                thermaltick = false;
+            }
+            return prevthermal;
             
         }
         //for management wmi
@@ -159,6 +189,12 @@ namespace ThrottleSchedulerService
         public void initPWR(Logger log) {
             this.log = log;
             MaxClockSpeed = getMaxPWR();
+        }
+
+        //true turboboost speed
+        public int autofilterPWR(int pwr) {
+            if (pwr == getMaxPWR()) pwr = getTurboPWR();
+            return pwr;
         }
 
         public List<int> sortedCLKlist(SettingsManager sm) {
@@ -177,6 +213,7 @@ namespace ThrottleSchedulerService
             sm.IPClocked = false;
             return temp;
         }
+
 
         //assume cpu is clk 100
         public void autoCheckInsert(Process proc, SettingsManager sm, TweakerController ts)
@@ -200,13 +237,12 @@ namespace ThrottleSchedulerService
             //launch timer
             sm.startNewlistSync();
             //default cpu speed is always MaxPWR
-            int load = getLoad();
-            int currpwr = getPWR();
-            int maxpwr = getMaxPWR();
-            int globalload = load * currpwr / maxpwr;        //include circumstance of throttling
-            newlist_acc.Add(globalload);
+            int currpwr = autofilterPWR(getPWR());
+            int load = getLoad() * currpwr / getTurboPWR();        //include circumstance of throttling
+            if (load > 100) load = 100;         //oob
+            newlist_acc.Add(load);
 
-            log.WriteLog("newlist accumulated current pwr:" + currpwr + " load:" + load + " globalload:" + globalload);
+            log.WriteLog("newlist accumulated current pwr:" + currpwr + " load:" + load + " aload:" + getLoad());
 
 
             //if time
@@ -217,6 +253,7 @@ namespace ThrottleSchedulerService
                 /*
                  * get avg.
                  * heavily modified simpler version of exponential moving average(EMA)
+                 * -designed to be more favorable towards higher load for avg
                  */
                 float favg = newlist_acc[0];
                 float lsum = 0.0f;
@@ -231,11 +268,11 @@ namespace ThrottleSchedulerService
                 int medload = (int)newlist_acc[newlist_acc.Count() / 2];
                 if (medload < avg)
                 {
-                    log.WriteLog("using EMA...");
                     medload = avg;   //overwrite; medload is final
+                    log.WriteLog("using EMA..." + medload);
                 }
                 else {
-                    log.WriteLog("using median...");
+                    log.WriteLog("using median..." + medload);
                 }
 
                 //average pwr(clockspeed)
@@ -314,12 +351,12 @@ namespace ThrottleSchedulerService
                 
                 //<string, int>
                 int high = (int)sm.processor_guid_tweak.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
+                int currpwr = autofilterPWR(getPWR());
                 int load = getLoad();
-                int pwr = getPWR();
                 int currclk = ts.getCLK(false);
-                int target_pwr = (int)sm.generatedCLK.configList[currclk];
+                int target_pwr = autofilterPWR((int)sm.generatedCLK.configList[currclk]);
 
-                if (load > high && pwr < target_pwr)
+                if (load > high && currpwr < target_pwr)
                 {
                     
 
@@ -328,11 +365,11 @@ namespace ThrottleSchedulerService
                     //accumulate
                     throttle_acc.Add(load);
                     throttledelay++;
-                    log.WriteLog("semi throttle cycle load = " + load + " ,clk = " + pwr + " ,throttledelay = " + throttledelay);
+                    log.WriteLog("semi throttle cycle load = " + load + " ,clk = " + currpwr + " ,throttledelay = " + throttledelay);
                 }
                 else{
                     if (throttledelay > 0) throttledelay--;   //do not go under 0
-                    log.WriteLog("no throttle cycle load = " + load + " ,clk = " + pwr + " ,throttledelay = " + throttledelay);
+                    log.WriteLog("no throttle cycle load = " + load + " ,clk = " + currpwr + " ,throttledelay = " + throttledelay);
                 }
 
                 /*
@@ -351,6 +388,7 @@ namespace ThrottleSchedulerService
                     /*
                      * get avg.
                      * heavily modified simpler version of exponential moving average(EMA)
+                     * -designed to be more favorable towards higher load for avg
                      */
                     float favg = throttle_acc[0];
                     float lsum = 0.0f;
@@ -365,12 +403,12 @@ namespace ThrottleSchedulerService
                     int medload = (int)throttle_acc[throttle_acc.Count() / 2];
                     if (medload < avg)
                     {
-                        log.WriteLog("using EMA...");
                         medload = avg;   //overwrite; medload is final
+                        log.WriteLog("using EMA..." + medload);
                     }
                     else
                     {
-                        log.WriteLog("using median...");
+                        log.WriteLog("using median..." + medload);
                     }
 
                     //throttleMode notifier:
@@ -435,6 +473,107 @@ namespace ThrottleSchedulerService
 
             }
             catch (Exception) { //config file bug
+                //log.WriteErr("config file is broken");
+
+            }
+
+            sm.IPClocked = false;
+            return false;   //this will never reach
+        }
+
+        //copy of throttlecheck
+        public bool isViableForResurrect(SettingsManager sm, TweakerController ts)
+        {
+            sm.IPClocked = true;
+
+            try
+            {
+                /*
+                 * resurrect:
+                 * 1. needs to check long enough
+                 * 2. accumulate average load
+                 * 3. use temp instead of clockspeed(pwr)
+                 * 
+                 * use thermal_median for limit, use newlist_cycle_delay for check
+                 */
+
+                //<string, int>
+                int high = (int)sm.processor_guid_tweak.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
+                int load = getLoad();
+                int currtemp = getTemp();
+                int limit = (int)sm.thermal_median.configList["thermal_median"];
+                int temp2 = (int)sm.throttle_median.configList["throttle_median"];
+
+                if (load > high && currtemp < limit)
+                {
+
+                    log.WriteLog("load accumulated for resur: " + load + " temperature:" + currtemp);
+                    sm.startResurSync();
+
+                    //accumulate
+                    resur_acc.Add(load);
+                }
+
+                if (sm.checkResurSync())
+                {
+                    sm.resurrectMode = 0;
+
+                    //sort to ascending order
+                    resur_acc.Sort();
+                    /*
+                     * get avg.
+                     * heavily modified simpler version of exponential moving average(EMA)
+                     * -designed to be more favorable towards higher load for avg
+                     */
+                    float favg = resur_acc[0];
+                    float lsum = 0.0f;
+                    for (int i = 1; i < resur_acc.Count(); i++)
+                    {
+                        float next = resur_acc[i];
+                        lsum = next + favg + 1.0f;   //prevent divbyzero
+                        favg = favg * (favg / lsum) + next * (next / lsum);
+                    }
+                    int avg = (int)favg;    //int version
+                    //get median for more accurate load on series of linear loads
+                    int medload = (int)resur_acc[resur_acc.Count() / 2];
+                    if (medload < avg)
+                    {
+                        medload = avg;   //overwrite; medload is final
+                        log.WriteLog("using EMA..." + medload);
+                    }
+                    else
+                    {
+                        log.WriteLog("using median..." + medload);
+                    }
+
+
+                    if (medload > temp2)
+                    {
+                        sm.resurrectMode = 1;
+                        log.WriteLog("resurrection activated + 1(better cpu)");    
+                    }
+                    else {
+                        sm.resurrectMode = 2;
+                        log.WriteLog("resurrection activated - 1(better gpu)");
+                    }
+                    
+                    
+                    //clear
+                    resur_acc.Clear();
+
+                    sm.IPClocked = false;
+                    
+                    //do sth
+                    return true;
+                }
+
+                sm.IPClocked = false;
+                //skip for now
+                return false;
+
+            }
+            catch (Exception)
+            { //config file bug
                 //log.WriteErr("config file is broken");
 
             }

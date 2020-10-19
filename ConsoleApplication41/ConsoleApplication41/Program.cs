@@ -52,6 +52,9 @@ namespace ThrottleSchedulerService
             stopwatch.Stop();
             double interval = msec - stopwatch.ElapsedMilliseconds;
 
+            //aritificial ignore limit
+            if (acc_interval > 5000.0) acc_interval = 0.0;
+
             if (acc_interval > 0.0) {
                 interval -= acc_interval;
                 if (interval < 0.1) interval = 0.1;

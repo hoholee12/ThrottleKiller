@@ -32,6 +32,7 @@ namespace ThrottleSchedulerService
         public SettingsToken generatedXTU;
         public SettingsToken throttle_median;
         public SettingsToken newlist_median;
+        public SettingsToken thermal_median;
         public SettingsToken gpuplan;
 
         //BASE DIRECTORY
@@ -59,6 +60,12 @@ namespace ThrottleSchedulerService
         public int new_target_msec = 0;
         public bool newlistSync { get; set; }   //newlist delay sync
 
+        //for resur_target(use newlist settings)
+        public int resur_acc_msec = 0;
+        public int resur_target_msec = 0;
+        public bool resurSync { get; set; }   //resurrection delay sync
+
+
 
         //=======================================================================
 
@@ -73,6 +80,7 @@ namespace ThrottleSchedulerService
                 target_msec = int.Parse(loop_delay.configList["loop_delay"].ToString()) * 1000;
                 bc_target_msec = int.Parse(boost_cycle_delay.configList["boost_cycle_delay"].ToString()) * 1000;
                 new_target_msec = int.Parse(newlist_cycle_delay.configList["newlist_cycle_delay"].ToString()) * 1000;
+                resur_target_msec = int.Parse(newlist_cycle_delay.configList["newlist_cycle_delay"].ToString()) * 1000;
             }
             catch (Exception) {
                 log.WriteErr("config file bug");
@@ -126,6 +134,31 @@ namespace ThrottleSchedulerService
         }
         //to state 1
         public void resetNewlistSync() { newlistSync = false; new_acc_msec = 0; }
+
+        public void startResurSync()
+        {
+            //state1 to state2
+            if (!resurSync && resur_acc_msec == 0)
+            {
+                resurSync = true;
+            }
+        }
+        public bool checkResurSync()
+        {
+            //state4 to state1
+            if (resurSync && resur_acc_msec != 0)
+            {
+                resur_acc_msec = 0;
+                resurSync = false;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        //to state 1
+        public void resetResurSync() { resurSync = false; resur_acc_msec = 0; }
 
         public void updateTimeSync() {
             try
@@ -216,6 +249,33 @@ namespace ThrottleSchedulerService
                     }
                 }
 
+                //resur timer - copy of throttle timer
+                /* states:
+                 * bleh
+                 */
+
+                //state 2
+                if (resurSync && resur_acc_msec == 0)
+                {
+                    log.WriteLog("start of resurrection timer");
+                    resurSync = false;
+                    resur_acc_msec += base_msec;
+                }
+                //state 3
+                else if (!resurSync && resur_acc_msec != 0)
+                {
+                    if (resur_acc_msec % resur_target_msec == 0)
+                    {
+                        log.WriteLog("time to sync for resurrection");
+                        resurSync = true;
+                        resur_target_msec = int.Parse(newlist_cycle_delay.configList["newlist_cycle_delay"].ToString()) * 1000;
+                    }
+                    else
+                    {
+                        resur_acc_msec += base_msec;
+                    }
+                }
+
             }
             catch (Exception) {
                 log.WriteErr("config file bug");
@@ -232,12 +292,19 @@ namespace ThrottleSchedulerService
         /*
          * sm.throttleMode:
          * 0 -> nein
-         * 1 -> cpu(cpu usage under 80)
-         * 2 -> gpu(cpu usage over 80)
+         * 1 -> cpu(cpu usage under throttlemedian)
+         * 2 -> gpu(cpu usage over throttlemedian)
          * cpu is more important than gpu
          */
         public int throttleMode { get; set; }
 
+        /*
+         * sm.resurrectMode:
+         * 0 -> nein
+         * 1 -> switch to cpu higher profile
+         * 2 -> switch to gpu higher profile
+         */
+        public int resurrectMode { get; set; }
 
         //batch checkfiles
         public void batchCheckFiles()
@@ -256,6 +323,7 @@ namespace ThrottleSchedulerService
             generatedXTU.checkFiles();
             throttle_median.checkFiles();
             newlist_median.checkFiles();
+            thermal_median.checkFiles();
             gpuplan.checkFiles();
         }
 
@@ -274,6 +342,7 @@ namespace ThrottleSchedulerService
             generatedXTU.resetFiles();
             throttle_median.resetFiles();
             newlist_median.resetFiles();
+            thermal_median.resetFiles();
             gpuplan.resetFiles();
         }
 
@@ -296,6 +365,7 @@ namespace ThrottleSchedulerService
             generatedXTU = new SettingsToken(log);
             throttle_median = new SettingsToken(log);
             newlist_median = new SettingsToken(log);
+            thermal_median = new SettingsToken(log);
             gpuplan = new SettingsToken(log);
             
             
@@ -313,6 +383,7 @@ namespace ThrottleSchedulerService
             generatedXTU.setPath(path);
             throttle_median.setPath(path);
             newlist_median.setPath(path);
+            thermal_median.setPath(path);
             gpuplan.setPath(path);
 
             special_programs.setName("special_programs");
@@ -322,12 +393,13 @@ namespace ThrottleSchedulerService
             loop_delay.setName("loop_delay");
             boost_cycle_delay.setName("boost_cycle_delay");
             newlist_cycle_delay.setName("newlist_cycle_delay");
-            //ac_offset.setName("//ac_offset");
+            //ac_offset.setName("ac_offset");
             processor_guid_tweak.setName("processor_guid_tweak");
             generatedCLK.setName("generatedCLK");
             generatedXTU.setName("generatedXTU");
             throttle_median.setName("throttle_median");
             newlist_median.setName("newlist_median");
+            thermal_median.setName("thermal_median");
             gpuplan.setName("gpuplan");
 
             //initialize contents
@@ -391,6 +463,7 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             generatedXTU.setContent("");
             throttle_median.setContent(@"throttle_median = 60       # high threshold 30 x 2");
             newlist_median.setContent(@"newlist_median = 50");
+            thermal_median.setContent(@"thermal_median = 90");
             gpuplan.setContent(@"gpuplan = 1");
 
             //set key value pair type
@@ -420,6 +493,8 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             throttle_median.Tval = typeof(int);
             newlist_median.Tkey = typeof(string);
             newlist_median.Tval = typeof(int);
+            thermal_median.Tkey = typeof(string);
+            thermal_median.Tval = typeof(int);
             gpuplan.Tkey = typeof(string);
             gpuplan.Tval = typeof(int);
 
@@ -441,6 +516,7 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             generatedXTU.setLastModifiedTime(File.GetLastWriteTime(generatedXTU.getFullName()).Ticks);
             throttle_median.setLastModifiedTime(File.GetLastWriteTime(throttle_median.getFullName()).Ticks);
             newlist_median.setLastModifiedTime(File.GetLastWriteTime(newlist_median.getFullName()).Ticks);
+            thermal_median.setLastModifiedTime(File.GetLastWriteTime(thermal_median.getFullName()).Ticks);
             gpuplan.setLastModifiedTime(File.GetLastWriteTime(gpuplan.getFullName()).Ticks);
         }
         

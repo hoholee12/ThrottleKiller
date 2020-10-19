@@ -286,6 +286,23 @@ namespace ThrottleSchedulerService
             return temp;
         }
 
+        public string checkNameInList(Process proc, SettingsManager sm) {
+            sm.IPClocked = true;
+
+            string temp = proc.ProcessName;
+
+            foreach (string name in sm.special_programs.configList.Keys) {
+                if (proc.ProcessName.ToLower().Contains(name.ToLower()))
+                {
+                    temp = name;
+                    break;
+                }
+            }
+
+            sm.IPClocked = false;
+            return temp;
+        }
+
 
         //apply nice per process
         public void setProcNice(Process proc, SettingsManager sm) {
@@ -381,6 +398,7 @@ namespace ThrottleSchedulerService
             //start looping from 100 down to 0
             int x = 0;
             for(int i = 100; i >= 0; i--){
+                tc.resettick();
                 runpowercfg("/setdcvalueindex " + powerplan + " " + processor + " " + procsubh + " " + i);
                 runpowercfg("/setacvalueindex " + powerplan + " " + processor + " " + procsubh + " " + i);
                 runpowercfg("/setdcvalueindex " + powerplan + " " + processor + " " + procsubl + " " + i);

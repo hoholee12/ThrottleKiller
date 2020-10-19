@@ -1,7 +1,7 @@
 explorer = 0
 
 @append
+pcsx2 = 2
 devenv = 5
-ConsoleApplication41 = 5
+devenv = 4
 pcsx2 = 1
-cmd = 5

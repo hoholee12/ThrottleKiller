@@ -81,21 +81,21 @@ namespace ThrottleSchedulerService
         ///////////////////////////////////////////for client
         public string getSysInfo() {
             while (settings.IPClocked) Thread.Sleep(100);
-            return log.WriteLog("pwr " + checker.getPWR() + " load " + checker.getLoad() + " temp " + checker.getTemp()
+            return "pwr " + checker.getPWR() + " load " + checker.getLoad() + " temp " + checker.getTemp()
                 + " throttleMode " + settings.throttleMode.ToString() + " wrong " + controller.wrong.ToString()
-                + " turbopwr " + checker.getTurboPWR());
+                + " turbopwr " + checker.getTurboPWR();
         }
         public string reset() {
             while (settings.IPClocked) Thread.Sleep(100);
             settings.generatedCLK.resetFiles();
             settings.generatedXTU.resetFiles();
             settings.special_programs.resetFiles();
-            return "clklist_reset.";
+            return log.WriteLog("clklist_reset.");
         }
         public string shutdown() {
             //while (settings.IPClocked) Thread.Sleep(100);
             shutdownval = true;
-            return "shutting_down.";
+            return log.WriteLog("shutting_down.");
         }
         ///////////////////////////////////////////for client
         //start main loop
@@ -107,6 +107,9 @@ namespace ThrottleSchedulerService
             //internal sync
             if (settings.timeSync)
             {
+                checker.resettick();
+
+
                 //1. check config
                 controller.generateCLKlist(settings, checker);  //before batchCheck
                 settings.batchCheckFiles();   //no need to save io here
@@ -179,6 +182,22 @@ namespace ThrottleSchedulerService
 
                                 break;
                         
+                        }
+
+                    }
+                    if (checker.isViableForResurrect(settings, controller)) {
+                        int mode = settings.resurrectMode;
+                        settings.resurrectMode = 0;
+
+                        string name = controller.checkNameInList(currfg, settings);
+                        switch (mode) {
+                            case 0: break;
+                            case 1:
+                                if (currprof > 0) settings.special_programs.appendChanges(name, currprof - 1);
+                                break;
+                            case 2:
+                                if (currprof < checker.sortedCLKlist(settings).Count()) settings.special_programs.appendChanges(name, currprof + 1);
+                                break;
                         }
 
                     }
