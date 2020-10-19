@@ -73,6 +73,9 @@ namespace ThrottleSchedulerService
 
         public void initflow() {
             controller.initPowerCFG(settings);
+
+            //init value counters            
+            log.WriteLog("init value counters: maxpwr = " + checker.getMaxPWR() + ", turbopwr = " + checker.getTurboPWR());
         }
 
         ///////////////////////////////////////////for client

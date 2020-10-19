@@ -1320,3 +1320,1120 @@
 2020-10-19(월) 오후 10:30:12: prev_interval = 0 system elapsed time = 0, service timer interval = 887.9
 2020-10-19(월) 오후 10:30:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
 2020-10-19(월) 오후 10:30:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:33:24: waiting for input...
+2020-10-19(월) 오후 10:33:25: prev_interval = 0 system elapsed time = 1, service timer interval = 999
+2020-10-19(월) 오후 10:33:31: prev_interval = 4335 system elapsed time = 5335, service timer interval = 0.1
+2020-10-19(월) 오후 10:33:31: prev_interval = 3335.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:33:31: prev_interval = 2335.2 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:33:31: prev_interval = 1335.3 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:33:31: prev_interval = 335.4 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:33:33: prev_interval = -664.5 system elapsed time = 2093, service timer interval = 0.1
+2020-10-19(월) 오후 10:33:33: prev_interval = -664.5 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:33:34: prev_interval = -664.5 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:33:35: prev_interval = -664.5 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:33:36: prev_interval = -664.5 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:33:40: prev_interval = 1095 system elapsed time = 2095, service timer interval = 0.1
+2020-10-19(월) 오후 10:33:40: prev_interval = 95.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:33:40: prev_interval = 0 system elapsed time = 0, service timer interval = 904.9
+2020-10-19(월) 오후 10:33:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:33:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:33:45: prev_interval = 1098 system elapsed time = 2098, service timer interval = 0.1
+2020-10-19(월) 오후 10:33:45: prev_interval = 98.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:33:45: prev_interval = 0 system elapsed time = 0, service timer interval = 901.9
+2020-10-19(월) 오후 10:33:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:33:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:33:50: prev_interval = 1077 system elapsed time = 2077, service timer interval = 0.1
+2020-10-19(월) 오후 10:33:50: prev_interval = 77.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:33:50: prev_interval = 0 system elapsed time = 0, service timer interval = 922.9
+2020-10-19(월) 오후 10:33:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:33:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:00: prev_interval = 6222 system elapsed time = 7222, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:00: prev_interval = 5222.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:00: prev_interval = 4222.2 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:00: prev_interval = 3222.3 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:00: prev_interval = 2222.4 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:02: prev_interval = 1222.5 system elapsed time = 2119, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:02: prev_interval = 222.6 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:02: prev_interval = 0 system elapsed time = 0, service timer interval = 777.4
+2020-10-19(월) 오후 10:34:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:07: prev_interval = 1118 system elapsed time = 2118, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:07: prev_interval = 118.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:07: prev_interval = 0 system elapsed time = 0, service timer interval = 881.9
+2020-10-19(월) 오후 10:34:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:12: prev_interval = 1114 system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:12: prev_interval = 114.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:12: prev_interval = 0 system elapsed time = 0, service timer interval = 885.9
+2020-10-19(월) 오후 10:34:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:20: prev_interval = 3919 system elapsed time = 4919, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:20: prev_interval = 2919.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:20: prev_interval = 1919.2 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:20: prev_interval = 919.3 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:20: prev_interval = 0 system elapsed time = 0, service timer interval = 80.7000000000002
+2020-10-19(월) 오후 10:34:22: prev_interval = 1080 system elapsed time = 2080, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:22: prev_interval = 80.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:22: prev_interval = 0 system elapsed time = 0, service timer interval = 919.9
+2020-10-19(월) 오후 10:34:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:27: prev_interval = 1084 system elapsed time = 2084, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:27: prev_interval = 84.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:27: prev_interval = 0 system elapsed time = 0, service timer interval = 915.9
+2020-10-19(월) 오후 10:34:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:32: prev_interval = 1080 system elapsed time = 2080, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:32: prev_interval = 80.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:32: prev_interval = 0 system elapsed time = 0, service timer interval = 919.9
+2020-10-19(월) 오후 10:34:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:34: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:37: prev_interval = 1085 system elapsed time = 2085, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:37: prev_interval = 85.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:37: prev_interval = 0 system elapsed time = 0, service timer interval = 914.9
+2020-10-19(월) 오후 10:34:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:42: prev_interval = 1083 system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:42: prev_interval = 83.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:42: prev_interval = 0 system elapsed time = 0, service timer interval = 916.9
+2020-10-19(월) 오후 10:34:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:47: prev_interval = 1084 system elapsed time = 2084, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:47: prev_interval = 84.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:47: prev_interval = 0 system elapsed time = 0, service timer interval = 915.9
+2020-10-19(월) 오후 10:34:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:53: prev_interval = 1095 system elapsed time = 2095, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:53: prev_interval = 95.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:53: prev_interval = 0 system elapsed time = 0, service timer interval = 904.9
+2020-10-19(월) 오후 10:34:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:58: prev_interval = 1086 system elapsed time = 2086, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:58: prev_interval = 86.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:34:58: prev_interval = 0 system elapsed time = 0, service timer interval = 913.9
+2020-10-19(월) 오후 10:34:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:34:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:03: prev_interval = 1083 system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:03: prev_interval = 83.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:03: prev_interval = 0 system elapsed time = 0, service timer interval = 916.9
+2020-10-19(월) 오후 10:35:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:05: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:08: prev_interval = 1082 system elapsed time = 2082, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:08: prev_interval = 82.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:08: prev_interval = 0 system elapsed time = 0, service timer interval = 917.9
+2020-10-19(월) 오후 10:35:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:13: prev_interval = 1085 system elapsed time = 2085, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:13: prev_interval = 85.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:13: prev_interval = 0 system elapsed time = 0, service timer interval = 914.9
+2020-10-19(월) 오후 10:35:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:18: prev_interval = 1083 system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:18: prev_interval = 83.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:18: prev_interval = 0 system elapsed time = 0, service timer interval = 916.9
+2020-10-19(월) 오후 10:35:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:23: prev_interval = 1083 system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:23: prev_interval = 83.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:23: prev_interval = 0 system elapsed time = 0, service timer interval = 916.9
+2020-10-19(월) 오후 10:35:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:28: prev_interval = 1083 system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:28: prev_interval = 83.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:28: prev_interval = 0 system elapsed time = 0, service timer interval = 916.9
+2020-10-19(월) 오후 10:35:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:38: prev_interval = 6004 system elapsed time = 7004, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:38: prev_interval = 5004.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:38: prev_interval = 4004.2 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:38: prev_interval = 3004.3 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:38: prev_interval = 2004.4 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:40: prev_interval = 1004.5 system elapsed time = 2125, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:40: prev_interval = 4.60000000000014 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:40: prev_interval = 0 system elapsed time = 0, service timer interval = 995.4
+2020-10-19(월) 오후 10:35:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:45: prev_interval = 1123 system elapsed time = 2123, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:45: prev_interval = 123.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:45: prev_interval = 0 system elapsed time = 0, service timer interval = 876.9
+2020-10-19(월) 오후 10:35:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:50: prev_interval = 1139 system elapsed time = 2139, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:50: prev_interval = 139.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:50: prev_interval = 0 system elapsed time = 0, service timer interval = 860.9
+2020-10-19(월) 오후 10:35:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:55: prev_interval = 1154 system elapsed time = 2154, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:55: prev_interval = 154.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:35:55: prev_interval = 0 system elapsed time = 0, service timer interval = 845.9
+2020-10-19(월) 오후 10:35:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:35:57: UI App requests: sysinfo
+2020-10-19(월) 오후 10:35:57: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:00: prev_interval = 1128 system elapsed time = 2128, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:00: prev_interval = 128.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:00: prev_interval = 0 system elapsed time = 0, service timer interval = 871.9
+2020-10-19(월) 오후 10:36:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:02: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:05: prev_interval = 1114 system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:05: prev_interval = 114.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:05: prev_interval = 0 system elapsed time = 0, service timer interval = 885.9
+2020-10-19(월) 오후 10:36:06: sending output: pwr 1800 load 17 temp 57 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:36:06: waiting for input...
+2020-10-19(월) 오후 10:36:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:07: UI App requests: sysinfo
+2020-10-19(월) 오후 10:36:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:09: sending output: pwr 1800 load 5 temp 54 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:36:09: waiting for input...
+2020-10-19(월) 오후 10:36:10: UI App requests: sysinfo
+2020-10-19(월) 오후 10:36:11: prev_interval = 1116 system elapsed time = 2116, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:11: prev_interval = 116.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:11: prev_interval = 0 system elapsed time = 0, service timer interval = 883.9
+2020-10-19(월) 오후 10:36:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:13: sending output: pwr 1800 load 3 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:36:13: waiting for input...
+2020-10-19(월) 오후 10:36:14: UI App requests: sysinfo
+2020-10-19(월) 오후 10:36:16: prev_interval = 1119 system elapsed time = 2119, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:16: prev_interval = 119.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:16: prev_interval = 0 system elapsed time = 0, service timer interval = 880.9
+2020-10-19(월) 오후 10:36:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:18: sending output: pwr 1800 load 6 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:36:18: waiting for input...
+2020-10-19(월) 오후 10:36:19: UI App requests: sysinfo
+2020-10-19(월) 오후 10:36:21: prev_interval = 1109 system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:21: prev_interval = 109.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:21: prev_interval = 0 system elapsed time = 0, service timer interval = 890.9
+2020-10-19(월) 오후 10:36:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:23: sending output: pwr 1800 load 4 temp 51 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:36:23: waiting for input...
+2020-10-19(월) 오후 10:36:24: UI App requests: sysinfo
+2020-10-19(월) 오후 10:36:26: prev_interval = 1115 system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:26: prev_interval = 115.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:26: prev_interval = 0 system elapsed time = 0, service timer interval = 884.9
+2020-10-19(월) 오후 10:36:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:28: sending output: pwr 1800 load 6 temp 49 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:36:28: waiting for input...
+2020-10-19(월) 오후 10:36:29: UI App requests: sysinfo
+2020-10-19(월) 오후 10:36:31: prev_interval = 1113 system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:31: prev_interval = 113.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:31: prev_interval = 0 system elapsed time = 0, service timer interval = 886.9
+2020-10-19(월) 오후 10:36:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:33: sending output: pwr 1800 load 3 temp 50 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:36:33: waiting for input...
+2020-10-19(월) 오후 10:36:34: UI App requests: sysinfo
+2020-10-19(월) 오후 10:36:36: prev_interval = 1116 system elapsed time = 2116, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:36: prev_interval = 116.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:36: prev_interval = 0 system elapsed time = 0, service timer interval = 883.9
+2020-10-19(월) 오후 10:36:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:38: sending output: pwr 1800 load 5 temp 49 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:36:38: waiting for input...
+2020-10-19(월) 오후 10:36:39: UI App requests: sysinfo
+2020-10-19(월) 오후 10:36:41: prev_interval = 1103 system elapsed time = 2103, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:41: prev_interval = 103.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:41: prev_interval = 0 system elapsed time = 0, service timer interval = 896.9
+2020-10-19(월) 오후 10:36:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:43: sending output: pwr 1800 load 5 temp 49 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:36:43: waiting for input...
+2020-10-19(월) 오후 10:36:44: UI App requests: sysinfo
+2020-10-19(월) 오후 10:36:46: prev_interval = 1107 system elapsed time = 2107, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:46: prev_interval = 107.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:46: prev_interval = 0 system elapsed time = 0, service timer interval = 892.9
+2020-10-19(월) 오후 10:36:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:48: sending output: pwr 1800 load 0 temp 48 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:36:48: waiting for input...
+2020-10-19(월) 오후 10:36:49: UI App requests: sysinfo
+2020-10-19(월) 오후 10:36:51: prev_interval = 1103 system elapsed time = 2103, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:51: prev_interval = 103.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:51: prev_interval = 0 system elapsed time = 0, service timer interval = 896.9
+2020-10-19(월) 오후 10:36:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:53: sending output: pwr 1800 load 5 temp 50 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:36:53: waiting for input...
+2020-10-19(월) 오후 10:36:54: UI App requests: sysinfo
+2020-10-19(월) 오후 10:36:56: prev_interval = 1118 system elapsed time = 2118, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:56: prev_interval = 118.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:36:56: prev_interval = 0 system elapsed time = 0, service timer interval = 881.9
+2020-10-19(월) 오후 10:36:57: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:36:58: sending output: pwr 1800 load 5 temp 49 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:36:58: waiting for input...
+2020-10-19(월) 오후 10:36:59: UI App requests: sysinfo
+2020-10-19(월) 오후 10:37:01: prev_interval = 1109 system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:01: prev_interval = 109.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:01: prev_interval = 0 system elapsed time = 0, service timer interval = 890.9
+2020-10-19(월) 오후 10:37:02: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:03: sending output: pwr 1800 load 11 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:37:03: waiting for input...
+2020-10-19(월) 오후 10:37:04: UI App requests: sysinfo
+2020-10-19(월) 오후 10:37:06: prev_interval = 1137 system elapsed time = 2137, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:06: prev_interval = 137.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:06: prev_interval = 0 system elapsed time = 0, service timer interval = 862.9
+2020-10-19(월) 오후 10:37:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:08: sending output: pwr 1800 load 9 temp 50 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:37:08: waiting for input...
+2020-10-19(월) 오후 10:37:09: UI App requests: sysinfo
+2020-10-19(월) 오후 10:37:11: prev_interval = 1188 system elapsed time = 2188, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:11: prev_interval = 188.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:11: prev_interval = 0 system elapsed time = 0, service timer interval = 811.9
+2020-10-19(월) 오후 10:37:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:14: sending output: pwr 1800 load 10 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:37:14: waiting for input...
+2020-10-19(월) 오후 10:37:15: UI App requests: sysinfo
+2020-10-19(월) 오후 10:37:16: prev_interval = 1111 system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:16: prev_interval = 111.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:16: prev_interval = 0 system elapsed time = 0, service timer interval = 888.9
+2020-10-19(월) 오후 10:37:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:18: sending output: pwr 1800 load 6 temp 54 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:37:18: waiting for input...
+2020-10-19(월) 오후 10:37:19: UI App requests: sysinfo
+2020-10-19(월) 오후 10:37:21: prev_interval = 1108 system elapsed time = 2108, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:21: prev_interval = 108.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:21: prev_interval = 0 system elapsed time = 0, service timer interval = 891.9
+2020-10-19(월) 오후 10:37:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:24: sending output: pwr 1800 load 8 temp 51 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:37:24: waiting for input...
+2020-10-19(월) 오후 10:37:25: UI App requests: sysinfo
+2020-10-19(월) 오후 10:37:26: prev_interval = 1126 system elapsed time = 2126, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:26: prev_interval = 126.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:26: prev_interval = 0 system elapsed time = 0, service timer interval = 873.9
+2020-10-19(월) 오후 10:37:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:29: sending output: pwr 1800 load 5 temp 50 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:37:29: waiting for input...
+2020-10-19(월) 오후 10:37:30: UI App requests: sysinfo
+2020-10-19(월) 오후 10:37:32: sending output: pwr 2701 load 37 temp 59 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:37:32: waiting for input...
+2020-10-19(월) 오후 10:37:33: UI App requests: sysinfo
+2020-10-19(월) 오후 10:37:34: prev_interval = 3880 system elapsed time = 4880, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:34: prev_interval = 2880.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:34: prev_interval = 1880.2 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:34: prev_interval = 880.3 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:34: prev_interval = 0 system elapsed time = 0, service timer interval = 119.7
+2020-10-19(월) 오후 10:37:36: sending output: pwr 2701 load 26 temp 58 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:37:36: waiting for input...
+2020-10-19(월) 오후 10:37:37: UI App requests: sysinfo
+2020-10-19(월) 오후 10:37:40: sending output: pwr 1800 load 27 temp 53 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:37:40: waiting for input...
+2020-10-19(월) 오후 10:37:41: UI App requests: sysinfo
+2020-10-19(월) 오후 10:37:41: prev_interval = 5608 system elapsed time = 6608, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:41: prev_interval = 4608.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:41: prev_interval = 3608.2 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:41: prev_interval = 2608.3 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:41: prev_interval = 1608.4 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:43: sending output: pwr 1800 load 7 temp 56 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:37:43: waiting for input...
+2020-10-19(월) 오후 10:37:43: prev_interval = 608.5 system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:43: prev_interval = 0 system elapsed time = 0, service timer interval = 391.5
+2020-10-19(월) 오후 10:37:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:44: UI App requests: sysinfo
+2020-10-19(월) 오후 10:37:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:46: sending output: pwr 1800 load 3 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:37:46: waiting for input...
+2020-10-19(월) 오후 10:37:47: UI App requests: sysinfo
+2020-10-19(월) 오후 10:37:49: prev_interval = 1106 system elapsed time = 2106, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:49: prev_interval = 106.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:49: prev_interval = 0 system elapsed time = 0, service timer interval = 893.9
+2020-10-19(월) 오후 10:37:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:51: sending output: pwr 1800 load 5 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:37:51: waiting for input...
+2020-10-19(월) 오후 10:37:52: UI App requests: sysinfo
+2020-10-19(월) 오후 10:37:54: prev_interval = 1114 system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:54: prev_interval = 114.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:54: prev_interval = 0 system elapsed time = 0, service timer interval = 885.9
+2020-10-19(월) 오후 10:37:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:37:56: sending output: pwr 1800 load 14 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:37:56: waiting for input...
+2020-10-19(월) 오후 10:37:57: UI App requests: sysinfo
+2020-10-19(월) 오후 10:37:59: prev_interval = 1130 system elapsed time = 2130, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:59: prev_interval = 130.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:37:59: prev_interval = 0 system elapsed time = 0, service timer interval = 869.9
+2020-10-19(월) 오후 10:38:00: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:38:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:38:01: sending output: pwr 1800 load 6 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:38:01: waiting for input...
+2020-10-19(월) 오후 10:38:02: UI App requests: sysinfo
+2020-10-19(월) 오후 10:38:04: prev_interval = 1109 system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 10:38:04: prev_interval = 109.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:38:04: prev_interval = 0 system elapsed time = 0, service timer interval = 890.9
+2020-10-19(월) 오후 10:38:05: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:38:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:38:06: sending output: pwr 1800 load 5 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:38:06: waiting for input...
+2020-10-19(월) 오후 10:38:07: UI App requests: sysinfo
+2020-10-19(월) 오후 10:38:09: prev_interval = 1106 system elapsed time = 2106, service timer interval = 0.1
+2020-10-19(월) 오후 10:38:09: prev_interval = 106.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:38:09: prev_interval = 0 system elapsed time = 0, service timer interval = 893.9
+2020-10-19(월) 오후 10:38:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:38:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:38:11: sending output: pwr 1800 load 1 temp 49 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:38:11: waiting for input...
+2020-10-19(월) 오후 10:38:12: UI App requests: sysinfo
+2020-10-19(월) 오후 10:38:14: prev_interval = 1114 system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 10:38:14: prev_interval = 114.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:38:14: prev_interval = 0 system elapsed time = 0, service timer interval = 885.9
+2020-10-19(월) 오후 10:38:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:38:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:38:16: sending output: pwr 1800 load 4 temp 49 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:38:16: waiting for input...
+2020-10-19(월) 오후 10:38:17: UI App requests: sysinfo
+2020-10-19(월) 오후 10:38:19: prev_interval = 1115 system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 10:38:19: prev_interval = 115.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:38:19: prev_interval = 0 system elapsed time = 0, service timer interval = 884.9
+2020-10-19(월) 오후 10:38:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:38:21: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:38:21: sending output: pwr 1800 load 3 temp 49 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:38:21: waiting for input...
+2020-10-19(월) 오후 10:38:22: UI App requests: sysinfo
+2020-10-19(월) 오후 10:38:24: prev_interval = 1130 system elapsed time = 2130, service timer interval = 0.1
+2020-10-19(월) 오후 10:38:24: prev_interval = 130.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:38:24: prev_interval = 0 system elapsed time = 0, service timer interval = 869.9
+2020-10-19(월) 오후 10:38:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:38:26: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:38:26: sending output: pwr 1800 load 4 temp 48 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:38:26: waiting for input...
+2020-10-19(월) 오후 10:38:27: UI App requests: sysinfo
+2020-10-19(월) 오후 10:38:29: prev_interval = 1121 system elapsed time = 2121, service timer interval = 0.1
+2020-10-19(월) 오후 10:38:29: prev_interval = 121.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:38:29: prev_interval = 0 system elapsed time = 0, service timer interval = 878.9
+2020-10-19(월) 오후 10:38:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:38:31: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:38:31: sending output: pwr 1800 load 3 temp 50 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:38:31: waiting for input...
+2020-10-19(월) 오후 10:38:32: UI App requests: sysinfo
+2020-10-19(월) 오후 10:38:51: waiting for input...
+2020-10-19(월) 오후 10:38:51: UI App requests: sysinfo
+2020-10-19(월) 오후 10:38:52: prev_interval = 0 system elapsed time = 1, service timer interval = 999
+2020-10-19(월) 오후 10:38:58: prev_interval = 4024 system elapsed time = 5024, service timer interval = 0.1
+2020-10-19(월) 오후 10:38:58: prev_interval = 3024.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:38:58: prev_interval = 2024.2 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:38:58: prev_interval = 1024.3 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:38:58: prev_interval = 24.3999999999998 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:00: sending output: pwr 2701 load 20 temp 65 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:39:00: waiting for input...
+2020-10-19(월) 오후 10:39:01: UI App requests: sysinfo
+2020-10-19(월) 오후 10:39:04: sending output: pwr 1800 load 24 temp 58 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:39:04: waiting for input...
+2020-10-19(월) 오후 10:39:05: UI App requests: sysinfo
+2020-10-19(월) 오후 10:39:05: prev_interval = -975.5 system elapsed time = 7010, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:05: prev_interval = -975.5 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:06: prev_interval = -975.5 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:07: prev_interval = -975.5 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:07: sending output: pwr 1800 load 3 temp 55 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:39:07: waiting for input...
+2020-10-19(월) 오후 10:39:08: prev_interval = -975.5 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:08: UI App requests: sysinfo
+2020-10-19(월) 오후 10:39:10: sending output: pwr 1800 load 5 temp 53 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:39:10: waiting for input...
+2020-10-19(월) 오후 10:39:11: prev_interval = 1115 system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:11: prev_interval = 115.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:11: prev_interval = 0 system elapsed time = 0, service timer interval = 884.9
+2020-10-19(월) 오후 10:39:11: UI App requests: sysinfo
+2020-10-19(월) 오후 10:39:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:13: sending output: pwr 1800 load 8 temp 56 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:39:13: waiting for input...
+2020-10-19(월) 오후 10:39:14: UI App requests: sysinfo
+2020-10-19(월) 오후 10:39:16: prev_interval = 1113 system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:16: prev_interval = 113.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:16: prev_interval = 0 system elapsed time = 0, service timer interval = 886.9
+2020-10-19(월) 오후 10:39:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:18: sending output: pwr 1800 load 8 temp 53 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:39:18: waiting for input...
+2020-10-19(월) 오후 10:39:19: UI App requests: sysinfo
+2020-10-19(월) 오후 10:39:21: prev_interval = 1115 system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:21: prev_interval = 115.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:21: prev_interval = 0 system elapsed time = 0, service timer interval = 884.9
+2020-10-19(월) 오후 10:39:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:23: sending output: pwr 1800 load 12 temp 53 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:39:23: waiting for input...
+2020-10-19(월) 오후 10:39:24: UI App requests: sysinfo
+2020-10-19(월) 오후 10:39:26: prev_interval = 1110 system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:26: prev_interval = 110.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:26: prev_interval = 0 system elapsed time = 0, service timer interval = 889.9
+2020-10-19(월) 오후 10:39:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:28: sending output: pwr 1800 load 10 temp 57 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:39:28: waiting for input...
+2020-10-19(월) 오후 10:39:29: UI App requests: sysinfo
+2020-10-19(월) 오후 10:39:31: prev_interval = 1107 system elapsed time = 2107, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:31: prev_interval = 107.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:31: prev_interval = 0 system elapsed time = 0, service timer interval = 892.9
+2020-10-19(월) 오후 10:39:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:33: sending output: pwr 1800 load 8 temp 53 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:39:33: waiting for input...
+2020-10-19(월) 오후 10:39:34: UI App requests: sysinfo
+2020-10-19(월) 오후 10:39:36: prev_interval = 1126 system elapsed time = 2126, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:36: prev_interval = 126.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:36: prev_interval = 0 system elapsed time = 0, service timer interval = 873.9
+2020-10-19(월) 오후 10:39:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:38: sending output: pwr 1800 load 13 temp 53 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:39:38: waiting for input...
+2020-10-19(월) 오후 10:39:39: UI App requests: sysinfo
+2020-10-19(월) 오후 10:39:41: prev_interval = 1135 system elapsed time = 2135, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:41: prev_interval = 135.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:41: prev_interval = 0 system elapsed time = 0, service timer interval = 864.9
+2020-10-19(월) 오후 10:39:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:44: sending output: pwr 1800 load 9 temp 53 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:39:44: waiting for input...
+2020-10-19(월) 오후 10:39:45: UI App requests: sysinfo
+2020-10-19(월) 오후 10:39:46: prev_interval = 1124 system elapsed time = 2124, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:46: prev_interval = 124.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:46: prev_interval = 0 system elapsed time = 0, service timer interval = 875.9
+2020-10-19(월) 오후 10:39:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:49: sending output: pwr 1800 load 15 temp 53 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:39:49: waiting for input...
+2020-10-19(월) 오후 10:39:50: UI App requests: sysinfo
+2020-10-19(월) 오후 10:39:51: prev_interval = 1112 system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:51: prev_interval = 112.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:51: prev_interval = 0 system elapsed time = 0, service timer interval = 887.9
+2020-10-19(월) 오후 10:39:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:54: sending output: pwr 1800 load 9 temp 51 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:39:54: waiting for input...
+2020-10-19(월) 오후 10:39:55: UI App requests: sysinfo
+2020-10-19(월) 오후 10:39:56: prev_interval = 1125 system elapsed time = 2125, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:56: prev_interval = 125.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:39:56: prev_interval = 0 system elapsed time = 0, service timer interval = 874.9
+2020-10-19(월) 오후 10:39:57: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:39:59: sending output: pwr 1800 load 6 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:39:59: waiting for input...
+2020-10-19(월) 오후 10:40:00: UI App requests: sysinfo
+2020-10-19(월) 오후 10:40:01: prev_interval = 1115 system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:02: prev_interval = 115.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:02: prev_interval = 0 system elapsed time = 0, service timer interval = 884.9
+2020-10-19(월) 오후 10:40:02: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:04: sending output: pwr 1800 load 2 temp 51 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:40:04: waiting for input...
+2020-10-19(월) 오후 10:40:05: UI App requests: sysinfo
+2020-10-19(월) 오후 10:40:07: prev_interval = 1110 system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:07: prev_interval = 110.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:07: prev_interval = 0 system elapsed time = 0, service timer interval = 889.9
+2020-10-19(월) 오후 10:40:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:09: sending output: pwr 1800 load 7 temp 54 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:40:09: waiting for input...
+2020-10-19(월) 오후 10:40:10: UI App requests: sysinfo
+2020-10-19(월) 오후 10:40:12: prev_interval = 1114 system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:12: prev_interval = 114.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:12: prev_interval = 0 system elapsed time = 0, service timer interval = 885.9
+2020-10-19(월) 오후 10:40:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:14: sending output: pwr 1800 load 5 temp 51 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:40:14: waiting for input...
+2020-10-19(월) 오후 10:40:15: UI App requests: sysinfo
+2020-10-19(월) 오후 10:40:17: prev_interval = 1116 system elapsed time = 2116, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:17: prev_interval = 116.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:17: prev_interval = 0 system elapsed time = 0, service timer interval = 883.9
+2020-10-19(월) 오후 10:40:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:19: sending output: pwr 1800 load 8 temp 50 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:40:19: waiting for input...
+2020-10-19(월) 오후 10:40:20: UI App requests: sysinfo
+2020-10-19(월) 오후 10:40:22: prev_interval = 1113 system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:22: prev_interval = 113.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:22: prev_interval = 0 system elapsed time = 0, service timer interval = 886.9
+2020-10-19(월) 오후 10:40:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:24: sending output: pwr 1800 load 6 temp 50 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:40:24: waiting for input...
+2020-10-19(월) 오후 10:40:25: UI App requests: sysinfo
+2020-10-19(월) 오후 10:40:27: prev_interval = 1115 system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:27: prev_interval = 115.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:27: prev_interval = 0 system elapsed time = 0, service timer interval = 884.9
+2020-10-19(월) 오후 10:40:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:29: sending output: pwr 1800 load 12 temp 51 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:40:29: waiting for input...
+2020-10-19(월) 오후 10:40:30: UI App requests: sysinfo
+2020-10-19(월) 오후 10:40:32: prev_interval = 1111 system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:32: prev_interval = 111.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:32: prev_interval = 0 system elapsed time = 0, service timer interval = 888.9
+2020-10-19(월) 오후 10:40:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:34: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:34: sending output: pwr 1800 load 11 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:40:34: waiting for input...
+2020-10-19(월) 오후 10:40:35: UI App requests: sysinfo
+2020-10-19(월) 오후 10:40:37: prev_interval = 1104 system elapsed time = 2104, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:37: prev_interval = 104.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:37: prev_interval = 0 system elapsed time = 0, service timer interval = 895.9
+2020-10-19(월) 오후 10:40:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:39: sending output: pwr 1800 load 7 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:40:39: waiting for input...
+2020-10-19(월) 오후 10:40:40: UI App requests: sysinfo
+2020-10-19(월) 오후 10:40:42: prev_interval = 1122 system elapsed time = 2122, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:42: prev_interval = 122.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:42: prev_interval = 0 system elapsed time = 0, service timer interval = 877.9
+2020-10-19(월) 오후 10:40:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:44: sending output: pwr 1800 load 30 temp 51 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:40:44: waiting for input...
+2020-10-19(월) 오후 10:40:45: UI App requests: sysinfo
+2020-10-19(월) 오후 10:40:47: prev_interval = 1107 system elapsed time = 2107, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:47: prev_interval = 107.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:47: prev_interval = 0 system elapsed time = 0, service timer interval = 892.9
+2020-10-19(월) 오후 10:40:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:49: sending output: pwr 1800 load 12 temp 53 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:40:49: waiting for input...
+2020-10-19(월) 오후 10:40:50: UI App requests: sysinfo
+2020-10-19(월) 오후 10:40:52: prev_interval = 1112 system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:52: prev_interval = 112.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:52: prev_interval = 0 system elapsed time = 0, service timer interval = 887.9
+2020-10-19(월) 오후 10:40:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:54: sending output: pwr 1800 load 7 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:40:54: waiting for input...
+2020-10-19(월) 오후 10:40:55: UI App requests: sysinfo
+2020-10-19(월) 오후 10:40:57: prev_interval = 1113 system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:57: prev_interval = 113.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:40:57: prev_interval = 0 system elapsed time = 0, service timer interval = 886.9
+2020-10-19(월) 오후 10:40:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:40:59: sending output: pwr 1800 load 3 temp 50 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:40:59: waiting for input...
+2020-10-19(월) 오후 10:41:00: UI App requests: sysinfo
+2020-10-19(월) 오후 10:41:02: prev_interval = 1120 system elapsed time = 2120, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:02: prev_interval = 120.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:02: prev_interval = 0 system elapsed time = 0, service timer interval = 879.9
+2020-10-19(월) 오후 10:41:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:04: sending output: pwr 1800 load 2 temp 50 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:41:04: waiting for input...
+2020-10-19(월) 오후 10:41:05: UI App requests: sysinfo
+2020-10-19(월) 오후 10:41:07: prev_interval = 1114 system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:07: prev_interval = 114.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:07: prev_interval = 0 system elapsed time = 0, service timer interval = 885.9
+2020-10-19(월) 오후 10:41:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:10: sending output: pwr 1800 load 6 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:41:10: waiting for input...
+2020-10-19(월) 오후 10:41:11: UI App requests: sysinfo
+2020-10-19(월) 오후 10:41:12: prev_interval = 1126 system elapsed time = 2126, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:12: prev_interval = 126.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:12: prev_interval = 0 system elapsed time = 0, service timer interval = 873.9
+2020-10-19(월) 오후 10:41:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:15: sending output: pwr 1800 load 18 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:41:15: waiting for input...
+2020-10-19(월) 오후 10:41:16: UI App requests: sysinfo
+2020-10-19(월) 오후 10:41:17: prev_interval = 1167 system elapsed time = 2167, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:17: prev_interval = 167.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:18: prev_interval = 0 system elapsed time = 0, service timer interval = 832.9
+2020-10-19(월) 오후 10:41:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:20: sending output: pwr 1800 load 13 temp 53 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:41:20: waiting for input...
+2020-10-19(월) 오후 10:41:21: UI App requests: sysinfo
+2020-10-19(월) 오후 10:41:22: prev_interval = 1112 system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:22: prev_interval = 112.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:22: prev_interval = 0 system elapsed time = 0, service timer interval = 887.9
+2020-10-19(월) 오후 10:41:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:25: sending output: pwr 1800 load 11 temp 51 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:41:25: waiting for input...
+2020-10-19(월) 오후 10:41:26: UI App requests: sysinfo
+2020-10-19(월) 오후 10:41:28: prev_interval = 1111 system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:28: prev_interval = 111.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:28: prev_interval = 0 system elapsed time = 0, service timer interval = 888.9
+2020-10-19(월) 오후 10:41:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:30: sending output: pwr 1800 load 13 temp 53 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:41:30: waiting for input...
+2020-10-19(월) 오후 10:41:31: UI App requests: sysinfo
+2020-10-19(월) 오후 10:41:33: prev_interval = 1113 system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:33: prev_interval = 113.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:33: prev_interval = 0 system elapsed time = 0, service timer interval = 886.9
+2020-10-19(월) 오후 10:41:34: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:35: sending output: pwr 1800 load 2 temp 53 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:41:35: waiting for input...
+2020-10-19(월) 오후 10:41:36: UI App requests: sysinfo
+2020-10-19(월) 오후 10:41:38: prev_interval = 1116 system elapsed time = 2116, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:38: prev_interval = 116.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:38: prev_interval = 0 system elapsed time = 0, service timer interval = 883.9
+2020-10-19(월) 오후 10:41:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:40: sending output: pwr 1800 load 11 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:41:40: waiting for input...
+2020-10-19(월) 오후 10:41:41: UI App requests: sysinfo
+2020-10-19(월) 오후 10:41:43: prev_interval = 1113 system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:43: prev_interval = 113.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:43: prev_interval = 0 system elapsed time = 0, service timer interval = 886.9
+2020-10-19(월) 오후 10:41:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:45: sending output: pwr 1800 load 14 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:41:45: waiting for input...
+2020-10-19(월) 오후 10:41:46: UI App requests: sysinfo
+2020-10-19(월) 오후 10:41:48: prev_interval = 1112 system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:48: prev_interval = 112.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:48: prev_interval = 0 system elapsed time = 0, service timer interval = 887.9
+2020-10-19(월) 오후 10:41:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:50: sending output: pwr 1800 load 5 temp 51 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:41:50: waiting for input...
+2020-10-19(월) 오후 10:41:51: UI App requests: sysinfo
+2020-10-19(월) 오후 10:41:53: prev_interval = 1132 system elapsed time = 2132, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:53: prev_interval = 132.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:53: prev_interval = 0 system elapsed time = 0, service timer interval = 867.9
+2020-10-19(월) 오후 10:41:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:41:55: sending output: pwr 1800 load 8 temp 50 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:41:55: waiting for input...
+2020-10-19(월) 오후 10:41:56: UI App requests: sysinfo
+2020-10-19(월) 오후 10:41:58: prev_interval = 1115 system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:58: prev_interval = 115.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:41:58: prev_interval = 0 system elapsed time = 0, service timer interval = 884.9
+2020-10-19(월) 오후 10:41:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:00: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:00: sending output: pwr 1800 load 13 temp 51 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:42:00: waiting for input...
+2020-10-19(월) 오후 10:42:01: UI App requests: sysinfo
+2020-10-19(월) 오후 10:42:03: prev_interval = 1114 system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:03: prev_interval = 114.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:03: prev_interval = 0 system elapsed time = 0, service timer interval = 885.9
+2020-10-19(월) 오후 10:42:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:05: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:05: sending output: pwr 1800 load 12 temp 53 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:42:05: waiting for input...
+2020-10-19(월) 오후 10:42:06: UI App requests: sysinfo
+2020-10-19(월) 오후 10:42:08: prev_interval = 1106 system elapsed time = 2106, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:08: prev_interval = 106.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:08: prev_interval = 0 system elapsed time = 0, service timer interval = 893.9
+2020-10-19(월) 오후 10:42:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:10: sending output: pwr 1800 load 6 temp 50 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:42:10: waiting for input...
+2020-10-19(월) 오후 10:42:11: UI App requests: sysinfo
+2020-10-19(월) 오후 10:42:13: prev_interval = 1118 system elapsed time = 2118, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:13: prev_interval = 118.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:13: prev_interval = 0 system elapsed time = 0, service timer interval = 881.9
+2020-10-19(월) 오후 10:42:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:15: sending output: pwr 1800 load 15 temp 51 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:42:15: waiting for input...
+2020-10-19(월) 오후 10:42:16: UI App requests: sysinfo
+2020-10-19(월) 오후 10:42:18: prev_interval = 1128 system elapsed time = 2128, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:18: prev_interval = 128.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:18: prev_interval = 0 system elapsed time = 0, service timer interval = 871.9
+2020-10-19(월) 오후 10:42:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:20: sending output: pwr 1800 load 16 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:42:20: waiting for input...
+2020-10-19(월) 오후 10:42:21: UI App requests: sysinfo
+2020-10-19(월) 오후 10:42:23: prev_interval = 1142 system elapsed time = 2142, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:23: prev_interval = 142.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:23: prev_interval = 0 system elapsed time = 0, service timer interval = 857.9
+2020-10-19(월) 오후 10:42:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:25: sending output: pwr 1800 load 14 temp 50 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:42:25: waiting for input...
+2020-10-19(월) 오후 10:42:26: UI App requests: sysinfo
+2020-10-19(월) 오후 10:42:28: prev_interval = 1125 system elapsed time = 2125, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:28: prev_interval = 125.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:28: prev_interval = 0 system elapsed time = 0, service timer interval = 874.9
+2020-10-19(월) 오후 10:42:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:30: sending output: pwr 1800 load 5 temp 50 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:42:30: waiting for input...
+2020-10-19(월) 오후 10:42:31: UI App requests: sysinfo
+2020-10-19(월) 오후 10:42:33: prev_interval = 1126 system elapsed time = 2126, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:33: prev_interval = 126.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:33: prev_interval = 0 system elapsed time = 0, service timer interval = 873.9
+2020-10-19(월) 오후 10:42:34: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:35: sending output: pwr 1800 load 11 temp 53 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:42:35: waiting for input...
+2020-10-19(월) 오후 10:42:36: UI App requests: sysinfo
+2020-10-19(월) 오후 10:42:38: prev_interval = 1116 system elapsed time = 2116, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:38: prev_interval = 116.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:38: prev_interval = 0 system elapsed time = 0, service timer interval = 883.9
+2020-10-19(월) 오후 10:42:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:41: sending output: pwr 1800 load 12 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:42:41: waiting for input...
+2020-10-19(월) 오후 10:42:42: UI App requests: sysinfo
+2020-10-19(월) 오후 10:42:43: prev_interval = 1112 system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:43: prev_interval = 112.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:43: prev_interval = 0 system elapsed time = 0, service timer interval = 887.9
+2020-10-19(월) 오후 10:42:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:46: sending output: pwr 1800 load 5 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:42:46: waiting for input...
+2020-10-19(월) 오후 10:42:47: UI App requests: sysinfo
+2020-10-19(월) 오후 10:42:48: prev_interval = 1110 system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:48: prev_interval = 110.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:48: prev_interval = 0 system elapsed time = 0, service timer interval = 889.9
+2020-10-19(월) 오후 10:42:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:51: sending output: pwr 1800 load 9 temp 50 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:42:51: waiting for input...
+2020-10-19(월) 오후 10:42:52: UI App requests: sysinfo
+2020-10-19(월) 오후 10:42:54: prev_interval = 1112 system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:54: prev_interval = 112.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:54: prev_interval = 0 system elapsed time = 0, service timer interval = 887.9
+2020-10-19(월) 오후 10:42:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:42:56: sending output: pwr 1800 load 10 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:42:56: waiting for input...
+2020-10-19(월) 오후 10:42:57: UI App requests: sysinfo
+2020-10-19(월) 오후 10:42:59: prev_interval = 1121 system elapsed time = 2121, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:59: prev_interval = 121.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:42:59: prev_interval = 0 system elapsed time = 0, service timer interval = 878.9
+2020-10-19(월) 오후 10:43:00: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:01: sending output: pwr 1800 load 8 temp 51 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:43:01: waiting for input...
+2020-10-19(월) 오후 10:43:02: UI App requests: sysinfo
+2020-10-19(월) 오후 10:43:04: prev_interval = 1115 system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:04: prev_interval = 115.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:04: prev_interval = 0 system elapsed time = 0, service timer interval = 884.9
+2020-10-19(월) 오후 10:43:05: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:06: sending output: pwr 1800 load 7 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:43:06: waiting for input...
+2020-10-19(월) 오후 10:43:07: UI App requests: sysinfo
+2020-10-19(월) 오후 10:43:09: prev_interval = 1112 system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:09: prev_interval = 112.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:09: prev_interval = 0 system elapsed time = 0, service timer interval = 887.9
+2020-10-19(월) 오후 10:43:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:11: sending output: pwr 1800 load 11 temp 55 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:43:11: waiting for input...
+2020-10-19(월) 오후 10:43:12: UI App requests: sysinfo
+2020-10-19(월) 오후 10:43:14: prev_interval = 1113 system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:14: prev_interval = 113.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:14: prev_interval = 0 system elapsed time = 0, service timer interval = 886.9
+2020-10-19(월) 오후 10:43:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:16: sending output: pwr 1800 load 6 temp 51 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:43:16: waiting for input...
+2020-10-19(월) 오후 10:43:17: UI App requests: sysinfo
+2020-10-19(월) 오후 10:43:19: prev_interval = 1101 system elapsed time = 2101, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:19: prev_interval = 101.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:19: prev_interval = 0 system elapsed time = 0, service timer interval = 898.9
+2020-10-19(월) 오후 10:43:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:21: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:21: sending output: pwr 1800 load 22 temp 51 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:43:21: waiting for input...
+2020-10-19(월) 오후 10:43:22: UI App requests: sysinfo
+2020-10-19(월) 오후 10:43:24: prev_interval = 1109 system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:24: prev_interval = 109.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:24: prev_interval = 0 system elapsed time = 0, service timer interval = 890.9
+2020-10-19(월) 오후 10:43:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:26: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:26: sending output: pwr 1800 load 7 temp 53 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:43:26: waiting for input...
+2020-10-19(월) 오후 10:43:27: UI App requests: sysinfo
+2020-10-19(월) 오후 10:43:29: prev_interval = 1114 system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:29: prev_interval = 114.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:29: prev_interval = 0 system elapsed time = 0, service timer interval = 885.9
+2020-10-19(월) 오후 10:43:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:31: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:31: sending output: pwr 1800 load 3 temp 50 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:43:31: waiting for input...
+2020-10-19(월) 오후 10:43:32: UI App requests: sysinfo
+2020-10-19(월) 오후 10:43:34: prev_interval = 1114 system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:34: prev_interval = 114.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:34: prev_interval = 0 system elapsed time = 0, service timer interval = 885.9
+2020-10-19(월) 오후 10:43:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:36: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:36: sending output: pwr 1800 load 6 temp 51 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:43:36: waiting for input...
+2020-10-19(월) 오후 10:43:37: UI App requests: sysinfo
+2020-10-19(월) 오후 10:43:39: prev_interval = 1141 system elapsed time = 2141, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:39: prev_interval = 141.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:39: prev_interval = 0 system elapsed time = 0, service timer interval = 858.9
+2020-10-19(월) 오후 10:43:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:41: sending output: pwr 1800 load 14 temp 50 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:43:41: waiting for input...
+2020-10-19(월) 오후 10:43:42: UI App requests: sysinfo
+2020-10-19(월) 오후 10:43:44: prev_interval = 1108 system elapsed time = 2108, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:44: prev_interval = 108.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:44: prev_interval = 0 system elapsed time = 0, service timer interval = 891.9
+2020-10-19(월) 오후 10:43:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:46: sending output: pwr 1800 load 15 temp 51 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:43:46: waiting for input...
+2020-10-19(월) 오후 10:43:47: UI App requests: sysinfo
+2020-10-19(월) 오후 10:43:49: prev_interval = 1151 system elapsed time = 2151, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:49: prev_interval = 151.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:49: prev_interval = 0 system elapsed time = 0, service timer interval = 848.9
+2020-10-19(월) 오후 10:43:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:51: sending output: pwr 1800 load 6 temp 51 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:43:51: waiting for input...
+2020-10-19(월) 오후 10:43:52: UI App requests: sysinfo
+2020-10-19(월) 오후 10:43:54: prev_interval = 1118 system elapsed time = 2118, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:54: prev_interval = 118.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:54: prev_interval = 0 system elapsed time = 0, service timer interval = 881.9
+2020-10-19(월) 오후 10:43:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:43:56: sending output: pwr 1800 load 5 temp 52 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:43:56: waiting for input...
+2020-10-19(월) 오후 10:43:57: UI App requests: sysinfo
+2020-10-19(월) 오후 10:43:59: prev_interval = 1123 system elapsed time = 2123, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:59: prev_interval = 123.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:43:59: prev_interval = 0 system elapsed time = 0, service timer interval = 876.9
+2020-10-19(월) 오후 10:44:00: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:44:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:44:01: sending output: pwr 1800 load 8 temp 53 throttleMode 0 wrong False turbopwr 1782
+2020-10-19(월) 오후 10:44:01: waiting for input...
+2020-10-19(월) 오후 10:44:02: UI App requests: sysinfo
+2020-10-19(월) 오후 10:44:28: waiting for input...
+2020-10-19(월) 오후 10:44:28: UI App requests: sysinfo
+2020-10-19(월) 오후 10:44:29: prev_interval = 0 system elapsed time = 1, service timer interval = 999
+2020-10-19(월) 오후 10:44:30: sending output: pwr 2701 load 28 temp 66 throttleMode 0 wrong False turbopwr 3052
+2020-10-19(월) 오후 10:44:30: waiting for input...
+2020-10-19(월) 오후 10:44:31: UI App requests: sysinfo
+2020-10-19(월) 오후 10:44:34: sending output: pwr 1800 load 35 temp 66 throttleMode 0 wrong False turbopwr 3052
+2020-10-19(월) 오후 10:44:34: waiting for input...
+2020-10-19(월) 오후 10:44:35: UI App requests: sysinfo
+2020-10-19(월) 오후 10:44:36: prev_interval = 5759 system elapsed time = 6759, service timer interval = 0.1
+2020-10-19(월) 오후 10:44:36: prev_interval = 4759.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:44:36: prev_interval = 3759.2 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:44:36: prev_interval = 2759.3 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:44:36: prev_interval = 1759.4 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:44:39: sending output: pwr 1800 load 14 temp 59 throttleMode 0 wrong False turbopwr 3052
+2020-10-19(월) 오후 10:44:39: waiting for input...
+2020-10-19(월) 오후 10:44:39: prev_interval = 759.5 system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 10:44:39: prev_interval = 0 system elapsed time = 0, service timer interval = 240.5
+2020-10-19(월) 오후 10:44:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:44:40: UI App requests: sysinfo
+2020-10-19(월) 오후 10:44:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:44:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:44:42: sending output: pwr 1800 load 6 temp 58 throttleMode 0 wrong False turbopwr 3052
+2020-10-19(월) 오후 10:44:42: waiting for input...
+2020-10-19(월) 오후 10:44:43: UI App requests: sysinfo
+2020-10-19(월) 오후 10:44:44: prev_interval = 1114 system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 10:44:44: prev_interval = 114.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:44:44: prev_interval = 0 system elapsed time = 0, service timer interval = 885.9
+2020-10-19(월) 오후 10:44:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:44:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:44:46: sending output: pwr 1800 load 3 temp 57 throttleMode 0 wrong False turbopwr 3052
+2020-10-19(월) 오후 10:44:46: waiting for input...
+2020-10-19(월) 오후 10:45:30: waiting for input...
+2020-10-19(월) 오후 10:45:30: UI App requests: sysinfo
+2020-10-19(월) 오후 10:45:31: prev_interval = 0 system elapsed time = 2, service timer interval = 998
+2020-10-19(월) 오후 10:45:32: sending output: pwr 2701 load 14 temp 61 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:45:32: waiting for input...
+2020-10-19(월) 오후 10:45:33: UI App requests: sysinfo
+2020-10-19(월) 오후 10:45:35: sending output: pwr 1800 load 35 temp 59 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:45:35: waiting for input...
+2020-10-19(월) 오후 10:45:36: UI App requests: sysinfo
+2020-10-19(월) 오후 10:45:38: prev_interval = 5389 system elapsed time = 6389, service timer interval = 0.1
+2020-10-19(월) 오후 10:45:38: prev_interval = 4389.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:45:38: prev_interval = 3389.2 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:45:38: prev_interval = 2389.3 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:45:38: prev_interval = 1389.4 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:45:40: prev_interval = 389.5 system elapsed time = 2158, service timer interval = 0.1
+2020-10-19(월) 오후 10:45:40: prev_interval = 0 system elapsed time = 0, service timer interval = 610.5
+2020-10-19(월) 오후 10:45:40: sending output: pwr 1800 load 5 temp 57 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:45:40: waiting for input...
+2020-10-19(월) 오후 10:45:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:45:41: UI App requests: sysinfo
+2020-10-19(월) 오후 10:45:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:45:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:45:43: sending output: pwr 1800 load 9 temp 55 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:45:43: waiting for input...
+2020-10-19(월) 오후 10:45:44: UI App requests: sysinfo
+2020-10-19(월) 오후 10:45:46: prev_interval = 1121 system elapsed time = 2121, service timer interval = 0.1
+2020-10-19(월) 오후 10:45:46: prev_interval = 121.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:45:46: prev_interval = 0 system elapsed time = 0, service timer interval = 878.9
+2020-10-19(월) 오후 10:45:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:45:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:45:48: sending output: pwr 1800 load 23 temp 54 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:45:48: waiting for input...
+2020-10-19(월) 오후 10:45:49: UI App requests: sysinfo
+2020-10-19(월) 오후 10:45:51: prev_interval = 1121 system elapsed time = 2121, service timer interval = 0.1
+2020-10-19(월) 오후 10:45:51: prev_interval = 121.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:45:51: prev_interval = 0 system elapsed time = 0, service timer interval = 878.9
+2020-10-19(월) 오후 10:45:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:45:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:45:53: sending output: pwr 1800 load 7 temp 51 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:45:53: waiting for input...
+2020-10-19(월) 오후 10:45:54: UI App requests: sysinfo
+2020-10-19(월) 오후 10:45:56: prev_interval = 1113 system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 10:45:56: prev_interval = 113.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:45:56: prev_interval = 0 system elapsed time = 0, service timer interval = 886.9
+2020-10-19(월) 오후 10:45:57: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:45:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:45:58: sending output: pwr 1800 load 22 temp 55 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:45:58: waiting for input...
+2020-10-19(월) 오후 10:45:59: UI App requests: sysinfo
+2020-10-19(월) 오후 10:46:01: prev_interval = 1131 system elapsed time = 2131, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:01: prev_interval = 131.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:01: prev_interval = 0 system elapsed time = 0, service timer interval = 868.9
+2020-10-19(월) 오후 10:46:02: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:03: sending output: pwr 1800 load 12 temp 53 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:46:03: waiting for input...
+2020-10-19(월) 오후 10:46:04: UI App requests: sysinfo
+2020-10-19(월) 오후 10:46:06: prev_interval = 1116 system elapsed time = 2116, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:06: prev_interval = 116.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:06: prev_interval = 0 system elapsed time = 0, service timer interval = 883.9
+2020-10-19(월) 오후 10:46:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:08: sending output: pwr 1800 load 20 temp 53 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:46:08: waiting for input...
+2020-10-19(월) 오후 10:46:09: UI App requests: sysinfo
+2020-10-19(월) 오후 10:46:11: prev_interval = 1113 system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:11: prev_interval = 113.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:11: prev_interval = 0 system elapsed time = 0, service timer interval = 886.9
+2020-10-19(월) 오후 10:46:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:13: sending output: pwr 1800 load 9 temp 55 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:46:13: waiting for input...
+2020-10-19(월) 오후 10:46:14: UI App requests: sysinfo
+2020-10-19(월) 오후 10:46:16: prev_interval = 1116 system elapsed time = 2116, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:16: prev_interval = 116.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:16: prev_interval = 0 system elapsed time = 0, service timer interval = 883.9
+2020-10-19(월) 오후 10:46:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:18: sending output: pwr 1800 load 10 temp 53 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:46:18: waiting for input...
+2020-10-19(월) 오후 10:46:19: UI App requests: sysinfo
+2020-10-19(월) 오후 10:46:21: prev_interval = 1116 system elapsed time = 2116, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:21: prev_interval = 116.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:21: prev_interval = 0 system elapsed time = 0, service timer interval = 883.9
+2020-10-19(월) 오후 10:46:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:24: sending output: pwr 1800 load 12 temp 52 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:46:24: waiting for input...
+2020-10-19(월) 오후 10:46:25: UI App requests: sysinfo
+2020-10-19(월) 오후 10:46:26: prev_interval = 1113 system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:26: prev_interval = 113.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:26: prev_interval = 0 system elapsed time = 0, service timer interval = 886.9
+2020-10-19(월) 오후 10:46:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:29: sending output: pwr 1800 load 10 temp 53 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:46:29: waiting for input...
+2020-10-19(월) 오후 10:46:30: UI App requests: sysinfo
+2020-10-19(월) 오후 10:46:31: prev_interval = 1102 system elapsed time = 2102, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:31: prev_interval = 102.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:31: prev_interval = 0 system elapsed time = 0, service timer interval = 897.9
+2020-10-19(월) 오후 10:46:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:34: sending output: pwr 1800 load 5 temp 51 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:46:34: waiting for input...
+2020-10-19(월) 오후 10:46:35: UI App requests: sysinfo
+2020-10-19(월) 오후 10:46:36: prev_interval = 1114 system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:36: prev_interval = 114.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:36: prev_interval = 0 system elapsed time = 0, service timer interval = 885.9
+2020-10-19(월) 오후 10:46:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:39: sending output: pwr 1800 load 11 temp 51 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:46:39: waiting for input...
+2020-10-19(월) 오후 10:46:40: UI App requests: sysinfo
+2020-10-19(월) 오후 10:46:42: prev_interval = 1127 system elapsed time = 2127, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:42: prev_interval = 127.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:42: prev_interval = 0 system elapsed time = 0, service timer interval = 872.9
+2020-10-19(월) 오후 10:46:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:44: sending output: pwr 1800 load 17 temp 51 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:46:44: waiting for input...
+2020-10-19(월) 오후 10:46:45: UI App requests: sysinfo
+2020-10-19(월) 오후 10:46:47: prev_interval = 1127 system elapsed time = 2127, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:47: prev_interval = 127.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:46:47: prev_interval = 0 system elapsed time = 0, service timer interval = 872.9
+2020-10-19(월) 오후 10:46:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:46:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:47:07: waiting for input...
+2020-10-19(월) 오후 10:47:07: UI App requests: sysinfo
+2020-10-19(월) 오후 10:47:07: prev_interval = 0 system elapsed time = 1, service timer interval = 999
+2020-10-19(월) 오후 10:47:09: sending output: pwr 2701 load 23 temp 60 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:47:09: waiting for input...
+2020-10-19(월) 오후 10:47:10: UI App requests: sysinfo
+2020-10-19(월) 오후 10:47:12: sending output: pwr 1800 load 40 temp 61 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:47:12: waiting for input...
+2020-10-19(월) 오후 10:47:13: UI App requests: sysinfo
+2020-10-19(월) 오후 10:47:15: prev_interval = 5432 system elapsed time = 6432, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:15: prev_interval = 4432.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:15: prev_interval = 3432.2 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:15: prev_interval = 2432.3 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:15: prev_interval = 1432.4 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:17: prev_interval = 432.5 system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:17: prev_interval = 0 system elapsed time = 0, service timer interval = 567.5
+2020-10-19(월) 오후 10:47:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:47:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:47:19: sending output: pwr 1800 load 5 temp 53 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:47:19: waiting for input...
+2020-10-19(월) 오후 10:47:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:47:20: UI App requests: sysinfo
+2020-10-19(월) 오후 10:47:22: sending output: pwr 1800 load 7 temp 53 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:47:22: waiting for input...
+2020-10-19(월) 오후 10:47:23: prev_interval = 1111 system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:23: prev_interval = 111.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:23: prev_interval = 0 system elapsed time = 0, service timer interval = 888.9
+2020-10-19(월) 오후 10:47:23: UI App requests: sysinfo
+2020-10-19(월) 오후 10:47:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:47:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:47:26: sending output: pwr 1800 load 4 temp 53 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:47:26: waiting for input...
+2020-10-19(월) 오후 10:47:27: UI App requests: sysinfo
+2020-10-19(월) 오후 10:47:28: prev_interval = 1115 system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:28: prev_interval = 115.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:28: prev_interval = 0 system elapsed time = 0, service timer interval = 884.9
+2020-10-19(월) 오후 10:47:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:47:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:47:30: sending output: pwr 1800 load 5 temp 53 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:47:30: waiting for input...
+2020-10-19(월) 오후 10:47:31: UI App requests: sysinfo
+2020-10-19(월) 오후 10:47:33: prev_interval = 1109 system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:33: prev_interval = 109.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:33: prev_interval = 0 system elapsed time = 0, service timer interval = 890.9
+2020-10-19(월) 오후 10:47:34: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:47:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:47:35: sending output: pwr 1800 load 3 temp 52 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:47:35: waiting for input...
+2020-10-19(월) 오후 10:47:36: UI App requests: sysinfo
+2020-10-19(월) 오후 10:47:38: prev_interval = 1115 system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:38: prev_interval = 115.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:38: prev_interval = 0 system elapsed time = 0, service timer interval = 884.9
+2020-10-19(월) 오후 10:47:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:47:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:47:40: sending output: pwr 1800 load 5 temp 53 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:47:40: waiting for input...
+2020-10-19(월) 오후 10:47:41: UI App requests: sysinfo
+2020-10-19(월) 오후 10:47:43: sending output: pwr 1800 load 15 temp 56 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:47:43: waiting for input...
+2020-10-19(월) 오후 10:47:44: UI App requests: sysinfo
+2020-10-19(월) 오후 10:47:46: sending output: pwr 2701 load 51 temp 71 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:47:46: waiting for input...
+2020-10-19(월) 오후 10:47:47: prev_interval = 4807 system elapsed time = 5807, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:47: prev_interval = 3807.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:47: prev_interval = 2807.2 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:47: prev_interval = 1807.3 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:47: prev_interval = 807.4 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:47: UI App requests: sysinfo
+2020-10-19(월) 오후 10:47:49: prev_interval = -192.5 system elapsed time = 2087, service timer interval = 0.1
+2020-10-19(월) 오후 10:47:49: prev_interval = -192.5 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:47:50: prev_interval = -192.5 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:47:51: prev_interval = -192.5 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:47:51: sending output: pwr 2701 load 1 temp 64 throttleMode 0 wrong False turbopwr 3079
+2020-10-19(월) 오후 10:47:51: waiting for input...
+2020-10-19(월) 오후 10:47:52: prev_interval = -192.5 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:47:52: UI App requests: sysinfo
