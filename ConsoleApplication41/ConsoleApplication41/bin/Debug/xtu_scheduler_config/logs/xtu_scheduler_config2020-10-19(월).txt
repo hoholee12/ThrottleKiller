@@ -1,0 +1,2380 @@
+2020-10-19(월) 오후 9:28:36: setting XTU: 4.5
+2020-10-19(월) 오후 9:28:40: setting GPU: performance
+2020-10-19(월) 오후 9:28:42: no throttle cycle load = 54 ,clk = 2701 ,throttledelay = 0
+2020-10-19(월) 오후 9:29:02: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\special_programs.txt
+2020-10-19(월) 오후 9:29:02: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 9:29:02: reading: key = explorer, value = 0
+2020-10-19(월) 오후 9:29:02: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\programs_running_cfg_cpu.txt
+2020-10-19(월) 오후 9:29:02: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-19(월) 오후 9:29:02: reading: key = 0, value = 100
+2020-10-19(월) 오후 9:29:02: reading: key = 1, value = 99
+2020-10-19(월) 오후 9:29:02: reading: key = 2, value = 98
+2020-10-19(월) 오후 9:29:02: reading: key = 3, value = 95
+2020-10-19(월) 오후 9:29:02: reading: key = 4, value = 84
+2020-10-19(월) 오후 9:29:02: reading: key = 5, value = 73
+2020-10-19(월) 오후 9:29:02: reading: key = 6, value = 65
+2020-10-19(월) 오후 9:29:02: reading: key = 7, value = 58
+2020-10-19(월) 오후 9:29:02: reading: key = 8, value = 50
+2020-10-19(월) 오후 9:29:02: reading: key = 9, value = 43
+2020-10-19(월) 오후 9:29:02: reading: key = 10, value = 32
+2020-10-19(월) 오후 9:29:02: reading: key = 11, value = 24
+2020-10-19(월) 오후 9:29:02: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\programs_running_cfg_xtu.txt
+2020-10-19(월) 오후 9:29:02: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-19(월) 오후 9:29:02: reading: key = 11, value = 10
+2020-10-19(월) 오후 9:29:02: reading: key = 10, value = 9.5
+2020-10-19(월) 오후 9:29:02: reading: key = 9, value = 9
+2020-10-19(월) 오후 9:29:02: reading: key = 8, value = 8.5
+2020-10-19(월) 오후 9:29:02: reading: key = 7, value = 8
+2020-10-19(월) 오후 9:29:02: reading: key = 6, value = 7.5
+2020-10-19(월) 오후 9:29:02: reading: key = 5, value = 7
+2020-10-19(월) 오후 9:29:02: reading: key = 4, value = 6.5
+2020-10-19(월) 오후 9:29:02: reading: key = 3, value = 6
+2020-10-19(월) 오후 9:29:02: reading: key = 2, value = 5.5
+2020-10-19(월) 오후 9:29:02: reading: key = 1, value = 5
+2020-10-19(월) 오후 9:29:02: reading: key = 0, value = 4.5
+2020-10-19(월) 오후 9:29:02: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\programs_running_cfg_nice.txt
+2020-10-19(월) 오후 9:29:02: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-19(월) 오후 9:29:02: reading: key = 0, value = Normal
+2020-10-19(월) 오후 9:29:02: reading: key = 1, value = Normal
+2020-10-19(월) 오후 9:29:02: reading: key = 2, value = Normal
+2020-10-19(월) 오후 9:29:02: reading: key = 3, value = Normal
+2020-10-19(월) 오후 9:29:02: reading: key = 4, value = Normal
+2020-10-19(월) 오후 9:29:02: reading: key = 5, value = Normal
+2020-10-19(월) 오후 9:29:02: reading: key = 6, value = Normal
+2020-10-19(월) 오후 9:29:02: reading: key = 7, value = Normal
+2020-10-19(월) 오후 9:29:02: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\loop_delay.txt
+2020-10-19(월) 오후 9:29:02: importing settings for: loop_delay...
+2020-10-19(월) 오후 9:29:02: reading: key = loop_delay, value = 1
+2020-10-19(월) 오후 9:29:02: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\boost_cycle_delay.txt
+2020-10-19(월) 오후 9:29:02: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-19(월) 오후 9:29:02: reading: key = boost_cycle_delay, value = 5
+2020-10-19(월) 오후 9:29:02: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\newlist_cycle_delay.txt
+2020-10-19(월) 오후 9:29:02: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-19(월) 오후 9:29:02: reading: key = newlist_cycle_delay, value = 30
+2020-10-19(월) 오후 9:29:02: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\processor_guid_tweak.txt
+2020-10-19(월) 오후 9:29:02: importing settings for: processor_guid_tweak...
+2020-10-19(월) 오후 9:29:02: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-19(월) 오후 9:29:02: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-19(월) 오후 9:29:02: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-19(월) 오후 9:29:02: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-19(월) 오후 9:29:02: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-19(월) 오후 9:29:02: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-19(월) 오후 9:29:02: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-19(월) 오후 9:29:02: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-19(월) 오후 9:29:02: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-19(월) 오후 9:29:02: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-19(월) 오후 9:29:02: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-19(월) 오후 9:29:02: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\generatedCLK.txt
+2020-10-19(월) 오후 9:29:02: importing settings for: generatedCLK...
+2020-10-19(월) 오후 9:29:02: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\generatedXTU.txt
+2020-10-19(월) 오후 9:29:02: importing settings for: generatedXTU...
+2020-10-19(월) 오후 9:29:02: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\throttle_median.txt
+2020-10-19(월) 오후 9:29:02: importing settings for: throttle_median...
+2020-10-19(월) 오후 9:29:02: reading: key = throttle_median, value = 60
+2020-10-19(월) 오후 9:29:02: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\newlist_median.txt
+2020-10-19(월) 오후 9:29:02: importing settings for: newlist_median...
+2020-10-19(월) 오후 9:29:02: reading: key = newlist_median, value = 50
+2020-10-19(월) 오후 9:29:02: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\gpuplan.txt
+2020-10-19(월) 오후 9:29:02: importing settings for: gpuplan...
+2020-10-19(월) 오후 9:29:02: reading: key = gpuplan, value = 1
+2020-10-19(월) 오후 9:29:04: checking XTU cmdlet
+2020-10-19(월) 오후 9:29:05: XTU ok
+2020-10-19(월) 오후 9:29:07: result = 10.5
+2020-10-19(월) 오후 9:29:07: init PowerCFG settings
+2020-10-19(월) 오후 9:29:11: ================start of CLK + XTU list generation================
+2020-10-19(월) 오후 9:29:11: do NOT run anything power intensive!!!
+2020-10-19(월) 오후 9:29:13: new CLK: 100 clockspeed: 2701
+2020-10-19(월) 오후 9:29:16: new CLK: 99 clockspeed: 2700
+2020-10-19(월) 오후 9:29:18: new CLK: 98 clockspeed: 2600
+2020-10-19(월) 오후 9:29:23: new CLK: 95 clockspeed: 2300
+2020-10-19(월) 오후 9:29:39: new CLK: 84 clockspeed: 2000
+2020-10-19(월) 오후 9:29:56: new CLK: 73 clockspeed: 1800
+2020-10-19(월) 오후 9:30:09: new CLK: 65 clockspeed: 1600
+2020-10-19(월) 오후 9:30:21: new CLK: 58 clockspeed: 1400
+2020-10-19(월) 오후 9:30:35: new CLK: 50 clockspeed: 1200
+2020-10-19(월) 오후 9:30:48: new CLK: 43 clockspeed: 900
+2020-10-19(월) 오후 9:31:13: new CLK: 32 clockspeed: 700
+2020-10-19(월) 오후 9:31:34: new CLK: 24 clockspeed: 500
+2020-10-19(월) 오후 9:32:30: new XTU: 10 for CLK: 24
+2020-10-19(월) 오후 9:32:30: new XTU: 9.5 for CLK: 32
+2020-10-19(월) 오후 9:32:30: new XTU: 9 for CLK: 43
+2020-10-19(월) 오후 9:32:30: new XTU: 8.5 for CLK: 50
+2020-10-19(월) 오후 9:32:30: new XTU: 8 for CLK: 58
+2020-10-19(월) 오후 9:32:30: new XTU: 7.5 for CLK: 65
+2020-10-19(월) 오후 9:32:30: new XTU: 7 for CLK: 73
+2020-10-19(월) 오후 9:32:30: new XTU: 6.5 for CLK: 84
+2020-10-19(월) 오후 9:32:30: new XTU: 6 for CLK: 95
+2020-10-19(월) 오후 9:32:30: new XTU: 5.5 for CLK: 98
+2020-10-19(월) 오후 9:32:30: new XTU: 5 for CLK: 99
+2020-10-19(월) 오후 9:32:30: new XTU: 4.5 for CLK: 100
+2020-10-19(월) 오후 9:32:30: writeback to file commencing...
+2020-10-19(월) 오후 9:32:31: settings changed for: generatedCLK!, reimporting...
+2020-10-19(월) 오후 9:32:31: reading: key = 100, value = 2701
+2020-10-19(월) 오후 9:32:31: reading: key = 99, value = 2700
+2020-10-19(월) 오후 9:32:31: reading: key = 98, value = 2600
+2020-10-19(월) 오후 9:32:31: reading: key = 95, value = 2300
+2020-10-19(월) 오후 9:32:31: reading: key = 84, value = 2000
+2020-10-19(월) 오후 9:32:31: reading: key = 73, value = 1800
+2020-10-19(월) 오후 9:32:31: reading: key = 65, value = 1600
+2020-10-19(월) 오후 9:32:31: reading: key = 58, value = 1400
+2020-10-19(월) 오후 9:32:31: reading: key = 50, value = 1200
+2020-10-19(월) 오후 9:32:31: reading: key = 43, value = 900
+2020-10-19(월) 오후 9:32:31: reading: key = 32, value = 700
+2020-10-19(월) 오후 9:32:31: reading: key = 24, value = 500
+2020-10-19(월) 오후 9:32:31: settings changed for: generatedXTU!, reimporting...
+2020-10-19(월) 오후 9:32:31: reading: key = 24, value = 10
+2020-10-19(월) 오후 9:32:31: reading: key = 32, value = 9.5
+2020-10-19(월) 오후 9:32:31: reading: key = 43, value = 9
+2020-10-19(월) 오후 9:32:31: reading: key = 50, value = 8.5
+2020-10-19(월) 오후 9:32:31: reading: key = 58, value = 8
+2020-10-19(월) 오후 9:32:31: reading: key = 65, value = 7.5
+2020-10-19(월) 오후 9:32:31: reading: key = 73, value = 7
+2020-10-19(월) 오후 9:32:31: reading: key = 84, value = 6.5
+2020-10-19(월) 오후 9:32:31: reading: key = 95, value = 6
+2020-10-19(월) 오후 9:32:31: reading: key = 98, value = 5.5
+2020-10-19(월) 오후 9:32:31: reading: key = 99, value = 5
+2020-10-19(월) 오후 9:32:31: reading: key = 100, value = 4.5
+2020-10-19(월) 오후 9:32:31: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-19(월) 오후 9:32:31: reading: key = 0, value = 100
+2020-10-19(월) 오후 9:32:31: reading: key = 1, value = 99
+2020-10-19(월) 오후 9:32:31: reading: key = 2, value = 98
+2020-10-19(월) 오후 9:32:31: reading: key = 3, value = 95
+2020-10-19(월) 오후 9:32:31: reading: key = 4, value = 84
+2020-10-19(월) 오후 9:32:31: reading: key = 5, value = 73
+2020-10-19(월) 오후 9:32:31: reading: key = 6, value = 65
+2020-10-19(월) 오후 9:32:31: reading: key = 7, value = 58
+2020-10-19(월) 오후 9:32:31: reading: key = 8, value = 50
+2020-10-19(월) 오후 9:32:31: reading: key = 9, value = 43
+2020-10-19(월) 오후 9:32:31: reading: key = 10, value = 32
+2020-10-19(월) 오후 9:32:31: reading: key = 11, value = 24
+2020-10-19(월) 오후 9:32:31: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-19(월) 오후 9:32:31: reading: key = 11, value = 10
+2020-10-19(월) 오후 9:32:31: reading: key = 10, value = 9.5
+2020-10-19(월) 오후 9:32:31: reading: key = 9, value = 9
+2020-10-19(월) 오후 9:32:31: reading: key = 8, value = 8.5
+2020-10-19(월) 오후 9:32:31: reading: key = 7, value = 8
+2020-10-19(월) 오후 9:32:31: reading: key = 6, value = 7.5
+2020-10-19(월) 오후 9:32:31: reading: key = 5, value = 7
+2020-10-19(월) 오후 9:32:31: reading: key = 4, value = 6.5
+2020-10-19(월) 오후 9:32:31: reading: key = 3, value = 6
+2020-10-19(월) 오후 9:32:31: reading: key = 2, value = 5.5
+2020-10-19(월) 오후 9:32:31: reading: key = 1, value = 5
+2020-10-19(월) 오후 9:32:31: reading: key = 0, value = 4.5
+2020-10-19(월) 오후 9:32:31: setting CLK: 100
+2020-10-19(월) 오후 9:32:32: setting base CLK: 5
+2020-10-19(월) 오후 9:32:32: setting XTU: 10.5
+2020-10-19(월) 오후 9:32:34: ================end of CLK + XTU list generation================
+2020-10-19(월) 오후 9:32:36: newlist accumulated current pwr:2300 load:3 globalload:2
+2020-10-19(월) 오후 9:32:36: setting power back to 100
+2020-10-19(월) 오후 9:32:36: setting CLK: 100
+2020-10-19(월) 오후 9:32:36: setting XTU: 4.5
+2020-10-19(월) 오후 9:32:39: setting GPU: performance
+2020-10-19(월) 오후 9:32:39: start of newlist timer
+2020-10-19(월) 오후 9:32:41: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 9:32:43: newlist accumulated current pwr:2701 load:1 globalload:1
+2020-10-19(월) 오후 9:32:45: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 9:32:47: newlist accumulated current pwr:1600 load:8 globalload:4
+2020-10-19(월) 오후 9:32:49: newlist accumulated current pwr:2701 load:4 globalload:4
+2020-10-19(월) 오후 9:32:51: newlist accumulated current pwr:2701 load:5 globalload:5
+2020-10-19(월) 오후 9:32:54: newlist accumulated current pwr:1800 load:2 globalload:1
+2020-10-19(월) 오후 9:32:56: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 9:32:58: newlist accumulated current pwr:2000 load:2 globalload:1
+2020-10-19(월) 오후 9:33:00: newlist accumulated current pwr:2701 load:8 globalload:8
+2020-10-19(월) 오후 9:33:02: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 9:33:04: newlist accumulated current pwr:1600 load:5 globalload:2
+2020-10-19(월) 오후 9:33:06: newlist accumulated current pwr:2000 load:5 globalload:3
+2020-10-19(월) 오후 9:33:08: newlist accumulated current pwr:1400 load:5 globalload:2
+2020-10-19(월) 오후 9:33:10: newlist accumulated current pwr:2701 load:1 globalload:1
+2020-10-19(월) 오후 9:33:12: newlist accumulated current pwr:2000 load:0 globalload:0
+2020-10-19(월) 오후 9:33:15: newlist accumulated current pwr:2701 load:6 globalload:6
+2020-10-19(월) 오후 9:33:17: newlist accumulated current pwr:2300 load:1 globalload:0
+2020-10-19(월) 오후 9:33:19: newlist accumulated current pwr:2701 load:7 globalload:7
+2020-10-19(월) 오후 9:33:21: newlist accumulated current pwr:2701 load:0 globalload:0
+2020-10-19(월) 오후 9:33:23: newlist accumulated current pwr:2701 load:5 globalload:5
+2020-10-19(월) 오후 9:33:25: newlist accumulated current pwr:2000 load:2 globalload:1
+2020-10-19(월) 오후 9:33:27: newlist accumulated current pwr:1800 load:2 globalload:1
+2020-10-19(월) 오후 9:33:29: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 9:33:31: newlist accumulated current pwr:1600 load:0 globalload:0
+2020-10-19(월) 오후 9:33:33: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 9:33:35: newlist accumulated current pwr:2300 load:6 globalload:5
+2020-10-19(월) 오후 9:33:38: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 9:33:40: newlist accumulated current pwr:2000 load:4 globalload:2
+2020-10-19(월) 오후 9:33:42: newlist accumulated current pwr:2701 load:5 globalload:5
+2020-10-19(월) 오후 9:33:42: time to sync for newlist
+2020-10-19(월) 오후 9:33:44: newlist accumulated current pwr:2701 load:9 globalload:9
+2020-10-19(월) 오후 9:33:44: using EMA...
+2020-10-19(월) 오후 9:33:50: appending: key = devenv, value = 5
+2020-10-19(월) 오후 9:33:50: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 9:33:50: reading: key = explorer, value = 0
+2020-10-19(월) 오후 9:33:50: reading: key = devenv, value = 5
+2020-10-19(월) 오후 9:33:50: setting power: devenv to 73
+2020-10-19(월) 오후 9:33:50: setting CLK: 73
+2020-10-19(월) 오후 9:33:50: setting XTU: 7
+2020-10-19(월) 오후 9:33:54: setting GPU: performance
+2020-10-19(월) 오후 9:33:57: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:33:59: newlist accumulated current pwr:1800 load:7 globalload:4
+2020-10-19(월) 오후 9:33:59: setting power back to 100
+2020-10-19(월) 오후 9:33:59: setting CLK: 100
+2020-10-19(월) 오후 9:33:59: setting XTU: 4.5
+2020-10-19(월) 오후 9:34:02: setting GPU: performance
+2020-10-19(월) 오후 9:34:02: start of newlist timer
+2020-10-19(월) 오후 9:34:04: newlist accumulated current pwr:2701 load:6 globalload:6
+2020-10-19(월) 오후 9:34:06: newlist accumulated current pwr:2701 load:1 globalload:1
+2020-10-19(월) 오후 9:34:09: newlist accumulated current pwr:2701 load:4 globalload:4
+2020-10-19(월) 오후 9:34:11: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 9:34:13: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 9:34:16: newlist accumulated current pwr:2701 load:5 globalload:5
+2020-10-19(월) 오후 9:34:18: newlist accumulated current pwr:2701 load:10 globalload:10
+2020-10-19(월) 오후 9:34:20: newlist accumulated current pwr:2701 load:15 globalload:15
+2020-10-19(월) 오후 9:34:22: newlist accumulated current pwr:2000 load:3 globalload:2
+2020-10-19(월) 오후 9:34:24: newlist accumulated current pwr:2701 load:1 globalload:1
+2020-10-19(월) 오후 9:34:26: newlist accumulated current pwr:2701 load:6 globalload:6
+2020-10-19(월) 오후 9:34:28: newlist accumulated current pwr:2701 load:6 globalload:6
+2020-10-19(월) 오후 9:34:30: newlist accumulated current pwr:2701 load:1 globalload:1
+2020-10-19(월) 오후 9:34:32: newlist accumulated current pwr:2701 load:1 globalload:1
+2020-10-19(월) 오후 9:34:34: newlist accumulated current pwr:2701 load:1 globalload:1
+2020-10-19(월) 오후 9:34:37: newlist accumulated current pwr:2300 load:2 globalload:1
+2020-10-19(월) 오후 9:34:39: newlist accumulated current pwr:2701 load:4 globalload:4
+2020-10-19(월) 오후 9:34:41: newlist accumulated current pwr:2701 load:7 globalload:7
+2020-10-19(월) 오후 9:34:43: newlist accumulated current pwr:2701 load:8 globalload:8
+2020-10-19(월) 오후 9:34:45: newlist accumulated current pwr:2701 load:0 globalload:0
+2020-10-19(월) 오후 9:34:47: newlist accumulated current pwr:2701 load:1 globalload:1
+2020-10-19(월) 오후 9:34:49: newlist accumulated current pwr:2300 load:2 globalload:1
+2020-10-19(월) 오후 9:34:51: newlist accumulated current pwr:2701 load:6 globalload:6
+2020-10-19(월) 오후 9:34:51: setting power: devenv to 73
+2020-10-19(월) 오후 9:34:51: setting CLK: 73
+2020-10-19(월) 오후 9:34:51: setting XTU: 7
+2020-10-19(월) 오후 9:34:56: setting GPU: performance
+2020-10-19(월) 오후 9:34:58: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:00: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:02: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:05: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:08: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:10: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:12: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:12: time to sync for newlist
+2020-10-19(월) 오후 9:35:14: no throttle cycle load = 6 ,clk = 1400 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:16: no throttle cycle load = 1 ,clk = 1600 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:18: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:20: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:23: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:25: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:27: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:29: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:31: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:33: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:35: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:38: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:40: no throttle cycle load = 8 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:42: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:44: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:46: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:48: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:50: no throttle cycle load = 21 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:52: no throttle cycle load = 12 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:55: no throttle cycle load = 13 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:57: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:35:59: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:01: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:03: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:05: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:07: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:09: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:12: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:14: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:16: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:18: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:20: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:22: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:24: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:26: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:29: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:31: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:33: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:35: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:37: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:39: no throttle cycle load = 8 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:41: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:43: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:46: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:48: no throttle cycle load = 10 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:50: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:52: no throttle cycle load = 12 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:54: no throttle cycle load = 8 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:56: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:36:58: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:00: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:03: no throttle cycle load = 12 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:05: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:07: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:09: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:11: no throttle cycle load = 8 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:13: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:15: no throttle cycle load = 12 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:17: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:20: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:22: no throttle cycle load = 8 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:24: no throttle cycle load = 10 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:26: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:28: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:30: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:32: no throttle cycle load = 15 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:34: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:37: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:39: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:41: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:43: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:45: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:47: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:49: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:51: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:54: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:56: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:37:58: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:00: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:02: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:04: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:06: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:09: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:11: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:13: no throttle cycle load = 4 ,clk = 1400 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:15: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:17: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:19: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:21: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:23: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:26: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:28: no throttle cycle load = 8 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:30: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:32: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:34: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:36: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:38: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:40: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:43: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:45: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:47: no throttle cycle load = 4 ,clk = 1600 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:49: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:51: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:53: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:55: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:38:57: no throttle cycle load = 18 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:00: no throttle cycle load = 20 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:02: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:04: no throttle cycle load = 11 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:06: no throttle cycle load = 21 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:08: no throttle cycle load = 24 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:10: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:12: no throttle cycle load = 26 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:15: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:17: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:19: no throttle cycle load = 13 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:21: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:23: no throttle cycle load = 0 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:25: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:27: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:29: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:31: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:34: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:36: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:38: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:40: no throttle cycle load = 8 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:42: no throttle cycle load = 42 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:44: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:39:59: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 9:39:59: reading: key = explorer, value = 0
+2020-10-19(월) 오후 9:39:59: reading: key = devenv, value = 5
+2020-10-19(월) 오후 9:39:59: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-19(월) 오후 9:39:59: reading: key = 0, value = 100
+2020-10-19(월) 오후 9:39:59: reading: key = 1, value = 99
+2020-10-19(월) 오후 9:39:59: reading: key = 2, value = 98
+2020-10-19(월) 오후 9:39:59: reading: key = 3, value = 95
+2020-10-19(월) 오후 9:39:59: reading: key = 4, value = 84
+2020-10-19(월) 오후 9:39:59: reading: key = 5, value = 73
+2020-10-19(월) 오후 9:39:59: reading: key = 6, value = 65
+2020-10-19(월) 오후 9:39:59: reading: key = 7, value = 58
+2020-10-19(월) 오후 9:39:59: reading: key = 8, value = 50
+2020-10-19(월) 오후 9:39:59: reading: key = 9, value = 43
+2020-10-19(월) 오후 9:39:59: reading: key = 10, value = 32
+2020-10-19(월) 오후 9:39:59: reading: key = 11, value = 24
+2020-10-19(월) 오후 9:39:59: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-19(월) 오후 9:39:59: reading: key = 11, value = 10
+2020-10-19(월) 오후 9:39:59: reading: key = 10, value = 9.5
+2020-10-19(월) 오후 9:39:59: reading: key = 9, value = 9
+2020-10-19(월) 오후 9:39:59: reading: key = 8, value = 8.5
+2020-10-19(월) 오후 9:40:00: reading: key = 7, value = 8
+2020-10-19(월) 오후 9:40:00: reading: key = 6, value = 7.5
+2020-10-19(월) 오후 9:40:00: reading: key = 5, value = 7
+2020-10-19(월) 오후 9:40:00: reading: key = 4, value = 6.5
+2020-10-19(월) 오후 9:40:00: reading: key = 3, value = 6
+2020-10-19(월) 오후 9:40:00: reading: key = 2, value = 5.5
+2020-10-19(월) 오후 9:40:00: reading: key = 1, value = 5
+2020-10-19(월) 오후 9:40:00: reading: key = 0, value = 4.5
+2020-10-19(월) 오후 9:40:00: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-19(월) 오후 9:40:00: reading: key = 0, value = Normal
+2020-10-19(월) 오후 9:40:00: reading: key = 1, value = Normal
+2020-10-19(월) 오후 9:40:00: reading: key = 2, value = Normal
+2020-10-19(월) 오후 9:40:00: reading: key = 3, value = Normal
+2020-10-19(월) 오후 9:40:00: reading: key = 4, value = Normal
+2020-10-19(월) 오후 9:40:00: reading: key = 5, value = Normal
+2020-10-19(월) 오후 9:40:00: reading: key = 6, value = Normal
+2020-10-19(월) 오후 9:40:00: reading: key = 7, value = Normal
+2020-10-19(월) 오후 9:40:00: importing settings for: loop_delay...
+2020-10-19(월) 오후 9:40:00: reading: key = loop_delay, value = 1
+2020-10-19(월) 오후 9:40:00: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-19(월) 오후 9:40:00: reading: key = boost_cycle_delay, value = 5
+2020-10-19(월) 오후 9:40:00: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-19(월) 오후 9:40:00: reading: key = newlist_cycle_delay, value = 30
+2020-10-19(월) 오후 9:40:00: importing settings for: processor_guid_tweak...
+2020-10-19(월) 오후 9:40:00: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-19(월) 오후 9:40:00: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-19(월) 오후 9:40:00: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-19(월) 오후 9:40:00: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-19(월) 오후 9:40:00: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-19(월) 오후 9:40:00: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-19(월) 오후 9:40:00: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-19(월) 오후 9:40:00: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-19(월) 오후 9:40:00: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-19(월) 오후 9:40:00: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-19(월) 오후 9:40:00: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-19(월) 오후 9:40:00: settings changed for: generatedCLK!, reimporting...
+2020-10-19(월) 오후 9:40:00: reading: key = 100, value = 2701
+2020-10-19(월) 오후 9:40:00: reading: key = 99, value = 2700
+2020-10-19(월) 오후 9:40:00: reading: key = 98, value = 2600
+2020-10-19(월) 오후 9:40:00: reading: key = 95, value = 2300
+2020-10-19(월) 오후 9:40:00: reading: key = 84, value = 2000
+2020-10-19(월) 오후 9:40:00: reading: key = 73, value = 1800
+2020-10-19(월) 오후 9:40:00: reading: key = 65, value = 1600
+2020-10-19(월) 오후 9:40:00: reading: key = 58, value = 1400
+2020-10-19(월) 오후 9:40:00: reading: key = 50, value = 1200
+2020-10-19(월) 오후 9:40:00: reading: key = 43, value = 900
+2020-10-19(월) 오후 9:40:00: reading: key = 32, value = 700
+2020-10-19(월) 오후 9:40:00: reading: key = 24, value = 500
+2020-10-19(월) 오후 9:40:00: settings changed for: generatedXTU!, reimporting...
+2020-10-19(월) 오후 9:40:00: reading: key = 24, value = 10
+2020-10-19(월) 오후 9:40:00: reading: key = 32, value = 9.5
+2020-10-19(월) 오후 9:40:00: reading: key = 43, value = 9
+2020-10-19(월) 오후 9:40:00: reading: key = 50, value = 8.5
+2020-10-19(월) 오후 9:40:00: reading: key = 58, value = 8
+2020-10-19(월) 오후 9:40:00: reading: key = 65, value = 7.5
+2020-10-19(월) 오후 9:40:00: reading: key = 73, value = 7
+2020-10-19(월) 오후 9:40:00: reading: key = 84, value = 6.5
+2020-10-19(월) 오후 9:40:00: reading: key = 95, value = 6
+2020-10-19(월) 오후 9:40:00: reading: key = 98, value = 5.5
+2020-10-19(월) 오후 9:40:00: reading: key = 99, value = 5
+2020-10-19(월) 오후 9:40:00: reading: key = 100, value = 4.5
+2020-10-19(월) 오후 9:40:00: importing settings for: throttle_median...
+2020-10-19(월) 오후 9:40:00: reading: key = throttle_median, value = 60
+2020-10-19(월) 오후 9:40:00: importing settings for: newlist_median...
+2020-10-19(월) 오후 9:40:00: reading: key = newlist_median, value = 50
+2020-10-19(월) 오후 9:40:00: importing settings for: gpuplan...
+2020-10-19(월) 오후 9:40:00: reading: key = gpuplan, value = 1
+2020-10-19(월) 오후 9:40:01: checking XTU cmdlet
+2020-10-19(월) 오후 9:40:04: XTU ok
+2020-10-19(월) 오후 9:40:08: result = 7
+2020-10-19(월) 오후 9:40:08: init PowerCFG settings
+2020-10-19(월) 오후 9:40:15: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 9:40:15: setting power back to 100
+2020-10-19(월) 오후 9:40:15: setting CLK: 100
+2020-10-19(월) 오후 9:40:15: setting XTU: 4.5
+2020-10-19(월) 오후 9:40:17: setting GPU: performance
+2020-10-19(월) 오후 9:40:17: start of newlist timer
+2020-10-19(월) 오후 9:40:19: newlist accumulated current pwr:1800 load:6 globalload:3
+2020-10-19(월) 오후 9:40:21: newlist accumulated current pwr:1400 load:6 globalload:3
+2020-10-19(월) 오후 9:40:23: newlist accumulated current pwr:1400 load:1 globalload:0
+2020-10-19(월) 오후 9:40:26: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 9:40:28: newlist accumulated current pwr:2300 load:2 globalload:1
+2020-10-19(월) 오후 9:40:30: newlist accumulated current pwr:2701 load:5 globalload:5
+2020-10-19(월) 오후 9:40:32: newlist accumulated current pwr:1800 load:3 globalload:1
+2020-10-19(월) 오후 9:40:34: newlist accumulated current pwr:2701 load:0 globalload:0
+2020-10-19(월) 오후 9:40:36: newlist accumulated current pwr:1800 load:1 globalload:0
+2020-10-19(월) 오후 9:40:38: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 9:40:40: newlist accumulated current pwr:1800 load:0 globalload:0
+2020-10-19(월) 오후 9:40:42: newlist accumulated current pwr:2300 load:16 globalload:13
+2020-10-19(월) 오후 9:40:44: newlist accumulated current pwr:2000 load:20 globalload:14
+2020-10-19(월) 오후 9:40:47: newlist accumulated current pwr:2701 load:5 globalload:5
+2020-10-19(월) 오후 9:40:49: newlist accumulated current pwr:2300 load:5 globalload:4
+2020-10-19(월) 오후 9:40:51: newlist accumulated current pwr:2000 load:8 globalload:5
+2020-10-19(월) 오후 9:40:53: newlist accumulated current pwr:2300 load:3 globalload:2
+2020-10-19(월) 오후 9:40:55: newlist accumulated current pwr:2000 load:2 globalload:1
+2020-10-19(월) 오후 9:40:57: newlist accumulated current pwr:2300 load:2 globalload:1
+2020-10-19(월) 오후 9:40:59: newlist accumulated current pwr:1800 load:1 globalload:0
+2020-10-19(월) 오후 9:41:01: newlist accumulated current pwr:2000 load:2 globalload:1
+2020-10-19(월) 오후 9:41:03: newlist accumulated current pwr:2300 load:4 globalload:3
+2020-10-19(월) 오후 9:41:05: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 9:42:20: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 9:42:20: reading: key = explorer, value = 0
+2020-10-19(월) 오후 9:42:20: reading: key = devenv, value = 5
+2020-10-19(월) 오후 9:42:20: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-19(월) 오후 9:42:20: reading: key = 0, value = 100
+2020-10-19(월) 오후 9:42:20: reading: key = 1, value = 99
+2020-10-19(월) 오후 9:42:20: reading: key = 2, value = 98
+2020-10-19(월) 오후 9:42:20: reading: key = 3, value = 95
+2020-10-19(월) 오후 9:42:20: reading: key = 4, value = 84
+2020-10-19(월) 오후 9:42:20: reading: key = 5, value = 73
+2020-10-19(월) 오후 9:42:20: reading: key = 6, value = 65
+2020-10-19(월) 오후 9:42:20: reading: key = 7, value = 58
+2020-10-19(월) 오후 9:42:20: reading: key = 8, value = 50
+2020-10-19(월) 오후 9:42:20: reading: key = 9, value = 43
+2020-10-19(월) 오후 9:42:20: reading: key = 10, value = 32
+2020-10-19(월) 오후 9:42:20: reading: key = 11, value = 24
+2020-10-19(월) 오후 9:42:20: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-19(월) 오후 9:42:20: reading: key = 11, value = 10
+2020-10-19(월) 오후 9:42:20: reading: key = 10, value = 9.5
+2020-10-19(월) 오후 9:42:20: reading: key = 9, value = 9
+2020-10-19(월) 오후 9:42:20: reading: key = 8, value = 8.5
+2020-10-19(월) 오후 9:42:20: reading: key = 7, value = 8
+2020-10-19(월) 오후 9:42:20: reading: key = 6, value = 7.5
+2020-10-19(월) 오후 9:42:20: reading: key = 5, value = 7
+2020-10-19(월) 오후 9:42:20: reading: key = 4, value = 6.5
+2020-10-19(월) 오후 9:42:20: reading: key = 3, value = 6
+2020-10-19(월) 오후 9:42:20: reading: key = 2, value = 5.5
+2020-10-19(월) 오후 9:42:20: reading: key = 1, value = 5
+2020-10-19(월) 오후 9:42:20: reading: key = 0, value = 4.5
+2020-10-19(월) 오후 9:42:20: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-19(월) 오후 9:42:20: reading: key = 0, value = Normal
+2020-10-19(월) 오후 9:42:20: reading: key = 1, value = Normal
+2020-10-19(월) 오후 9:42:20: reading: key = 2, value = Normal
+2020-10-19(월) 오후 9:42:20: reading: key = 3, value = Normal
+2020-10-19(월) 오후 9:42:20: reading: key = 4, value = Normal
+2020-10-19(월) 오후 9:42:20: reading: key = 5, value = Normal
+2020-10-19(월) 오후 9:42:20: reading: key = 6, value = Normal
+2020-10-19(월) 오후 9:42:20: reading: key = 7, value = Normal
+2020-10-19(월) 오후 9:42:20: importing settings for: loop_delay...
+2020-10-19(월) 오후 9:42:20: reading: key = loop_delay, value = 1
+2020-10-19(월) 오후 9:42:20: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-19(월) 오후 9:42:20: reading: key = boost_cycle_delay, value = 5
+2020-10-19(월) 오후 9:42:20: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-19(월) 오후 9:42:20: reading: key = newlist_cycle_delay, value = 30
+2020-10-19(월) 오후 9:42:20: importing settings for: processor_guid_tweak...
+2020-10-19(월) 오후 9:42:20: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-19(월) 오후 9:42:20: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-19(월) 오후 9:42:20: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-19(월) 오후 9:42:20: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-19(월) 오후 9:42:20: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-19(월) 오후 9:42:20: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-19(월) 오후 9:42:20: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-19(월) 오후 9:42:20: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-19(월) 오후 9:42:20: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-19(월) 오후 9:42:20: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-19(월) 오후 9:42:20: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-19(월) 오후 9:42:20: settings changed for: generatedCLK!, reimporting...
+2020-10-19(월) 오후 9:42:20: reading: key = 100, value = 2701
+2020-10-19(월) 오후 9:42:20: reading: key = 99, value = 2700
+2020-10-19(월) 오후 9:42:20: reading: key = 98, value = 2600
+2020-10-19(월) 오후 9:42:20: reading: key = 95, value = 2300
+2020-10-19(월) 오후 9:42:20: reading: key = 84, value = 2000
+2020-10-19(월) 오후 9:42:20: reading: key = 73, value = 1800
+2020-10-19(월) 오후 9:42:20: reading: key = 65, value = 1600
+2020-10-19(월) 오후 9:42:20: reading: key = 58, value = 1400
+2020-10-19(월) 오후 9:42:20: reading: key = 50, value = 1200
+2020-10-19(월) 오후 9:42:20: reading: key = 43, value = 900
+2020-10-19(월) 오후 9:42:20: reading: key = 32, value = 700
+2020-10-19(월) 오후 9:42:20: reading: key = 24, value = 500
+2020-10-19(월) 오후 9:42:20: settings changed for: generatedXTU!, reimporting...
+2020-10-19(월) 오후 9:42:20: reading: key = 24, value = 10
+2020-10-19(월) 오후 9:42:20: reading: key = 32, value = 9.5
+2020-10-19(월) 오후 9:42:20: reading: key = 43, value = 9
+2020-10-19(월) 오후 9:42:20: reading: key = 50, value = 8.5
+2020-10-19(월) 오후 9:42:20: reading: key = 58, value = 8
+2020-10-19(월) 오후 9:42:20: reading: key = 65, value = 7.5
+2020-10-19(월) 오후 9:42:20: reading: key = 73, value = 7
+2020-10-19(월) 오후 9:42:20: reading: key = 84, value = 6.5
+2020-10-19(월) 오후 9:42:20: reading: key = 95, value = 6
+2020-10-19(월) 오후 9:42:20: reading: key = 98, value = 5.5
+2020-10-19(월) 오후 9:42:20: reading: key = 99, value = 5
+2020-10-19(월) 오후 9:42:20: reading: key = 100, value = 4.5
+2020-10-19(월) 오후 9:42:20: importing settings for: throttle_median...
+2020-10-19(월) 오후 9:42:20: reading: key = throttle_median, value = 60
+2020-10-19(월) 오후 9:42:20: importing settings for: newlist_median...
+2020-10-19(월) 오후 9:42:20: reading: key = newlist_median, value = 50
+2020-10-19(월) 오후 9:42:20: importing settings for: gpuplan...
+2020-10-19(월) 오후 9:42:20: reading: key = gpuplan, value = 1
+2020-10-19(월) 오후 9:42:22: checking XTU cmdlet
+2020-10-19(월) 오후 9:42:24: XTU ok
+2020-10-19(월) 오후 9:42:26: result = 4.5
+2020-10-19(월) 오후 9:42:26: init PowerCFG settings
+2020-10-19(월) 오후 9:42:32: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 9:42:32: start of newlist timer
+2020-10-19(월) 오후 9:42:35: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 9:42:37: newlist accumulated current pwr:2701 load:4 globalload:4
+2020-10-19(월) 오후 9:42:39: newlist accumulated current pwr:2701 load:6 globalload:6
+2020-10-19(월) 오후 9:42:41: newlist accumulated current pwr:2000 load:6 globalload:4
+2020-10-19(월) 오후 9:42:43: newlist accumulated current pwr:2300 load:3 globalload:2
+2020-10-19(월) 오후 9:42:45: newlist accumulated current pwr:2701 load:5 globalload:5
+2020-10-19(월) 오후 9:42:47: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 9:43:47: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 9:43:47: reading: key = explorer, value = 0
+2020-10-19(월) 오후 9:43:47: reading: key = devenv, value = 5
+2020-10-19(월) 오후 9:43:47: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-19(월) 오후 9:43:47: reading: key = 0, value = 100
+2020-10-19(월) 오후 9:43:47: reading: key = 1, value = 99
+2020-10-19(월) 오후 9:43:47: reading: key = 2, value = 98
+2020-10-19(월) 오후 9:43:47: reading: key = 3, value = 95
+2020-10-19(월) 오후 9:43:47: reading: key = 4, value = 84
+2020-10-19(월) 오후 9:43:47: reading: key = 5, value = 73
+2020-10-19(월) 오후 9:43:47: reading: key = 6, value = 65
+2020-10-19(월) 오후 9:43:47: reading: key = 7, value = 58
+2020-10-19(월) 오후 9:43:47: reading: key = 8, value = 50
+2020-10-19(월) 오후 9:43:47: reading: key = 9, value = 43
+2020-10-19(월) 오후 9:43:47: reading: key = 10, value = 32
+2020-10-19(월) 오후 9:43:47: reading: key = 11, value = 24
+2020-10-19(월) 오후 9:43:47: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-19(월) 오후 9:43:47: reading: key = 11, value = 10
+2020-10-19(월) 오후 9:43:47: reading: key = 10, value = 9.5
+2020-10-19(월) 오후 9:43:47: reading: key = 9, value = 9
+2020-10-19(월) 오후 9:43:47: reading: key = 8, value = 8.5
+2020-10-19(월) 오후 9:43:48: reading: key = 7, value = 8
+2020-10-19(월) 오후 9:43:48: reading: key = 6, value = 7.5
+2020-10-19(월) 오후 9:43:48: reading: key = 5, value = 7
+2020-10-19(월) 오후 9:43:48: reading: key = 4, value = 6.5
+2020-10-19(월) 오후 9:43:48: reading: key = 3, value = 6
+2020-10-19(월) 오후 9:43:48: reading: key = 2, value = 5.5
+2020-10-19(월) 오후 9:43:48: reading: key = 1, value = 5
+2020-10-19(월) 오후 9:43:48: reading: key = 0, value = 4.5
+2020-10-19(월) 오후 9:43:48: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-19(월) 오후 9:43:48: reading: key = 0, value = Normal
+2020-10-19(월) 오후 9:43:48: reading: key = 1, value = Normal
+2020-10-19(월) 오후 9:43:48: reading: key = 2, value = Normal
+2020-10-19(월) 오후 9:43:48: reading: key = 3, value = Normal
+2020-10-19(월) 오후 9:43:48: reading: key = 4, value = Normal
+2020-10-19(월) 오후 9:43:48: reading: key = 5, value = Normal
+2020-10-19(월) 오후 9:43:48: reading: key = 6, value = Normal
+2020-10-19(월) 오후 9:43:48: reading: key = 7, value = Normal
+2020-10-19(월) 오후 9:43:48: importing settings for: loop_delay...
+2020-10-19(월) 오후 9:43:48: reading: key = loop_delay, value = 1
+2020-10-19(월) 오후 9:43:48: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-19(월) 오후 9:43:48: reading: key = boost_cycle_delay, value = 5
+2020-10-19(월) 오후 9:43:48: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-19(월) 오후 9:43:48: reading: key = newlist_cycle_delay, value = 30
+2020-10-19(월) 오후 9:43:48: importing settings for: processor_guid_tweak...
+2020-10-19(월) 오후 9:43:48: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-19(월) 오후 9:43:48: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-19(월) 오후 9:43:48: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-19(월) 오후 9:43:48: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-19(월) 오후 9:43:48: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-19(월) 오후 9:43:48: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-19(월) 오후 9:43:48: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-19(월) 오후 9:43:48: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-19(월) 오후 9:43:48: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-19(월) 오후 9:43:48: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-19(월) 오후 9:43:48: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-19(월) 오후 9:43:48: settings changed for: generatedCLK!, reimporting...
+2020-10-19(월) 오후 9:43:48: reading: key = 100, value = 2701
+2020-10-19(월) 오후 9:43:48: reading: key = 99, value = 2700
+2020-10-19(월) 오후 9:43:48: reading: key = 98, value = 2600
+2020-10-19(월) 오후 9:43:48: reading: key = 95, value = 2300
+2020-10-19(월) 오후 9:43:48: reading: key = 84, value = 2000
+2020-10-19(월) 오후 9:43:48: reading: key = 73, value = 1800
+2020-10-19(월) 오후 9:43:48: reading: key = 65, value = 1600
+2020-10-19(월) 오후 9:43:48: reading: key = 58, value = 1400
+2020-10-19(월) 오후 9:43:48: reading: key = 50, value = 1200
+2020-10-19(월) 오후 9:43:48: reading: key = 43, value = 900
+2020-10-19(월) 오후 9:43:48: reading: key = 32, value = 700
+2020-10-19(월) 오후 9:43:48: reading: key = 24, value = 500
+2020-10-19(월) 오후 9:43:48: settings changed for: generatedXTU!, reimporting...
+2020-10-19(월) 오후 9:43:48: reading: key = 24, value = 10
+2020-10-19(월) 오후 9:43:48: reading: key = 32, value = 9.5
+2020-10-19(월) 오후 9:43:48: reading: key = 43, value = 9
+2020-10-19(월) 오후 9:43:48: reading: key = 50, value = 8.5
+2020-10-19(월) 오후 9:43:48: reading: key = 58, value = 8
+2020-10-19(월) 오후 9:43:48: reading: key = 65, value = 7.5
+2020-10-19(월) 오후 9:43:48: reading: key = 73, value = 7
+2020-10-19(월) 오후 9:43:48: reading: key = 84, value = 6.5
+2020-10-19(월) 오후 9:43:48: reading: key = 95, value = 6
+2020-10-19(월) 오후 9:43:48: reading: key = 98, value = 5.5
+2020-10-19(월) 오후 9:43:48: reading: key = 99, value = 5
+2020-10-19(월) 오후 9:43:48: reading: key = 100, value = 4.5
+2020-10-19(월) 오후 9:43:48: importing settings for: throttle_median...
+2020-10-19(월) 오후 9:43:48: reading: key = throttle_median, value = 60
+2020-10-19(월) 오후 9:43:48: importing settings for: newlist_median...
+2020-10-19(월) 오후 9:43:48: reading: key = newlist_median, value = 50
+2020-10-19(월) 오후 9:43:48: importing settings for: gpuplan...
+2020-10-19(월) 오후 9:43:48: reading: key = gpuplan, value = 1
+2020-10-19(월) 오후 9:43:49: checking XTU cmdlet
+2020-10-19(월) 오후 9:43:51: XTU ok
+2020-10-19(월) 오후 9:43:53: result = 4.5
+2020-10-19(월) 오후 9:43:53: init PowerCFG settings
+2020-10-19(월) 오후 9:43:59: newlist accumulated current pwr:2000 load:1 globalload:0
+2020-10-19(월) 오후 9:43:59: start of newlist timer
+2020-10-19(월) 오후 9:44:01: newlist accumulated current pwr:2000 load:2 globalload:1
+2020-10-19(월) 오후 9:44:03: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 9:44:05: newlist accumulated current pwr:2300 load:5 globalload:4
+2020-10-19(월) 오후 9:44:07: newlist accumulated current pwr:2701 load:18 globalload:18
+2020-10-19(월) 오후 9:44:09: newlist accumulated current pwr:2000 load:3 globalload:2
+2020-10-19(월) 오후 9:44:11: newlist accumulated current pwr:2701 load:0 globalload:0
+2020-10-19(월) 오후 9:44:13: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 9:44:15: newlist accumulated current pwr:2300 load:7 globalload:5
+2020-10-19(월) 오후 9:44:18: newlist accumulated current pwr:1600 load:3 globalload:1
+2020-10-19(월) 오후 9:44:20: newlist accumulated current pwr:1800 load:2 globalload:1
+2020-10-19(월) 오후 9:44:22: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 9:44:24: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 9:44:26: newlist accumulated current pwr:2000 load:0 globalload:0
+2020-10-19(월) 오후 9:44:28: newlist accumulated current pwr:1800 load:2 globalload:1
+2020-10-19(월) 오후 9:44:30: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 9:44:32: newlist accumulated current pwr:1800 load:3 globalload:1
+2020-10-19(월) 오후 9:44:34: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 9:44:36: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 9:44:39: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 9:44:41: newlist accumulated current pwr:2701 load:4 globalload:4
+2020-10-19(월) 오후 9:44:43: newlist accumulated current pwr:2701 load:12 globalload:12
+2020-10-19(월) 오후 9:44:45: newlist accumulated current pwr:2000 load:2 globalload:1
+2020-10-19(월) 오후 9:44:47: newlist accumulated current pwr:2701 load:1 globalload:1
+2020-10-19(월) 오후 9:44:49: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 9:44:51: newlist accumulated current pwr:1800 load:3 globalload:1
+2020-10-19(월) 오후 9:44:53: newlist accumulated current pwr:2300 load:4 globalload:3
+2020-10-19(월) 오후 9:44:55: newlist accumulated current pwr:2000 load:0 globalload:0
+2020-10-19(월) 오후 9:44:57: newlist accumulated current pwr:1400 load:0 globalload:0
+2020-10-19(월) 오후 9:45:00: newlist accumulated current pwr:2701 load:8 globalload:8
+2020-10-19(월) 오후 9:45:02: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 9:45:02: time to sync for newlist
+2020-10-19(월) 오후 9:45:02: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:02: setting CLK: 73
+2020-10-19(월) 오후 9:45:02: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:04: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:04: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:04: setting CLK: 73
+2020-10-19(월) 오후 9:45:04: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:06: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:06: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:07: setting CLK: 73
+2020-10-19(월) 오후 9:45:07: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:09: no throttle cycle load = 0 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:09: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:09: setting CLK: 73
+2020-10-19(월) 오후 9:45:09: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:11: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:11: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:11: setting CLK: 73
+2020-10-19(월) 오후 9:45:12: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:14: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:14: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:14: setting CLK: 73
+2020-10-19(월) 오후 9:45:14: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:16: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:16: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:16: setting CLK: 73
+2020-10-19(월) 오후 9:45:16: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:19: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:19: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:19: setting CLK: 73
+2020-10-19(월) 오후 9:45:19: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:21: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:21: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:21: setting CLK: 73
+2020-10-19(월) 오후 9:45:21: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:23: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:23: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:24: setting CLK: 73
+2020-10-19(월) 오후 9:45:24: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:26: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:26: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:26: setting CLK: 73
+2020-10-19(월) 오후 9:45:26: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:28: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:28: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:28: setting CLK: 73
+2020-10-19(월) 오후 9:45:29: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:31: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:31: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:31: setting CLK: 73
+2020-10-19(월) 오후 9:45:31: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:33: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:33: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:33: setting CLK: 73
+2020-10-19(월) 오후 9:45:33: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:35: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:35: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:36: setting CLK: 73
+2020-10-19(월) 오후 9:45:36: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:38: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:38: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:38: setting CLK: 73
+2020-10-19(월) 오후 9:45:38: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:40: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:40: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:40: setting CLK: 73
+2020-10-19(월) 오후 9:45:41: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:43: no throttle cycle load = 37 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:43: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:43: setting CLK: 73
+2020-10-19(월) 오후 9:45:43: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:45: no throttle cycle load = 17 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:45: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:45: setting CLK: 73
+2020-10-19(월) 오후 9:45:46: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:48: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:48: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:48: setting CLK: 73
+2020-10-19(월) 오후 9:45:48: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:50: no throttle cycle load = 15 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:50: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:50: setting CLK: 73
+2020-10-19(월) 오후 9:45:50: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:53: no throttle cycle load = 18 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:53: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:53: setting CLK: 73
+2020-10-19(월) 오후 9:45:53: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:55: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:55: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:55: setting CLK: 73
+2020-10-19(월) 오후 9:45:55: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:45:57: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:45:57: setting power: devenv to 73
+2020-10-19(월) 오후 9:45:58: setting CLK: 73
+2020-10-19(월) 오후 9:45:58: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:00: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:00: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:00: setting CLK: 73
+2020-10-19(월) 오후 9:46:00: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:02: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:02: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:03: setting CLK: 73
+2020-10-19(월) 오후 9:46:03: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:05: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:05: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:05: setting CLK: 73
+2020-10-19(월) 오후 9:46:05: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:07: no throttle cycle load = 13 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:07: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:07: setting CLK: 73
+2020-10-19(월) 오후 9:46:07: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:10: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:10: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:10: setting CLK: 73
+2020-10-19(월) 오후 9:46:10: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:12: no throttle cycle load = 12 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:12: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:12: setting CLK: 73
+2020-10-19(월) 오후 9:46:12: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:14: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:14: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:15: setting CLK: 73
+2020-10-19(월) 오후 9:46:15: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:17: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:17: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:17: setting CLK: 73
+2020-10-19(월) 오후 9:46:17: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:19: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:19: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:19: setting CLK: 73
+2020-10-19(월) 오후 9:46:20: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:22: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:22: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:22: setting CLK: 73
+2020-10-19(월) 오후 9:46:22: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:24: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:24: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:24: setting CLK: 73
+2020-10-19(월) 오후 9:46:24: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:27: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:27: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:27: setting CLK: 73
+2020-10-19(월) 오후 9:46:27: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:29: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:29: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:29: setting CLK: 73
+2020-10-19(월) 오후 9:46:29: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:31: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:31: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:32: setting CLK: 73
+2020-10-19(월) 오후 9:46:32: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:34: no throttle cycle load = 11 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:34: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:34: setting CLK: 73
+2020-10-19(월) 오후 9:46:34: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:36: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:36: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:36: setting CLK: 73
+2020-10-19(월) 오후 9:46:36: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:39: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:39: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:39: setting CLK: 73
+2020-10-19(월) 오후 9:46:39: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:41: no throttle cycle load = 13 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:41: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:41: setting CLK: 73
+2020-10-19(월) 오후 9:46:41: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:43: no throttle cycle load = 10 ,clk = 1600 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:43: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:44: setting CLK: 73
+2020-10-19(월) 오후 9:46:44: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:46: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:46: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:46: setting CLK: 73
+2020-10-19(월) 오후 9:46:46: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:48: no throttle cycle load = 15 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:48: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:49: setting CLK: 73
+2020-10-19(월) 오후 9:46:49: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:51: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:51: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:51: setting CLK: 73
+2020-10-19(월) 오후 9:46:51: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:53: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:53: setting power: devenv to 73
+2020-10-19(월) 오후 9:46:53: setting CLK: 73
+2020-10-19(월) 오후 9:46:54: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:46:56: no throttle cycle load = 2 ,clk = 1400 ,throttledelay = 0
+2020-10-19(월) 오후 9:46:58: newlist accumulated current pwr:1800 load:9 globalload:5
+2020-10-19(월) 오후 9:46:58: using EMA...
+2020-10-19(월) 오후 9:47:05: appending: key = ConsoleApplication41, value = 5
+2020-10-19(월) 오후 9:47:05: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 9:47:05: reading: key = explorer, value = 0
+2020-10-19(월) 오후 9:47:05: reading: key = devenv, value = 5
+2020-10-19(월) 오후 9:47:05: reading: key = ConsoleApplication41, value = 5
+2020-10-19(월) 오후 9:47:05: setting power: ConsoleApplication41 to 73
+2020-10-19(월) 오후 9:47:05: setting CLK: 73
+2020-10-19(월) 오후 9:47:05: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:07: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:07: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:08: setting CLK: 73
+2020-10-19(월) 오후 9:47:08: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:10: no throttle cycle load = 11 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:10: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:10: setting CLK: 73
+2020-10-19(월) 오후 9:47:10: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:12: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:12: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:12: setting CLK: 73
+2020-10-19(월) 오후 9:47:13: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:15: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:15: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:15: setting CLK: 73
+2020-10-19(월) 오후 9:47:15: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:17: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:17: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:17: setting CLK: 73
+2020-10-19(월) 오후 9:47:17: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:19: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:20: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:20: setting CLK: 73
+2020-10-19(월) 오후 9:47:20: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:22: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:22: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:22: setting CLK: 73
+2020-10-19(월) 오후 9:47:22: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:24: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:24: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:25: setting CLK: 73
+2020-10-19(월) 오후 9:47:25: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:27: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:27: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:27: setting CLK: 73
+2020-10-19(월) 오후 9:47:27: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:29: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:29: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:29: setting CLK: 73
+2020-10-19(월) 오후 9:47:29: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:32: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:32: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:32: setting CLK: 73
+2020-10-19(월) 오후 9:47:32: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:34: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:34: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:34: setting CLK: 73
+2020-10-19(월) 오후 9:47:34: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:36: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:36: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:37: setting CLK: 73
+2020-10-19(월) 오후 9:47:37: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:39: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:39: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:39: setting CLK: 73
+2020-10-19(월) 오후 9:47:39: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:41: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:41: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:41: setting CLK: 73
+2020-10-19(월) 오후 9:47:42: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:44: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:44: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:44: setting CLK: 73
+2020-10-19(월) 오후 9:47:44: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:46: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:46: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:46: setting CLK: 73
+2020-10-19(월) 오후 9:47:46: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:48: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:49: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:49: setting CLK: 73
+2020-10-19(월) 오후 9:47:49: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:51: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:51: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:51: setting CLK: 73
+2020-10-19(월) 오후 9:47:51: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:53: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:53: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:53: setting CLK: 73
+2020-10-19(월) 오후 9:47:54: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:56: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:56: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:56: setting CLK: 73
+2020-10-19(월) 오후 9:47:56: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:47:58: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:47:58: setting power: devenv to 73
+2020-10-19(월) 오후 9:47:58: setting CLK: 73
+2020-10-19(월) 오후 9:47:58: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:48:01: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:48:01: setting power: devenv to 73
+2020-10-19(월) 오후 9:48:01: setting CLK: 73
+2020-10-19(월) 오후 9:48:01: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:48:03: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:48:03: setting power: devenv to 73
+2020-10-19(월) 오후 9:48:03: setting CLK: 73
+2020-10-19(월) 오후 9:48:03: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:48:05: no throttle cycle load = 8 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:48:05: setting power: devenv to 73
+2020-10-19(월) 오후 9:48:06: setting CLK: 73
+2020-10-19(월) 오후 9:48:06: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:48:08: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:48:08: setting power: devenv to 73
+2020-10-19(월) 오후 9:48:08: setting CLK: 73
+2020-10-19(월) 오후 9:48:08: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:48:10: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:48:10: setting power: devenv to 73
+2020-10-19(월) 오후 9:48:10: setting CLK: 73
+2020-10-19(월) 오후 9:48:11: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:48:13: no throttle cycle load = 0 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:48:13: setting power: devenv to 73
+2020-10-19(월) 오후 9:48:13: setting CLK: 73
+2020-10-19(월) 오후 9:48:13: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:48:15: no throttle cycle load = 0 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:48:15: setting power: devenv to 73
+2020-10-19(월) 오후 9:48:15: setting CLK: 73
+2020-10-19(월) 오후 9:48:15: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:48:18: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:48:18: setting power: devenv to 73
+2020-10-19(월) 오후 9:48:18: setting CLK: 73
+2020-10-19(월) 오후 9:48:18: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:48:20: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:48:20: setting power: devenv to 73
+2020-10-19(월) 오후 9:48:20: setting CLK: 73
+2020-10-19(월) 오후 9:48:20: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:48:22: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:48:22: setting power: devenv to 73
+2020-10-19(월) 오후 9:48:23: setting CLK: 73
+2020-10-19(월) 오후 9:48:23: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:48:25: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:48:25: setting power: devenv to 73
+2020-10-19(월) 오후 9:48:25: setting CLK: 73
+2020-10-19(월) 오후 9:48:25: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:48:27: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:48:27: setting power: devenv to 73
+2020-10-19(월) 오후 9:48:27: setting CLK: 73
+2020-10-19(월) 오후 9:48:28: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:48:30: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:48:30: setting power: devenv to 73
+2020-10-19(월) 오후 9:48:30: setting CLK: 73
+2020-10-19(월) 오후 9:48:30: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:48:32: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:49:22: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 9:49:22: reading: key = explorer, value = 0
+2020-10-19(월) 오후 9:49:22: reading: key = devenv, value = 5
+2020-10-19(월) 오후 9:49:22: reading: key = ConsoleApplication41, value = 5
+2020-10-19(월) 오후 9:49:22: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-19(월) 오후 9:49:22: reading: key = 0, value = 100
+2020-10-19(월) 오후 9:49:22: reading: key = 1, value = 99
+2020-10-19(월) 오후 9:49:22: reading: key = 2, value = 98
+2020-10-19(월) 오후 9:49:22: reading: key = 3, value = 95
+2020-10-19(월) 오후 9:49:22: reading: key = 4, value = 84
+2020-10-19(월) 오후 9:49:22: reading: key = 5, value = 73
+2020-10-19(월) 오후 9:49:22: reading: key = 6, value = 65
+2020-10-19(월) 오후 9:49:22: reading: key = 7, value = 58
+2020-10-19(월) 오후 9:49:22: reading: key = 8, value = 50
+2020-10-19(월) 오후 9:49:22: reading: key = 9, value = 43
+2020-10-19(월) 오후 9:49:22: reading: key = 10, value = 32
+2020-10-19(월) 오후 9:49:22: reading: key = 11, value = 24
+2020-10-19(월) 오후 9:49:22: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-19(월) 오후 9:49:22: reading: key = 11, value = 10
+2020-10-19(월) 오후 9:49:22: reading: key = 10, value = 9.5
+2020-10-19(월) 오후 9:49:22: reading: key = 9, value = 9
+2020-10-19(월) 오후 9:49:22: reading: key = 8, value = 8.5
+2020-10-19(월) 오후 9:49:23: reading: key = 7, value = 8
+2020-10-19(월) 오후 9:49:23: reading: key = 6, value = 7.5
+2020-10-19(월) 오후 9:49:23: reading: key = 5, value = 7
+2020-10-19(월) 오후 9:49:23: reading: key = 4, value = 6.5
+2020-10-19(월) 오후 9:49:23: reading: key = 3, value = 6
+2020-10-19(월) 오후 9:49:23: reading: key = 2, value = 5.5
+2020-10-19(월) 오후 9:49:23: reading: key = 1, value = 5
+2020-10-19(월) 오후 9:49:23: reading: key = 0, value = 4.5
+2020-10-19(월) 오후 9:49:23: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-19(월) 오후 9:49:23: reading: key = 0, value = Normal
+2020-10-19(월) 오후 9:49:23: reading: key = 1, value = Normal
+2020-10-19(월) 오후 9:49:23: reading: key = 2, value = Normal
+2020-10-19(월) 오후 9:49:23: reading: key = 3, value = Normal
+2020-10-19(월) 오후 9:49:23: reading: key = 4, value = Normal
+2020-10-19(월) 오후 9:49:23: reading: key = 5, value = Normal
+2020-10-19(월) 오후 9:49:23: reading: key = 6, value = Normal
+2020-10-19(월) 오후 9:49:23: reading: key = 7, value = Normal
+2020-10-19(월) 오후 9:49:23: importing settings for: loop_delay...
+2020-10-19(월) 오후 9:49:23: reading: key = loop_delay, value = 1
+2020-10-19(월) 오후 9:49:23: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-19(월) 오후 9:49:23: reading: key = boost_cycle_delay, value = 5
+2020-10-19(월) 오후 9:49:23: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-19(월) 오후 9:49:23: reading: key = newlist_cycle_delay, value = 30
+2020-10-19(월) 오후 9:49:23: importing settings for: processor_guid_tweak...
+2020-10-19(월) 오후 9:49:23: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-19(월) 오후 9:49:23: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-19(월) 오후 9:49:23: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-19(월) 오후 9:49:23: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-19(월) 오후 9:49:23: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-19(월) 오후 9:49:23: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-19(월) 오후 9:49:23: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-19(월) 오후 9:49:23: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-19(월) 오후 9:49:23: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-19(월) 오후 9:49:23: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-19(월) 오후 9:49:23: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-19(월) 오후 9:49:23: settings changed for: generatedCLK!, reimporting...
+2020-10-19(월) 오후 9:49:23: reading: key = 100, value = 2701
+2020-10-19(월) 오후 9:49:23: reading: key = 99, value = 2700
+2020-10-19(월) 오후 9:49:23: reading: key = 98, value = 2600
+2020-10-19(월) 오후 9:49:23: reading: key = 95, value = 2300
+2020-10-19(월) 오후 9:49:23: reading: key = 84, value = 2000
+2020-10-19(월) 오후 9:49:23: reading: key = 73, value = 1800
+2020-10-19(월) 오후 9:49:23: reading: key = 65, value = 1600
+2020-10-19(월) 오후 9:49:23: reading: key = 58, value = 1400
+2020-10-19(월) 오후 9:49:23: reading: key = 50, value = 1200
+2020-10-19(월) 오후 9:49:23: reading: key = 43, value = 900
+2020-10-19(월) 오후 9:49:23: reading: key = 32, value = 700
+2020-10-19(월) 오후 9:49:23: reading: key = 24, value = 500
+2020-10-19(월) 오후 9:49:23: settings changed for: generatedXTU!, reimporting...
+2020-10-19(월) 오후 9:49:23: reading: key = 24, value = 10
+2020-10-19(월) 오후 9:49:23: reading: key = 32, value = 9.5
+2020-10-19(월) 오후 9:49:23: reading: key = 43, value = 9
+2020-10-19(월) 오후 9:49:23: reading: key = 50, value = 8.5
+2020-10-19(월) 오후 9:49:23: reading: key = 58, value = 8
+2020-10-19(월) 오후 9:49:23: reading: key = 65, value = 7.5
+2020-10-19(월) 오후 9:49:23: reading: key = 73, value = 7
+2020-10-19(월) 오후 9:49:23: reading: key = 84, value = 6.5
+2020-10-19(월) 오후 9:49:23: reading: key = 95, value = 6
+2020-10-19(월) 오후 9:49:23: reading: key = 98, value = 5.5
+2020-10-19(월) 오후 9:49:23: reading: key = 99, value = 5
+2020-10-19(월) 오후 9:49:23: reading: key = 100, value = 4.5
+2020-10-19(월) 오후 9:49:23: importing settings for: throttle_median...
+2020-10-19(월) 오후 9:49:23: reading: key = throttle_median, value = 60
+2020-10-19(월) 오후 9:49:23: importing settings for: newlist_median...
+2020-10-19(월) 오후 9:49:23: reading: key = newlist_median, value = 50
+2020-10-19(월) 오후 9:49:23: importing settings for: gpuplan...
+2020-10-19(월) 오후 9:49:23: reading: key = gpuplan, value = 1
+2020-10-19(월) 오후 9:49:25: checking XTU cmdlet
+2020-10-19(월) 오후 9:49:28: XTU ok
+2020-10-19(월) 오후 9:49:32: result = 4.5
+2020-10-19(월) 오후 9:49:32: init PowerCFG settings
+2020-10-19(월) 오후 9:50:04: setting power: devenv to 73
+2020-10-19(월) 오후 9:50:04: setting CLK: 73
+2020-10-19(월) 오후 9:50:04: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:50:06: no throttle cycle load = 19 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:50:41: setting power: devenv to 73
+2020-10-19(월) 오후 9:50:41: setting CLK: 73
+2020-10-19(월) 오후 9:50:41: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:50:43: no throttle cycle load = 13 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:51:29: setting power: devenv to 73
+2020-10-19(월) 오후 9:51:29: setting CLK: 73
+2020-10-19(월) 오후 9:51:30: oh no, XTU value bad... you may want to restart your computer
+2020-10-19(월) 오후 9:51:32: no throttle cycle load = 27 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 9:52:54: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 9:52:54: reading: key = explorer, value = 0
+2020-10-19(월) 오후 9:52:54: reading: key = devenv, value = 5
+2020-10-19(월) 오후 9:52:54: reading: key = ConsoleApplication41, value = 5
+2020-10-19(월) 오후 9:52:54: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-19(월) 오후 9:52:54: reading: key = 0, value = 100
+2020-10-19(월) 오후 9:52:54: reading: key = 1, value = 99
+2020-10-19(월) 오후 9:52:54: reading: key = 2, value = 98
+2020-10-19(월) 오후 9:52:54: reading: key = 3, value = 95
+2020-10-19(월) 오후 9:52:54: reading: key = 4, value = 84
+2020-10-19(월) 오후 9:52:54: reading: key = 5, value = 73
+2020-10-19(월) 오후 9:52:54: reading: key = 6, value = 65
+2020-10-19(월) 오후 9:52:54: reading: key = 7, value = 58
+2020-10-19(월) 오후 9:52:54: reading: key = 8, value = 50
+2020-10-19(월) 오후 9:52:54: reading: key = 9, value = 43
+2020-10-19(월) 오후 9:52:54: reading: key = 10, value = 32
+2020-10-19(월) 오후 9:52:54: reading: key = 11, value = 24
+2020-10-19(월) 오후 9:52:54: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-19(월) 오후 9:52:54: reading: key = 11, value = 10
+2020-10-19(월) 오후 9:52:54: reading: key = 10, value = 9.5
+2020-10-19(월) 오후 9:52:55: reading: key = 9, value = 9
+2020-10-19(월) 오후 9:52:55: reading: key = 8, value = 8.5
+2020-10-19(월) 오후 9:52:55: reading: key = 7, value = 8
+2020-10-19(월) 오후 9:52:55: reading: key = 6, value = 7.5
+2020-10-19(월) 오후 9:52:55: reading: key = 5, value = 7
+2020-10-19(월) 오후 9:52:55: reading: key = 4, value = 6.5
+2020-10-19(월) 오후 9:52:55: reading: key = 3, value = 6
+2020-10-19(월) 오후 9:52:55: reading: key = 2, value = 5.5
+2020-10-19(월) 오후 9:52:55: reading: key = 1, value = 5
+2020-10-19(월) 오후 9:52:55: reading: key = 0, value = 4.5
+2020-10-19(월) 오후 9:52:55: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-19(월) 오후 9:52:55: reading: key = 0, value = Normal
+2020-10-19(월) 오후 9:52:55: reading: key = 1, value = Normal
+2020-10-19(월) 오후 9:52:55: reading: key = 2, value = Normal
+2020-10-19(월) 오후 9:52:55: reading: key = 3, value = Normal
+2020-10-19(월) 오후 9:52:55: reading: key = 4, value = Normal
+2020-10-19(월) 오후 9:52:55: reading: key = 5, value = Normal
+2020-10-19(월) 오후 9:52:55: reading: key = 6, value = Normal
+2020-10-19(월) 오후 9:52:55: reading: key = 7, value = Normal
+2020-10-19(월) 오후 9:52:55: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\loop_delay.txt
+2020-10-19(월) 오후 9:52:55: settings changed for: loop_delay!, reimporting...
+2020-10-19(월) 오후 9:52:55: reading: key = loop_delay, value = 5
+2020-10-19(월) 오후 9:52:55: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\boost_cycle_delay.txt
+2020-10-19(월) 오후 9:52:55: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-19(월) 오후 9:52:55: reading: key = boost_cycle_delay, value = 30
+2020-10-19(월) 오후 9:52:55: create file: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\newlist_cycle_delay.txt
+2020-10-19(월) 오후 9:52:55: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-19(월) 오후 9:52:55: reading: key = newlist_cycle_delay, value = 60
+2020-10-19(월) 오후 9:52:55: importing settings for: processor_guid_tweak...
+2020-10-19(월) 오후 9:52:55: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-19(월) 오후 9:52:55: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-19(월) 오후 9:52:55: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-19(월) 오후 9:52:55: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-19(월) 오후 9:52:55: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-19(월) 오후 9:52:55: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-19(월) 오후 9:52:55: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-19(월) 오후 9:52:55: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-19(월) 오후 9:52:55: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-19(월) 오후 9:52:55: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-19(월) 오후 9:52:55: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-19(월) 오후 9:52:55: settings changed for: generatedCLK!, reimporting...
+2020-10-19(월) 오후 9:52:55: reading: key = 100, value = 2701
+2020-10-19(월) 오후 9:52:55: reading: key = 99, value = 2700
+2020-10-19(월) 오후 9:52:55: reading: key = 98, value = 2600
+2020-10-19(월) 오후 9:52:55: reading: key = 95, value = 2300
+2020-10-19(월) 오후 9:52:55: reading: key = 84, value = 2000
+2020-10-19(월) 오후 9:52:55: reading: key = 73, value = 1800
+2020-10-19(월) 오후 9:52:55: reading: key = 65, value = 1600
+2020-10-19(월) 오후 9:52:55: reading: key = 58, value = 1400
+2020-10-19(월) 오후 9:52:55: reading: key = 50, value = 1200
+2020-10-19(월) 오후 9:52:55: reading: key = 43, value = 900
+2020-10-19(월) 오후 9:52:55: reading: key = 32, value = 700
+2020-10-19(월) 오후 9:52:55: reading: key = 24, value = 500
+2020-10-19(월) 오후 9:52:55: settings changed for: generatedXTU!, reimporting...
+2020-10-19(월) 오후 9:52:55: reading: key = 24, value = 10
+2020-10-19(월) 오후 9:52:55: reading: key = 32, value = 9.5
+2020-10-19(월) 오후 9:52:55: reading: key = 43, value = 9
+2020-10-19(월) 오후 9:52:55: reading: key = 50, value = 8.5
+2020-10-19(월) 오후 9:52:55: reading: key = 58, value = 8
+2020-10-19(월) 오후 9:52:55: reading: key = 65, value = 7.5
+2020-10-19(월) 오후 9:52:55: reading: key = 73, value = 7
+2020-10-19(월) 오후 9:52:55: reading: key = 84, value = 6.5
+2020-10-19(월) 오후 9:52:55: reading: key = 95, value = 6
+2020-10-19(월) 오후 9:52:55: reading: key = 98, value = 5.5
+2020-10-19(월) 오후 9:52:55: reading: key = 99, value = 5
+2020-10-19(월) 오후 9:52:55: reading: key = 100, value = 4.5
+2020-10-19(월) 오후 9:52:55: importing settings for: throttle_median...
+2020-10-19(월) 오후 9:52:55: reading: key = throttle_median, value = 60
+2020-10-19(월) 오후 9:52:55: importing settings for: newlist_median...
+2020-10-19(월) 오후 9:52:55: reading: key = newlist_median, value = 50
+2020-10-19(월) 오후 9:52:55: importing settings for: gpuplan...
+2020-10-19(월) 오후 9:52:55: reading: key = gpuplan, value = 1
+2020-10-19(월) 오후 9:52:57: checking XTU cmdlet
+2020-10-19(월) 오후 9:53:00: XTU ok
+2020-10-19(월) 오후 9:53:03: result = 4.5
+2020-10-19(월) 오후 9:53:03: init PowerCFG settings
+2020-10-19(월) 오후 9:53:10: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 9:53:10: start of newlist timer
+2020-10-19(월) 오후 9:53:15: newlist accumulated current pwr:2000 load:6 globalload:4
+2020-10-19(월) 오후 9:53:20: newlist accumulated current pwr:2701 load:1 globalload:1
+2020-10-19(월) 오후 9:53:25: newlist accumulated current pwr:2701 load:4 globalload:4
+2020-10-19(월) 오후 9:53:30: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 9:53:35: newlist accumulated current pwr:2701 load:1 globalload:1
+2020-10-19(월) 오후 9:53:40: newlist accumulated current pwr:2701 load:1 globalload:1
+2020-10-19(월) 오후 9:53:46: newlist accumulated current pwr:1400 load:5 globalload:2
+2020-10-19(월) 오후 9:53:51: newlist accumulated current pwr:2000 load:7 globalload:5
+2020-10-19(월) 오후 9:53:56: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 9:54:01: newlist accumulated current pwr:2701 load:7 globalload:7
+2020-10-19(월) 오후 9:54:14: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 9:54:14: reading: key = explorer, value = 0
+2020-10-19(월) 오후 9:54:14: reading: key = devenv, value = 5
+2020-10-19(월) 오후 9:54:14: reading: key = ConsoleApplication41, value = 5
+2020-10-19(월) 오후 9:54:14: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-19(월) 오후 9:54:14: reading: key = 0, value = 100
+2020-10-19(월) 오후 9:54:14: reading: key = 1, value = 99
+2020-10-19(월) 오후 9:54:14: reading: key = 2, value = 98
+2020-10-19(월) 오후 9:54:14: reading: key = 3, value = 95
+2020-10-19(월) 오후 9:54:14: reading: key = 4, value = 84
+2020-10-19(월) 오후 9:54:14: reading: key = 5, value = 73
+2020-10-19(월) 오후 9:54:14: reading: key = 6, value = 65
+2020-10-19(월) 오후 9:54:14: reading: key = 7, value = 58
+2020-10-19(월) 오후 9:54:14: reading: key = 8, value = 50
+2020-10-19(월) 오후 9:54:14: reading: key = 9, value = 43
+2020-10-19(월) 오후 9:54:14: reading: key = 10, value = 32
+2020-10-19(월) 오후 9:54:14: reading: key = 11, value = 24
+2020-10-19(월) 오후 9:54:14: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-19(월) 오후 9:54:14: reading: key = 11, value = 10
+2020-10-19(월) 오후 9:54:14: reading: key = 10, value = 9.5
+2020-10-19(월) 오후 9:54:14: reading: key = 9, value = 9
+2020-10-19(월) 오후 9:54:14: reading: key = 8, value = 8.5
+2020-10-19(월) 오후 9:54:14: reading: key = 7, value = 8
+2020-10-19(월) 오후 9:54:14: reading: key = 6, value = 7.5
+2020-10-19(월) 오후 9:54:14: reading: key = 5, value = 7
+2020-10-19(월) 오후 9:54:14: reading: key = 4, value = 6.5
+2020-10-19(월) 오후 9:54:14: reading: key = 3, value = 6
+2020-10-19(월) 오후 9:54:14: reading: key = 2, value = 5.5
+2020-10-19(월) 오후 9:54:14: reading: key = 1, value = 5
+2020-10-19(월) 오후 9:54:14: reading: key = 0, value = 4.5
+2020-10-19(월) 오후 9:54:14: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-19(월) 오후 9:54:14: reading: key = 0, value = Normal
+2020-10-19(월) 오후 9:54:14: reading: key = 1, value = Normal
+2020-10-19(월) 오후 9:54:14: reading: key = 2, value = Normal
+2020-10-19(월) 오후 9:54:14: reading: key = 3, value = Normal
+2020-10-19(월) 오후 9:54:14: reading: key = 4, value = Normal
+2020-10-19(월) 오후 9:54:14: reading: key = 5, value = Normal
+2020-10-19(월) 오후 9:54:14: reading: key = 6, value = Normal
+2020-10-19(월) 오후 9:54:14: reading: key = 7, value = Normal
+2020-10-19(월) 오후 9:54:14: settings changed for: loop_delay!, reimporting...
+2020-10-19(월) 오후 9:54:14: reading: key = loop_delay, value = 5
+2020-10-19(월) 오후 9:54:14: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-19(월) 오후 9:54:14: reading: key = boost_cycle_delay, value = 30
+2020-10-19(월) 오후 9:54:14: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-19(월) 오후 9:54:14: reading: key = newlist_cycle_delay, value = 60
+2020-10-19(월) 오후 9:54:14: importing settings for: processor_guid_tweak...
+2020-10-19(월) 오후 9:54:14: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-19(월) 오후 9:54:14: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-19(월) 오후 9:54:14: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-19(월) 오후 9:54:14: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-19(월) 오후 9:54:14: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-19(월) 오후 9:54:14: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-19(월) 오후 9:54:14: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-19(월) 오후 9:54:14: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-19(월) 오후 9:54:14: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-19(월) 오후 9:54:14: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-19(월) 오후 9:54:14: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-19(월) 오후 9:54:14: settings changed for: generatedCLK!, reimporting...
+2020-10-19(월) 오후 9:54:14: reading: key = 100, value = 2701
+2020-10-19(월) 오후 9:54:14: reading: key = 99, value = 2700
+2020-10-19(월) 오후 9:54:14: reading: key = 98, value = 2600
+2020-10-19(월) 오후 9:54:14: reading: key = 95, value = 2300
+2020-10-19(월) 오후 9:54:14: reading: key = 84, value = 2000
+2020-10-19(월) 오후 9:54:14: reading: key = 73, value = 1800
+2020-10-19(월) 오후 9:54:14: reading: key = 65, value = 1600
+2020-10-19(월) 오후 9:54:14: reading: key = 58, value = 1400
+2020-10-19(월) 오후 9:54:14: reading: key = 50, value = 1200
+2020-10-19(월) 오후 9:54:14: reading: key = 43, value = 900
+2020-10-19(월) 오후 9:54:14: reading: key = 32, value = 700
+2020-10-19(월) 오후 9:54:14: reading: key = 24, value = 500
+2020-10-19(월) 오후 9:54:14: settings changed for: generatedXTU!, reimporting...
+2020-10-19(월) 오후 9:54:14: reading: key = 24, value = 10
+2020-10-19(월) 오후 9:54:14: reading: key = 32, value = 9.5
+2020-10-19(월) 오후 9:54:14: reading: key = 43, value = 9
+2020-10-19(월) 오후 9:54:14: reading: key = 50, value = 8.5
+2020-10-19(월) 오후 9:54:14: reading: key = 58, value = 8
+2020-10-19(월) 오후 9:54:14: reading: key = 65, value = 7.5
+2020-10-19(월) 오후 9:54:14: reading: key = 73, value = 7
+2020-10-19(월) 오후 9:54:14: reading: key = 84, value = 6.5
+2020-10-19(월) 오후 9:54:14: reading: key = 95, value = 6
+2020-10-19(월) 오후 9:54:14: reading: key = 98, value = 5.5
+2020-10-19(월) 오후 9:54:14: reading: key = 99, value = 5
+2020-10-19(월) 오후 9:54:14: reading: key = 100, value = 4.5
+2020-10-19(월) 오후 9:54:14: importing settings for: throttle_median...
+2020-10-19(월) 오후 9:54:14: reading: key = throttle_median, value = 60
+2020-10-19(월) 오후 9:54:14: importing settings for: newlist_median...
+2020-10-19(월) 오후 9:54:14: reading: key = newlist_median, value = 50
+2020-10-19(월) 오후 9:54:14: importing settings for: gpuplan...
+2020-10-19(월) 오후 9:54:14: reading: key = gpuplan, value = 1
+2020-10-19(월) 오후 9:54:15: checking XTU cmdlet
+2020-10-19(월) 오후 9:54:17: XTU ok
+2020-10-19(월) 오후 9:54:19: result = 4.5
+2020-10-19(월) 오후 9:54:19: init PowerCFG settings
+2020-10-19(월) 오후 9:54:36: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 9:54:36: reading: key = explorer, value = 0
+2020-10-19(월) 오후 9:54:36: reading: key = devenv, value = 5
+2020-10-19(월) 오후 9:54:36: reading: key = ConsoleApplication41, value = 5
+2020-10-19(월) 오후 9:54:36: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-19(월) 오후 9:54:36: reading: key = 0, value = 100
+2020-10-19(월) 오후 9:54:36: reading: key = 1, value = 99
+2020-10-19(월) 오후 9:54:36: reading: key = 2, value = 98
+2020-10-19(월) 오후 9:54:36: reading: key = 3, value = 95
+2020-10-19(월) 오후 9:54:36: reading: key = 4, value = 84
+2020-10-19(월) 오후 9:54:36: reading: key = 5, value = 73
+2020-10-19(월) 오후 9:54:36: reading: key = 6, value = 65
+2020-10-19(월) 오후 9:54:36: reading: key = 7, value = 58
+2020-10-19(월) 오후 9:54:36: reading: key = 8, value = 50
+2020-10-19(월) 오후 9:54:36: reading: key = 9, value = 43
+2020-10-19(월) 오후 9:54:36: reading: key = 10, value = 32
+2020-10-19(월) 오후 9:54:36: reading: key = 11, value = 24
+2020-10-19(월) 오후 9:54:36: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-19(월) 오후 9:54:36: reading: key = 11, value = 10
+2020-10-19(월) 오후 9:54:36: reading: key = 10, value = 9.5
+2020-10-19(월) 오후 9:54:36: reading: key = 9, value = 9
+2020-10-19(월) 오후 9:54:36: reading: key = 8, value = 8.5
+2020-10-19(월) 오후 9:54:36: reading: key = 7, value = 8
+2020-10-19(월) 오후 9:54:36: reading: key = 6, value = 7.5
+2020-10-19(월) 오후 9:54:36: reading: key = 5, value = 7
+2020-10-19(월) 오후 9:54:36: reading: key = 4, value = 6.5
+2020-10-19(월) 오후 9:54:36: reading: key = 3, value = 6
+2020-10-19(월) 오후 9:54:36: reading: key = 2, value = 5.5
+2020-10-19(월) 오후 9:54:36: reading: key = 1, value = 5
+2020-10-19(월) 오후 9:54:36: reading: key = 0, value = 4.5
+2020-10-19(월) 오후 9:54:36: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-19(월) 오후 9:54:36: reading: key = 0, value = Normal
+2020-10-19(월) 오후 9:54:36: reading: key = 1, value = Normal
+2020-10-19(월) 오후 9:54:36: reading: key = 2, value = Normal
+2020-10-19(월) 오후 9:54:36: reading: key = 3, value = Normal
+2020-10-19(월) 오후 9:54:36: reading: key = 4, value = Normal
+2020-10-19(월) 오후 9:54:36: reading: key = 5, value = Normal
+2020-10-19(월) 오후 9:54:36: reading: key = 6, value = Normal
+2020-10-19(월) 오후 9:54:36: reading: key = 7, value = Normal
+2020-10-19(월) 오후 9:54:36: settings changed for: loop_delay!, reimporting...
+2020-10-19(월) 오후 9:54:36: reading: key = loop_delay, value = 5
+2020-10-19(월) 오후 9:54:36: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-19(월) 오후 9:54:36: reading: key = boost_cycle_delay, value = 30
+2020-10-19(월) 오후 9:54:36: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-19(월) 오후 9:54:36: reading: key = newlist_cycle_delay, value = 60
+2020-10-19(월) 오후 9:54:36: importing settings for: processor_guid_tweak...
+2020-10-19(월) 오후 9:54:36: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-19(월) 오후 9:54:36: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-19(월) 오후 9:54:36: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-19(월) 오후 9:54:36: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-19(월) 오후 9:54:36: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-19(월) 오후 9:54:36: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-19(월) 오후 9:54:36: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-19(월) 오후 9:54:36: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-19(월) 오후 9:54:36: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-19(월) 오후 9:54:36: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-19(월) 오후 9:54:36: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-19(월) 오후 9:54:36: settings changed for: generatedCLK!, reimporting...
+2020-10-19(월) 오후 9:54:36: reading: key = 100, value = 2701
+2020-10-19(월) 오후 9:54:36: reading: key = 99, value = 2700
+2020-10-19(월) 오후 9:54:36: reading: key = 98, value = 2600
+2020-10-19(월) 오후 9:54:36: reading: key = 95, value = 2300
+2020-10-19(월) 오후 9:54:36: reading: key = 84, value = 2000
+2020-10-19(월) 오후 9:54:36: reading: key = 73, value = 1800
+2020-10-19(월) 오후 9:54:36: reading: key = 65, value = 1600
+2020-10-19(월) 오후 9:54:36: reading: key = 58, value = 1400
+2020-10-19(월) 오후 9:54:36: reading: key = 50, value = 1200
+2020-10-19(월) 오후 9:54:36: reading: key = 43, value = 900
+2020-10-19(월) 오후 9:54:36: reading: key = 32, value = 700
+2020-10-19(월) 오후 9:54:36: reading: key = 24, value = 500
+2020-10-19(월) 오후 9:54:36: settings changed for: generatedXTU!, reimporting...
+2020-10-19(월) 오후 9:54:36: reading: key = 24, value = 10
+2020-10-19(월) 오후 9:54:36: reading: key = 32, value = 9.5
+2020-10-19(월) 오후 9:54:36: reading: key = 43, value = 9
+2020-10-19(월) 오후 9:54:36: reading: key = 50, value = 8.5
+2020-10-19(월) 오후 9:54:36: reading: key = 58, value = 8
+2020-10-19(월) 오후 9:54:36: reading: key = 65, value = 7.5
+2020-10-19(월) 오후 9:54:36: reading: key = 73, value = 7
+2020-10-19(월) 오후 9:54:36: reading: key = 84, value = 6.5
+2020-10-19(월) 오후 9:54:36: reading: key = 95, value = 6
+2020-10-19(월) 오후 9:54:36: reading: key = 98, value = 5.5
+2020-10-19(월) 오후 9:54:36: reading: key = 99, value = 5
+2020-10-19(월) 오후 9:54:36: reading: key = 100, value = 4.5
+2020-10-19(월) 오후 9:54:36: importing settings for: throttle_median...
+2020-10-19(월) 오후 9:54:36: reading: key = throttle_median, value = 60
+2020-10-19(월) 오후 9:54:36: importing settings for: newlist_median...
+2020-10-19(월) 오후 9:54:36: reading: key = newlist_median, value = 50
+2020-10-19(월) 오후 9:54:36: importing settings for: gpuplan...
+2020-10-19(월) 오후 9:54:36: reading: key = gpuplan, value = 1
+2020-10-19(월) 오후 9:54:37: checking XTU cmdlet
+2020-10-19(월) 오후 9:54:39: XTU ok
+2020-10-19(월) 오후 9:54:41: result = 10.5
+2020-10-19(월) 오후 9:54:41: init PowerCFG settings
+2020-10-19(월) 오후 9:54:45: setting power back to 100
+2020-10-19(월) 오후 9:54:45: setting CLK: 100
+2020-10-19(월) 오후 9:54:45: setting XTU: 4.5
+2020-10-19(월) 오후 9:54:49: setting GPU: performance
+2020-10-19(월) 오후 9:54:52: no throttle cycle load = 50 ,clk = 2701 ,throttledelay = 0
+2020-10-19(월) 오후 9:54:54: newlist accumulated current pwr:2701 load:51 globalload:51
+2020-10-19(월) 오후 9:54:54: start of newlist timer
+2020-10-19(월) 오후 9:54:59: no throttle cycle load = 48 ,clk = 2701 ,throttledelay = 0
+2020-10-19(월) 오후 9:55:04: no throttle cycle load = 37 ,clk = 2701 ,throttledelay = 0
+2020-10-19(월) 오후 9:55:09: newlist accumulated current pwr:2701 load:40 globalload:40
+2020-10-19(월) 오후 9:55:09: start of newlist timer
+2020-10-19(월) 오후 9:55:15: newlist accumulated current pwr:2701 load:34 globalload:34
+2020-10-19(월) 오후 9:55:20: newlist accumulated current pwr:2701 load:79 globalload:79
+2020-10-19(월) 오후 9:55:25: newlist accumulated current pwr:2701 load:88 globalload:88
+2020-10-19(월) 오후 9:55:30: newlist accumulated current pwr:2701 load:80 globalload:80
+2020-10-19(월) 오후 9:55:35: newlist accumulated current pwr:2701 load:80 globalload:80
+2020-10-19(월) 오후 9:55:40: newlist accumulated current pwr:2701 load:76 globalload:76
+2020-10-19(월) 오후 9:55:46: newlist accumulated current pwr:2701 load:90 globalload:90
+2020-10-19(월) 오후 9:55:51: newlist accumulated current pwr:2701 load:83 globalload:83
+2020-10-19(월) 오후 9:55:56: newlist accumulated current pwr:2701 load:77 globalload:77
+2020-10-19(월) 오후 9:56:01: newlist accumulated current pwr:2701 load:84 globalload:84
+2020-10-19(월) 오후 9:56:06: newlist accumulated current pwr:2701 load:73 globalload:73
+2020-10-19(월) 오후 9:56:12: newlist accumulated current pwr:2701 load:77 globalload:77
+2020-10-19(월) 오후 9:56:12: time to sync for newlist
+2020-10-19(월) 오후 9:56:17: newlist accumulated current pwr:2701 load:79 globalload:79
+2020-10-19(월) 오후 9:56:17: using EMA...
+2020-10-19(월) 오후 9:56:25: appending: key = pcsx2, value = 1
+2020-10-19(월) 오후 9:56:25: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 9:56:25: reading: key = explorer, value = 0
+2020-10-19(월) 오후 9:56:25: reading: key = devenv, value = 5
+2020-10-19(월) 오후 9:56:25: reading: key = ConsoleApplication41, value = 5
+2020-10-19(월) 오후 9:56:25: reading: key = pcsx2, value = 1
+2020-10-19(월) 오후 9:56:25: setting power: pcsx2 to 99
+2020-10-19(월) 오후 9:56:25: setting CLK: 99
+2020-10-19(월) 오후 9:56:25: setting XTU: 5
+2020-10-19(월) 오후 9:56:33: setting GPU: performance
+2020-10-19(월) 오후 9:56:36: no throttle cycle load = 77 ,clk = 2700 ,throttledelay = 0
+2020-10-19(월) 오후 9:56:38: no throttle cycle load = 63 ,clk = 2700 ,throttledelay = 0
+2020-10-19(월) 오후 9:56:40: no throttle cycle load = 74 ,clk = 2700 ,throttledelay = 0
+2020-10-19(월) 오후 9:56:42: no throttle cycle load = 85 ,clk = 2700 ,throttledelay = 0
+2020-10-19(월) 오후 9:56:45: no throttle cycle load = 79 ,clk = 2700 ,throttledelay = 0
+2020-10-19(월) 오후 9:56:51: no throttle cycle load = 71 ,clk = 2700 ,throttledelay = 0
+2020-10-19(월) 오후 9:56:56: no throttle cycle load = 69 ,clk = 2700 ,throttledelay = 0
+2020-10-19(월) 오후 9:57:01: no throttle cycle load = 80 ,clk = 2700 ,throttledelay = 0
+2020-10-19(월) 오후 9:57:06: no throttle cycle load = 9 ,clk = 2700 ,throttledelay = 0
+2020-10-19(월) 오후 9:57:09: setting power back to 100
+2020-10-19(월) 오후 9:57:10: setting CLK: 100
+2020-10-19(월) 오후 9:57:10: setting XTU: 4.5
+2020-10-19(월) 오후 9:57:12: setting GPU: performance
+2020-10-19(월) 오후 9:57:15: no throttle cycle load = 5 ,clk = 2300 ,throttledelay = 0
+2020-10-19(월) 오후 9:57:17: no throttle cycle load = 5 ,clk = 1200 ,throttledelay = 0
+2020-10-19(월) 오후 10:11:23: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 10:11:23: start of newlist timer
+2020-10-19(월) 오후 10:11:25: newlist accumulated current pwr:2701 load:73 globalload:73
+2020-10-19(월) 오후 10:11:27: newlist accumulated current pwr:2701 load:23 globalload:23
+2020-10-19(월) 오후 10:11:30: newlist accumulated current pwr:2701 load:17 globalload:17
+2020-10-19(월) 오후 10:11:30: start of newlist timer
+2020-10-19(월) 오후 10:11:32: newlist accumulated current pwr:2701 load:5 globalload:5
+2020-10-19(월) 오후 10:11:34: newlist accumulated current pwr:2701 load:6 globalload:6
+2020-10-19(월) 오후 10:11:36: newlist accumulated current pwr:2701 load:0 globalload:0
+2020-10-19(월) 오후 10:11:38: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 10:11:40: newlist accumulated current pwr:2701 load:7 globalload:7
+2020-10-19(월) 오후 10:11:43: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 10:11:45: newlist accumulated current pwr:2701 load:0 globalload:0
+2020-10-19(월) 오후 10:11:47: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 10:11:49: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 10:11:51: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 10:11:53: newlist accumulated current pwr:2701 load:0 globalload:0
+2020-10-19(월) 오후 10:11:56: no throttle cycle load = 6 ,clk = 2701 ,throttledelay = 0
+2020-10-19(월) 오후 10:11:56: time to sync for newlist
+2020-10-19(월) 오후 10:11:58: newlist accumulated current pwr:2701 load:4 globalload:4
+2020-10-19(월) 오후 10:11:58: start of newlist timer
+2020-10-19(월) 오후 10:12:00: newlist accumulated current pwr:2701 load:11 globalload:11
+2020-10-19(월) 오후 10:12:02: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 10:12:04: newlist accumulated current pwr:2701 load:8 globalload:8
+2020-10-19(월) 오후 10:12:06: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 10:12:06: start of newlist timer
+2020-10-19(월) 오후 10:12:09: newlist accumulated current pwr:2701 load:0 globalload:0
+2020-10-19(월) 오후 10:12:11: newlist accumulated current pwr:2701 load:1 globalload:1
+2020-10-19(월) 오후 10:12:13: newlist accumulated current pwr:2701 load:3 globalload:3
+2020-10-19(월) 오후 10:12:15: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 10:12:18: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 10:12:20: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 10:12:22: newlist accumulated current pwr:2701 load:0 globalload:0
+2020-10-19(월) 오후 10:12:25: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 10:12:27: newlist accumulated current pwr:2701 load:0 globalload:0
+2020-10-19(월) 오후 10:12:29: newlist accumulated current pwr:2701 load:4 globalload:4
+2020-10-19(월) 오후 10:12:31: newlist accumulated current pwr:2701 load:1 globalload:1
+2020-10-19(월) 오후 10:12:33: newlist accumulated current pwr:2701 load:1 globalload:1
+2020-10-19(월) 오후 10:12:33: time to sync for newlist
+2020-10-19(월) 오후 10:12:36: newlist accumulated current pwr:2701 load:2 globalload:2
+2020-10-19(월) 오후 10:12:36: using median...
+2020-10-19(월) 오후 10:12:36: appending: key = cmd, value = 5
+2020-10-19(월) 오후 10:12:36: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 10:12:36: reading: key = explorer, value = 0
+2020-10-19(월) 오후 10:12:36: reading: key = devenv, value = 5
+2020-10-19(월) 오후 10:12:36: reading: key = ConsoleApplication41, value = 5
+2020-10-19(월) 오후 10:12:36: reading: key = pcsx2, value = 1
+2020-10-19(월) 오후 10:12:36: reading: key = cmd, value = 5
+2020-10-19(월) 오후 10:12:36: setting power: cmd to 73
+2020-10-19(월) 오후 10:12:37: setting CLK: 73
+2020-10-19(월) 오후 10:12:37: setting XTU: 7
+2020-10-19(월) 오후 10:12:40: setting GPU: performance
+2020-10-19(월) 오후 10:12:43: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:12:46: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:12:48: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:12:50: no throttle cycle load = 13 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:12:53: no throttle cycle load = 13 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:12:55: no throttle cycle load = 10 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:12:57: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:12:59: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:01: no throttle cycle load = 21 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:04: no throttle cycle load = 10 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:06: no throttle cycle load = 23 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:08: no throttle cycle load = 34 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:10: no throttle cycle load = 35 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:12: no throttle cycle load = 34 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:15: no throttle cycle load = 29 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:17: no throttle cycle load = 29 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:19: no throttle cycle load = 26 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:21: no throttle cycle load = 37 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:23: no throttle cycle load = 31 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:26: no throttle cycle load = 12 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:28: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:30: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:32: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:34: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:37: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:39: no throttle cycle load = 11 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:41: no throttle cycle load = 11 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:43: no throttle cycle load = 18 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:45: no throttle cycle load = 12 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:48: no throttle cycle load = 10 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:50: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:52: no throttle cycle load = 12 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:54: no throttle cycle load = 4 ,clk = 1200 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:56: no throttle cycle load = 4 ,clk = 1400 ,throttledelay = 0
+2020-10-19(월) 오후 10:13:59: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:14:01: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:14:03: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:14:07: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 10:14:07: reading: key = explorer, value = 0
+2020-10-19(월) 오후 10:14:07: reading: key = devenv, value = 5
+2020-10-19(월) 오후 10:14:07: reading: key = ConsoleApplication41, value = 5
+2020-10-19(월) 오후 10:14:07: reading: key = pcsx2, value = 1
+2020-10-19(월) 오후 10:14:07: reading: key = cmd, value = 5
+2020-10-19(월) 오후 10:14:07: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-19(월) 오후 10:14:07: reading: key = 0, value = 100
+2020-10-19(월) 오후 10:14:07: reading: key = 1, value = 99
+2020-10-19(월) 오후 10:14:07: reading: key = 2, value = 98
+2020-10-19(월) 오후 10:14:07: reading: key = 3, value = 95
+2020-10-19(월) 오후 10:14:07: reading: key = 4, value = 84
+2020-10-19(월) 오후 10:14:07: reading: key = 5, value = 73
+2020-10-19(월) 오후 10:14:07: reading: key = 6, value = 65
+2020-10-19(월) 오후 10:14:07: reading: key = 7, value = 58
+2020-10-19(월) 오후 10:14:07: reading: key = 8, value = 50
+2020-10-19(월) 오후 10:14:07: reading: key = 9, value = 43
+2020-10-19(월) 오후 10:14:07: reading: key = 10, value = 32
+2020-10-19(월) 오후 10:14:07: reading: key = 11, value = 24
+2020-10-19(월) 오후 10:14:07: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-19(월) 오후 10:14:07: reading: key = 11, value = 10
+2020-10-19(월) 오후 10:14:07: reading: key = 10, value = 9.5
+2020-10-19(월) 오후 10:14:07: reading: key = 9, value = 9
+2020-10-19(월) 오후 10:14:07: reading: key = 8, value = 8.5
+2020-10-19(월) 오후 10:14:07: reading: key = 7, value = 8
+2020-10-19(월) 오후 10:14:07: reading: key = 6, value = 7.5
+2020-10-19(월) 오후 10:14:07: reading: key = 5, value = 7
+2020-10-19(월) 오후 10:14:07: reading: key = 4, value = 6.5
+2020-10-19(월) 오후 10:14:07: reading: key = 3, value = 6
+2020-10-19(월) 오후 10:14:07: reading: key = 2, value = 5.5
+2020-10-19(월) 오후 10:14:07: reading: key = 1, value = 5
+2020-10-19(월) 오후 10:14:07: reading: key = 0, value = 4.5
+2020-10-19(월) 오후 10:14:07: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-19(월) 오후 10:14:07: reading: key = 0, value = Normal
+2020-10-19(월) 오후 10:14:07: reading: key = 1, value = Normal
+2020-10-19(월) 오후 10:14:07: reading: key = 2, value = Normal
+2020-10-19(월) 오후 10:14:07: reading: key = 3, value = Normal
+2020-10-19(월) 오후 10:14:07: reading: key = 4, value = Normal
+2020-10-19(월) 오후 10:14:07: reading: key = 5, value = Normal
+2020-10-19(월) 오후 10:14:07: reading: key = 6, value = Normal
+2020-10-19(월) 오후 10:14:08: reading: key = 7, value = Normal
+2020-10-19(월) 오후 10:14:08: settings changed for: loop_delay!, reimporting...
+2020-10-19(월) 오후 10:14:08: reading: key = loop_delay, value = 5
+2020-10-19(월) 오후 10:14:08: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-19(월) 오후 10:14:08: reading: key = boost_cycle_delay, value = 30
+2020-10-19(월) 오후 10:14:08: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-19(월) 오후 10:14:08: reading: key = newlist_cycle_delay, value = 60
+2020-10-19(월) 오후 10:14:08: importing settings for: processor_guid_tweak...
+2020-10-19(월) 오후 10:14:08: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-19(월) 오후 10:14:08: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-19(월) 오후 10:14:08: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-19(월) 오후 10:14:08: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-19(월) 오후 10:14:08: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-19(월) 오후 10:14:08: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-19(월) 오후 10:14:08: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-19(월) 오후 10:14:08: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-19(월) 오후 10:14:08: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-19(월) 오후 10:14:08: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-19(월) 오후 10:14:08: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-19(월) 오후 10:14:08: settings changed for: generatedCLK!, reimporting...
+2020-10-19(월) 오후 10:14:08: reading: key = 100, value = 2701
+2020-10-19(월) 오후 10:14:08: reading: key = 99, value = 2700
+2020-10-19(월) 오후 10:14:08: reading: key = 98, value = 2600
+2020-10-19(월) 오후 10:14:08: reading: key = 95, value = 2300
+2020-10-19(월) 오후 10:14:08: reading: key = 84, value = 2000
+2020-10-19(월) 오후 10:14:08: reading: key = 73, value = 1800
+2020-10-19(월) 오후 10:14:08: reading: key = 65, value = 1600
+2020-10-19(월) 오후 10:14:08: reading: key = 58, value = 1400
+2020-10-19(월) 오후 10:14:08: reading: key = 50, value = 1200
+2020-10-19(월) 오후 10:14:08: reading: key = 43, value = 900
+2020-10-19(월) 오후 10:14:08: reading: key = 32, value = 700
+2020-10-19(월) 오후 10:14:08: reading: key = 24, value = 500
+2020-10-19(월) 오후 10:14:08: settings changed for: generatedXTU!, reimporting...
+2020-10-19(월) 오후 10:14:08: reading: key = 24, value = 10
+2020-10-19(월) 오후 10:14:08: reading: key = 32, value = 9.5
+2020-10-19(월) 오후 10:14:08: reading: key = 43, value = 9
+2020-10-19(월) 오후 10:14:08: reading: key = 50, value = 8.5
+2020-10-19(월) 오후 10:14:08: reading: key = 58, value = 8
+2020-10-19(월) 오후 10:14:08: reading: key = 65, value = 7.5
+2020-10-19(월) 오후 10:14:08: reading: key = 73, value = 7
+2020-10-19(월) 오후 10:14:08: reading: key = 84, value = 6.5
+2020-10-19(월) 오후 10:14:08: reading: key = 95, value = 6
+2020-10-19(월) 오후 10:14:08: reading: key = 98, value = 5.5
+2020-10-19(월) 오후 10:14:08: reading: key = 99, value = 5
+2020-10-19(월) 오후 10:14:08: reading: key = 100, value = 4.5
+2020-10-19(월) 오후 10:14:08: importing settings for: throttle_median...
+2020-10-19(월) 오후 10:14:08: reading: key = throttle_median, value = 60
+2020-10-19(월) 오후 10:14:08: importing settings for: newlist_median...
+2020-10-19(월) 오후 10:14:08: reading: key = newlist_median, value = 50
+2020-10-19(월) 오후 10:14:08: importing settings for: gpuplan...
+2020-10-19(월) 오후 10:14:08: reading: key = gpuplan, value = 1
+2020-10-19(월) 오후 10:14:09: checking XTU cmdlet
+2020-10-19(월) 오후 10:14:12: XTU ok
+2020-10-19(월) 오후 10:14:16: result = 7
+2020-10-19(월) 오후 10:14:16: init PowerCFG settings
+2020-10-19(월) 오후 10:14:20: setting power: cmd to 73
+2020-10-19(월) 오후 10:14:20: setting CLK: 73
+2020-10-19(월) 오후 10:14:20: setting XTU: 7
+2020-10-19(월) 오후 10:14:24: setting GPU: performance
+2020-10-19(월) 오후 10:14:26: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:14:33: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:14:38: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:14:43: no throttle cycle load = 10 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:14:57: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 10:14:57: reading: key = explorer, value = 0
+2020-10-19(월) 오후 10:14:57: reading: key = devenv, value = 5
+2020-10-19(월) 오후 10:14:57: reading: key = ConsoleApplication41, value = 5
+2020-10-19(월) 오후 10:14:57: reading: key = pcsx2, value = 1
+2020-10-19(월) 오후 10:14:57: reading: key = cmd, value = 5
+2020-10-19(월) 오후 10:14:57: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-19(월) 오후 10:14:57: reading: key = 0, value = 100
+2020-10-19(월) 오후 10:14:57: reading: key = 1, value = 99
+2020-10-19(월) 오후 10:14:57: reading: key = 2, value = 98
+2020-10-19(월) 오후 10:14:57: reading: key = 3, value = 95
+2020-10-19(월) 오후 10:14:57: reading: key = 4, value = 84
+2020-10-19(월) 오후 10:14:57: reading: key = 5, value = 73
+2020-10-19(월) 오후 10:14:57: reading: key = 6, value = 65
+2020-10-19(월) 오후 10:14:57: reading: key = 7, value = 58
+2020-10-19(월) 오후 10:14:58: reading: key = 8, value = 50
+2020-10-19(월) 오후 10:14:58: reading: key = 9, value = 43
+2020-10-19(월) 오후 10:14:58: reading: key = 10, value = 32
+2020-10-19(월) 오후 10:14:58: reading: key = 11, value = 24
+2020-10-19(월) 오후 10:14:58: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-19(월) 오후 10:14:58: reading: key = 11, value = 10
+2020-10-19(월) 오후 10:14:58: reading: key = 10, value = 9.5
+2020-10-19(월) 오후 10:14:58: reading: key = 9, value = 9
+2020-10-19(월) 오후 10:14:58: reading: key = 8, value = 8.5
+2020-10-19(월) 오후 10:14:58: reading: key = 7, value = 8
+2020-10-19(월) 오후 10:14:58: reading: key = 6, value = 7.5
+2020-10-19(월) 오후 10:14:58: reading: key = 5, value = 7
+2020-10-19(월) 오후 10:14:58: reading: key = 4, value = 6.5
+2020-10-19(월) 오후 10:14:58: reading: key = 3, value = 6
+2020-10-19(월) 오후 10:14:58: reading: key = 2, value = 5.5
+2020-10-19(월) 오후 10:14:58: reading: key = 1, value = 5
+2020-10-19(월) 오후 10:14:58: reading: key = 0, value = 4.5
+2020-10-19(월) 오후 10:14:58: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-19(월) 오후 10:14:58: reading: key = 0, value = Normal
+2020-10-19(월) 오후 10:14:58: reading: key = 1, value = Normal
+2020-10-19(월) 오후 10:14:58: reading: key = 2, value = Normal
+2020-10-19(월) 오후 10:14:58: reading: key = 3, value = Normal
+2020-10-19(월) 오후 10:14:58: reading: key = 4, value = Normal
+2020-10-19(월) 오후 10:14:58: reading: key = 5, value = Normal
+2020-10-19(월) 오후 10:14:58: reading: key = 6, value = Normal
+2020-10-19(월) 오후 10:14:58: reading: key = 7, value = Normal
+2020-10-19(월) 오후 10:14:58: settings changed for: loop_delay!, reimporting...
+2020-10-19(월) 오후 10:14:58: reading: key = loop_delay, value = 5
+2020-10-19(월) 오후 10:14:58: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-19(월) 오후 10:14:58: reading: key = boost_cycle_delay, value = 30
+2020-10-19(월) 오후 10:14:58: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-19(월) 오후 10:14:58: reading: key = newlist_cycle_delay, value = 60
+2020-10-19(월) 오후 10:14:58: importing settings for: processor_guid_tweak...
+2020-10-19(월) 오후 10:14:58: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-19(월) 오후 10:14:58: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-19(월) 오후 10:14:58: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-19(월) 오후 10:14:58: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-19(월) 오후 10:14:58: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-19(월) 오후 10:14:58: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-19(월) 오후 10:14:58: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-19(월) 오후 10:14:58: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-19(월) 오후 10:14:58: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-19(월) 오후 10:14:58: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-19(월) 오후 10:14:58: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-19(월) 오후 10:14:58: settings changed for: generatedCLK!, reimporting...
+2020-10-19(월) 오후 10:14:58: reading: key = 100, value = 2701
+2020-10-19(월) 오후 10:14:58: reading: key = 99, value = 2700
+2020-10-19(월) 오후 10:14:58: reading: key = 98, value = 2600
+2020-10-19(월) 오후 10:14:58: reading: key = 95, value = 2300
+2020-10-19(월) 오후 10:14:58: reading: key = 84, value = 2000
+2020-10-19(월) 오후 10:14:58: reading: key = 73, value = 1800
+2020-10-19(월) 오후 10:14:58: reading: key = 65, value = 1600
+2020-10-19(월) 오후 10:14:58: reading: key = 58, value = 1400
+2020-10-19(월) 오후 10:14:58: reading: key = 50, value = 1200
+2020-10-19(월) 오후 10:14:58: reading: key = 43, value = 900
+2020-10-19(월) 오후 10:14:58: reading: key = 32, value = 700
+2020-10-19(월) 오후 10:14:58: reading: key = 24, value = 500
+2020-10-19(월) 오후 10:14:58: settings changed for: generatedXTU!, reimporting...
+2020-10-19(월) 오후 10:14:58: reading: key = 24, value = 10
+2020-10-19(월) 오후 10:14:58: reading: key = 32, value = 9.5
+2020-10-19(월) 오후 10:14:58: reading: key = 43, value = 9
+2020-10-19(월) 오후 10:14:58: reading: key = 50, value = 8.5
+2020-10-19(월) 오후 10:14:58: reading: key = 58, value = 8
+2020-10-19(월) 오후 10:14:58: reading: key = 65, value = 7.5
+2020-10-19(월) 오후 10:14:58: reading: key = 73, value = 7
+2020-10-19(월) 오후 10:14:58: reading: key = 84, value = 6.5
+2020-10-19(월) 오후 10:14:58: reading: key = 95, value = 6
+2020-10-19(월) 오후 10:14:58: reading: key = 98, value = 5.5
+2020-10-19(월) 오후 10:14:58: reading: key = 99, value = 5
+2020-10-19(월) 오후 10:14:58: reading: key = 100, value = 4.5
+2020-10-19(월) 오후 10:14:58: importing settings for: throttle_median...
+2020-10-19(월) 오후 10:14:58: reading: key = throttle_median, value = 60
+2020-10-19(월) 오후 10:14:58: importing settings for: newlist_median...
+2020-10-19(월) 오후 10:14:58: reading: key = newlist_median, value = 50
+2020-10-19(월) 오후 10:14:58: importing settings for: gpuplan...
+2020-10-19(월) 오후 10:14:58: reading: key = gpuplan, value = 1
+2020-10-19(월) 오후 10:14:59: checking XTU cmdlet
+2020-10-19(월) 오후 10:15:03: XTU ok
+2020-10-19(월) 오후 10:15:06: result = 7
+2020-10-19(월) 오후 10:15:06: init PowerCFG settings
+2020-10-19(월) 오후 10:15:10: setting power: cmd to 73
+2020-10-19(월) 오후 10:15:10: setting CLK: 73
+2020-10-19(월) 오후 10:15:11: setting XTU: 7
+2020-10-19(월) 오후 10:15:14: setting GPU: performance
+2020-10-19(월) 오후 10:15:16: no throttle cycle load = 10 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:15:23: no throttle cycle load = 11 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:15:28: no throttle cycle load = 23 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:15:33: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:15:38: no throttle cycle load = 7 ,clk = 1200 ,throttledelay = 0
+2020-10-19(월) 오후 10:15:43: no throttle cycle load = 17 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:15:49: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:15:54: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:15:59: no throttle cycle load = 8 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:16:04: no throttle cycle load = 12 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:16:09: no throttle cycle load = 16 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:16:14: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:16:20: no throttle cycle load = 11 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:16:25: no throttle cycle load = 10 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:16:30: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:16:35: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:16:40: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:16:45: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:16:51: no throttle cycle load = 12 ,clk = 900 ,throttledelay = 0
+2020-10-19(월) 오후 10:16:56: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:17:01: no throttle cycle load = 11 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:17:06: no throttle cycle load = 12 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:17:11: no throttle cycle load = 4 ,clk = 1200 ,throttledelay = 0
+2020-10-19(월) 오후 10:17:16: no throttle cycle load = 7 ,clk = 1600 ,throttledelay = 0
+2020-10-19(월) 오후 10:17:21: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 10:17:21: reading: key = explorer, value = 0
+2020-10-19(월) 오후 10:17:21: reading: key = devenv, value = 5
+2020-10-19(월) 오후 10:17:21: reading: key = ConsoleApplication41, value = 5
+2020-10-19(월) 오후 10:17:21: reading: key = pcsx2, value = 1
+2020-10-19(월) 오후 10:17:21: reading: key = cmd, value = 5
+2020-10-19(월) 오후 10:17:21: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-19(월) 오후 10:17:21: reading: key = 0, value = 100
+2020-10-19(월) 오후 10:17:21: reading: key = 1, value = 99
+2020-10-19(월) 오후 10:17:21: reading: key = 2, value = 98
+2020-10-19(월) 오후 10:17:21: reading: key = 3, value = 95
+2020-10-19(월) 오후 10:17:21: reading: key = 4, value = 84
+2020-10-19(월) 오후 10:17:21: reading: key = 5, value = 73
+2020-10-19(월) 오후 10:17:21: reading: key = 6, value = 65
+2020-10-19(월) 오후 10:17:21: reading: key = 7, value = 58
+2020-10-19(월) 오후 10:17:21: reading: key = 8, value = 50
+2020-10-19(월) 오후 10:17:21: reading: key = 9, value = 43
+2020-10-19(월) 오후 10:17:21: reading: key = 10, value = 32
+2020-10-19(월) 오후 10:17:21: reading: key = 11, value = 24
+2020-10-19(월) 오후 10:17:21: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-19(월) 오후 10:17:21: reading: key = 11, value = 10
+2020-10-19(월) 오후 10:17:21: reading: key = 10, value = 9.5
+2020-10-19(월) 오후 10:17:21: reading: key = 9, value = 9
+2020-10-19(월) 오후 10:17:21: reading: key = 8, value = 8.5
+2020-10-19(월) 오후 10:17:21: reading: key = 7, value = 8
+2020-10-19(월) 오후 10:17:21: reading: key = 6, value = 7.5
+2020-10-19(월) 오후 10:17:21: reading: key = 5, value = 7
+2020-10-19(월) 오후 10:17:21: reading: key = 4, value = 6.5
+2020-10-19(월) 오후 10:17:21: reading: key = 3, value = 6
+2020-10-19(월) 오후 10:17:21: reading: key = 2, value = 5.5
+2020-10-19(월) 오후 10:17:21: reading: key = 1, value = 5
+2020-10-19(월) 오후 10:17:21: reading: key = 0, value = 4.5
+2020-10-19(월) 오후 10:17:21: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-19(월) 오후 10:17:21: reading: key = 0, value = Normal
+2020-10-19(월) 오후 10:17:21: reading: key = 1, value = Normal
+2020-10-19(월) 오후 10:17:21: reading: key = 2, value = Normal
+2020-10-19(월) 오후 10:17:21: reading: key = 3, value = Normal
+2020-10-19(월) 오후 10:17:21: reading: key = 4, value = Normal
+2020-10-19(월) 오후 10:17:21: reading: key = 5, value = Normal
+2020-10-19(월) 오후 10:17:21: reading: key = 6, value = Normal
+2020-10-19(월) 오후 10:17:21: reading: key = 7, value = Normal
+2020-10-19(월) 오후 10:17:21: settings changed for: loop_delay!, reimporting...
+2020-10-19(월) 오후 10:17:21: reading: key = loop_delay, value = 5
+2020-10-19(월) 오후 10:17:21: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-19(월) 오후 10:17:21: reading: key = boost_cycle_delay, value = 30
+2020-10-19(월) 오후 10:17:21: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-19(월) 오후 10:17:21: reading: key = newlist_cycle_delay, value = 60
+2020-10-19(월) 오후 10:17:21: importing settings for: processor_guid_tweak...
+2020-10-19(월) 오후 10:17:21: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-19(월) 오후 10:17:21: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-19(월) 오후 10:17:21: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-19(월) 오후 10:17:21: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-19(월) 오후 10:17:21: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-19(월) 오후 10:17:21: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-19(월) 오후 10:17:21: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-19(월) 오후 10:17:21: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-19(월) 오후 10:17:21: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-19(월) 오후 10:17:21: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-19(월) 오후 10:17:21: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-19(월) 오후 10:17:21: settings changed for: generatedCLK!, reimporting...
+2020-10-19(월) 오후 10:17:21: reading: key = 100, value = 2701
+2020-10-19(월) 오후 10:17:21: reading: key = 99, value = 2700
+2020-10-19(월) 오후 10:17:21: reading: key = 98, value = 2600
+2020-10-19(월) 오후 10:17:21: reading: key = 95, value = 2300
+2020-10-19(월) 오후 10:17:21: reading: key = 84, value = 2000
+2020-10-19(월) 오후 10:17:21: reading: key = 73, value = 1800
+2020-10-19(월) 오후 10:17:21: reading: key = 65, value = 1600
+2020-10-19(월) 오후 10:17:21: reading: key = 58, value = 1400
+2020-10-19(월) 오후 10:17:21: reading: key = 50, value = 1200
+2020-10-19(월) 오후 10:17:21: reading: key = 43, value = 900
+2020-10-19(월) 오후 10:17:21: reading: key = 32, value = 700
+2020-10-19(월) 오후 10:17:21: reading: key = 24, value = 500
+2020-10-19(월) 오후 10:17:21: settings changed for: generatedXTU!, reimporting...
+2020-10-19(월) 오후 10:17:21: reading: key = 24, value = 10
+2020-10-19(월) 오후 10:17:21: reading: key = 32, value = 9.5
+2020-10-19(월) 오후 10:17:21: reading: key = 43, value = 9
+2020-10-19(월) 오후 10:17:21: reading: key = 50, value = 8.5
+2020-10-19(월) 오후 10:17:21: reading: key = 58, value = 8
+2020-10-19(월) 오후 10:17:21: reading: key = 65, value = 7.5
+2020-10-19(월) 오후 10:17:21: reading: key = 73, value = 7
+2020-10-19(월) 오후 10:17:21: reading: key = 84, value = 6.5
+2020-10-19(월) 오후 10:17:21: reading: key = 95, value = 6
+2020-10-19(월) 오후 10:17:21: reading: key = 98, value = 5.5
+2020-10-19(월) 오후 10:17:21: reading: key = 99, value = 5
+2020-10-19(월) 오후 10:17:21: reading: key = 100, value = 4.5
+2020-10-19(월) 오후 10:17:21: importing settings for: throttle_median...
+2020-10-19(월) 오후 10:17:21: reading: key = throttle_median, value = 60
+2020-10-19(월) 오후 10:17:21: importing settings for: newlist_median...
+2020-10-19(월) 오후 10:17:21: reading: key = newlist_median, value = 50
+2020-10-19(월) 오후 10:17:21: importing settings for: gpuplan...
+2020-10-19(월) 오후 10:17:21: reading: key = gpuplan, value = 1
+2020-10-19(월) 오후 10:17:23: checking XTU cmdlet
+2020-10-19(월) 오후 10:17:26: XTU ok
+2020-10-19(월) 오후 10:17:29: result = 7
+2020-10-19(월) 오후 10:17:29: init PowerCFG settings
+2020-10-19(월) 오후 10:17:32: setting power: cmd to 73
+2020-10-19(월) 오후 10:17:32: setting CLK: 73
+2020-10-19(월) 오후 10:17:32: setting XTU: 7
+2020-10-19(월) 오후 10:17:36: setting GPU: performance
+2020-10-19(월) 오후 10:17:38: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-19(월) 오후 10:17:45: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-19(월) 오후 10:17:49: no throttle cycle load = 7 ,clk = 1200 ,throttledelay = 0
+2020-10-19(월) 오후 10:17:53: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:17:57: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:18:01: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:18:05: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:18:10: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:18:14: no throttle cycle load = 12 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:18:18: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:18:22: no throttle cycle load = 14 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:18:26: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:18:31: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:18:35: no throttle cycle load = 12 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:18:39: no throttle cycle load = 12 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:18:42: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 10:18:42: reading: key = explorer, value = 0
+2020-10-19(월) 오후 10:18:42: reading: key = devenv, value = 5
+2020-10-19(월) 오후 10:18:42: reading: key = ConsoleApplication41, value = 5
+2020-10-19(월) 오후 10:18:42: reading: key = pcsx2, value = 1
+2020-10-19(월) 오후 10:18:42: reading: key = cmd, value = 5
+2020-10-19(월) 오후 10:18:42: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-19(월) 오후 10:18:42: reading: key = 0, value = 100
+2020-10-19(월) 오후 10:18:42: reading: key = 1, value = 99
+2020-10-19(월) 오후 10:18:42: reading: key = 2, value = 98
+2020-10-19(월) 오후 10:18:42: reading: key = 3, value = 95
+2020-10-19(월) 오후 10:18:42: reading: key = 4, value = 84
+2020-10-19(월) 오후 10:18:42: reading: key = 5, value = 73
+2020-10-19(월) 오후 10:18:42: reading: key = 6, value = 65
+2020-10-19(월) 오후 10:18:42: reading: key = 7, value = 58
+2020-10-19(월) 오후 10:18:42: reading: key = 8, value = 50
+2020-10-19(월) 오후 10:18:42: reading: key = 9, value = 43
+2020-10-19(월) 오후 10:18:42: reading: key = 10, value = 32
+2020-10-19(월) 오후 10:18:42: reading: key = 11, value = 24
+2020-10-19(월) 오후 10:18:42: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-19(월) 오후 10:18:42: reading: key = 11, value = 10
+2020-10-19(월) 오후 10:18:42: reading: key = 10, value = 9.5
+2020-10-19(월) 오후 10:18:42: reading: key = 9, value = 9
+2020-10-19(월) 오후 10:18:42: reading: key = 8, value = 8.5
+2020-10-19(월) 오후 10:18:42: reading: key = 7, value = 8
+2020-10-19(월) 오후 10:18:42: reading: key = 6, value = 7.5
+2020-10-19(월) 오후 10:18:42: reading: key = 5, value = 7
+2020-10-19(월) 오후 10:18:42: reading: key = 4, value = 6.5
+2020-10-19(월) 오후 10:18:42: reading: key = 3, value = 6
+2020-10-19(월) 오후 10:18:42: reading: key = 2, value = 5.5
+2020-10-19(월) 오후 10:18:42: reading: key = 1, value = 5
+2020-10-19(월) 오후 10:18:42: reading: key = 0, value = 4.5
+2020-10-19(월) 오후 10:18:42: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-19(월) 오후 10:18:42: reading: key = 0, value = Normal
+2020-10-19(월) 오후 10:18:42: reading: key = 1, value = Normal
+2020-10-19(월) 오후 10:18:42: reading: key = 2, value = Normal
+2020-10-19(월) 오후 10:18:42: reading: key = 3, value = Normal
+2020-10-19(월) 오후 10:18:42: reading: key = 4, value = Normal
+2020-10-19(월) 오후 10:18:42: reading: key = 5, value = Normal
+2020-10-19(월) 오후 10:18:42: reading: key = 6, value = Normal
+2020-10-19(월) 오후 10:18:42: reading: key = 7, value = Normal
+2020-10-19(월) 오후 10:18:42: settings changed for: loop_delay!, reimporting...
+2020-10-19(월) 오후 10:18:42: reading: key = loop_delay, value = 5
+2020-10-19(월) 오후 10:18:42: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-19(월) 오후 10:18:42: reading: key = boost_cycle_delay, value = 30
+2020-10-19(월) 오후 10:18:42: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-19(월) 오후 10:18:42: reading: key = newlist_cycle_delay, value = 60
+2020-10-19(월) 오후 10:18:42: importing settings for: processor_guid_tweak...
+2020-10-19(월) 오후 10:18:42: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-19(월) 오후 10:18:42: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-19(월) 오후 10:18:42: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-19(월) 오후 10:18:42: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-19(월) 오후 10:18:42: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-19(월) 오후 10:18:42: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-19(월) 오후 10:18:42: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-19(월) 오후 10:18:42: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-19(월) 오후 10:18:42: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-19(월) 오후 10:18:42: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-19(월) 오후 10:18:42: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-19(월) 오후 10:18:42: settings changed for: generatedCLK!, reimporting...
+2020-10-19(월) 오후 10:18:42: reading: key = 100, value = 2701
+2020-10-19(월) 오후 10:18:42: reading: key = 99, value = 2700
+2020-10-19(월) 오후 10:18:42: reading: key = 98, value = 2600
+2020-10-19(월) 오후 10:18:42: reading: key = 95, value = 2300
+2020-10-19(월) 오후 10:18:42: reading: key = 84, value = 2000
+2020-10-19(월) 오후 10:18:42: reading: key = 73, value = 1800
+2020-10-19(월) 오후 10:18:42: reading: key = 65, value = 1600
+2020-10-19(월) 오후 10:18:42: reading: key = 58, value = 1400
+2020-10-19(월) 오후 10:18:42: reading: key = 50, value = 1200
+2020-10-19(월) 오후 10:18:42: reading: key = 43, value = 900
+2020-10-19(월) 오후 10:18:42: reading: key = 32, value = 700
+2020-10-19(월) 오후 10:18:42: reading: key = 24, value = 500
+2020-10-19(월) 오후 10:18:42: settings changed for: generatedXTU!, reimporting...
+2020-10-19(월) 오후 10:18:42: reading: key = 24, value = 10
+2020-10-19(월) 오후 10:18:42: reading: key = 32, value = 9.5
+2020-10-19(월) 오후 10:18:42: reading: key = 43, value = 9
+2020-10-19(월) 오후 10:18:42: reading: key = 50, value = 8.5
+2020-10-19(월) 오후 10:18:42: reading: key = 58, value = 8
+2020-10-19(월) 오후 10:18:42: reading: key = 65, value = 7.5
+2020-10-19(월) 오후 10:18:42: reading: key = 73, value = 7
+2020-10-19(월) 오후 10:18:42: reading: key = 84, value = 6.5
+2020-10-19(월) 오후 10:18:42: reading: key = 95, value = 6
+2020-10-19(월) 오후 10:18:42: reading: key = 98, value = 5.5
+2020-10-19(월) 오후 10:18:42: reading: key = 99, value = 5
+2020-10-19(월) 오후 10:18:42: reading: key = 100, value = 4.5
+2020-10-19(월) 오후 10:18:42: importing settings for: throttle_median...
+2020-10-19(월) 오후 10:18:42: reading: key = throttle_median, value = 60
+2020-10-19(월) 오후 10:18:42: importing settings for: newlist_median...
+2020-10-19(월) 오후 10:18:42: reading: key = newlist_median, value = 50
+2020-10-19(월) 오후 10:18:42: importing settings for: gpuplan...
+2020-10-19(월) 오후 10:18:42: reading: key = gpuplan, value = 1
+2020-10-19(월) 오후 10:18:44: checking XTU cmdlet
+2020-10-19(월) 오후 10:18:47: XTU ok
+2020-10-19(월) 오후 10:18:50: result = 7
+2020-10-19(월) 오후 10:18:50: init PowerCFG settings
+2020-10-19(월) 오후 10:18:53: setting power: cmd to 73
+2020-10-19(월) 오후 10:18:53: setting CLK: 73
+2020-10-19(월) 오후 10:18:54: setting XTU: 7
+2020-10-19(월) 오후 10:18:57: setting GPU: performance
+2020-10-19(월) 오후 10:19:00: no throttle cycle load = 9 ,clk = 1400 ,throttledelay = 0
+2020-10-19(월) 오후 10:19:06: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:19:08: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:19:10: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:19:16: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:19:18: no throttle cycle load = 13 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:19:25: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:19:27: no throttle cycle load = 10 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:19:35: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 10:19:35: reading: key = explorer, value = 0
+2020-10-19(월) 오후 10:19:35: reading: key = devenv, value = 5
+2020-10-19(월) 오후 10:19:35: reading: key = ConsoleApplication41, value = 5
+2020-10-19(월) 오후 10:19:35: reading: key = pcsx2, value = 1
+2020-10-19(월) 오후 10:19:35: reading: key = cmd, value = 5
+2020-10-19(월) 오후 10:19:35: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-19(월) 오후 10:19:35: reading: key = 0, value = 100
+2020-10-19(월) 오후 10:19:35: reading: key = 1, value = 99
+2020-10-19(월) 오후 10:19:35: reading: key = 2, value = 98
+2020-10-19(월) 오후 10:19:35: reading: key = 3, value = 95
+2020-10-19(월) 오후 10:19:35: reading: key = 4, value = 84
+2020-10-19(월) 오후 10:19:35: reading: key = 5, value = 73
+2020-10-19(월) 오후 10:19:35: reading: key = 6, value = 65
+2020-10-19(월) 오후 10:19:35: reading: key = 7, value = 58
+2020-10-19(월) 오후 10:19:35: reading: key = 8, value = 50
+2020-10-19(월) 오후 10:19:35: reading: key = 9, value = 43
+2020-10-19(월) 오후 10:19:35: reading: key = 10, value = 32
+2020-10-19(월) 오후 10:19:35: reading: key = 11, value = 24
+2020-10-19(월) 오후 10:19:35: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-19(월) 오후 10:19:35: reading: key = 11, value = 10
+2020-10-19(월) 오후 10:19:35: reading: key = 10, value = 9.5
+2020-10-19(월) 오후 10:19:35: reading: key = 9, value = 9
+2020-10-19(월) 오후 10:19:35: reading: key = 8, value = 8.5
+2020-10-19(월) 오후 10:19:35: reading: key = 7, value = 8
+2020-10-19(월) 오후 10:19:35: reading: key = 6, value = 7.5
+2020-10-19(월) 오후 10:19:35: reading: key = 5, value = 7
+2020-10-19(월) 오후 10:19:35: reading: key = 4, value = 6.5
+2020-10-19(월) 오후 10:19:35: reading: key = 3, value = 6
+2020-10-19(월) 오후 10:19:35: reading: key = 2, value = 5.5
+2020-10-19(월) 오후 10:19:35: reading: key = 1, value = 5
+2020-10-19(월) 오후 10:19:35: reading: key = 0, value = 4.5
+2020-10-19(월) 오후 10:19:35: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-19(월) 오후 10:19:35: reading: key = 0, value = Normal
+2020-10-19(월) 오후 10:19:35: reading: key = 1, value = Normal
+2020-10-19(월) 오후 10:19:35: reading: key = 2, value = Normal
+2020-10-19(월) 오후 10:19:35: reading: key = 3, value = Normal
+2020-10-19(월) 오후 10:19:35: reading: key = 4, value = Normal
+2020-10-19(월) 오후 10:19:35: reading: key = 5, value = Normal
+2020-10-19(월) 오후 10:19:35: reading: key = 6, value = Normal
+2020-10-19(월) 오후 10:19:35: reading: key = 7, value = Normal
+2020-10-19(월) 오후 10:19:35: settings changed for: loop_delay!, reimporting...
+2020-10-19(월) 오후 10:19:35: reading: key = loop_delay, value = 5
+2020-10-19(월) 오후 10:19:35: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-19(월) 오후 10:19:35: reading: key = boost_cycle_delay, value = 30
+2020-10-19(월) 오후 10:19:35: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-19(월) 오후 10:19:35: reading: key = newlist_cycle_delay, value = 60
+2020-10-19(월) 오후 10:19:35: importing settings for: processor_guid_tweak...
+2020-10-19(월) 오후 10:19:35: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-19(월) 오후 10:19:35: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-19(월) 오후 10:19:35: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-19(월) 오후 10:19:35: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-19(월) 오후 10:19:35: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-19(월) 오후 10:19:35: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-19(월) 오후 10:19:35: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-19(월) 오후 10:19:35: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-19(월) 오후 10:19:35: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-19(월) 오후 10:19:35: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-19(월) 오후 10:19:35: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-19(월) 오후 10:19:35: settings changed for: generatedCLK!, reimporting...
+2020-10-19(월) 오후 10:19:35: reading: key = 100, value = 2701
+2020-10-19(월) 오후 10:19:35: reading: key = 99, value = 2700
+2020-10-19(월) 오후 10:19:35: reading: key = 98, value = 2600
+2020-10-19(월) 오후 10:19:35: reading: key = 95, value = 2300
+2020-10-19(월) 오후 10:19:35: reading: key = 84, value = 2000
+2020-10-19(월) 오후 10:19:35: reading: key = 73, value = 1800
+2020-10-19(월) 오후 10:19:35: reading: key = 65, value = 1600
+2020-10-19(월) 오후 10:19:35: reading: key = 58, value = 1400
+2020-10-19(월) 오후 10:19:35: reading: key = 50, value = 1200
+2020-10-19(월) 오후 10:19:35: reading: key = 43, value = 900
+2020-10-19(월) 오후 10:19:35: reading: key = 32, value = 700
+2020-10-19(월) 오후 10:19:35: reading: key = 24, value = 500
+2020-10-19(월) 오후 10:19:35: settings changed for: generatedXTU!, reimporting...
+2020-10-19(월) 오후 10:19:35: reading: key = 24, value = 10
+2020-10-19(월) 오후 10:19:35: reading: key = 32, value = 9.5
+2020-10-19(월) 오후 10:19:35: reading: key = 43, value = 9
+2020-10-19(월) 오후 10:19:35: reading: key = 50, value = 8.5
+2020-10-19(월) 오후 10:19:35: reading: key = 58, value = 8
+2020-10-19(월) 오후 10:19:35: reading: key = 65, value = 7.5
+2020-10-19(월) 오후 10:19:35: reading: key = 73, value = 7
+2020-10-19(월) 오후 10:19:35: reading: key = 84, value = 6.5
+2020-10-19(월) 오후 10:19:35: reading: key = 95, value = 6
+2020-10-19(월) 오후 10:19:35: reading: key = 98, value = 5.5
+2020-10-19(월) 오후 10:19:35: reading: key = 99, value = 5
+2020-10-19(월) 오후 10:19:35: reading: key = 100, value = 4.5
+2020-10-19(월) 오후 10:19:35: importing settings for: throttle_median...
+2020-10-19(월) 오후 10:19:35: reading: key = throttle_median, value = 60
+2020-10-19(월) 오후 10:19:35: importing settings for: newlist_median...
+2020-10-19(월) 오후 10:19:35: reading: key = newlist_median, value = 50
+2020-10-19(월) 오후 10:19:35: importing settings for: gpuplan...
+2020-10-19(월) 오후 10:19:35: reading: key = gpuplan, value = 1
+2020-10-19(월) 오후 10:19:37: checking XTU cmdlet
+2020-10-19(월) 오후 10:19:40: XTU ok
+2020-10-19(월) 오후 10:19:43: result = 7
+2020-10-19(월) 오후 10:19:43: init PowerCFG settings
+2020-10-19(월) 오후 10:19:46: setting power: cmd to 73
+2020-10-19(월) 오후 10:19:47: setting CLK: 73
+2020-10-19(월) 오후 10:19:47: setting XTU: 7
+2020-10-19(월) 오후 10:19:50: setting GPU: performance
+2020-10-19(월) 오후 10:19:53: no throttle cycle load = 9 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:19:59: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:20:01: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:20:07: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:20:09: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:20:16: no throttle cycle load = 8 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:27:48: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 10:27:48: reading: key = explorer, value = 0
+2020-10-19(월) 오후 10:27:48: reading: key = devenv, value = 5
+2020-10-19(월) 오후 10:27:48: reading: key = ConsoleApplication41, value = 5
+2020-10-19(월) 오후 10:27:48: reading: key = pcsx2, value = 1
+2020-10-19(월) 오후 10:27:48: reading: key = cmd, value = 5
+2020-10-19(월) 오후 10:27:48: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-19(월) 오후 10:27:48: reading: key = 0, value = 100
+2020-10-19(월) 오후 10:27:48: reading: key = 1, value = 99
+2020-10-19(월) 오후 10:27:48: reading: key = 2, value = 98
+2020-10-19(월) 오후 10:27:48: reading: key = 3, value = 95
+2020-10-19(월) 오후 10:27:48: reading: key = 4, value = 84
+2020-10-19(월) 오후 10:27:48: reading: key = 5, value = 73
+2020-10-19(월) 오후 10:27:48: reading: key = 6, value = 65
+2020-10-19(월) 오후 10:27:48: reading: key = 7, value = 58
+2020-10-19(월) 오후 10:27:48: reading: key = 8, value = 50
+2020-10-19(월) 오후 10:27:48: reading: key = 9, value = 43
+2020-10-19(월) 오후 10:27:48: reading: key = 10, value = 32
+2020-10-19(월) 오후 10:27:48: reading: key = 11, value = 24
+2020-10-19(월) 오후 10:27:48: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-19(월) 오후 10:27:48: reading: key = 11, value = 10
+2020-10-19(월) 오후 10:27:48: reading: key = 10, value = 9.5
+2020-10-19(월) 오후 10:27:48: reading: key = 9, value = 9
+2020-10-19(월) 오후 10:27:48: reading: key = 8, value = 8.5
+2020-10-19(월) 오후 10:27:48: reading: key = 7, value = 8
+2020-10-19(월) 오후 10:27:48: reading: key = 6, value = 7.5
+2020-10-19(월) 오후 10:27:48: reading: key = 5, value = 7
+2020-10-19(월) 오후 10:27:48: reading: key = 4, value = 6.5
+2020-10-19(월) 오후 10:27:48: reading: key = 3, value = 6
+2020-10-19(월) 오후 10:27:48: reading: key = 2, value = 5.5
+2020-10-19(월) 오후 10:27:48: reading: key = 1, value = 5
+2020-10-19(월) 오후 10:27:48: reading: key = 0, value = 4.5
+2020-10-19(월) 오후 10:27:48: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-19(월) 오후 10:27:48: reading: key = 0, value = Normal
+2020-10-19(월) 오후 10:27:48: reading: key = 1, value = Normal
+2020-10-19(월) 오후 10:27:48: reading: key = 2, value = Normal
+2020-10-19(월) 오후 10:27:48: reading: key = 3, value = Normal
+2020-10-19(월) 오후 10:27:48: reading: key = 4, value = Normal
+2020-10-19(월) 오후 10:27:48: reading: key = 5, value = Normal
+2020-10-19(월) 오후 10:27:48: reading: key = 6, value = Normal
+2020-10-19(월) 오후 10:27:48: reading: key = 7, value = Normal
+2020-10-19(월) 오후 10:27:48: settings changed for: loop_delay!, reimporting...
+2020-10-19(월) 오후 10:27:48: reading: key = loop_delay, value = 5
+2020-10-19(월) 오후 10:27:48: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-19(월) 오후 10:27:48: reading: key = boost_cycle_delay, value = 30
+2020-10-19(월) 오후 10:27:48: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-19(월) 오후 10:27:48: reading: key = newlist_cycle_delay, value = 60
+2020-10-19(월) 오후 10:27:48: importing settings for: processor_guid_tweak...
+2020-10-19(월) 오후 10:27:48: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-19(월) 오후 10:27:48: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-19(월) 오후 10:27:48: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-19(월) 오후 10:27:48: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-19(월) 오후 10:27:48: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-19(월) 오후 10:27:48: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-19(월) 오후 10:27:48: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-19(월) 오후 10:27:48: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-19(월) 오후 10:27:48: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-19(월) 오후 10:27:48: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-19(월) 오후 10:27:48: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-19(월) 오후 10:27:48: settings changed for: generatedCLK!, reimporting...
+2020-10-19(월) 오후 10:27:48: reading: key = 100, value = 2701
+2020-10-19(월) 오후 10:27:48: reading: key = 99, value = 2700
+2020-10-19(월) 오후 10:27:48: reading: key = 98, value = 2600
+2020-10-19(월) 오후 10:27:48: reading: key = 95, value = 2300
+2020-10-19(월) 오후 10:27:48: reading: key = 84, value = 2000
+2020-10-19(월) 오후 10:27:48: reading: key = 73, value = 1800
+2020-10-19(월) 오후 10:27:48: reading: key = 65, value = 1600
+2020-10-19(월) 오후 10:27:48: reading: key = 58, value = 1400
+2020-10-19(월) 오후 10:27:48: reading: key = 50, value = 1200
+2020-10-19(월) 오후 10:27:48: reading: key = 43, value = 900
+2020-10-19(월) 오후 10:27:48: reading: key = 32, value = 700
+2020-10-19(월) 오후 10:27:48: reading: key = 24, value = 500
+2020-10-19(월) 오후 10:27:48: settings changed for: generatedXTU!, reimporting...
+2020-10-19(월) 오후 10:27:48: reading: key = 24, value = 10
+2020-10-19(월) 오후 10:27:48: reading: key = 32, value = 9.5
+2020-10-19(월) 오후 10:27:48: reading: key = 43, value = 9
+2020-10-19(월) 오후 10:27:48: reading: key = 50, value = 8.5
+2020-10-19(월) 오후 10:27:48: reading: key = 58, value = 8
+2020-10-19(월) 오후 10:27:48: reading: key = 65, value = 7.5
+2020-10-19(월) 오후 10:27:48: reading: key = 73, value = 7
+2020-10-19(월) 오후 10:27:48: reading: key = 84, value = 6.5
+2020-10-19(월) 오후 10:27:48: reading: key = 95, value = 6
+2020-10-19(월) 오후 10:27:48: reading: key = 98, value = 5.5
+2020-10-19(월) 오후 10:27:48: reading: key = 99, value = 5
+2020-10-19(월) 오후 10:27:48: reading: key = 100, value = 4.5
+2020-10-19(월) 오후 10:27:48: importing settings for: throttle_median...
+2020-10-19(월) 오후 10:27:48: reading: key = throttle_median, value = 60
+2020-10-19(월) 오후 10:27:48: importing settings for: newlist_median...
+2020-10-19(월) 오후 10:27:48: reading: key = newlist_median, value = 50
+2020-10-19(월) 오후 10:27:48: importing settings for: gpuplan...
+2020-10-19(월) 오후 10:27:49: reading: key = gpuplan, value = 1
+2020-10-19(월) 오후 10:27:51: checking XTU cmdlet
+2020-10-19(월) 오후 10:27:54: XTU ok
+2020-10-19(월) 오후 10:27:57: result = 7
+2020-10-19(월) 오후 10:27:57: init PowerCFG settings
+2020-10-19(월) 오후 10:28:01: setting power: cmd to 73
+2020-10-19(월) 오후 10:28:01: setting CLK: 73
+2020-10-19(월) 오후 10:28:01: setting XTU: 7
+2020-10-19(월) 오후 10:28:05: setting GPU: performance
+2020-10-19(월) 오후 10:28:07: no throttle cycle load = 1 ,clk = 1400 ,throttledelay = 0
+2020-10-19(월) 오후 10:28:10: no throttle cycle load = 4 ,clk = 500 ,throttledelay = 0
+2020-10-19(월) 오후 10:28:16: no throttle cycle load = 1 ,clk = 1200 ,throttledelay = 0
+2020-10-19(월) 오후 10:28:21: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:28:26: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:28:31: no throttle cycle load = 2 ,clk = 1200 ,throttledelay = 0
+2020-10-19(월) 오후 10:28:36: no throttle cycle load = 6 ,clk = 1200 ,throttledelay = 0
+2020-10-19(월) 오후 10:28:41: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:28:46: no throttle cycle load = 4 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:28:51: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:28:56: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:29:01: no throttle cycle load = 10 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:29:06: no throttle cycle load = 2 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:29:11: no throttle cycle load = 1 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:29:16: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:29:21: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:29:26: no throttle cycle load = 6 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:29:31: no throttle cycle load = 1 ,clk = 1600 ,throttledelay = 0
+2020-10-19(월) 오후 10:29:36: no throttle cycle load = 1 ,clk = 1600 ,throttledelay = 0
+2020-10-19(월) 오후 10:29:42: no throttle cycle load = 7 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:29:47: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-19(월) 오후 10:29:52: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:29:57: no throttle cycle load = 5 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:30:02: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:30:07: no throttle cycle load = 3 ,clk = 1600 ,throttledelay = 0
+2020-10-19(월) 오후 10:30:12: no throttle cycle load = 3 ,clk = 1800 ,throttledelay = 0
+2020-10-19(월) 오후 10:33:10: settings changed for: special_programs!, reimporting...
+2020-10-19(월) 오후 10:33:10: reading: key = explorer, value = 0
+2020-10-19(월) 오후 10:33:10: reading: key = devenv, value = 5
+2020-10-19(월) 오후 10:33:10: reading: key = ConsoleApplication41, value = 5
+2020-10-19(월) 오후 10:33:10: reading: key = pcsx2, value = 1
+2020-10-19(월) 오후 10:33:10: reading: key = cmd, value = 5
+2020-10-19(월) 오후 10:33:10: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-19(월) 오후 10:33:10: reading: key = 0, value = 100
+2020-10-19(월) 오후 10:33:10: reading: key = 1, value = 99
+2020-10-19(월) 오후 10:33:10: reading: key = 2, value = 98
+2020-10-19(월) 오후 10:33:10: reading: key = 3, value = 95
+2020-10-19(월) 오후 10:33:10: reading: key = 4, value = 84
+2020-10-19(월) 오후 10:33:10: reading: key = 5, value = 73
+2020-10-19(월) 오후 10:33:10: reading: key = 6, value = 65
+2020-10-19(월) 오후 10:33:10: reading: key = 7, value = 58
+2020-10-19(월) 오후 10:33:10: reading: key = 8, value = 50
+2020-10-19(월) 오후 10:33:10: reading: key = 9, value = 43
+2020-10-19(월) 오후 10:33:10: reading: key = 10, value = 32
+2020-10-19(월) 오후 10:33:10: reading: key = 11, value = 24
+2020-10-19(월) 오후 10:33:10: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-19(월) 오후 10:33:10: reading: key = 11, value = 10
+2020-10-19(월) 오후 10:33:10: reading: key = 10, value = 9.5
+2020-10-19(월) 오후 10:33:10: reading: key = 9, value = 9
+2020-10-19(월) 오후 10:33:10: reading: key = 8, value = 8.5
+2020-10-19(월) 오후 10:33:10: reading: key = 7, value = 8
+2020-10-19(월) 오후 10:33:10: reading: key = 6, value = 7.5
+2020-10-19(월) 오후 10:33:10: reading: key = 5, value = 7
+2020-10-19(월) 오후 10:33:10: reading: key = 4, value = 6.5
+2020-10-19(월) 오후 10:33:10: reading: key = 3, value = 6
+2020-10-19(월) 오후 10:33:10: reading: key = 2, value = 5.5
+2020-10-19(월) 오후 10:33:10: reading: key = 1, value = 5
+2020-10-19(월) 오후 10:33:10: reading: key = 0, value = 4.5
+2020-10-19(월) 오후 10:33:10: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-19(월) 오후 10:33:11: reading: key = 0, value = Normal
+2020-10-19(월) 오후 10:33:11: reading: key = 1, value = Normal
+2020-10-19(월) 오후 10:33:11: reading: key = 2, value = Normal
+2020-10-19(월) 오후 10:33:11: reading: key = 3, value = Normal
+2020-10-19(월) 오후 10:33:11: reading: key = 4, value = Normal
+2020-10-19(월) 오후 10:33:11: reading: key = 5, value = Normal
+2020-10-19(월) 오후 10:33:11: reading: key = 6, value = Normal
+2020-10-19(월) 오후 10:33:11: reading: key = 7, value = Normal
+2020-10-19(월) 오후 10:33:11: settings changed for: loop_delay!, reimporting...
+2020-10-19(월) 오후 10:33:11: reading: key = loop_delay, value = 5
+2020-10-19(월) 오후 10:33:11: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-19(월) 오후 10:33:11: reading: key = boost_cycle_delay, value = 30
+2020-10-19(월) 오후 10:33:11: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-19(월) 오후 10:33:11: reading: key = newlist_cycle_delay, value = 60
+2020-10-19(월) 오후 10:33:11: importing settings for: processor_guid_tweak...
+2020-10-19(월) 오후 10:33:11: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-19(월) 오후 10:33:11: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-19(월) 오후 10:33:11: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-19(월) 오후 10:33:11: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-19(월) 오후 10:33:11: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-19(월) 오후 10:33:11: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-19(월) 오후 10:33:11: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-19(월) 오후 10:33:11: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-19(월) 오후 10:33:11: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-19(월) 오후 10:33:11: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-19(월) 오후 10:33:11: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-19(월) 오후 10:33:11: settings changed for: generatedCLK!, reimporting...
+2020-10-19(월) 오후 10:33:11: reading: key = 100, value = 2701
+2020-10-19(월) 오후 10:33:11: reading: key = 99, value = 2700
+2020-10-19(월) 오후 10:33:11: reading: key = 98, value = 2600
+2020-10-19(월) 오후 10:33:11: reading: key = 95, value = 2300
+2020-10-19(월) 오후 10:33:11: reading: key = 84, value = 2000
+2020-10-19(월) 오후 10:33:11: reading: key = 73, value = 1800
+2020-10-19(월) 오후 10:33:11: reading: key = 65, value = 1600
+2020-10-19(월) 오후 10:33:11: reading: key = 58, value = 1400
+2020-10-19(월) 오후 10:33:11: reading: key = 50, value = 1200
+2020-10-19(월) 오후 10:33:11: reading: key = 43, value = 900
+2020-10-19(월) 오후 10:33:11: reading: key = 32, value = 700
+2020-10-19(월) 오후 10:33:11: reading: key = 24, value = 500
+2020-10-19(월) 오후 10:33:11: settings changed for: generatedXTU!, reimporting...
+2020-10-19(월) 오후 10:33:11: reading: key = 24, value = 10
+2020-10-19(월) 오후 10:33:11: reading: key = 32, value = 9.5
+2020-10-19(월) 오후 10:33:11: reading: key = 43, value = 9
+2020-10-19(월) 오후 10:33:11: reading: key = 50, value = 8.5
+2020-10-19(월) 오후 10:33:11: reading: key = 58, value = 8
+2020-10-19(월) 오후 10:33:11: reading: key = 65, value = 7.5
+2020-10-19(월) 오후 10:33:11: reading: key = 73, value = 7
+2020-10-19(월) 오후 10:33:11: reading: key = 84, value = 6.5
+2020-10-19(월) 오후 10:33:11: reading: key = 95, value = 6
+2020-10-19(월) 오후 10:33:11: reading: key = 98, value = 5.5
+2020-10-19(월) 오후 10:33:11: reading: key = 99, value = 5
+2020-10-19(월) 오후 10:33:11: reading: key = 100, value = 4.5
+2020-10-19(월) 오후 10:33:11: importing settings for: throttle_median...
+2020-10-19(월) 오후 10:33:11: reading: key = throttle_median, value = 60
+2020-10-19(월) 오후 10:33:11: importing settings for: newlist_median...
+2020-10-19(월) 오후 10:33:11: reading: key = newlist_median, value = 50
+2020-10-19(월) 오후 10:33:11: importing settings for: gpuplan...
+2020-10-19(월) 오후 10:33:11: reading: key = gpuplan, value = 1
+2020-10-19(월) 오후 10:33:13: checking XTU cmdlet
+2020-10-19(월) 오후 10:33:17: XTU ok
+2020-10-19(월) 오후 10:33:21: result = 7
+2020-10-19(월) 오후 10:33:21: init PowerCFG settings

@@ -219,7 +219,8 @@ namespace ThrottleSchedulerService
             {
                 lastCLK = setval;   //maxCLK for other use
                 runpowercfg("/setdcvalueindex " + powerplan + " " + processor + " " + procsubh + " " + setval);
-                runpowercfg("/setacvalueindex " + powerplan + " " + processor + " " + procsubh + " " + (setval - (int)sm.ac_offset.configList["ac_offset"])); //hotter when plugged in
+                //runpowercfg("/setacvalueindex " + powerplan + " " + processor + " " + procsubh + " " + (setval - (int)sm.ac_offset.configList["ac_offset"])); //hotter when plugged in
+                runpowercfg("/setacvalueindex " + powerplan + " " + processor + " " + procsubh + " " + setval);
                 log.WriteLog("setting CLK: " + setval);
             }
 

@@ -1,1 +1,1 @@
-newlist_cycle_delay = 30
+newlist_cycle_delay = 60

@@ -24,6 +24,7 @@ namespace ThrottleSchedulerService
         public Logger log;
 
         int MaxClockSpeed = 1234;
+        int TurboClockSpeed = 1234;
 
         int throttledelay = 0; //for throttling check margin
         List<int> throttle_acc = new List<int>();
@@ -90,6 +91,38 @@ namespace ThrottleSchedulerService
                     MaxClockSpeed = int.Parse(obj["MaxClockSpeed"].ToString());
                     return MaxClockSpeed;
                }
+                catch (Exception) { }
+            }
+        }
+        //maxpwr does not return accurate top speed
+        //do not rely on this value. only use it for mid throttle check
+        //borrowed code from: https://stackoverflow.com/a/57873464/2214712
+        private void InfiniteLoop()
+        {
+            int i = 0;
+
+            while (true)
+                i = i + 1 - 1;
+        }
+        public int getTurboPWR() {
+            while (true)
+            {
+                if (TurboClockSpeed != 1234) return TurboClockSpeed;
+                try
+                {
+                    PerformanceCounter cpuCounter = new PerformanceCounter("Processor Information", "% Processor Performance", "_Total");
+                    double cpuValue = cpuCounter.NextValue();
+
+                    Thread loop = new Thread(() => InfiniteLoop());
+                    loop.Start();
+
+                    Thread.Sleep(1000);
+                    cpuValue = cpuCounter.NextValue();
+                    loop.Abort();
+
+                    TurboClockSpeed = (int)cpuValue * getMaxPWR() / 100;
+                    return TurboClockSpeed;
+                }
                 catch (Exception) { }
             }
         }
@@ -179,14 +212,35 @@ namespace ThrottleSchedulerService
             //if time
             if (sm.checkNewlistSync())
             {
+                //sort to ascending order
                 newlist_acc.Sort();
+                /*
+                 * get avg.
+                 * heavily modified simpler version of exponential moving average(EMA)
+                 */
+                float favg = newlist_acc[0];
+                float lsum = 0.0f;
+                for (int i = 1; i < newlist_acc.Count(); i++)
+                {
+                    float next = newlist_acc[i];
+                    lsum = next + favg + 1.0f;   //prevent divbyzero
+                    favg = favg * (favg / lsum) + next * (next / lsum);
+                }
+                int avg = (int)favg;    //int version
+                //get median for more accurate load on series of linear loads
                 int medload = (int)newlist_acc[newlist_acc.Count() / 2];
-                var pwrlist = sortedPWRlist(sm);
-                int toppwr = pwrlist[pwrlist.Count() - 1];
+                if (medload < avg)
+                {
+                    log.WriteLog("using EMA...");
+                    medload = avg;   //overwrite; medload is final
+                }
+                else {
+                    log.WriteLog("using median...");
+                }
 
                 //average pwr(clockspeed)
-                //ex) 2701mhz / 100 * 3(load) = 81mhz
-                int target = toppwr / 100 * medload;
+                //ex) 3100mhz * 3(load) / 100 = 93mhz
+                int target = getTurboPWR() * medload / 100;
 
                 //find index of low limit(newlist median)
                 int index = 0;
@@ -292,7 +346,33 @@ namespace ThrottleSchedulerService
                 {
                     sm.throttleMode = 0;
 
+                    //sort to ascending order
                     throttle_acc.Sort();
+                    /*
+                     * get avg.
+                     * heavily modified simpler version of exponential moving average(EMA)
+                     */
+                    float favg = throttle_acc[0];
+                    float lsum = 0.0f;
+                    for (int i = 1; i < throttle_acc.Count(); i++)
+                    {
+                        float next = throttle_acc[i];
+                        lsum = next + favg + 1.0f;   //prevent divbyzero
+                        favg = favg * (favg / lsum) + next * (next / lsum);
+                    }
+                    int avg = (int)favg;    //int version
+                    //get median for more accurate load on series of linear loads
+                    int medload = (int)throttle_acc[throttle_acc.Count() / 2];
+                    if (medload < avg)
+                    {
+                        log.WriteLog("using EMA...");
+                        medload = avg;   //overwrite; medload is final
+                    }
+                    else
+                    {
+                        log.WriteLog("using median...");
+                    }
+
                     //throttleMode notifier:
                     //
                     //      dont confuse!
@@ -304,9 +384,8 @@ namespace ThrottleSchedulerService
                     //  else if cpu cant be decreased:
                     //      decrease gpu
 
-                    int temp = throttle_acc[throttle_acc.Count() / 2];
                     int temp2 = (int)sm.throttle_median.configList["throttle_median"];
-                    log.WriteLog("complete throttle sync load(median) = " + temp + " ,default median = " + temp2);
+                    log.WriteLog("complete throttle sync load(median) = " + medload + " ,default median = " + temp2);
 
                     //find index of low limit(newlist median)
                     int index = 0;
@@ -328,7 +407,7 @@ namespace ThrottleSchedulerService
                     }
 
                     //dont exceed throttle median && current clk is over limit
-                    if (temp < temp2 && limit < currclk)
+                    if (medload < temp2 && limit < currclk)
                     {
                         log.WriteLog("cpu throttle detected!");
                         sm.throttleMode = 1;

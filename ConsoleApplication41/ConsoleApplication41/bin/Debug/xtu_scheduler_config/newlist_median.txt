@@ -1,1 +1,1 @@
-newlist_median = 45
+newlist_median = 50

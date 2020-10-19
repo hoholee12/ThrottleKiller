@@ -38,6 +38,8 @@ namespace ThrottleSchedulerService
         ThrottleScheduler ts;
         Stopwatch stopwatch;
 
+        double acc_interval = 0.0;
+
         private void OnTimerCount(Object src, ElapsedEventArgs args)
         {
             //actual sync
@@ -49,11 +51,22 @@ namespace ThrottleSchedulerService
             //actual sync
             stopwatch.Stop();
             double interval = msec - stopwatch.ElapsedMilliseconds;
-            if (interval < 0.1) interval = 0.1;
+
+            if (acc_interval > 0.0) {
+                interval -= acc_interval;
+                if (interval < 0.1) interval = 0.1;
+                acc_interval -= msec - interval;
+            }
+
+            if (acc_interval <= 0.0 && interval < 0.1) {
+                acc_interval = stopwatch.ElapsedMilliseconds - msec;
+                interval = 0.1;
+            }
+            
             timer.Interval = interval;
             timer.Enabled = true;
 
-            ess.WriteLog("system elapsed time = " + stopwatch.ElapsedMilliseconds + ", service timer interval = " + timer.Interval);
+            ess.WriteLog("prev_interval = " + acc_interval + " system elapsed time = " + stopwatch.ElapsedMilliseconds + ", service timer interval = " + timer.Interval);
         }
 
         public void inputserver() {

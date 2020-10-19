@@ -1,10 +1,7 @@
+explorer = 0
 
 @append
-mspaint = 7
-Hwp = 6
-devenv = 6
-POWERPNT = 6
-chrome = 4
-cmd = 6
-vlc = 6
-mintty = 6
+devenv = 5
+ConsoleApplication41 = 5
+pcsx2 = 1
+cmd = 5

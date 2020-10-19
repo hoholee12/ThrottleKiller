@@ -26,7 +26,7 @@ namespace ThrottleSchedulerService
         public SettingsToken loop_delay;
         public SettingsToken boost_cycle_delay;
         public SettingsToken newlist_cycle_delay;
-        public SettingsToken ac_offset;
+        //public SettingsToken ac_offset;
         public SettingsToken processor_guid_tweak;
         public SettingsToken generatedCLK;
         public SettingsToken generatedXTU;
@@ -250,7 +250,7 @@ namespace ThrottleSchedulerService
             loop_delay.checkFiles();
             boost_cycle_delay.checkFiles();
             newlist_cycle_delay.checkFiles();
-            ac_offset.checkFiles();
+            //ac_offset.checkFiles();
             checkPowerCFGFlag = processor_guid_tweak.checkFiles();
             generatedCLK.checkFiles();
             generatedXTU.checkFiles();
@@ -268,7 +268,7 @@ namespace ThrottleSchedulerService
             loop_delay.resetFiles();
             boost_cycle_delay.resetFiles();
             newlist_cycle_delay.resetFiles();
-            ac_offset.resetFiles();
+            //ac_offset.resetFiles();
             processor_guid_tweak.resetFiles();
             generatedCLK.resetFiles();
             generatedXTU.resetFiles();
@@ -290,7 +290,7 @@ namespace ThrottleSchedulerService
             loop_delay = new SettingsToken(log);
             boost_cycle_delay = new SettingsToken(log);
             newlist_cycle_delay = new SettingsToken(log);
-            ac_offset = new SettingsToken(log);
+            //ac_offset = new SettingsToken(log);
             processor_guid_tweak = new SettingsToken(log);
             generatedCLK = new SettingsToken(log);
             generatedXTU = new SettingsToken(log);
@@ -307,7 +307,7 @@ namespace ThrottleSchedulerService
             loop_delay.setPath(path);
             boost_cycle_delay.setPath(path);
             newlist_cycle_delay.setPath(path);
-            ac_offset.setPath(path);
+            //ac_offset.setPath(path);
             processor_guid_tweak.setPath(path);
             generatedCLK.setPath(path);
             generatedXTU.setPath(path);
@@ -322,7 +322,7 @@ namespace ThrottleSchedulerService
             loop_delay.setName("loop_delay");
             boost_cycle_delay.setName("boost_cycle_delay");
             newlist_cycle_delay.setName("newlist_cycle_delay");
-            ac_offset.setName("ac_offset");
+            //ac_offset.setName("//ac_offset");
             processor_guid_tweak.setName("processor_guid_tweak");
             generatedCLK.setName("generatedCLK");
             generatedXTU.setName("generatedXTU");
@@ -363,18 +363,18 @@ namespace ThrottleSchedulerService
 0 = 4.5
 ");
             programs_running_cfg_nice.setContent(
-@"0 = idle
-1 = high
-2 = high
-3 = high
-4 = high
-5 = idle
-6 = realtime
-7 = high");
-            loop_delay.setContent(@"loop_delay = 1");
-            boost_cycle_delay.setContent(@"boost_cycle_delay = 5");
-            newlist_cycle_delay.setContent(@"newlist_cycle_delay = 30");
-            ac_offset.setContent(@"ac_offset = 1");
+@"0 = normal
+1 = normal
+2 = normal
+3 = normal
+4 = normal
+5 = normal
+6 = normal
+7 = normal");
+            loop_delay.setContent(@"loop_delay = 5");
+            boost_cycle_delay.setContent(@"boost_cycle_delay = 30");
+            newlist_cycle_delay.setContent(@"newlist_cycle_delay = 60");
+            //ac_offset.setContent(@"ac_offset = 1");
             processor_guid_tweak.setContent(@"
 06cadf0e-64ed-448a-8927-ce7bf90eb35d = 30			# processor high threshold; lower this for performance
 0cc5b647-c1df-4637-891a-dec35c318583 = 100
@@ -389,7 +389,7 @@ bc5038f7-23e0-4960-96da-33abaf5935ec = 100          # processor high clockspeed 
 ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             generatedCLK.setContent("");
             generatedXTU.setContent("");
-            throttle_median.setContent(@"throttle_median = 80");
+            throttle_median.setContent(@"throttle_median = 60       # high threshold 30 x 2");
             newlist_median.setContent(@"newlist_median = 50");
             gpuplan.setContent(@"gpuplan = 1");
 
@@ -408,8 +408,8 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             boost_cycle_delay.Tval = typeof(int);
             newlist_cycle_delay.Tkey = typeof(string);
             newlist_cycle_delay.Tval = typeof(int);
-            ac_offset.Tkey = typeof(string);
-            ac_offset.Tval = typeof(int);
+            //ac_offset.Tkey = typeof(string);
+            //ac_offset.Tval = typeof(int);
             processor_guid_tweak.Tkey = typeof(string);
             processor_guid_tweak.Tval = typeof(int);
             generatedCLK.Tkey = typeof(int);
@@ -435,7 +435,7 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             loop_delay.setLastModifiedTime(File.GetLastWriteTime(loop_delay.getFullName()).Ticks);
             boost_cycle_delay.setLastModifiedTime(File.GetLastWriteTime(boost_cycle_delay.getFullName()).Ticks);
             newlist_cycle_delay.setLastModifiedTime(File.GetLastWriteTime(newlist_cycle_delay.getFullName()).Ticks);
-            ac_offset.setLastModifiedTime(File.GetLastWriteTime(ac_offset.getFullName()).Ticks);
+            //ac_offset.setLastModifiedTime(File.GetLastWriteTime(//ac_offset.getFullName()).Ticks);
             processor_guid_tweak.setLastModifiedTime(File.GetLastWriteTime(processor_guid_tweak.getFullName()).Ticks);
             generatedCLK.setLastModifiedTime(File.GetLastWriteTime(generatedCLK.getFullName()).Ticks);
             generatedXTU.setLastModifiedTime(File.GetLastWriteTime(generatedXTU.getFullName()).Ticks);

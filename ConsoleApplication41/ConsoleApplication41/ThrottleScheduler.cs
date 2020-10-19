@@ -78,8 +78,9 @@ namespace ThrottleSchedulerService
         ///////////////////////////////////////////for client
         public string getSysInfo() {
             while (settings.IPClocked) Thread.Sleep(100);
-            return log.WriteLog("pwr " + checker.getPWR() + " load " + checker.getLoad() + " temp "
-                + checker.getTemp() + " throttleMode " + settings.throttleMode.ToString() + " wrong " + controller.wrong.ToString());
+            return log.WriteLog("pwr " + checker.getPWR() + " load " + checker.getLoad() + " temp " + checker.getTemp()
+                + " throttleMode " + settings.throttleMode.ToString() + " wrong " + controller.wrong.ToString()
+                + " turbopwr " + checker.getTurboPWR());
         }
         public string reset() {
             while (settings.IPClocked) Thread.Sleep(100);
@@ -117,8 +118,6 @@ namespace ThrottleSchedulerService
                 checker.autoCheckInsert(currfg, settings, controller);
                 controller.setProcNice(currfg, settings);
                 controller.setPower(currfg, settings);
-
-
 
                 //3. check throttle
                 /*

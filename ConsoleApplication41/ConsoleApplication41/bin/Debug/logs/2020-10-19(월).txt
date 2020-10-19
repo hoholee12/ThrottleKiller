@@ -1,0 +1,1322 @@
+2020-10-19(월) 오후 9:28:42: system elapsed time = 7016, service timer interval = 0.1
+2020-10-19(월) 오후 9:28:42: system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:28:43: system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:29:09: waiting for input...
+2020-10-19(월) 오후 9:29:10: system elapsed time = 1, service timer interval = 999
+2020-10-19(월) 오후 9:32:39: system elapsed time = 207802, service timer interval = 0.1
+2020-10-19(월) 오후 9:32:41: system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 9:32:43: system elapsed time = 2079, service timer interval = 0.1
+2020-10-19(월) 오후 9:32:45: system elapsed time = 2082, service timer interval = 0.1
+2020-10-19(월) 오후 9:32:47: system elapsed time = 2080, service timer interval = 0.1
+2020-10-19(월) 오후 9:32:49: system elapsed time = 2076, service timer interval = 0.1
+2020-10-19(월) 오후 9:32:51: system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 9:32:54: system elapsed time = 2080, service timer interval = 0.1
+2020-10-19(월) 오후 9:32:56: system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 9:32:58: system elapsed time = 2082, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:00: system elapsed time = 2082, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:02: system elapsed time = 2073, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:04: system elapsed time = 2085, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:06: system elapsed time = 2081, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:08: system elapsed time = 2081, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:10: system elapsed time = 2076, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:12: system elapsed time = 2088, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:15: system elapsed time = 2081, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:17: system elapsed time = 2077, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:19: system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:21: system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:23: system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:25: system elapsed time = 2081, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:27: system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:29: system elapsed time = 2087, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:31: system elapsed time = 2090, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:33: system elapsed time = 2082, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:35: system elapsed time = 2079, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:38: system elapsed time = 2078, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:40: system elapsed time = 2079, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:42: system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 9:33:57: system elapsed time = 15087, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:02: system elapsed time = 4909, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:04: system elapsed time = 2082, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:06: system elapsed time = 2078, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:09: system elapsed time = 3330, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:11: system elapsed time = 2080, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:13: system elapsed time = 2079, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:16: system elapsed time = 2082, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:18: system elapsed time = 2092, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:20: system elapsed time = 2081, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:22: system elapsed time = 2073, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:24: system elapsed time = 2079, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:26: system elapsed time = 2081, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:28: system elapsed time = 2076, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:30: system elapsed time = 2078, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:32: system elapsed time = 2073, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:34: system elapsed time = 2075, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:37: system elapsed time = 2080, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:39: system elapsed time = 2072, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:41: system elapsed time = 2076, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:43: system elapsed time = 2076, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:45: system elapsed time = 2084, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:47: system elapsed time = 2078, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:49: system elapsed time = 2081, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:51: system elapsed time = 2078, service timer interval = 0.1
+2020-10-19(월) 오후 9:34:58: system elapsed time = 6894, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:00: system elapsed time = 2141, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:02: system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:05: system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:08: system elapsed time = 3163, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:10: system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:12: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:14: system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:16: system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:18: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:20: system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:23: system elapsed time = 2108, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:25: system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:27: system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:29: system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:31: system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:33: system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:35: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:38: system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:40: system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:42: system elapsed time = 2119, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:44: system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:46: system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:48: system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:50: system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:52: system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:55: system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:57: system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 9:35:59: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:01: system elapsed time = 2117, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:03: system elapsed time = 2117, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:05: system elapsed time = 2104, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:07: system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:09: system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:12: system elapsed time = 2101, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:14: system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:16: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:18: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:20: system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:22: system elapsed time = 2104, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:24: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:26: system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:29: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:31: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:33: system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:35: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:37: system elapsed time = 2105, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:39: system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:41: system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:43: system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:46: system elapsed time = 2108, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:48: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:50: system elapsed time = 2125, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:52: system elapsed time = 2107, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:54: system elapsed time = 2117, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:56: system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 9:36:58: system elapsed time = 2116, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:00: system elapsed time = 2100, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:03: system elapsed time = 2106, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:05: system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:07: system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:09: system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:11: system elapsed time = 2108, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:13: system elapsed time = 2108, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:15: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:17: system elapsed time = 2128, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:20: system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:22: system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:24: system elapsed time = 2122, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:26: system elapsed time = 2106, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:28: system elapsed time = 2104, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:30: system elapsed time = 2121, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:32: system elapsed time = 2104, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:34: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:37: system elapsed time = 2106, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:39: system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:41: system elapsed time = 2121, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:43: system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:45: system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:47: system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:49: system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:51: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:54: system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:56: system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 9:37:58: system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:00: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:02: system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:04: system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:06: system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:09: system elapsed time = 2100, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:11: system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:13: system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:15: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:17: system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:19: system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:21: system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:23: system elapsed time = 2125, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:26: system elapsed time = 2117, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:28: system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:30: system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:32: system elapsed time = 2116, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:34: system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:36: system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:38: system elapsed time = 2116, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:40: system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:43: system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:45: system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:47: system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:49: system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:51: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:53: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:55: system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 9:38:57: system elapsed time = 2106, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:00: system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:02: system elapsed time = 2126, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:04: system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:06: system elapsed time = 2122, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:08: system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:10: system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:12: system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:15: system elapsed time = 2127, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:17: system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:19: system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:21: system elapsed time = 2107, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:23: system elapsed time = 2116, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:25: system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:27: system elapsed time = 2101, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:29: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:31: system elapsed time = 2100, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:34: system elapsed time = 2108, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:36: system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:38: system elapsed time = 2123, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:40: system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:42: system elapsed time = 2119, service timer interval = 0.1
+2020-10-19(월) 오후 9:39:44: system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:11: waiting for input...
+2020-10-19(월) 오후 9:40:11: system elapsed time = 1, service timer interval = 999
+2020-10-19(월) 오후 9:40:17: system elapsed time = 4714, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:19: system elapsed time = 2081, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:21: system elapsed time = 2079, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:23: system elapsed time = 2082, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:26: system elapsed time = 2090, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:28: system elapsed time = 2084, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:30: system elapsed time = 2076, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:32: system elapsed time = 2078, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:34: system elapsed time = 2077, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:36: system elapsed time = 2078, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:38: system elapsed time = 2081, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:40: system elapsed time = 2082, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:42: system elapsed time = 2079, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:44: system elapsed time = 2080, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:47: system elapsed time = 2085, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:49: system elapsed time = 2072, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:51: system elapsed time = 2084, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:53: system elapsed time = 2086, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:55: system elapsed time = 2080, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:57: system elapsed time = 2065, service timer interval = 0.1
+2020-10-19(월) 오후 9:40:59: system elapsed time = 2080, service timer interval = 0.1
+2020-10-19(월) 오후 9:41:01: system elapsed time = 2084, service timer interval = 0.1
+2020-10-19(월) 오후 9:41:03: system elapsed time = 2084, service timer interval = 0.1
+2020-10-19(월) 오후 9:41:05: system elapsed time = 2087, service timer interval = 0.1
+2020-10-19(월) 오후 9:42:28: waiting for input...
+2020-10-19(월) 오후 9:42:28: prev_interval = 0system elapsed time = 1, service timer interval = 999
+2020-10-19(월) 오후 9:42:32: prev_interval = 1155system elapsed time = 2155, service timer interval = 0.1
+2020-10-19(월) 오후 9:42:35: prev_interval = 3261system elapsed time = 3106, service timer interval = 0.1
+2020-10-19(월) 오후 9:42:37: prev_interval = 4339system elapsed time = 2078, service timer interval = 0.1
+2020-10-19(월) 오후 9:42:39: prev_interval = 5422system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 9:42:41: prev_interval = 6507system elapsed time = 2085, service timer interval = 0.1
+2020-10-19(월) 오후 9:42:43: prev_interval = 7587system elapsed time = 2080, service timer interval = 0.1
+2020-10-19(월) 오후 9:42:45: prev_interval = 8666system elapsed time = 2079, service timer interval = 0.1
+2020-10-19(월) 오후 9:42:47: prev_interval = 9745system elapsed time = 2079, service timer interval = 0.1
+2020-10-19(월) 오후 9:43:55: waiting for input...
+2020-10-19(월) 오후 9:43:56: prev_interval = 0 system elapsed time = 1, service timer interval = 999
+2020-10-19(월) 오후 9:43:59: prev_interval = 1157 system elapsed time = 2157, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:01: prev_interval = 157 system elapsed time = 2089, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:03: prev_interval = -843 system elapsed time = 2091, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:05: prev_interval = 1076 system elapsed time = 2076, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:07: prev_interval = 76 system elapsed time = 2087, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:09: prev_interval = -924 system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:11: prev_interval = 1085 system elapsed time = 2085, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:13: prev_interval = 85 system elapsed time = 2084, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:15: prev_interval = -915 system elapsed time = 2084, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:18: prev_interval = 1089 system elapsed time = 2089, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:20: prev_interval = 89 system elapsed time = 2084, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:22: prev_interval = -911 system elapsed time = 2081, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:24: prev_interval = 1072 system elapsed time = 2072, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:26: prev_interval = 72 system elapsed time = 2086, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:28: prev_interval = -928 system elapsed time = 2085, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:30: prev_interval = 1081 system elapsed time = 2081, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:32: prev_interval = 81 system elapsed time = 2087, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:34: prev_interval = -919 system elapsed time = 2084, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:36: prev_interval = 1084 system elapsed time = 2084, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:39: prev_interval = 84 system elapsed time = 2087, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:41: prev_interval = -916 system elapsed time = 2087, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:43: prev_interval = 1080 system elapsed time = 2080, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:45: prev_interval = 80 system elapsed time = 2072, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:47: prev_interval = -920 system elapsed time = 2080, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:49: prev_interval = 1086 system elapsed time = 2086, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:51: prev_interval = 86 system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:53: prev_interval = -914 system elapsed time = 2088, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:55: prev_interval = 1086 system elapsed time = 2086, service timer interval = 0.1
+2020-10-19(월) 오후 9:44:57: prev_interval = 86 system elapsed time = 2085, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:00: prev_interval = -914 system elapsed time = 2071, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:02: prev_interval = 1087 system elapsed time = 2087, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:04: prev_interval = 87 system elapsed time = 2311, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:06: prev_interval = -913 system elapsed time = 2425, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:09: prev_interval = 1411 system elapsed time = 2411, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:11: prev_interval = 411 system elapsed time = 2398, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:14: prev_interval = -589 system elapsed time = 2399, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:16: prev_interval = 1414 system elapsed time = 2414, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:19: prev_interval = 414 system elapsed time = 2418, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:21: prev_interval = -586 system elapsed time = 2395, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:23: prev_interval = 1401 system elapsed time = 2401, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:26: prev_interval = 401 system elapsed time = 2413, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:28: prev_interval = -599 system elapsed time = 2412, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:31: prev_interval = 1391 system elapsed time = 2391, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:33: prev_interval = 391 system elapsed time = 2414, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:35: prev_interval = -609 system elapsed time = 2403, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:38: prev_interval = 1401 system elapsed time = 2401, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:40: prev_interval = 401 system elapsed time = 2398, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:43: prev_interval = -599 system elapsed time = 2435, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:45: prev_interval = 1443 system elapsed time = 2443, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:48: prev_interval = 443 system elapsed time = 2412, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:50: prev_interval = -557 system elapsed time = 2513, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:53: prev_interval = 1400 system elapsed time = 2400, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:55: prev_interval = 400 system elapsed time = 2432, service timer interval = 0.1
+2020-10-19(월) 오후 9:45:57: prev_interval = -600 system elapsed time = 2416, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:00: prev_interval = 1414 system elapsed time = 2414, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:02: prev_interval = 414 system elapsed time = 2414, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:05: prev_interval = -586 system elapsed time = 2398, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:07: prev_interval = 1415 system elapsed time = 2415, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:10: prev_interval = 415 system elapsed time = 2412, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:12: prev_interval = -585 system elapsed time = 2411, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:14: prev_interval = 1395 system elapsed time = 2395, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:17: prev_interval = 395 system elapsed time = 2405, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:19: prev_interval = -605 system elapsed time = 2412, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:22: prev_interval = 1417 system elapsed time = 2417, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:24: prev_interval = 417 system elapsed time = 2418, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:27: prev_interval = -583 system elapsed time = 2398, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:29: prev_interval = 1399 system elapsed time = 2399, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:31: prev_interval = 399 system elapsed time = 2411, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:34: prev_interval = -601 system elapsed time = 2403, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:36: prev_interval = 1398 system elapsed time = 2398, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:39: prev_interval = 398 system elapsed time = 2412, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:41: prev_interval = -602 system elapsed time = 2400, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:43: prev_interval = 1388 system elapsed time = 2388, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:46: prev_interval = 388 system elapsed time = 2445, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:48: prev_interval = -612 system elapsed time = 2456, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:51: prev_interval = 1413 system elapsed time = 2413, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:53: prev_interval = 413 system elapsed time = 2447, service timer interval = 0.1
+2020-10-19(월) 오후 9:46:56: prev_interval = -587 system elapsed time = 2434, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:07: prev_interval = 10616 system elapsed time = 11616, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:10: prev_interval = 9616 system elapsed time = 2460, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:12: prev_interval = 8616 system elapsed time = 2408, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:15: prev_interval = 7616 system elapsed time = 2412, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:17: prev_interval = 6616 system elapsed time = 2404, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:19: prev_interval = 5616 system elapsed time = 2418, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:22: prev_interval = 4616 system elapsed time = 2405, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:24: prev_interval = 3616 system elapsed time = 2404, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:27: prev_interval = 2616 system elapsed time = 2412, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:29: prev_interval = 1616 system elapsed time = 2390, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:32: prev_interval = 616 system elapsed time = 2404, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:34: prev_interval = -384 system elapsed time = 2401, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:36: prev_interval = 1402 system elapsed time = 2402, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:39: prev_interval = 402 system elapsed time = 2401, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:41: prev_interval = -598 system elapsed time = 2389, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:44: prev_interval = 1401 system elapsed time = 2401, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:46: prev_interval = 401 system elapsed time = 2410, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:48: prev_interval = -599 system elapsed time = 2419, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:51: prev_interval = 1394 system elapsed time = 2394, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:53: prev_interval = 394 system elapsed time = 2403, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:56: prev_interval = -606 system elapsed time = 2398, service timer interval = 0.1
+2020-10-19(월) 오후 9:47:58: prev_interval = 1393 system elapsed time = 2393, service timer interval = 0.1
+2020-10-19(월) 오후 9:48:01: prev_interval = 393 system elapsed time = 2420, service timer interval = 0.1
+2020-10-19(월) 오후 9:48:03: prev_interval = -607 system elapsed time = 2398, service timer interval = 0.1
+2020-10-19(월) 오후 9:48:05: prev_interval = 1405 system elapsed time = 2405, service timer interval = 0.1
+2020-10-19(월) 오후 9:48:08: prev_interval = 405 system elapsed time = 2401, service timer interval = 0.1
+2020-10-19(월) 오후 9:48:10: prev_interval = -595 system elapsed time = 2403, service timer interval = 0.1
+2020-10-19(월) 오후 9:48:13: prev_interval = 1415 system elapsed time = 2415, service timer interval = 0.1
+2020-10-19(월) 오후 9:48:15: prev_interval = 415 system elapsed time = 2398, service timer interval = 0.1
+2020-10-19(월) 오후 9:48:18: prev_interval = -585 system elapsed time = 2400, service timer interval = 0.1
+2020-10-19(월) 오후 9:48:20: prev_interval = 1415 system elapsed time = 2415, service timer interval = 0.1
+2020-10-19(월) 오후 9:48:22: prev_interval = 415 system elapsed time = 2400, service timer interval = 0.1
+2020-10-19(월) 오후 9:48:25: prev_interval = -585 system elapsed time = 2401, service timer interval = 0.1
+2020-10-19(월) 오후 9:48:27: prev_interval = 1405 system elapsed time = 2405, service timer interval = 0.1
+2020-10-19(월) 오후 9:48:30: prev_interval = 405 system elapsed time = 2405, service timer interval = 0.1
+2020-10-19(월) 오후 9:48:32: prev_interval = -595 system elapsed time = 2407, service timer interval = 0.1
+2020-10-19(월) 오후 9:49:34: waiting for input...
+2020-10-19(월) 오후 9:50:03: prev_interval = 0 system elapsed time = 4, service timer interval = 998
+2020-10-19(월) 오후 9:50:40: prev_interval = 2132 system elapsed time = 499, service timer interval = 0.1
+2020-10-19(월) 오후 9:51:29: prev_interval = 1132 system elapsed time = 236, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:06: waiting for input...
+2020-10-19(월) 오후 9:53:07: prev_interval = 0 system elapsed time = 1, service timer interval = 999
+2020-10-19(월) 오후 9:53:10: prev_interval = 1153 system elapsed time = 2153, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:10: prev_interval = 153 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:15: prev_interval = 1082 system elapsed time = 2082, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:15: prev_interval = 82 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:20: prev_interval = 1087 system elapsed time = 2087, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:20: prev_interval = 87 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:21: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:25: prev_interval = 1091 system elapsed time = 2091, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:25: prev_interval = 91 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:26: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:30: prev_interval = 1086 system elapsed time = 2086, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:30: prev_interval = 86 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:31: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:35: prev_interval = 1079 system elapsed time = 2079, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:35: prev_interval = 79 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:36: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:40: prev_interval = 1081 system elapsed time = 2081, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:40: prev_interval = 81 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:46: prev_interval = 1083 system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:46: prev_interval = 83 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:51: prev_interval = 1083 system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:51: prev_interval = 83 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:56: prev_interval = 1083 system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:56: prev_interval = 83 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:53:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:57: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:53:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:54:01: prev_interval = 1080 system elapsed time = 2080, service timer interval = 0.1
+2020-10-19(월) 오후 9:54:01: prev_interval = 80 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:54:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:54:21: waiting for input...
+2020-10-19(월) 오후 9:54:22: prev_interval = 0 system elapsed time = 1, service timer interval = 999
+2020-10-19(월) 오후 9:54:43: waiting for input...
+2020-10-19(월) 오후 9:54:44: prev_interval = 0 system elapsed time = 2, service timer interval = 998
+2020-10-19(월) 오후 9:54:52: prev_interval = 6113 system elapsed time = 7113, service timer interval = 0.1
+2020-10-19(월) 오후 9:54:52: prev_interval = 5113 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:54:52: prev_interval = 4113 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:54:52: prev_interval = 3113 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:54:52: prev_interval = 2113 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:54:54: prev_interval = 1113 system elapsed time = 2137, service timer interval = 0.1
+2020-10-19(월) 오후 9:54:54: prev_interval = 113 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:54:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:54:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:54:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:54:59: prev_interval = 1088 system elapsed time = 2088, service timer interval = 0.1
+2020-10-19(월) 오후 9:54:59: prev_interval = 88 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:54:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:00: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:04: prev_interval = 1105 system elapsed time = 2105, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:04: prev_interval = 105 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:05: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:09: prev_interval = 1091 system elapsed time = 2091, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:09: prev_interval = 91 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:15: prev_interval = 1091 system elapsed time = 2091, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:15: prev_interval = 91 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:20: prev_interval = 1109 system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:20: prev_interval = 109 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:21: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:25: prev_interval = 1140 system elapsed time = 2140, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:25: prev_interval = 140 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:26: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:30: prev_interval = 1137 system elapsed time = 2137, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:30: prev_interval = 137 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:31: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:35: prev_interval = 1126 system elapsed time = 2126, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:35: prev_interval = 126 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:36: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:40: prev_interval = 1144 system elapsed time = 2144, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:40: prev_interval = 144 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:46: prev_interval = 1153 system elapsed time = 2153, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:46: prev_interval = 153 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:51: prev_interval = 1121 system elapsed time = 2121, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:51: prev_interval = 121 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:56: prev_interval = 1140 system elapsed time = 2140, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:56: prev_interval = 140 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:55:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:57: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:55:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:01: prev_interval = 1161 system elapsed time = 2161, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:01: prev_interval = 161 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:02: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:06: prev_interval = 1141 system elapsed time = 2141, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:07: prev_interval = 141 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:12: prev_interval = 1151 system elapsed time = 2151, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:12: prev_interval = 151 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:36: prev_interval = 20040 system elapsed time = 21040, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:36: prev_interval = 19040 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:36: prev_interval = 18040 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:36: prev_interval = 17040 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:36: prev_interval = 16040 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:38: prev_interval = 15040 system elapsed time = 2158, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:38: prev_interval = 14040 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:38: prev_interval = 13040 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:38: prev_interval = 12040 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:38: prev_interval = 11040 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:40: prev_interval = 10040 system elapsed time = 2142, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:40: prev_interval = 9040 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:40: prev_interval = 8040 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:40: prev_interval = 7040 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:40: prev_interval = 6040 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:42: prev_interval = 5040 system elapsed time = 2158, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:42: prev_interval = 4040 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:43: prev_interval = 3040 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:43: prev_interval = 2040 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:43: prev_interval = 1040 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:45: prev_interval = 40 system elapsed time = 2144, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:51: prev_interval = 1146 system elapsed time = 2146, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:51: prev_interval = 146 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:56: prev_interval = 1139 system elapsed time = 2139, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:56: prev_interval = 139 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:56:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:57: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:56:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:57:01: prev_interval = 1140 system elapsed time = 2140, service timer interval = 0.1
+2020-10-19(월) 오후 9:57:01: prev_interval = 140 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:57:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:57:02: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:57:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:57:06: prev_interval = 1091 system elapsed time = 2091, service timer interval = 0.1
+2020-10-19(월) 오후 9:57:06: prev_interval = 91 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:57:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:57:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:57:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:57:15: prev_interval = 4039 system elapsed time = 5039, service timer interval = 0.1
+2020-10-19(월) 오후 9:57:15: prev_interval = 3039 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:57:15: prev_interval = 2039 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:57:15: prev_interval = 1039 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:57:15: prev_interval = 39 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 9:57:17: prev_interval = -961 system elapsed time = 2090, service timer interval = 0.1
+2020-10-19(월) 오후 9:57:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:57:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:57:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 9:57:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:11:23: prev_interval = 839181 system elapsed time = 840181, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:23: prev_interval = 838181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:23: prev_interval = 837181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:23: prev_interval = 836181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:25: prev_interval = 834181 system elapsed time = 2159, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:25: prev_interval = 833181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:25: prev_interval = 832181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:25: prev_interval = 831181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:25: prev_interval = 830181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:27: prev_interval = 829181 system elapsed time = 2080, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:27: prev_interval = 828181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:27: prev_interval = 827181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:27: prev_interval = 826181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:28: prev_interval = 825181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:30: prev_interval = 824181 system elapsed time = 2081, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:30: prev_interval = 823181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:30: prev_interval = 822181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:30: prev_interval = 821181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:30: prev_interval = 820181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:32: prev_interval = 819181 system elapsed time = 2086, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:32: prev_interval = 818181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:32: prev_interval = 817181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:32: prev_interval = 816181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:32: prev_interval = 815181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:34: prev_interval = 814181 system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:34: prev_interval = 813181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:34: prev_interval = 812181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:34: prev_interval = 811181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:34: prev_interval = 810181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:36: prev_interval = 809181 system elapsed time = 2086, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:36: prev_interval = 808181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:36: prev_interval = 807181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:36: prev_interval = 806181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:36: prev_interval = 805181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:38: prev_interval = 804181 system elapsed time = 2085, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:38: prev_interval = 803181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:38: prev_interval = 802181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:38: prev_interval = 801181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:38: prev_interval = 800181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:40: prev_interval = 799181 system elapsed time = 2072, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:40: prev_interval = 798181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:40: prev_interval = 797181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:41: prev_interval = 796181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:41: prev_interval = 795181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:43: prev_interval = 794181 system elapsed time = 2082, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:43: prev_interval = 793181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:43: prev_interval = 792181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:43: prev_interval = 791181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:43: prev_interval = 790181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:45: prev_interval = 789181 system elapsed time = 2085, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:45: prev_interval = 788181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:45: prev_interval = 787181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:45: prev_interval = 786181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:45: prev_interval = 785181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:47: prev_interval = 784181 system elapsed time = 2084, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:47: prev_interval = 783181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:47: prev_interval = 782181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:47: prev_interval = 781181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:47: prev_interval = 780181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:49: prev_interval = 779181 system elapsed time = 2061, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:49: prev_interval = 778181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:49: prev_interval = 777181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:49: prev_interval = 776181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:49: prev_interval = 775181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:51: prev_interval = 774181 system elapsed time = 2085, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:51: prev_interval = 773181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:51: prev_interval = 772181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:51: prev_interval = 771181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:51: prev_interval = 770181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:53: prev_interval = 769181 system elapsed time = 2079, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:53: prev_interval = 768181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:53: prev_interval = 767181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:53: prev_interval = 766181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:53: prev_interval = 765181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:56: prev_interval = 764181 system elapsed time = 2083, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:56: prev_interval = 763181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:56: prev_interval = 762181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:56: prev_interval = 761181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:56: prev_interval = 760181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:58: prev_interval = 759181 system elapsed time = 2078, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:58: prev_interval = 758181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:58: prev_interval = 757181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:58: prev_interval = 756181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:11:58: prev_interval = 755181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:00: prev_interval = 754181 system elapsed time = 2084, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:00: prev_interval = 753181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:00: prev_interval = 752181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:00: prev_interval = 751181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:00: prev_interval = 750181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:02: prev_interval = 749181 system elapsed time = 2076, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:02: prev_interval = 748181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:02: prev_interval = 747181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:02: prev_interval = 746181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:02: prev_interval = 745181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:04: prev_interval = 744181 system elapsed time = 2080, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:04: prev_interval = 743181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:04: prev_interval = 742181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:04: prev_interval = 741181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:04: prev_interval = 740181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:06: prev_interval = 739181 system elapsed time = 2081, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:06: prev_interval = 738181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:06: prev_interval = 737181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:06: prev_interval = 736181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:06: prev_interval = 735181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:09: prev_interval = 734181 system elapsed time = 2074, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:09: prev_interval = 733181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:09: prev_interval = 732181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:09: prev_interval = 731181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:09: prev_interval = 730181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:11: prev_interval = 729181 system elapsed time = 2065, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:11: prev_interval = 728181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:11: prev_interval = 727181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:11: prev_interval = 726181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:11: prev_interval = 725181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:13: prev_interval = 724181 system elapsed time = 2064, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:13: prev_interval = 723181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:13: prev_interval = 722181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:13: prev_interval = 721181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:13: prev_interval = 720181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:15: prev_interval = 719181 system elapsed time = 2063, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:15: prev_interval = 718181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:15: prev_interval = 717181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:15: prev_interval = 716181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:15: prev_interval = 715181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:18: prev_interval = 714181 system elapsed time = 3101, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:18: prev_interval = 713181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:18: prev_interval = 712181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:18: prev_interval = 711181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:18: prev_interval = 710181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:20: prev_interval = 709181 system elapsed time = 2066, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:20: prev_interval = 708181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:20: prev_interval = 707181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:20: prev_interval = 706181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:20: prev_interval = 705181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:22: prev_interval = 704181 system elapsed time = 2074, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:22: prev_interval = 703181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:22: prev_interval = 702181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:23: prev_interval = 701181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:23: prev_interval = 700181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:25: prev_interval = 699181 system elapsed time = 2072, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:25: prev_interval = 698181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:25: prev_interval = 697181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:25: prev_interval = 696181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:25: prev_interval = 695181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:27: prev_interval = 694181 system elapsed time = 2085, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:27: prev_interval = 693181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:27: prev_interval = 692181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:27: prev_interval = 691181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:27: prev_interval = 690181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:29: prev_interval = 689181 system elapsed time = 2064, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:29: prev_interval = 688181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:29: prev_interval = 687181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:29: prev_interval = 686181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:29: prev_interval = 685181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:31: prev_interval = 684181 system elapsed time = 2064, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:31: prev_interval = 683181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:31: prev_interval = 682181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:31: prev_interval = 681181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:31: prev_interval = 680181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:33: prev_interval = 679181 system elapsed time = 2082, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:33: prev_interval = 678181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:33: prev_interval = 677181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:33: prev_interval = 676181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:33: prev_interval = 675181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:43: prev_interval = 674181 system elapsed time = 9517, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:43: prev_interval = 673181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:43: prev_interval = 672181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:43: prev_interval = 671181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:43: prev_interval = 670181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:46: prev_interval = 669181 system elapsed time = 3160, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:46: prev_interval = 668181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:46: prev_interval = 667181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:46: prev_interval = 666181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:46: prev_interval = 665181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:48: prev_interval = 664181 system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:48: prev_interval = 663181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:48: prev_interval = 662181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:48: prev_interval = 661181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:48: prev_interval = 660181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:50: prev_interval = 659181 system elapsed time = 2107, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:50: prev_interval = 658181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:50: prev_interval = 657181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:50: prev_interval = 656181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:51: prev_interval = 655181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:53: prev_interval = 654181 system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:53: prev_interval = 653181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:53: prev_interval = 652181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:53: prev_interval = 651181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:53: prev_interval = 650181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:55: prev_interval = 649181 system elapsed time = 2117, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:55: prev_interval = 648181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:55: prev_interval = 647181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:55: prev_interval = 646181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:55: prev_interval = 645181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:57: prev_interval = 644181 system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:57: prev_interval = 643181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:57: prev_interval = 642181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:57: prev_interval = 641181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:57: prev_interval = 640181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:59: prev_interval = 639181 system elapsed time = 2118, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:59: prev_interval = 638181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:59: prev_interval = 637181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:59: prev_interval = 636181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:12:59: prev_interval = 635181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:01: prev_interval = 634181 system elapsed time = 2130, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:01: prev_interval = 633181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:01: prev_interval = 632181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:01: prev_interval = 631181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:01: prev_interval = 630181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:04: prev_interval = 629181 system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:04: prev_interval = 628181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:04: prev_interval = 627181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:04: prev_interval = 626181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:04: prev_interval = 625181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:06: prev_interval = 624181 system elapsed time = 2129, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:06: prev_interval = 623181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:06: prev_interval = 622181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:06: prev_interval = 621181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:06: prev_interval = 620181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:08: prev_interval = 619181 system elapsed time = 2120, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:08: prev_interval = 618181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:08: prev_interval = 617181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:08: prev_interval = 616181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:08: prev_interval = 615181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:10: prev_interval = 614181 system elapsed time = 2125, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:10: prev_interval = 613181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:10: prev_interval = 612181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:10: prev_interval = 611181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:10: prev_interval = 610181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:12: prev_interval = 609181 system elapsed time = 2136, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:12: prev_interval = 608181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:12: prev_interval = 607181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:12: prev_interval = 606181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:13: prev_interval = 605181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:15: prev_interval = 604181 system elapsed time = 2134, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:15: prev_interval = 603181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:15: prev_interval = 602181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:15: prev_interval = 601181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:15: prev_interval = 600181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:17: prev_interval = 599181 system elapsed time = 2122, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:17: prev_interval = 598181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:17: prev_interval = 597181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:17: prev_interval = 596181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:17: prev_interval = 595181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:19: prev_interval = 594181 system elapsed time = 2137, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:19: prev_interval = 593181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:19: prev_interval = 592181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:19: prev_interval = 591181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:19: prev_interval = 590181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:21: prev_interval = 589181 system elapsed time = 2125, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:21: prev_interval = 588181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:21: prev_interval = 587181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:21: prev_interval = 586181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:21: prev_interval = 585181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:23: prev_interval = 584181 system elapsed time = 2134, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:24: prev_interval = 583181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:24: prev_interval = 582181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:24: prev_interval = 581181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:24: prev_interval = 580181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:26: prev_interval = 579181 system elapsed time = 2116, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:26: prev_interval = 578181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:26: prev_interval = 577181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:26: prev_interval = 576181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:26: prev_interval = 575181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:28: prev_interval = 574181 system elapsed time = 2098, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:28: prev_interval = 573181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:28: prev_interval = 572181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:28: prev_interval = 571181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:28: prev_interval = 570181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:30: prev_interval = 569181 system elapsed time = 2119, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:30: prev_interval = 568181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:30: prev_interval = 567181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:30: prev_interval = 566181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:30: prev_interval = 565181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:32: prev_interval = 564181 system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:32: prev_interval = 563181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:32: prev_interval = 562181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:32: prev_interval = 561181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:32: prev_interval = 560181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:34: prev_interval = 559181 system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:34: prev_interval = 558181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:34: prev_interval = 557181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:34: prev_interval = 556181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:34: prev_interval = 555181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:37: prev_interval = 554181 system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:37: prev_interval = 553181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:37: prev_interval = 552181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:37: prev_interval = 551181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:37: prev_interval = 550181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:39: prev_interval = 549181 system elapsed time = 2126, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:39: prev_interval = 548181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:39: prev_interval = 547181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:39: prev_interval = 546181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:39: prev_interval = 545181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:41: prev_interval = 544181 system elapsed time = 2117, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:41: prev_interval = 543181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:41: prev_interval = 542181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:41: prev_interval = 541181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:41: prev_interval = 540181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:43: prev_interval = 539181 system elapsed time = 2102, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:43: prev_interval = 538181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:43: prev_interval = 537181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:43: prev_interval = 536181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:43: prev_interval = 535181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:45: prev_interval = 534181 system elapsed time = 2124, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:45: prev_interval = 533181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:45: prev_interval = 532181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:45: prev_interval = 531181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:45: prev_interval = 530181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:48: prev_interval = 529181 system elapsed time = 2101, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:48: prev_interval = 528181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:48: prev_interval = 527181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:48: prev_interval = 526181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:48: prev_interval = 525181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:50: prev_interval = 524181 system elapsed time = 2107, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:50: prev_interval = 523181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:50: prev_interval = 522181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:50: prev_interval = 521181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:50: prev_interval = 520181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:52: prev_interval = 519181 system elapsed time = 2121, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:52: prev_interval = 518181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:52: prev_interval = 517181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:52: prev_interval = 516181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:52: prev_interval = 515181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:54: prev_interval = 514181 system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:54: prev_interval = 513181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:54: prev_interval = 512181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:54: prev_interval = 511181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:54: prev_interval = 510181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:56: prev_interval = 509181 system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:56: prev_interval = 508181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:56: prev_interval = 507181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:56: prev_interval = 506181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:56: prev_interval = 505181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:59: prev_interval = 504181 system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:59: prev_interval = 503181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:59: prev_interval = 502181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:59: prev_interval = 501181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:13:59: prev_interval = 500181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:01: prev_interval = 499181 system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:01: prev_interval = 498181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:01: prev_interval = 497181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:01: prev_interval = 496181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:01: prev_interval = 495181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:03: prev_interval = 494181 system elapsed time = 2117, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:03: prev_interval = 493181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:03: prev_interval = 492181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:03: prev_interval = 491181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:03: prev_interval = 490181 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:18: waiting for input...
+2020-10-19(월) 오후 10:14:19: prev_interval = 0 system elapsed time = 1, service timer interval = 999
+2020-10-19(월) 오후 10:14:26: prev_interval = 5247 system elapsed time = 6247, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:26: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:14:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:14:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:14:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:14:33: prev_interval = 1125 system elapsed time = 2125, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:33: prev_interval = 125 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:14:34: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:14:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:14:38: prev_interval = 1125 system elapsed time = 2125, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:38: prev_interval = 125 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:14:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:14:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:14:43: prev_interval = 1108 system elapsed time = 2108, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:43: prev_interval = 108 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:14:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:14:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:14:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:08: waiting for input...
+2020-10-19(월) 오후 10:15:09: prev_interval = 0 system elapsed time = 1, service timer interval = 999
+2020-10-19(월) 오후 10:15:16: prev_interval = 5184 system elapsed time = 6184, service timer interval = 0.1
+2020-10-19(월) 오후 10:15:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:23: prev_interval = 1118 system elapsed time = 2118, service timer interval = 0.1
+2020-10-19(월) 오후 10:15:23: prev_interval = 118 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:15:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:28: prev_interval = 1109 system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 10:15:28: prev_interval = 109 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:15:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:33: prev_interval = 1122 system elapsed time = 2122, service timer interval = 0.1
+2020-10-19(월) 오후 10:15:33: prev_interval = 122 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:15:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:34: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:38: prev_interval = 1118 system elapsed time = 2118, service timer interval = 0.1
+2020-10-19(월) 오후 10:15:38: prev_interval = 118 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:15:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:43: prev_interval = 1150 system elapsed time = 2150, service timer interval = 0.1
+2020-10-19(월) 오후 10:15:43: prev_interval = 150 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:15:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:49: prev_interval = 1123 system elapsed time = 2123, service timer interval = 0.1
+2020-10-19(월) 오후 10:15:49: prev_interval = 123 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:15:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:54: prev_interval = 1103 system elapsed time = 2103, service timer interval = 0.1
+2020-10-19(월) 오후 10:15:54: prev_interval = 103 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:15:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:15:59: prev_interval = 1113 system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 10:15:59: prev_interval = 113 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:15:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:00: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:04: prev_interval = 1113 system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:04: prev_interval = 113 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:05: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:09: prev_interval = 1135 system elapsed time = 2135, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:09: prev_interval = 135 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:14: prev_interval = 1118 system elapsed time = 2118, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:14: prev_interval = 118 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:20: prev_interval = 1119 system elapsed time = 2119, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:20: prev_interval = 119 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:21: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:25: prev_interval = 1103 system elapsed time = 2103, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:25: prev_interval = 103 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:26: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:30: prev_interval = 1102 system elapsed time = 2102, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:30: prev_interval = 102 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:31: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:35: prev_interval = 1106 system elapsed time = 2106, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:35: prev_interval = 106 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:36: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:40: prev_interval = 1108 system elapsed time = 2108, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:40: prev_interval = 108 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:45: prev_interval = 1126 system elapsed time = 2126, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:45: prev_interval = 126 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:51: prev_interval = 1116 system elapsed time = 2116, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:51: prev_interval = 116 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:56: prev_interval = 1119 system elapsed time = 2119, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:56: prev_interval = 119 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:16:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:57: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:16:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:01: prev_interval = 1122 system elapsed time = 2122, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:01: prev_interval = 122 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:02: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:06: prev_interval = 1117 system elapsed time = 2117, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:06: prev_interval = 117 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:11: prev_interval = 1118 system elapsed time = 2118, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:11: prev_interval = 118 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:16: prev_interval = 1111 system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:16: prev_interval = 111 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:31: waiting for input...
+2020-10-19(월) 오후 10:17:32: prev_interval = -999 system elapsed time = 1, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:38: prev_interval = 5217 system elapsed time = 6217, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:45: prev_interval = 1117 system elapsed time = 2117, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:45: prev_interval = 117 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:45: prev_interval = -883 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:49: prev_interval = 1126 system elapsed time = 2126, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:49: prev_interval = 126 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:49: prev_interval = -874 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:53: prev_interval = 1125 system elapsed time = 2125, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:53: prev_interval = 125 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:53: prev_interval = -875 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:57: prev_interval = 1119 system elapsed time = 2119, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:57: prev_interval = 119 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:57: prev_interval = -881 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:17:57: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:17:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:01: prev_interval = 1108 system elapsed time = 2108, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:01: prev_interval = 108 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:01: prev_interval = -892 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:02: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:05: prev_interval = 1104 system elapsed time = 2104, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:06: prev_interval = 104 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:06: prev_interval = -896 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:10: prev_interval = 1109 system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:10: prev_interval = 109 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:10: prev_interval = -891 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:14: prev_interval = 1114 system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:14: prev_interval = 114 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:14: prev_interval = -886 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:18: prev_interval = 1126 system elapsed time = 2126, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:18: prev_interval = 126 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:18: prev_interval = -874 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:22: prev_interval = 1119 system elapsed time = 2119, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:22: prev_interval = 119 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:22: prev_interval = -881 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:26: prev_interval = 1129 system elapsed time = 2129, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:26: prev_interval = 129 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:26: prev_interval = -871 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:26: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:31: prev_interval = 1110 system elapsed time = 2110, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:31: prev_interval = 110 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:31: prev_interval = -890 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:31: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:35: prev_interval = 1128 system elapsed time = 2128, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:35: prev_interval = 128 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:35: prev_interval = -872 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:36: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:39: prev_interval = 1108 system elapsed time = 2108, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:39: prev_interval = 108 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:39: prev_interval = -892 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:18:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:18:52: waiting for input...
+2020-10-19(월) 오후 10:18:53: prev_interval = 1 system elapsed time = 1, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:00: prev_interval = -6201 system elapsed time = 6202, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:00: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:19:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:19:02: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:19:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:19:06: prev_interval = 2115 system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:06: prev_interval = 2115 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:06: prev_interval = 2115 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:06: prev_interval = 2115 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:06: prev_interval = 2115 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:08: prev_interval = 4 system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:08: prev_interval = 4 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:08: prev_interval = 4 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:08: prev_interval = 4 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:08: prev_interval = 4 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:10: prev_interval = -2115 system elapsed time = 2119, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:19:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:19:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:19:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:19:16: prev_interval = 2114 system elapsed time = 2114, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:16: prev_interval = 2114 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:16: prev_interval = 2114 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:16: prev_interval = 2114 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:16: prev_interval = 2114 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:18: prev_interval = -6 system elapsed time = 2120, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:19:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:19:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:19:21: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:19:25: prev_interval = 2112 system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:25: prev_interval = 2112 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:25: prev_interval = 2112 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:25: prev_interval = 2112 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:25: prev_interval = 2112 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:27: prev_interval = -7 system elapsed time = 2119, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:19:46: waiting for input...
+2020-10-19(월) 오후 10:19:46: prev_interval = -999 system elapsed time = 1, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:53: prev_interval = 5191 system elapsed time = 6191, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:19:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:19:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:19:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:19:59: prev_interval = 1129 system elapsed time = 2129, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:59: prev_interval = 1129 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:59: prev_interval = 1129 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:59: prev_interval = 1129 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:19:59: prev_interval = 1129 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:20:01: prev_interval = -998 system elapsed time = 2127, service timer interval = 0.1
+2020-10-19(월) 오후 10:20:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:20:02: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:20:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:20:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:20:07: prev_interval = 1116 system elapsed time = 2116, service timer interval = 0.1
+2020-10-19(월) 오후 10:20:07: prev_interval = 1116 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:20:07: prev_interval = 1116 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:20:07: prev_interval = 1116 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:20:07: prev_interval = 1116 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:20:09: prev_interval = -1006 system elapsed time = 2122, service timer interval = 0.1
+2020-10-19(월) 오후 10:20:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:20:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:20:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:20:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:20:16: prev_interval = 1124 system elapsed time = 2124, service timer interval = 0.1
+2020-10-19(월) 오후 10:20:16: prev_interval = 1124 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:20:16: prev_interval = 1124 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:20:16: prev_interval = 1124 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:20:16: prev_interval = 1124 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:27:59: waiting for input...
+2020-10-19(월) 오후 10:28:00: prev_interval = 0 system elapsed time = 1, service timer interval = 999
+2020-10-19(월) 오후 10:28:07: prev_interval = 5223 system elapsed time = 6223, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:07: prev_interval = 4223.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:07: prev_interval = 3223.2 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:07: prev_interval = 2223.3 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:07: prev_interval = 1223.4 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:10: prev_interval = 223.5 system elapsed time = 2132, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:10: prev_interval = 0 system elapsed time = 0, service timer interval = 776.5
+2020-10-19(월) 오후 10:28:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:16: prev_interval = 1136 system elapsed time = 2136, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:16: prev_interval = 136.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:16: prev_interval = 0 system elapsed time = 0, service timer interval = 863.9
+2020-10-19(월) 오후 10:28:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:21: prev_interval = 1127 system elapsed time = 2127, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:21: prev_interval = 127.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:21: prev_interval = 0 system elapsed time = 0, service timer interval = 872.9
+2020-10-19(월) 오후 10:28:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:26: prev_interval = 1128 system elapsed time = 2128, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:26: prev_interval = 128.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:26: prev_interval = 0 system elapsed time = 0, service timer interval = 871.9
+2020-10-19(월) 오후 10:28:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:31: prev_interval = 1112 system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:31: prev_interval = 112.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:31: prev_interval = 0 system elapsed time = 0, service timer interval = 887.9
+2020-10-19(월) 오후 10:28:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:36: prev_interval = 1115 system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:36: prev_interval = 115.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:36: prev_interval = 0 system elapsed time = 0, service timer interval = 884.9
+2020-10-19(월) 오후 10:28:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:41: prev_interval = 1133 system elapsed time = 2133, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:41: prev_interval = 133.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:41: prev_interval = 0 system elapsed time = 0, service timer interval = 866.9
+2020-10-19(월) 오후 10:28:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:46: prev_interval = 1118 system elapsed time = 2118, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:46: prev_interval = 118.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:46: prev_interval = 0 system elapsed time = 0, service timer interval = 881.9
+2020-10-19(월) 오후 10:28:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:51: prev_interval = 1127 system elapsed time = 2127, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:51: prev_interval = 127.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:51: prev_interval = 0 system elapsed time = 0, service timer interval = 872.9
+2020-10-19(월) 오후 10:28:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:56: prev_interval = 1109 system elapsed time = 2109, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:56: prev_interval = 109.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:28:56: prev_interval = 0 system elapsed time = 0, service timer interval = 890.9
+2020-10-19(월) 오후 10:28:57: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:28:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:01: prev_interval = 1111 system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:01: prev_interval = 111.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:01: prev_interval = 0 system elapsed time = 0, service timer interval = 888.9
+2020-10-19(월) 오후 10:29:02: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:06: prev_interval = 1111 system elapsed time = 2111, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:06: prev_interval = 111.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:06: prev_interval = 0 system elapsed time = 0, service timer interval = 888.9
+2020-10-19(월) 오후 10:29:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:11: prev_interval = 1131 system elapsed time = 2131, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:11: prev_interval = 131.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:11: prev_interval = 0 system elapsed time = 0, service timer interval = 868.9
+2020-10-19(월) 오후 10:29:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:16: prev_interval = 1112 system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:16: prev_interval = 112.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:16: prev_interval = 0 system elapsed time = 0, service timer interval = 887.9
+2020-10-19(월) 오후 10:29:21: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:21: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:21: prev_interval = 1108 system elapsed time = 2108, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:21: prev_interval = 108.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:21: prev_interval = 0 system elapsed time = 0, service timer interval = 891.9
+2020-10-19(월) 오후 10:29:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:26: prev_interval = 1115 system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:26: prev_interval = 115.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:26: prev_interval = 0 system elapsed time = 0, service timer interval = 884.9
+2020-10-19(월) 오후 10:29:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:31: prev_interval = 1122 system elapsed time = 2122, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:31: prev_interval = 122.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:31: prev_interval = 0 system elapsed time = 0, service timer interval = 877.9
+2020-10-19(월) 오후 10:29:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:36: prev_interval = 1118 system elapsed time = 2118, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:36: prev_interval = 118.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:37: prev_interval = 0 system elapsed time = 0, service timer interval = 881.9
+2020-10-19(월) 오후 10:29:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:42: prev_interval = 1115 system elapsed time = 2115, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:42: prev_interval = 115.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:42: prev_interval = 0 system elapsed time = 0, service timer interval = 884.9
+2020-10-19(월) 오후 10:29:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:47: prev_interval = 1113 system elapsed time = 2113, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:47: prev_interval = 113.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:47: prev_interval = 0 system elapsed time = 0, service timer interval = 886.9
+2020-10-19(월) 오후 10:29:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:52: prev_interval = 1117 system elapsed time = 2117, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:52: prev_interval = 117.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:52: prev_interval = 0 system elapsed time = 0, service timer interval = 882.9
+2020-10-19(월) 오후 10:29:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:57: prev_interval = 1250 system elapsed time = 2250, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:57: prev_interval = 250.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:29:57: prev_interval = 0 system elapsed time = 0, service timer interval = 749.9
+2020-10-19(월) 오후 10:29:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:29:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:30:02: prev_interval = 1120 system elapsed time = 2120, service timer interval = 0.1
+2020-10-19(월) 오후 10:30:02: prev_interval = 120.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:30:02: prev_interval = 0 system elapsed time = 0, service timer interval = 879.9
+2020-10-19(월) 오후 10:30:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:30:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:30:07: prev_interval = 1104 system elapsed time = 2104, service timer interval = 0.1
+2020-10-19(월) 오후 10:30:07: prev_interval = 104.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:30:07: prev_interval = 0 system elapsed time = 0, service timer interval = 895.9
+2020-10-19(월) 오후 10:30:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:30:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:30:12: prev_interval = 1112 system elapsed time = 2112, service timer interval = 0.1
+2020-10-19(월) 오후 10:30:12: prev_interval = 112.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-19(월) 오후 10:30:12: prev_interval = 0 system elapsed time = 0, service timer interval = 887.9
+2020-10-19(월) 오후 10:30:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-19(월) 오후 10:30:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000

@@ -1,1 +1,1 @@
-throttle_median = 80
+throttle_median = 60       # high threshold 30 x 2
