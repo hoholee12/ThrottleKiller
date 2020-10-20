@@ -359,7 +359,6 @@ namespace ThrottleSchedulerService
                 if (load > high && currpwr < target_pwr)
                 {
                     
-
                     sm.startThrottleSync();
                     
                     //accumulate

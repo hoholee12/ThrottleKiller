@@ -30,6 +30,9 @@ namespace ThrottleSchedulerService
         //wrong
         public bool wrong = false;
 
+        //xtu apply daemon
+        public bool xtuapplynested = false;
+        public double xtuapplyvalue = 0.0;
 /*
         //GUIDs
         public string guid0 = @"381b4222-f694-41f0-9685-ff5bb260df2e";		// you can change to any powerplan you want as default!
@@ -153,10 +156,39 @@ namespace ThrottleSchedulerService
             return lastXTU;
         }
 
+        //prevent slowdown on high cpu apps by delaying
+        public void XTUdaemon(SettingsManager sm, TweakerChecker tc) {
+            int currpwr = tc.autofilterPWR(tc.getPWR());
+            int load = tc.getLoad();
+            if (load >= (int)sm.throttle_median.configList["throttle_median"]) {
+                xtuapplynested = false;
+                return;
+            }
+            if (xtuapplyvalue != 0.0)
+            {
+                xtuapplynested = true;
+            }
+            
+        }
+
         //intel graphics settings
         //	false = Balanced(Maximum Battery Life is useless)
         //	true = Maximum Performance(seems to remove long term throttling...)
         public void setXTU(SettingsManager sm, double value) {
+
+            if (!xtuapplynested)
+            {
+                log.WriteLog("setting XTU nested");
+                xtuapplyvalue = value;
+                return;
+            }
+            else
+            {
+                value = xtuapplyvalue;
+                xtuapplyvalue = 0.0;
+                xtuapplynested = false;
+            }
+
             lastXTU = (float)value;
 
             log.WriteLog("setting XTU: " + value);
@@ -217,6 +249,7 @@ namespace ThrottleSchedulerService
             }
             else
             {
+                if (setval == lastCLK) return;
                 lastCLK = setval;   //maxCLK for other use
                 runpowercfg("/setdcvalueindex " + powerplan + " " + processor + " " + procsubh + " " + setval);
                 //runpowercfg("/setacvalueindex " + powerplan + " " + processor + " " + procsubh + " " + (setval - (int)sm.ac_offset.configList["ac_offset"])); //hotter when plugged in

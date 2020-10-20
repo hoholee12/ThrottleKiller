@@ -108,7 +108,7 @@ namespace ThrottleSchedulerService
             if (settings.timeSync)
             {
                 checker.resettick();
-
+                controller.XTUdaemon(settings, checker);
 
                 //1. check config
                 controller.generateCLKlist(settings, checker);  //before batchCheck
@@ -154,9 +154,11 @@ namespace ThrottleSchedulerService
                 int currprof = controller.checkInList(currfg, settings);
 
                 //if app has a profile:
-                if (currprof != -1){
-                    if (checker.isCurrentlyThrottling(settings, controller)){
-                    
+                if (currprof != -1)
+                {
+                    if (checker.isCurrentlyThrottling(settings, controller))
+                    {
+
                         int mode = settings.throttleMode;   //save mode
                         settings.throttleMode = 0;  //reset
 
@@ -170,7 +172,8 @@ namespace ThrottleSchedulerService
                         float newxtu = controller.getXTU();
                         if (newxtu > controller.getBaseXTU(settings)) newxtu -= 0.5f;
 
-                        switch (mode) {
+                        switch (mode)
+                        {
                             case 0: break;
                             case 1: //cpu
                                 settings.programs_running_cfg_cpu.appendChanges(currprof, newclk);
@@ -181,16 +184,18 @@ namespace ThrottleSchedulerService
 
 
                                 break;
-                        
+
                         }
 
                     }
-                    if (checker.isViableForResurrect(settings, controller)) {
+                    if (checker.isViableForResurrect(settings, controller))
+                    {
                         int mode = settings.resurrectMode;
                         settings.resurrectMode = 0;
 
                         string name = controller.checkNameInList(currfg, settings);
-                        switch (mode) {
+                        switch (mode)
+                        {
                             case 0: break;
                             case 1:
                                 if (currprof > 0) settings.special_programs.appendChanges(name, currprof - 1);
@@ -201,6 +206,11 @@ namespace ThrottleSchedulerService
                         }
 
                     }
+                }
+                //reset timers (except newlist does it internally)
+                else {
+                    settings.resetThrottleSync();
+                    settings.resetResurSync();
                 }
                     
                     
