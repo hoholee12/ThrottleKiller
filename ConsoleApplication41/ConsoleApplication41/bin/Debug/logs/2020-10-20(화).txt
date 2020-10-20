@@ -17681,3 +17681,835 @@
 2020-10-20(화) 오전 11:08:43: prev_interval = 417.1 system elapsed time = 0, service timer interval = 0.1
 2020-10-20(화) 오전 11:08:43: prev_interval = 0 system elapsed time = 0, service timer interval = 582.9
 2020-10-20(화) 오전 11:08:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:11:17: waiting for input...
+2020-10-20(화) 오전 11:11:18: prev_interval = 0 system elapsed time = 1, service timer interval = 999
+2020-10-20(화) 오전 11:11:21: prev_interval = 1173 system elapsed time = 2173, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:21: prev_interval = 173.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:21: prev_interval = 0 system elapsed time = 0, service timer interval = 826.9
+2020-10-20(화) 오전 11:11:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:11:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:11:28: prev_interval = 3717 system elapsed time = 4717, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:28: prev_interval = 2717.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:28: prev_interval = 1717.2 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:28: prev_interval = 717.3 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:28: prev_interval = 0 system elapsed time = 0, service timer interval = 282.7
+2020-10-20(화) 오전 11:11:31: prev_interval = 1103 system elapsed time = 2103, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:31: prev_interval = 103.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:31: prev_interval = 0 system elapsed time = 0, service timer interval = 896.9
+2020-10-20(화) 오전 11:11:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:11:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:11:36: prev_interval = 1192 system elapsed time = 2192, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:36: prev_interval = 192.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:36: prev_interval = 0 system elapsed time = 0, service timer interval = 807.9
+2020-10-20(화) 오전 11:11:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:11:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:11:41: prev_interval = 1121 system elapsed time = 2121, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:41: prev_interval = 121.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:41: prev_interval = 0 system elapsed time = 0, service timer interval = 878.9
+2020-10-20(화) 오전 11:11:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:11:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:11:46: prev_interval = 1087 system elapsed time = 2087, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:46: prev_interval = 87.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:46: prev_interval = 0 system elapsed time = 0, service timer interval = 912.9
+2020-10-20(화) 오전 11:11:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:11:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:11:51: prev_interval = 1085 system elapsed time = 2085, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:51: prev_interval = 85.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:51: prev_interval = 0 system elapsed time = 0, service timer interval = 914.9
+2020-10-20(화) 오전 11:11:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:11:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:11:56: prev_interval = 1112 system elapsed time = 2112, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:56: prev_interval = 112.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:11:56: prev_interval = 0 system elapsed time = 0, service timer interval = 887.9
+2020-10-20(화) 오전 11:11:57: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:11:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:01: prev_interval = 1105 system elapsed time = 2105, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:01: prev_interval = 105.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:01: prev_interval = 0 system elapsed time = 0, service timer interval = 894.9
+2020-10-20(화) 오전 11:12:02: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:06: prev_interval = 1091 system elapsed time = 2091, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:06: prev_interval = 91.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:06: prev_interval = 0 system elapsed time = 0, service timer interval = 908.9
+2020-10-20(화) 오전 11:12:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:11: prev_interval = 1087 system elapsed time = 2087, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:11: prev_interval = 87.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:11: prev_interval = 0 system elapsed time = 0, service timer interval = 912.9
+2020-10-20(화) 오전 11:12:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:16: prev_interval = 1098 system elapsed time = 2098, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:16: prev_interval = 98.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:16: prev_interval = 0 system elapsed time = 0, service timer interval = 901.9
+2020-10-20(화) 오전 11:12:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:21: prev_interval = 1086 system elapsed time = 2086, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:21: prev_interval = 86.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:21: prev_interval = 0 system elapsed time = 0, service timer interval = 913.9
+2020-10-20(화) 오전 11:12:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:26: prev_interval = 1095 system elapsed time = 2095, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:26: prev_interval = 95.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:26: prev_interval = 0 system elapsed time = 0, service timer interval = 904.9
+2020-10-20(화) 오전 11:12:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:31: prev_interval = 1085 system elapsed time = 2085, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:32: prev_interval = 85.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:32: prev_interval = 0 system elapsed time = 0, service timer interval = 914.9
+2020-10-20(화) 오전 11:12:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:37: prev_interval = 1094 system elapsed time = 2094, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:37: prev_interval = 94.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:37: prev_interval = 0 system elapsed time = 0, service timer interval = 905.9
+2020-10-20(화) 오전 11:12:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:42: prev_interval = 1089 system elapsed time = 2089, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:42: prev_interval = 89.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:42: prev_interval = 0 system elapsed time = 0, service timer interval = 910.9
+2020-10-20(화) 오전 11:12:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:47: prev_interval = 1099 system elapsed time = 2099, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:47: prev_interval = 99.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:47: prev_interval = 0 system elapsed time = 0, service timer interval = 900.9
+2020-10-20(화) 오전 11:12:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:52: prev_interval = 1097 system elapsed time = 2097, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:52: prev_interval = 97.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:52: prev_interval = 0 system elapsed time = 0, service timer interval = 902.9
+2020-10-20(화) 오전 11:12:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:57: prev_interval = 1098 system elapsed time = 2098, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:57: prev_interval = 98.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:12:57: prev_interval = 0 system elapsed time = 0, service timer interval = 901.9
+2020-10-20(화) 오전 11:12:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:12:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:02: prev_interval = 1080 system elapsed time = 2080, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:02: prev_interval = 80.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:02: prev_interval = 0 system elapsed time = 0, service timer interval = 919.9
+2020-10-20(화) 오전 11:13:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:07: prev_interval = 1086 system elapsed time = 2086, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:07: prev_interval = 86.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:07: prev_interval = 0 system elapsed time = 0, service timer interval = 913.9
+2020-10-20(화) 오전 11:13:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:12: prev_interval = 1094 system elapsed time = 2094, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:12: prev_interval = 94.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:12: prev_interval = 0 system elapsed time = 0, service timer interval = 905.9
+2020-10-20(화) 오전 11:13:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:17: prev_interval = 1094 system elapsed time = 2094, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:17: prev_interval = 94.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:17: prev_interval = 0 system elapsed time = 0, service timer interval = 905.9
+2020-10-20(화) 오전 11:13:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:22: prev_interval = 1077 system elapsed time = 2077, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:22: prev_interval = 77.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:22: prev_interval = 0 system elapsed time = 0, service timer interval = 922.9
+2020-10-20(화) 오전 11:13:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:27: prev_interval = 1091 system elapsed time = 2091, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:27: prev_interval = 91.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:27: prev_interval = 0 system elapsed time = 0, service timer interval = 908.9
+2020-10-20(화) 오전 11:13:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:29: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:30: waiting for input...
+2020-10-20(화) 오전 11:13:30: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:30: waiting for input...
+2020-10-20(화) 오전 11:13:31: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:31: waiting for input...
+2020-10-20(화) 오전 11:13:32: prev_interval = 1074 system elapsed time = 2074, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:32: prev_interval = 74.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:32: prev_interval = 0 system elapsed time = 0, service timer interval = 925.9
+2020-10-20(화) 오전 11:13:32: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:32: waiting for input...
+2020-10-20(화) 오전 11:13:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:33: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:33: waiting for input...
+2020-10-20(화) 오전 11:13:34: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:34: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:35: waiting for input...
+2020-10-20(화) 오전 11:13:36: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:36: waiting for input...
+2020-10-20(화) 오전 11:13:37: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:37: waiting for input...
+2020-10-20(화) 오전 11:13:37: prev_interval = 1101 system elapsed time = 2101, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:37: prev_interval = 101.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:37: prev_interval = 0 system elapsed time = 0, service timer interval = 898.9
+2020-10-20(화) 오전 11:13:38: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:38: waiting for input...
+2020-10-20(화) 오전 11:13:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:39: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:39: waiting for input...
+2020-10-20(화) 오전 11:13:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:40: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:40: waiting for input...
+2020-10-20(화) 오전 11:13:41: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:41: waiting for input...
+2020-10-20(화) 오전 11:13:42: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:42: waiting for input...
+2020-10-20(화) 오전 11:13:42: prev_interval = 1089 system elapsed time = 2089, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:42: prev_interval = 89.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:42: prev_interval = 0 system elapsed time = 0, service timer interval = 910.9
+2020-10-20(화) 오전 11:13:43: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:43: waiting for input...
+2020-10-20(화) 오전 11:13:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:44: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:44: waiting for input...
+2020-10-20(화) 오전 11:13:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:45: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:45: waiting for input...
+2020-10-20(화) 오전 11:13:46: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:46: waiting for input...
+2020-10-20(화) 오전 11:13:47: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:47: waiting for input...
+2020-10-20(화) 오전 11:13:47: prev_interval = 1106 system elapsed time = 2106, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:47: prev_interval = 106.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:47: prev_interval = 0 system elapsed time = 0, service timer interval = 893.9
+2020-10-20(화) 오전 11:13:48: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:48: waiting for input...
+2020-10-20(화) 오전 11:13:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:49: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:49: waiting for input...
+2020-10-20(화) 오전 11:13:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:50: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:50: waiting for input...
+2020-10-20(화) 오전 11:13:51: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:51: waiting for input...
+2020-10-20(화) 오전 11:13:52: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:52: waiting for input...
+2020-10-20(화) 오전 11:13:52: prev_interval = 1086 system elapsed time = 2086, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:52: prev_interval = 86.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:52: prev_interval = 0 system elapsed time = 0, service timer interval = 913.9
+2020-10-20(화) 오전 11:13:53: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:53: waiting for input...
+2020-10-20(화) 오전 11:13:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:54: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:54: waiting for input...
+2020-10-20(화) 오전 11:13:55: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:56: waiting for input...
+2020-10-20(화) 오전 11:13:57: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:57: waiting for input...
+2020-10-20(화) 오전 11:13:58: prev_interval = 1095 system elapsed time = 2095, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:58: prev_interval = 95.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:13:58: prev_interval = 0 system elapsed time = 0, service timer interval = 904.9
+2020-10-20(화) 오전 11:13:58: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:58: waiting for input...
+2020-10-20(화) 오전 11:13:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:13:59: UI App requests: getinfo
+2020-10-20(화) 오전 11:13:59: waiting for input...
+2020-10-20(화) 오전 11:13:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:00: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:00: waiting for input...
+2020-10-20(화) 오전 11:14:01: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:01: waiting for input...
+2020-10-20(화) 오전 11:14:02: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:02: waiting for input...
+2020-10-20(화) 오전 11:14:03: prev_interval = 1090 system elapsed time = 2090, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:03: prev_interval = 90.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:03: prev_interval = 0 system elapsed time = 0, service timer interval = 909.9
+2020-10-20(화) 오전 11:14:03: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:03: waiting for input...
+2020-10-20(화) 오전 11:14:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:04: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:04: waiting for input...
+2020-10-20(화) 오전 11:14:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:05: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:05: waiting for input...
+2020-10-20(화) 오전 11:14:06: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:06: waiting for input...
+2020-10-20(화) 오전 11:14:07: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:07: waiting for input...
+2020-10-20(화) 오전 11:14:08: prev_interval = 1088 system elapsed time = 2088, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:08: prev_interval = 88.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:08: prev_interval = 0 system elapsed time = 0, service timer interval = 911.9
+2020-10-20(화) 오전 11:14:08: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:08: waiting for input...
+2020-10-20(화) 오전 11:14:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:09: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:09: waiting for input...
+2020-10-20(화) 오전 11:14:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:10: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:10: waiting for input...
+2020-10-20(화) 오전 11:14:11: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:11: waiting for input...
+2020-10-20(화) 오전 11:14:12: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:12: waiting for input...
+2020-10-20(화) 오전 11:14:13: prev_interval = 1110 system elapsed time = 2110, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:13: prev_interval = 110.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:13: prev_interval = 0 system elapsed time = 0, service timer interval = 889.9
+2020-10-20(화) 오전 11:14:13: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:13: waiting for input...
+2020-10-20(화) 오전 11:14:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:14: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:14: waiting for input...
+2020-10-20(화) 오전 11:14:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:15: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:15: waiting for input...
+2020-10-20(화) 오전 11:14:16: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:17: waiting for input...
+2020-10-20(화) 오전 11:14:18: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:18: waiting for input...
+2020-10-20(화) 오전 11:14:18: prev_interval = 1109 system elapsed time = 2109, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:18: prev_interval = 109.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:18: prev_interval = 0 system elapsed time = 0, service timer interval = 890.9
+2020-10-20(화) 오전 11:14:19: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:19: waiting for input...
+2020-10-20(화) 오전 11:14:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:20: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:20: waiting for input...
+2020-10-20(화) 오전 11:14:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:21: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:21: waiting for input...
+2020-10-20(화) 오전 11:14:22: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:22: waiting for input...
+2020-10-20(화) 오전 11:14:23: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:23: waiting for input...
+2020-10-20(화) 오전 11:14:24: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:29: waiting for input...
+2020-10-20(화) 오전 11:14:29: prev_interval = 7374 system elapsed time = 8374, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:30: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:30: waiting for input...
+2020-10-20(화) 오전 11:14:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:31: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:31: waiting for input...
+2020-10-20(화) 오전 11:14:31: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:32: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:32: waiting for input...
+2020-10-20(화) 오전 11:14:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:33: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:33: waiting for input...
+2020-10-20(화) 오전 11:14:34: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:34: waiting for input...
+2020-10-20(화) 오전 11:14:35: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:35: waiting for input...
+2020-10-20(화) 오전 11:14:35: prev_interval = 1165 system elapsed time = 2165, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:35: prev_interval = 165.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:35: prev_interval = 0 system elapsed time = 0, service timer interval = 834.9
+2020-10-20(화) 오전 11:14:36: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:36: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:36: waiting for input...
+2020-10-20(화) 오전 11:14:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:37: waiting for input...
+2020-10-20(화) 오전 11:14:38: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:38: waiting for input...
+2020-10-20(화) 오전 11:14:39: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:39: waiting for input...
+2020-10-20(화) 오전 11:14:40: prev_interval = 1149 system elapsed time = 2149, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:40: prev_interval = 149.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:40: prev_interval = 0 system elapsed time = 0, service timer interval = 850.9
+2020-10-20(화) 오전 11:14:40: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:40: waiting for input...
+2020-10-20(화) 오전 11:14:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:41: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:42: waiting for input...
+2020-10-20(화) 오전 11:14:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:43: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:43: waiting for input...
+2020-10-20(화) 오전 11:14:44: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:44: waiting for input...
+2020-10-20(화) 오전 11:14:45: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:45: waiting for input...
+2020-10-20(화) 오전 11:14:45: prev_interval = 1162 system elapsed time = 2162, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:45: prev_interval = 162.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:45: prev_interval = 0 system elapsed time = 0, service timer interval = 837.9
+2020-10-20(화) 오전 11:14:46: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:46: waiting for input...
+2020-10-20(화) 오전 11:14:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:47: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:47: waiting for input...
+2020-10-20(화) 오전 11:14:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:48: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:48: waiting for input...
+2020-10-20(화) 오전 11:14:49: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:49: waiting for input...
+2020-10-20(화) 오전 11:14:50: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:50: waiting for input...
+2020-10-20(화) 오전 11:14:50: prev_interval = 1148 system elapsed time = 2148, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:50: prev_interval = 148.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:51: prev_interval = 0 system elapsed time = 0, service timer interval = 851.9
+2020-10-20(화) 오전 11:14:51: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:51: waiting for input...
+2020-10-20(화) 오전 11:14:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:52: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:52: waiting for input...
+2020-10-20(화) 오전 11:14:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:53: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:53: waiting for input...
+2020-10-20(화) 오전 11:14:54: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:54: waiting for input...
+2020-10-20(화) 오전 11:14:55: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:56: waiting for input...
+2020-10-20(화) 오전 11:14:56: prev_interval = 1436 system elapsed time = 2436, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:56: prev_interval = 436.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:14:56: prev_interval = 0 system elapsed time = 0, service timer interval = 563.9
+2020-10-20(화) 오전 11:14:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:57: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:57: waiting for input...
+2020-10-20(화) 오전 11:14:57: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:14:58: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:58: waiting for input...
+2020-10-20(화) 오전 11:14:59: UI App requests: getinfo
+2020-10-20(화) 오전 11:14:59: waiting for input...
+2020-10-20(화) 오전 11:15:00: UI App requests: getinfo
+2020-10-20(화) 오전 11:15:00: waiting for input...
+2020-10-20(화) 오전 11:15:01: UI App requests: getinfo
+2020-10-20(화) 오전 11:15:01: waiting for input...
+2020-10-20(화) 오전 11:15:02: UI App requests: getinfo
+2020-10-20(화) 오전 11:15:06: waiting for input...
+2020-10-20(화) 오전 11:15:06: prev_interval = 6591 system elapsed time = 7591, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:07: UI App requests: getinfo
+2020-10-20(화) 오전 11:15:07: waiting for input...
+2020-10-20(화) 오전 11:15:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:08: UI App requests: getinfo
+2020-10-20(화) 오전 11:15:08: waiting for input...
+2020-10-20(화) 오전 11:15:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:09: UI App requests: getinfo
+2020-10-20(화) 오전 11:15:09: waiting for input...
+2020-10-20(화) 오전 11:15:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:17: prev_interval = 5391 system elapsed time = 6391, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:23: prev_interval = 1138 system elapsed time = 2138, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:23: prev_interval = 138.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:23: prev_interval = 0 system elapsed time = 0, service timer interval = 861.9
+2020-10-20(화) 오전 11:15:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:28: prev_interval = 1434 system elapsed time = 2434, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:28: prev_interval = 434.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:28: prev_interval = 0 system elapsed time = 0, service timer interval = 565.9
+2020-10-20(화) 오전 11:15:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:35: prev_interval = 3754 system elapsed time = 4754, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:35: prev_interval = 2754.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:35: prev_interval = 1754.2 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:35: prev_interval = 754.3 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:35: prev_interval = 0 system elapsed time = 0, service timer interval = 245.7
+2020-10-20(화) 오전 11:15:42: prev_interval = 5737 system elapsed time = 6737, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:49: UI App requests: getinfo
+2020-10-20(화) 오전 11:15:49: prev_interval = 1497 system elapsed time = 2497, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:49: prev_interval = 497.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:49: prev_interval = 0 system elapsed time = 0, service timer interval = 502.9
+2020-10-20(화) 오전 11:15:49: waiting for input...
+2020-10-20(화) 오전 11:15:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:50: UI App requests: getinfo
+2020-10-20(화) 오전 11:15:50: waiting for input...
+2020-10-20(화) 오전 11:15:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:15:51: UI App requests: getinfo
+2020-10-20(화) 오전 11:15:51: waiting for input...
+2020-10-20(화) 오전 11:15:52: UI App requests: getinfo
+2020-10-20(화) 오전 11:15:52: waiting for input...
+2020-10-20(화) 오전 11:15:53: UI App requests: getinfo
+2020-10-20(화) 오전 11:15:53: waiting for input...
+2020-10-20(화) 오전 11:15:54: UI App requests: getinfo
+2020-10-20(화) 오전 11:15:57: waiting for input...
+2020-10-20(화) 오전 11:15:57: prev_interval = 4361 system elapsed time = 5361, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:57: prev_interval = 3361.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:57: prev_interval = 2361.2 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:57: prev_interval = 1361.3 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:57: prev_interval = 361.4 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:58: UI App requests: getinfo
+2020-10-20(화) 오전 11:15:58: waiting for input...
+2020-10-20(화) 오전 11:15:59: UI App requests: getinfo
+2020-10-20(화) 오전 11:15:59: waiting for input...
+2020-10-20(화) 오전 11:15:59: prev_interval = -638.5 system elapsed time = 2076, service timer interval = 0.1
+2020-10-20(화) 오전 11:15:59: prev_interval = -638.5 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:00: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:00: waiting for input...
+2020-10-20(화) 오전 11:16:00: prev_interval = -638.5 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:01: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:01: waiting for input...
+2020-10-20(화) 오전 11:16:01: prev_interval = -638.5 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:02: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:02: waiting for input...
+2020-10-20(화) 오전 11:16:02: prev_interval = -638.5 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:03: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:03: waiting for input...
+2020-10-20(화) 오전 11:16:04: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:04: waiting for input...
+2020-10-20(화) 오전 11:16:05: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:05: waiting for input...
+2020-10-20(화) 오전 11:16:05: prev_interval = 1085 system elapsed time = 2085, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:05: prev_interval = 85.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:05: prev_interval = 0 system elapsed time = 0, service timer interval = 914.9
+2020-10-20(화) 오전 11:16:06: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:06: waiting for input...
+2020-10-20(화) 오전 11:16:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:07: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:07: waiting for input...
+2020-10-20(화) 오전 11:16:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:08: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:08: waiting for input...
+2020-10-20(화) 오전 11:16:09: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:09: waiting for input...
+2020-10-20(화) 오전 11:16:10: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:10: waiting for input...
+2020-10-20(화) 오전 11:16:10: prev_interval = 1090 system elapsed time = 2090, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:10: prev_interval = 90.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:10: prev_interval = 0 system elapsed time = 0, service timer interval = 909.9
+2020-10-20(화) 오전 11:16:11: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:11: waiting for input...
+2020-10-20(화) 오전 11:16:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:12: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:12: waiting for input...
+2020-10-20(화) 오전 11:16:13: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:13: waiting for input...
+2020-10-20(화) 오전 11:16:14: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:14: waiting for input...
+2020-10-20(화) 오전 11:16:15: prev_interval = 1086 system elapsed time = 2086, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:15: prev_interval = 86.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:15: prev_interval = 0 system elapsed time = 0, service timer interval = 913.9
+2020-10-20(화) 오전 11:16:15: waiting for input...
+2020-10-20(화) 오전 11:16:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:16: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:16: waiting for input...
+2020-10-20(화) 오전 11:16:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:17: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:18: waiting for input...
+2020-10-20(화) 오전 11:16:19: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:19: waiting for input...
+2020-10-20(화) 오전 11:16:20: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:20: waiting for input...
+2020-10-20(화) 오전 11:16:20: prev_interval = 1087 system elapsed time = 2087, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:20: prev_interval = 87.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:20: prev_interval = 0 system elapsed time = 0, service timer interval = 912.9
+2020-10-20(화) 오전 11:16:21: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:21: waiting for input...
+2020-10-20(화) 오전 11:16:21: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:22: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:22: waiting for input...
+2020-10-20(화) 오전 11:16:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:23: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:23: waiting for input...
+2020-10-20(화) 오전 11:16:24: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:24: waiting for input...
+2020-10-20(화) 오전 11:16:25: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:25: waiting for input...
+2020-10-20(화) 오전 11:16:25: prev_interval = 1085 system elapsed time = 2085, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:26: prev_interval = 85.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:26: prev_interval = 0 system elapsed time = 0, service timer interval = 914.9
+2020-10-20(화) 오전 11:16:26: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:26: waiting for input...
+2020-10-20(화) 오전 11:16:26: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:27: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:27: waiting for input...
+2020-10-20(화) 오전 11:16:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:28: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:28: waiting for input...
+2020-10-20(화) 오전 11:16:29: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:29: waiting for input...
+2020-10-20(화) 오전 11:16:30: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:30: waiting for input...
+2020-10-20(화) 오전 11:16:31: prev_interval = 1097 system elapsed time = 2097, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:31: prev_interval = 97.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:31: prev_interval = 0 system elapsed time = 0, service timer interval = 902.9
+2020-10-20(화) 오전 11:16:31: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:31: waiting for input...
+2020-10-20(화) 오전 11:16:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:32: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:32: waiting for input...
+2020-10-20(화) 오전 11:16:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:33: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:33: waiting for input...
+2020-10-20(화) 오전 11:16:34: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:34: waiting for input...
+2020-10-20(화) 오전 11:16:35: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:35: waiting for input...
+2020-10-20(화) 오전 11:16:36: prev_interval = 1087 system elapsed time = 2087, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:36: prev_interval = 87.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:36: prev_interval = 0 system elapsed time = 0, service timer interval = 912.9
+2020-10-20(화) 오전 11:16:36: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:36: waiting for input...
+2020-10-20(화) 오전 11:16:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:37: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:37: waiting for input...
+2020-10-20(화) 오전 11:16:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:38: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:38: waiting for input...
+2020-10-20(화) 오전 11:16:39: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:40: waiting for input...
+2020-10-20(화) 오전 11:16:41: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:41: waiting for input...
+2020-10-20(화) 오전 11:16:41: prev_interval = 1085 system elapsed time = 2085, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:41: prev_interval = 85.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:41: prev_interval = 0 system elapsed time = 0, service timer interval = 914.9
+2020-10-20(화) 오전 11:16:42: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:42: waiting for input...
+2020-10-20(화) 오전 11:16:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:43: waiting for input...
+2020-10-20(화) 오전 11:16:44: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:44: waiting for input...
+2020-10-20(화) 오전 11:16:45: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:45: waiting for input...
+2020-10-20(화) 오전 11:16:46: prev_interval = 1084 system elapsed time = 2084, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:46: prev_interval = 84.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:16:46: prev_interval = 0 system elapsed time = 0, service timer interval = 915.9
+2020-10-20(화) 오전 11:16:46: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:46: waiting for input...
+2020-10-20(화) 오전 11:16:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:47: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:47: waiting for input...
+2020-10-20(화) 오전 11:16:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:16:48: UI App requests: getinfo
+2020-10-20(화) 오전 11:16:48: waiting for input...
+2020-10-20(화) 오전 11:17:17: waiting for input...
+2020-10-20(화) 오전 11:17:18: prev_interval = 0 system elapsed time = 1, service timer interval = 999
+2020-10-20(화) 오전 11:17:21: prev_interval = 1159 system elapsed time = 2159, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:21: prev_interval = 159.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:21: prev_interval = 0 system elapsed time = 0, service timer interval = 840.9
+2020-10-20(화) 오전 11:17:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:17:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:17:30: prev_interval = 4171 system elapsed time = 5171, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:30: prev_interval = 3171.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:30: prev_interval = 2171.2 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:30: prev_interval = 1171.3 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:30: prev_interval = 171.4 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:32: prev_interval = -828.5 system elapsed time = 2088, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:32: prev_interval = -828.5 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:17:33: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:33: waiting for input...
+2020-10-20(화) 오전 11:17:33: prev_interval = -828.5 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:17:34: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:34: prev_interval = -828.5 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:17:34: waiting for input...
+2020-10-20(화) 오전 11:17:35: prev_interval = -828.5 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:17:35: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:35: waiting for input...
+2020-10-20(화) 오전 11:17:36: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:36: waiting for input...
+2020-10-20(화) 오전 11:17:37: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:37: waiting for input...
+2020-10-20(화) 오전 11:17:38: prev_interval = 1089 system elapsed time = 2089, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:38: prev_interval = 89.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:38: prev_interval = 0 system elapsed time = 0, service timer interval = 910.9
+2020-10-20(화) 오전 11:17:38: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:38: waiting for input...
+2020-10-20(화) 오전 11:17:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:17:39: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:39: waiting for input...
+2020-10-20(화) 오전 11:17:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:17:40: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:40: waiting for input...
+2020-10-20(화) 오전 11:17:41: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:41: waiting for input...
+2020-10-20(화) 오전 11:17:42: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:42: waiting for input...
+2020-10-20(화) 오전 11:17:43: prev_interval = 1083 system elapsed time = 2083, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:43: prev_interval = 83.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:43: prev_interval = 0 system elapsed time = 0, service timer interval = 916.9
+2020-10-20(화) 오전 11:17:43: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:43: waiting for input...
+2020-10-20(화) 오전 11:17:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:17:44: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:44: waiting for input...
+2020-10-20(화) 오전 11:17:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:17:45: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:45: waiting for input...
+2020-10-20(화) 오전 11:17:46: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:46: waiting for input...
+2020-10-20(화) 오전 11:17:47: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:47: waiting for input...
+2020-10-20(화) 오전 11:17:48: prev_interval = 1083 system elapsed time = 2083, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:48: prev_interval = 83.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:48: prev_interval = 0 system elapsed time = 0, service timer interval = 916.9
+2020-10-20(화) 오전 11:17:48: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:48: waiting for input...
+2020-10-20(화) 오전 11:17:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:17:49: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:49: waiting for input...
+2020-10-20(화) 오전 11:17:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:17:50: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:51: waiting for input...
+2020-10-20(화) 오전 11:17:52: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:52: waiting for input...
+2020-10-20(화) 오전 11:17:53: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:53: waiting for input...
+2020-10-20(화) 오전 11:17:53: prev_interval = 1087 system elapsed time = 2087, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:53: prev_interval = 87.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:53: prev_interval = 0 system elapsed time = 0, service timer interval = 912.9
+2020-10-20(화) 오전 11:17:54: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:54: waiting for input...
+2020-10-20(화) 오전 11:17:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:17:55: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:55: waiting for input...
+2020-10-20(화) 오전 11:17:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:17:56: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:56: waiting for input...
+2020-10-20(화) 오전 11:17:57: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:57: waiting for input...
+2020-10-20(화) 오전 11:17:58: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:58: waiting for input...
+2020-10-20(화) 오전 11:17:58: prev_interval = 1094 system elapsed time = 2094, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:58: prev_interval = 94.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:17:58: prev_interval = 0 system elapsed time = 0, service timer interval = 905.9
+2020-10-20(화) 오전 11:17:59: UI App requests: getinfo
+2020-10-20(화) 오전 11:17:59: waiting for input...
+2020-10-20(화) 오전 11:17:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:18:00: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:18:03: prev_interval = 1087 system elapsed time = 2087, service timer interval = 0.1
+2020-10-20(화) 오전 11:18:03: prev_interval = 87.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:18:03: prev_interval = 0 system elapsed time = 0, service timer interval = 912.9
+2020-10-20(화) 오전 11:18:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:18:05: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:18:08: prev_interval = 1092 system elapsed time = 2092, service timer interval = 0.1
+2020-10-20(화) 오전 11:18:08: prev_interval = 92.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:18:08: prev_interval = 0 system elapsed time = 0, service timer interval = 907.9
+2020-10-20(화) 오전 11:18:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:18:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:18:13: prev_interval = 1093 system elapsed time = 2093, service timer interval = 0.1
+2020-10-20(화) 오전 11:18:13: prev_interval = 93.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:18:13: prev_interval = 0 system elapsed time = 0, service timer interval = 906.9
+2020-10-20(화) 오전 11:18:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:18:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:18:16: UI App requests: shutdown
+2020-10-20(화) 오전 11:18:16: sending output: shutting_down.
+2020-10-20(화) 오전 11:18:16: waiting for input...
+2020-10-20(화) 오전 11:22:08: waiting for input...
+2020-10-20(화) 오전 11:22:09: UI App requests: getinfo
+2020-10-20(화) 오전 11:22:09: unrecognizable query:getinfo
+2020-10-20(화) 오전 11:22:09: waiting for input...
+2020-10-20(화) 오전 11:22:09: prev_interval = 0 system elapsed time = 1, service timer interval = 999
+2020-10-20(화) 오전 11:22:10: UI App requests: getinfo
+2020-10-20(화) 오전 11:22:10: unrecognizable query:getinfo
+2020-10-20(화) 오전 11:22:10: waiting for input...
+2020-10-20(화) 오전 11:22:11: UI App requests: getinfo
+2020-10-20(화) 오전 11:22:11: unrecognizable query:getinfo
+2020-10-20(화) 오전 11:22:11: waiting for input...
+2020-10-20(화) 오전 11:22:12: UI App requests: getinfo
+2020-10-20(화) 오전 11:22:12: unrecognizable query:getinfo
+2020-10-20(화) 오전 11:22:12: waiting for input...
+2020-10-20(화) 오전 11:22:12: prev_interval = 1215 system elapsed time = 2215, service timer interval = 0.1
+2020-10-20(화) 오전 11:22:12: prev_interval = 215.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:22:12: prev_interval = 0 system elapsed time = 0, service timer interval = 784.9
+2020-10-20(화) 오전 11:22:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:22:13: UI App requests: getinfo
+2020-10-20(화) 오전 11:22:13: unrecognizable query:getinfo
+2020-10-20(화) 오전 11:22:13: waiting for input...
+2020-10-20(화) 오전 11:22:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:22:14: UI App requests: getinfo
+2020-10-20(화) 오전 11:22:14: unrecognizable query:getinfo
+2020-10-20(화) 오전 11:22:14: waiting for input...
+2020-10-20(화) 오전 11:22:15: UI App requests: getinfo
+2020-10-20(화) 오전 11:22:15: unrecognizable query:getinfo
+2020-10-20(화) 오전 11:22:15: waiting for input...
+2020-10-20(화) 오전 11:22:16: UI App requests: getinfo
+2020-10-20(화) 오전 11:22:16: unrecognizable query:getinfo
+2020-10-20(화) 오전 11:22:16: waiting for input...
+2020-10-20(화) 오전 11:22:17: UI App requests: getinfo
+2020-10-20(화) 오전 11:22:17: unrecognizable query:getinfo
+2020-10-20(화) 오전 11:22:17: waiting for input...
+2020-10-20(화) 오전 11:22:18: UI App requests: getinfo
+2020-10-20(화) 오전 11:22:18: unrecognizable query:getinfo
+2020-10-20(화) 오전 11:22:23: waiting for input...
+2020-10-20(화) 오전 11:22:23: prev_interval = 6952 system elapsed time = 7952, service timer interval = 0.1
+2020-10-20(화) 오전 11:22:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:22:24: UI App requests: getinfo
+2020-10-20(화) 오전 11:22:24: unrecognizable query:getinfo
+2020-10-20(화) 오전 11:22:24: waiting for input...
+2020-10-20(화) 오전 11:22:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:22:25: UI App requests: getinfo
+2020-10-20(화) 오전 11:22:25: unrecognizable query:getinfo
+2020-10-20(화) 오전 11:22:25: waiting for input...
+2020-10-20(화) 오전 11:22:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:22:26: UI App requests: getinfo
+2020-10-20(화) 오전 11:22:26: unrecognizable query:getinfo
+2020-10-20(화) 오전 11:22:26: waiting for input...
+2020-10-20(화) 오전 11:22:26: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:22:27: UI App requests: getinfo
+2020-10-20(화) 오전 11:22:27: unrecognizable query:getinfo
+2020-10-20(화) 오전 11:22:27: waiting for input...
+2020-10-20(화) 오전 11:22:34: prev_interval = 5622 system elapsed time = 6622, service timer interval = 0.1
+2020-10-20(화) 오전 11:22:34: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:22:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:22:36: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:22:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:22:40: prev_interval = 1453 system elapsed time = 2453, service timer interval = 0.1
+2020-10-20(화) 오전 11:22:40: prev_interval = 453.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:22:40: prev_interval = 0 system elapsed time = 0, service timer interval = 546.9
+2020-10-20(화) 오전 11:22:40: UI App requests: sysinfo
+2020-10-20(화) 오전 11:22:40: sending output: pwr 1800 load 3 temp 67 throttleMode 0 wrong False turbopwr 3052
+2020-10-20(화) 오전 11:22:40: waiting for input...
+2020-10-20(화) 오전 11:22:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:22:41: UI App requests: sysinfo
+2020-10-20(화) 오전 11:22:41: sending output: pwr 1800 load 3 temp 67 throttleMode 0 wrong False turbopwr 3052
+2020-10-20(화) 오전 11:22:42: waiting for input...
+2020-10-20(화) 오전 11:22:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:22:43: UI App requests: sysinfo
+2020-10-20(화) 오전 11:22:43: sending output: pwr 1800 load 3 temp 67 throttleMode 0 wrong False turbopwr 3052
+2020-10-20(화) 오전 11:22:43: waiting for input...
+2020-10-20(화) 오전 11:22:44: UI App requests: sysinfo
+2020-10-20(화) 오전 11:22:46: sending output: pwr 2701 load 20 temp 64 throttleMode 0 wrong False turbopwr 3052
+2020-10-20(화) 오전 11:22:46: waiting for input...
+2020-10-20(화) 오전 11:22:47: UI App requests: sysinfo
+2020-10-20(화) 오전 11:22:47: prev_interval = 3530 system elapsed time = 4530, service timer interval = 0.1
+2020-10-20(화) 오전 11:22:47: prev_interval = 2530.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:22:47: prev_interval = 1530.2 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:22:47: sending output: pwr 2701 load 20 temp 64 throttleMode 0 wrong False turbopwr 3052
+2020-10-20(화) 오전 11:22:47: waiting for input...
+2020-10-20(화) 오전 11:22:47: prev_interval = 530.3 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:22:47: prev_interval = 0 system elapsed time = 0, service timer interval = 469.7
+2020-10-20(화) 오전 11:22:48: UI App requests: sysinfo
+2020-10-20(화) 오전 11:22:50: prev_interval = 1091 system elapsed time = 2091, service timer interval = 0.1
+2020-10-20(화) 오전 11:22:50: prev_interval = 91.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:22:50: prev_interval = 0 system elapsed time = 0, service timer interval = 908.9
+2020-10-20(화) 오전 11:22:50: sending output: pwr 2701 load 7 temp 57 throttleMode 0 wrong False turbopwr 3052
+2020-10-20(화) 오전 11:22:50: waiting for input...
+2020-10-20(화) 오전 11:22:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:22:51: UI App requests: sysinfo
+2020-10-20(화) 오전 11:22:51: sending output: pwr 2701 load 7 temp 57 throttleMode 0 wrong False turbopwr 3052
+2020-10-20(화) 오전 11:22:51: waiting for input...
+2020-10-20(화) 오전 11:22:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:22:52: UI App requests: sysinfo
+2020-10-20(화) 오전 11:22:52: sending output: pwr 2701 load 7 temp 57 throttleMode 0 wrong False turbopwr 3052
+2020-10-20(화) 오전 11:22:52: waiting for input...
+2020-10-20(화) 오전 11:22:53: UI App requests: sysinfo
+2020-10-20(화) 오전 11:22:55: prev_interval = 1104 system elapsed time = 2104, service timer interval = 0.1
+2020-10-20(화) 오전 11:22:55: prev_interval = 104.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:22:55: prev_interval = 0 system elapsed time = 0, service timer interval = 895.9
+2020-10-20(화) 오전 11:22:56: sending output: pwr 2701 load 3 temp 56 throttleMode 0 wrong False turbopwr 3052
+2020-10-20(화) 오전 11:22:56: waiting for input...
+2020-10-20(화) 오전 11:22:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:22:57: UI App requests: sysinfo
+2020-10-20(화) 오전 11:22:57: sending output: pwr 2701 load 3 temp 56 throttleMode 0 wrong False turbopwr 3052
+2020-10-20(화) 오전 11:22:57: waiting for input...
+2020-10-20(화) 오전 11:22:57: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:22:58: UI App requests: sysinfo
+2020-10-20(화) 오전 11:22:58: sending output: pwr 2701 load 3 temp 56 throttleMode 0 wrong False turbopwr 3052
+2020-10-20(화) 오전 11:22:58: waiting for input...
+2020-10-20(화) 오전 11:22:59: UI App requests: sysinfo
+2020-10-20(화) 오전 11:23:00: prev_interval = 1106 system elapsed time = 2106, service timer interval = 0.1
+2020-10-20(화) 오전 11:23:00: prev_interval = 106.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:23:00: prev_interval = 0 system elapsed time = 0, service timer interval = 893.9
+2020-10-20(화) 오전 11:23:01: sending output: pwr 2701 load 1 temp 61 throttleMode 0 wrong False turbopwr 3052
+2020-10-20(화) 오전 11:23:01: waiting for input...
+2020-10-20(화) 오전 11:23:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:23:02: UI App requests: sysinfo
+2020-10-20(화) 오전 11:23:02: sending output: pwr 2701 load 1 temp 61 throttleMode 0 wrong False turbopwr 3052
+2020-10-20(화) 오전 11:23:02: waiting for input...
+2020-10-20(화) 오전 11:23:02: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:23:03: UI App requests: sysinfo
+2020-10-20(화) 오전 11:23:03: sending output: pwr 2701 load 1 temp 61 throttleMode 0 wrong False turbopwr 3052
+2020-10-20(화) 오전 11:23:03: waiting for input...
+2020-10-20(화) 오전 11:23:04: UI App requests: sysinfo
+2020-10-20(화) 오전 11:23:05: prev_interval = 1128 system elapsed time = 2128, service timer interval = 0.1
+2020-10-20(화) 오전 11:23:05: prev_interval = 128.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-20(화) 오전 11:23:05: prev_interval = 0 system elapsed time = 0, service timer interval = 871.9
+2020-10-20(화) 오전 11:23:06: sending output: pwr 2300 load 17 temp 68 throttleMode 0 wrong False turbopwr 3052
+2020-10-20(화) 오전 11:23:06: waiting for input...
+2020-10-20(화) 오전 11:23:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-20(화) 오전 11:23:07: UI App requests: sysinfo
+2020-10-20(화) 오전 11:23:07: sending output: pwr 2300 load 17 temp 68 throttleMode 0 wrong False turbopwr 3052
+2020-10-20(화) 오전 11:23:07: waiting for input...
+2020-10-20(화) 오전 11:23:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000

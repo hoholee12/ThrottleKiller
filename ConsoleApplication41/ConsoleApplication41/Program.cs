@@ -108,6 +108,9 @@ namespace ThrottleSchedulerService
                             case "shutdown":
                                 temp = ts.shutdown();
                                 break;
+                            default:
+                                ess.WriteLog("unrecognizable query:" + data);
+                                break;
                         }
                         output = System.Text.Encoding.ASCII.GetBytes(temp);
                         ess.WriteLog("sending output: " + temp);
