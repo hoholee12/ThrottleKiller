@@ -175,8 +175,10 @@ namespace ThrottleSchedulerService
         //	false = Balanced(Maximum Battery Life is useless)
         //	true = Maximum Performance(seems to remove long term throttling...)
         public void setXTU(SettingsManager sm, double value) {
+            //skip delay if xtu demand
+            if (value > lastXTU) xtuapplyvalue = value;
 
-            if (!xtuapplynested)
+            if (!xtuapplynested && xtuapplyvalue == 0.0)
             {
                 log.WriteLog("setting XTU nested");
                 xtuapplyvalue = value;

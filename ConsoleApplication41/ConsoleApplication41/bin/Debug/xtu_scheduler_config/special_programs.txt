@@ -1,10 +1,5 @@
 explorer = 0
 
 @append
-pcsx2 = 2
-pcsx2 = 1
-pcsx2 = 0
-devenv = 5
-devenv = 6
-devenv = 5
-devenv = 4
+ROTTR = 0
+notepad++ = 5

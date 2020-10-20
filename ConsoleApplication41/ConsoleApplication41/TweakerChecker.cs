@@ -297,13 +297,15 @@ namespace ThrottleSchedulerService
                 }
 
                 //convert low limit to pwr
-                int pwr = (int)sm.generatedCLK.configList[limit];
+                int pwr = autofilterPWR((int)sm.generatedCLK.configList[limit]);
 
                 //find index for pwr
                 //with low limit
                 index = sm.generatedCLK.configList.Count() - 1; //-1 to start from 0
                 foreach(int val in sortedPWRlist(sm)){
-                    if (val > target && val >= pwr)
+                    int val2 = autofilterPWR(val);
+
+                    if (val2 > target && val2 >= pwr)
                     {
                         break;
                     }
