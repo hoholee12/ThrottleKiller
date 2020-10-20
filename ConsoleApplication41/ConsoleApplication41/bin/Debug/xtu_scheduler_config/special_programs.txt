@@ -1,5 +1,11 @@
 explorer = 0
 
 @append
-ROTTR = 0
-notepad++ = 5
+devenv = 5
+Hwp = 5
+Hwp = 6
+Hwp = 7
+Hwp = 8
+POWERPNT = 5
+Hwp = 9
+Hwp = 10

@@ -551,7 +551,7 @@ namespace ThrottleSchedulerService
                     if (medload > temp2)
                     {
                         sm.resurrectMode = 1;
-                        log.WriteLog("resurrection activated + 1(better cpu)");    
+                        log.WriteLog("resurrection activated + 1(better cpu)");
                     }
                     else {
                         sm.resurrectMode = 2;
