@@ -169,10 +169,15 @@ namespace ThrottleSchedulerService
                         int mode = settings.throttleMode;   //save mode
                         settings.throttleMode = 0;  //reset
 
+                        //median limit
+                        int limit = (int)settings.newlist_median.configList["newlist_median"];    //ex) 50
+                        int listcount = settings.generatedCLK.configList.Count();                 //ex) 12
+                        int indexlimit = listcount * limit / 100;                                 //ex) 6
+
                         //new clk value for cpu throttle (newclk)
                         var gclklist = checker.sortedCLKlist(settings);
                         int newindex = gclklist.IndexOf(controller.getCLK(false));
-                        if (newindex > 0) newindex--; //ensure 0 is the end(noindex is -1)
+                        if (newindex > indexlimit) newindex--; //ensure 0 is the end(noindex is -1)
                         int newclk = gclklist.ElementAt(newindex);    //clk value goes in
 
                         //new xtu value for gpu throttle (newxtu)
@@ -200,15 +205,20 @@ namespace ThrottleSchedulerService
                         int mode = settings.resurrectMode;
                         settings.resurrectMode = 0;
 
+                        //median limit
+                        int limit = (int)settings.newlist_median.configList["newlist_median"];    //ex) 50
+                        int listcount = settings.generatedCLK.configList.Count();                 //ex) 12
+                        int indexlimit = listcount * limit / 100;                                 //ex) 6
+
                         string name = controller.checkNameInList(currfg, settings);
                         switch (mode)
                         {
                             case 0: break;
                             case 1:
-                                if (currprof > 0) settings.special_programs.appendChanges(name, currprof - 1);
+                                if (currprof > indexlimit) settings.special_programs.appendChanges(name, currprof - 1);
                                 break;
                             case 2:
-                                if (currprof < checker.sortedCLKlist(settings).Count()) settings.special_programs.appendChanges(name, currprof + 1);
+                                if (currprof < listcount) settings.special_programs.appendChanges(name, currprof + 1);
                                 break;
                         }
 
