@@ -97,6 +97,13 @@ namespace ThrottleSchedulerService
             shutdownval = true;
             return log.WriteLog("shutting_down.");
         }
+        public string cleanup() {
+            while (settings.IPClocked) Thread.Sleep(100);
+            settings.special_programs.completeWriteBack();
+            settings.programs_running_cfg_cpu.completeWriteBack();
+            settings.programs_running_cfg_xtu.completeWriteBack();
+            return log.WriteLog("tidying up config files.");
+        }
         ///////////////////////////////////////////for client
         //start main loop
         public void mainflow()

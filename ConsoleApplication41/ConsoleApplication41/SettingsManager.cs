@@ -326,7 +326,24 @@ namespace ThrottleSchedulerService
             thermal_median.checkFiles();
             gpuplan.checkFiles();
         }
-
+        //for client
+        public void batchCompleteWriteback() {
+            special_programs.completeWriteBack();
+            programs_running_cfg_cpu.completeWriteBack();
+            programs_running_cfg_xtu.completeWriteBack();
+            programs_running_cfg_nice.completeWriteBack();
+            loop_delay.completeWriteBack();
+            boost_cycle_delay.completeWriteBack();
+            newlist_cycle_delay.completeWriteBack();
+            //ac_offset.completeWriteBack();
+            processor_guid_tweak.completeWriteBack();
+            generatedCLK.completeWriteBack();
+            generatedXTU.completeWriteBack();
+            throttle_median.completeWriteBack();
+            newlist_median.completeWriteBack();
+            thermal_median.completeWriteBack();
+            gpuplan.completeWriteBack();
+        }
         //for client
         public void batchResetFiles() {
             special_programs.resetFiles();

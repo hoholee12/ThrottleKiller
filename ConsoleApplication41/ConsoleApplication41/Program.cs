@@ -108,6 +108,9 @@ namespace ThrottleSchedulerService
                             case "shutdown":
                                 temp = ts.shutdown();
                                 break;
+                            case "cleanup":
+                                temp = ts.cleanup();
+                                break;
                             default:
                                 ess.WriteLog("unrecognizable query:" + data);
                                 break;

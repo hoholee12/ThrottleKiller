@@ -59,8 +59,8 @@ namespace ThrottleSchedulerService
         //	2 = Maximum Performance(seems to remove long term throttling...)
         Process powercfg;
 
-        float MaxXTU;   //initial xtu value(safe measure)
-        float BaseXTU;  //generated on init CLKXTU list
+        public float MaxXTU = 1234;   //initial xtu value(safe measure)
+        public float BaseXTU = 1234;
 
         public TweakerController(Logger log, TweakerChecker checker, SettingsManager sm)
         {
@@ -108,20 +108,34 @@ namespace ThrottleSchedulerService
             powercfg.StartInfo.CreateNoWindow = true;
 
             MaxXTU = getXTU();  //get initial xtu value
+            BaseXTU = getBaseXTU(sm);
         }
 
-        //requires XTU list generation
         public float getBaseXTU(SettingsManager sm) {
             sm.IPClocked = true;
 
-            try {
-                return (float)sm.generatedXTU.configList[100];
-            }
-            catch (Exception) {
-                forceApply = true;
-                generateCLKlist(sm, checker);
+            if (BaseXTU != 1234) return BaseXTU;
+            
+            //backup
+            float lastxtutemp = lastXTU;
 
-            }
+            //lowest xtu
+            xtuapplynested = true;
+            xtuapplyvalue = 0.5;
+            setXTU(sm, 0.5);
+            //get mhz
+            pshell.StartInfo.Arguments = "-m -id 6";
+            pshell.Start();
+            pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
+            string[] result = pshell.StandardOutput.ReadToEnd().Split(' ');
+            pshell.WaitForExit();
+            string temp = result.Last().Replace("MHz", "").Trim();
+            BaseXTU = (float)Math.Round(double.Parse(temp) / 100 * 2, MidpointRounding.AwayFromZero) / 2;
+
+            //restore
+            xtuapplynested = true;
+            xtuapplyvalue = lastxtutemp;
+            setXTU(sm, lastxtutemp);
 
             sm.IPClocked = false;
 
@@ -452,16 +466,26 @@ namespace ThrottleSchedulerService
             
             }
 
-            float xtutemp = MaxXTU;
+            //calculate proper xtu for each clk value
+            float ratio = (MaxXTU - BaseXTU) * 100 / (tc.getTurboPWR() - (int)sm.generatedCLK.configList.Last().Value);
+            float xtutemp = MaxXTU * 100;
             var listtemp = tc.sortedCLKlist(sm);
-            foreach (int j in listtemp) {
-                xtutemp -= 0.5f;
-                sm.generatedXTU.configList.Add(j, xtutemp);
-                sm.programs_running_cfg_xtu.configList.Add(--x, xtutemp);
-                log.WriteLog("new XTU: " + xtutemp + " for CLK: " + j);
-            }
-            BaseXTU = xtutemp;
+            try
+            {
+                foreach (int j in listtemp)
+                {
+                    xtutemp -= ((int)sm.generatedCLK.configList[listtemp[x - 1]] - (int)sm.generatedCLK.configList[listtemp[x - 2]]) * ratio;
+                    float xtutemp2 = (float)Math.Round(xtutemp / 100 * 2, MidpointRounding.AwayFromZero) / 2;
 
+                    sm.generatedXTU.configList.Add(j, xtutemp2);
+                    sm.programs_running_cfg_xtu.configList.Add(--x, xtutemp2);
+
+                    log.WriteLog("new XTU: " + xtutemp2 + " for CLK: " + j);
+                }
+            }
+            catch (Exception) { }
+            sm.generatedXTU.configList.Add(100, BaseXTU);
+            sm.programs_running_cfg_xtu.configList.Add(--x, BaseXTU);
 
             //write back
             log.WriteLog("writeback to file commencing...");
