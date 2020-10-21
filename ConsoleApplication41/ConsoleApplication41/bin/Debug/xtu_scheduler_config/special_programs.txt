@@ -1,7 +1,7 @@
 Hwp = 6
-devenv = 5
+devenv = 4
 pcsx2 = 0
-chrome = 5
+chrome = 6
 notepad++ = 5
 Bandizip = 5
 GitHubDesktop = 4
@@ -14,7 +14,3 @@ WindowsFormsApplication5 = 5
 Idle = 5
 mintty = 5
 mspaint = 6
-
-@append
-chrome = 6
-devenv = 4

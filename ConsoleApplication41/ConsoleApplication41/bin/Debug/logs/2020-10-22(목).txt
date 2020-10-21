@@ -27489,3 +27489,658 @@
 2020-10-22(목) 오전 7:50:44: sending output: 1800 14 61 explorer 0 0 0 False
 2020-10-22(목) 오전 7:50:44: waiting for input...
 2020-10-22(목) 오전 7:50:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:50:49: prev_interval = 1160 system elapsed time = 2160, service timer interval = 0.1
+2020-10-22(목) 오전 7:50:49: prev_interval = 160.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:50:49: prev_interval = 0 system elapsed time = 0, service timer interval = 839.9
+2020-10-22(목) 오전 7:50:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:50:49: UI App requests: sysinfo
+2020-10-22(목) 오전 7:50:49: sending output: 1800 43 64 explorer 0 0 4000 False
+2020-10-22(목) 오전 7:50:49: waiting for input...
+2020-10-22(목) 오전 7:50:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:50:54: prev_interval = 1657 system elapsed time = 2657, service timer interval = 0.1
+2020-10-22(목) 오전 7:50:54: prev_interval = 657.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:50:54: prev_interval = 0 system elapsed time = 0, service timer interval = 342.9
+2020-10-22(목) 오전 7:50:54: UI App requests: sysinfo
+2020-10-22(목) 오전 7:50:54: sending output: 1800 34 65 GitHubDesktop 0 3000 3000 False
+2020-10-22(목) 오전 7:50:54: waiting for input...
+2020-10-22(목) 오전 7:50:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:50:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:50:59: UI App requests: sysinfo
+2020-10-22(목) 오전 7:51:04: prev_interval = 6492 system elapsed time = 7492, service timer interval = 0.1
+2020-10-22(목) 오전 7:51:04: sending output: 2000 18 67 GitHubDesktop 0 6000 6000 False
+2020-10-22(목) 오전 7:51:04: waiting for input...
+2020-10-22(목) 오전 7:51:05: UI App requests: sysinfo
+2020-10-22(목) 오전 7:51:05: sending output: 2000 18 67 GitHubDesktop 0 7000 7000 False
+2020-10-22(목) 오전 7:51:05: waiting for input...
+2020-10-22(목) 오전 7:51:05: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:10: UI App requests: sysinfo
+2020-10-22(목) 오전 7:51:10: prev_interval = 1169 system elapsed time = 2169, service timer interval = 0.1
+2020-10-22(목) 오전 7:51:10: prev_interval = 169.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:51:10: prev_interval = 0 system elapsed time = 0, service timer interval = 830.9
+2020-10-22(목) 오전 7:51:11: sending output: 2000 39 65 GitHubDesktop 0 13000 13000 False
+2020-10-22(목) 오전 7:51:11: waiting for input...
+2020-10-22(목) 오전 7:51:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:15: UI App requests: sysinfo
+2020-10-22(목) 오전 7:51:15: prev_interval = 1153 system elapsed time = 2153, service timer interval = 0.1
+2020-10-22(목) 오전 7:51:15: prev_interval = 153.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:51:15: prev_interval = 0 system elapsed time = 0, service timer interval = 846.9
+2020-10-22(목) 오전 7:51:16: sending output: 2000 18 63 GitHubDesktop 0 18000 18000 False
+2020-10-22(목) 오전 7:51:16: waiting for input...
+2020-10-22(목) 오전 7:51:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:20: UI App requests: sysinfo
+2020-10-22(목) 오전 7:51:20: prev_interval = 1172 system elapsed time = 2172, service timer interval = 0.1
+2020-10-22(목) 오전 7:51:20: prev_interval = 172.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:51:20: prev_interval = 0 system elapsed time = 0, service timer interval = 827.9
+2020-10-22(목) 오전 7:51:21: sending output: 2000 16 63 GitHubDesktop 0 23000 23000 False
+2020-10-22(목) 오전 7:51:21: waiting for input...
+2020-10-22(목) 오전 7:51:21: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:25: UI App requests: sysinfo
+2020-10-22(목) 오전 7:51:26: sending output: 2000 23 64 chrome 0 25000 25000 False
+2020-10-22(목) 오전 7:51:26: waiting for input...
+2020-10-22(목) 오전 7:51:30: UI App requests: sysinfo
+2020-10-22(목) 오전 7:51:30: sending output: 2000 23 64 chrome 0 25000 25000 False
+2020-10-22(목) 오전 7:51:30: waiting for input...
+2020-10-22(목) 오전 7:51:31: prev_interval = 6519 system elapsed time = 7519, service timer interval = 0.1
+2020-10-22(목) 오전 7:51:31: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:34: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:35: UI App requests: sysinfo
+2020-10-22(목) 오전 7:51:35: sending output: 2000 23 64 chrome 0 0 0 False
+2020-10-22(목) 오전 7:51:35: waiting for input...
+2020-10-22(목) 오전 7:51:37: prev_interval = 1509 system elapsed time = 2509, service timer interval = 0.1
+2020-10-22(목) 오전 7:51:37: prev_interval = 509.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:51:37: prev_interval = 0 system elapsed time = 0, service timer interval = 490.9
+2020-10-22(목) 오전 7:51:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:40: UI App requests: sysinfo
+2020-10-22(목) 오전 7:51:40: sending output: 1600 6 63 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:51:40: waiting for input...
+2020-10-22(목) 오전 7:51:45: UI App requests: sysinfo
+2020-10-22(목) 오전 7:51:46: prev_interval = 5419 system elapsed time = 6419, service timer interval = 0.1
+2020-10-22(목) 오전 7:51:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:46: sending output: 1800 20 63 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:51:46: waiting for input...
+2020-10-22(목) 오전 7:51:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:50: UI App requests: sysinfo
+2020-10-22(목) 오전 7:51:50: sending output: 1800 20 63 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:51:50: waiting for input...
+2020-10-22(목) 오전 7:51:53: prev_interval = 1151 system elapsed time = 2151, service timer interval = 0.1
+2020-10-22(목) 오전 7:51:53: prev_interval = 151.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:51:53: prev_interval = 0 system elapsed time = 0, service timer interval = 848.9
+2020-10-22(목) 오전 7:51:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:55: UI App requests: sysinfo
+2020-10-22(목) 오전 7:51:55: sending output: 1800 9 60 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:51:55: waiting for input...
+2020-10-22(목) 오전 7:51:58: prev_interval = 1136 system elapsed time = 2136, service timer interval = 0.1
+2020-10-22(목) 오전 7:51:58: prev_interval = 136.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:51:58: prev_interval = 0 system elapsed time = 0, service timer interval = 863.9
+2020-10-22(목) 오전 7:51:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:51:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:00: UI App requests: sysinfo
+2020-10-22(목) 오전 7:52:00: sending output: 1800 11 61 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:52:00: waiting for input...
+2020-10-22(목) 오전 7:52:05: UI App requests: sysinfo
+2020-10-22(목) 오전 7:52:05: sending output: 1800 16 61 chrome 0 0 0 False
+2020-10-22(목) 오전 7:52:05: waiting for input...
+2020-10-22(목) 오전 7:52:08: prev_interval = 6214 system elapsed time = 7214, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:10: UI App requests: sysinfo
+2020-10-22(목) 오전 7:52:10: sending output: 1800 16 61 chrome 0 0 0 False
+2020-10-22(목) 오전 7:52:10: waiting for input...
+2020-10-22(목) 오전 7:52:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:14: prev_interval = 1167 system elapsed time = 2167, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:14: prev_interval = 167.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:14: prev_interval = 0 system elapsed time = 0, service timer interval = 832.9
+2020-10-22(목) 오전 7:52:15: UI App requests: sysinfo
+2020-10-22(목) 오전 7:52:15: sending output: 1600 37 63 chrome 0 0 3000 False
+2020-10-22(목) 오전 7:52:15: waiting for input...
+2020-10-22(목) 오전 7:52:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:19: prev_interval = 1147 system elapsed time = 2147, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:19: prev_interval = 147.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:19: prev_interval = 0 system elapsed time = 0, service timer interval = 852.9
+2020-10-22(목) 오전 7:52:20: UI App requests: sysinfo
+2020-10-22(목) 오전 7:52:20: sending output: 1600 7 61 chrome 0 0 8000 False
+2020-10-22(목) 오전 7:52:20: waiting for input...
+2020-10-22(목) 오전 7:52:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:21: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:24: prev_interval = 1198 system elapsed time = 2198, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:24: prev_interval = 198.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:24: prev_interval = 0 system elapsed time = 0, service timer interval = 801.9
+2020-10-22(목) 오전 7:52:25: UI App requests: sysinfo
+2020-10-22(목) 오전 7:52:25: sending output: 1600 16 61 chrome 0 0 13000 False
+2020-10-22(목) 오전 7:52:25: waiting for input...
+2020-10-22(목) 오전 7:52:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:26: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:29: prev_interval = 1161 system elapsed time = 2161, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:29: prev_interval = 161.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:29: prev_interval = 0 system elapsed time = 0, service timer interval = 838.9
+2020-10-22(목) 오전 7:52:30: UI App requests: sysinfo
+2020-10-22(목) 오전 7:52:30: sending output: 1600 35 62 chrome 0 0 18000 False
+2020-10-22(목) 오전 7:52:30: waiting for input...
+2020-10-22(목) 오전 7:52:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:31: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:34: prev_interval = 1182 system elapsed time = 2182, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:34: prev_interval = 182.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:34: prev_interval = 0 system elapsed time = 0, service timer interval = 817.9
+2020-10-22(목) 오전 7:52:35: UI App requests: sysinfo
+2020-10-22(목) 오전 7:52:35: sending output: 1600 38 63 chrome 0 0 23000 False
+2020-10-22(목) 오전 7:52:35: waiting for input...
+2020-10-22(목) 오전 7:52:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:36: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:39: prev_interval = 1164 system elapsed time = 2164, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:39: prev_interval = 164.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:39: prev_interval = 0 system elapsed time = 0, service timer interval = 835.9
+2020-10-22(목) 오전 7:52:40: UI App requests: sysinfo
+2020-10-22(목) 오전 7:52:40: sending output: 1600 24 61 chrome 0 0 28000 False
+2020-10-22(목) 오전 7:52:40: waiting for input...
+2020-10-22(목) 오전 7:52:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:44: prev_interval = 1151 system elapsed time = 2151, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:44: prev_interval = 151.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:44: prev_interval = 0 system elapsed time = 0, service timer interval = 848.9
+2020-10-22(목) 오전 7:52:45: UI App requests: sysinfo
+2020-10-22(목) 오전 7:52:45: sending output: 1600 2 60 chrome 0 0 33000 False
+2020-10-22(목) 오전 7:52:45: waiting for input...
+2020-10-22(목) 오전 7:52:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:49: prev_interval = 1157 system elapsed time = 2157, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:49: prev_interval = 157.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:49: prev_interval = 0 system elapsed time = 0, service timer interval = 842.9
+2020-10-22(목) 오전 7:52:50: UI App requests: sysinfo
+2020-10-22(목) 오전 7:52:50: sending output: 1600 29 61 chrome 0 0 38000 False
+2020-10-22(목) 오전 7:52:50: waiting for input...
+2020-10-22(목) 오전 7:52:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:55: UI App requests: sysinfo
+2020-10-22(목) 오전 7:52:55: prev_interval = 1513 system elapsed time = 2513, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:55: prev_interval = 513.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:52:55: prev_interval = 0 system elapsed time = 0, service timer interval = 486.9
+2020-10-22(목) 오전 7:52:55: sending output: 1600 10 61 devenv 0 0 0 False
+2020-10-22(목) 오전 7:52:55: waiting for input...
+2020-10-22(목) 오전 7:52:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:52:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:00: UI App requests: sysinfo
+2020-10-22(목) 오전 7:53:04: prev_interval = 5612 system elapsed time = 6612, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:04: sending output: 2000 14 65 devenv 0 0 0 False
+2020-10-22(목) 오전 7:53:04: waiting for input...
+2020-10-22(목) 오전 7:53:05: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:11: UI App requests: sysinfo
+2020-10-22(목) 오전 7:53:11: sending output: 2000 4 63 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:53:11: waiting for input...
+2020-10-22(목) 오전 7:53:15: prev_interval = 5710 system elapsed time = 6710, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:15: UI App requests: sysinfo
+2020-10-22(목) 오전 7:53:15: sending output: 2000 4 63 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:53:15: waiting for input...
+2020-10-22(목) 오전 7:53:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:20: UI App requests: sysinfo
+2020-10-22(목) 오전 7:53:21: prev_interval = 1137 system elapsed time = 2137, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:21: prev_interval = 137.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:21: prev_interval = 0 system elapsed time = 0, service timer interval = 862.9
+2020-10-22(목) 오전 7:53:22: sending output: 1800 10 60 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:53:22: waiting for input...
+2020-10-22(목) 오전 7:53:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:25: UI App requests: sysinfo
+2020-10-22(목) 오전 7:53:26: prev_interval = 1129 system elapsed time = 2129, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:26: prev_interval = 129.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:26: prev_interval = 0 system elapsed time = 0, service timer interval = 870.9
+2020-10-22(목) 오전 7:53:27: sending output: 1800 6 59 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:53:27: waiting for input...
+2020-10-22(목) 오전 7:53:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:30: UI App requests: sysinfo
+2020-10-22(목) 오전 7:53:31: prev_interval = 1134 system elapsed time = 2134, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:31: prev_interval = 134.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:31: prev_interval = 0 system elapsed time = 0, service timer interval = 865.9
+2020-10-22(목) 오전 7:53:32: sending output: 1800 6 60 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:53:32: waiting for input...
+2020-10-22(목) 오전 7:53:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:35: UI App requests: sysinfo
+2020-10-22(목) 오전 7:53:36: prev_interval = 1145 system elapsed time = 2145, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:36: prev_interval = 145.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:36: prev_interval = 0 system elapsed time = 0, service timer interval = 854.9
+2020-10-22(목) 오전 7:53:37: sending output: 1800 3 59 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:53:37: waiting for input...
+2020-10-22(목) 오전 7:53:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:41: UI App requests: sysinfo
+2020-10-22(목) 오전 7:53:41: prev_interval = 1139 system elapsed time = 2139, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:41: prev_interval = 139.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:41: prev_interval = 0 system elapsed time = 0, service timer interval = 860.9
+2020-10-22(목) 오전 7:53:42: sending output: 1800 7 59 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:53:42: waiting for input...
+2020-10-22(목) 오전 7:53:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:46: UI App requests: sysinfo
+2020-10-22(목) 오전 7:53:46: prev_interval = 1158 system elapsed time = 2158, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:46: prev_interval = 158.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:46: prev_interval = 0 system elapsed time = 0, service timer interval = 841.9
+2020-10-22(목) 오전 7:53:47: sending output: 1800 5 58 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:53:47: waiting for input...
+2020-10-22(목) 오전 7:53:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:51: UI App requests: sysinfo
+2020-10-22(목) 오전 7:53:51: prev_interval = 1132 system elapsed time = 2132, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:51: prev_interval = 132.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:51: prev_interval = 0 system elapsed time = 0, service timer interval = 867.9
+2020-10-22(목) 오전 7:53:52: sending output: 1800 4 58 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:53:52: waiting for input...
+2020-10-22(목) 오전 7:53:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:56: UI App requests: sysinfo
+2020-10-22(목) 오전 7:53:56: prev_interval = 1147 system elapsed time = 2147, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:56: prev_interval = 147.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:53:56: prev_interval = 0 system elapsed time = 0, service timer interval = 852.9
+2020-10-22(목) 오전 7:53:57: sending output: 1800 9 57 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:53:57: waiting for input...
+2020-10-22(목) 오전 7:53:57: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:53:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:01: UI App requests: sysinfo
+2020-10-22(목) 오전 7:54:01: prev_interval = 1148 system elapsed time = 2148, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:01: prev_interval = 148.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:01: prev_interval = 0 system elapsed time = 0, service timer interval = 851.9
+2020-10-22(목) 오전 7:54:02: sending output: 1800 4 58 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:54:02: waiting for input...
+2020-10-22(목) 오전 7:54:02: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:06: UI App requests: sysinfo
+2020-10-22(목) 오전 7:54:06: prev_interval = 1136 system elapsed time = 2136, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:06: prev_interval = 136.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:06: prev_interval = 0 system elapsed time = 0, service timer interval = 863.9
+2020-10-22(목) 오전 7:54:07: sending output: 1800 13 58 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:54:07: waiting for input...
+2020-10-22(목) 오전 7:54:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:09: UI App requests: cleanup
+2020-10-22(목) 오전 7:54:09: sending output: tidying up config files.
+2020-10-22(목) 오전 7:54:09: waiting for input...
+2020-10-22(목) 오전 7:54:11: UI App requests: sysinfo
+2020-10-22(목) 오전 7:54:11: prev_interval = 1137 system elapsed time = 2137, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:12: prev_interval = 137.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:12: prev_interval = 0 system elapsed time = 0, service timer interval = 862.9
+2020-10-22(목) 오전 7:54:12: sending output: 1800 9 58 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:54:12: waiting for input...
+2020-10-22(목) 오전 7:54:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:16: UI App requests: sysinfo
+2020-10-22(목) 오전 7:54:17: prev_interval = 1147 system elapsed time = 2147, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:17: prev_interval = 147.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:17: prev_interval = 0 system elapsed time = 0, service timer interval = 852.9
+2020-10-22(목) 오전 7:54:17: sending output: 1800 18 59 ConsoleApplication41 0 0 0 False
+2020-10-22(목) 오전 7:54:17: waiting for input...
+2020-10-22(목) 오전 7:54:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:21: UI App requests: sysinfo
+2020-10-22(목) 오전 7:54:22: prev_interval = 1168 system elapsed time = 2168, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:22: sending output: 1800 11 57 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:54:22: waiting for input...
+2020-10-22(목) 오전 7:54:22: UI App requests: cleanup
+2020-10-22(목) 오전 7:54:22: prev_interval = 0 system elapsed time = 0, service timer interval = 831.9
+2020-10-22(목) 오전 7:54:22: sending output: tidying up config files.
+2020-10-22(목) 오전 7:54:22: waiting for input...
+2020-10-22(목) 오전 7:54:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:26: UI App requests: sysinfo
+2020-10-22(목) 오전 7:54:27: sending output: 1800 8 59 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:54:27: waiting for input...
+2020-10-22(목) 오전 7:54:27: prev_interval = 1166 system elapsed time = 2166, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:27: prev_interval = 166.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:27: prev_interval = 0 system elapsed time = 0, service timer interval = 833.9
+2020-10-22(목) 오전 7:54:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:31: UI App requests: sysinfo
+2020-10-22(목) 오전 7:54:32: prev_interval = 1153 system elapsed time = 2153, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:32: prev_interval = 153.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:32: prev_interval = 0 system elapsed time = 0, service timer interval = 846.9
+2020-10-22(목) 오전 7:54:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:33: sending output: 1800 9 59 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:54:33: waiting for input...
+2020-10-22(목) 오전 7:54:34: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:36: UI App requests: sysinfo
+2020-10-22(목) 오전 7:54:37: prev_interval = 1153 system elapsed time = 2153, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:37: prev_interval = 153.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:37: prev_interval = 0 system elapsed time = 0, service timer interval = 846.9
+2020-10-22(목) 오전 7:54:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:38: sending output: 1800 13 58 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:54:38: waiting for input...
+2020-10-22(목) 오전 7:54:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:41: UI App requests: sysinfo
+2020-10-22(목) 오전 7:54:42: prev_interval = 1149 system elapsed time = 2149, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:42: prev_interval = 149.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:42: prev_interval = 0 system elapsed time = 0, service timer interval = 850.9
+2020-10-22(목) 오전 7:54:43: sending output: 1800 1 58 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:54:43: waiting for input...
+2020-10-22(목) 오전 7:54:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:46: UI App requests: sysinfo
+2020-10-22(목) 오전 7:54:47: prev_interval = 1138 system elapsed time = 2138, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:47: prev_interval = 138.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:47: prev_interval = 0 system elapsed time = 0, service timer interval = 861.9
+2020-10-22(목) 오전 7:54:48: sending output: 1800 5 57 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:54:48: waiting for input...
+2020-10-22(목) 오전 7:54:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:51: UI App requests: sysinfo
+2020-10-22(목) 오전 7:54:52: prev_interval = 1151 system elapsed time = 2151, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:52: prev_interval = 151.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:52: prev_interval = 0 system elapsed time = 0, service timer interval = 848.9
+2020-10-22(목) 오전 7:54:53: sending output: 1800 9 58 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:54:53: waiting for input...
+2020-10-22(목) 오전 7:54:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:56: UI App requests: sysinfo
+2020-10-22(목) 오전 7:54:57: prev_interval = 1153 system elapsed time = 2153, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:57: prev_interval = 153.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:54:57: prev_interval = 0 system elapsed time = 0, service timer interval = 846.9
+2020-10-22(목) 오전 7:54:58: sending output: 1800 4 56 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:54:58: waiting for input...
+2020-10-22(목) 오전 7:54:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:54:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:01: UI App requests: sysinfo
+2020-10-22(목) 오전 7:55:02: prev_interval = 1441 system elapsed time = 2441, service timer interval = 0.1
+2020-10-22(목) 오전 7:55:02: prev_interval = 441.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:55:02: prev_interval = 0 system elapsed time = 0, service timer interval = 558.9
+2020-10-22(목) 오전 7:55:03: sending output: 1800 22 59 devenv 0 0 0 False
+2020-10-22(목) 오전 7:55:03: waiting for input...
+2020-10-22(목) 오전 7:55:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:06: UI App requests: sysinfo
+2020-10-22(목) 오전 7:55:08: sending output: 2000 22 59 devenv 0 0 0 False
+2020-10-22(목) 오전 7:55:08: waiting for input...
+2020-10-22(목) 오전 7:55:11: UI App requests: sysinfo
+2020-10-22(목) 오전 7:55:11: prev_interval = 5208 system elapsed time = 6208, service timer interval = 0.1
+2020-10-22(목) 오전 7:55:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:11: sending output: 2000 22 59 devenv 0 0 0 False
+2020-10-22(목) 오전 7:55:11: waiting for input...
+2020-10-22(목) 오전 7:55:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:16: UI App requests: sysinfo
+2020-10-22(목) 오전 7:55:17: prev_interval = 1131 system elapsed time = 2131, service timer interval = 0.1
+2020-10-22(목) 오전 7:55:17: prev_interval = 131.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:55:17: prev_interval = 0 system elapsed time = 0, service timer interval = 868.9
+2020-10-22(목) 오전 7:55:18: sending output: 2000 11 59 devenv 0 0 0 False
+2020-10-22(목) 오전 7:55:18: waiting for input...
+2020-10-22(목) 오전 7:55:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:21: UI App requests: sysinfo
+2020-10-22(목) 오전 7:55:22: prev_interval = 1157 system elapsed time = 2157, service timer interval = 0.1
+2020-10-22(목) 오전 7:55:22: prev_interval = 157.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:55:23: prev_interval = 0 system elapsed time = 0, service timer interval = 842.9
+2020-10-22(목) 오전 7:55:23: sending output: 2000 13 59 devenv 0 0 0 False
+2020-10-22(목) 오전 7:55:23: waiting for input...
+2020-10-22(목) 오전 7:55:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:26: UI App requests: sysinfo
+2020-10-22(목) 오전 7:55:27: prev_interval = 1121 system elapsed time = 2121, service timer interval = 0.1
+2020-10-22(목) 오전 7:55:27: prev_interval = 121.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:55:28: prev_interval = 0 system elapsed time = 0, service timer interval = 878.9
+2020-10-22(목) 오전 7:55:28: sending output: 2000 13 59 devenv 0 0 0 False
+2020-10-22(목) 오전 7:55:28: waiting for input...
+2020-10-22(목) 오전 7:55:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:31: UI App requests: sysinfo
+2020-10-22(목) 오전 7:55:33: prev_interval = 1137 system elapsed time = 2137, service timer interval = 0.1
+2020-10-22(목) 오전 7:55:33: prev_interval = 137.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:55:33: prev_interval = 0 system elapsed time = 0, service timer interval = 862.9
+2020-10-22(목) 오전 7:55:33: sending output: 2000 22 60 devenv 0 0 0 False
+2020-10-22(목) 오전 7:55:33: waiting for input...
+2020-10-22(목) 오전 7:55:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:34: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:38: prev_interval = 1119 system elapsed time = 2119, service timer interval = 0.1
+2020-10-22(목) 오전 7:55:38: prev_interval = 119.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:55:38: prev_interval = 0 system elapsed time = 0, service timer interval = 880.9
+2020-10-22(목) 오전 7:55:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:48: prev_interval = 6070 system elapsed time = 7070, service timer interval = 0.1
+2020-10-22(목) 오전 7:55:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:54: prev_interval = 1454 system elapsed time = 2454, service timer interval = 0.1
+2020-10-22(목) 오전 7:55:54: prev_interval = 454.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:55:54: prev_interval = 0 system elapsed time = 0, service timer interval = 545.9
+2020-10-22(목) 오전 7:55:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:55:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:04: prev_interval = 5913 system elapsed time = 6913, service timer interval = 0.1
+2020-10-22(목) 오전 7:56:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:05: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:08: UI App requests: sysinfo
+2020-10-22(목) 오전 7:56:08: sending output: 2000 16 64 devenv 0 0 0 False
+2020-10-22(목) 오전 7:56:08: waiting for input...
+2020-10-22(목) 오전 7:56:13: UI App requests: sysinfo
+2020-10-22(목) 오전 7:56:13: sending output: 2000 4 61 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:56:13: waiting for input...
+2020-10-22(목) 오전 7:56:14: prev_interval = 5665 system elapsed time = 6665, service timer interval = 0.1
+2020-10-22(목) 오전 7:56:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:18: UI App requests: sysinfo
+2020-10-22(목) 오전 7:56:18: sending output: 2000 4 61 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:56:18: waiting for input...
+2020-10-22(목) 오전 7:56:20: prev_interval = 1137 system elapsed time = 2137, service timer interval = 0.1
+2020-10-22(목) 오전 7:56:21: prev_interval = 137.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:56:21: prev_interval = 0 system elapsed time = 0, service timer interval = 862.9
+2020-10-22(목) 오전 7:56:21: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:23: UI App requests: sysinfo
+2020-10-22(목) 오전 7:56:23: sending output: 1800 3 59 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:56:23: waiting for input...
+2020-10-22(목) 오전 7:56:26: prev_interval = 1140 system elapsed time = 2140, service timer interval = 0.1
+2020-10-22(목) 오전 7:56:26: prev_interval = 140.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:56:26: prev_interval = 0 system elapsed time = 0, service timer interval = 859.9
+2020-10-22(목) 오전 7:56:26: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:28: UI App requests: sysinfo
+2020-10-22(목) 오전 7:56:28: sending output: 1800 5 58 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:56:28: waiting for input...
+2020-10-22(목) 오전 7:56:31: prev_interval = 1478 system elapsed time = 2478, service timer interval = 0.1
+2020-10-22(목) 오전 7:56:31: prev_interval = 478.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:56:31: prev_interval = 0 system elapsed time = 0, service timer interval = 521.9
+2020-10-22(목) 오전 7:56:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:33: UI App requests: sysinfo
+2020-10-22(목) 오전 7:56:33: sending output: 1800 6 60 devenv 0 0 0 False
+2020-10-22(목) 오전 7:56:33: waiting for input...
+2020-10-22(목) 오전 7:56:38: UI App requests: sysinfo
+2020-10-22(목) 오전 7:56:40: prev_interval = 5163 system elapsed time = 6163, service timer interval = 0.1
+2020-10-22(목) 오전 7:56:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:40: sending output: 2000 15 62 devenv 0 0 0 False
+2020-10-22(목) 오전 7:56:40: waiting for input...
+2020-10-22(목) 오전 7:56:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:43: UI App requests: sysinfo
+2020-10-22(목) 오전 7:56:43: sending output: 2000 15 62 devenv 0 0 0 False
+2020-10-22(목) 오전 7:56:43: waiting for input...
+2020-10-22(목) 오전 7:56:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:48: UI App requests: sysinfo
+2020-10-22(목) 오전 7:56:48: sending output: 2000 4 61 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:56:48: waiting for input...
+2020-10-22(목) 오전 7:56:51: prev_interval = 5873 system elapsed time = 6873, service timer interval = 0.1
+2020-10-22(목) 오전 7:56:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:53: UI App requests: sysinfo
+2020-10-22(목) 오전 7:56:53: sending output: 2000 4 61 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:56:53: waiting for input...
+2020-10-22(목) 오전 7:56:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:57: prev_interval = 1485 system elapsed time = 2485, service timer interval = 0.1
+2020-10-22(목) 오전 7:56:57: prev_interval = 485.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:56:57: prev_interval = 0 system elapsed time = 0, service timer interval = 514.9
+2020-10-22(목) 오전 7:56:58: UI App requests: sysinfo
+2020-10-22(목) 오전 7:56:58: sending output: 1800 6 61 devenv 0 0 0 False
+2020-10-22(목) 오전 7:56:58: waiting for input...
+2020-10-22(목) 오전 7:56:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:56:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:03: UI App requests: sysinfo
+2020-10-22(목) 오전 7:57:03: sending output: 2000 12 61 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:57:03: waiting for input...
+2020-10-22(목) 오전 7:57:07: prev_interval = 5875 system elapsed time = 6875, service timer interval = 0.1
+2020-10-22(목) 오전 7:57:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:08: UI App requests: sysinfo
+2020-10-22(목) 오전 7:57:08: sending output: 2000 12 61 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:57:08: waiting for input...
+2020-10-22(목) 오전 7:57:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:13: UI App requests: sysinfo
+2020-10-22(목) 오전 7:57:13: prev_interval = 1441 system elapsed time = 2441, service timer interval = 0.1
+2020-10-22(목) 오전 7:57:13: prev_interval = 441.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:57:13: prev_interval = 0 system elapsed time = 0, service timer interval = 558.9
+2020-10-22(목) 오전 7:57:14: sending output: 1800 18 61 devenv 0 0 0 False
+2020-10-22(목) 오전 7:57:14: waiting for input...
+2020-10-22(목) 오전 7:57:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:18: UI App requests: sysinfo
+2020-10-22(목) 오전 7:57:18: prev_interval = 1117 system elapsed time = 2117, service timer interval = 0.1
+2020-10-22(목) 오전 7:57:18: prev_interval = 117.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:57:18: prev_interval = 0 system elapsed time = 0, service timer interval = 882.9
+2020-10-22(목) 오전 7:57:19: sending output: 2000 4 60 devenv 0 0 0 False
+2020-10-22(목) 오전 7:57:19: waiting for input...
+2020-10-22(목) 오전 7:57:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:23: UI App requests: sysinfo
+2020-10-22(목) 오전 7:57:24: sending output: 2000 30 61 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:57:24: waiting for input...
+2020-10-22(목) 오전 7:57:28: prev_interval = 5750 system elapsed time = 6750, service timer interval = 0.1
+2020-10-22(목) 오전 7:57:28: UI App requests: sysinfo
+2020-10-22(목) 오전 7:57:28: sending output: 2000 30 61 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:57:28: waiting for input...
+2020-10-22(목) 오전 7:57:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:31: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:33: UI App requests: sysinfo
+2020-10-22(목) 오전 7:57:34: sending output: 1800 27 59 WindowsFormsApplication5 0 0 0 False
+2020-10-22(목) 오전 7:57:34: waiting for input...
+2020-10-22(목) 오전 7:57:34: prev_interval = 1762 system elapsed time = 2762, service timer interval = 0.1
+2020-10-22(목) 오전 7:57:34: prev_interval = 762.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:57:34: prev_interval = 0 system elapsed time = 0, service timer interval = 237.9
+2020-10-22(목) 오전 7:57:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:36: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:38: UI App requests: sysinfo
+2020-10-22(목) 오전 7:57:40: sending output: 2000 34 60 devenv 0 0 0 False
+2020-10-22(목) 오전 7:57:40: waiting for input...
+2020-10-22(목) 오전 7:57:43: prev_interval = 5004 system elapsed time = 6004, service timer interval = 0.1
+2020-10-22(목) 오전 7:57:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:43: waiting for input...
+2020-10-22(목) 오전 7:57:43: UI App requests: sysinfo
+2020-10-22(목) 오전 7:57:43: sending output: 2000 34 60 devenv 0 0 2000 False
+2020-10-22(목) 오전 7:57:43: waiting for input...
+2020-10-22(목) 오전 7:57:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:48: UI App requests: sysinfo
+2020-10-22(목) 오전 7:57:49: prev_interval = 1106 system elapsed time = 2106, service timer interval = 0.1
+2020-10-22(목) 오전 7:57:49: prev_interval = 106.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:57:49: prev_interval = 0 system elapsed time = 0, service timer interval = 893.9
+2020-10-22(목) 오전 7:57:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:50: waiting for input...
+2020-10-22(목) 오전 7:57:50: UI App requests: sysinfo
+2020-10-22(목) 오전 7:57:50: sending output: 2000 10 60 devenv 0 0 9000 False
+2020-10-22(목) 오전 7:57:50: waiting for input...
+2020-10-22(목) 오전 7:57:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:53: UI App requests: sysinfo
+2020-10-22(목) 오전 7:57:54: prev_interval = 1118 system elapsed time = 2118, service timer interval = 0.1
+2020-10-22(목) 오전 7:57:54: prev_interval = 118.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:57:54: prev_interval = 0 system elapsed time = 0, service timer interval = 881.9
+2020-10-22(목) 오전 7:57:55: sending output: 2000 2 58 devenv 0 0 13000 False
+2020-10-22(목) 오전 7:57:55: waiting for input...
+2020-10-22(목) 오전 7:57:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:57:58: UI App requests: sysinfo
+2020-10-22(목) 오전 7:57:59: prev_interval = 1126 system elapsed time = 2126, service timer interval = 0.1
+2020-10-22(목) 오전 7:57:59: prev_interval = 126.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:57:59: prev_interval = 0 system elapsed time = 0, service timer interval = 873.9
+2020-10-22(목) 오전 7:58:00: sending output: 2000 11 59 devenv 0 0 18000 False
+2020-10-22(목) 오전 7:58:00: waiting for input...
+2020-10-22(목) 오전 7:58:00: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:03: UI App requests: sysinfo
+2020-10-22(목) 오전 7:58:04: prev_interval = 1108 system elapsed time = 2108, service timer interval = 0.1
+2020-10-22(목) 오전 7:58:04: prev_interval = 108.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:58:04: prev_interval = 0 system elapsed time = 0, service timer interval = 891.9
+2020-10-22(목) 오전 7:58:05: sending output: 2000 8 58 devenv 0 0 23000 False
+2020-10-22(목) 오전 7:58:05: waiting for input...
+2020-10-22(목) 오전 7:58:05: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:08: UI App requests: sysinfo
+2020-10-22(목) 오전 7:58:09: prev_interval = 1122 system elapsed time = 2122, service timer interval = 0.1
+2020-10-22(목) 오전 7:58:09: prev_interval = 122.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:58:09: prev_interval = 0 system elapsed time = 0, service timer interval = 877.9
+2020-10-22(목) 오전 7:58:10: sending output: 2000 5 58 devenv 0 0 28000 False
+2020-10-22(목) 오전 7:58:10: waiting for input...
+2020-10-22(목) 오전 7:58:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:13: UI App requests: sysinfo
+2020-10-22(목) 오전 7:58:14: prev_interval = 1118 system elapsed time = 2118, service timer interval = 0.1
+2020-10-22(목) 오전 7:58:14: prev_interval = 118.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:58:14: prev_interval = 0 system elapsed time = 0, service timer interval = 881.9
+2020-10-22(목) 오전 7:58:15: sending output: 2000 3 58 devenv 0 0 33000 False
+2020-10-22(목) 오전 7:58:15: waiting for input...
+2020-10-22(목) 오전 7:58:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:18: UI App requests: sysinfo
+2020-10-22(목) 오전 7:58:19: prev_interval = 1132 system elapsed time = 2132, service timer interval = 0.1
+2020-10-22(목) 오전 7:58:19: prev_interval = 132.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:58:19: prev_interval = 0 system elapsed time = 0, service timer interval = 867.9
+2020-10-22(목) 오전 7:58:20: sending output: 2000 10 58 devenv 0 0 38000 False
+2020-10-22(목) 오전 7:58:20: waiting for input...
+2020-10-22(목) 오전 7:58:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:21: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:23: UI App requests: sysinfo
+2020-10-22(목) 오전 7:58:25: sending output: 2000 34 60 WindowsFormsApplication5 0 0 40000 False
+2020-10-22(목) 오전 7:58:25: waiting for input...
+2020-10-22(목) 오전 7:58:28: UI App requests: sysinfo
+2020-10-22(목) 오전 7:58:28: sending output: 2000 34 60 WindowsFormsApplication5 0 0 40000 False
+2020-10-22(목) 오전 7:58:28: waiting for input...
+2020-10-22(목) 오전 7:58:29: prev_interval = 5794 system elapsed time = 6794, service timer interval = 0.1
+2020-10-22(목) 오전 7:58:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:31: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:33: UI App requests: sysinfo
+2020-10-22(목) 오전 7:58:33: sending output: 2000 34 60 WindowsFormsApplication5 0 0 5000 False
+2020-10-22(목) 오전 7:58:33: waiting for input...
+2020-10-22(목) 오전 7:58:35: prev_interval = 1149 system elapsed time = 2149, service timer interval = 0.1
+2020-10-22(목) 오전 7:58:35: prev_interval = 149.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:58:35: prev_interval = 0 system elapsed time = 0, service timer interval = 850.9
+2020-10-22(목) 오전 7:58:36: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:38: UI App requests: sysinfo
+2020-10-22(목) 오전 7:58:38: sending output: 1800 18 59 explorer 0 0 0 False
+2020-10-22(목) 오전 7:58:38: waiting for input...
+2020-10-22(목) 오전 7:58:40: prev_interval = 1159 system elapsed time = 2159, service timer interval = 0.1
+2020-10-22(목) 오전 7:58:40: prev_interval = 159.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:58:40: prev_interval = 0 system elapsed time = 0, service timer interval = 840.9
+2020-10-22(목) 오전 7:58:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:43: UI App requests: sysinfo
+2020-10-22(목) 오전 7:58:43: sending output: 1800 23 60 explorer 0 0 0 False
+2020-10-22(목) 오전 7:58:43: waiting for input...
+2020-10-22(목) 오전 7:58:45: prev_interval = 1180 system elapsed time = 2180, service timer interval = 0.1
+2020-10-22(목) 오전 7:58:45: prev_interval = 180.1 system elapsed time = 0, service timer interval = 0.1
+2020-10-22(목) 오전 7:58:45: prev_interval = 0 system elapsed time = 0, service timer interval = 819.9
+2020-10-22(목) 오전 7:58:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-10-22(목) 오전 7:58:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000

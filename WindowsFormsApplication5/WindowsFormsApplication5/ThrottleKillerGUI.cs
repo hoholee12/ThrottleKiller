@@ -27,7 +27,7 @@ namespace WindowsFormsApplication5
 
             label6.Text = "clean up auto generated lines and compact";
             label7.Text = "core shutdown";
-            label8.Text = "delete CLK/XTU list and regenerate";
+            label8.Text = "delete CLK/XTU list and regenerate(must wait several minutes)";
             button1.Text = "cleanup";
             button2.Text = "shutdown";
             button3.Text = "reset";
@@ -36,7 +36,7 @@ namespace WindowsFormsApplication5
 
             label10.Text = "GUI program written by J.H.Lee";
             label11.Text = "Core program written by J.H.Lee";
-            label12.Text = "as part of senier project in 2020";
+            label12.Text = "as part of graduation project in 2020";
 
         }
 
