@@ -1,0 +1,9 @@
+
+@append
+Hwp = 5
+Hwp = 6
+devenv = 5
+devenv = 6
+pcsx2 = 2
+pcsx2 = 1
+pcsx2 = 0

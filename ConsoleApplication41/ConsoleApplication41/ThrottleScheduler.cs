@@ -46,6 +46,8 @@ namespace ThrottleSchedulerService
         int msec;
 
         bool shutdownval = false;
+
+        Process prev_currfg = null;
         
         //init every objects here!
         public ThrottleScheduler(int msec)
@@ -129,7 +131,7 @@ namespace ThrottleSchedulerService
                 //2. apply settings(add app if dont exist)
                 var currfg = checker.detectFgProc(settings);
                 checker.autoCheckInsert(currfg, settings, controller);
-                controller.setProcNice(currfg, settings);
+                //controller.setProcNice(currfg, settings);
                 controller.setPower(currfg, settings);
 
                 //3. check throttle
@@ -156,6 +158,14 @@ namespace ThrottleSchedulerService
                 *  1. skip if its not in list
                 *  2. which throttle mode
                 */
+
+                //reset timers (except newlist does it internally)
+                if(prev_currfg != null)
+                    if (currfg.Id != prev_currfg.Id) {
+                        settings.resetThrottleSync();
+                        settings.resetResurSync();
+                    }
+                prev_currfg = currfg;
 
                 //current profile:
                 int currprof = controller.checkInList(currfg, settings);
@@ -215,21 +225,15 @@ namespace ThrottleSchedulerService
                         {
                             case 0: break;
                             case 1:
-                                if (currprof > indexlimit) settings.special_programs.appendChanges(name, currprof - 1);
+                                if (currprof > 0) settings.special_programs.appendChanges(name, currprof - 1);
                                 break;
                             case 2:
-                                if (currprof < listcount) settings.special_programs.appendChanges(name, currprof + 1);
+                                if (currprof < indexlimit) settings.special_programs.appendChanges(name, currprof + 1);
                                 break;
                         }
 
                     }
-                }
-                //reset timers (except newlist does it internally)
-                else {
-                    settings.resetThrottleSync();
-                    settings.resetResurSync();
-                }
-                    
+                }   
                     
                     
             }
