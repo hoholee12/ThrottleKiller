@@ -84,8 +84,9 @@ namespace ThrottleSchedulerService
         public string getSysInfo() {
             while (settings.IPClocked) Thread.Sleep(100);
             log.WriteLog("sysinfo triggered.");
-            return "pwr " + checker.autofilterPWR(checker.getPWR()) + " load " + checker.getLoad() + " temp " + checker.getTemp()
-                + " throttleMode " + settings.throttleMode.ToString() + " wrong " + controller.wrong.ToString();
+            return checker.autofilterPWR(checker.getPWR()) + " " + checker.getLoad() + " " + checker.getTemp() + " " + checker.lastprocname
+                 + " " + settings.new_acc_msec.ToString() + " " + settings.bc_acc_msec.ToString() + " " + settings.resur_acc_msec.ToString()
+                 + " " + controller.wrong.ToString();
         }
         public string reset() {
             while (settings.IPClocked) Thread.Sleep(100);

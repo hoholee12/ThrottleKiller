@@ -26,6 +26,8 @@ namespace ThrottleSchedulerService
         int MaxClockSpeed = 1234;
         int TurboClockSpeed = 1234;
 
+        public string lastprocname = "null"; //for query
+
         int throttledelay = 0; //for throttling check margin
         List<int> throttle_acc = new List<int>();
 
@@ -591,6 +593,8 @@ namespace ThrottleSchedulerService
             uint threadID = GetWindowThreadProcessId(hWnd, out processID); // Get PID from window handle
             Process fgProc = Process.GetProcessById(Convert.ToInt32(processID)); // Get it as a C# obj.
             // NOTE: In some rare cases ProcessID will be NULL. Handle this how you want. 
+
+            lastprocname = fgProc.ProcessName;
 
             return fgProc;
         }
