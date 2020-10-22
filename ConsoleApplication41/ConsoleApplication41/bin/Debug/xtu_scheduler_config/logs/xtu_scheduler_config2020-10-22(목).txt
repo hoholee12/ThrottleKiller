@@ -19243,3 +19243,49 @@
 2020-10-22(목) 오후 8:24:56: setting XTU: 6.5
 2020-10-22(목) 오후 8:25:00: setting GPU: performance
 2020-10-22(목) 오후 8:25:01: no throttle cycle load = 26 ,clk = 1800 ,throttledelay = 0
+2020-10-22(목) 오후 8:25:07: setting power: GitHubDesktop to 84
+2020-10-22(목) 오후 8:25:07: setting CLK: 84
+2020-10-22(목) 오후 8:25:08: setting XTU nested
+2020-10-22(목) 오후 8:25:08: semi throttle cycle load = 96 ,clk = 1800 ,throttledelay = 1
+2020-10-22(목) 오후 8:25:08: load accumulated for resur: 96 temperature:62
+2020-10-22(목) 오후 8:25:08: start of throttle timer
+2020-10-22(목) 오후 8:25:08: start of resurrection timer
+2020-10-22(목) 오후 8:25:12: setting power: GitHubDesktop to 84
+2020-10-22(목) 오후 8:25:12: setting XTU: 6
+2020-10-22(목) 오후 8:25:17: setting GPU: performance
+2020-10-22(목) 오후 8:25:17: no throttle cycle load = 14 ,clk = 2000 ,throttledelay = 0
+2020-10-22(목) 오후 8:25:23: no throttle cycle load = 22 ,clk = 2000 ,throttledelay = 0
+2020-10-22(목) 오후 8:25:28: no throttle cycle load = 23 ,clk = 2000 ,throttledelay = 0
+2020-10-22(목) 오후 8:25:33: no throttle cycle load = 85 ,clk = 2000 ,throttledelay = 0
+2020-10-22(목) 오후 8:25:33: load accumulated for resur: 85 temperature:65
+2020-10-22(목) 오후 8:25:38: setting power: chrome to 65
+2020-10-22(목) 오후 8:25:39: setting CLK: 65
+2020-10-22(목) 오후 8:25:39: setting XTU: 7.5
+2020-10-22(목) 오후 8:25:46: setting GPU: performance
+2020-10-22(목) 오후 8:25:46: no throttle cycle load = 66 ,clk = 2000 ,throttledelay = 0
+2020-10-22(목) 오후 8:25:47: load accumulated for resur: 66 temperature:65
+2020-10-22(목) 오후 8:25:47: start of resurrection timer
+2020-10-22(목) 오후 8:25:53: no throttle cycle load = 79 ,clk = 1600 ,throttledelay = 0
+2020-10-22(목) 오후 8:25:53: load accumulated for resur: 79 temperature:66
+2020-10-22(목) 오후 8:25:58: no throttle cycle load = 20 ,clk = 1600 ,throttledelay = 0
+2020-10-22(목) 오후 8:26:03: no throttle cycle load = 16 ,clk = 1600 ,throttledelay = 0
+2020-10-22(목) 오후 8:26:08: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-22(목) 오후 8:26:13: no throttle cycle load = 17 ,clk = 1600 ,throttledelay = 0
+2020-10-22(목) 오후 8:26:18: no throttle cycle load = 17 ,clk = 1600 ,throttledelay = 0
+2020-10-22(목) 오후 8:26:23: no throttle cycle load = 6 ,clk = 1600 ,throttledelay = 0
+2020-10-22(목) 오후 8:26:28: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-22(목) 오후 8:26:33: no throttle cycle load = 1 ,clk = 1600 ,throttledelay = 0
+2020-10-22(목) 오후 8:26:38: no throttle cycle load = 15 ,clk = 1600 ,throttledelay = 0
+2020-10-22(목) 오후 8:26:43: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-22(목) 오후 8:26:48: no throttle cycle load = 9 ,clk = 1600 ,throttledelay = 0
+2020-10-22(목) 오후 8:26:48: time to sync for resurrection
+2020-10-22(목) 오후 8:26:53: setting power: explorer to 73
+2020-10-22(목) 오후 8:26:54: setting CLK: 73
+2020-10-22(목) 오후 8:26:54: setting XTU nested
+2020-10-22(목) 오후 8:26:54: no throttle cycle load = 14 ,clk = 1600 ,throttledelay = 0
+2020-10-22(목) 오후 8:26:59: newlist accumulated current pwr:1800 load:15 aload:26
+2020-10-22(목) 오후 8:26:59: setting power back to 100
+2020-10-22(목) 오후 8:26:59: setting CLK: 100
+2020-10-22(목) 오후 8:26:59: setting XTU: 6.5
+2020-10-22(목) 오후 8:27:02: setting GPU: performance
+2020-10-22(목) 오후 8:27:03: start of newlist timer

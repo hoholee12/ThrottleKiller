@@ -28,13 +28,13 @@ namespace ThrottleSchedulerService
 
         public string lastprocname = "null"; //for query
 
-        int throttledelay = 0; //for throttling check margin
+        int throttlecheck = 0; //for throttling check margin
         List<int> throttle_acc = new List<int>();
 
         Process temp = null;
         List<int> newlist_acc = new List<int>();
 
-        int resurstate = 0; //rate of speed
+        int resurcheck = 0; //resur check margin
         List<int> resur_acc = new List<int>();
 
         int prevtemp_i = 0, prevtemp_j = 0;   //slow down io usage
@@ -244,42 +244,52 @@ namespace ThrottleSchedulerService
             if (load > 100) load = 100;         //oob
             newlist_acc.Add(load);
 
-            log.WriteLog("newlist accumulated current pwr:" + currpwr + " load:" + load + " aload:" + getLoad());
+            log.WriteLog("newlist accumulated current pwr:" + currpwr + " load:" + load);
 
 
             //if time
             if (sm.checkNewlistSync())
             {
-                //sort to ascending order
-                newlist_acc.Sort();
+                
                 /*
                  * get avg.
-                 * heavily modified simpler version of exponential moving average(EMA)
-                 * -designed to be more favorable towards higher load for avg
+                 * heavily modified version of exponential moving average(EMA)
+                 * EMA is highest, EMA + CMA helps in some scenarios
+                 * designed to be more favorable towards higher load for avg
                  */
                 float favg = newlist_acc[0];
                 float lsum = 0.0f;
+                float fcavg = 0.0f;
                 for (int i = 1; i < newlist_acc.Count(); i++)
                 {
+                    //favg
                     float next = newlist_acc[i];
                     lsum = next + favg + 1.0f;   //prevent divbyzero
-                    favg = favg * (favg / lsum) + next * (next / lsum);
+                    favg = favg * (1.0f - next / lsum) + next * (next / lsum);
+
+                    //fcavg
+                    if (i > 1)
+                    {
+                        fcavg = (favg + (i - 1.0f) * fcavg) / i;
+                    }
+                    else {
+                        fcavg = favg;
+                    }
                 }
                 int avg = (int)favg;    //int version
-                //get median for more accurate load on series of linear loads
-                int medload = (int)newlist_acc[newlist_acc.Count() / 2];
-                if (medload < avg)
-                {
-                    medload = avg;   //overwrite; medload is final
-                    log.WriteLog("using EMA..." + medload);
-                }
-                else {
-                    log.WriteLog("using median..." + medload);
-                }
+                int avg2 = (int)fcavg;
+
+                int medload = 0;
+                if (avg > avg2) medload = avg;   //overwrite; medload is final
+                else medload = avg2;
+                log.WriteLog("EMA + CMA result medload:" + medload);
 
                 //average pwr(clockspeed)
                 //ex) 3100mhz * 3(load) / 100 = 93mhz
                 int target = getTurboPWR() * medload / 100;
+                //anything over throttle_median is CPU heavy and needs immediate attention!
+                target = target * 100 / (int)sm.throttle_median.configList["throttle_median"];
+
 
                 //find index of low limit(newlist median)
                 int index = 0;
@@ -303,7 +313,7 @@ namespace ThrottleSchedulerService
 
                 //find index for pwr
                 //with low limit
-                index = sm.generatedCLK.configList.Count() - 1; //-1 to start from 0
+                index = sm.generatedCLK.configList.Count();
                 foreach(int val in sortedPWRlist(sm)){
                     int val2 = autofilterPWR(val);
 
@@ -311,7 +321,10 @@ namespace ThrottleSchedulerService
                     {
                         break;
                     }
-                    index--;
+                    else
+                    {
+                        index--;
+                    }
                 }
 
                 //insert profile
@@ -360,6 +373,8 @@ namespace ThrottleSchedulerService
                 int currclk = ts.getCLK(false);
                 int target_pwr = autofilterPWR((int)sm.generatedCLK.configList[currclk]);
 
+                if (throttlecheck == 0) throttle_acc.Clear();
+
                 if (load > high && currpwr < target_pwr)
                 {
                     
@@ -367,12 +382,12 @@ namespace ThrottleSchedulerService
                     
                     //accumulate
                     throttle_acc.Add(load);
-                    throttledelay++;
-                    log.WriteLog("semi throttle cycle load = " + load + " ,clk = " + currpwr + " ,throttledelay = " + throttledelay);
+                    throttlecheck++;
+                    log.WriteLog("load accumulation for throttle load = " + load + " ,clk = " + currpwr + " ,throttlecheck = " + throttlecheck);
                 }
                 else{
-                    if (throttledelay > 0) throttledelay--;   //do not go under 0
-                    log.WriteLog("no throttle cycle load = " + load + " ,clk = " + currpwr + " ,throttledelay = " + throttledelay);
+                    if (throttlecheck > 0) throttlecheck--;   //do not go under 0
+                    log.WriteLog("skip accumulation for throttle load = " + load + " ,clk = " + currpwr + " ,throttlecheck = " + throttlecheck);
                 }
 
                 /*
@@ -382,37 +397,43 @@ namespace ThrottleSchedulerService
                  */
 
                 //on throttleSync timer
-                if (sm.checkThrottleSync() && throttledelay > 0)
+                if (sm.checkThrottleSync() && throttlecheck > 0)
                 {
                     sm.throttleMode = 0;
 
-                    //sort to ascending order
-                    throttle_acc.Sort();
                     /*
                      * get avg.
-                     * heavily modified simpler version of exponential moving average(EMA)
-                     * -designed to be more favorable towards higher load for avg
+                     * heavily modified version of exponential moving average(EMA)
+                     * EMA is highest, EMA + CMA helps in some scenarios
+                     * designed to be more favorable towards higher load for avg
                      */
-                    float favg = throttle_acc[0];
+                    float favg = newlist_acc[0];
                     float lsum = 0.0f;
-                    for (int i = 1; i < throttle_acc.Count(); i++)
+                    float fcavg = 0.0f;
+                    for (int i = 1; i < newlist_acc.Count(); i++)
                     {
-                        float next = throttle_acc[i];
+                        //favg
+                        float next = newlist_acc[i];
                         lsum = next + favg + 1.0f;   //prevent divbyzero
-                        favg = favg * (favg / lsum) + next * (next / lsum);
+                        favg = favg * (1.0f - next / lsum) + next * (next / lsum);
+
+                        //fcavg
+                        if (i > 1)
+                        {
+                            fcavg = (favg + (i - 1.0f) * fcavg) / i;
+                        }
+                        else
+                        {
+                            fcavg = favg;
+                        }
                     }
                     int avg = (int)favg;    //int version
-                    //get median for more accurate load on series of linear loads
-                    int medload = (int)throttle_acc[throttle_acc.Count() / 2];
-                    if (medload < avg)
-                    {
-                        medload = avg;   //overwrite; medload is final
-                        log.WriteLog("using EMA..." + medload);
-                    }
-                    else
-                    {
-                        log.WriteLog("using median..." + medload);
-                    }
+                    int avg2 = (int)fcavg;
+
+                    int medload = 0;
+                    if (avg > avg2) medload = avg;   //overwrite; medload is final
+                    else medload = avg2;
+                    log.WriteLog("EMA + CMA result medload:" + medload);
 
                     //throttleMode notifier:
                     //
@@ -463,7 +484,7 @@ namespace ThrottleSchedulerService
                     throttle_acc.Clear();
 
                     //reset acc
-                    throttledelay = 0;
+                    throttlecheck = 0;
 
                     sm.IPClocked = false;
                     //initiate throttle!
@@ -507,47 +528,60 @@ namespace ThrottleSchedulerService
                 int limit = (int)sm.thermal_median.configList["thermal_median"];
                 int temp2 = (int)sm.throttle_median.configList["throttle_median"];
 
+                if (resurcheck == 0) resur_acc.Clear();
+
                 if (load > high && currtemp < limit)
                 {
 
-                    log.WriteLog("load accumulated for resur: " + load + " temperature:" + currtemp);
+                    log.WriteLog("load accumulation for resur: " + load + " temperature:" + currtemp + " resurcheck:" + resurcheck);
                     sm.startResurSync();
 
                     //accumulate
                     resur_acc.Add(load);
+                    resurcheck++;
+                }
+                else {
+                    if (resurcheck > 0) resurcheck--;
+                    log.WriteLog("skip accumulation for resur: " + load + " temperature:" + currtemp + " resurcheck:" + resurcheck);
                 }
 
-                if (sm.checkResurSync())
+                if (sm.checkResurSync() && resurcheck > 0)
                 {
                     sm.resurrectMode = 0;
 
-                    //sort to ascending order
-                    resur_acc.Sort();
                     /*
                      * get avg.
-                     * heavily modified simpler version of exponential moving average(EMA)
-                     * -designed to be more favorable towards higher load for avg
+                     * heavily modified version of exponential moving average(EMA)
+                     * EMA is highest, EMA + CMA helps in some scenarios
+                     * designed to be more favorable towards higher load for avg
                      */
-                    float favg = resur_acc[0];
+                    float favg = newlist_acc[0];
                     float lsum = 0.0f;
-                    for (int i = 1; i < resur_acc.Count(); i++)
+                    float fcavg = 0.0f;
+                    for (int i = 1; i < newlist_acc.Count(); i++)
                     {
-                        float next = resur_acc[i];
+                        //favg
+                        float next = newlist_acc[i];
                         lsum = next + favg + 1.0f;   //prevent divbyzero
-                        favg = favg * (favg / lsum) + next * (next / lsum);
+                        favg = favg * (1.0f - next / lsum) + next * (next / lsum);
+
+                        //fcavg
+                        if (i > 1)
+                        {
+                            fcavg = (favg + (i - 1.0f) * fcavg) / i;
+                        }
+                        else
+                        {
+                            fcavg = favg;
+                        }
                     }
                     int avg = (int)favg;    //int version
-                    //get median for more accurate load on series of linear loads
-                    int medload = (int)resur_acc[resur_acc.Count() / 2];
-                    if (medload < avg)
-                    {
-                        medload = avg;   //overwrite; medload is final
-                        log.WriteLog("using EMA..." + medload);
-                    }
-                    else
-                    {
-                        log.WriteLog("using median..." + medload);
-                    }
+                    int avg2 = (int)fcavg;
+
+                    int medload = 0;
+                    if (avg > avg2) medload = avg;   //overwrite; medload is final
+                    else medload = avg2;
+                    log.WriteLog("EMA + CMA result medload:" + medload);
 
 
                     if (medload > temp2)
@@ -563,6 +597,10 @@ namespace ThrottleSchedulerService
                     
                     //clear
                     resur_acc.Clear();
+
+
+                    //reset delay
+                    resurcheck = 0;
 
                     sm.IPClocked = false;
                     
