@@ -62,10 +62,14 @@ namespace WindowsFormsApplication5
 
         bool msgflag = false;
 
+        logs logWindow = null;
+
         private void OnTimerCount(Object src, System.Timers.ElapsedEventArgs args) {
 
             if (upcount == 0) location = rm.query(4);
             upcount++;
+
+            
 
             //move array
             for (int i = 1; i < size; i++)
@@ -264,9 +268,16 @@ namespace WindowsFormsApplication5
 
         private void showLogToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            logs log = new logs(location);
-            log.Show();
 
+            try
+            {
+                if (location == null) throw new Exception();
+                logWindow = new logs(location);
+                logWindow.Show();
+            }
+            catch {
+                MessageBox.Show("not ready yet... try refreshing again!");
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

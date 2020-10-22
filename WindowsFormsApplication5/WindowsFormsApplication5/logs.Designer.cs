@@ -39,7 +39,6 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(1276, 613);
             this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // logs
             // 
@@ -49,7 +48,6 @@
             this.Controls.Add(this.textBox1);
             this.Name = "logs";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.logs_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

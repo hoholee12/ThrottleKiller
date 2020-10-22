@@ -22,6 +22,7 @@ namespace WindowsFormsApplication5
 
         int timecount = 0;
 
+
         public logs(string path)
         {
             this.path = path;
@@ -45,6 +46,8 @@ namespace WindowsFormsApplication5
         private void OnTimerCount(Object src, System.Timers.ElapsedEventArgs args) {
             
             textBox1.Invoke((MethodInvoker) delegate{
+                textBox1.Clear();
+                
                 if (timecount == 0)
                 {
                     timer.Interval = 5000;
@@ -56,7 +59,7 @@ namespace WindowsFormsApplication5
                 }
                 timecount++;
 
-
+                
                 var fileSize = new FileInfo(filepath).Length;
                 if (fileSize > lastreadlength)
                 {
@@ -65,36 +68,25 @@ namespace WindowsFormsApplication5
                         fs.Seek(lastreadlength, SeekOrigin.Begin);
                         var buffer = new byte[1024];
 
-                        while (true)
-                        {
-                            var bytesRead = fs.Read(buffer, 0, buffer.Length);
-                            lastreadlength += bytesRead;
+                        var bytesRead = fs.Read(buffer, 0, buffer.Length);
+                        lastreadlength += bytesRead;
 
-                            if (bytesRead == 0)
-                                break;
-
-                            textBox1.AppendText(ASCIIEncoding.UTF8.GetString(buffer, 0, bytesRead));
-
-                        }
+                        textBox1.AppendText(ASCIIEncoding.UTF8.GetString(buffer, 0, bytesRead));
                     }
                 }
+
             });
         }
 
-        private void logs_Load(object sender, EventArgs e)
+
+        //dispose
+        protected override void OnFormClosing(FormClosingEventArgs e)
         {
-            
+            base.OnFormClosing(e);
+            textBox1.Dispose();
+            Dispose();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            textBox1.SelectionStart = textBox1.Text.Length;
-            textBox1.ScrollToCaret();
-        }
 
-        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
-        {
-
-        }
     }
 }
