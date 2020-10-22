@@ -60,6 +60,8 @@ namespace WindowsFormsApplication5
 
         int upcount = 0;
 
+        bool msgflag = false;
+
         private void OnTimerCount(Object src, System.Timers.ElapsedEventArgs args) {
 
             if (upcount == 0) location = rm.query(4);
@@ -118,7 +120,15 @@ namespace WindowsFormsApplication5
                 label2.Text = "newlist " + int.Parse(info[4]);
                 label3.Text = "throttle " + int.Parse(info[5]);
                 label4.Text = "distribute " + int.Parse(info[6]);
-
+                if (info[7] == "True")
+                {
+                    if (!msgflag)
+                        MessageBox.Show("xtucli missing or configured incorrectly.\nCore program will not operate");
+                    msgflag = true;
+                }
+                else {
+                    msgflag = false;
+                }
 
                 //display
                 for (int i = 0; i < size; i++)
@@ -132,8 +142,10 @@ namespace WindowsFormsApplication5
                 cpuload.LegendText = "CPU load: " + loadarray[size - 1] + "%";
                 cputemp.LegendText = "CPU temp: " + temparray[size - 1] + "°C";
 
-
-                label9.Text = "running";
+                if (msgflag)
+                    label9.Text = "error!";
+                else
+                    label9.Text = "running";
             });
             
         

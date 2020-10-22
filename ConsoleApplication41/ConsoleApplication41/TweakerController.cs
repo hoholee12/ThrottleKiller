@@ -85,7 +85,7 @@ namespace ThrottleSchedulerService
                 if (pshell.ExitCode == 1)
                 {
                     log.WriteLog("XTU cmdlet missing, cannot continue.");
-                    Environment.Exit(1);
+                    wrong = true;
                 }
             }
             catch (Exception e)

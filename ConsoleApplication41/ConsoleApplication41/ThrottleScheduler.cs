@@ -110,8 +110,9 @@ namespace ThrottleSchedulerService
         //start main loop
         public void mainflow()
         {
-
             if (shutdownval) Environment.Exit(0);
+            if (controller.wrong) return;   //dont do anything when xtu settings bad 
+            
             
             //internal sync
             if (settings.timeSync)
