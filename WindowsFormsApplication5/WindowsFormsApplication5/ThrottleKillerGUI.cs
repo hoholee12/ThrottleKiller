@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using System.Windows.Forms.DataVisualization.Charting;
+using System.IO;
 
 namespace WindowsFormsApplication5
 {
@@ -174,6 +175,27 @@ namespace WindowsFormsApplication5
             label3.ForeColor = Color.Gray;
             label4.ForeColor = Color.Gray;
 
+
+            button4.Text = "Refresh";
+            button5.Text = "Apply";
+
+            textBox1.Clear();
+            textBox1.AppendText("click refresh after few seconds!");
+
+
+
+            label13.Text = "general time(sec):";
+            label14.Text = "newlist time(sec):";
+            label15.Text = "throttle time(sec):";
+            label16.Text = "newlist median(%):";
+            label17.Text = "throttle median(%):";
+            label18.Text = "thermal median(°C)";
+
+            label19.Text = "click refresh after few seconds!";
+
+            button6.Text = "Refresh";
+            button7.Text = "Apply";
+
             timer = new System.Timers.Timer();
             timer.Elapsed += new System.Timers.ElapsedEventHandler(OnTimerCount);
             timer.Interval = 5000;
@@ -232,6 +254,106 @@ namespace WindowsFormsApplication5
         {
             logs log = new logs(location);
             log.Show();
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            try
+            {
+                textBox1.AppendText(File.ReadAllText(location + @"\special_programs.txt"));
+            }
+            catch {
+                textBox1.AppendText("not ready yet... try refreshing again!");
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            while (true)
+            {
+                try
+                {
+                    File.WriteAllText(location + @"\special_programs.txt", textBox1.Text);
+                    break;
+                }
+                catch { }
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            try {
+
+                label13.Text = "general time(sec):";
+                label14.Text = "newlist time(sec):";
+                label15.Text = "throttle time(sec):";
+                label16.Text = "newlist median(%):";
+                label17.Text = "throttle median(%):";
+                label18.Text = "thermal median(°C)";
+
+                textBox2.Text = File.ReadAllText(location + @"\loop_delay.txt").Split('=')[1].Trim().Split()[0];
+                textBox3.Text = File.ReadAllText(location + @"\newlist_cycle_delay.txt").Split('=')[1].Trim().Split()[0];
+                textBox4.Text = File.ReadAllText(location + @"\boost_cycle_delay.txt").Split('=')[1].Trim().Split()[0];
+                textBox5.Text = File.ReadAllText(location + @"\newlist_median.txt").Split('=')[1].Trim().Split()[0];
+                textBox6.Text = File.ReadAllText(location + @"\throttle_median.txt").Split('=')[1].Trim().Split()[0];
+                textBox7.Text = File.ReadAllText(location + @"\thermal_median.txt").Split('=')[1].Trim().Split()[0];
+
+
+                label19.Text = "";
+            }
+            catch(Exception){
+                label19.Text = "not ready yet... try refreshing again!";
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(textBox2.Text) ||
+                string.IsNullOrEmpty(textBox3.Text) ||
+                string.IsNullOrEmpty(textBox4.Text) ||
+                string.IsNullOrEmpty(textBox5.Text) ||
+                string.IsNullOrEmpty(textBox6.Text) ||
+                string.IsNullOrEmpty(textBox7.Text)) {
+                    MessageBox.Show("Some boxes are empty!");
+                    return;
+            }
+            //check for bad chars
+            if (!textBox2.Text.All(char.IsDigit) ||
+                !textBox3.Text.All(char.IsDigit) ||
+                !textBox4.Text.All(char.IsDigit) ||
+                !textBox5.Text.All(char.IsDigit) ||
+                !textBox6.Text.All(char.IsDigit) ||
+                !textBox7.Text.All(char.IsDigit))
+            {
+                MessageBox.Show("All values must be Integer!");
+                return;
+            }
+
+
+
+            while (true) {
+                try {
+                    File.WriteAllText(location + @"\loop_delay.txt", "loop_delay = " + textBox2.Text);
+                    File.WriteAllText(location + @"\newlist_cycle_delay.txt", "newlist_cycle_delay = " + textBox3.Text);
+                    File.WriteAllText(location + @"\boost_cycle_delay.txt", "boost_cycle_delay = " + textBox4.Text);
+                    File.WriteAllText(location + @"\newlist_median.txt", "newlist_median = " + textBox5.Text);
+                    File.WriteAllText(location + @"\throttle_median.txt", "throttle_median = " + textBox6.Text);
+                    File.WriteAllText(location + @"\thermal_median.txt", "thermal_median = " + textBox7.Text);
+                    break;
+                }
+                catch { }
+            }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

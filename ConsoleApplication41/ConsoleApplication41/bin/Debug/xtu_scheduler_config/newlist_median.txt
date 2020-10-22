@@ -1,1 +1,0 @@
-newlist_median = 50
