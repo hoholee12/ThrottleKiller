@@ -40,7 +40,12 @@ namespace WindowsFormsApplication5
                         case 3:
                             temp = "reset";
                             break;
-                    
+                        case 4:
+                            temp = "location";
+                            break;
+                        case 5:
+                            temp = "topspeed";
+                            break;
                     }
 
                     Byte[] data = System.Text.Encoding.ASCII.GetBytes(temp);

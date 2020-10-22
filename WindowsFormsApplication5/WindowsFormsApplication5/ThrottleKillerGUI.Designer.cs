@@ -50,14 +50,18 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.logsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.showLogToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -67,10 +71,10 @@
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Location = new System.Drawing.Point(12, 12);
+            this.tabControl1.Location = new System.Drawing.Point(12, 45);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1155, 637);
+            this.tabControl1.Size = new System.Drawing.Size(1155, 607);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -85,7 +89,7 @@
             this.tabPage1.Location = new System.Drawing.Point(8, 39);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1139, 590);
+            this.tabPage1.Size = new System.Drawing.Size(1139, 560);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -269,14 +273,14 @@
             this.tabPage5.Text = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // label10
+            // label12
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(403, 115);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(82, 24);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "label10";
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(403, 190);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(82, 24);
+            this.label12.TabIndex = 2;
+            this.label12.Text = "label12";
             // 
             // label11
             // 
@@ -287,21 +291,50 @@
             this.label11.TabIndex = 1;
             this.label11.Text = "label11";
             // 
-            // label12
+            // label10
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(403, 190);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(82, 24);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "label12";
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(403, 115);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(82, 24);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "label10";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.logsToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1192, 40);
+            this.menuStrip1.TabIndex = 2;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // logsToolStripMenuItem
+            // 
+            this.logsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.showLogToolStripMenuItem});
+            this.logsToolStripMenuItem.Name = "logsToolStripMenuItem";
+            this.logsToolStripMenuItem.Size = new System.Drawing.Size(71, 38);
+            this.logsToolStripMenuItem.Text = "logs";
+            this.logsToolStripMenuItem.Click += new System.EventHandler(this.logsToolStripMenuItem_Click_1);
+            // 
+            // showLogToolStripMenuItem
+            // 
+            this.showLogToolStripMenuItem.Name = "showLogToolStripMenuItem";
+            this.showLogToolStripMenuItem.Size = new System.Drawing.Size(268, 38);
+            this.showLogToolStripMenuItem.Text = "show log";
+            this.showLogToolStripMenuItem.Click += new System.EventHandler(this.showLogToolStripMenuItem_Click);
             // 
             // ThrottleKillerGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1192, 661);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.tabControl1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "ThrottleKillerGUI";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -313,7 +346,10 @@
             this.tabPage4.PerformLayout();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -341,6 +377,9 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem logsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem showLogToolStripMenuItem;
 
     }
 }

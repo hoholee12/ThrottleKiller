@@ -47,15 +47,23 @@ namespace WindowsFormsApplication5
 
         RequestMaker rm = new RequestMaker();
 
-        const int size = 30;
+        const int size = 25;
 
         int[] clkarray = new int[size];
         int[] loadarray = new int[size];
         int[] temparray = new int[size];
 
+        string location = null;
+
+        int topspeed = 0;
+
+        int upcount = 0;
 
         private void OnTimerCount(Object src, System.Timers.ElapsedEventArgs args) {
-            
+
+            if (upcount == 0) location = rm.query(4);
+            upcount++;
+
             //move array
             for (int i = 1; i < size; i++)
             {
@@ -69,9 +77,13 @@ namespace WindowsFormsApplication5
             clkarray[size - 1] = int.Parse(info[0]);
             loadarray[size - 1] = int.Parse(info[1]);
             temparray[size - 1] = int.Parse(info[2]);
+
+            topspeed = int.Parse(rm.query(5));
             
             //this is to modify gui thread from other thread(timer)
             chart1.Invoke((MethodInvoker)delegate {
+
+                chart1.ChartAreas[0].AxisY.Maximum = topspeed;
 
                 cpuclk.Points.Clear();
                 cpuload.Points.Clear();
@@ -111,8 +123,8 @@ namespace WindowsFormsApplication5
                 for (int i = 0; i < size; i++)
                 {
                     cpuclk.Points.AddXY(i, clkarray[i]);
-                    cpuload.Points.AddXY(i, loadarray[i] * 30);
-                    cputemp.Points.AddXY(i, temparray[i] * 30);
+                    cpuload.Points.AddXY(i, loadarray[i] * topspeed / 100);
+                    cputemp.Points.AddXY(i, temparray[i] * topspeed / 100);
                 }
 
                 cpuclk.LegendText = "CPU speed: " + clkarray[size - 1] + "MHz";
@@ -129,7 +141,6 @@ namespace WindowsFormsApplication5
         private void Form1_Load(object sender, EventArgs e)
         {
 
-
             chart1.ChartAreas[0].AxisX.Enabled = AxisEnabled.False;
             //chart1.ChartAreas[0].AxisY.Enabled = AxisEnabled.False;
             //chart1.ChartAreas[0].AxisX.LabelStyle.Enabled = false;
@@ -138,7 +149,7 @@ namespace WindowsFormsApplication5
             chart1.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.Green;
             chart1.ChartAreas[0].AxisY.MajorGrid.LineColor = Color.Green;
             chart1.ChartAreas[0].AxisY.MajorGrid.Enabled = false;
-
+            
             chart1.Series.Clear();
             cpuclk = chart1.Series.Add("CPU speed");
             cpuclk.ChartType = SeriesChartType.Spline;
@@ -152,7 +163,7 @@ namespace WindowsFormsApplication5
             cputemp.ChartType = SeriesChartType.Spline;
             cputemp.Color = Color.Red;
 
-            label5.Text = "Core Optimization Values:";
+            label5.Text = "Core Optimization Timers:";
             label5.ForeColor = Color.Yellow;
             label5.BackColor = Color.Black;
             label1.Text = "";
@@ -205,6 +216,23 @@ namespace WindowsFormsApplication5
         private void button3_Click(object sender, EventArgs e)
         {
             rm.query(3);
+        }
+
+        private void logsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void logsToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void showLogToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            logs log = new logs(location);
+            log.Show();
+
         }
     }
 }

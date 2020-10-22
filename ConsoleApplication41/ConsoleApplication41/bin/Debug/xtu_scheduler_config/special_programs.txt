@@ -14,3 +14,7 @@ WindowsFormsApplication5 = 5
 Idle = 5
 mintty = 5
 mspaint = 6
+Flashpoint = 5
+
+@append
+WindowsFormsApplication5 = 6

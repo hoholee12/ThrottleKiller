@@ -83,7 +83,6 @@ namespace ThrottleSchedulerService
         ///////////////////////////////////////////for client
         public string getSysInfo() {
             while (settings.IPClocked) Thread.Sleep(100);
-            log.WriteLog("sysinfo triggered.");
             return checker.autofilterPWR(checker.getPWR()) + " " + checker.getLoad() + " " + checker.getTemp() + " " + checker.lastprocname
                  + " " + settings.new_acc_msec.ToString() + " " + settings.bc_acc_msec.ToString() + " " + settings.resur_acc_msec.ToString()
                  + " " + controller.wrong.ToString();

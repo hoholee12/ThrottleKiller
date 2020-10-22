@@ -111,6 +111,12 @@ namespace ThrottleSchedulerService
                             case "cleanup":
                                 temp = ts.cleanup();
                                 break;
+                            case "location":
+                                temp = ts.settings.path;
+                                break;
+                            case "topspeed":
+                                temp = ts.checker.getTurboPWR().ToString();
+                                break;
                             default:
                                 ess.WriteLog("unrecognizable query:" + data);
                                 break;
