@@ -29,9 +29,11 @@ namespace WindowsFormsApplication5
             label6.Text = "clean up auto generated lines and compact";
             label7.Text = "core shutdown";
             label8.Text = "delete CLK/XTU list and regenerate(must wait several minutes)";
+            label20.Text = "pause core";
             button1.Text = "cleanup";
             button2.Text = "shutdown";
             button3.Text = "reset";
+            button8.Text = "pause";
 
             label9.Text = "not Online.";
 
@@ -61,6 +63,8 @@ namespace WindowsFormsApplication5
         int upcount = 0;
 
         bool msgflag = false;
+
+        bool paused = false;
 
         logs logWindow = null;
 
@@ -149,7 +153,12 @@ namespace WindowsFormsApplication5
                 if (msgflag)
                     label9.Text = "error!";
                 else
-                    label9.Text = "running";
+                {
+                    if (paused)
+                        label9.Text = "paused";
+                    else
+                        label9.Text = "running";
+                }
             });
             
         
@@ -378,6 +387,28 @@ namespace WindowsFormsApplication5
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            if (paused)
+            {
+                paused = false;
+                label20.Text = "pause core";
+                button8.Text = "pause";
+                rm.query(7);
+            }
+            else{
+                paused = true;
+                label20.Text = "resume core";
+                button8.Text = "resume";
+                rm.query(6);
+            }
         }
     }
 }

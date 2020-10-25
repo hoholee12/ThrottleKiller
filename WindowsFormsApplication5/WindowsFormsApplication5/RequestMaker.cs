@@ -46,6 +46,13 @@ namespace WindowsFormsApplication5
                         case 5:
                             temp = "topspeed";
                             break;
+                        case 6:
+                            temp = "pause";
+                            break;
+                        case 7:
+                            temp = "resume";
+                            break;
+
                     }
 
                     Byte[] data = System.Text.Encoding.ASCII.GetBytes(temp);

@@ -117,7 +117,14 @@ namespace ThrottleSchedulerService
                             case "topspeed":
                                 temp = ts.checker.getTurboPWR().ToString();
                                 break;
+                            case "pause":
+                                temp = ts.pauseme();
+                                break;
+                            case "resume":
+                                temp = ts.resumeme();
+                                break;
                             default:
+                                temp = "";
                                 ess.WriteLog("unrecognizable query:" + data);
                                 break;
                         }

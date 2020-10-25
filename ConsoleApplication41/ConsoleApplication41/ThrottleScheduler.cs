@@ -43,6 +43,8 @@ namespace ThrottleSchedulerService
         public Logger log;
         public TweakerController controller;
 
+        public bool pause = false;
+
         int msec;
 
         bool shutdownval = false;
@@ -106,18 +108,26 @@ namespace ThrottleSchedulerService
             settings.programs_running_cfg_xtu.completeWriteBack();
             return log.WriteLog("tidying up config files.");
         }
+        public string pauseme() {
+            settings.resetNewlistSync();
+            settings.resetResurSync();
+            settings.resetThrottleSync();
+            pause = true;
+            return log.WriteLog("paused.");
+        }
+        public string resumeme() {
+            pause = false;
+            return log.WriteLog("resumed.");
+        }
         ///////////////////////////////////////////for client
         //start main loop
         public void mainflow()
         {
             if (shutdownval) Environment.Exit(0);
-            if (controller.wrong) return;   //dont do anything when xtu settings bad 
-            
             
             //internal sync
-            if (settings.timeSync)
+            if (settings.timeSync && !controller.wrong && !pause) //skip when xtu settings bad, or user request
             {
-                checker.resettick();
                 controller.XTUdaemon(settings, checker);
 
                 //1. check config
@@ -239,7 +249,7 @@ namespace ThrottleSchedulerService
                     
             }
             settings.updateTimeSync();
-            
+            checker.resettick();
 
         }
         
