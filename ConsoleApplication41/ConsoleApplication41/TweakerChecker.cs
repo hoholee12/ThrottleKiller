@@ -33,6 +33,8 @@ namespace ThrottleSchedulerService
 
         Process temp = null;
         List<int> newlist_acc = new List<int>();
+        int pivot_count = 0;
+        double pivot_ratio = 0.0;
 
         int resurcheck = 0; //resur check margin
         List<int> resur_acc = new List<int>();
@@ -230,6 +232,7 @@ namespace ThrottleSchedulerService
                 {
                     newlist_acc.Clear();
                     sm.resetNewlistSync();
+                    pivot_count = 0;
                 }
 
             //insert proc
@@ -242,9 +245,19 @@ namespace ThrottleSchedulerService
             int currpwr = autofilterPWR(getPWR());
             int load = getLoad() * currpwr / getTurboPWR();        //include circumstance of throttling
             if (load > 100) load = 100;         //oob
-            newlist_acc.Add(load);
 
-            log.WriteLog("newlist accumulated current pwr:" + currpwr + " load:" + load);
+            if (load > (int)sm.throttle_median.configList["throttle_median"])
+            {
+                pivot_count++;
+
+            }
+            else
+            {
+                newlist_acc.Add(load);
+                if (pivot_count > 0) pivot_count--;
+            }
+            pivot_ratio = ((double)(pivot_count + 1) / (newlist_acc.Count() + 1));
+            log.WriteLog("newlist accumulated current pwr:" + currpwr + " load:" + load + " pivotratio:" + pivot_ratio);
 
 
             //if time
@@ -285,7 +298,8 @@ namespace ThrottleSchedulerService
                 log.WriteLog("EMA + CMA result medload:" + medload);
 
                 //anything over throttle_median is CPU heavy and needs immediate attention!
-                if (medload > (int)sm.throttle_median.configList["throttle_median"]){
+                if (pivot_ratio > 100.0 / (int)sm.throttle_median.configList["throttle_median"])
+                {
                     log.WriteLog("over throttle_median.. giving CPU first");
                     medload = 100;
                 }

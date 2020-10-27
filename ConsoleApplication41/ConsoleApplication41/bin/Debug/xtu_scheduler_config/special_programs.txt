@@ -1,5 +1,4 @@
 
 @append
 dirtrally2 = 6
-pcsx2 = 0
-Hwp = 0
+notepad++ = 6

@@ -1605,3 +1605,1103 @@
 2020-10-28(수) 오전 5:32:05: newlist accumulated current pwr:2917 load:21
 2020-10-28(수) 오전 5:32:10: newlist accumulated current pwr:2917 load:12
 2020-10-28(수) 오전 5:32:15: newlist accumulated current pwr:2917 load:18
+2020-10-28(수) 오전 5:32:20: newlist accumulated current pwr:2917 load:9
+2020-10-28(수) 오전 5:32:25: newlist accumulated current pwr:2917 load:9
+2020-10-28(수) 오전 5:32:25: start of newlist timer
+2020-10-28(수) 오전 5:32:30: newlist accumulated current pwr:2917 load:18
+2020-10-28(수) 오전 5:32:35: newlist accumulated current pwr:2917 load:9
+2020-10-28(수) 오전 5:32:40: newlist accumulated current pwr:2917 load:20
+2020-10-28(수) 오전 5:32:45: newlist accumulated current pwr:2917 load:9
+2020-10-28(수) 오전 5:32:50: newlist accumulated current pwr:2300 load:8
+2020-10-28(수) 오전 5:32:55: newlist accumulated current pwr:2917 load:4
+2020-10-28(수) 오전 5:33:00: newlist accumulated current pwr:2917 load:3
+2020-10-28(수) 오전 5:33:05: newlist accumulated current pwr:2917 load:6
+2020-10-28(수) 오전 5:33:10: newlist accumulated current pwr:2300 load:3
+2020-10-28(수) 오전 5:33:16: newlist accumulated current pwr:2917 load:0
+2020-10-28(수) 오전 5:33:21: newlist accumulated current pwr:2917 load:12
+2020-10-28(수) 오전 5:33:26: newlist accumulated current pwr:2917 load:12
+2020-10-28(수) 오전 5:33:26: time to sync for newlist
+2020-10-28(수) 오전 5:33:32: newlist accumulated current pwr:2917 load:48
+2020-10-28(수) 오전 5:33:32: start of newlist timer
+2020-10-28(수) 오전 5:33:36: setting power back to 100
+2020-10-28(수) 오전 5:33:36: setting XTU nested
+2020-10-28(수) 오전 5:33:36: skip accumulation for throttle load = 32 ,clk = 2917 ,throttlecheck = 3
+2020-10-28(수) 오전 5:33:36: load accumulation for resur: 32 temperature:69 resurcheck:0
+2020-10-28(수) 오전 5:33:36: start of resurrection timer
+2020-10-28(수) 오전 5:33:42: setting power back to 100
+2020-10-28(수) 오전 5:33:42: setting XTU: 3
+2020-10-28(수) 오전 5:33:44: setting GPU: performance
+2020-10-28(수) 오전 5:33:45: skip accumulation for throttle load = 21 ,clk = 2300 ,throttlecheck = 2
+2020-10-28(수) 오전 5:33:45: skip accumulation for resur: 21 temperature:62 resurcheck:0
+2020-10-28(수) 오전 5:33:47: skip accumulation for throttle load = 3 ,clk = 2000 ,throttlecheck = 1
+2020-10-28(수) 오전 5:33:47: skip accumulation for resur: 3 temperature:65 resurcheck:0
+2020-10-28(수) 오전 5:33:52: skip accumulation for throttle load = 9 ,clk = 2000 ,throttlecheck = 0
+2020-10-28(수) 오전 5:33:52: skip accumulation for resur: 9 temperature:63 resurcheck:0
+2020-10-28(수) 오전 5:33:57: skip accumulation for throttle load = 10 ,clk = 2300 ,throttlecheck = 0
+2020-10-28(수) 오전 5:33:57: skip accumulation for resur: 10 temperature:64 resurcheck:0
+2020-10-28(수) 오전 5:34:02: skip accumulation for throttle load = 6 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:34:02: skip accumulation for resur: 6 temperature:63 resurcheck:0
+2020-10-28(수) 오전 5:34:07: skip accumulation for throttle load = 4 ,clk = 2300 ,throttlecheck = 0
+2020-10-28(수) 오전 5:34:07: skip accumulation for resur: 4 temperature:61 resurcheck:0
+2020-10-28(수) 오전 5:34:12: skip accumulation for throttle load = 2 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:34:12: skip accumulation for resur: 2 temperature:62 resurcheck:0
+2020-10-28(수) 오전 5:34:17: newlist accumulated current pwr:2917 load:66
+2020-10-28(수) 오전 5:34:17: newlist mode
+2020-10-28(수) 오전 5:34:17: setting XTU: 10.5
+2020-10-28(수) 오전 5:34:24: setting GPU: performance
+2020-10-28(수) 오전 5:34:25: start of newlist timer
+2020-10-28(수) 오전 5:34:30: newlist accumulated current pwr:2917 load:74
+2020-10-28(수) 오전 5:34:35: newlist accumulated current pwr:2917 load:59
+2020-10-28(수) 오전 5:34:40: newlist accumulated current pwr:2917 load:35
+2020-10-28(수) 오전 5:34:45: newlist accumulated current pwr:2917 load:25
+2020-10-28(수) 오전 5:34:50: newlist accumulated current pwr:2917 load:44
+2020-10-28(수) 오전 5:34:55: newlist accumulated current pwr:2917 load:10
+2020-10-28(수) 오전 5:35:00: newlist accumulated current pwr:1800 load:3
+2020-10-28(수) 오전 5:35:05: newlist accumulated current pwr:2917 load:8
+2020-10-28(수) 오전 5:35:10: newlist accumulated current pwr:2300 load:5
+2020-10-28(수) 오전 5:35:15: newlist accumulated current pwr:2917 load:11
+2020-10-28(수) 오전 5:35:20: newlist accumulated current pwr:2300 load:1
+2020-10-28(수) 오전 5:35:25: newlist accumulated current pwr:2917 load:7
+2020-10-28(수) 오전 5:35:25: start of newlist timer
+2020-10-28(수) 오전 5:35:31: newlist accumulated current pwr:2917 load:19
+2020-10-28(수) 오전 5:35:31: start of newlist timer
+2020-10-28(수) 오전 5:35:36: newlist accumulated current pwr:2917 load:50
+2020-10-28(수) 오전 5:35:41: newlist accumulated current pwr:2917 load:8
+2020-10-28(수) 오전 5:35:41: start of newlist timer
+2020-10-28(수) 오전 5:35:46: newlist accumulated current pwr:2917 load:31
+2020-10-28(수) 오전 5:35:51: newlist accumulated current pwr:2917 load:22
+2020-10-28(수) 오전 5:35:51: start of newlist timer
+2020-10-28(수) 오전 5:35:56: newlist accumulated current pwr:2917 load:35
+2020-10-28(수) 오전 5:36:02: newlist accumulated current pwr:2917 load:21
+2020-10-28(수) 오전 5:36:02: start of newlist timer
+2020-10-28(수) 오전 5:36:07: newlist accumulated current pwr:2917 load:37
+2020-10-28(수) 오전 5:36:12: newlist accumulated current pwr:2917 load:24
+2020-10-28(수) 오전 5:36:12: start of newlist timer
+2020-10-28(수) 오전 5:36:17: newlist accumulated current pwr:2300 load:3
+2020-10-28(수) 오전 5:36:22: newlist accumulated current pwr:2000 load:8
+2020-10-28(수) 오전 5:36:27: newlist accumulated current pwr:2917 load:6
+2020-10-28(수) 오전 5:36:32: newlist accumulated current pwr:2300 load:4
+2020-10-28(수) 오전 5:36:37: newlist accumulated current pwr:2917 load:3
+2020-10-28(수) 오전 5:36:37: start of newlist timer
+2020-10-28(수) 오전 5:36:42: newlist accumulated current pwr:2917 load:12
+2020-10-28(수) 오전 5:36:42: start of newlist timer
+2020-10-28(수) 오전 5:36:47: newlist accumulated current pwr:2917 load:32
+2020-10-28(수) 오전 5:36:47: start of newlist timer
+2020-10-28(수) 오전 5:36:53: newlist accumulated current pwr:2917 load:70
+2020-10-28(수) 오전 5:36:53: start of newlist timer
+2020-10-28(수) 오전 5:43:32: newlist accumulated current pwr:2917 load:100
+2020-10-28(수) 오전 5:43:32: start of newlist timer
+2020-10-28(수) 오전 5:43:38: setting power back to 100
+2020-10-28(수) 오전 5:43:38: setting XTU nested
+2020-10-28(수) 오전 5:43:38: skip accumulation for throttle load = 21 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:43:38: skip accumulation for resur: 21 temperature:60 resurcheck:0
+2020-10-28(수) 오전 5:43:43: newlist accumulated current pwr:2917 load:12
+2020-10-28(수) 오전 5:43:43: start of newlist timer
+2020-10-28(수) 오전 5:43:48: newlist accumulated current pwr:2917 load:8
+2020-10-28(수) 오전 5:43:48: start of newlist timer
+2020-10-28(수) 오전 5:43:54: newlist accumulated current pwr:2917 load:18
+2020-10-28(수) 오전 5:43:54: start of newlist timer
+2020-10-28(수) 오전 5:43:59: newlist accumulated current pwr:2917 load:13
+2020-10-28(수) 오전 5:44:04: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 5:44:04: newlist accumulated current pwr:2917 load:9
+2020-10-28(수) 오전 5:44:09: newlist accumulated current pwr:2917 load:9
+2020-10-28(수) 오전 5:44:14: newlist accumulated current pwr:2917 load:26
+2020-10-28(수) 오전 5:44:14: start of newlist timer
+2020-10-28(수) 오전 5:44:19: newlist accumulated current pwr:2917 load:0
+2020-10-28(수) 오전 5:44:24: newlist accumulated current pwr:2917 load:0
+2020-10-28(수) 오전 5:44:29: newlist accumulated current pwr:2917 load:0
+2020-10-28(수) 오전 5:44:34: newlist accumulated current pwr:2917 load:1
+2020-10-28(수) 오전 5:44:39: newlist accumulated current pwr:2917 load:12
+2020-10-28(수) 오전 5:44:44: newlist accumulated current pwr:2917 load:2
+2020-10-28(수) 오전 5:44:49: newlist accumulated current pwr:2917 load:2
+2020-10-28(수) 오전 5:44:54: newlist accumulated current pwr:2917 load:0
+2020-10-28(수) 오전 5:44:59: newlist accumulated current pwr:2917 load:34
+2020-10-28(수) 오전 5:45:04: newlist accumulated current pwr:2917 load:63
+2020-10-28(수) 오전 5:45:09: newlist accumulated current pwr:2917 load:77
+2020-10-28(수) 오전 5:45:14: newlist accumulated current pwr:2917 load:73
+2020-10-28(수) 오전 5:45:14: time to sync for newlist
+2020-10-28(수) 오전 5:45:18: newlist accumulated current pwr:2917 load:83
+2020-10-28(수) 오전 5:45:18: EMA + CMA result medload:77
+2020-10-28(수) 오전 5:45:18: appending: key = pcsx2, value = 0
+2020-10-28(수) 오전 5:45:19: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 5:45:19: reading: key = pcsx2, value = 0
+2020-10-28(수) 오전 5:45:19: setting power back to 100
+2020-10-28(수) 오전 5:45:19: setting XTU: 3
+2020-10-28(수) 오전 5:45:27: setting GPU: performance
+2020-10-28(수) 오전 5:45:28: skip accumulation for throttle load = 83 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:45:28: skip accumulation for resur: 83 temperature:93 resurcheck:0
+2020-10-28(수) 오전 5:45:33: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 5:45:33: newlist accumulated current pwr:2917 load:79
+2020-10-28(수) 오전 5:45:33: newlist mode
+2020-10-28(수) 오전 5:45:33: setting XTU: 10.5
+2020-10-28(수) 오전 5:45:37: setting GPU: performance
+2020-10-28(수) 오전 5:45:37: start of newlist timer
+2020-10-28(수) 오전 5:45:39: newlist accumulated current pwr:2917 load:10
+2020-10-28(수) 오전 5:45:39: start of newlist timer
+2020-10-28(수) 오전 5:45:44: newlist accumulated current pwr:2917 load:5
+2020-10-28(수) 오전 5:45:49: newlist accumulated current pwr:2300 load:3
+2020-10-28(수) 오전 5:45:54: newlist accumulated current pwr:2917 load:4
+2020-10-28(수) 오전 5:45:59: newlist accumulated current pwr:2917 load:17
+2020-10-28(수) 오전 5:46:04: newlist accumulated current pwr:2917 load:8
+2020-10-28(수) 오전 5:46:09: newlist accumulated current pwr:2917 load:10
+2020-10-28(수) 오전 5:46:14: newlist accumulated current pwr:2917 load:69
+2020-10-28(수) 오전 5:46:19: newlist accumulated current pwr:2917 load:65
+2020-10-28(수) 오전 5:46:24: newlist accumulated current pwr:2917 load:76
+2020-10-28(수) 오전 5:46:30: newlist accumulated current pwr:2917 load:71
+2020-10-28(수) 오전 5:46:35: newlist accumulated current pwr:2917 load:73
+2020-10-28(수) 오전 5:46:40: newlist accumulated current pwr:2917 load:77
+2020-10-28(수) 오전 5:46:40: time to sync for newlist
+2020-10-28(수) 오전 5:46:45: newlist accumulated current pwr:2917 load:80
+2020-10-28(수) 오전 5:46:45: EMA + CMA result medload:77
+2020-10-28(수) 오전 5:46:45: appending: key = pcsx2, value = 0
+2020-10-28(수) 오전 5:46:45: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 5:46:45: reading: key = pcsx2, value = 0
+2020-10-28(수) 오전 5:46:45: setting power back to 100
+2020-10-28(수) 오전 5:46:45: setting XTU nested
+2020-10-28(수) 오전 5:46:45: skip accumulation for throttle load = 80 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:46:45: skip accumulation for resur: 80 temperature:97 resurcheck:0
+2020-10-28(수) 오전 5:46:50: setting power back to 100
+2020-10-28(수) 오전 5:46:50: setting XTU: 3
+2020-10-28(수) 오전 5:47:00: setting GPU: performance
+2020-10-28(수) 오전 5:47:00: skip accumulation for throttle load = 65 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:47:00: skip accumulation for resur: 65 temperature:97 resurcheck:0
+2020-10-28(수) 오전 5:47:05: skip accumulation for throttle load = 65 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:47:05: skip accumulation for resur: 65 temperature:99 resurcheck:0
+2020-10-28(수) 오전 5:47:10: skip accumulation for throttle load = 73 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:47:10: skip accumulation for resur: 73 temperature:96 resurcheck:0
+2020-10-28(수) 오전 5:47:15: skip accumulation for throttle load = 80 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:47:15: skip accumulation for resur: 80 temperature:93 resurcheck:0
+2020-10-28(수) 오전 5:47:20: skip accumulation for throttle load = 77 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:47:20: skip accumulation for resur: 77 temperature:95 resurcheck:0
+2020-10-28(수) 오전 5:47:25: skip accumulation for throttle load = 73 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:47:25: skip accumulation for resur: 73 temperature:97 resurcheck:0
+2020-10-28(수) 오전 5:47:30: skip accumulation for throttle load = 73 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:47:30: skip accumulation for resur: 73 temperature:93 resurcheck:0
+2020-10-28(수) 오전 5:47:35: skip accumulation for throttle load = 76 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:47:35: skip accumulation for resur: 76 temperature:96 resurcheck:0
+2020-10-28(수) 오전 5:47:41: skip accumulation for throttle load = 63 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:47:41: skip accumulation for resur: 63 temperature:96 resurcheck:0
+2020-10-28(수) 오전 5:47:46: load accumulation for throttle load = 77 ,clk = 1800 ,throttlecheck = 1
+2020-10-28(수) 오전 5:47:46: skip accumulation for resur: 77 temperature:95 resurcheck:0
+2020-10-28(수) 오전 5:47:46: start of throttle timer
+2020-10-28(수) 오전 5:47:51: newlist accumulated current pwr:1800 load:5
+2020-10-28(수) 오전 5:47:51: newlist mode
+2020-10-28(수) 오전 5:47:51: setting XTU: 10.5
+2020-10-28(수) 오전 5:47:53: setting GPU: performance
+2020-10-28(수) 오전 5:47:53: start of newlist timer
+2020-10-28(수) 오전 5:47:56: newlist accumulated current pwr:2300 load:8
+2020-10-28(수) 오전 5:47:56: start of newlist timer
+2020-10-28(수) 오전 5:48:01: newlist accumulated current pwr:2917 load:36
+2020-10-28(수) 오전 5:48:06: paused.
+2020-10-28(수) 오전 5:48:07: newlist accumulated current pwr:2917 load:11
+2020-10-28(수) 오전 5:48:07: start of newlist timer
+2020-10-28(수) 오전 5:49:05: time to sync for newlist
+2020-10-28(수) 오전 5:50:24: resumed.
+2020-10-28(수) 오전 5:50:28: newlist accumulated current pwr:2917 load:6
+2020-10-28(수) 오전 5:50:28: EMA + CMA result medload:9
+2020-10-28(수) 오전 5:50:28: appending: key = WindowsFormsApplication5, value = 6
+2020-10-28(수) 오전 5:50:28: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 5:50:28: reading: key = pcsx2, value = 0
+2020-10-28(수) 오전 5:50:28: reading: key = WindowsFormsApplication5, value = 6
+2020-10-28(수) 오전 5:50:28: setting power: WindowsFormsApplication5 to 65
+2020-10-28(수) 오전 5:50:28: setting CLK: 65
+2020-10-28(수) 오전 5:50:28: setting XTU nested
+2020-10-28(수) 오전 5:50:28: skip accumulation for throttle load = 19 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:50:28: skip accumulation for resur: 19 temperature:76 resurcheck:0
+2020-10-28(수) 오전 5:50:33: newlist accumulated current pwr:1600 load:6
+2020-10-28(수) 오전 5:50:33: newlist mode
+2020-10-28(수) 오전 5:50:33: setting CLK: 100
+2020-10-28(수) 오전 5:50:33: setting XTU: 7.5
+2020-10-28(수) 오전 5:50:36: setting GPU: performance
+2020-10-28(수) 오전 5:50:36: start of newlist timer
+2020-10-28(수) 오전 5:50:38: newlist accumulated current pwr:1400 load:5
+2020-10-28(수) 오전 5:50:38: newlist mode
+2020-10-28(수) 오전 5:50:38: setting XTU: 10.5
+2020-10-28(수) 오전 5:50:42: setting GPU: performance
+2020-10-28(수) 오전 5:50:49: newlist accumulated current pwr:1600 load:30
+2020-10-28(수) 오전 5:50:49: start of newlist timer
+2020-10-28(수) 오전 5:50:59: newlist accumulated current pwr:2917 load:100
+2020-10-28(수) 오전 5:51:07: newlist accumulated current pwr:2917 load:100
+2020-10-28(수) 오전 5:51:13: newlist accumulated current pwr:2917 load:100
+2020-10-28(수) 오전 5:51:18: newlist accumulated current pwr:2917 load:54
+2020-10-28(수) 오전 5:51:23: newlist accumulated current pwr:2917 load:41
+2020-10-28(수) 오전 5:51:28: newlist accumulated current pwr:2917 load:39
+2020-10-28(수) 오전 5:51:33: newlist accumulated current pwr:2917 load:44
+2020-10-28(수) 오전 5:51:38: newlist accumulated current pwr:2917 load:42
+2020-10-28(수) 오전 5:51:44: newlist accumulated current pwr:2917 load:91
+2020-10-28(수) 오전 5:51:48: newlist accumulated current pwr:2917 load:99
+2020-10-28(수) 오전 5:51:53: newlist accumulated current pwr:2917 load:100
+2020-10-28(수) 오전 5:51:58: newlist accumulated current pwr:2917 load:99
+2020-10-28(수) 오전 5:51:58: time to sync for newlist
+2020-10-28(수) 오전 5:52:04: newlist accumulated current pwr:2917 load:100
+2020-10-28(수) 오전 5:52:04: EMA + CMA result medload:98
+2020-10-28(수) 오전 5:52:04: appending: key = dirtrally2, value = 0
+2020-10-28(수) 오전 5:52:04: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 5:52:04: reading: key = pcsx2, value = 0
+2020-10-28(수) 오전 5:52:04: reading: key = WindowsFormsApplication5, value = 6
+2020-10-28(수) 오전 5:52:04: reading: key = dirtrally2, value = 0
+2020-10-28(수) 오전 5:52:04: setting power back to 100
+2020-10-28(수) 오전 5:52:04: setting XTU nested
+2020-10-28(수) 오전 5:52:04: skip accumulation for throttle load = 100 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:52:04: skip accumulation for resur: 100 temperature:102 resurcheck:0
+2020-10-28(수) 오전 5:52:09: setting power back to 100
+2020-10-28(수) 오전 5:52:09: setting XTU: 3
+2020-10-28(수) 오전 5:52:14: setting GPU: performance
+2020-10-28(수) 오전 5:52:14: skip accumulation for throttle load = 74 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:52:14: skip accumulation for resur: 74 temperature:100 resurcheck:0
+2020-10-28(수) 오전 5:52:19: skip accumulation for throttle load = 23 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:52:19: skip accumulation for resur: 23 temperature:88 resurcheck:0
+2020-10-28(수) 오전 5:52:24: skip accumulation for throttle load = 23 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:52:24: skip accumulation for resur: 23 temperature:88 resurcheck:0
+2020-10-28(수) 오전 5:52:29: skip accumulation for throttle load = 31 ,clk = 2917 ,throttlecheck = 0
+2020-10-28(수) 오전 5:52:29: load accumulation for resur: 31 temperature:80 resurcheck:0
+2020-10-28(수) 오전 5:52:29: start of resurrection timer
+2020-10-28(수) 오전 5:52:34: skip accumulation for throttle load = 26 ,clk = 2000 ,throttlecheck = 0
+2020-10-28(수) 오전 5:52:34: skip accumulation for resur: 26 temperature:81 resurcheck:0
+2020-10-28(수) 오전 5:52:39: setting power: WindowsFormsApplication5 to 65
+2020-10-28(수) 오전 5:52:40: setting CLK: 65
+2020-10-28(수) 오전 5:52:40: setting XTU: 7.5
+2020-10-28(수) 오전 5:52:45: setting GPU: performance
+2020-10-28(수) 오전 5:52:46: skip accumulation for throttle load = 32 ,clk = 2300 ,throttlecheck = 0
+2020-10-28(수) 오전 5:52:46: load accumulation for resur: 32 temperature:80 resurcheck:0
+2020-10-28(수) 오전 5:52:46: start of resurrection timer
+2020-10-28(수) 오전 5:52:52: skip accumulation for throttle load = 28 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:52:52: skip accumulation for resur: 28 temperature:75 resurcheck:0
+2020-10-28(수) 오전 5:52:57: skip accumulation for throttle load = 30 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:52:57: skip accumulation for resur: 30 temperature:76 resurcheck:0
+2020-10-28(수) 오전 5:53:02: skip accumulation for throttle load = 24 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:53:02: skip accumulation for resur: 24 temperature:76 resurcheck:0
+2020-10-28(수) 오전 5:53:07: skip accumulation for throttle load = 26 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:53:07: skip accumulation for resur: 26 temperature:76 resurcheck:0
+2020-10-28(수) 오전 5:53:12: skip accumulation for throttle load = 28 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:53:12: skip accumulation for resur: 28 temperature:75 resurcheck:0
+2020-10-28(수) 오전 5:53:17: skip accumulation for throttle load = 26 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:53:17: skip accumulation for resur: 26 temperature:76 resurcheck:0
+2020-10-28(수) 오전 5:53:22: skip accumulation for throttle load = 22 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:53:22: skip accumulation for resur: 22 temperature:75 resurcheck:0
+2020-10-28(수) 오전 5:53:28: skip accumulation for throttle load = 20 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:53:28: skip accumulation for resur: 20 temperature:77 resurcheck:0
+2020-10-28(수) 오전 5:53:33: skip accumulation for throttle load = 26 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:53:33: skip accumulation for resur: 26 temperature:76 resurcheck:0
+2020-10-28(수) 오전 5:53:38: skip accumulation for throttle load = 27 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:53:38: skip accumulation for resur: 27 temperature:76 resurcheck:0
+2020-10-28(수) 오전 5:53:43: skip accumulation for throttle load = 34 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:53:43: load accumulation for resur: 34 temperature:75 resurcheck:0
+2020-10-28(수) 오전 5:53:48: skip accumulation for throttle load = 28 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:53:48: skip accumulation for resur: 28 temperature:75 resurcheck:0
+2020-10-28(수) 오전 5:53:48: time to sync for resurrection
+2020-10-28(수) 오전 5:53:53: setting power back to 100
+2020-10-28(수) 오전 5:53:55: setting CLK: 100
+2020-10-28(수) 오전 5:53:55: setting XTU nested
+2020-10-28(수) 오전 5:53:55: load accumulation for throttle load = 63 ,clk = 1600 ,throttlecheck = 1
+2020-10-28(수) 오전 5:53:55: load accumulation for resur: 63 temperature:76 resurcheck:0
+2020-10-28(수) 오전 5:53:55: start of throttle timer
+2020-10-28(수) 오전 5:53:55: start of resurrection timer
+2020-10-28(수) 오전 5:53:58: newlist accumulated current pwr:2917 load:41
+2020-10-28(수) 오전 5:53:58: newlist mode
+2020-10-28(수) 오전 5:53:58: setting XTU: 10.5
+2020-10-28(수) 오전 5:54:04: setting GPU: performance
+2020-10-28(수) 오전 5:54:04: start of newlist timer
+2020-10-28(수) 오전 5:54:10: newlist accumulated current pwr:1400 load:2
+2020-10-28(수) 오전 5:54:10: start of newlist timer
+2020-10-28(수) 오전 5:54:15: newlist accumulated current pwr:2917 load:2
+2020-10-28(수) 오전 5:54:20: newlist accumulated current pwr:2917 load:6
+2020-10-28(수) 오전 5:54:25: newlist accumulated current pwr:1600 load:2
+2020-10-28(수) 오전 5:54:30: newlist accumulated current pwr:2300 load:7
+2020-10-28(수) 오전 5:54:35: newlist accumulated current pwr:1400 load:3
+2020-10-28(수) 오전 5:54:40: newlist accumulated current pwr:2000 load:3
+2020-10-28(수) 오전 5:54:45: newlist accumulated current pwr:1600 load:2
+2020-10-28(수) 오전 5:54:50: newlist accumulated current pwr:2000 load:3
+2020-10-28(수) 오전 5:54:55: newlist accumulated current pwr:2300 load:8
+2020-10-28(수) 오전 5:55:01: newlist accumulated current pwr:2917 load:3
+2020-10-28(수) 오전 5:55:06: newlist accumulated current pwr:2917 load:32
+2020-10-28(수) 오전 5:55:06: start of newlist timer
+2020-10-28(수) 오전 5:55:11: newlist accumulated current pwr:2917 load:46
+2020-10-28(수) 오전 5:55:11: start of newlist timer
+2020-10-28(수) 오전 5:55:16: newlist accumulated current pwr:2917 load:41
+2020-10-28(수) 오전 5:55:21: newlist accumulated current pwr:1600 load:4
+2020-10-28(수) 오전 5:55:26: newlist accumulated current pwr:2300 load:2
+2020-10-28(수) 오전 5:55:31: newlist accumulated current pwr:2917 load:12
+2020-10-28(수) 오전 5:55:36: newlist accumulated current pwr:2917 load:7
+2020-10-28(수) 오전 5:55:41: newlist accumulated current pwr:2917 load:13
+2020-10-28(수) 오전 5:55:46: newlist accumulated current pwr:2300 load:3
+2020-10-28(수) 오전 5:55:51: newlist accumulated current pwr:2300 load:6
+2020-10-28(수) 오전 5:55:56: newlist accumulated current pwr:2917 load:7
+2020-10-28(수) 오전 5:56:01: newlist accumulated current pwr:2917 load:5
+2020-10-28(수) 오전 5:56:06: newlist accumulated current pwr:1200 load:2
+2020-10-28(수) 오전 5:56:11: newlist accumulated current pwr:1600 load:1
+2020-10-28(수) 오전 5:56:11: time to sync for newlist
+2020-10-28(수) 오전 5:56:16: newlist accumulated current pwr:700 load:1
+2020-10-28(수) 오전 5:56:16: EMA + CMA result medload:23
+2020-10-28(수) 오전 5:56:16: appending: key = devenv, value = 6
+2020-10-28(수) 오전 5:56:16: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 5:56:16: reading: key = pcsx2, value = 0
+2020-10-28(수) 오전 5:56:16: reading: key = WindowsFormsApplication5, value = 6
+2020-10-28(수) 오전 5:56:16: reading: key = dirtrally2, value = 0
+2020-10-28(수) 오전 5:56:16: reading: key = devenv, value = 6
+2020-10-28(수) 오전 5:56:16: setting power: devenv to 65
+2020-10-28(수) 오전 5:56:17: setting CLK: 65
+2020-10-28(수) 오전 5:56:17: setting XTU nested
+2020-10-28(수) 오전 5:56:17: skip accumulation for throttle load = 7 ,clk = 700 ,throttlecheck = 0
+2020-10-28(수) 오전 5:56:17: skip accumulation for resur: 7 temperature:61 resurcheck:0
+2020-10-28(수) 오전 5:56:22: setting power: devenv to 65
+2020-10-28(수) 오전 5:56:22: setting XTU: 7.5
+2020-10-28(수) 오전 5:56:28: setting GPU: performance
+2020-10-28(수) 오전 5:56:28: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:56:28: skip accumulation for resur: 3 temperature:59 resurcheck:0
+2020-10-28(수) 오전 5:56:34: skip accumulation for throttle load = 5 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:56:34: skip accumulation for resur: 5 temperature:56 resurcheck:0
+2020-10-28(수) 오전 5:56:39: skip accumulation for throttle load = 2 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:56:39: skip accumulation for resur: 2 temperature:56 resurcheck:0
+2020-10-28(수) 오전 5:56:45: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:56:45: skip accumulation for resur: 3 temperature:56 resurcheck:0
+2020-10-28(수) 오전 5:56:50: skip accumulation for throttle load = 4 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:56:50: skip accumulation for resur: 4 temperature:54 resurcheck:0
+2020-10-28(수) 오전 5:56:55: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:56:55: skip accumulation for resur: 3 temperature:54 resurcheck:0
+2020-10-28(수) 오전 5:57:00: skip accumulation for throttle load = 8 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:57:00: skip accumulation for resur: 8 temperature:54 resurcheck:0
+2020-10-28(수) 오전 5:57:05: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:57:05: skip accumulation for resur: 3 temperature:54 resurcheck:0
+2020-10-28(수) 오전 5:57:10: skip accumulation for throttle load = 2 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:57:10: skip accumulation for resur: 2 temperature:54 resurcheck:0
+2020-10-28(수) 오전 5:57:15: skip accumulation for throttle load = 2 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:57:15: skip accumulation for resur: 2 temperature:54 resurcheck:0
+2020-10-28(수) 오전 5:57:20: skip accumulation for throttle load = 15 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:57:20: skip accumulation for resur: 15 temperature:53 resurcheck:0
+2020-10-28(수) 오전 5:57:25: skip accumulation for throttle load = 14 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:57:25: skip accumulation for resur: 14 temperature:55 resurcheck:0
+2020-10-28(수) 오전 5:57:30: skip accumulation for throttle load = 17 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:57:30: skip accumulation for resur: 17 temperature:55 resurcheck:0
+2020-10-28(수) 오전 5:57:35: skip accumulation for throttle load = 7 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:57:35: skip accumulation for resur: 7 temperature:56 resurcheck:0
+2020-10-28(수) 오전 5:57:40: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:57:40: skip accumulation for resur: 3 temperature:54 resurcheck:0
+2020-10-28(수) 오전 5:57:45: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:57:45: skip accumulation for resur: 3 temperature:55 resurcheck:0
+2020-10-28(수) 오전 5:57:50: skip accumulation for throttle load = 2 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:57:50: skip accumulation for resur: 2 temperature:55 resurcheck:0
+2020-10-28(수) 오전 5:57:55: skip accumulation for throttle load = 6 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:57:55: skip accumulation for resur: 6 temperature:53 resurcheck:0
+2020-10-28(수) 오전 5:58:00: skip accumulation for throttle load = 7 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:58:00: skip accumulation for resur: 7 temperature:54 resurcheck:0
+2020-10-28(수) 오전 5:58:05: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:58:05: skip accumulation for resur: 3 temperature:54 resurcheck:0
+2020-10-28(수) 오전 5:58:10: skip accumulation for throttle load = 6 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:58:10: skip accumulation for resur: 6 temperature:53 resurcheck:0
+2020-10-28(수) 오전 5:58:16: skip accumulation for throttle load = 6 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:58:16: skip accumulation for resur: 6 temperature:53 resurcheck:0
+2020-10-28(수) 오전 5:58:21: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:58:21: skip accumulation for resur: 3 temperature:53 resurcheck:0
+2020-10-28(수) 오전 5:58:26: skip accumulation for throttle load = 2 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:58:26: skip accumulation for resur: 2 temperature:53 resurcheck:0
+2020-10-28(수) 오전 5:58:31: skip accumulation for throttle load = 6 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:58:31: skip accumulation for resur: 6 temperature:53 resurcheck:0
+2020-10-28(수) 오전 5:58:36: skip accumulation for throttle load = 6 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:58:36: skip accumulation for resur: 6 temperature:53 resurcheck:0
+2020-10-28(수) 오전 5:58:41: skip accumulation for throttle load = 4 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:58:41: skip accumulation for resur: 4 temperature:53 resurcheck:0
+2020-10-28(수) 오전 5:58:46: skip accumulation for throttle load = 6 ,clk = 1400 ,throttlecheck = 0
+2020-10-28(수) 오전 5:58:46: skip accumulation for resur: 6 temperature:53 resurcheck:0
+2020-10-28(수) 오전 5:58:51: skip accumulation for throttle load = 5 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:58:51: skip accumulation for resur: 5 temperature:53 resurcheck:0
+2020-10-28(수) 오전 5:58:56: skip accumulation for throttle load = 4 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:58:56: skip accumulation for resur: 4 temperature:53 resurcheck:0
+2020-10-28(수) 오전 5:59:01: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:59:01: skip accumulation for resur: 3 temperature:52 resurcheck:0
+2020-10-28(수) 오전 5:59:06: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:59:06: skip accumulation for resur: 3 temperature:53 resurcheck:0
+2020-10-28(수) 오전 5:59:11: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:59:11: skip accumulation for resur: 3 temperature:53 resurcheck:0
+2020-10-28(수) 오전 5:59:16: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 5:59:16: skip accumulation for resur: 3 temperature:53 resurcheck:0
+2020-10-28(수) 오전 5:59:21: newlist accumulated current pwr:1600 load:21
+2020-10-28(수) 오전 5:59:21: newlist mode
+2020-10-28(수) 오전 5:59:29: setting CLK: 100
+2020-10-28(수) 오전 5:59:29: setting XTU: 10.5
+2020-10-28(수) 오전 5:59:33: setting GPU: performance
+2020-10-28(수) 오전 5:59:33: start of newlist timer
+2020-10-28(수) 오전 5:59:39: newlist accumulated current pwr:2917 load:11
+2020-10-28(수) 오전 5:59:39: start of newlist timer
+2020-10-28(수) 오전 5:59:44: newlist accumulated current pwr:2917 load:39
+2020-10-28(수) 오전 5:59:49: newlist accumulated current pwr:2917 load:8
+2020-10-28(수) 오전 5:59:54: newlist accumulated current pwr:2917 load:28
+2020-10-28(수) 오전 6:00:00: newlist accumulated current pwr:2917 load:12
+2020-10-28(수) 오전 6:00:05: newlist accumulated current pwr:2917 load:7
+2020-10-28(수) 오전 6:00:10: newlist accumulated current pwr:2917 load:28
+2020-10-28(수) 오전 6:00:15: newlist accumulated current pwr:2917 load:3
+2020-10-28(수) 오전 6:00:20: newlist accumulated current pwr:2300 load:2
+2020-10-28(수) 오전 6:00:25: newlist accumulated current pwr:2300 load:0
+2020-10-28(수) 오전 6:00:30: newlist accumulated current pwr:2917 load:5
+2020-10-28(수) 오전 6:00:35: newlist accumulated current pwr:2000 load:2
+2020-10-28(수) 오전 6:00:40: newlist accumulated current pwr:2300 load:6
+2020-10-28(수) 오전 6:00:40: time to sync for newlist
+2020-10-28(수) 오전 6:00:45: newlist accumulated current pwr:1600 load:0
+2020-10-28(수) 오전 6:00:45: EMA + CMA result medload:21
+2020-10-28(수) 오전 6:00:45: appending: key = chrome, value = 6
+2020-10-28(수) 오전 6:00:45: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 6:00:45: reading: key = pcsx2, value = 0
+2020-10-28(수) 오전 6:00:45: reading: key = WindowsFormsApplication5, value = 6
+2020-10-28(수) 오전 6:00:45: reading: key = dirtrally2, value = 0
+2020-10-28(수) 오전 6:00:45: reading: key = devenv, value = 6
+2020-10-28(수) 오전 6:00:45: reading: key = chrome, value = 6
+2020-10-28(수) 오전 6:00:45: setting power: chrome to 65
+2020-10-28(수) 오전 6:00:45: setting CLK: 65
+2020-10-28(수) 오전 6:00:45: setting XTU nested
+2020-10-28(수) 오전 6:00:45: skip accumulation for throttle load = 0 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:00:45: skip accumulation for resur: 0 temperature:61 resurcheck:0
+2020-10-28(수) 오전 6:00:50: setting power: chrome to 65
+2020-10-28(수) 오전 6:00:50: setting XTU: 7.5
+2020-10-28(수) 오전 6:00:57: setting GPU: performance
+2020-10-28(수) 오전 6:00:58: skip accumulation for throttle load = 17 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:00:58: skip accumulation for resur: 17 temperature:61 resurcheck:0
+2020-10-28(수) 오전 6:01:04: skip accumulation for throttle load = 17 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:01:04: skip accumulation for resur: 17 temperature:58 resurcheck:0
+2020-10-28(수) 오전 6:01:09: skip accumulation for throttle load = 9 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:01:09: skip accumulation for resur: 9 temperature:58 resurcheck:0
+2020-10-28(수) 오전 6:01:14: skip accumulation for throttle load = 4 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:01:14: skip accumulation for resur: 4 temperature:59 resurcheck:0
+2020-10-28(수) 오전 6:01:19: skip accumulation for throttle load = 19 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:01:19: skip accumulation for resur: 19 temperature:59 resurcheck:0
+2020-10-28(수) 오전 6:01:24: skip accumulation for throttle load = 18 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:01:24: skip accumulation for resur: 18 temperature:58 resurcheck:0
+2020-10-28(수) 오전 6:01:29: skip accumulation for throttle load = 13 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:01:29: skip accumulation for resur: 13 temperature:58 resurcheck:0
+2020-10-28(수) 오전 6:01:34: skip accumulation for throttle load = 25 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:01:34: skip accumulation for resur: 25 temperature:58 resurcheck:0
+2020-10-28(수) 오전 6:01:39: skip accumulation for throttle load = 17 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:01:39: skip accumulation for resur: 17 temperature:57 resurcheck:0
+2020-10-28(수) 오전 6:01:44: skip accumulation for throttle load = 16 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:01:44: skip accumulation for resur: 16 temperature:58 resurcheck:0
+2020-10-28(수) 오전 6:01:49: skip accumulation for throttle load = 16 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:01:49: skip accumulation for resur: 16 temperature:57 resurcheck:0
+2020-10-28(수) 오전 6:01:54: skip accumulation for throttle load = 4 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:01:54: skip accumulation for resur: 4 temperature:57 resurcheck:0
+2020-10-28(수) 오전 6:02:00: skip accumulation for throttle load = 8 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:02:00: skip accumulation for resur: 8 temperature:58 resurcheck:0
+2020-10-28(수) 오전 6:02:05: skip accumulation for throttle load = 16 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:02:05: skip accumulation for resur: 16 temperature:57 resurcheck:0
+2020-10-28(수) 오전 6:02:10: skip accumulation for throttle load = 4 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:02:10: skip accumulation for resur: 4 temperature:57 resurcheck:0
+2020-10-28(수) 오전 6:02:15: skip accumulation for throttle load = 26 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:02:15: skip accumulation for resur: 26 temperature:58 resurcheck:0
+2020-10-28(수) 오전 6:02:20: skip accumulation for throttle load = 15 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:02:20: skip accumulation for resur: 15 temperature:58 resurcheck:0
+2020-10-28(수) 오전 6:02:25: skip accumulation for throttle load = 11 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:02:25: skip accumulation for resur: 11 temperature:57 resurcheck:0
+2020-10-28(수) 오전 6:02:30: skip accumulation for throttle load = 9 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:02:30: skip accumulation for resur: 9 temperature:57 resurcheck:0
+2020-10-28(수) 오전 6:02:35: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:02:35: skip accumulation for resur: 3 temperature:57 resurcheck:0
+2020-10-28(수) 오전 6:02:40: skip accumulation for throttle load = 7 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:02:40: skip accumulation for resur: 7 temperature:57 resurcheck:0
+2020-10-28(수) 오전 6:02:45: skip accumulation for throttle load = 9 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:02:45: skip accumulation for resur: 9 temperature:56 resurcheck:0
+2020-10-28(수) 오전 6:02:50: skip accumulation for throttle load = 6 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:02:50: skip accumulation for resur: 6 temperature:56 resurcheck:0
+2020-10-28(수) 오전 6:02:55: skip accumulation for throttle load = 6 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:02:55: skip accumulation for resur: 6 temperature:55 resurcheck:0
+2020-10-28(수) 오전 6:03:00: skip accumulation for throttle load = 10 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:03:00: skip accumulation for resur: 10 temperature:55 resurcheck:0
+2020-10-28(수) 오전 6:03:05: skip accumulation for throttle load = 6 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:03:05: skip accumulation for resur: 6 temperature:56 resurcheck:0
+2020-10-28(수) 오전 6:03:10: skip accumulation for throttle load = 17 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:03:10: skip accumulation for resur: 17 temperature:57 resurcheck:0
+2020-10-28(수) 오전 6:03:15: skip accumulation for throttle load = 7 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:03:15: skip accumulation for resur: 7 temperature:56 resurcheck:0
+2020-10-28(수) 오전 6:03:20: skip accumulation for throttle load = 9 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:03:20: skip accumulation for resur: 9 temperature:56 resurcheck:0
+2020-10-28(수) 오전 6:03:25: skip accumulation for throttle load = 9 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:03:26: skip accumulation for resur: 9 temperature:55 resurcheck:0
+2020-10-28(수) 오전 6:03:31: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:03:31: skip accumulation for resur: 3 temperature:55 resurcheck:0
+2020-10-28(수) 오전 6:03:36: skip accumulation for throttle load = 20 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:03:36: skip accumulation for resur: 20 temperature:58 resurcheck:0
+2020-10-28(수) 오전 6:03:41: skip accumulation for throttle load = 35 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:03:41: load accumulation for resur: 35 temperature:61 resurcheck:0
+2020-10-28(수) 오전 6:03:41: start of resurrection timer
+2020-10-28(수) 오전 6:03:46: skip accumulation for throttle load = 13 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:03:46: skip accumulation for resur: 13 temperature:59 resurcheck:0
+2020-10-28(수) 오전 6:03:51: skip accumulation for throttle load = 29 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:03:51: skip accumulation for resur: 29 temperature:60 resurcheck:0
+2020-10-28(수) 오전 6:03:56: skip accumulation for throttle load = 45 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:03:56: load accumulation for resur: 45 temperature:61 resurcheck:0
+2020-10-28(수) 오전 6:04:01: skip accumulation for throttle load = 54 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:04:01: load accumulation for resur: 54 temperature:61 resurcheck:1
+2020-10-28(수) 오전 6:04:06: skip accumulation for throttle load = 41 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:04:06: load accumulation for resur: 41 temperature:61 resurcheck:2
+2020-10-28(수) 오전 6:04:11: skip accumulation for throttle load = 48 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:04:11: load accumulation for resur: 48 temperature:61 resurcheck:3
+2020-10-28(수) 오전 6:04:16: skip accumulation for throttle load = 76 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:04:16: load accumulation for resur: 76 temperature:64 resurcheck:4
+2020-10-28(수) 오전 6:04:21: skip accumulation for throttle load = 66 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:04:21: load accumulation for resur: 66 temperature:64 resurcheck:5
+2020-10-28(수) 오전 6:04:27: skip accumulation for throttle load = 33 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:04:27: load accumulation for resur: 33 temperature:62 resurcheck:6
+2020-10-28(수) 오전 6:04:31: skip accumulation for throttle load = 21 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:04:31: skip accumulation for resur: 21 temperature:61 resurcheck:6
+2020-10-28(수) 오전 6:04:36: skip accumulation for throttle load = 34 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:04:36: load accumulation for resur: 34 temperature:62 resurcheck:6
+2020-10-28(수) 오전 6:04:41: skip accumulation for throttle load = 26 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:04:41: skip accumulation for resur: 26 temperature:62 resurcheck:6
+2020-10-28(수) 오전 6:04:41: time to sync for resurrection
+2020-10-28(수) 오전 6:04:46: skip accumulation for throttle load = 32 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:04:46: load accumulation for resur: 32 temperature:62 resurcheck:6
+2020-10-28(수) 오전 6:04:46: EMA + CMA result medload:21
+2020-10-28(수) 오전 6:04:46: resurrection activated - 1(better gpu)
+2020-10-28(수) 오전 6:04:52: skip accumulation for throttle load = 16 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:04:52: skip accumulation for resur: 16 temperature:62 resurcheck:0
+2020-10-28(수) 오전 6:04:57: skip accumulation for throttle load = 23 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:04:57: skip accumulation for resur: 23 temperature:61 resurcheck:0
+2020-10-28(수) 오전 6:05:02: skip accumulation for throttle load = 26 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:05:02: skip accumulation for resur: 26 temperature:61 resurcheck:0
+2020-10-28(수) 오전 6:05:07: skip accumulation for throttle load = 21 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:05:07: skip accumulation for resur: 21 temperature:61 resurcheck:0
+2020-10-28(수) 오전 6:05:12: skip accumulation for throttle load = 20 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:05:12: skip accumulation for resur: 20 temperature:61 resurcheck:0
+2020-10-28(수) 오전 6:05:17: skip accumulation for throttle load = 27 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:05:17: skip accumulation for resur: 27 temperature:60 resurcheck:0
+2020-10-28(수) 오전 6:05:22: skip accumulation for throttle load = 19 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:05:22: skip accumulation for resur: 19 temperature:60 resurcheck:0
+2020-10-28(수) 오전 6:05:27: skip accumulation for throttle load = 27 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:05:27: skip accumulation for resur: 27 temperature:59 resurcheck:0
+2020-10-28(수) 오전 6:05:32: skip accumulation for throttle load = 28 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:05:32: skip accumulation for resur: 28 temperature:61 resurcheck:0
+2020-10-28(수) 오전 6:05:37: skip accumulation for throttle load = 29 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:05:37: skip accumulation for resur: 29 temperature:61 resurcheck:0
+2020-10-28(수) 오전 6:05:42: newlist accumulated current pwr:1600 load:28
+2020-10-28(수) 오전 6:05:42: newlist mode
+2020-10-28(수) 오전 6:05:42: setting CLK: 100
+2020-10-28(수) 오전 6:05:43: setting XTU: 10.5
+2020-10-28(수) 오전 6:05:47: setting GPU: performance
+2020-10-28(수) 오전 6:05:48: start of newlist timer
+2020-10-28(수) 오전 6:06:05: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 6:06:05: reading: key = pcsx2, value = 0
+2020-10-28(수) 오전 6:06:05: reading: key = WindowsFormsApplication5, value = 6
+2020-10-28(수) 오전 6:06:05: reading: key = dirtrally2, value = 0
+2020-10-28(수) 오전 6:06:05: reading: key = devenv, value = 6
+2020-10-28(수) 오전 6:06:05: reading: key = chrome, value = 6
+2020-10-28(수) 오전 6:06:05: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-28(수) 오전 6:06:05: reading: key = 0, value = 100
+2020-10-28(수) 오전 6:06:05: reading: key = 1, value = 99
+2020-10-28(수) 오전 6:06:05: reading: key = 2, value = 98
+2020-10-28(수) 오전 6:06:05: reading: key = 3, value = 95
+2020-10-28(수) 오전 6:06:05: reading: key = 4, value = 84
+2020-10-28(수) 오전 6:06:05: reading: key = 5, value = 73
+2020-10-28(수) 오전 6:06:05: reading: key = 6, value = 65
+2020-10-28(수) 오전 6:06:05: reading: key = 7, value = 58
+2020-10-28(수) 오전 6:06:05: reading: key = 8, value = 50
+2020-10-28(수) 오전 6:06:05: reading: key = 9, value = 43
+2020-10-28(수) 오전 6:06:05: reading: key = 10, value = 32
+2020-10-28(수) 오전 6:06:05: reading: key = 11, value = 24
+2020-10-28(수) 오전 6:06:05: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-28(수) 오전 6:06:05: reading: key = 11, value = 10.5
+2020-10-28(수) 오전 6:06:05: reading: key = 10, value = 10
+2020-10-28(수) 오전 6:06:05: reading: key = 9, value = 9.5
+2020-10-28(수) 오전 6:06:05: reading: key = 8, value = 8.5
+2020-10-28(수) 오전 6:06:05: reading: key = 7, value = 8
+2020-10-28(수) 오전 6:06:05: reading: key = 6, value = 7.5
+2020-10-28(수) 오전 6:06:05: reading: key = 5, value = 6.5
+2020-10-28(수) 오전 6:06:05: reading: key = 4, value = 6
+2020-10-28(수) 오전 6:06:05: reading: key = 3, value = 5
+2020-10-28(수) 오전 6:06:05: reading: key = 2, value = 4.5
+2020-10-28(수) 오전 6:06:05: reading: key = 1, value = 4
+2020-10-28(수) 오전 6:06:05: reading: key = 0, value = 3
+2020-10-28(수) 오전 6:06:05: reading: key = 0, value = 3
+2020-10-28(수) 오전 6:06:05: reading: key = 0, value = 3
+2020-10-28(수) 오전 6:06:05: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-28(수) 오전 6:06:05: reading: key = 0, value = Normal
+2020-10-28(수) 오전 6:06:05: reading: key = 1, value = Normal
+2020-10-28(수) 오전 6:06:05: reading: key = 2, value = Normal
+2020-10-28(수) 오전 6:06:05: reading: key = 3, value = Normal
+2020-10-28(수) 오전 6:06:05: reading: key = 4, value = Normal
+2020-10-28(수) 오전 6:06:05: reading: key = 5, value = Normal
+2020-10-28(수) 오전 6:06:05: reading: key = 6, value = Normal
+2020-10-28(수) 오전 6:06:05: reading: key = 7, value = Normal
+2020-10-28(수) 오전 6:06:05: settings changed for: loop_delay!, reimporting...
+2020-10-28(수) 오전 6:06:05: reading: key = loop_delay, value = 5
+2020-10-28(수) 오전 6:06:05: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-28(수) 오전 6:06:05: reading: key = boost_cycle_delay, value = 30
+2020-10-28(수) 오전 6:06:05: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-28(수) 오전 6:06:05: reading: key = newlist_cycle_delay, value = 60
+2020-10-28(수) 오전 6:06:05: settings changed for: processor_guid_tweak!, reimporting...
+2020-10-28(수) 오전 6:06:05: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-28(수) 오전 6:06:05: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-28(수) 오전 6:06:05: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-28(수) 오전 6:06:05: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-28(수) 오전 6:06:05: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-28(수) 오전 6:06:05: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-28(수) 오전 6:06:05: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-28(수) 오전 6:06:05: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-28(수) 오전 6:06:05: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-28(수) 오전 6:06:05: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-28(수) 오전 6:06:05: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-28(수) 오전 6:06:05: settings changed for: generatedCLK!, reimporting...
+2020-10-28(수) 오전 6:06:05: reading: key = 100, value = 2701
+2020-10-28(수) 오전 6:06:05: reading: key = 99, value = 2700
+2020-10-28(수) 오전 6:06:05: reading: key = 98, value = 2600
+2020-10-28(수) 오전 6:06:05: reading: key = 95, value = 2300
+2020-10-28(수) 오전 6:06:05: reading: key = 84, value = 2000
+2020-10-28(수) 오전 6:06:05: reading: key = 73, value = 1800
+2020-10-28(수) 오전 6:06:05: reading: key = 65, value = 1600
+2020-10-28(수) 오전 6:06:05: reading: key = 58, value = 1400
+2020-10-28(수) 오전 6:06:05: reading: key = 50, value = 1200
+2020-10-28(수) 오전 6:06:05: reading: key = 43, value = 900
+2020-10-28(수) 오전 6:06:05: reading: key = 32, value = 700
+2020-10-28(수) 오전 6:06:05: reading: key = 24, value = 500
+2020-10-28(수) 오전 6:06:05: settings changed for: generatedXTU!, reimporting...
+2020-10-28(수) 오전 6:06:05: reading: key = 24, value = 10.5
+2020-10-28(수) 오전 6:06:05: reading: key = 32, value = 10
+2020-10-28(수) 오전 6:06:05: reading: key = 43, value = 9.5
+2020-10-28(수) 오전 6:06:05: reading: key = 50, value = 8.5
+2020-10-28(수) 오전 6:06:05: reading: key = 58, value = 8
+2020-10-28(수) 오전 6:06:05: reading: key = 65, value = 7.5
+2020-10-28(수) 오전 6:06:05: reading: key = 73, value = 6.5
+2020-10-28(수) 오전 6:06:05: reading: key = 84, value = 6
+2020-10-28(수) 오전 6:06:05: reading: key = 95, value = 5
+2020-10-28(수) 오전 6:06:05: reading: key = 98, value = 4.5
+2020-10-28(수) 오전 6:06:05: reading: key = 99, value = 4
+2020-10-28(수) 오전 6:06:05: reading: key = 100, value = 3
+2020-10-28(수) 오전 6:06:05: settings changed for: throttle_median!, reimporting...
+2020-10-28(수) 오전 6:06:05: reading: key = throttle_median, value = 60
+2020-10-28(수) 오전 6:06:05: settings changed for: newlist_median!, reimporting...
+2020-10-28(수) 오전 6:06:05: reading: key = newlist_median, value = 50
+2020-10-28(수) 오전 6:06:05: settings changed for: thermal_median!, reimporting...
+2020-10-28(수) 오전 6:06:05: reading: key = thermal_median, value = 90
+2020-10-28(수) 오전 6:06:05: settings changed for: gpuplan!, reimporting...
+2020-10-28(수) 오전 6:06:05: reading: key = gpuplan, value = 1
+2020-10-28(수) 오전 6:06:06: checking XTU cmdlet
+2020-10-28(수) 오전 6:06:09: XTU ok
+2020-10-28(수) 오전 6:06:12: result = 10.5
+2020-10-28(수) 오전 6:06:12: setting XTU: 0.5
+2020-10-28(수) 오전 6:06:16: setting GPU: performance
+2020-10-28(수) 오전 6:06:19: setting XTU: 10.5
+2020-10-28(수) 오전 6:06:22: setting GPU: performance
+2020-10-28(수) 오전 6:06:22: init PowerCFG settings
+2020-10-28(수) 오전 6:06:27: init value counters: maxpwr = 2701, turbopwr = 3025
+2020-10-28(수) 오전 6:06:30: newlist accumulated current pwr:3025 load:31 pivotratio:-1
+2020-10-28(수) 오전 6:06:30: start of newlist timer
+2020-10-28(수) 오전 6:06:36: setting power: WindowsFormsApplication5 to 65
+2020-10-28(수) 오전 6:06:36: setting CLK: 65
+2020-10-28(수) 오전 6:06:36: setting XTU nested
+2020-10-28(수) 오전 6:06:36: skip accumulation for throttle load = 53 ,clk = 3025 ,throttlecheck = 0
+2020-10-28(수) 오전 6:06:36: load accumulation for resur: 53 temperature:75 resurcheck:0
+2020-10-28(수) 오전 6:06:36: start of resurrection timer
+2020-10-28(수) 오전 6:06:41: setting power: WindowsFormsApplication5 to 65
+2020-10-28(수) 오전 6:06:41: setting XTU: 7.5
+2020-10-28(수) 오전 6:06:49: setting GPU: performance
+2020-10-28(수) 오전 6:06:49: skip accumulation for throttle load = 28 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:06:49: skip accumulation for resur: 28 temperature:67 resurcheck:0
+2020-10-28(수) 오전 6:06:54: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 6:06:54: newlist accumulated current pwr:1600 load:20 pivotratio:-1
+2020-10-28(수) 오전 6:06:54: newlist mode
+2020-10-28(수) 오전 6:06:54: setting CLK: 100
+2020-10-28(수) 오전 6:06:54: setting XTU: 10.5
+2020-10-28(수) 오전 6:06:57: setting GPU: performance
+2020-10-28(수) 오전 6:07:00: newlist accumulated current pwr:3025 load:59 pivotratio:-1
+2020-10-28(수) 오전 6:07:00: start of newlist timer
+2020-10-28(수) 오전 6:07:05: newlist accumulated current pwr:3025 load:87 pivotratio:0
+2020-10-28(수) 오전 6:07:21: newlist accumulated current pwr:3025 load:100 pivotratio:∞
+2020-10-28(수) 오전 6:07:22: start of newlist timer
+2020-10-28(수) 오전 6:07:31: newlist accumulated current pwr:3025 load:100 pivotratio:∞
+2020-10-28(수) 오전 6:07:34: newlist accumulated current pwr:3025 load:56 pivotratio:1
+2020-10-28(수) 오전 6:07:39: newlist accumulated current pwr:3025 load:79 pivotratio:2
+2020-10-28(수) 오전 6:07:44: newlist accumulated current pwr:3025 load:51 pivotratio:0.5
+2020-10-28(수) 오전 6:07:49: newlist accumulated current pwr:3025 load:71 pivotratio:1
+2020-10-28(수) 오전 6:07:54: newlist accumulated current pwr:3025 load:65 pivotratio:1.5
+2020-10-28(수) 오전 6:07:59: newlist accumulated current pwr:3025 load:57 pivotratio:0.6666667
+2020-10-28(수) 오전 6:08:04: newlist accumulated current pwr:3025 load:62 pivotratio:1
+2020-10-28(수) 오전 6:08:09: newlist accumulated current pwr:3025 load:97 pivotratio:1.333333
+2020-10-28(수) 오전 6:08:14: newlist accumulated current pwr:3025 load:100 pivotratio:1.666667
+2020-10-28(수) 오전 6:08:19: newlist accumulated current pwr:3025 load:100 pivotratio:2
+2020-10-28(수) 오전 6:08:24: newlist accumulated current pwr:3025 load:99 pivotratio:2.333333
+2020-10-28(수) 오전 6:08:24: time to sync for newlist
+2020-10-28(수) 오전 6:08:29: newlist accumulated current pwr:3025 load:100 pivotratio:2.666667
+2020-10-28(수) 오전 6:08:29: EMA + CMA result medload:55
+2020-10-28(수) 오전 6:08:29: over throttle_median.. giving CPU first
+2020-10-28(수) 오전 6:08:29: appending: key = dirtrally2, value = 0
+2020-10-28(수) 오전 6:08:29: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 6:08:29: reading: key = dirtrally2, value = 0
+2020-10-28(수) 오전 6:08:29: setting power back to 100
+2020-10-28(수) 오전 6:08:29: setting XTU nested
+2020-10-28(수) 오전 6:08:29: skip accumulation for throttle load = 100 ,clk = 3025 ,throttlecheck = 0
+2020-10-28(수) 오전 6:08:29: skip accumulation for resur: 100 temperature:103 resurcheck:0
+2020-10-28(수) 오전 6:08:34: setting power back to 100
+2020-10-28(수) 오전 6:08:34: setting XTU: 3
+2020-10-28(수) 오전 6:08:41: setting GPU: performance
+2020-10-28(수) 오전 6:08:42: skip accumulation for throttle load = 100 ,clk = 3025 ,throttlecheck = 0
+2020-10-28(수) 오전 6:08:42: skip accumulation for resur: 100 temperature:99 resurcheck:0
+2020-10-28(수) 오전 6:08:48: load accumulation for throttle load = 100 ,clk = 2700 ,throttlecheck = 1
+2020-10-28(수) 오전 6:08:48: skip accumulation for resur: 100 temperature:97 resurcheck:0
+2020-10-28(수) 오전 6:08:48: start of throttle timer
+2020-10-28(수) 오전 6:08:52: load accumulation for throttle load = 82 ,clk = 1800 ,throttlecheck = 2
+2020-10-28(수) 오전 6:08:52: skip accumulation for resur: 82 temperature:94 resurcheck:0
+2020-10-28(수) 오전 6:08:58: load accumulation for throttle load = 93 ,clk = 2600 ,throttlecheck = 3
+2020-10-28(수) 오전 6:08:58: skip accumulation for resur: 93 temperature:99 resurcheck:0
+2020-10-28(수) 오전 6:09:03: load accumulation for throttle load = 88 ,clk = 1800 ,throttlecheck = 4
+2020-10-28(수) 오전 6:09:03: skip accumulation for resur: 88 temperature:99 resurcheck:0
+2020-10-28(수) 오전 6:09:08: load accumulation for throttle load = 74 ,clk = 2300 ,throttlecheck = 5
+2020-10-28(수) 오전 6:09:08: skip accumulation for resur: 74 temperature:102 resurcheck:0
+2020-10-28(수) 오전 6:09:13: load accumulation for throttle load = 80 ,clk = 2300 ,throttlecheck = 6
+2020-10-28(수) 오전 6:09:13: skip accumulation for resur: 80 temperature:101 resurcheck:0
+2020-10-28(수) 오전 6:09:18: load accumulation for throttle load = 76 ,clk = 2300 ,throttlecheck = 7
+2020-10-28(수) 오전 6:09:18: skip accumulation for resur: 76 temperature:101 resurcheck:0
+2020-10-28(수) 오전 6:09:18: time to sync for throttle
+2020-10-28(수) 오전 6:09:23: load accumulation for throttle load = 88 ,clk = 2000 ,throttlecheck = 8
+2020-10-28(수) 오전 6:09:23: EMA + CMA result medload:55
+2020-10-28(수) 오전 6:09:23: complete throttle sync load(median) = 55 ,default median = 60
+2020-10-28(수) 오전 6:09:23: cpu throttle detected!
+2020-10-28(수) 오전 6:09:23: appending: key = 0, value = 99
+2020-10-28(수) 오전 6:09:23: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-28(수) 오전 6:09:23: reading: key = 0, value = 100
+2020-10-28(수) 오전 6:09:23: reading: key = 1, value = 99
+2020-10-28(수) 오전 6:09:23: reading: key = 2, value = 98
+2020-10-28(수) 오전 6:09:23: reading: key = 3, value = 95
+2020-10-28(수) 오전 6:09:23: reading: key = 4, value = 84
+2020-10-28(수) 오전 6:09:24: reading: key = 5, value = 73
+2020-10-28(수) 오전 6:09:24: reading: key = 6, value = 65
+2020-10-28(수) 오전 6:09:24: reading: key = 7, value = 58
+2020-10-28(수) 오전 6:09:24: reading: key = 8, value = 50
+2020-10-28(수) 오전 6:09:24: reading: key = 9, value = 43
+2020-10-28(수) 오전 6:09:24: reading: key = 10, value = 32
+2020-10-28(수) 오전 6:09:24: reading: key = 11, value = 24
+2020-10-28(수) 오전 6:09:24: reading: key = 0, value = 99
+2020-10-28(수) 오전 6:09:24: skip accumulation for resur: 88 temperature:101 resurcheck:0
+2020-10-28(수) 오전 6:09:29: setting power back to 99
+2020-10-28(수) 오전 6:09:29: setting CLK: 99
+2020-10-28(수) 오전 6:09:30: setting XTU nested
+2020-10-28(수) 오전 6:09:30: load accumulation for throttle load = 80 ,clk = 2300 ,throttlecheck = 1
+2020-10-28(수) 오전 6:09:30: skip accumulation for resur: 80 temperature:101 resurcheck:0
+2020-10-28(수) 오전 6:09:30: start of throttle timer
+2020-10-28(수) 오전 6:09:34: load accumulation for throttle load = 99 ,clk = 2000 ,throttlecheck = 2
+2020-10-28(수) 오전 6:09:34: skip accumulation for resur: 99 temperature:101 resurcheck:0
+2020-10-28(수) 오전 6:09:39: load accumulation for throttle load = 78 ,clk = 2300 ,throttlecheck = 3
+2020-10-28(수) 오전 6:09:39: skip accumulation for resur: 78 temperature:101 resurcheck:0
+2020-10-28(수) 오전 6:09:44: load accumulation for throttle load = 74 ,clk = 2000 ,throttlecheck = 4
+2020-10-28(수) 오전 6:09:44: skip accumulation for resur: 74 temperature:101 resurcheck:0
+2020-10-28(수) 오전 6:09:49: newlist accumulated current pwr:2700 load:21 pivotratio:-1
+2020-10-28(수) 오전 6:09:49: newlist mode
+2020-10-28(수) 오전 6:09:49: setting CLK: 100
+2020-10-28(수) 오전 6:09:49: setting XTU: 10.5
+2020-10-28(수) 오전 6:09:53: setting GPU: performance
+2020-10-28(수) 오전 6:09:54: start of newlist timer
+2020-10-28(수) 오전 6:10:00: newlist accumulated current pwr:3025 load:45 pivotratio:-1
+2020-10-28(수) 오전 6:10:05: newlist accumulated current pwr:3025 load:27 pivotratio:-1
+2020-10-28(수) 오전 6:10:10: newlist accumulated current pwr:3025 load:40 pivotratio:-1
+2020-10-28(수) 오전 6:10:12: paused.
+2020-10-28(수) 오전 6:53:28: shutting_down.
+2020-10-28(수) 오전 6:54:02: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 6:54:02: reading: key = dirtrally2, value = 0
+2020-10-28(수) 오전 6:54:02: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-10-28(수) 오전 6:54:02: reading: key = 0, value = 100
+2020-10-28(수) 오전 6:54:02: reading: key = 1, value = 99
+2020-10-28(수) 오전 6:54:02: reading: key = 2, value = 98
+2020-10-28(수) 오전 6:54:02: reading: key = 3, value = 95
+2020-10-28(수) 오전 6:54:02: reading: key = 4, value = 84
+2020-10-28(수) 오전 6:54:02: reading: key = 5, value = 73
+2020-10-28(수) 오전 6:54:02: reading: key = 6, value = 65
+2020-10-28(수) 오전 6:54:02: reading: key = 7, value = 58
+2020-10-28(수) 오전 6:54:02: reading: key = 8, value = 50
+2020-10-28(수) 오전 6:54:02: reading: key = 9, value = 43
+2020-10-28(수) 오전 6:54:02: reading: key = 10, value = 32
+2020-10-28(수) 오전 6:54:02: reading: key = 11, value = 24
+2020-10-28(수) 오전 6:54:02: reading: key = 0, value = 99
+2020-10-28(수) 오전 6:54:02: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-10-28(수) 오전 6:54:02: reading: key = 11, value = 10.5
+2020-10-28(수) 오전 6:54:02: reading: key = 10, value = 10
+2020-10-28(수) 오전 6:54:02: reading: key = 9, value = 9.5
+2020-10-28(수) 오전 6:54:02: reading: key = 8, value = 8.5
+2020-10-28(수) 오전 6:54:02: reading: key = 7, value = 8
+2020-10-28(수) 오전 6:54:02: reading: key = 6, value = 7.5
+2020-10-28(수) 오전 6:54:02: reading: key = 5, value = 6.5
+2020-10-28(수) 오전 6:54:02: reading: key = 4, value = 6
+2020-10-28(수) 오전 6:54:03: reading: key = 3, value = 5
+2020-10-28(수) 오전 6:54:03: reading: key = 2, value = 4.5
+2020-10-28(수) 오전 6:54:03: reading: key = 1, value = 4
+2020-10-28(수) 오전 6:54:03: reading: key = 0, value = 3
+2020-10-28(수) 오전 6:54:03: reading: key = 0, value = 3
+2020-10-28(수) 오전 6:54:03: reading: key = 0, value = 3
+2020-10-28(수) 오전 6:54:03: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-10-28(수) 오전 6:54:03: reading: key = 0, value = Normal
+2020-10-28(수) 오전 6:54:03: reading: key = 1, value = Normal
+2020-10-28(수) 오전 6:54:03: reading: key = 2, value = Normal
+2020-10-28(수) 오전 6:54:03: reading: key = 3, value = Normal
+2020-10-28(수) 오전 6:54:03: reading: key = 4, value = Normal
+2020-10-28(수) 오전 6:54:03: reading: key = 5, value = Normal
+2020-10-28(수) 오전 6:54:03: reading: key = 6, value = Normal
+2020-10-28(수) 오전 6:54:03: reading: key = 7, value = Normal
+2020-10-28(수) 오전 6:54:03: settings changed for: loop_delay!, reimporting...
+2020-10-28(수) 오전 6:54:03: reading: key = loop_delay, value = 5
+2020-10-28(수) 오전 6:54:03: settings changed for: boost_cycle_delay!, reimporting...
+2020-10-28(수) 오전 6:54:03: reading: key = boost_cycle_delay, value = 30
+2020-10-28(수) 오전 6:54:03: settings changed for: newlist_cycle_delay!, reimporting...
+2020-10-28(수) 오전 6:54:03: reading: key = newlist_cycle_delay, value = 60
+2020-10-28(수) 오전 6:54:03: settings changed for: processor_guid_tweak!, reimporting...
+2020-10-28(수) 오전 6:54:03: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-10-28(수) 오전 6:54:03: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-10-28(수) 오전 6:54:03: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-10-28(수) 오전 6:54:03: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-10-28(수) 오전 6:54:03: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-10-28(수) 오전 6:54:03: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-10-28(수) 오전 6:54:03: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-10-28(수) 오전 6:54:03: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-10-28(수) 오전 6:54:03: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-10-28(수) 오전 6:54:03: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-10-28(수) 오전 6:54:03: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-10-28(수) 오전 6:54:03: settings changed for: generatedCLK!, reimporting...
+2020-10-28(수) 오전 6:54:03: reading: key = 100, value = 2701
+2020-10-28(수) 오전 6:54:03: reading: key = 99, value = 2700
+2020-10-28(수) 오전 6:54:03: reading: key = 98, value = 2600
+2020-10-28(수) 오전 6:54:03: reading: key = 95, value = 2300
+2020-10-28(수) 오전 6:54:03: reading: key = 84, value = 2000
+2020-10-28(수) 오전 6:54:03: reading: key = 73, value = 1800
+2020-10-28(수) 오전 6:54:03: reading: key = 65, value = 1600
+2020-10-28(수) 오전 6:54:03: reading: key = 58, value = 1400
+2020-10-28(수) 오전 6:54:03: reading: key = 50, value = 1200
+2020-10-28(수) 오전 6:54:03: reading: key = 43, value = 900
+2020-10-28(수) 오전 6:54:03: reading: key = 32, value = 700
+2020-10-28(수) 오전 6:54:03: reading: key = 24, value = 500
+2020-10-28(수) 오전 6:54:03: settings changed for: generatedXTU!, reimporting...
+2020-10-28(수) 오전 6:54:03: reading: key = 24, value = 10.5
+2020-10-28(수) 오전 6:54:03: reading: key = 32, value = 10
+2020-10-28(수) 오전 6:54:03: reading: key = 43, value = 9.5
+2020-10-28(수) 오전 6:54:03: reading: key = 50, value = 8.5
+2020-10-28(수) 오전 6:54:03: reading: key = 58, value = 8
+2020-10-28(수) 오전 6:54:03: reading: key = 65, value = 7.5
+2020-10-28(수) 오전 6:54:03: reading: key = 73, value = 6.5
+2020-10-28(수) 오전 6:54:03: reading: key = 84, value = 6
+2020-10-28(수) 오전 6:54:03: reading: key = 95, value = 5
+2020-10-28(수) 오전 6:54:03: reading: key = 98, value = 4.5
+2020-10-28(수) 오전 6:54:03: reading: key = 99, value = 4
+2020-10-28(수) 오전 6:54:03: reading: key = 100, value = 3
+2020-10-28(수) 오전 6:54:03: settings changed for: throttle_median!, reimporting...
+2020-10-28(수) 오전 6:54:03: reading: key = throttle_median, value = 60
+2020-10-28(수) 오전 6:54:03: settings changed for: newlist_median!, reimporting...
+2020-10-28(수) 오전 6:54:03: reading: key = newlist_median, value = 50
+2020-10-28(수) 오전 6:54:03: settings changed for: thermal_median!, reimporting...
+2020-10-28(수) 오전 6:54:03: reading: key = thermal_median, value = 90
+2020-10-28(수) 오전 6:54:03: settings changed for: gpuplan!, reimporting...
+2020-10-28(수) 오전 6:54:03: reading: key = gpuplan, value = 1
+2020-10-28(수) 오전 6:54:04: checking XTU cmdlet
+2020-10-28(수) 오전 6:54:10: XTU ok
+2020-10-28(수) 오전 6:54:13: result = 10.5
+2020-10-28(수) 오전 6:54:13: setting XTU: 0.5
+2020-10-28(수) 오전 6:54:16: setting GPU: performance
+2020-10-28(수) 오전 6:54:20: setting XTU: 10.5
+2020-10-28(수) 오전 6:54:23: setting GPU: performance
+2020-10-28(수) 오전 6:54:24: init PowerCFG settings
+2020-10-28(수) 오전 6:54:34: init value counters: maxpwr = 2701, turbopwr = 2673
+2020-10-28(수) 오전 6:54:37: newlist accumulated current pwr:2700 load:20 pivotratio:0.5
+2020-10-28(수) 오전 6:54:37: start of newlist timer
+2020-10-28(수) 오전 6:54:42: newlist accumulated current pwr:2673 load:17 pivotratio:0.333333333333333
+2020-10-28(수) 오전 6:54:47: newlist accumulated current pwr:2673 load:18 pivotratio:0.25
+2020-10-28(수) 오전 6:54:52: newlist accumulated current pwr:2673 load:18 pivotratio:0.2
+2020-10-28(수) 오전 6:54:57: newlist accumulated current pwr:2673 load:17 pivotratio:0.166666666666667
+2020-10-28(수) 오전 6:55:02: newlist accumulated current pwr:2673 load:18 pivotratio:0.142857142857143
+2020-10-28(수) 오전 6:55:07: newlist accumulated current pwr:2700 load:20 pivotratio:0.125
+2020-10-28(수) 오전 6:55:12: newlist accumulated current pwr:2700 load:15 pivotratio:0.111111111111111
+2020-10-28(수) 오전 6:55:17: newlist accumulated current pwr:2700 load:17 pivotratio:0.1
+2020-10-28(수) 오전 6:55:22: newlist accumulated current pwr:2700 load:18 pivotratio:0.0909090909090909
+2020-10-28(수) 오전 6:55:27: newlist accumulated current pwr:2673 load:12 pivotratio:0.0833333333333333
+2020-10-28(수) 오전 6:55:32: newlist accumulated current pwr:2700 load:29 pivotratio:0.5
+2020-10-28(수) 오전 6:55:32: start of newlist timer
+2020-10-28(수) 오전 6:55:37: newlist accumulated current pwr:2600 load:22 pivotratio:0.333333333333333
+2020-10-28(수) 오전 6:55:42: newlist accumulated current pwr:2600 load:15 pivotratio:0.25
+2020-10-28(수) 오전 6:55:47: newlist accumulated current pwr:2600 load:26 pivotratio:0.5
+2020-10-28(수) 오전 6:55:47: start of newlist timer
+2020-10-28(수) 오전 6:55:52: setting power back to 99
+2020-10-28(수) 오전 6:55:53: setting CLK: 99
+2020-10-28(수) 오전 6:55:53: setting XTU nested
+2020-10-28(수) 오전 6:55:53: load accumulation for throttle load = 36 ,clk = 1600 ,throttlecheck = 1
+2020-10-28(수) 오전 6:55:53: load accumulation for resur: 36 temperature:88 resurcheck:0
+2020-10-28(수) 오전 6:55:53: start of throttle timer
+2020-10-28(수) 오전 6:55:53: start of resurrection timer
+2020-10-28(수) 오전 6:55:58: newlist accumulated current pwr:2700 load:88 pivotratio:2
+2020-10-28(수) 오전 6:55:58: newlist mode
+2020-10-28(수) 오전 6:55:59: setting CLK: 100
+2020-10-28(수) 오전 6:55:59: setting XTU: 3
+2020-10-28(수) 오전 6:56:06: setting GPU: performance
+2020-10-28(수) 오전 6:56:06: start of newlist timer
+2020-10-28(수) 오전 6:56:13: newlist accumulated current pwr:2673 load:39 pivotratio:0.5
+2020-10-28(수) 오전 6:56:13: newlist mode
+2020-10-28(수) 오전 6:56:13: setting XTU: 10.5
+2020-10-28(수) 오전 6:56:18: setting GPU: performance
+2020-10-28(수) 오전 6:56:38: setting power back to 99
+2020-10-28(수) 오전 6:56:44: setting CLK: 99
+2020-10-28(수) 오전 6:56:44: setting XTU nested
+2020-10-28(수) 오전 6:56:44: load accumulation for throttle load = 100 ,clk = 2673 ,throttlecheck = 2
+2020-10-28(수) 오전 6:56:44: skip accumulation for resur: 100 temperature:92 resurcheck:0
+2020-10-28(수) 오전 6:56:44: start of throttle timer
+2020-10-28(수) 오전 6:56:51: setting power back to 99
+2020-10-28(수) 오전 6:56:51: setting XTU: 3
+2020-10-28(수) 오전 6:56:56: setting GPU: performance
+2020-10-28(수) 오전 6:56:56: skip accumulation for throttle load = 100 ,clk = 2700 ,throttlecheck = 1
+2020-10-28(수) 오전 6:56:56: skip accumulation for resur: 100 temperature:92 resurcheck:0
+2020-10-28(수) 오전 6:57:03: skip accumulation for throttle load = 71 ,clk = 2700 ,throttlecheck = 0
+2020-10-28(수) 오전 6:57:03: load accumulation for resur: 71 temperature:88 resurcheck:0
+2020-10-28(수) 오전 6:57:03: start of resurrection timer
+2020-10-28(수) 오전 6:57:08: skip accumulation for throttle load = 56 ,clk = 2700 ,throttlecheck = 0
+2020-10-28(수) 오전 6:57:08: load accumulation for resur: 56 temperature:85 resurcheck:1
+2020-10-28(수) 오전 6:57:12: newlist accumulated current pwr:2700 load:34 pivotratio:0.5
+2020-10-28(수) 오전 6:57:12: newlist mode
+2020-10-28(수) 오전 6:57:12: setting CLK: 100
+2020-10-28(수) 오전 6:57:12: setting XTU: 10.5
+2020-10-28(수) 오전 6:57:16: setting GPU: performance
+2020-10-28(수) 오전 6:57:17: start of newlist timer
+2020-10-28(수) 오전 6:57:23: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 6:57:23: newlist accumulated current pwr:2673 load:87 pivotratio:2
+2020-10-28(수) 오전 6:57:23: start of newlist timer
+2020-10-28(수) 오전 6:57:28: newlist accumulated current pwr:2673 load:100 pivotratio:3
+2020-10-28(수) 오전 6:57:33: newlist accumulated current pwr:2673 load:99 pivotratio:4
+2020-10-28(수) 오전 6:57:38: newlist accumulated current pwr:2700 load:97 pivotratio:5
+2020-10-28(수) 오전 6:57:44: newlist accumulated current pwr:2700 load:85 pivotratio:6
+2020-10-28(수) 오전 6:57:49: newlist accumulated current pwr:2700 load:58 pivotratio:2.5
+2020-10-28(수) 오전 6:57:54: newlist accumulated current pwr:1600 load:49 pivotratio:1.33333333333333
+2020-10-28(수) 오전 6:57:59: newlist accumulated current pwr:1800 load:49 pivotratio:0.75
+2020-10-28(수) 오전 6:58:04: newlist accumulated current pwr:1800 load:46 pivotratio:0.4
+2020-10-28(수) 오전 6:58:09: newlist accumulated current pwr:1600 load:48 pivotratio:0.166666666666667
+2020-10-28(수) 오전 6:58:14: newlist accumulated current pwr:1400 load:40 pivotratio:0.142857142857143
+2020-10-28(수) 오전 6:58:19: newlist accumulated current pwr:1600 load:52 pivotratio:0.125
+2020-10-28(수) 오전 6:58:24: newlist accumulated current pwr:1400 load:45 pivotratio:0.111111111111111
+2020-10-28(수) 오전 6:58:24: time to sync for newlist
+2020-10-28(수) 오전 6:58:29: newlist accumulated current pwr:1800 load:51 pivotratio:0.1
+2020-10-28(수) 오전 6:58:29: EMA + CMA result medload:49
+2020-10-28(수) 오전 6:58:29: appending: key = dirtrally2, value = 6
+2020-10-28(수) 오전 6:58:29: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 6:58:30: reading: key = dirtrally2, value = 6
+2020-10-28(수) 오전 6:58:30: setting power: dirtrally2 to 65
+2020-10-28(수) 오전 6:58:30: setting CLK: 65
+2020-10-28(수) 오전 6:58:30: setting XTU nested
+2020-10-28(수) 오전 6:58:30: skip accumulation for throttle load = 76 ,clk = 1800 ,throttlecheck = 0
+2020-10-28(수) 오전 6:58:30: load accumulation for resur: 76 temperature:89 resurcheck:2
+2020-10-28(수) 오전 6:58:30: start of resurrection timer
+2020-10-28(수) 오전 6:58:34: setting power: dirtrally2 to 65
+2020-10-28(수) 오전 6:58:34: setting XTU: 7.5
+2020-10-28(수) 오전 6:58:51: setting GPU: performance
+2020-10-28(수) 오전 6:58:52: skip accumulation for throttle load = 71 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 6:58:52: load accumulation for resur: 71 temperature:89 resurcheck:3
+2020-10-28(수) 오전 6:58:57: newlist accumulated current pwr:1600 load:55 pivotratio:0.5
+2020-10-28(수) 오전 6:58:57: newlist mode
+2020-10-28(수) 오전 6:58:58: setting CLK: 100
+2020-10-28(수) 오전 6:58:58: setting XTU: 10.5
+2020-10-28(수) 오전 6:59:04: setting GPU: performance
+2020-10-28(수) 오전 6:59:05: start of newlist timer
+2020-10-28(수) 오전 6:59:10: newlist accumulated current pwr:2300 load:18 pivotratio:0.333333333333333
+2020-10-28(수) 오전 6:59:15: newlist accumulated current pwr:2700 load:23 pivotratio:0.25
+2020-10-28(수) 오전 6:59:17: resumed.
+2020-10-28(수) 오전 6:59:19: paused.
+2020-10-28(수) 오전 6:59:20: newlist accumulated current pwr:2700 load:17 pivotratio:0.2
+2020-10-28(수) 오전 6:59:20: start of newlist timer
+2020-10-28(수) 오전 7:00:19: time to sync for newlist
+2020-10-28(수) 오전 7:01:20: resumed.
+2020-10-28(수) 오전 7:01:21: newlist accumulated current pwr:2600 load:19 pivotratio:0.166666666666667
+2020-10-28(수) 오전 7:01:21: EMA + CMA result medload:35
+2020-10-28(수) 오전 7:01:21: appending: key = WindowsFormsApplication5, value = 6
+2020-10-28(수) 오전 7:01:21: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 7:01:21: reading: key = dirtrally2, value = 6
+2020-10-28(수) 오전 7:01:21: reading: key = WindowsFormsApplication5, value = 6
+2020-10-28(수) 오전 7:01:21: setting power: WindowsFormsApplication5 to 65
+2020-10-28(수) 오전 7:01:21: setting CLK: 65
+2020-10-28(수) 오전 7:01:21: setting XTU nested
+2020-10-28(수) 오전 7:01:21: skip accumulation for throttle load = 20 ,clk = 2600 ,throttlecheck = 0
+2020-10-28(수) 오전 7:01:21: skip accumulation for resur: 20 temperature:84 resurcheck:3
+2020-10-28(수) 오전 7:01:26: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 7:01:26: newlist accumulated current pwr:1600 load:41 pivotratio:0.5
+2020-10-28(수) 오전 7:01:26: newlist mode
+2020-10-28(수) 오전 7:01:26: setting CLK: 100
+2020-10-28(수) 오전 7:01:27: setting XTU: 7.5
+2020-10-28(수) 오전 7:01:36: setting GPU: performance
+2020-10-28(수) 오전 7:01:37: start of newlist timer
+2020-10-28(수) 오전 7:01:43: newlist accumulated current pwr:2700 load:45 pivotratio:0.333333333333333
+2020-10-28(수) 오전 7:01:43: newlist mode
+2020-10-28(수) 오전 7:01:43: setting XTU: 10.5
+2020-10-28(수) 오전 7:01:47: setting GPU: performance
+2020-10-28(수) 오전 7:01:53: newlist accumulated current pwr:2300 load:77 pivotratio:0.666666666666667
+2020-10-28(수) 오전 7:01:58: newlist accumulated current pwr:2300 load:75 pivotratio:1
+2020-10-28(수) 오전 7:02:03: newlist accumulated current pwr:2000 load:74 pivotratio:1.33333333333333
+2020-10-28(수) 오전 7:02:08: newlist accumulated current pwr:2600 load:97 pivotratio:1.66666666666667
+2020-10-28(수) 오전 7:02:13: newlist accumulated current pwr:2600 load:97 pivotratio:2
+2020-10-28(수) 오전 7:02:19: newlist accumulated current pwr:2300 load:86 pivotratio:2.33333333333333
+2020-10-28(수) 오전 7:02:24: newlist accumulated current pwr:2300 load:83 pivotratio:2.66666666666667
+2020-10-28(수) 오전 7:02:29: newlist accumulated current pwr:2300 load:85 pivotratio:3
+2020-10-28(수) 오전 7:02:34: newlist accumulated current pwr:2600 load:63 pivotratio:3.33333333333333
+2020-10-28(수) 오전 7:02:39: newlist accumulated current pwr:1400 load:34 pivotratio:2.25
+2020-10-28(수) 오전 7:02:44: newlist accumulated current pwr:1400 load:41 pivotratio:1.6
+2020-10-28(수) 오전 7:02:44: time to sync for newlist
+2020-10-28(수) 오전 7:02:49: newlist accumulated current pwr:1400 load:34 pivotratio:1.16666666666667
+2020-10-28(수) 오전 7:02:49: EMA + CMA result medload:39
+2020-10-28(수) 오전 7:02:49: appending: key = dirtrally2, value = 6
+2020-10-28(수) 오전 7:02:49: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 7:02:49: reading: key = dirtrally2, value = 6
+2020-10-28(수) 오전 7:02:49: setting power: dirtrally2 to 65
+2020-10-28(수) 오전 7:02:49: setting CLK: 65
+2020-10-28(수) 오전 7:02:50: setting XTU nested
+2020-10-28(수) 오전 7:02:50: load accumulation for throttle load = 85 ,clk = 1400 ,throttlecheck = 1
+2020-10-28(수) 오전 7:02:50: load accumulation for resur: 85 temperature:85 resurcheck:3
+2020-10-28(수) 오전 7:02:50: start of throttle timer
+2020-10-28(수) 오전 7:02:50: start of resurrection timer
+2020-10-28(수) 오전 7:02:54: setting power: dirtrally2 to 65
+2020-10-28(수) 오전 7:02:54: setting XTU: 7.5
+2020-10-28(수) 오전 7:03:09: setting GPU: performance
+2020-10-28(수) 오전 7:03:09: skip accumulation for throttle load = 88 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 7:03:09: load accumulation for resur: 88 temperature:85 resurcheck:4
+2020-10-28(수) 오전 7:03:14: newlist accumulated current pwr:1600 load:18 pivotratio:0.5
+2020-10-28(수) 오전 7:03:14: newlist mode
+2020-10-28(수) 오전 7:03:15: setting CLK: 100
+2020-10-28(수) 오전 7:03:15: setting XTU: 10.5
+2020-10-28(수) 오전 7:03:18: setting GPU: performance
+2020-10-28(수) 오전 7:03:18: start of newlist timer
+2020-10-28(수) 오전 7:03:20: newlist accumulated current pwr:2700 load:16 pivotratio:0.333333333333333
+2020-10-28(수) 오전 7:03:26: newlist accumulated current pwr:2600 load:27 pivotratio:0.25
+2020-10-28(수) 오전 7:03:31: newlist accumulated current pwr:2600 load:27 pivotratio:0.2
+2020-10-28(수) 오전 7:03:36: newlist accumulated current pwr:2700 load:22 pivotratio:0.166666666666667
+2020-10-28(수) 오전 7:03:41: newlist accumulated current pwr:2673 load:25 pivotratio:0.142857142857143
+2020-10-28(수) 오전 7:03:46: newlist accumulated current pwr:2700 load:21 pivotratio:0.125
+2020-10-28(수) 오전 7:03:51: newlist accumulated current pwr:2673 load:22 pivotratio:0.111111111111111
+2020-10-28(수) 오전 7:03:56: newlist accumulated current pwr:2673 load:24 pivotratio:0.1
+2020-10-28(수) 오전 7:04:01: newlist accumulated current pwr:2673 load:23 pivotratio:0.0909090909090909
+2020-10-28(수) 오전 7:04:06: newlist accumulated current pwr:2673 load:20 pivotratio:0.0833333333333333
+2020-10-28(수) 오전 7:04:11: newlist accumulated current pwr:2673 load:21 pivotratio:0.0769230769230769
+2020-10-28(수) 오전 7:04:16: newlist accumulated current pwr:2673 load:28 pivotratio:0.0714285714285714
+2020-10-28(수) 오전 7:04:16: time to sync for newlist
+2020-10-28(수) 오전 7:04:21: newlist accumulated current pwr:2673 load:29 pivotratio:0.0666666666666667
+2020-10-28(수) 오전 7:04:21: EMA + CMA result medload:27
+2020-10-28(수) 오전 7:04:21: appending: key = notepad++, value = 6
+2020-10-28(수) 오전 7:04:21: settings changed for: special_programs!, reimporting...
+2020-10-28(수) 오전 7:04:21: reading: key = dirtrally2, value = 6
+2020-10-28(수) 오전 7:04:21: reading: key = notepad++, value = 6
+2020-10-28(수) 오전 7:04:21: setting power: notepad++ to 65
+2020-10-28(수) 오전 7:04:21: setting CLK: 65
+2020-10-28(수) 오전 7:04:21: setting XTU nested
+2020-10-28(수) 오전 7:04:21: skip accumulation for throttle load = 29 ,clk = 2673 ,throttlecheck = 0
+2020-10-28(수) 오전 7:04:21: skip accumulation for resur: 29 temperature:84 resurcheck:4
+2020-10-28(수) 오전 7:04:26: setting power: notepad++ to 65
+2020-10-28(수) 오전 7:04:26: setting XTU: 7.5
+2020-10-28(수) 오전 7:04:34: setting GPU: performance
+2020-10-28(수) 오전 7:04:35: skip accumulation for throttle load = 32 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 7:04:35: load accumulation for resur: 32 temperature:83 resurcheck:4
+2020-10-28(수) 오전 7:04:35: start of resurrection timer
+2020-10-28(수) 오전 7:04:40: skip accumulation for throttle load = 46 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 7:04:40: load accumulation for resur: 46 temperature:77 resurcheck:5
+2020-10-28(수) 오전 7:04:46: skip accumulation for throttle load = 25 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 7:04:46: skip accumulation for resur: 25 temperature:77 resurcheck:5
+2020-10-28(수) 오전 7:04:51: skip accumulation for throttle load = 30 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 7:04:51: skip accumulation for resur: 30 temperature:76 resurcheck:4
+2020-10-28(수) 오전 7:04:56: skip accumulation for throttle load = 22 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 7:04:56: skip accumulation for resur: 22 temperature:74 resurcheck:3
+2020-10-28(수) 오전 7:05:01: skip accumulation for throttle load = 28 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 7:05:01: skip accumulation for resur: 28 temperature:75 resurcheck:2
+2020-10-28(수) 오전 7:05:06: skip accumulation for throttle load = 22 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 7:05:06: skip accumulation for resur: 22 temperature:74 resurcheck:1
+2020-10-28(수) 오전 7:05:11: skip accumulation for throttle load = 36 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 7:05:11: load accumulation for resur: 36 temperature:73 resurcheck:1
+2020-10-28(수) 오전 7:05:15: skip accumulation for throttle load = 17 ,clk = 1600 ,throttlecheck = 0
+2020-10-28(수) 오전 7:05:15: skip accumulation for resur: 17 temperature:72 resurcheck:1
+2020-10-28(수) 오전 7:05:20: newlist accumulated current pwr:1600 load:34 pivotratio:0.5
+2020-10-28(수) 오전 7:05:20: newlist mode
+2020-10-28(수) 오전 7:05:21: setting CLK: 100
+2020-10-28(수) 오전 7:05:21: setting XTU: 10.5
+2020-10-28(수) 오전 7:05:24: setting GPU: performance
+2020-10-28(수) 오전 7:05:25: start of newlist timer
+2020-10-28(수) 오전 7:05:27: newlist accumulated current pwr:2673 load:43 pivotratio:0.333333333333333
+2020-10-28(수) 오전 7:05:32: newlist accumulated current pwr:2673 load:31 pivotratio:0.25
