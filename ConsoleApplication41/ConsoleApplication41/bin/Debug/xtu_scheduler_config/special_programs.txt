@@ -1,21 +1,5 @@
+
+@append
+dirtrally2 = 6
 pcsx2 = 0
-chrome = 6
-devenv = 6
-GitHubDesktop = 3
-Dolphin = 5
-Hwp = 6
-EXCEL = 6
-POWERPNT = 6
-dwm = 6
-Idle = 6
-WindowsFormsApplication5 = 6
-explorer = 6
-LockApp = 6
-wscript = 6
-cmd = 6
-mspaint = 6
-Bandizip = 6
-UpdateCenter = 6
-ApplicationFrameHost = 0
-javaw = 6
-KakaoTalk = 6
+Hwp = 0

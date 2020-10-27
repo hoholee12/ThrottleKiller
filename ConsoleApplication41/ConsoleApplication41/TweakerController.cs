@@ -376,29 +376,45 @@ namespace ThrottleSchedulerService
             sm.IPClocked = true;
 
             int temp = checkInList(proc, sm);
-            if (temp == -1) temp = 0; //not in my list, go apply default 0
-            
-            try
-            {
-                int temp2 = (int)sm.programs_running_cfg_cpu.configList[temp];
-                double temp3 = (float)sm.programs_running_cfg_xtu.configList[temp];
-
-                if (getCLK(false) != temp2 || getXTU() != temp3 || forceApply)   //forceApply for throttle config
+            if (temp == -1) {
+                try
                 {
-                    forceApply = false;
-
-                    if (temp != 0) log.WriteLog("setting power: " + proc.ProcessName + " to " + temp2.ToString());
-                    else log.WriteLog("setting power back to " + temp2.ToString()); //default 0
-                    setCLK(sm, temp2, false);
-                    if (MaxXTU < temp3) {
-                        log.WriteLog("oh no, XTU value bad... you may want to restart your computer");
-                        wrong = true;
-                        return;
+                    if (getCLK(false) != 100 || getXTU() != MaxXTU || forceApply)
+                    {
+                        forceApply = false;
+                        log.WriteLog("newlist mode");
+                        setCLK(sm, 100, false);
+                        setXTU(sm, MaxXTU);
                     }
-                    setXTU(sm, temp3);
                 }
+                catch { }
             }
-            catch (Exception) { }
+            else
+            {
+
+                try
+                {
+                    int temp2 = (int)sm.programs_running_cfg_cpu.configList[temp];
+                    double temp3 = (float)sm.programs_running_cfg_xtu.configList[temp];
+
+                    if (getCLK(false) != temp2 || getXTU() != temp3 || forceApply)   //forceApply for throttle config
+                    {
+                        forceApply = false;
+
+                        if (temp != 0) log.WriteLog("setting power: " + proc.ProcessName + " to " + temp2.ToString());
+                        else log.WriteLog("setting power back to " + temp2.ToString()); //default 0
+                        setCLK(sm, temp2, false);
+                        if (MaxXTU < temp3)
+                        {
+                            log.WriteLog("oh no, XTU value bad... you may want to restart your computer");
+                            wrong = true;
+                            return;
+                        }
+                        setXTU(sm, temp3);
+                    }
+                }
+                catch (Exception) { }
+            }
 
             sm.IPClocked = false;
 

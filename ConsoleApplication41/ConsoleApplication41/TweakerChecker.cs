@@ -284,12 +284,15 @@ namespace ThrottleSchedulerService
                 else medload = avg2;
                 log.WriteLog("EMA + CMA result medload:" + medload);
 
+                //anything over throttle_median is CPU heavy and needs immediate attention!
+                if (medload > (int)sm.throttle_median.configList["throttle_median"]){
+                    log.WriteLog("over throttle_median.. giving CPU first");
+                    medload = 100;
+                }
+
                 //average pwr(clockspeed)
                 //ex) 3100mhz * 3(load) / 100 = 93mhz
                 int target = getTurboPWR() * medload / 100;
-                //anything over throttle_median is CPU heavy and needs immediate attention!
-                target = target * 100 / (int)sm.throttle_median.configList["throttle_median"];
-
 
                 //find index of low limit(newlist median)
                 int index = 0;
