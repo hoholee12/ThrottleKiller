@@ -1,4 +1,6 @@
 
 @append
+WindowsFormsApplication5 = 6
 dirtrally2 = 6
-notepad++ = 6
+pcsx2 = 0
+pcsx2 = 1

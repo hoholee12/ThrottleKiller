@@ -301,7 +301,8 @@ namespace ThrottleSchedulerService
                 if (pivot_ratio > 100.0 / (int)sm.throttle_median.configList["throttle_median"])
                 {
                     log.WriteLog("over throttle_median.. giving CPU first");
-                    medload = 100;
+                    medload = 100;  //fullspeed
+                    pivot_ratio = 0.0;  //init
                 }
 
                 //average pwr(clockspeed)

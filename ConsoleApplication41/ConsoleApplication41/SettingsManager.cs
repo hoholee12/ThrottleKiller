@@ -462,7 +462,7 @@ namespace ThrottleSchedulerService
 7 = normal");
             loop_delay.setContent(@"loop_delay = 5");
             boost_cycle_delay.setContent(@"boost_cycle_delay = 30");
-            newlist_cycle_delay.setContent(@"newlist_cycle_delay = 60");
+            newlist_cycle_delay.setContent(@"newlist_cycle_delay = 90");
             //ac_offset.setContent(@"ac_offset = 1");
             processor_guid_tweak.setContent(@"
 06cadf0e-64ed-448a-8927-ce7bf90eb35d = 30			# processor high threshold; lower this for performance
