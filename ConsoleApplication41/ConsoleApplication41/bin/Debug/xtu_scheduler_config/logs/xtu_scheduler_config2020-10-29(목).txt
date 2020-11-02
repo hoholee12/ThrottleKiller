@@ -7636,3 +7636,150 @@
 2020-10-29(목) 오전 5:35:59: setting CLK: 100
 2020-10-29(목) 오전 5:35:59: setting XTU: 10.5
 2020-10-29(목) 오전 5:36:05: setting GPU: performance
+2020-10-29(목) 오전 5:36:05: start of newlist timer
+2020-10-29(목) 오전 5:36:11: newlist accumulated current pwr:3052 load:37 pivotratio:0.5
+2020-10-29(목) 오전 5:36:11: start of newlist timer
+2020-10-29(목) 오전 5:36:16: newlist accumulated current pwr:3052 load:5 pivotratio:0.333333333333333
+2020-10-29(목) 오전 5:36:21: newlist accumulated current pwr:3052 load:85 pivotratio:0.666666666666667
+2020-10-29(목) 오전 5:36:27: newlist accumulated current pwr:3052 load:32 pivotratio:0.5
+2020-10-29(목) 오전 5:36:27: start of newlist timer
+2020-10-29(목) 오전 5:36:32: newlist accumulated current pwr:3052 load:48 pivotratio:0.5
+2020-10-29(목) 오전 5:36:32: start of newlist timer
+2020-10-29(목) 오전 5:36:36: newlist accumulated current pwr:3052 load:1 pivotratio:0.5
+2020-10-29(목) 오전 5:36:36: start of newlist timer
+2020-10-29(목) 오전 5:36:41: newlist accumulated current pwr:3052 load:27 pivotratio:0.5
+2020-10-29(목) 오전 5:36:41: start of newlist timer
+2020-10-29(목) 오전 5:36:46: newlist accumulated current pwr:3052 load:46 pivotratio:0.5
+2020-10-29(목) 오전 5:36:46: start of newlist timer
+2020-10-29(목) 오전 5:36:51: newlist accumulated current pwr:3052 load:32 pivotratio:0.5
+2020-10-29(목) 오전 5:36:51: start of newlist timer
+2020-10-29(목) 오전 5:36:56: newlist accumulated current pwr:3052 load:31 pivotratio:0.333333333333333
+2020-10-29(목) 오전 5:37:01: newlist accumulated current pwr:3052 load:17 pivotratio:0.25
+2020-10-29(목) 오전 5:37:06: newlist accumulated current pwr:3052 load:17 pivotratio:0.2
+2020-10-29(목) 오전 5:37:11: newlist accumulated current pwr:3052 load:19 pivotratio:0.166666666666667
+2020-10-29(목) 오전 5:37:16: newlist accumulated current pwr:3052 load:21 pivotratio:0.142857142857143
+2020-10-29(목) 오전 5:37:21: newlist accumulated current pwr:3052 load:24 pivotratio:0.125
+2020-10-29(목) 오전 5:37:26: newlist accumulated current pwr:3052 load:20 pivotratio:0.111111111111111
+2020-10-29(목) 오전 5:37:31: newlist accumulated current pwr:3052 load:8 pivotratio:0.1
+2020-10-29(목) 오전 5:37:36: newlist accumulated current pwr:2000 load:0 pivotratio:0.0909090909090909
+2020-10-29(목) 오전 5:37:41: newlist accumulated current pwr:2300 load:0 pivotratio:0.0833333333333333
+2020-10-29(목) 오전 5:37:46: newlist accumulated current pwr:3052 load:7 pivotratio:0.0769230769230769
+2020-10-29(목) 오전 5:37:51: newlist accumulated current pwr:3052 load:0 pivotratio:0.0714285714285714
+2020-10-29(목) 오전 5:37:56: newlist accumulated current pwr:3052 load:2 pivotratio:0.0666666666666667
+2020-10-29(목) 오전 5:38:01: newlist accumulated current pwr:1600 load:2 pivotratio:0.0625
+2020-10-29(목) 오전 5:38:06: newlist accumulated current pwr:1400 load:0 pivotratio:0.0588235294117647
+2020-10-29(목) 오전 5:38:12: newlist accumulated current pwr:2000 load:1 pivotratio:0.0555555555555556
+2020-10-29(목) 오전 5:38:17: newlist accumulated current pwr:2300 load:2 pivotratio:0.0526315789473684
+2020-10-29(목) 오전 5:38:22: newlist accumulated current pwr:3052 load:5 pivotratio:0.05
+2020-10-29(목) 오전 5:38:22: time to sync for newlist
+2020-10-29(목) 오전 5:38:27: newlist accumulated current pwr:3052 load:5 pivotratio:0.0476190476190476
+2020-10-29(목) 오전 5:38:27: EMA + CMA result medload:17
+2020-10-29(목) 오전 5:38:27: appending: key = chrome, value = 6
+2020-10-29(목) 오전 5:38:27: settings changed for: special_programs!, reimporting...
+2020-10-29(목) 오전 5:38:27: reading: key = WindowsFormsApplication5, value = 6
+2020-10-29(목) 오전 5:38:27: reading: key = dirtrally2, value = 6
+2020-10-29(목) 오전 5:38:27: reading: key = pcsx2, value = 0
+2020-10-29(목) 오전 5:38:27: reading: key = pcsx2, value = 1
+2020-10-29(목) 오전 5:38:27: reading: key = chrome, value = 6
+2020-10-29(목) 오전 5:38:27: setting power: chrome to 65
+2020-10-29(목) 오전 5:38:27: setting CLK: 65
+2020-10-29(목) 오전 5:38:27: setting XTU nested
+2020-10-29(목) 오전 5:38:27: skip accumulation for throttle load = 5 ,clk = 3052 ,throttlecheck = 0
+2020-10-29(목) 오전 5:38:27: skip accumulation for resur: 5 temperature:56 resurcheck:0
+2020-10-29(목) 오전 5:38:32: setting power: chrome to 65
+2020-10-29(목) 오전 5:38:32: setting XTU: 7.5
+2020-10-29(목) 오전 5:38:38: setting GPU: performance
+2020-10-29(목) 오전 5:38:38: skip accumulation for throttle load = 4 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:38:38: skip accumulation for resur: 4 temperature:55 resurcheck:0
+2020-10-29(목) 오전 5:38:44: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:38:44: skip accumulation for resur: 3 temperature:54 resurcheck:0
+2020-10-29(목) 오전 5:38:50: skip accumulation for throttle load = 31 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:38:50: load accumulation for resur: 31 temperature:56 resurcheck:0
+2020-10-29(목) 오전 5:38:50: start of resurrection timer
+2020-10-29(목) 오전 5:38:55: skip accumulation for throttle load = 4 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:38:55: skip accumulation for resur: 4 temperature:56 resurcheck:0
+2020-10-29(목) 오전 5:38:59: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:38:59: skip accumulation for resur: 3 temperature:53 resurcheck:0
+2020-10-29(목) 오전 5:39:05: skip accumulation for throttle load = 11 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:39:05: skip accumulation for resur: 11 temperature:56 resurcheck:0
+2020-10-29(목) 오전 5:39:10: skip accumulation for throttle load = 4 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:39:10: skip accumulation for resur: 4 temperature:55 resurcheck:0
+2020-10-29(목) 오전 5:39:15: skip accumulation for throttle load = 8 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:39:15: skip accumulation for resur: 8 temperature:55 resurcheck:0
+2020-10-29(목) 오전 5:39:20: skip accumulation for throttle load = 9 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:39:20: skip accumulation for resur: 9 temperature:54 resurcheck:0
+2020-10-29(목) 오전 5:39:25: skip accumulation for throttle load = 5 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:39:25: skip accumulation for resur: 5 temperature:53 resurcheck:0
+2020-10-29(목) 오전 5:39:30: skip accumulation for throttle load = 5 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:39:30: skip accumulation for resur: 5 temperature:53 resurcheck:0
+2020-10-29(목) 오전 5:39:35: skip accumulation for throttle load = 9 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:39:35: skip accumulation for resur: 9 temperature:54 resurcheck:0
+2020-10-29(목) 오전 5:39:40: skip accumulation for throttle load = 9 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:39:40: skip accumulation for resur: 9 temperature:53 resurcheck:0
+2020-10-29(목) 오전 5:39:45: skip accumulation for throttle load = 8 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:39:45: skip accumulation for resur: 8 temperature:54 resurcheck:0
+2020-10-29(목) 오전 5:39:50: skip accumulation for throttle load = 2 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:39:50: skip accumulation for resur: 2 temperature:53 resurcheck:0
+2020-10-29(목) 오전 5:39:55: skip accumulation for throttle load = 11 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:39:55: skip accumulation for resur: 11 temperature:53 resurcheck:0
+2020-10-29(목) 오전 5:40:00: skip accumulation for throttle load = 9 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:40:01: skip accumulation for resur: 9 temperature:53 resurcheck:0
+2020-10-29(목) 오전 5:40:06: skip accumulation for throttle load = 6 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:40:06: skip accumulation for resur: 6 temperature:53 resurcheck:0
+2020-10-29(목) 오전 5:40:11: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:40:11: skip accumulation for resur: 3 temperature:52 resurcheck:0
+2020-10-29(목) 오전 5:40:16: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:40:16: skip accumulation for resur: 3 temperature:53 resurcheck:0
+2020-10-29(목) 오전 5:40:21: skip accumulation for throttle load = 7 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:40:21: skip accumulation for resur: 7 temperature:53 resurcheck:0
+2020-10-29(목) 오전 5:40:21: time to sync for resurrection
+2020-10-29(목) 오전 5:40:26: skip accumulation for throttle load = 12 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:40:26: skip accumulation for resur: 12 temperature:53 resurcheck:0
+2020-10-29(목) 오전 5:40:31: skip accumulation for throttle load = 12 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:40:31: skip accumulation for resur: 12 temperature:54 resurcheck:0
+2020-10-29(목) 오전 5:40:36: skip accumulation for throttle load = 40 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:40:36: load accumulation for resur: 40 temperature:56 resurcheck:0
+2020-10-29(목) 오전 5:40:36: start of resurrection timer
+2020-10-29(목) 오전 5:40:41: skip accumulation for throttle load = 28 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:40:41: skip accumulation for resur: 28 temperature:59 resurcheck:0
+2020-10-29(목) 오전 5:40:45: skip accumulation for throttle load = 5 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:40:45: skip accumulation for resur: 5 temperature:54 resurcheck:0
+2020-10-29(목) 오전 5:40:51: skip accumulation for throttle load = 21 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:40:51: skip accumulation for resur: 21 temperature:55 resurcheck:0
+2020-10-29(목) 오전 5:40:56: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:40:56: skip accumulation for resur: 3 temperature:54 resurcheck:0
+2020-10-29(목) 오전 5:41:01: skip accumulation for throttle load = 17 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:41:01: skip accumulation for resur: 17 temperature:55 resurcheck:0
+2020-10-29(목) 오전 5:41:06: skip accumulation for throttle load = 4 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:41:06: skip accumulation for resur: 4 temperature:54 resurcheck:0
+2020-10-29(목) 오전 5:41:11: skip accumulation for throttle load = 3 ,clk = 1400 ,throttlecheck = 0
+2020-10-29(목) 오전 5:41:11: skip accumulation for resur: 3 temperature:55 resurcheck:0
+2020-10-29(목) 오전 5:41:16: skip accumulation for throttle load = 9 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:41:16: skip accumulation for resur: 9 temperature:53 resurcheck:0
+2020-10-29(목) 오전 5:41:21: skip accumulation for throttle load = 7 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:41:21: skip accumulation for resur: 7 temperature:52 resurcheck:0
+2020-10-29(목) 오전 5:41:26: skip accumulation for throttle load = 2 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:41:26: skip accumulation for resur: 2 temperature:53 resurcheck:0
+2020-10-29(목) 오전 5:41:32: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:41:32: skip accumulation for resur: 3 temperature:52 resurcheck:0
+2020-10-29(목) 오전 5:41:37: skip accumulation for throttle load = 6 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:41:37: skip accumulation for resur: 6 temperature:52 resurcheck:0
+2020-10-29(목) 오전 5:41:42: skip accumulation for throttle load = 5 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:41:42: skip accumulation for resur: 5 temperature:52 resurcheck:0
+2020-10-29(목) 오전 5:41:47: skip accumulation for throttle load = 2 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:41:47: skip accumulation for resur: 2 temperature:52 resurcheck:0
+2020-10-29(목) 오전 5:41:52: skip accumulation for throttle load = 2 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:41:52: skip accumulation for resur: 2 temperature:52 resurcheck:0
+2020-10-29(목) 오전 5:41:57: skip accumulation for throttle load = 9 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:41:57: skip accumulation for resur: 9 temperature:52 resurcheck:0
+2020-10-29(목) 오전 5:42:02: skip accumulation for throttle load = 4 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:42:02: skip accumulation for resur: 4 temperature:52 resurcheck:0
+2020-10-29(목) 오전 5:42:07: skip accumulation for throttle load = 6 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:42:07: skip accumulation for resur: 6 temperature:52 resurcheck:0
+2020-10-29(목) 오전 5:42:07: time to sync for resurrection
+2020-10-29(목) 오전 5:42:12: skip accumulation for throttle load = 6 ,clk = 1600 ,throttlecheck = 0
+2020-10-29(목) 오전 5:42:12: skip accumulation for resur: 6 temperature:52 resurcheck:0
+2020-10-29(목) 오전 5:42:17: newlist accumulated current pwr:1600 load:46 pivotratio:0.5
+2020-10-29(목) 오전 5:42:17: newlist mode
+2020-10-29(목) 오전 5:42:17: setting CLK: 100
+2020-10-29(목) 오전 5:42:17: setting XTU: 10.5

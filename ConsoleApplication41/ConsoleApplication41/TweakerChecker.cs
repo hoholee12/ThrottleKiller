@@ -425,13 +425,13 @@ namespace ThrottleSchedulerService
                      * EMA is highest, EMA + CMA helps in some scenarios
                      * designed to be more favorable towards higher load for avg
                      */
-                    float favg = newlist_acc[0];
+                    float favg = throttle_acc[0];
                     float lsum = 0.0f;
                     float fcavg = 0.0f;
-                    for (int i = 1; i < newlist_acc.Count(); i++)
+                    for (int i = 1; i < throttle_acc.Count(); i++)
                     {
                         //favg
-                        float next = newlist_acc[i];
+                        float next = throttle_acc[i];
                         lsum = next + favg + 1.0f;   //prevent divbyzero
                         favg = favg * (1.0f - next / lsum) + next * (next / lsum);
 
@@ -573,13 +573,13 @@ namespace ThrottleSchedulerService
                      * EMA is highest, EMA + CMA helps in some scenarios
                      * designed to be more favorable towards higher load for avg
                      */
-                    float favg = newlist_acc[0];
+                    float favg = resur_acc[0];
                     float lsum = 0.0f;
                     float fcavg = 0.0f;
-                    for (int i = 1; i < newlist_acc.Count(); i++)
+                    for (int i = 1; i < resur_acc.Count(); i++)
                     {
                         //favg
-                        float next = newlist_acc[i];
+                        float next = resur_acc[i];
                         lsum = next + favg + 1.0f;   //prevent divbyzero
                         favg = favg * (1.0f - next / lsum) + next * (next / lsum);
 
