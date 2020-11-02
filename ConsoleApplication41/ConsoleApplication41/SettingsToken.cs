@@ -72,6 +72,10 @@ namespace ThrottleSchedulerService
                 {
                     temp.Add((int)kvp.Key + " = " + (ProcessPriorityClass)kvp.Value);
                 }
+                else if ((Tkey == typeof(string)) && (Tval == typeof(float)))
+                {
+                    temp.Add((string)kvp.Key + " = " + (float)kvp.Value);
+                }
             }
 
             File.WriteAllLines(getFullName(), temp);
@@ -119,6 +123,11 @@ namespace ThrottleSchedulerService
                 {
                     using (var stream = File.AppendText(getFullName())) { stream.WriteLine((int)key + " = " + ((ProcessPriorityClass)value).ToString().ToLower()); }
                     log.WriteLog("appending: key = " + (int)key + ", value = " + ((ProcessPriorityClass)value).ToString().ToLower());
+                }
+                else if ((Tkey == typeof(string)) && (Tval == typeof(float)))
+                {
+                    using (var stream = File.AppendText(getFullName())) { stream.WriteLine((string)key + " = " + (float)value); }
+                    log.WriteLog("appending: key = " + (string)key + ", value = " + (float)value);
                 }
 
                 
@@ -200,7 +209,12 @@ namespace ThrottleSchedulerService
                             configList[int.Parse(a)] = result;
                             log.WriteLog("reading: key = " + int.Parse(a) + ", value = " + configList[int.Parse(a)].ToString());
                         }
-
+                        else if ((Tkey == typeof(string)) && (Tval == typeof(float)))
+                        {
+                            a = a.Replace("\'", "");
+                            configList[a] = float.Parse(b);
+                            log.WriteLog("reading: key = " + a + ", value = " + configList[a]);
+                        }
                     }
 
                 }

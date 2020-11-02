@@ -107,7 +107,17 @@ namespace ThrottleSchedulerService
             powercfg.StartInfo.RedirectStandardOutput = true;
             powercfg.StartInfo.CreateNoWindow = true;
 
-            MaxXTU = getXTU();  //get initial xtu value
+            //max xtu
+            if (sm.xtudefault.getCount() == 0)
+            {
+                MaxXTU = getXTU();  //get initial xtu value
+                sm.xtudefault.configList.Add("xtudefault", MaxXTU);
+                sm.xtudefault.completeWriteBack();
+            }
+            else {
+                MaxXTU = float.Parse(sm.xtudefault.configList["xtudefault"].ToString());
+                lastXTU = MaxXTU;
+            }
             BaseXTU = getBaseXTU(sm);
         }
 

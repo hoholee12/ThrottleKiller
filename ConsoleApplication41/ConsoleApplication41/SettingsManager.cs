@@ -34,6 +34,7 @@ namespace ThrottleSchedulerService
         public SettingsToken newlist_median;
         public SettingsToken thermal_median;
         public SettingsToken gpuplan;
+        public SettingsToken xtudefault;
 
         //BASE DIRECTORY
         public string cfgname = @"xtu_scheduler_config";
@@ -325,6 +326,7 @@ namespace ThrottleSchedulerService
             newlist_median.checkFiles();
             thermal_median.checkFiles();
             gpuplan.checkFiles();
+            xtudefault.checkFiles();
         }
         //for client
         public void batchCompleteWriteback() {
@@ -343,6 +345,7 @@ namespace ThrottleSchedulerService
             newlist_median.completeWriteBack();
             thermal_median.completeWriteBack();
             gpuplan.completeWriteBack();
+            xtudefault.completeWriteBack();
         }
         //for client
         public void batchResetFiles() {
@@ -361,6 +364,7 @@ namespace ThrottleSchedulerService
             newlist_median.resetFiles();
             thermal_median.resetFiles();
             gpuplan.resetFiles();
+            xtudefault.resetFiles();
         }
 
         public void initConfig(Logger log) {     
@@ -384,6 +388,7 @@ namespace ThrottleSchedulerService
             newlist_median = new SettingsToken(log);
             thermal_median = new SettingsToken(log);
             gpuplan = new SettingsToken(log);
+            xtudefault = new SettingsToken(log);
             
             
             //initialize paths
@@ -402,6 +407,7 @@ namespace ThrottleSchedulerService
             newlist_median.setPath(path);
             thermal_median.setPath(path);
             gpuplan.setPath(path);
+            xtudefault.setPath(path);
 
             special_programs.setName("special_programs");
             programs_running_cfg_cpu.setName("programs_running_cfg_cpu");
@@ -418,6 +424,7 @@ namespace ThrottleSchedulerService
             newlist_median.setName("newlist_median");
             thermal_median.setName("thermal_median");
             gpuplan.setName("gpuplan");
+            xtudefault.setName("xtudefault");
 
             //initialize contents
             special_programs.setContent(
@@ -482,6 +489,7 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             newlist_median.setContent(@"newlist_median = 50");
             thermal_median.setContent(@"thermal_median = 90");
             gpuplan.setContent(@"gpuplan = 1");
+            xtudefault.setContent("");
 
             //set key value pair type
             special_programs.Tkey = typeof(string);
@@ -514,6 +522,8 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             thermal_median.Tval = typeof(int);
             gpuplan.Tkey = typeof(string);
             gpuplan.Tval = typeof(int);
+            xtudefault.Tkey = typeof(string);
+            xtudefault.Tval = typeof(float);
 
             //batch create first/read settings
             batchCheckFiles();
@@ -535,6 +545,7 @@ ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             newlist_median.setLastModifiedTime(File.GetLastWriteTime(newlist_median.getFullName()).Ticks);
             thermal_median.setLastModifiedTime(File.GetLastWriteTime(thermal_median.getFullName()).Ticks);
             gpuplan.setLastModifiedTime(File.GetLastWriteTime(gpuplan.getFullName()).Ticks);
+            xtudefault.setLastModifiedTime(File.GetLastWriteTime(xtudefault.getFullName()).Ticks);
         }
         
         public void initPath()

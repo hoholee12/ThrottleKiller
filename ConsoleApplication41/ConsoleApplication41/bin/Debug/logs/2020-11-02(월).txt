@@ -33595,3 +33595,411 @@
 2020-11-02(월) 오후 11:29:17: waiting for input...
 2020-11-02(월) 오후 11:29:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
 2020-11-02(월) 오후 11:29:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:29:21: UI App requests: sysinfo
+2020-11-02(월) 오후 11:29:22: sending output: 1400 99 74 explorer 25000 0 0 False
+2020-11-02(월) 오후 11:29:22: waiting for input...
+2020-11-02(월) 오후 11:29:22: UI App requests: topspeed
+2020-11-02(월) 오후 11:29:22: sending output: 1593
+2020-11-02(월) 오후 11:29:22: waiting for input...
+2020-11-02(월) 오후 11:29:22: prev_interval = 1729 system elapsed time = 2729, service timer interval = 0.1
+2020-11-02(월) 오후 11:29:22: prev_interval = 729.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:29:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:29:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:29:26: UI App requests: sysinfo
+2020-11-02(월) 오후 11:29:27: sending output: 1200 99 73 explorer 30000 0 0 False
+2020-11-02(월) 오후 11:29:27: waiting for input...
+2020-11-02(월) 오후 11:29:27: UI App requests: topspeed
+2020-11-02(월) 오후 11:29:27: sending output: 1593
+2020-11-02(월) 오후 11:29:27: waiting for input...
+2020-11-02(월) 오후 11:29:27: prev_interval = 1594 system elapsed time = 2594, service timer interval = 0.1
+2020-11-02(월) 오후 11:29:27: prev_interval = 594.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:29:27: prev_interval = 0 system elapsed time = 0, service timer interval = 405.9
+2020-11-02(월) 오후 11:29:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:29:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:29:31: UI App requests: sysinfo
+2020-11-02(월) 오후 11:29:32: sending output: 1400 74 74 explorer 35000 0 0 False
+2020-11-02(월) 오후 11:29:32: waiting for input...
+2020-11-02(월) 오후 11:29:32: UI App requests: topspeed
+2020-11-02(월) 오후 11:29:32: sending output: 1593
+2020-11-02(월) 오후 11:29:32: waiting for input...
+2020-11-02(월) 오후 11:29:32: prev_interval = 1273 system elapsed time = 2273, service timer interval = 0.1
+2020-11-02(월) 오후 11:29:32: prev_interval = 273.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:29:32: prev_interval = 0 system elapsed time = 0, service timer interval = 726.9
+2020-11-02(월) 오후 11:29:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:29:34: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:29:36: UI App requests: sysinfo
+2020-11-02(월) 오후 11:29:37: prev_interval = 1388 system elapsed time = 2388, service timer interval = 0.1
+2020-11-02(월) 오후 11:29:37: prev_interval = 388.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:29:37: prev_interval = 0 system elapsed time = 0, service timer interval = 611.9
+2020-11-02(월) 오후 11:29:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:29:38: sending output: 1400 94 75 explorer 44000 0 0 False
+2020-11-02(월) 오후 11:29:38: waiting for input...
+2020-11-02(월) 오후 11:29:38: UI App requests: topspeed
+2020-11-02(월) 오후 11:29:38: sending output: 1593
+2020-11-02(월) 오후 11:29:38: waiting for input...
+2020-11-02(월) 오후 11:29:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:29:41: UI App requests: sysinfo
+2020-11-02(월) 오후 11:29:42: prev_interval = 1289 system elapsed time = 2289, service timer interval = 0.1
+2020-11-02(월) 오후 11:29:42: prev_interval = 289.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:29:42: prev_interval = 0 system elapsed time = 0, service timer interval = 710.9
+2020-11-02(월) 오후 11:29:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:29:43: sending output: 1400 87 74 explorer 49000 0 0 False
+2020-11-02(월) 오후 11:29:43: waiting for input...
+2020-11-02(월) 오후 11:29:43: UI App requests: topspeed
+2020-11-02(월) 오후 11:29:43: sending output: 1593
+2020-11-02(월) 오후 11:29:43: waiting for input...
+2020-11-02(월) 오후 11:29:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:29:46: UI App requests: sysinfo
+2020-11-02(월) 오후 11:29:47: prev_interval = 1218 system elapsed time = 2218, service timer interval = 0.1
+2020-11-02(월) 오후 11:29:47: prev_interval = 218.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:29:47: prev_interval = 0 system elapsed time = 0, service timer interval = 781.9
+2020-11-02(월) 오후 11:29:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:29:48: sending output: 1600 100 75 GitHubDesktop 4000 0 0 False
+2020-11-02(월) 오후 11:29:48: waiting for input...
+2020-11-02(월) 오후 11:29:48: UI App requests: topspeed
+2020-11-02(월) 오후 11:29:48: sending output: 1593
+2020-11-02(월) 오후 11:29:48: waiting for input...
+2020-11-02(월) 오후 11:29:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:29:51: UI App requests: sysinfo
+2020-11-02(월) 오후 11:29:52: prev_interval = 1292 system elapsed time = 2292, service timer interval = 0.1
+2020-11-02(월) 오후 11:29:52: prev_interval = 292.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:29:52: prev_interval = 0 system elapsed time = 0, service timer interval = 707.9
+2020-11-02(월) 오후 11:29:53: sending output: 1400 100 75 GitHubDesktop 8000 0 0 False
+2020-11-02(월) 오후 11:29:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:29:53: waiting for input...
+2020-11-02(월) 오후 11:29:53: UI App requests: topspeed
+2020-11-02(월) 오후 11:29:53: sending output: 1593
+2020-11-02(월) 오후 11:29:53: waiting for input...
+2020-11-02(월) 오후 11:29:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:29:56: UI App requests: sysinfo
+2020-11-02(월) 오후 11:29:57: prev_interval = 1380 system elapsed time = 2380, service timer interval = 0.1
+2020-11-02(월) 오후 11:29:57: prev_interval = 380.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:29:57: prev_interval = 0 system elapsed time = 0, service timer interval = 619.9
+2020-11-02(월) 오후 11:29:58: sending output: 1400 100 75 GitHubDesktop 13000 0 0 False
+2020-11-02(월) 오후 11:29:58: waiting for input...
+2020-11-02(월) 오후 11:29:58: UI App requests: topspeed
+2020-11-02(월) 오후 11:29:58: sending output: 1593
+2020-11-02(월) 오후 11:29:58: waiting for input...
+2020-11-02(월) 오후 11:29:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:29:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:01: UI App requests: sysinfo
+2020-11-02(월) 오후 11:30:02: prev_interval = 1237 system elapsed time = 2237, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:02: prev_interval = 237.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:02: prev_interval = 0 system elapsed time = 0, service timer interval = 762.9
+2020-11-02(월) 오후 11:30:03: sending output: 1400 79 75 GitHubDesktop 18000 0 0 False
+2020-11-02(월) 오후 11:30:03: waiting for input...
+2020-11-02(월) 오후 11:30:03: UI App requests: topspeed
+2020-11-02(월) 오후 11:30:03: sending output: 1593
+2020-11-02(월) 오후 11:30:03: waiting for input...
+2020-11-02(월) 오후 11:30:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:06: UI App requests: sysinfo
+2020-11-02(월) 오후 11:30:07: prev_interval = 1162 system elapsed time = 2162, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:07: prev_interval = 162.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:07: prev_interval = 0 system elapsed time = 0, service timer interval = 837.9
+2020-11-02(월) 오후 11:30:08: sending output: 1600 80 75 GitHubDesktop 23000 0 0 False
+2020-11-02(월) 오후 11:30:08: waiting for input...
+2020-11-02(월) 오후 11:30:08: UI App requests: topspeed
+2020-11-02(월) 오후 11:30:08: sending output: 1593
+2020-11-02(월) 오후 11:30:08: waiting for input...
+2020-11-02(월) 오후 11:30:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:11: UI App requests: sysinfo
+2020-11-02(월) 오후 11:30:12: prev_interval = 1183 system elapsed time = 2183, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:12: prev_interval = 183.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:12: prev_interval = 0 system elapsed time = 0, service timer interval = 816.9
+2020-11-02(월) 오후 11:30:13: sending output: 1600 97 77 GitHubDesktop 28000 0 0 False
+2020-11-02(월) 오후 11:30:13: waiting for input...
+2020-11-02(월) 오후 11:30:13: UI App requests: topspeed
+2020-11-02(월) 오후 11:30:13: sending output: 1593
+2020-11-02(월) 오후 11:30:13: waiting for input...
+2020-11-02(월) 오후 11:30:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:16: UI App requests: sysinfo
+2020-11-02(월) 오후 11:30:18: prev_interval = 1332 system elapsed time = 2332, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:18: prev_interval = 0 system elapsed time = 0, service timer interval = 667.9
+2020-11-02(월) 오후 11:30:18: sending output: 1400 100 75 GitHubDesktop 33000 0 0 False
+2020-11-02(월) 오후 11:30:18: waiting for input...
+2020-11-02(월) 오후 11:30:18: UI App requests: topspeed
+2020-11-02(월) 오후 11:30:18: sending output: 1593
+2020-11-02(월) 오후 11:30:18: waiting for input...
+2020-11-02(월) 오후 11:30:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:21: UI App requests: sysinfo
+2020-11-02(월) 오후 11:30:23: sending output: 900 100 75 GitHubDesktop 35000 0 0 False
+2020-11-02(월) 오후 11:30:23: waiting for input...
+2020-11-02(월) 오후 11:30:23: prev_interval = 1869 system elapsed time = 2869, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:23: prev_interval = 869.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:23: prev_interval = 0 system elapsed time = 0, service timer interval = 130.9
+2020-11-02(월) 오후 11:30:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:24: waiting for input...
+2020-11-02(월) 오후 11:30:24: UI App requests: topspeed
+2020-11-02(월) 오후 11:30:24: sending output: 1593
+2020-11-02(월) 오후 11:30:24: waiting for input...
+2020-11-02(월) 오후 11:30:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:26: UI App requests: sysinfo
+2020-11-02(월) 오후 11:30:28: prev_interval = 1388 system elapsed time = 2388, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:28: prev_interval = 388.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:28: prev_interval = 0 system elapsed time = 0, service timer interval = 611.9
+2020-11-02(월) 오후 11:30:28: sending output: 900 100 74 GitHubDesktop 43000 0 0 False
+2020-11-02(월) 오후 11:30:28: waiting for input...
+2020-11-02(월) 오후 11:30:28: UI App requests: topspeed
+2020-11-02(월) 오후 11:30:28: sending output: 1593
+2020-11-02(월) 오후 11:30:28: waiting for input...
+2020-11-02(월) 오후 11:30:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:31: UI App requests: sysinfo
+2020-11-02(월) 오후 11:30:33: prev_interval = 1224 system elapsed time = 2224, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:33: prev_interval = 224.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:33: prev_interval = 0 system elapsed time = 0, service timer interval = 775.9
+2020-11-02(월) 오후 11:30:33: sending output: 1200 100 74 explorer 3000 0 0 False
+2020-11-02(월) 오후 11:30:33: waiting for input...
+2020-11-02(월) 오후 11:30:33: UI App requests: topspeed
+2020-11-02(월) 오후 11:30:33: sending output: 1593
+2020-11-02(월) 오후 11:30:33: waiting for input...
+2020-11-02(월) 오후 11:30:34: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:36: UI App requests: sysinfo
+2020-11-02(월) 오후 11:30:38: prev_interval = 1320 system elapsed time = 2320, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:38: prev_interval = 320.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:38: prev_interval = 0 system elapsed time = 0, service timer interval = 679.9
+2020-11-02(월) 오후 11:30:38: sending output: 1400 85 75 devenv 3000 0 0 False
+2020-11-02(월) 오후 11:30:38: waiting for input...
+2020-11-02(월) 오후 11:30:38: UI App requests: topspeed
+2020-11-02(월) 오후 11:30:38: sending output: 1593
+2020-11-02(월) 오후 11:30:38: waiting for input...
+2020-11-02(월) 오후 11:30:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:41: UI App requests: sysinfo
+2020-11-02(월) 오후 11:30:43: prev_interval = 1212 system elapsed time = 2212, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:43: prev_interval = 212.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:43: prev_interval = 0 system elapsed time = 0, service timer interval = 787.9
+2020-11-02(월) 오후 11:30:43: sending output: 1400 96 75 devenv 8000 0 0 False
+2020-11-02(월) 오후 11:30:43: waiting for input...
+2020-11-02(월) 오후 11:30:43: UI App requests: topspeed
+2020-11-02(월) 오후 11:30:43: sending output: 1593
+2020-11-02(월) 오후 11:30:43: waiting for input...
+2020-11-02(월) 오후 11:30:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:46: UI App requests: sysinfo
+2020-11-02(월) 오후 11:30:48: prev_interval = 1342 system elapsed time = 2342, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:48: prev_interval = 0 system elapsed time = 0, service timer interval = 657.9
+2020-11-02(월) 오후 11:30:49: waiting for input...
+2020-11-02(월) 오후 11:30:49: UI App requests: sysinfo
+2020-11-02(월) 오후 11:30:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:51: sending output: 1400 100 74 steam 5000 0 0 False
+2020-11-02(월) 오후 11:30:51: waiting for input...
+2020-11-02(월) 오후 11:30:51: UI App requests: sysinfo
+2020-11-02(월) 오후 11:30:52: prev_interval = 179 system elapsed time = 1179, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:52: prev_interval = 0 system elapsed time = 0, service timer interval = 821
+2020-11-02(월) 오후 11:30:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:53: sending output: 1200 100 74 WindowsFormsApplication5 3000 0 0 False
+2020-11-02(월) 오후 11:30:53: waiting for input...
+2020-11-02(월) 오후 11:30:53: UI App requests: topspeed
+2020-11-02(월) 오후 11:30:53: sending output: 1593
+2020-11-02(월) 오후 11:30:53: waiting for input...
+2020-11-02(월) 오후 11:30:53: UI App requests: topspeed
+2020-11-02(월) 오후 11:30:53: sending output: 1593
+2020-11-02(월) 오후 11:30:53: waiting for input...
+2020-11-02(월) 오후 11:30:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:30:56: UI App requests: sysinfo
+2020-11-02(월) 오후 11:30:58: sending output: 1200 97 75 WindowsFormsApplication5 5000 0 0 False
+2020-11-02(월) 오후 11:30:58: waiting for input...
+2020-11-02(월) 오후 11:30:58: UI App requests: topspeed
+2020-11-02(월) 오후 11:30:58: sending output: 1593
+2020-11-02(월) 오후 11:30:58: waiting for input...
+2020-11-02(월) 오후 11:30:58: prev_interval = 1270 system elapsed time = 2270, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:58: prev_interval = 270.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:30:58: prev_interval = 0 system elapsed time = 0, service timer interval = 729.9
+2020-11-02(월) 오후 11:30:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:00: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:01: UI App requests: sysinfo
+2020-11-02(월) 오후 11:31:03: sending output: 1200 100 74 WindowsFormsApplication5 10000 0 0 False
+2020-11-02(월) 오후 11:31:03: waiting for input...
+2020-11-02(월) 오후 11:31:03: UI App requests: topspeed
+2020-11-02(월) 오후 11:31:03: sending output: 1593
+2020-11-02(월) 오후 11:31:03: waiting for input...
+2020-11-02(월) 오후 11:31:04: prev_interval = 1536 system elapsed time = 2536, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:04: prev_interval = 536.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:04: prev_interval = 0 system elapsed time = 0, service timer interval = 463.9
+2020-11-02(월) 오후 11:31:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:05: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:06: UI App requests: sysinfo
+2020-11-02(월) 오후 11:31:08: sending output: 1200 68 73 WindowsFormsApplication5 15000 0 0 False
+2020-11-02(월) 오후 11:31:08: waiting for input...
+2020-11-02(월) 오후 11:31:08: UI App requests: topspeed
+2020-11-02(월) 오후 11:31:08: sending output: 1593
+2020-11-02(월) 오후 11:31:08: waiting for input...
+2020-11-02(월) 오후 11:31:08: prev_interval = 1266 system elapsed time = 2266, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:09: prev_interval = 266.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:09: prev_interval = 0 system elapsed time = 0, service timer interval = 733.9
+2020-11-02(월) 오후 11:31:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:11: UI App requests: sysinfo
+2020-11-02(월) 오후 11:31:13: sending output: 1200 82 75 steam 5000 0 0 False
+2020-11-02(월) 오후 11:31:13: waiting for input...
+2020-11-02(월) 오후 11:31:13: UI App requests: topspeed
+2020-11-02(월) 오후 11:31:13: sending output: 1593
+2020-11-02(월) 오후 11:31:13: waiting for input...
+2020-11-02(월) 오후 11:31:13: prev_interval = 1196 system elapsed time = 2196, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:13: prev_interval = 196.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:14: prev_interval = 0 system elapsed time = 0, service timer interval = 803.9
+2020-11-02(월) 오후 11:31:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:16: UI App requests: sysinfo
+2020-11-02(월) 오후 11:31:18: sending output: 1400 100 74 explorer 5000 0 0 False
+2020-11-02(월) 오후 11:31:18: waiting for input...
+2020-11-02(월) 오후 11:31:18: UI App requests: topspeed
+2020-11-02(월) 오후 11:31:18: sending output: 1593
+2020-11-02(월) 오후 11:31:18: waiting for input...
+2020-11-02(월) 오후 11:31:19: prev_interval = 1256 system elapsed time = 2256, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:19: prev_interval = 256.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:19: prev_interval = 0 system elapsed time = 0, service timer interval = 743.9
+2020-11-02(월) 오후 11:31:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:21: UI App requests: sysinfo
+2020-11-02(월) 오후 11:31:23: sending output: 1200 80 73 Taskmgr 5000 0 0 False
+2020-11-02(월) 오후 11:31:23: waiting for input...
+2020-11-02(월) 오후 11:31:23: UI App requests: topspeed
+2020-11-02(월) 오후 11:31:23: sending output: 1593
+2020-11-02(월) 오후 11:31:23: waiting for input...
+2020-11-02(월) 오후 11:31:24: prev_interval = 1271 system elapsed time = 2271, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:24: prev_interval = 271.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:24: prev_interval = 0 system elapsed time = 0, service timer interval = 728.9
+2020-11-02(월) 오후 11:31:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:26: UI App requests: sysinfo
+2020-11-02(월) 오후 11:31:28: sending output: 1200 85 73 Taskmgr 10000 0 0 False
+2020-11-02(월) 오후 11:31:28: waiting for input...
+2020-11-02(월) 오후 11:31:28: UI App requests: topspeed
+2020-11-02(월) 오후 11:31:28: sending output: 1593
+2020-11-02(월) 오후 11:31:28: waiting for input...
+2020-11-02(월) 오후 11:31:29: prev_interval = 1235 system elapsed time = 2235, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:29: prev_interval = 235.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:29: prev_interval = 0 system elapsed time = 0, service timer interval = 764.9
+2020-11-02(월) 오후 11:31:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:31: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:31: UI App requests: sysinfo
+2020-11-02(월) 오후 11:31:33: sending output: 1400 96 74 explorer 5000 0 0 False
+2020-11-02(월) 오후 11:31:33: waiting for input...
+2020-11-02(월) 오후 11:31:33: UI App requests: topspeed
+2020-11-02(월) 오후 11:31:33: sending output: 1593
+2020-11-02(월) 오후 11:31:33: waiting for input...
+2020-11-02(월) 오후 11:31:34: prev_interval = 1250 system elapsed time = 2250, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:34: prev_interval = 250.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:34: prev_interval = 0 system elapsed time = 0, service timer interval = 749.9
+2020-11-02(월) 오후 11:31:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:36: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:36: UI App requests: sysinfo
+2020-11-02(월) 오후 11:31:38: sending output: 1200 76 73 explorer 10000 0 0 False
+2020-11-02(월) 오후 11:31:38: waiting for input...
+2020-11-02(월) 오후 11:31:38: UI App requests: topspeed
+2020-11-02(월) 오후 11:31:38: sending output: 1593
+2020-11-02(월) 오후 11:31:38: waiting for input...
+2020-11-02(월) 오후 11:31:39: prev_interval = 1273 system elapsed time = 2273, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:39: prev_interval = 273.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:39: prev_interval = 0 system elapsed time = 0, service timer interval = 726.9
+2020-11-02(월) 오후 11:31:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:41: UI App requests: sysinfo
+2020-11-02(월) 오후 11:31:43: sending output: 1200 84 73 explorer 15000 0 0 False
+2020-11-02(월) 오후 11:31:44: waiting for input...
+2020-11-02(월) 오후 11:31:44: UI App requests: topspeed
+2020-11-02(월) 오후 11:31:44: sending output: 1593
+2020-11-02(월) 오후 11:31:44: waiting for input...
+2020-11-02(월) 오후 11:31:44: prev_interval = 1374 system elapsed time = 2374, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:44: prev_interval = 374.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:44: prev_interval = 0 system elapsed time = 0, service timer interval = 625.9
+2020-11-02(월) 오후 11:31:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:46: UI App requests: sysinfo
+2020-11-02(월) 오후 11:31:49: sending output: 900 100 72 chrome 5000 0 0 False
+2020-11-02(월) 오후 11:31:49: waiting for input...
+2020-11-02(월) 오후 11:31:49: UI App requests: topspeed
+2020-11-02(월) 오후 11:31:49: sending output: 1593
+2020-11-02(월) 오후 11:31:49: waiting for input...
+2020-11-02(월) 오후 11:31:50: prev_interval = 1977 system elapsed time = 2977, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:50: prev_interval = 977.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:50: prev_interval = 0 system elapsed time = 0, service timer interval = 22.9
+2020-11-02(월) 오후 11:31:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:51: UI App requests: sysinfo
+2020-11-02(월) 오후 11:31:54: sending output: 900 100 71 devenv 5000 0 0 False
+2020-11-02(월) 오후 11:31:54: waiting for input...
+2020-11-02(월) 오후 11:31:54: UI App requests: topspeed
+2020-11-02(월) 오후 11:31:54: sending output: 1593
+2020-11-02(월) 오후 11:31:54: waiting for input...
+2020-11-02(월) 오후 11:31:54: prev_interval = 1605 system elapsed time = 2605, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:54: prev_interval = 605.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:31:54: prev_interval = 0 system elapsed time = 0, service timer interval = 394.9
+2020-11-02(월) 오후 11:31:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:31:56: UI App requests: sysinfo
+2020-11-02(월) 오후 11:31:59: sending output: 900 100 72 devenv 10000 0 0 False
+2020-11-02(월) 오후 11:31:59: waiting for input...
+2020-11-02(월) 오후 11:31:59: UI App requests: topspeed
+2020-11-02(월) 오후 11:31:59: sending output: 1593
+2020-11-02(월) 오후 11:31:59: waiting for input...
+2020-11-02(월) 오후 11:32:00: prev_interval = 2512 system elapsed time = 3512, service timer interval = 0.1
+2020-11-02(월) 오후 11:32:00: prev_interval = 1512.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:32:00: prev_interval = 512.2 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:32:00: prev_interval = 0 system elapsed time = 0, service timer interval = 487.8
+2020-11-02(월) 오후 11:32:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:32:01: UI App requests: sysinfo
+2020-11-02(월) 오후 11:32:04: sending output: 900 100 71 notepad++ 5000 0 0 False
+2020-11-02(월) 오후 11:32:04: waiting for input...
+2020-11-02(월) 오후 11:32:04: UI App requests: topspeed
+2020-11-02(월) 오후 11:32:04: sending output: 1593
+2020-11-02(월) 오후 11:32:04: waiting for input...
+2020-11-02(월) 오후 11:32:05: prev_interval = 1648 system elapsed time = 2648, service timer interval = 0.1
+2020-11-02(월) 오후 11:32:05: prev_interval = 648.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:32:05: prev_interval = 0 system elapsed time = 0, service timer interval = 351.9
+2020-11-02(월) 오후 11:32:05: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:32:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:32:06: UI App requests: sysinfo
+2020-11-02(월) 오후 11:32:09: sending output: 900 100 71 notepad++ 10000 0 0 False
+2020-11-02(월) 오후 11:32:09: waiting for input...
+2020-11-02(월) 오후 11:32:09: UI App requests: topspeed
+2020-11-02(월) 오후 11:32:09: sending output: 1593
+2020-11-02(월) 오후 11:32:09: waiting for input...
+2020-11-02(월) 오후 11:32:10: prev_interval = 1576 system elapsed time = 2576, service timer interval = 0.1
+2020-11-02(월) 오후 11:32:10: prev_interval = 576.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:32:10: prev_interval = 0 system elapsed time = 0, service timer interval = 423.9
+2020-11-02(월) 오후 11:32:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:32:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:32:11: UI App requests: sysinfo
+2020-11-02(월) 오후 11:32:14: sending output: 900 82 71 notepad++ 15000 0 0 False
+2020-11-02(월) 오후 11:32:14: waiting for input...
+2020-11-02(월) 오후 11:32:14: UI App requests: topspeed
+2020-11-02(월) 오후 11:32:14: sending output: 1593
+2020-11-02(월) 오후 11:32:14: waiting for input...
+2020-11-02(월) 오후 11:32:14: prev_interval = 1340 system elapsed time = 2340, service timer interval = 0.1
+2020-11-02(월) 오후 11:32:14: prev_interval = 340.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:32:14: prev_interval = 0 system elapsed time = 0, service timer interval = 659.9
+2020-11-02(월) 오후 11:32:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:32:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:32:16: UI App requests: sysinfo
+2020-11-02(월) 오후 11:32:19: sending output: 900 97 71 notepad++ 20000 0 0 False
+2020-11-02(월) 오후 11:32:19: waiting for input...
+2020-11-02(월) 오후 11:32:19: UI App requests: topspeed
+2020-11-02(월) 오후 11:32:19: sending output: 1593
+2020-11-02(월) 오후 11:32:19: waiting for input...
+2020-11-02(월) 오후 11:32:20: prev_interval = 1478 system elapsed time = 2478, service timer interval = 0.1
+2020-11-02(월) 오후 11:32:20: prev_interval = 478.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:32:20: prev_interval = 0 system elapsed time = 0, service timer interval = 521.9
+2020-11-02(월) 오후 11:32:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:32:21: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:32:21: UI App requests: sysinfo
+2020-11-02(월) 오후 11:32:24: sending output: 900 100 71 PerfTune 5000 0 0 False
+2020-11-02(월) 오후 11:32:24: waiting for input...
+2020-11-02(월) 오후 11:32:24: UI App requests: topspeed
+2020-11-02(월) 오후 11:32:24: sending output: 1593
+2020-11-02(월) 오후 11:32:24: waiting for input...
+2020-11-02(월) 오후 11:32:25: prev_interval = 1493 system elapsed time = 2493, service timer interval = 0.1
+2020-11-02(월) 오후 11:32:25: prev_interval = 493.1 system elapsed time = 0, service timer interval = 0.1
+2020-11-02(월) 오후 11:32:25: prev_interval = 0 system elapsed time = 0, service timer interval = 506.9
+2020-11-02(월) 오후 11:32:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:32:26: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2020-11-02(월) 오후 11:32:26: UI App requests: sysinfo

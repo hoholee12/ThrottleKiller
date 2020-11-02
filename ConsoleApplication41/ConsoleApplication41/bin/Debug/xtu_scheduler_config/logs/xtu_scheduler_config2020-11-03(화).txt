@@ -1,0 +1,1718 @@
+2020-11-03(화) 오전 12:00:25: settings changed for: special_programs!, reimporting...
+2020-11-03(화) 오전 12:00:25: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-11-03(화) 오전 12:00:25: reading: key = 0, value = 100
+2020-11-03(화) 오전 12:00:25: reading: key = 1, value = 99
+2020-11-03(화) 오전 12:00:25: reading: key = 2, value = 98
+2020-11-03(화) 오전 12:00:25: reading: key = 3, value = 95
+2020-11-03(화) 오전 12:00:25: reading: key = 4, value = 84
+2020-11-03(화) 오전 12:00:25: reading: key = 5, value = 73
+2020-11-03(화) 오전 12:00:25: reading: key = 6, value = 65
+2020-11-03(화) 오전 12:00:25: reading: key = 7, value = 58
+2020-11-03(화) 오전 12:00:25: reading: key = 8, value = 50
+2020-11-03(화) 오전 12:00:25: reading: key = 9, value = 43
+2020-11-03(화) 오전 12:00:25: reading: key = 10, value = 32
+2020-11-03(화) 오전 12:00:25: reading: key = 11, value = 24
+2020-11-03(화) 오전 12:00:25: reading: key = 0, value = 99
+2020-11-03(화) 오전 12:00:25: reading: key = 0, value = 98
+2020-11-03(화) 오전 12:00:25: reading: key = 0, value = 95
+2020-11-03(화) 오전 12:00:25: reading: key = 1, value = 98
+2020-11-03(화) 오전 12:00:25: reading: key = 1, value = 95
+2020-11-03(화) 오전 12:00:25: reading: key = 2, value = 95
+2020-11-03(화) 오전 12:00:25: reading: key = 2, value = 84
+2020-11-03(화) 오전 12:00:25: reading: key = 3, value = 84
+2020-11-03(화) 오전 12:00:25: reading: key = 3, value = 73
+2020-11-03(화) 오전 12:00:25: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-11-03(화) 오전 12:00:25: reading: key = 11, value = 10.5
+2020-11-03(화) 오전 12:00:25: reading: key = 10, value = 10
+2020-11-03(화) 오전 12:00:25: reading: key = 9, value = 9.5
+2020-11-03(화) 오전 12:00:25: reading: key = 8, value = 8.5
+2020-11-03(화) 오전 12:00:25: reading: key = 7, value = 8
+2020-11-03(화) 오전 12:00:25: reading: key = 6, value = 7.5
+2020-11-03(화) 오전 12:00:25: reading: key = 5, value = 6.5
+2020-11-03(화) 오전 12:00:25: reading: key = 4, value = 6
+2020-11-03(화) 오전 12:00:25: reading: key = 3, value = 5
+2020-11-03(화) 오전 12:00:25: reading: key = 2, value = 4.5
+2020-11-03(화) 오전 12:00:25: reading: key = 1, value = 4
+2020-11-03(화) 오전 12:00:25: reading: key = 0, value = 3
+2020-11-03(화) 오전 12:00:25: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-11-03(화) 오전 12:00:25: reading: key = 0, value = Normal
+2020-11-03(화) 오전 12:00:25: reading: key = 1, value = Normal
+2020-11-03(화) 오전 12:00:25: reading: key = 2, value = Normal
+2020-11-03(화) 오전 12:00:25: reading: key = 3, value = Normal
+2020-11-03(화) 오전 12:00:25: reading: key = 4, value = Normal
+2020-11-03(화) 오전 12:00:25: reading: key = 5, value = Normal
+2020-11-03(화) 오전 12:00:25: reading: key = 6, value = Normal
+2020-11-03(화) 오전 12:00:25: reading: key = 7, value = Normal
+2020-11-03(화) 오전 12:00:25: settings changed for: loop_delay!, reimporting...
+2020-11-03(화) 오전 12:00:25: reading: key = loop_delay, value = 5
+2020-11-03(화) 오전 12:00:25: settings changed for: boost_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:00:25: reading: key = boost_cycle_delay, value = 30
+2020-11-03(화) 오전 12:00:25: settings changed for: newlist_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:00:25: reading: key = newlist_cycle_delay, value = 90
+2020-11-03(화) 오전 12:00:25: settings changed for: processor_guid_tweak!, reimporting...
+2020-11-03(화) 오전 12:00:25: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-11-03(화) 오전 12:00:25: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-11-03(화) 오전 12:00:25: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-11-03(화) 오전 12:00:25: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-11-03(화) 오전 12:00:25: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-11-03(화) 오전 12:00:25: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-11-03(화) 오전 12:00:25: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-11-03(화) 오전 12:00:25: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-11-03(화) 오전 12:00:25: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-11-03(화) 오전 12:00:25: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-11-03(화) 오전 12:00:25: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-11-03(화) 오전 12:00:25: settings changed for: generatedCLK!, reimporting...
+2020-11-03(화) 오전 12:00:25: reading: key = 100, value = 2701
+2020-11-03(화) 오전 12:00:25: reading: key = 99, value = 2700
+2020-11-03(화) 오전 12:00:25: reading: key = 98, value = 2600
+2020-11-03(화) 오전 12:00:25: reading: key = 95, value = 2300
+2020-11-03(화) 오전 12:00:25: reading: key = 84, value = 2000
+2020-11-03(화) 오전 12:00:25: reading: key = 73, value = 1800
+2020-11-03(화) 오전 12:00:25: reading: key = 65, value = 1600
+2020-11-03(화) 오전 12:00:25: reading: key = 58, value = 1400
+2020-11-03(화) 오전 12:00:25: reading: key = 50, value = 1200
+2020-11-03(화) 오전 12:00:25: reading: key = 43, value = 900
+2020-11-03(화) 오전 12:00:25: reading: key = 32, value = 700
+2020-11-03(화) 오전 12:00:25: reading: key = 24, value = 500
+2020-11-03(화) 오전 12:00:25: settings changed for: generatedXTU!, reimporting...
+2020-11-03(화) 오전 12:00:25: reading: key = 24, value = 10.5
+2020-11-03(화) 오전 12:00:25: reading: key = 32, value = 10
+2020-11-03(화) 오전 12:00:25: reading: key = 43, value = 9.5
+2020-11-03(화) 오전 12:00:25: reading: key = 50, value = 8.5
+2020-11-03(화) 오전 12:00:25: reading: key = 58, value = 8
+2020-11-03(화) 오전 12:00:25: reading: key = 65, value = 7.5
+2020-11-03(화) 오전 12:00:25: reading: key = 73, value = 6.5
+2020-11-03(화) 오전 12:00:25: reading: key = 84, value = 6
+2020-11-03(화) 오전 12:00:25: reading: key = 95, value = 5
+2020-11-03(화) 오전 12:00:25: reading: key = 98, value = 4.5
+2020-11-03(화) 오전 12:00:25: reading: key = 99, value = 4
+2020-11-03(화) 오전 12:00:25: reading: key = 100, value = 3
+2020-11-03(화) 오전 12:00:25: settings changed for: throttle_median!, reimporting...
+2020-11-03(화) 오전 12:00:25: reading: key = throttle_median, value = 60
+2020-11-03(화) 오전 12:00:25: settings changed for: newlist_median!, reimporting...
+2020-11-03(화) 오전 12:00:25: reading: key = newlist_median, value = 50
+2020-11-03(화) 오전 12:00:25: settings changed for: thermal_median!, reimporting...
+2020-11-03(화) 오전 12:00:25: reading: key = thermal_median, value = 90
+2020-11-03(화) 오전 12:00:25: settings changed for: gpuplan!, reimporting...
+2020-11-03(화) 오전 12:00:25: reading: key = gpuplan, value = 1
+2020-11-03(화) 오전 12:00:25: create file: C:\Users\hoholee12\Documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Debug\xtu_scheduler_config\xtudefault.txt
+2020-11-03(화) 오전 12:00:25: importing settings for: xtudefault...
+2020-11-03(화) 오전 12:00:29: checking XTU cmdlet
+2020-11-03(화) 오전 12:00:31: XTU ok
+2020-11-03(화) 오전 12:00:34: result = 10.5
+2020-11-03(화) 오전 12:00:34: setting XTU: 0.5
+2020-11-03(화) 오전 12:00:36: setting GPU: performance
+2020-11-03(화) 오전 12:00:38: setting XTU: 10.5
+2020-11-03(화) 오전 12:00:40: setting GPU: performance
+2020-11-03(화) 오전 12:00:41: init PowerCFG settings
+2020-11-03(화) 오전 12:00:44: init value counters: maxpwr = 2701, turbopwr = 3052
+2020-11-03(화) 오전 12:00:49: newlist accumulated current pwr:1400 load:5 pivotratio:0.5
+2020-11-03(화) 오전 12:00:49: start of newlist timer
+2020-11-03(화) 오전 12:00:54: newlist accumulated current pwr:2300 load:3 pivotratio:0.333333333333333
+2020-11-03(화) 오전 12:00:59: newlist accumulated current pwr:900 load:0 pivotratio:0.25
+2020-11-03(화) 오전 12:01:04: newlist accumulated current pwr:500 load:0 pivotratio:0.2
+2020-11-03(화) 오전 12:01:09: newlist accumulated current pwr:3052 load:5 pivotratio:0.166666666666667
+2020-11-03(화) 오전 12:01:14: newlist accumulated current pwr:3052 load:25 pivotratio:0.5
+2020-11-03(화) 오전 12:01:14: start of newlist timer
+2020-11-03(화) 오전 12:01:19: newlist accumulated current pwr:2300 load:7 pivotratio:0.333333333333333
+2020-11-03(화) 오전 12:01:24: newlist accumulated current pwr:3052 load:30 pivotratio:0.5
+2020-11-03(화) 오전 12:01:24: start of newlist timer
+2020-11-03(화) 오전 12:01:29: newlist accumulated current pwr:2300 load:9 pivotratio:0.5
+2020-11-03(화) 오전 12:01:29: start of newlist timer
+2020-11-03(화) 오전 12:01:34: newlist accumulated current pwr:2300 load:12 pivotratio:0.5
+2020-11-03(화) 오전 12:01:34: start of newlist timer
+2020-11-03(화) 오전 12:01:39: newlist accumulated current pwr:1200 load:3 pivotratio:0.333333333333333
+2020-11-03(화) 오전 12:01:44: newlist accumulated current pwr:2300 load:8 pivotratio:0.25
+2020-11-03(화) 오전 12:01:49: newlist accumulated current pwr:3052 load:2 pivotratio:0.2
+2020-11-03(화) 오전 12:01:55: newlist accumulated current pwr:1800 load:1 pivotratio:0.166666666666667
+2020-11-03(화) 오전 12:01:59: newlist accumulated current pwr:500 load:1 pivotratio:0.142857142857143
+2020-11-03(화) 오전 12:02:04: newlist accumulated current pwr:2000 load:1 pivotratio:0.125
+2020-11-03(화) 오전 12:02:10: newlist accumulated current pwr:1600 load:3 pivotratio:0.111111111111111
+2020-11-03(화) 오전 12:02:15: newlist accumulated current pwr:900 load:0 pivotratio:0.1
+2020-11-03(화) 오전 12:02:20: newlist accumulated current pwr:2300 load:1 pivotratio:0.0909090909090909
+2020-11-03(화) 오전 12:02:25: newlist accumulated current pwr:2300 load:13 pivotratio:0.0833333333333333
+2020-11-03(화) 오전 12:02:30: newlist accumulated current pwr:1200 load:2 pivotratio:0.0769230769230769
+2020-11-03(화) 오전 12:02:35: newlist accumulated current pwr:3052 load:7 pivotratio:0.0714285714285714
+2020-11-03(화) 오전 12:02:40: newlist accumulated current pwr:1600 load:4 pivotratio:0.0666666666666667
+2020-11-03(화) 오전 12:02:45: newlist accumulated current pwr:2300 load:3 pivotratio:0.0625
+2020-11-03(화) 오전 12:02:50: newlist accumulated current pwr:3052 load:16 pivotratio:0.0588235294117647
+2020-11-03(화) 오전 12:02:55: newlist accumulated current pwr:3052 load:7 pivotratio:0.0555555555555556
+2020-11-03(화) 오전 12:03:00: newlist accumulated current pwr:3052 load:7 pivotratio:0.0526315789473684
+2020-11-03(화) 오전 12:03:05: newlist accumulated current pwr:2300 load:3 pivotratio:0.05
+2020-11-03(화) 오전 12:03:05: time to sync for newlist
+2020-11-03(화) 오전 12:03:10: newlist accumulated current pwr:2000 load:4 pivotratio:0.0476190476190476
+2020-11-03(화) 오전 12:03:10: EMA + CMA result medload:8
+2020-11-03(화) 오전 12:03:10: appending: key = devenv, value = 6
+2020-11-03(화) 오전 12:03:10: settings changed for: special_programs!, reimporting...
+2020-11-03(화) 오전 12:03:10: reading: key = devenv, value = 6
+2020-11-03(화) 오전 12:03:10: setting power: devenv to 65
+2020-11-03(화) 오전 12:03:10: setting CLK: 65
+2020-11-03(화) 오전 12:03:10: setting XTU nested
+2020-11-03(화) 오전 12:03:10: skip accumulation for throttle load = 7 ,clk = 2000 ,throttlecheck = 0
+2020-11-03(화) 오전 12:03:10: skip accumulation for resur: 7 temperature:55 resurcheck:0
+2020-11-03(화) 오전 12:03:15: setting power: devenv to 65
+2020-11-03(화) 오전 12:03:15: setting XTU: 7.5
+2020-11-03(화) 오전 12:03:20: setting GPU: performance
+2020-11-03(화) 오전 12:03:20: skip accumulation for throttle load = 14 ,clk = 1600 ,throttlecheck = 0
+2020-11-03(화) 오전 12:03:20: skip accumulation for resur: 14 temperature:56 resurcheck:0
+2020-11-03(화) 오전 12:03:39: settings changed for: special_programs!, reimporting...
+2020-11-03(화) 오전 12:03:39: reading: key = devenv, value = 6
+2020-11-03(화) 오전 12:03:39: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-11-03(화) 오전 12:03:39: reading: key = 0, value = 100
+2020-11-03(화) 오전 12:03:39: reading: key = 1, value = 99
+2020-11-03(화) 오전 12:03:39: reading: key = 2, value = 98
+2020-11-03(화) 오전 12:03:39: reading: key = 3, value = 95
+2020-11-03(화) 오전 12:03:39: reading: key = 4, value = 84
+2020-11-03(화) 오전 12:03:39: reading: key = 5, value = 73
+2020-11-03(화) 오전 12:03:39: reading: key = 6, value = 65
+2020-11-03(화) 오전 12:03:39: reading: key = 7, value = 58
+2020-11-03(화) 오전 12:03:39: reading: key = 8, value = 50
+2020-11-03(화) 오전 12:03:39: reading: key = 9, value = 43
+2020-11-03(화) 오전 12:03:39: reading: key = 10, value = 32
+2020-11-03(화) 오전 12:03:39: reading: key = 11, value = 24
+2020-11-03(화) 오전 12:03:39: reading: key = 0, value = 99
+2020-11-03(화) 오전 12:03:39: reading: key = 0, value = 98
+2020-11-03(화) 오전 12:03:39: reading: key = 0, value = 95
+2020-11-03(화) 오전 12:03:39: reading: key = 1, value = 98
+2020-11-03(화) 오전 12:03:39: reading: key = 1, value = 95
+2020-11-03(화) 오전 12:03:39: reading: key = 2, value = 95
+2020-11-03(화) 오전 12:03:39: reading: key = 2, value = 84
+2020-11-03(화) 오전 12:03:39: reading: key = 3, value = 84
+2020-11-03(화) 오전 12:03:39: reading: key = 3, value = 73
+2020-11-03(화) 오전 12:03:39: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-11-03(화) 오전 12:03:39: reading: key = 11, value = 10.5
+2020-11-03(화) 오전 12:03:39: reading: key = 10, value = 10
+2020-11-03(화) 오전 12:03:39: reading: key = 9, value = 9.5
+2020-11-03(화) 오전 12:03:39: reading: key = 8, value = 8.5
+2020-11-03(화) 오전 12:03:39: reading: key = 7, value = 8
+2020-11-03(화) 오전 12:03:39: reading: key = 6, value = 7.5
+2020-11-03(화) 오전 12:03:39: reading: key = 5, value = 6.5
+2020-11-03(화) 오전 12:03:39: reading: key = 4, value = 6
+2020-11-03(화) 오전 12:03:39: reading: key = 3, value = 5
+2020-11-03(화) 오전 12:03:39: reading: key = 2, value = 4.5
+2020-11-03(화) 오전 12:03:39: reading: key = 1, value = 4
+2020-11-03(화) 오전 12:03:39: reading: key = 0, value = 3
+2020-11-03(화) 오전 12:03:39: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-11-03(화) 오전 12:03:39: reading: key = 0, value = Normal
+2020-11-03(화) 오전 12:03:39: reading: key = 1, value = Normal
+2020-11-03(화) 오전 12:03:39: reading: key = 2, value = Normal
+2020-11-03(화) 오전 12:03:39: reading: key = 3, value = Normal
+2020-11-03(화) 오전 12:03:39: reading: key = 4, value = Normal
+2020-11-03(화) 오전 12:03:39: reading: key = 5, value = Normal
+2020-11-03(화) 오전 12:03:39: reading: key = 6, value = Normal
+2020-11-03(화) 오전 12:03:39: reading: key = 7, value = Normal
+2020-11-03(화) 오전 12:03:39: settings changed for: loop_delay!, reimporting...
+2020-11-03(화) 오전 12:03:39: reading: key = loop_delay, value = 5
+2020-11-03(화) 오전 12:03:39: settings changed for: boost_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:03:39: reading: key = boost_cycle_delay, value = 30
+2020-11-03(화) 오전 12:03:39: settings changed for: newlist_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:03:39: reading: key = newlist_cycle_delay, value = 90
+2020-11-03(화) 오전 12:03:39: settings changed for: processor_guid_tweak!, reimporting...
+2020-11-03(화) 오전 12:03:39: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-11-03(화) 오전 12:03:39: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-11-03(화) 오전 12:03:39: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-11-03(화) 오전 12:03:39: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-11-03(화) 오전 12:03:39: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-11-03(화) 오전 12:03:39: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-11-03(화) 오전 12:03:39: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-11-03(화) 오전 12:03:39: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-11-03(화) 오전 12:03:39: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-11-03(화) 오전 12:03:39: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-11-03(화) 오전 12:03:39: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-11-03(화) 오전 12:03:39: settings changed for: generatedCLK!, reimporting...
+2020-11-03(화) 오전 12:03:39: reading: key = 100, value = 2701
+2020-11-03(화) 오전 12:03:39: reading: key = 99, value = 2700
+2020-11-03(화) 오전 12:03:39: reading: key = 98, value = 2600
+2020-11-03(화) 오전 12:03:39: reading: key = 95, value = 2300
+2020-11-03(화) 오전 12:03:39: reading: key = 84, value = 2000
+2020-11-03(화) 오전 12:03:39: reading: key = 73, value = 1800
+2020-11-03(화) 오전 12:03:39: reading: key = 65, value = 1600
+2020-11-03(화) 오전 12:03:39: reading: key = 58, value = 1400
+2020-11-03(화) 오전 12:03:39: reading: key = 50, value = 1200
+2020-11-03(화) 오전 12:03:39: reading: key = 43, value = 900
+2020-11-03(화) 오전 12:03:39: reading: key = 32, value = 700
+2020-11-03(화) 오전 12:03:39: reading: key = 24, value = 500
+2020-11-03(화) 오전 12:03:39: settings changed for: generatedXTU!, reimporting...
+2020-11-03(화) 오전 12:03:39: reading: key = 24, value = 10.5
+2020-11-03(화) 오전 12:03:39: reading: key = 32, value = 10
+2020-11-03(화) 오전 12:03:39: reading: key = 43, value = 9.5
+2020-11-03(화) 오전 12:03:39: reading: key = 50, value = 8.5
+2020-11-03(화) 오전 12:03:39: reading: key = 58, value = 8
+2020-11-03(화) 오전 12:03:39: reading: key = 65, value = 7.5
+2020-11-03(화) 오전 12:03:39: reading: key = 73, value = 6.5
+2020-11-03(화) 오전 12:03:39: reading: key = 84, value = 6
+2020-11-03(화) 오전 12:03:39: reading: key = 95, value = 5
+2020-11-03(화) 오전 12:03:39: reading: key = 98, value = 4.5
+2020-11-03(화) 오전 12:03:39: reading: key = 99, value = 4
+2020-11-03(화) 오전 12:03:39: reading: key = 100, value = 3
+2020-11-03(화) 오전 12:03:39: settings changed for: throttle_median!, reimporting...
+2020-11-03(화) 오전 12:03:39: reading: key = throttle_median, value = 60
+2020-11-03(화) 오전 12:03:39: settings changed for: newlist_median!, reimporting...
+2020-11-03(화) 오전 12:03:39: reading: key = newlist_median, value = 50
+2020-11-03(화) 오전 12:03:39: settings changed for: thermal_median!, reimporting...
+2020-11-03(화) 오전 12:03:39: reading: key = thermal_median, value = 90
+2020-11-03(화) 오전 12:03:39: settings changed for: gpuplan!, reimporting...
+2020-11-03(화) 오전 12:03:39: reading: key = gpuplan, value = 1
+2020-11-03(화) 오전 12:03:39: importing settings for: xtudefault...
+2020-11-03(화) 오전 12:03:41: checking XTU cmdlet
+2020-11-03(화) 오전 12:03:44: XTU ok
+2020-11-03(화) 오전 12:03:48: result = 7.5
+2020-11-03(화) 오전 12:03:48: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:03:48: setting XTU: 0.5
+2020-11-03(화) 오전 12:03:52: setting GPU: performance
+2020-11-03(화) 오전 12:03:55: setting XTU: 7.5
+2020-11-03(화) 오전 12:04:00: setting GPU: performance
+2020-11-03(화) 오전 12:04:00: init PowerCFG settings
+2020-11-03(화) 오전 12:04:05: init value counters: maxpwr = 2701, turbopwr = 3079
+2020-11-03(화) 오전 12:04:09: setting power: devenv to 65
+2020-11-03(화) 오전 12:04:09: setting CLK: 65
+2020-11-03(화) 오전 12:04:09: setting XTU nested
+2020-11-03(화) 오전 12:04:09: skip accumulation for throttle load = 13 ,clk = 3079 ,throttlecheck = 0
+2020-11-03(화) 오전 12:04:10: skip accumulation for resur: 13 temperature:62 resurcheck:0
+2020-11-03(화) 오전 12:04:14: newlist accumulated current pwr:1600 load:14 pivotratio:0.5
+2020-11-03(화) 오전 12:04:14: newlist mode
+2020-11-03(화) 오전 12:04:14: setting CLK: 100
+2020-11-03(화) 오전 12:04:15: setting XTU: 7.5
+2020-11-03(화) 오전 12:04:17: setting GPU: performance
+2020-11-03(화) 오전 12:04:17: start of newlist timer
+2020-11-03(화) 오전 12:04:19: newlist accumulated current pwr:1200 load:6 pivotratio:0.5
+2020-11-03(화) 오전 12:04:19: start of newlist timer
+2020-11-03(화) 오전 12:04:24: newlist accumulated current pwr:3079 load:24 pivotratio:0.333333333333333
+2020-11-03(화) 오전 12:04:29: newlist accumulated current pwr:2300 load:10 pivotratio:0.5
+2020-11-03(화) 오전 12:04:29: start of newlist timer
+2020-11-03(화) 오전 12:04:34: newlist accumulated current pwr:2300 load:8 pivotratio:0.5
+2020-11-03(화) 오전 12:04:34: start of newlist timer
+2020-11-03(화) 오전 12:04:40: newlist accumulated current pwr:1800 load:5 pivotratio:0.333333333333333
+2020-11-03(화) 오전 12:04:45: newlist accumulated current pwr:3079 load:17 pivotratio:0.5
+2020-11-03(화) 오전 12:04:45: start of newlist timer
+2020-11-03(화) 오전 12:04:50: newlist accumulated current pwr:3079 load:44 pivotratio:0.5
+2020-11-03(화) 오전 12:04:50: start of newlist timer
+2020-11-03(화) 오전 12:04:55: newlist accumulated current pwr:3079 load:34 pivotratio:0.333333333333333
+2020-11-03(화) 오전 12:05:00: newlist accumulated current pwr:3079 load:56 pivotratio:0.25
+2020-11-03(화) 오전 12:05:05: newlist accumulated current pwr:3079 load:71 pivotratio:2
+2020-11-03(화) 오전 12:05:05: start of newlist timer
+2020-11-03(화) 오전 12:05:36: settings changed for: special_programs!, reimporting...
+2020-11-03(화) 오전 12:05:36: reading: key = devenv, value = 6
+2020-11-03(화) 오전 12:05:36: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-11-03(화) 오전 12:05:36: reading: key = 0, value = 100
+2020-11-03(화) 오전 12:05:36: reading: key = 1, value = 99
+2020-11-03(화) 오전 12:05:36: reading: key = 2, value = 98
+2020-11-03(화) 오전 12:05:36: reading: key = 3, value = 95
+2020-11-03(화) 오전 12:05:36: reading: key = 4, value = 84
+2020-11-03(화) 오전 12:05:36: reading: key = 5, value = 73
+2020-11-03(화) 오전 12:05:36: reading: key = 6, value = 65
+2020-11-03(화) 오전 12:05:36: reading: key = 7, value = 58
+2020-11-03(화) 오전 12:05:36: reading: key = 8, value = 50
+2020-11-03(화) 오전 12:05:36: reading: key = 9, value = 43
+2020-11-03(화) 오전 12:05:36: reading: key = 10, value = 32
+2020-11-03(화) 오전 12:05:36: reading: key = 11, value = 24
+2020-11-03(화) 오전 12:05:36: reading: key = 0, value = 99
+2020-11-03(화) 오전 12:05:36: reading: key = 0, value = 98
+2020-11-03(화) 오전 12:05:36: reading: key = 0, value = 95
+2020-11-03(화) 오전 12:05:36: reading: key = 1, value = 98
+2020-11-03(화) 오전 12:05:36: reading: key = 1, value = 95
+2020-11-03(화) 오전 12:05:36: reading: key = 2, value = 95
+2020-11-03(화) 오전 12:05:36: reading: key = 2, value = 84
+2020-11-03(화) 오전 12:05:36: reading: key = 3, value = 84
+2020-11-03(화) 오전 12:05:36: reading: key = 3, value = 73
+2020-11-03(화) 오전 12:05:36: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-11-03(화) 오전 12:05:36: reading: key = 11, value = 10.5
+2020-11-03(화) 오전 12:05:36: reading: key = 10, value = 10
+2020-11-03(화) 오전 12:05:36: reading: key = 9, value = 9.5
+2020-11-03(화) 오전 12:05:36: reading: key = 8, value = 8.5
+2020-11-03(화) 오전 12:05:36: reading: key = 7, value = 8
+2020-11-03(화) 오전 12:05:36: reading: key = 6, value = 7.5
+2020-11-03(화) 오전 12:05:36: reading: key = 5, value = 6.5
+2020-11-03(화) 오전 12:05:36: reading: key = 4, value = 6
+2020-11-03(화) 오전 12:05:36: reading: key = 3, value = 5
+2020-11-03(화) 오전 12:05:36: reading: key = 2, value = 4.5
+2020-11-03(화) 오전 12:05:36: reading: key = 1, value = 4
+2020-11-03(화) 오전 12:05:36: reading: key = 0, value = 3
+2020-11-03(화) 오전 12:05:36: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-11-03(화) 오전 12:05:36: reading: key = 0, value = Normal
+2020-11-03(화) 오전 12:05:36: reading: key = 1, value = Normal
+2020-11-03(화) 오전 12:05:36: reading: key = 2, value = Normal
+2020-11-03(화) 오전 12:05:36: reading: key = 3, value = Normal
+2020-11-03(화) 오전 12:05:36: reading: key = 4, value = Normal
+2020-11-03(화) 오전 12:05:36: reading: key = 5, value = Normal
+2020-11-03(화) 오전 12:05:36: reading: key = 6, value = Normal
+2020-11-03(화) 오전 12:05:36: reading: key = 7, value = Normal
+2020-11-03(화) 오전 12:05:36: settings changed for: loop_delay!, reimporting...
+2020-11-03(화) 오전 12:05:36: reading: key = loop_delay, value = 5
+2020-11-03(화) 오전 12:05:36: settings changed for: boost_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:05:36: reading: key = boost_cycle_delay, value = 30
+2020-11-03(화) 오전 12:05:36: settings changed for: newlist_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:05:36: reading: key = newlist_cycle_delay, value = 90
+2020-11-03(화) 오전 12:05:36: settings changed for: processor_guid_tweak!, reimporting...
+2020-11-03(화) 오전 12:05:36: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-11-03(화) 오전 12:05:36: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-11-03(화) 오전 12:05:36: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-11-03(화) 오전 12:05:36: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-11-03(화) 오전 12:05:36: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-11-03(화) 오전 12:05:36: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-11-03(화) 오전 12:05:36: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-11-03(화) 오전 12:05:37: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-11-03(화) 오전 12:05:37: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-11-03(화) 오전 12:05:37: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-11-03(화) 오전 12:05:37: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-11-03(화) 오전 12:05:37: settings changed for: generatedCLK!, reimporting...
+2020-11-03(화) 오전 12:05:37: reading: key = 100, value = 2701
+2020-11-03(화) 오전 12:05:37: reading: key = 99, value = 2700
+2020-11-03(화) 오전 12:05:37: reading: key = 98, value = 2600
+2020-11-03(화) 오전 12:05:37: reading: key = 95, value = 2300
+2020-11-03(화) 오전 12:05:37: reading: key = 84, value = 2000
+2020-11-03(화) 오전 12:05:37: reading: key = 73, value = 1800
+2020-11-03(화) 오전 12:05:37: reading: key = 65, value = 1600
+2020-11-03(화) 오전 12:05:37: reading: key = 58, value = 1400
+2020-11-03(화) 오전 12:05:37: reading: key = 50, value = 1200
+2020-11-03(화) 오전 12:05:37: reading: key = 43, value = 900
+2020-11-03(화) 오전 12:05:37: reading: key = 32, value = 700
+2020-11-03(화) 오전 12:05:37: reading: key = 24, value = 500
+2020-11-03(화) 오전 12:05:37: settings changed for: generatedXTU!, reimporting...
+2020-11-03(화) 오전 12:05:37: reading: key = 24, value = 10.5
+2020-11-03(화) 오전 12:05:37: reading: key = 32, value = 10
+2020-11-03(화) 오전 12:05:37: reading: key = 43, value = 9.5
+2020-11-03(화) 오전 12:05:37: reading: key = 50, value = 8.5
+2020-11-03(화) 오전 12:05:37: reading: key = 58, value = 8
+2020-11-03(화) 오전 12:05:37: reading: key = 65, value = 7.5
+2020-11-03(화) 오전 12:05:37: reading: key = 73, value = 6.5
+2020-11-03(화) 오전 12:05:37: reading: key = 84, value = 6
+2020-11-03(화) 오전 12:05:37: reading: key = 95, value = 5
+2020-11-03(화) 오전 12:05:37: reading: key = 98, value = 4.5
+2020-11-03(화) 오전 12:05:37: reading: key = 99, value = 4
+2020-11-03(화) 오전 12:05:37: reading: key = 100, value = 3
+2020-11-03(화) 오전 12:05:37: settings changed for: throttle_median!, reimporting...
+2020-11-03(화) 오전 12:05:37: reading: key = throttle_median, value = 60
+2020-11-03(화) 오전 12:05:37: settings changed for: newlist_median!, reimporting...
+2020-11-03(화) 오전 12:05:37: reading: key = newlist_median, value = 50
+2020-11-03(화) 오전 12:05:37: settings changed for: thermal_median!, reimporting...
+2020-11-03(화) 오전 12:05:37: reading: key = thermal_median, value = 90
+2020-11-03(화) 오전 12:05:37: settings changed for: gpuplan!, reimporting...
+2020-11-03(화) 오전 12:05:37: reading: key = gpuplan, value = 1
+2020-11-03(화) 오전 12:05:37: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:05:38: checking XTU cmdlet
+2020-11-03(화) 오전 12:05:40: XTU ok
+2020-11-03(화) 오전 12:05:42: result = 10.5
+2020-11-03(화) 오전 12:05:42: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:05:42: setting XTU: 0.5
+2020-11-03(화) 오전 12:05:44: setting GPU: performance
+2020-11-03(화) 오전 12:05:46: setting XTU: 10.5
+2020-11-03(화) 오전 12:05:48: setting GPU: performance
+2020-11-03(화) 오전 12:05:48: init PowerCFG settings
+2020-11-03(화) 오전 12:05:52: init value counters: maxpwr = 2701, turbopwr = 3052
+2020-11-03(화) 오전 12:05:56: setting power: devenv to 65
+2020-11-03(화) 오전 12:05:56: setting CLK: 65
+2020-11-03(화) 오전 12:05:56: setting XTU nested
+2020-11-03(화) 오전 12:05:56: skip accumulation for throttle load = 3 ,clk = 3052 ,throttlecheck = 0
+2020-11-03(화) 오전 12:05:56: skip accumulation for resur: 3 temperature:66 resurcheck:0
+2020-11-03(화) 오전 12:06:01: newlist accumulated current pwr:1600 load:6 pivotratio:0.5
+2020-11-03(화) 오전 12:06:01: newlist mode
+2020-11-03(화) 오전 12:06:01: setting CLK: 100
+2020-11-03(화) 오전 12:06:02: setting XTU: 7.5
+2020-11-03(화) 오전 12:06:04: setting GPU: performance
+2020-11-03(화) 오전 12:06:04: start of newlist timer
+2020-11-03(화) 오전 12:06:06: newlist accumulated current pwr:3052 load:7 pivotratio:0.5
+2020-11-03(화) 오전 12:06:06: newlist mode
+2020-11-03(화) 오전 12:06:06: setting XTU: 10.5
+2020-11-03(화) 오전 12:06:09: setting GPU: performance
+2020-11-03(화) 오전 12:06:09: start of newlist timer
+2020-11-03(화) 오전 12:07:11: settings changed for: special_programs!, reimporting...
+2020-11-03(화) 오전 12:07:11: reading: key = devenv, value = 6
+2020-11-03(화) 오전 12:07:11: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-11-03(화) 오전 12:07:11: reading: key = 0, value = 100
+2020-11-03(화) 오전 12:07:11: reading: key = 1, value = 99
+2020-11-03(화) 오전 12:07:11: reading: key = 2, value = 98
+2020-11-03(화) 오전 12:07:11: reading: key = 3, value = 95
+2020-11-03(화) 오전 12:07:11: reading: key = 4, value = 84
+2020-11-03(화) 오전 12:07:11: reading: key = 5, value = 73
+2020-11-03(화) 오전 12:07:11: reading: key = 6, value = 65
+2020-11-03(화) 오전 12:07:11: reading: key = 7, value = 58
+2020-11-03(화) 오전 12:07:11: reading: key = 8, value = 50
+2020-11-03(화) 오전 12:07:11: reading: key = 9, value = 43
+2020-11-03(화) 오전 12:07:11: reading: key = 10, value = 32
+2020-11-03(화) 오전 12:07:11: reading: key = 11, value = 24
+2020-11-03(화) 오전 12:07:11: reading: key = 0, value = 99
+2020-11-03(화) 오전 12:07:11: reading: key = 0, value = 98
+2020-11-03(화) 오전 12:07:11: reading: key = 0, value = 95
+2020-11-03(화) 오전 12:07:11: reading: key = 1, value = 98
+2020-11-03(화) 오전 12:07:11: reading: key = 1, value = 95
+2020-11-03(화) 오전 12:07:11: reading: key = 2, value = 95
+2020-11-03(화) 오전 12:07:11: reading: key = 2, value = 84
+2020-11-03(화) 오전 12:07:11: reading: key = 3, value = 84
+2020-11-03(화) 오전 12:07:11: reading: key = 3, value = 73
+2020-11-03(화) 오전 12:07:11: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-11-03(화) 오전 12:07:11: reading: key = 11, value = 10.5
+2020-11-03(화) 오전 12:07:11: reading: key = 10, value = 10
+2020-11-03(화) 오전 12:07:11: reading: key = 9, value = 9.5
+2020-11-03(화) 오전 12:07:11: reading: key = 8, value = 8.5
+2020-11-03(화) 오전 12:07:11: reading: key = 7, value = 8
+2020-11-03(화) 오전 12:07:11: reading: key = 6, value = 7.5
+2020-11-03(화) 오전 12:07:11: reading: key = 5, value = 6.5
+2020-11-03(화) 오전 12:07:11: reading: key = 4, value = 6
+2020-11-03(화) 오전 12:07:11: reading: key = 3, value = 5
+2020-11-03(화) 오전 12:07:11: reading: key = 2, value = 4.5
+2020-11-03(화) 오전 12:07:11: reading: key = 1, value = 4
+2020-11-03(화) 오전 12:07:11: reading: key = 0, value = 3
+2020-11-03(화) 오전 12:07:11: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-11-03(화) 오전 12:07:11: reading: key = 0, value = Normal
+2020-11-03(화) 오전 12:07:11: reading: key = 1, value = Normal
+2020-11-03(화) 오전 12:07:11: reading: key = 2, value = Normal
+2020-11-03(화) 오전 12:07:11: reading: key = 3, value = Normal
+2020-11-03(화) 오전 12:07:11: reading: key = 4, value = Normal
+2020-11-03(화) 오전 12:07:11: reading: key = 5, value = Normal
+2020-11-03(화) 오전 12:07:11: reading: key = 6, value = Normal
+2020-11-03(화) 오전 12:07:11: reading: key = 7, value = Normal
+2020-11-03(화) 오전 12:07:11: settings changed for: loop_delay!, reimporting...
+2020-11-03(화) 오전 12:07:11: reading: key = loop_delay, value = 5
+2020-11-03(화) 오전 12:07:11: settings changed for: boost_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:07:11: reading: key = boost_cycle_delay, value = 30
+2020-11-03(화) 오전 12:07:11: settings changed for: newlist_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:07:11: reading: key = newlist_cycle_delay, value = 90
+2020-11-03(화) 오전 12:07:11: settings changed for: processor_guid_tweak!, reimporting...
+2020-11-03(화) 오전 12:07:11: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-11-03(화) 오전 12:07:11: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-11-03(화) 오전 12:07:11: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-11-03(화) 오전 12:07:11: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-11-03(화) 오전 12:07:11: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-11-03(화) 오전 12:07:11: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-11-03(화) 오전 12:07:11: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-11-03(화) 오전 12:07:11: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-11-03(화) 오전 12:07:11: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-11-03(화) 오전 12:07:11: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-11-03(화) 오전 12:07:11: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-11-03(화) 오전 12:07:11: settings changed for: generatedCLK!, reimporting...
+2020-11-03(화) 오전 12:07:11: reading: key = 100, value = 2701
+2020-11-03(화) 오전 12:07:11: reading: key = 99, value = 2700
+2020-11-03(화) 오전 12:07:11: reading: key = 98, value = 2600
+2020-11-03(화) 오전 12:07:11: reading: key = 95, value = 2300
+2020-11-03(화) 오전 12:07:11: reading: key = 84, value = 2000
+2020-11-03(화) 오전 12:07:11: reading: key = 73, value = 1800
+2020-11-03(화) 오전 12:07:11: reading: key = 65, value = 1600
+2020-11-03(화) 오전 12:07:11: reading: key = 58, value = 1400
+2020-11-03(화) 오전 12:07:11: reading: key = 50, value = 1200
+2020-11-03(화) 오전 12:07:11: reading: key = 43, value = 900
+2020-11-03(화) 오전 12:07:11: reading: key = 32, value = 700
+2020-11-03(화) 오전 12:07:11: reading: key = 24, value = 500
+2020-11-03(화) 오전 12:07:11: settings changed for: generatedXTU!, reimporting...
+2020-11-03(화) 오전 12:07:11: reading: key = 24, value = 10.5
+2020-11-03(화) 오전 12:07:11: reading: key = 32, value = 10
+2020-11-03(화) 오전 12:07:11: reading: key = 43, value = 9.5
+2020-11-03(화) 오전 12:07:11: reading: key = 50, value = 8.5
+2020-11-03(화) 오전 12:07:11: reading: key = 58, value = 8
+2020-11-03(화) 오전 12:07:11: reading: key = 65, value = 7.5
+2020-11-03(화) 오전 12:07:11: reading: key = 73, value = 6.5
+2020-11-03(화) 오전 12:07:11: reading: key = 84, value = 6
+2020-11-03(화) 오전 12:07:11: reading: key = 95, value = 5
+2020-11-03(화) 오전 12:07:11: reading: key = 98, value = 4.5
+2020-11-03(화) 오전 12:07:11: reading: key = 99, value = 4
+2020-11-03(화) 오전 12:07:11: reading: key = 100, value = 3
+2020-11-03(화) 오전 12:07:11: settings changed for: throttle_median!, reimporting...
+2020-11-03(화) 오전 12:07:11: reading: key = throttle_median, value = 60
+2020-11-03(화) 오전 12:07:11: settings changed for: newlist_median!, reimporting...
+2020-11-03(화) 오전 12:07:11: reading: key = newlist_median, value = 50
+2020-11-03(화) 오전 12:07:11: settings changed for: thermal_median!, reimporting...
+2020-11-03(화) 오전 12:07:11: reading: key = thermal_median, value = 90
+2020-11-03(화) 오전 12:07:11: settings changed for: gpuplan!, reimporting...
+2020-11-03(화) 오전 12:07:11: reading: key = gpuplan, value = 1
+2020-11-03(화) 오전 12:07:11: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:07:13: checking XTU cmdlet
+2020-11-03(화) 오전 12:07:14: XTU ok
+2020-11-03(화) 오전 12:07:16: result = 10.5
+2020-11-03(화) 오전 12:07:16: hello
+2020-11-03(화) 오전 12:07:16: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:07:16: setting XTU: 0.5
+2020-11-03(화) 오전 12:07:19: setting GPU: performance
+2020-11-03(화) 오전 12:07:21: setting XTU: 10.5
+2020-11-03(화) 오전 12:08:28: settings changed for: special_programs!, reimporting...
+2020-11-03(화) 오전 12:08:28: reading: key = devenv, value = 6
+2020-11-03(화) 오전 12:08:28: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-11-03(화) 오전 12:08:28: reading: key = 0, value = 100
+2020-11-03(화) 오전 12:08:28: reading: key = 1, value = 99
+2020-11-03(화) 오전 12:08:28: reading: key = 2, value = 98
+2020-11-03(화) 오전 12:08:28: reading: key = 3, value = 95
+2020-11-03(화) 오전 12:08:28: reading: key = 4, value = 84
+2020-11-03(화) 오전 12:08:28: reading: key = 5, value = 73
+2020-11-03(화) 오전 12:08:28: reading: key = 6, value = 65
+2020-11-03(화) 오전 12:08:28: reading: key = 7, value = 58
+2020-11-03(화) 오전 12:08:28: reading: key = 8, value = 50
+2020-11-03(화) 오전 12:08:28: reading: key = 9, value = 43
+2020-11-03(화) 오전 12:08:28: reading: key = 10, value = 32
+2020-11-03(화) 오전 12:08:28: reading: key = 11, value = 24
+2020-11-03(화) 오전 12:08:28: reading: key = 0, value = 99
+2020-11-03(화) 오전 12:08:28: reading: key = 0, value = 98
+2020-11-03(화) 오전 12:08:28: reading: key = 0, value = 95
+2020-11-03(화) 오전 12:08:28: reading: key = 1, value = 98
+2020-11-03(화) 오전 12:08:28: reading: key = 1, value = 95
+2020-11-03(화) 오전 12:08:28: reading: key = 2, value = 95
+2020-11-03(화) 오전 12:08:28: reading: key = 2, value = 84
+2020-11-03(화) 오전 12:08:28: reading: key = 3, value = 84
+2020-11-03(화) 오전 12:08:28: reading: key = 3, value = 73
+2020-11-03(화) 오전 12:08:28: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-11-03(화) 오전 12:08:28: reading: key = 11, value = 10.5
+2020-11-03(화) 오전 12:08:28: reading: key = 10, value = 10
+2020-11-03(화) 오전 12:08:28: reading: key = 9, value = 9.5
+2020-11-03(화) 오전 12:08:28: reading: key = 8, value = 8.5
+2020-11-03(화) 오전 12:08:28: reading: key = 7, value = 8
+2020-11-03(화) 오전 12:08:28: reading: key = 6, value = 7.5
+2020-11-03(화) 오전 12:08:28: reading: key = 5, value = 6.5
+2020-11-03(화) 오전 12:08:28: reading: key = 4, value = 6
+2020-11-03(화) 오전 12:08:28: reading: key = 3, value = 5
+2020-11-03(화) 오전 12:08:28: reading: key = 2, value = 4.5
+2020-11-03(화) 오전 12:08:28: reading: key = 1, value = 4
+2020-11-03(화) 오전 12:08:28: reading: key = 0, value = 3
+2020-11-03(화) 오전 12:08:28: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-11-03(화) 오전 12:08:28: reading: key = 0, value = Normal
+2020-11-03(화) 오전 12:08:28: reading: key = 1, value = Normal
+2020-11-03(화) 오전 12:08:28: reading: key = 2, value = Normal
+2020-11-03(화) 오전 12:08:28: reading: key = 3, value = Normal
+2020-11-03(화) 오전 12:08:28: reading: key = 4, value = Normal
+2020-11-03(화) 오전 12:08:28: reading: key = 5, value = Normal
+2020-11-03(화) 오전 12:08:28: reading: key = 6, value = Normal
+2020-11-03(화) 오전 12:08:28: reading: key = 7, value = Normal
+2020-11-03(화) 오전 12:08:28: settings changed for: loop_delay!, reimporting...
+2020-11-03(화) 오전 12:08:28: reading: key = loop_delay, value = 5
+2020-11-03(화) 오전 12:08:28: settings changed for: boost_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:08:28: reading: key = boost_cycle_delay, value = 30
+2020-11-03(화) 오전 12:08:28: settings changed for: newlist_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:08:28: reading: key = newlist_cycle_delay, value = 90
+2020-11-03(화) 오전 12:08:28: settings changed for: processor_guid_tweak!, reimporting...
+2020-11-03(화) 오전 12:08:28: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-11-03(화) 오전 12:08:28: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-11-03(화) 오전 12:08:28: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-11-03(화) 오전 12:08:28: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-11-03(화) 오전 12:08:28: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-11-03(화) 오전 12:08:28: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-11-03(화) 오전 12:08:28: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-11-03(화) 오전 12:08:28: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-11-03(화) 오전 12:08:28: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-11-03(화) 오전 12:08:28: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-11-03(화) 오전 12:08:28: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-11-03(화) 오전 12:08:28: settings changed for: generatedCLK!, reimporting...
+2020-11-03(화) 오전 12:08:28: reading: key = 100, value = 2701
+2020-11-03(화) 오전 12:08:28: reading: key = 99, value = 2700
+2020-11-03(화) 오전 12:08:28: reading: key = 98, value = 2600
+2020-11-03(화) 오전 12:08:28: reading: key = 95, value = 2300
+2020-11-03(화) 오전 12:08:28: reading: key = 84, value = 2000
+2020-11-03(화) 오전 12:08:28: reading: key = 73, value = 1800
+2020-11-03(화) 오전 12:08:28: reading: key = 65, value = 1600
+2020-11-03(화) 오전 12:08:28: reading: key = 58, value = 1400
+2020-11-03(화) 오전 12:08:28: reading: key = 50, value = 1200
+2020-11-03(화) 오전 12:08:28: reading: key = 43, value = 900
+2020-11-03(화) 오전 12:08:28: reading: key = 32, value = 700
+2020-11-03(화) 오전 12:08:28: reading: key = 24, value = 500
+2020-11-03(화) 오전 12:08:28: settings changed for: generatedXTU!, reimporting...
+2020-11-03(화) 오전 12:08:28: reading: key = 24, value = 10.5
+2020-11-03(화) 오전 12:08:28: reading: key = 32, value = 10
+2020-11-03(화) 오전 12:08:28: reading: key = 43, value = 9.5
+2020-11-03(화) 오전 12:08:28: reading: key = 50, value = 8.5
+2020-11-03(화) 오전 12:08:28: reading: key = 58, value = 8
+2020-11-03(화) 오전 12:08:28: reading: key = 65, value = 7.5
+2020-11-03(화) 오전 12:08:28: reading: key = 73, value = 6.5
+2020-11-03(화) 오전 12:08:28: reading: key = 84, value = 6
+2020-11-03(화) 오전 12:08:28: reading: key = 95, value = 5
+2020-11-03(화) 오전 12:08:28: reading: key = 98, value = 4.5
+2020-11-03(화) 오전 12:08:28: reading: key = 99, value = 4
+2020-11-03(화) 오전 12:08:28: reading: key = 100, value = 3
+2020-11-03(화) 오전 12:08:28: settings changed for: throttle_median!, reimporting...
+2020-11-03(화) 오전 12:08:28: reading: key = throttle_median, value = 60
+2020-11-03(화) 오전 12:08:28: settings changed for: newlist_median!, reimporting...
+2020-11-03(화) 오전 12:08:28: reading: key = newlist_median, value = 50
+2020-11-03(화) 오전 12:08:28: settings changed for: thermal_median!, reimporting...
+2020-11-03(화) 오전 12:08:28: reading: key = thermal_median, value = 90
+2020-11-03(화) 오전 12:08:28: settings changed for: gpuplan!, reimporting...
+2020-11-03(화) 오전 12:08:28: reading: key = gpuplan, value = 1
+2020-11-03(화) 오전 12:08:28: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:08:30: checking XTU cmdlet
+2020-11-03(화) 오전 12:08:32: XTU ok
+2020-11-03(화) 오전 12:08:34: result = 10.5
+2020-11-03(화) 오전 12:08:34: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:08:34: setting XTU: 0.5
+2020-11-03(화) 오전 12:08:36: setting GPU: performance
+2020-11-03(화) 오전 12:08:38: setting XTU: 10.5
+2020-11-03(화) 오전 12:08:40: setting GPU: performance
+2020-11-03(화) 오전 12:08:40: init PowerCFG settings
+2020-11-03(화) 오전 12:08:44: init value counters: maxpwr = 2701, turbopwr = 3025
+2020-11-03(화) 오전 12:08:48: setting power: devenv to 65
+2020-11-03(화) 오전 12:08:48: setting CLK: 65
+2020-11-03(화) 오전 12:08:48: setting XTU nested
+2020-11-03(화) 오전 12:08:48: skip accumulation for throttle load = 4 ,clk = 3025 ,throttlecheck = 0
+2020-11-03(화) 오전 12:08:48: skip accumulation for resur: 4 temperature:65 resurcheck:0
+2020-11-03(화) 오전 12:08:53: setting power: devenv to 65
+2020-11-03(화) 오전 12:08:53: setting XTU: 7.5
+2020-11-03(화) 오전 12:08:58: setting GPU: performance
+2020-11-03(화) 오전 12:08:58: skip accumulation for throttle load = 3 ,clk = 1600 ,throttlecheck = 0
+2020-11-03(화) 오전 12:08:58: skip accumulation for resur: 3 temperature:61 resurcheck:0
+2020-11-03(화) 오전 12:09:04: skip accumulation for throttle load = 1 ,clk = 1600 ,throttlecheck = 0
+2020-11-03(화) 오전 12:09:04: skip accumulation for resur: 1 temperature:57 resurcheck:0
+2020-11-03(화) 오전 12:09:09: skip accumulation for throttle load = 9 ,clk = 1600 ,throttlecheck = 0
+2020-11-03(화) 오전 12:09:09: skip accumulation for resur: 9 temperature:57 resurcheck:0
+2020-11-03(화) 오전 12:09:14: skip accumulation for throttle load = 4 ,clk = 1600 ,throttlecheck = 0
+2020-11-03(화) 오전 12:09:14: skip accumulation for resur: 4 temperature:56 resurcheck:0
+2020-11-03(화) 오전 12:09:29: settings changed for: special_programs!, reimporting...
+2020-11-03(화) 오전 12:09:29: reading: key = devenv, value = 6
+2020-11-03(화) 오전 12:09:29: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-11-03(화) 오전 12:09:29: reading: key = 0, value = 100
+2020-11-03(화) 오전 12:09:29: reading: key = 1, value = 99
+2020-11-03(화) 오전 12:09:29: reading: key = 2, value = 98
+2020-11-03(화) 오전 12:09:29: reading: key = 3, value = 95
+2020-11-03(화) 오전 12:09:29: reading: key = 4, value = 84
+2020-11-03(화) 오전 12:09:29: reading: key = 5, value = 73
+2020-11-03(화) 오전 12:09:29: reading: key = 6, value = 65
+2020-11-03(화) 오전 12:09:29: reading: key = 7, value = 58
+2020-11-03(화) 오전 12:09:29: reading: key = 8, value = 50
+2020-11-03(화) 오전 12:09:29: reading: key = 9, value = 43
+2020-11-03(화) 오전 12:09:29: reading: key = 10, value = 32
+2020-11-03(화) 오전 12:09:29: reading: key = 11, value = 24
+2020-11-03(화) 오전 12:09:29: reading: key = 0, value = 99
+2020-11-03(화) 오전 12:09:29: reading: key = 0, value = 98
+2020-11-03(화) 오전 12:09:29: reading: key = 0, value = 95
+2020-11-03(화) 오전 12:09:29: reading: key = 1, value = 98
+2020-11-03(화) 오전 12:09:29: reading: key = 1, value = 95
+2020-11-03(화) 오전 12:09:29: reading: key = 2, value = 95
+2020-11-03(화) 오전 12:09:29: reading: key = 2, value = 84
+2020-11-03(화) 오전 12:09:29: reading: key = 3, value = 84
+2020-11-03(화) 오전 12:09:29: reading: key = 3, value = 73
+2020-11-03(화) 오전 12:09:29: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-11-03(화) 오전 12:09:29: reading: key = 11, value = 10.5
+2020-11-03(화) 오전 12:09:29: reading: key = 10, value = 10
+2020-11-03(화) 오전 12:09:29: reading: key = 9, value = 9.5
+2020-11-03(화) 오전 12:09:29: reading: key = 8, value = 8.5
+2020-11-03(화) 오전 12:09:29: reading: key = 7, value = 8
+2020-11-03(화) 오전 12:09:29: reading: key = 6, value = 7.5
+2020-11-03(화) 오전 12:09:29: reading: key = 5, value = 6.5
+2020-11-03(화) 오전 12:09:29: reading: key = 4, value = 6
+2020-11-03(화) 오전 12:09:29: reading: key = 3, value = 5
+2020-11-03(화) 오전 12:09:29: reading: key = 2, value = 4.5
+2020-11-03(화) 오전 12:09:29: reading: key = 1, value = 4
+2020-11-03(화) 오전 12:09:29: reading: key = 0, value = 3
+2020-11-03(화) 오전 12:09:29: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-11-03(화) 오전 12:09:29: reading: key = 0, value = Normal
+2020-11-03(화) 오전 12:09:29: reading: key = 1, value = Normal
+2020-11-03(화) 오전 12:09:29: reading: key = 2, value = Normal
+2020-11-03(화) 오전 12:09:29: reading: key = 3, value = Normal
+2020-11-03(화) 오전 12:09:29: reading: key = 4, value = Normal
+2020-11-03(화) 오전 12:09:29: reading: key = 5, value = Normal
+2020-11-03(화) 오전 12:09:29: reading: key = 6, value = Normal
+2020-11-03(화) 오전 12:09:29: reading: key = 7, value = Normal
+2020-11-03(화) 오전 12:09:29: settings changed for: loop_delay!, reimporting...
+2020-11-03(화) 오전 12:09:29: reading: key = loop_delay, value = 5
+2020-11-03(화) 오전 12:09:29: settings changed for: boost_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:09:29: reading: key = boost_cycle_delay, value = 30
+2020-11-03(화) 오전 12:09:29: settings changed for: newlist_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:09:29: reading: key = newlist_cycle_delay, value = 90
+2020-11-03(화) 오전 12:09:29: settings changed for: processor_guid_tweak!, reimporting...
+2020-11-03(화) 오전 12:09:29: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-11-03(화) 오전 12:09:29: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-11-03(화) 오전 12:09:29: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-11-03(화) 오전 12:09:29: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-11-03(화) 오전 12:09:29: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-11-03(화) 오전 12:09:29: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-11-03(화) 오전 12:09:29: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-11-03(화) 오전 12:09:29: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-11-03(화) 오전 12:09:29: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-11-03(화) 오전 12:09:29: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-11-03(화) 오전 12:09:29: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-11-03(화) 오전 12:09:29: settings changed for: generatedCLK!, reimporting...
+2020-11-03(화) 오전 12:09:29: reading: key = 100, value = 2701
+2020-11-03(화) 오전 12:09:29: reading: key = 99, value = 2700
+2020-11-03(화) 오전 12:09:29: reading: key = 98, value = 2600
+2020-11-03(화) 오전 12:09:29: reading: key = 95, value = 2300
+2020-11-03(화) 오전 12:09:29: reading: key = 84, value = 2000
+2020-11-03(화) 오전 12:09:30: reading: key = 73, value = 1800
+2020-11-03(화) 오전 12:09:30: reading: key = 65, value = 1600
+2020-11-03(화) 오전 12:09:30: reading: key = 58, value = 1400
+2020-11-03(화) 오전 12:09:30: reading: key = 50, value = 1200
+2020-11-03(화) 오전 12:09:30: reading: key = 43, value = 900
+2020-11-03(화) 오전 12:09:30: reading: key = 32, value = 700
+2020-11-03(화) 오전 12:09:30: reading: key = 24, value = 500
+2020-11-03(화) 오전 12:09:30: settings changed for: generatedXTU!, reimporting...
+2020-11-03(화) 오전 12:09:30: reading: key = 24, value = 10.5
+2020-11-03(화) 오전 12:09:30: reading: key = 32, value = 10
+2020-11-03(화) 오전 12:09:30: reading: key = 43, value = 9.5
+2020-11-03(화) 오전 12:09:30: reading: key = 50, value = 8.5
+2020-11-03(화) 오전 12:09:30: reading: key = 58, value = 8
+2020-11-03(화) 오전 12:09:30: reading: key = 65, value = 7.5
+2020-11-03(화) 오전 12:09:30: reading: key = 73, value = 6.5
+2020-11-03(화) 오전 12:09:30: reading: key = 84, value = 6
+2020-11-03(화) 오전 12:09:30: reading: key = 95, value = 5
+2020-11-03(화) 오전 12:09:30: reading: key = 98, value = 4.5
+2020-11-03(화) 오전 12:09:30: reading: key = 99, value = 4
+2020-11-03(화) 오전 12:09:30: reading: key = 100, value = 3
+2020-11-03(화) 오전 12:09:30: settings changed for: throttle_median!, reimporting...
+2020-11-03(화) 오전 12:09:30: reading: key = throttle_median, value = 60
+2020-11-03(화) 오전 12:09:30: settings changed for: newlist_median!, reimporting...
+2020-11-03(화) 오전 12:09:30: reading: key = newlist_median, value = 50
+2020-11-03(화) 오전 12:09:30: settings changed for: thermal_median!, reimporting...
+2020-11-03(화) 오전 12:09:30: reading: key = thermal_median, value = 90
+2020-11-03(화) 오전 12:09:30: settings changed for: gpuplan!, reimporting...
+2020-11-03(화) 오전 12:09:30: reading: key = gpuplan, value = 1
+2020-11-03(화) 오전 12:09:30: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:09:31: checking XTU cmdlet
+2020-11-03(화) 오전 12:09:35: XTU ok
+2020-11-03(화) 오전 12:09:38: result = 10.5
+2020-11-03(화) 오전 12:09:38: System.Collections.Generic.Dictionary`2[System.Object,System.Object]
+2020-11-03(화) 오전 12:09:38: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:09:38: setting XTU: 0.5
+2020-11-03(화) 오전 12:09:43: setting GPU: performance
+2020-11-03(화) 오전 12:09:47: setting XTU: 10.5
+2020-11-03(화) 오전 12:10:16: settings changed for: special_programs!, reimporting...
+2020-11-03(화) 오전 12:10:16: reading: key = devenv, value = 6
+2020-11-03(화) 오전 12:10:16: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-11-03(화) 오전 12:10:16: reading: key = 0, value = 100
+2020-11-03(화) 오전 12:10:16: reading: key = 1, value = 99
+2020-11-03(화) 오전 12:10:16: reading: key = 2, value = 98
+2020-11-03(화) 오전 12:10:16: reading: key = 3, value = 95
+2020-11-03(화) 오전 12:10:16: reading: key = 4, value = 84
+2020-11-03(화) 오전 12:10:16: reading: key = 5, value = 73
+2020-11-03(화) 오전 12:10:16: reading: key = 6, value = 65
+2020-11-03(화) 오전 12:10:16: reading: key = 7, value = 58
+2020-11-03(화) 오전 12:10:16: reading: key = 8, value = 50
+2020-11-03(화) 오전 12:10:16: reading: key = 9, value = 43
+2020-11-03(화) 오전 12:10:16: reading: key = 10, value = 32
+2020-11-03(화) 오전 12:10:16: reading: key = 11, value = 24
+2020-11-03(화) 오전 12:10:16: reading: key = 0, value = 99
+2020-11-03(화) 오전 12:10:16: reading: key = 0, value = 98
+2020-11-03(화) 오전 12:10:16: reading: key = 0, value = 95
+2020-11-03(화) 오전 12:10:16: reading: key = 1, value = 98
+2020-11-03(화) 오전 12:10:16: reading: key = 1, value = 95
+2020-11-03(화) 오전 12:10:16: reading: key = 2, value = 95
+2020-11-03(화) 오전 12:10:16: reading: key = 2, value = 84
+2020-11-03(화) 오전 12:10:16: reading: key = 3, value = 84
+2020-11-03(화) 오전 12:10:16: reading: key = 3, value = 73
+2020-11-03(화) 오전 12:10:16: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-11-03(화) 오전 12:10:16: reading: key = 11, value = 10.5
+2020-11-03(화) 오전 12:10:16: reading: key = 10, value = 10
+2020-11-03(화) 오전 12:10:16: reading: key = 9, value = 9.5
+2020-11-03(화) 오전 12:10:16: reading: key = 8, value = 8.5
+2020-11-03(화) 오전 12:10:16: reading: key = 7, value = 8
+2020-11-03(화) 오전 12:10:16: reading: key = 6, value = 7.5
+2020-11-03(화) 오전 12:10:16: reading: key = 5, value = 6.5
+2020-11-03(화) 오전 12:10:16: reading: key = 4, value = 6
+2020-11-03(화) 오전 12:10:16: reading: key = 3, value = 5
+2020-11-03(화) 오전 12:10:16: reading: key = 2, value = 4.5
+2020-11-03(화) 오전 12:10:16: reading: key = 1, value = 4
+2020-11-03(화) 오전 12:10:16: reading: key = 0, value = 3
+2020-11-03(화) 오전 12:10:16: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-11-03(화) 오전 12:10:16: reading: key = 0, value = Normal
+2020-11-03(화) 오전 12:10:16: reading: key = 1, value = Normal
+2020-11-03(화) 오전 12:10:16: reading: key = 2, value = Normal
+2020-11-03(화) 오전 12:10:16: reading: key = 3, value = Normal
+2020-11-03(화) 오전 12:10:16: reading: key = 4, value = Normal
+2020-11-03(화) 오전 12:10:16: reading: key = 5, value = Normal
+2020-11-03(화) 오전 12:10:16: reading: key = 6, value = Normal
+2020-11-03(화) 오전 12:10:16: reading: key = 7, value = Normal
+2020-11-03(화) 오전 12:10:16: settings changed for: loop_delay!, reimporting...
+2020-11-03(화) 오전 12:10:16: reading: key = loop_delay, value = 5
+2020-11-03(화) 오전 12:10:16: settings changed for: boost_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:10:16: reading: key = boost_cycle_delay, value = 30
+2020-11-03(화) 오전 12:10:16: settings changed for: newlist_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:10:16: reading: key = newlist_cycle_delay, value = 90
+2020-11-03(화) 오전 12:10:16: settings changed for: processor_guid_tweak!, reimporting...
+2020-11-03(화) 오전 12:10:16: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-11-03(화) 오전 12:10:16: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-11-03(화) 오전 12:10:16: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-11-03(화) 오전 12:10:16: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-11-03(화) 오전 12:10:16: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-11-03(화) 오전 12:10:16: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-11-03(화) 오전 12:10:16: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-11-03(화) 오전 12:10:16: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-11-03(화) 오전 12:10:16: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-11-03(화) 오전 12:10:16: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-11-03(화) 오전 12:10:16: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-11-03(화) 오전 12:10:16: settings changed for: generatedCLK!, reimporting...
+2020-11-03(화) 오전 12:10:16: reading: key = 100, value = 2701
+2020-11-03(화) 오전 12:10:16: reading: key = 99, value = 2700
+2020-11-03(화) 오전 12:10:16: reading: key = 98, value = 2600
+2020-11-03(화) 오전 12:10:16: reading: key = 95, value = 2300
+2020-11-03(화) 오전 12:10:16: reading: key = 84, value = 2000
+2020-11-03(화) 오전 12:10:16: reading: key = 73, value = 1800
+2020-11-03(화) 오전 12:10:16: reading: key = 65, value = 1600
+2020-11-03(화) 오전 12:10:16: reading: key = 58, value = 1400
+2020-11-03(화) 오전 12:10:16: reading: key = 50, value = 1200
+2020-11-03(화) 오전 12:10:16: reading: key = 43, value = 900
+2020-11-03(화) 오전 12:10:16: reading: key = 32, value = 700
+2020-11-03(화) 오전 12:10:16: reading: key = 24, value = 500
+2020-11-03(화) 오전 12:10:16: settings changed for: generatedXTU!, reimporting...
+2020-11-03(화) 오전 12:10:16: reading: key = 24, value = 10.5
+2020-11-03(화) 오전 12:10:16: reading: key = 32, value = 10
+2020-11-03(화) 오전 12:10:16: reading: key = 43, value = 9.5
+2020-11-03(화) 오전 12:10:16: reading: key = 50, value = 8.5
+2020-11-03(화) 오전 12:10:16: reading: key = 58, value = 8
+2020-11-03(화) 오전 12:10:16: reading: key = 65, value = 7.5
+2020-11-03(화) 오전 12:10:16: reading: key = 73, value = 6.5
+2020-11-03(화) 오전 12:10:16: reading: key = 84, value = 6
+2020-11-03(화) 오전 12:10:16: reading: key = 95, value = 5
+2020-11-03(화) 오전 12:10:16: reading: key = 98, value = 4.5
+2020-11-03(화) 오전 12:10:16: reading: key = 99, value = 4
+2020-11-03(화) 오전 12:10:16: reading: key = 100, value = 3
+2020-11-03(화) 오전 12:10:16: settings changed for: throttle_median!, reimporting...
+2020-11-03(화) 오전 12:10:16: reading: key = throttle_median, value = 60
+2020-11-03(화) 오전 12:10:16: settings changed for: newlist_median!, reimporting...
+2020-11-03(화) 오전 12:10:16: reading: key = newlist_median, value = 50
+2020-11-03(화) 오전 12:10:16: settings changed for: thermal_median!, reimporting...
+2020-11-03(화) 오전 12:10:16: reading: key = thermal_median, value = 90
+2020-11-03(화) 오전 12:10:16: settings changed for: gpuplan!, reimporting...
+2020-11-03(화) 오전 12:10:16: reading: key = gpuplan, value = 1
+2020-11-03(화) 오전 12:10:16: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:10:18: checking XTU cmdlet
+2020-11-03(화) 오전 12:10:21: XTU ok
+2020-11-03(화) 오전 12:10:25: result = 0.5
+2020-11-03(화) 오전 12:10:25: 0.5
+2020-11-03(화) 오전 12:10:25: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:10:25: setting XTU: 0.5
+2020-11-03(화) 오전 12:10:29: setting GPU: performance
+2020-11-03(화) 오전 12:10:32: setting XTU: 0.5
+2020-11-03(화) 오전 12:18:06: settings changed for: special_programs!, reimporting...
+2020-11-03(화) 오전 12:18:06: reading: key = devenv, value = 6
+2020-11-03(화) 오전 12:18:06: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-11-03(화) 오전 12:18:06: reading: key = 0, value = 100
+2020-11-03(화) 오전 12:18:06: reading: key = 1, value = 99
+2020-11-03(화) 오전 12:18:06: reading: key = 2, value = 98
+2020-11-03(화) 오전 12:18:06: reading: key = 3, value = 95
+2020-11-03(화) 오전 12:18:06: reading: key = 4, value = 84
+2020-11-03(화) 오전 12:18:06: reading: key = 5, value = 73
+2020-11-03(화) 오전 12:18:06: reading: key = 6, value = 65
+2020-11-03(화) 오전 12:18:06: reading: key = 7, value = 58
+2020-11-03(화) 오전 12:18:06: reading: key = 8, value = 50
+2020-11-03(화) 오전 12:18:06: reading: key = 9, value = 43
+2020-11-03(화) 오전 12:18:06: reading: key = 10, value = 32
+2020-11-03(화) 오전 12:18:06: reading: key = 11, value = 24
+2020-11-03(화) 오전 12:18:06: reading: key = 0, value = 99
+2020-11-03(화) 오전 12:18:06: reading: key = 0, value = 98
+2020-11-03(화) 오전 12:18:06: reading: key = 0, value = 95
+2020-11-03(화) 오전 12:18:06: reading: key = 1, value = 98
+2020-11-03(화) 오전 12:18:06: reading: key = 1, value = 95
+2020-11-03(화) 오전 12:18:06: reading: key = 2, value = 95
+2020-11-03(화) 오전 12:18:06: reading: key = 2, value = 84
+2020-11-03(화) 오전 12:18:06: reading: key = 3, value = 84
+2020-11-03(화) 오전 12:18:06: reading: key = 3, value = 73
+2020-11-03(화) 오전 12:18:06: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-11-03(화) 오전 12:18:06: reading: key = 11, value = 10.5
+2020-11-03(화) 오전 12:18:06: reading: key = 10, value = 10
+2020-11-03(화) 오전 12:18:06: reading: key = 9, value = 9.5
+2020-11-03(화) 오전 12:18:06: reading: key = 8, value = 8.5
+2020-11-03(화) 오전 12:18:06: reading: key = 7, value = 8
+2020-11-03(화) 오전 12:18:06: reading: key = 6, value = 7.5
+2020-11-03(화) 오전 12:18:06: reading: key = 5, value = 6.5
+2020-11-03(화) 오전 12:18:06: reading: key = 4, value = 6
+2020-11-03(화) 오전 12:18:06: reading: key = 3, value = 5
+2020-11-03(화) 오전 12:18:06: reading: key = 2, value = 4.5
+2020-11-03(화) 오전 12:18:06: reading: key = 1, value = 4
+2020-11-03(화) 오전 12:18:06: reading: key = 0, value = 3
+2020-11-03(화) 오전 12:18:06: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-11-03(화) 오전 12:18:06: reading: key = 0, value = Normal
+2020-11-03(화) 오전 12:18:06: reading: key = 1, value = Normal
+2020-11-03(화) 오전 12:18:06: reading: key = 2, value = Normal
+2020-11-03(화) 오전 12:18:06: reading: key = 3, value = Normal
+2020-11-03(화) 오전 12:18:06: reading: key = 4, value = Normal
+2020-11-03(화) 오전 12:18:06: reading: key = 5, value = Normal
+2020-11-03(화) 오전 12:18:06: reading: key = 6, value = Normal
+2020-11-03(화) 오전 12:18:06: reading: key = 7, value = Normal
+2020-11-03(화) 오전 12:18:06: settings changed for: loop_delay!, reimporting...
+2020-11-03(화) 오전 12:18:06: reading: key = loop_delay, value = 5
+2020-11-03(화) 오전 12:18:06: settings changed for: boost_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:18:06: reading: key = boost_cycle_delay, value = 30
+2020-11-03(화) 오전 12:18:06: settings changed for: newlist_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:18:06: reading: key = newlist_cycle_delay, value = 90
+2020-11-03(화) 오전 12:18:06: settings changed for: processor_guid_tweak!, reimporting...
+2020-11-03(화) 오전 12:18:06: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-11-03(화) 오전 12:18:06: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-11-03(화) 오전 12:18:06: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-11-03(화) 오전 12:18:06: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-11-03(화) 오전 12:18:06: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-11-03(화) 오전 12:18:06: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-11-03(화) 오전 12:18:06: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-11-03(화) 오전 12:18:06: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-11-03(화) 오전 12:18:06: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-11-03(화) 오전 12:18:06: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-11-03(화) 오전 12:18:06: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-11-03(화) 오전 12:18:06: settings changed for: generatedCLK!, reimporting...
+2020-11-03(화) 오전 12:18:06: reading: key = 100, value = 2701
+2020-11-03(화) 오전 12:18:06: reading: key = 99, value = 2700
+2020-11-03(화) 오전 12:18:06: reading: key = 98, value = 2600
+2020-11-03(화) 오전 12:18:06: reading: key = 95, value = 2300
+2020-11-03(화) 오전 12:18:06: reading: key = 84, value = 2000
+2020-11-03(화) 오전 12:18:06: reading: key = 73, value = 1800
+2020-11-03(화) 오전 12:18:06: reading: key = 65, value = 1600
+2020-11-03(화) 오전 12:18:06: reading: key = 58, value = 1400
+2020-11-03(화) 오전 12:18:06: reading: key = 50, value = 1200
+2020-11-03(화) 오전 12:18:06: reading: key = 43, value = 900
+2020-11-03(화) 오전 12:18:06: reading: key = 32, value = 700
+2020-11-03(화) 오전 12:18:06: reading: key = 24, value = 500
+2020-11-03(화) 오전 12:18:06: settings changed for: generatedXTU!, reimporting...
+2020-11-03(화) 오전 12:18:06: reading: key = 24, value = 10.5
+2020-11-03(화) 오전 12:18:06: reading: key = 32, value = 10
+2020-11-03(화) 오전 12:18:06: reading: key = 43, value = 9.5
+2020-11-03(화) 오전 12:18:06: reading: key = 50, value = 8.5
+2020-11-03(화) 오전 12:18:06: reading: key = 58, value = 8
+2020-11-03(화) 오전 12:18:06: reading: key = 65, value = 7.5
+2020-11-03(화) 오전 12:18:06: reading: key = 73, value = 6.5
+2020-11-03(화) 오전 12:18:06: reading: key = 84, value = 6
+2020-11-03(화) 오전 12:18:06: reading: key = 95, value = 5
+2020-11-03(화) 오전 12:18:06: reading: key = 98, value = 4.5
+2020-11-03(화) 오전 12:18:06: reading: key = 99, value = 4
+2020-11-03(화) 오전 12:18:06: reading: key = 100, value = 3
+2020-11-03(화) 오전 12:18:06: settings changed for: throttle_median!, reimporting...
+2020-11-03(화) 오전 12:18:06: reading: key = throttle_median, value = 60
+2020-11-03(화) 오전 12:18:06: settings changed for: newlist_median!, reimporting...
+2020-11-03(화) 오전 12:18:06: reading: key = newlist_median, value = 50
+2020-11-03(화) 오전 12:18:06: settings changed for: thermal_median!, reimporting...
+2020-11-03(화) 오전 12:18:06: reading: key = thermal_median, value = 90
+2020-11-03(화) 오전 12:18:06: settings changed for: gpuplan!, reimporting...
+2020-11-03(화) 오전 12:18:06: reading: key = gpuplan, value = 1
+2020-11-03(화) 오전 12:18:06: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:18:08: checking XTU cmdlet
+2020-11-03(화) 오전 12:18:11: XTU ok
+2020-11-03(화) 오전 12:18:15: result = 10.5
+2020-11-03(화) 오전 12:18:15: 10.5
+2020-11-03(화) 오전 12:18:15: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:18:15: setting XTU: 0.5
+2020-11-03(화) 오전 12:18:19: setting GPU: performance
+2020-11-03(화) 오전 12:18:23: setting XTU: 10.5
+2020-11-03(화) 오전 12:18:27: setting GPU: performance
+2020-11-03(화) 오전 12:18:28: init PowerCFG settings
+2020-11-03(화) 오전 12:18:32: init value counters: maxpwr = 2701, turbopwr = 3052
+2020-11-03(화) 오전 12:18:37: newlist accumulated current pwr:3052 load:3 pivotratio:0.5
+2020-11-03(화) 오전 12:18:37: start of newlist timer
+2020-11-03(화) 오전 12:19:48: settings changed for: special_programs!, reimporting...
+2020-11-03(화) 오전 12:19:48: reading: key = devenv, value = 6
+2020-11-03(화) 오전 12:19:48: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-11-03(화) 오전 12:19:48: reading: key = 0, value = 100
+2020-11-03(화) 오전 12:19:48: reading: key = 1, value = 99
+2020-11-03(화) 오전 12:19:48: reading: key = 2, value = 98
+2020-11-03(화) 오전 12:19:48: reading: key = 3, value = 95
+2020-11-03(화) 오전 12:19:48: reading: key = 4, value = 84
+2020-11-03(화) 오전 12:19:48: reading: key = 5, value = 73
+2020-11-03(화) 오전 12:19:48: reading: key = 6, value = 65
+2020-11-03(화) 오전 12:19:48: reading: key = 7, value = 58
+2020-11-03(화) 오전 12:19:48: reading: key = 8, value = 50
+2020-11-03(화) 오전 12:19:48: reading: key = 9, value = 43
+2020-11-03(화) 오전 12:19:48: reading: key = 10, value = 32
+2020-11-03(화) 오전 12:19:48: reading: key = 11, value = 24
+2020-11-03(화) 오전 12:19:48: reading: key = 0, value = 99
+2020-11-03(화) 오전 12:19:48: reading: key = 0, value = 98
+2020-11-03(화) 오전 12:19:48: reading: key = 0, value = 95
+2020-11-03(화) 오전 12:19:48: reading: key = 1, value = 98
+2020-11-03(화) 오전 12:19:48: reading: key = 1, value = 95
+2020-11-03(화) 오전 12:19:48: reading: key = 2, value = 95
+2020-11-03(화) 오전 12:19:48: reading: key = 2, value = 84
+2020-11-03(화) 오전 12:19:48: reading: key = 3, value = 84
+2020-11-03(화) 오전 12:19:48: reading: key = 3, value = 73
+2020-11-03(화) 오전 12:19:48: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-11-03(화) 오전 12:19:48: reading: key = 11, value = 10.5
+2020-11-03(화) 오전 12:19:48: reading: key = 10, value = 10
+2020-11-03(화) 오전 12:19:48: reading: key = 9, value = 9.5
+2020-11-03(화) 오전 12:19:48: reading: key = 8, value = 8.5
+2020-11-03(화) 오전 12:19:48: reading: key = 7, value = 8
+2020-11-03(화) 오전 12:19:48: reading: key = 6, value = 7.5
+2020-11-03(화) 오전 12:19:48: reading: key = 5, value = 6.5
+2020-11-03(화) 오전 12:19:48: reading: key = 4, value = 6
+2020-11-03(화) 오전 12:19:48: reading: key = 3, value = 5
+2020-11-03(화) 오전 12:19:48: reading: key = 2, value = 4.5
+2020-11-03(화) 오전 12:19:48: reading: key = 1, value = 4
+2020-11-03(화) 오전 12:19:48: reading: key = 0, value = 3
+2020-11-03(화) 오전 12:19:48: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-11-03(화) 오전 12:19:48: reading: key = 0, value = Normal
+2020-11-03(화) 오전 12:19:48: reading: key = 1, value = Normal
+2020-11-03(화) 오전 12:19:48: reading: key = 2, value = Normal
+2020-11-03(화) 오전 12:19:48: reading: key = 3, value = Normal
+2020-11-03(화) 오전 12:19:48: reading: key = 4, value = Normal
+2020-11-03(화) 오전 12:19:48: reading: key = 5, value = Normal
+2020-11-03(화) 오전 12:19:48: reading: key = 6, value = Normal
+2020-11-03(화) 오전 12:19:48: reading: key = 7, value = Normal
+2020-11-03(화) 오전 12:19:48: settings changed for: loop_delay!, reimporting...
+2020-11-03(화) 오전 12:19:48: reading: key = loop_delay, value = 5
+2020-11-03(화) 오전 12:19:48: settings changed for: boost_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:19:48: reading: key = boost_cycle_delay, value = 30
+2020-11-03(화) 오전 12:19:48: settings changed for: newlist_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:19:48: reading: key = newlist_cycle_delay, value = 90
+2020-11-03(화) 오전 12:19:48: settings changed for: processor_guid_tweak!, reimporting...
+2020-11-03(화) 오전 12:19:48: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-11-03(화) 오전 12:19:48: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-11-03(화) 오전 12:19:48: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-11-03(화) 오전 12:19:48: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-11-03(화) 오전 12:19:48: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-11-03(화) 오전 12:19:48: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-11-03(화) 오전 12:19:48: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-11-03(화) 오전 12:19:48: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-11-03(화) 오전 12:19:48: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-11-03(화) 오전 12:19:48: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-11-03(화) 오전 12:19:48: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-11-03(화) 오전 12:19:48: settings changed for: generatedCLK!, reimporting...
+2020-11-03(화) 오전 12:19:48: reading: key = 100, value = 2701
+2020-11-03(화) 오전 12:19:48: reading: key = 99, value = 2700
+2020-11-03(화) 오전 12:19:48: reading: key = 98, value = 2600
+2020-11-03(화) 오전 12:19:48: reading: key = 95, value = 2300
+2020-11-03(화) 오전 12:19:48: reading: key = 84, value = 2000
+2020-11-03(화) 오전 12:19:48: reading: key = 73, value = 1800
+2020-11-03(화) 오전 12:19:48: reading: key = 65, value = 1600
+2020-11-03(화) 오전 12:19:48: reading: key = 58, value = 1400
+2020-11-03(화) 오전 12:19:48: reading: key = 50, value = 1200
+2020-11-03(화) 오전 12:19:48: reading: key = 43, value = 900
+2020-11-03(화) 오전 12:19:48: reading: key = 32, value = 700
+2020-11-03(화) 오전 12:19:48: reading: key = 24, value = 500
+2020-11-03(화) 오전 12:19:48: settings changed for: generatedXTU!, reimporting...
+2020-11-03(화) 오전 12:19:48: reading: key = 24, value = 10.5
+2020-11-03(화) 오전 12:19:48: reading: key = 32, value = 10
+2020-11-03(화) 오전 12:19:48: reading: key = 43, value = 9.5
+2020-11-03(화) 오전 12:19:48: reading: key = 50, value = 8.5
+2020-11-03(화) 오전 12:19:48: reading: key = 58, value = 8
+2020-11-03(화) 오전 12:19:48: reading: key = 65, value = 7.5
+2020-11-03(화) 오전 12:19:48: reading: key = 73, value = 6.5
+2020-11-03(화) 오전 12:19:48: reading: key = 84, value = 6
+2020-11-03(화) 오전 12:19:48: reading: key = 95, value = 5
+2020-11-03(화) 오전 12:19:48: reading: key = 98, value = 4.5
+2020-11-03(화) 오전 12:19:48: reading: key = 99, value = 4
+2020-11-03(화) 오전 12:19:49: reading: key = 100, value = 3
+2020-11-03(화) 오전 12:19:49: settings changed for: throttle_median!, reimporting...
+2020-11-03(화) 오전 12:19:49: reading: key = throttle_median, value = 60
+2020-11-03(화) 오전 12:19:49: settings changed for: newlist_median!, reimporting...
+2020-11-03(화) 오전 12:19:49: reading: key = newlist_median, value = 50
+2020-11-03(화) 오전 12:19:49: settings changed for: thermal_median!, reimporting...
+2020-11-03(화) 오전 12:19:49: reading: key = thermal_median, value = 90
+2020-11-03(화) 오전 12:19:49: settings changed for: gpuplan!, reimporting...
+2020-11-03(화) 오전 12:19:49: reading: key = gpuplan, value = 1
+2020-11-03(화) 오전 12:19:49: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:19:50: checking XTU cmdlet
+2020-11-03(화) 오전 12:19:52: XTU ok
+2020-11-03(화) 오전 12:19:54: result = 10.5
+2020-11-03(화) 오전 12:19:54: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:19:54: setting XTU: 0.5
+2020-11-03(화) 오전 12:19:56: setting GPU: performance
+2020-11-03(화) 오전 12:19:58: setting XTU: 10.5
+2020-11-03(화) 오전 12:20:00: setting GPU: performance
+2020-11-03(화) 오전 12:20:00: init PowerCFG settings
+2020-11-03(화) 오전 12:20:04: init value counters: maxpwr = 2701, turbopwr = 3052
+2020-11-03(화) 오전 12:20:14: settings changed for: special_programs!, reimporting...
+2020-11-03(화) 오전 12:20:14: reading: key = devenv, value = 6
+2020-11-03(화) 오전 12:20:14: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-11-03(화) 오전 12:20:14: reading: key = 0, value = 100
+2020-11-03(화) 오전 12:20:14: reading: key = 1, value = 99
+2020-11-03(화) 오전 12:20:14: reading: key = 2, value = 98
+2020-11-03(화) 오전 12:20:14: reading: key = 3, value = 95
+2020-11-03(화) 오전 12:20:14: reading: key = 4, value = 84
+2020-11-03(화) 오전 12:20:14: reading: key = 5, value = 73
+2020-11-03(화) 오전 12:20:14: reading: key = 6, value = 65
+2020-11-03(화) 오전 12:20:14: reading: key = 7, value = 58
+2020-11-03(화) 오전 12:20:14: reading: key = 8, value = 50
+2020-11-03(화) 오전 12:20:14: reading: key = 9, value = 43
+2020-11-03(화) 오전 12:20:14: reading: key = 10, value = 32
+2020-11-03(화) 오전 12:20:14: reading: key = 11, value = 24
+2020-11-03(화) 오전 12:20:14: reading: key = 0, value = 99
+2020-11-03(화) 오전 12:20:14: reading: key = 0, value = 98
+2020-11-03(화) 오전 12:20:14: reading: key = 0, value = 95
+2020-11-03(화) 오전 12:20:14: reading: key = 1, value = 98
+2020-11-03(화) 오전 12:20:15: reading: key = 1, value = 95
+2020-11-03(화) 오전 12:20:15: reading: key = 2, value = 95
+2020-11-03(화) 오전 12:20:15: reading: key = 2, value = 84
+2020-11-03(화) 오전 12:20:15: reading: key = 3, value = 84
+2020-11-03(화) 오전 12:20:15: reading: key = 3, value = 73
+2020-11-03(화) 오전 12:20:15: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-11-03(화) 오전 12:20:15: reading: key = 11, value = 10.5
+2020-11-03(화) 오전 12:20:15: reading: key = 10, value = 10
+2020-11-03(화) 오전 12:20:15: reading: key = 9, value = 9.5
+2020-11-03(화) 오전 12:20:15: reading: key = 8, value = 8.5
+2020-11-03(화) 오전 12:20:15: reading: key = 7, value = 8
+2020-11-03(화) 오전 12:20:15: reading: key = 6, value = 7.5
+2020-11-03(화) 오전 12:20:15: reading: key = 5, value = 6.5
+2020-11-03(화) 오전 12:20:15: reading: key = 4, value = 6
+2020-11-03(화) 오전 12:20:15: reading: key = 3, value = 5
+2020-11-03(화) 오전 12:20:15: reading: key = 2, value = 4.5
+2020-11-03(화) 오전 12:20:15: reading: key = 1, value = 4
+2020-11-03(화) 오전 12:20:15: reading: key = 0, value = 3
+2020-11-03(화) 오전 12:20:15: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-11-03(화) 오전 12:20:15: reading: key = 0, value = Normal
+2020-11-03(화) 오전 12:20:15: reading: key = 1, value = Normal
+2020-11-03(화) 오전 12:20:15: reading: key = 2, value = Normal
+2020-11-03(화) 오전 12:20:15: reading: key = 3, value = Normal
+2020-11-03(화) 오전 12:20:15: reading: key = 4, value = Normal
+2020-11-03(화) 오전 12:20:15: reading: key = 5, value = Normal
+2020-11-03(화) 오전 12:20:15: reading: key = 6, value = Normal
+2020-11-03(화) 오전 12:20:15: reading: key = 7, value = Normal
+2020-11-03(화) 오전 12:20:15: settings changed for: loop_delay!, reimporting...
+2020-11-03(화) 오전 12:20:15: reading: key = loop_delay, value = 5
+2020-11-03(화) 오전 12:20:15: settings changed for: boost_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:20:15: reading: key = boost_cycle_delay, value = 30
+2020-11-03(화) 오전 12:20:15: settings changed for: newlist_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:20:15: reading: key = newlist_cycle_delay, value = 90
+2020-11-03(화) 오전 12:20:15: settings changed for: processor_guid_tweak!, reimporting...
+2020-11-03(화) 오전 12:20:15: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-11-03(화) 오전 12:20:15: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-11-03(화) 오전 12:20:15: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-11-03(화) 오전 12:20:15: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-11-03(화) 오전 12:20:15: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-11-03(화) 오전 12:20:15: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-11-03(화) 오전 12:20:15: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-11-03(화) 오전 12:20:15: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-11-03(화) 오전 12:20:15: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-11-03(화) 오전 12:20:15: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-11-03(화) 오전 12:20:15: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-11-03(화) 오전 12:20:15: settings changed for: generatedCLK!, reimporting...
+2020-11-03(화) 오전 12:20:15: reading: key = 100, value = 2701
+2020-11-03(화) 오전 12:20:15: reading: key = 99, value = 2700
+2020-11-03(화) 오전 12:20:15: reading: key = 98, value = 2600
+2020-11-03(화) 오전 12:20:15: reading: key = 95, value = 2300
+2020-11-03(화) 오전 12:20:15: reading: key = 84, value = 2000
+2020-11-03(화) 오전 12:20:15: reading: key = 73, value = 1800
+2020-11-03(화) 오전 12:20:15: reading: key = 65, value = 1600
+2020-11-03(화) 오전 12:20:15: reading: key = 58, value = 1400
+2020-11-03(화) 오전 12:20:15: reading: key = 50, value = 1200
+2020-11-03(화) 오전 12:20:15: reading: key = 43, value = 900
+2020-11-03(화) 오전 12:20:15: reading: key = 32, value = 700
+2020-11-03(화) 오전 12:20:15: reading: key = 24, value = 500
+2020-11-03(화) 오전 12:20:15: settings changed for: generatedXTU!, reimporting...
+2020-11-03(화) 오전 12:20:15: reading: key = 24, value = 10.5
+2020-11-03(화) 오전 12:20:15: reading: key = 32, value = 10
+2020-11-03(화) 오전 12:20:15: reading: key = 43, value = 9.5
+2020-11-03(화) 오전 12:20:15: reading: key = 50, value = 8.5
+2020-11-03(화) 오전 12:20:15: reading: key = 58, value = 8
+2020-11-03(화) 오전 12:20:15: reading: key = 65, value = 7.5
+2020-11-03(화) 오전 12:20:15: reading: key = 73, value = 6.5
+2020-11-03(화) 오전 12:20:15: reading: key = 84, value = 6
+2020-11-03(화) 오전 12:20:15: reading: key = 95, value = 5
+2020-11-03(화) 오전 12:20:15: reading: key = 98, value = 4.5
+2020-11-03(화) 오전 12:20:15: reading: key = 99, value = 4
+2020-11-03(화) 오전 12:20:15: reading: key = 100, value = 3
+2020-11-03(화) 오전 12:20:15: settings changed for: throttle_median!, reimporting...
+2020-11-03(화) 오전 12:20:15: reading: key = throttle_median, value = 60
+2020-11-03(화) 오전 12:20:15: settings changed for: newlist_median!, reimporting...
+2020-11-03(화) 오전 12:20:15: reading: key = newlist_median, value = 50
+2020-11-03(화) 오전 12:20:15: settings changed for: thermal_median!, reimporting...
+2020-11-03(화) 오전 12:20:15: reading: key = thermal_median, value = 90
+2020-11-03(화) 오전 12:20:15: settings changed for: gpuplan!, reimporting...
+2020-11-03(화) 오전 12:20:15: reading: key = gpuplan, value = 1
+2020-11-03(화) 오전 12:20:15: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:20:16: checking XTU cmdlet
+2020-11-03(화) 오전 12:20:18: XTU ok
+2020-11-03(화) 오전 12:21:07: settings changed for: special_programs!, reimporting...
+2020-11-03(화) 오전 12:21:07: reading: key = devenv, value = 6
+2020-11-03(화) 오전 12:21:07: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-11-03(화) 오전 12:21:07: reading: key = 0, value = 100
+2020-11-03(화) 오전 12:21:07: reading: key = 1, value = 99
+2020-11-03(화) 오전 12:21:07: reading: key = 2, value = 98
+2020-11-03(화) 오전 12:21:07: reading: key = 3, value = 95
+2020-11-03(화) 오전 12:21:07: reading: key = 4, value = 84
+2020-11-03(화) 오전 12:21:07: reading: key = 5, value = 73
+2020-11-03(화) 오전 12:21:07: reading: key = 6, value = 65
+2020-11-03(화) 오전 12:21:07: reading: key = 7, value = 58
+2020-11-03(화) 오전 12:21:07: reading: key = 8, value = 50
+2020-11-03(화) 오전 12:21:07: reading: key = 9, value = 43
+2020-11-03(화) 오전 12:21:07: reading: key = 10, value = 32
+2020-11-03(화) 오전 12:21:07: reading: key = 11, value = 24
+2020-11-03(화) 오전 12:21:07: reading: key = 0, value = 99
+2020-11-03(화) 오전 12:21:07: reading: key = 0, value = 98
+2020-11-03(화) 오전 12:21:07: reading: key = 0, value = 95
+2020-11-03(화) 오전 12:21:07: reading: key = 1, value = 98
+2020-11-03(화) 오전 12:21:07: reading: key = 1, value = 95
+2020-11-03(화) 오전 12:21:07: reading: key = 2, value = 95
+2020-11-03(화) 오전 12:21:07: reading: key = 2, value = 84
+2020-11-03(화) 오전 12:21:07: reading: key = 3, value = 84
+2020-11-03(화) 오전 12:21:07: reading: key = 3, value = 73
+2020-11-03(화) 오전 12:21:07: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-11-03(화) 오전 12:21:07: reading: key = 11, value = 10.5
+2020-11-03(화) 오전 12:21:07: reading: key = 10, value = 10
+2020-11-03(화) 오전 12:21:07: reading: key = 9, value = 9.5
+2020-11-03(화) 오전 12:21:07: reading: key = 8, value = 8.5
+2020-11-03(화) 오전 12:21:07: reading: key = 7, value = 8
+2020-11-03(화) 오전 12:21:07: reading: key = 6, value = 7.5
+2020-11-03(화) 오전 12:21:07: reading: key = 5, value = 6.5
+2020-11-03(화) 오전 12:21:07: reading: key = 4, value = 6
+2020-11-03(화) 오전 12:21:07: reading: key = 3, value = 5
+2020-11-03(화) 오전 12:21:07: reading: key = 2, value = 4.5
+2020-11-03(화) 오전 12:21:07: reading: key = 1, value = 4
+2020-11-03(화) 오전 12:21:07: reading: key = 0, value = 3
+2020-11-03(화) 오전 12:21:07: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-11-03(화) 오전 12:21:07: reading: key = 0, value = Normal
+2020-11-03(화) 오전 12:21:07: reading: key = 1, value = Normal
+2020-11-03(화) 오전 12:21:07: reading: key = 2, value = Normal
+2020-11-03(화) 오전 12:21:07: reading: key = 3, value = Normal
+2020-11-03(화) 오전 12:21:07: reading: key = 4, value = Normal
+2020-11-03(화) 오전 12:21:07: reading: key = 5, value = Normal
+2020-11-03(화) 오전 12:21:07: reading: key = 6, value = Normal
+2020-11-03(화) 오전 12:21:07: reading: key = 7, value = Normal
+2020-11-03(화) 오전 12:21:07: settings changed for: loop_delay!, reimporting...
+2020-11-03(화) 오전 12:21:07: reading: key = loop_delay, value = 5
+2020-11-03(화) 오전 12:21:07: settings changed for: boost_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:21:07: reading: key = boost_cycle_delay, value = 30
+2020-11-03(화) 오전 12:21:07: settings changed for: newlist_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:21:07: reading: key = newlist_cycle_delay, value = 90
+2020-11-03(화) 오전 12:21:07: settings changed for: processor_guid_tweak!, reimporting...
+2020-11-03(화) 오전 12:21:07: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-11-03(화) 오전 12:21:07: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-11-03(화) 오전 12:21:07: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-11-03(화) 오전 12:21:07: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-11-03(화) 오전 12:21:07: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-11-03(화) 오전 12:21:07: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-11-03(화) 오전 12:21:07: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-11-03(화) 오전 12:21:07: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-11-03(화) 오전 12:21:07: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-11-03(화) 오전 12:21:07: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-11-03(화) 오전 12:21:07: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-11-03(화) 오전 12:21:07: settings changed for: generatedCLK!, reimporting...
+2020-11-03(화) 오전 12:21:07: reading: key = 100, value = 2701
+2020-11-03(화) 오전 12:21:07: reading: key = 99, value = 2700
+2020-11-03(화) 오전 12:21:07: reading: key = 98, value = 2600
+2020-11-03(화) 오전 12:21:07: reading: key = 95, value = 2300
+2020-11-03(화) 오전 12:21:07: reading: key = 84, value = 2000
+2020-11-03(화) 오전 12:21:07: reading: key = 73, value = 1800
+2020-11-03(화) 오전 12:21:07: reading: key = 65, value = 1600
+2020-11-03(화) 오전 12:21:07: reading: key = 58, value = 1400
+2020-11-03(화) 오전 12:21:07: reading: key = 50, value = 1200
+2020-11-03(화) 오전 12:21:07: reading: key = 43, value = 900
+2020-11-03(화) 오전 12:21:07: reading: key = 32, value = 700
+2020-11-03(화) 오전 12:21:07: reading: key = 24, value = 500
+2020-11-03(화) 오전 12:21:07: settings changed for: generatedXTU!, reimporting...
+2020-11-03(화) 오전 12:21:07: reading: key = 24, value = 10.5
+2020-11-03(화) 오전 12:21:07: reading: key = 32, value = 10
+2020-11-03(화) 오전 12:21:07: reading: key = 43, value = 9.5
+2020-11-03(화) 오전 12:21:07: reading: key = 50, value = 8.5
+2020-11-03(화) 오전 12:21:07: reading: key = 58, value = 8
+2020-11-03(화) 오전 12:21:07: reading: key = 65, value = 7.5
+2020-11-03(화) 오전 12:21:07: reading: key = 73, value = 6.5
+2020-11-03(화) 오전 12:21:07: reading: key = 84, value = 6
+2020-11-03(화) 오전 12:21:07: reading: key = 95, value = 5
+2020-11-03(화) 오전 12:21:07: reading: key = 98, value = 4.5
+2020-11-03(화) 오전 12:21:07: reading: key = 99, value = 4
+2020-11-03(화) 오전 12:21:07: reading: key = 100, value = 3
+2020-11-03(화) 오전 12:21:07: settings changed for: throttle_median!, reimporting...
+2020-11-03(화) 오전 12:21:07: reading: key = throttle_median, value = 60
+2020-11-03(화) 오전 12:21:07: settings changed for: newlist_median!, reimporting...
+2020-11-03(화) 오전 12:21:07: reading: key = newlist_median, value = 50
+2020-11-03(화) 오전 12:21:07: settings changed for: thermal_median!, reimporting...
+2020-11-03(화) 오전 12:21:07: reading: key = thermal_median, value = 90
+2020-11-03(화) 오전 12:21:07: settings changed for: gpuplan!, reimporting...
+2020-11-03(화) 오전 12:21:07: reading: key = gpuplan, value = 1
+2020-11-03(화) 오전 12:21:07: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:21:09: checking XTU cmdlet
+2020-11-03(화) 오전 12:21:11: XTU ok
+2020-11-03(화) 오전 12:25:33: settings changed for: special_programs!, reimporting...
+2020-11-03(화) 오전 12:25:33: reading: key = devenv, value = 6
+2020-11-03(화) 오전 12:25:33: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-11-03(화) 오전 12:25:33: reading: key = 0, value = 100
+2020-11-03(화) 오전 12:25:33: reading: key = 1, value = 99
+2020-11-03(화) 오전 12:25:33: reading: key = 2, value = 98
+2020-11-03(화) 오전 12:25:33: reading: key = 3, value = 95
+2020-11-03(화) 오전 12:25:33: reading: key = 4, value = 84
+2020-11-03(화) 오전 12:25:33: reading: key = 5, value = 73
+2020-11-03(화) 오전 12:25:33: reading: key = 6, value = 65
+2020-11-03(화) 오전 12:25:33: reading: key = 7, value = 58
+2020-11-03(화) 오전 12:25:33: reading: key = 8, value = 50
+2020-11-03(화) 오전 12:25:33: reading: key = 9, value = 43
+2020-11-03(화) 오전 12:25:33: reading: key = 10, value = 32
+2020-11-03(화) 오전 12:25:33: reading: key = 11, value = 24
+2020-11-03(화) 오전 12:25:33: reading: key = 0, value = 99
+2020-11-03(화) 오전 12:25:33: reading: key = 0, value = 98
+2020-11-03(화) 오전 12:25:33: reading: key = 0, value = 95
+2020-11-03(화) 오전 12:25:33: reading: key = 1, value = 98
+2020-11-03(화) 오전 12:25:33: reading: key = 1, value = 95
+2020-11-03(화) 오전 12:25:33: reading: key = 2, value = 95
+2020-11-03(화) 오전 12:25:33: reading: key = 2, value = 84
+2020-11-03(화) 오전 12:25:33: reading: key = 3, value = 84
+2020-11-03(화) 오전 12:25:33: reading: key = 3, value = 73
+2020-11-03(화) 오전 12:25:33: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-11-03(화) 오전 12:25:33: reading: key = 11, value = 10.5
+2020-11-03(화) 오전 12:25:33: reading: key = 10, value = 10
+2020-11-03(화) 오전 12:25:33: reading: key = 9, value = 9.5
+2020-11-03(화) 오전 12:25:33: reading: key = 8, value = 8.5
+2020-11-03(화) 오전 12:25:33: reading: key = 7, value = 8
+2020-11-03(화) 오전 12:25:33: reading: key = 6, value = 7.5
+2020-11-03(화) 오전 12:25:33: reading: key = 5, value = 6.5
+2020-11-03(화) 오전 12:25:33: reading: key = 4, value = 6
+2020-11-03(화) 오전 12:25:33: reading: key = 3, value = 5
+2020-11-03(화) 오전 12:25:33: reading: key = 2, value = 4.5
+2020-11-03(화) 오전 12:25:33: reading: key = 1, value = 4
+2020-11-03(화) 오전 12:25:33: reading: key = 0, value = 3
+2020-11-03(화) 오전 12:25:33: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-11-03(화) 오전 12:25:33: reading: key = 0, value = Normal
+2020-11-03(화) 오전 12:25:33: reading: key = 1, value = Normal
+2020-11-03(화) 오전 12:25:33: reading: key = 2, value = Normal
+2020-11-03(화) 오전 12:25:33: reading: key = 3, value = Normal
+2020-11-03(화) 오전 12:25:33: reading: key = 4, value = Normal
+2020-11-03(화) 오전 12:25:33: reading: key = 5, value = Normal
+2020-11-03(화) 오전 12:25:33: reading: key = 6, value = Normal
+2020-11-03(화) 오전 12:25:33: reading: key = 7, value = Normal
+2020-11-03(화) 오전 12:25:33: settings changed for: loop_delay!, reimporting...
+2020-11-03(화) 오전 12:25:33: reading: key = loop_delay, value = 5
+2020-11-03(화) 오전 12:25:33: settings changed for: boost_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:25:33: reading: key = boost_cycle_delay, value = 30
+2020-11-03(화) 오전 12:25:33: settings changed for: newlist_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:25:33: reading: key = newlist_cycle_delay, value = 90
+2020-11-03(화) 오전 12:25:33: settings changed for: processor_guid_tweak!, reimporting...
+2020-11-03(화) 오전 12:25:33: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-11-03(화) 오전 12:25:33: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-11-03(화) 오전 12:25:33: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-11-03(화) 오전 12:25:33: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-11-03(화) 오전 12:25:33: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-11-03(화) 오전 12:25:33: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-11-03(화) 오전 12:25:33: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-11-03(화) 오전 12:25:33: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-11-03(화) 오전 12:25:33: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-11-03(화) 오전 12:25:33: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-11-03(화) 오전 12:25:33: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-11-03(화) 오전 12:25:33: settings changed for: generatedCLK!, reimporting...
+2020-11-03(화) 오전 12:25:33: reading: key = 100, value = 2701
+2020-11-03(화) 오전 12:25:33: reading: key = 99, value = 2700
+2020-11-03(화) 오전 12:25:33: reading: key = 98, value = 2600
+2020-11-03(화) 오전 12:25:33: reading: key = 95, value = 2300
+2020-11-03(화) 오전 12:25:33: reading: key = 84, value = 2000
+2020-11-03(화) 오전 12:25:33: reading: key = 73, value = 1800
+2020-11-03(화) 오전 12:25:33: reading: key = 65, value = 1600
+2020-11-03(화) 오전 12:25:33: reading: key = 58, value = 1400
+2020-11-03(화) 오전 12:25:33: reading: key = 50, value = 1200
+2020-11-03(화) 오전 12:25:33: reading: key = 43, value = 900
+2020-11-03(화) 오전 12:25:33: reading: key = 32, value = 700
+2020-11-03(화) 오전 12:25:33: reading: key = 24, value = 500
+2020-11-03(화) 오전 12:25:33: settings changed for: generatedXTU!, reimporting...
+2020-11-03(화) 오전 12:25:33: reading: key = 24, value = 10.5
+2020-11-03(화) 오전 12:25:33: reading: key = 32, value = 10
+2020-11-03(화) 오전 12:25:33: reading: key = 43, value = 9.5
+2020-11-03(화) 오전 12:25:33: reading: key = 50, value = 8.5
+2020-11-03(화) 오전 12:25:33: reading: key = 58, value = 8
+2020-11-03(화) 오전 12:25:33: reading: key = 65, value = 7.5
+2020-11-03(화) 오전 12:25:33: reading: key = 73, value = 6.5
+2020-11-03(화) 오전 12:25:33: reading: key = 84, value = 6
+2020-11-03(화) 오전 12:25:33: reading: key = 95, value = 5
+2020-11-03(화) 오전 12:25:33: reading: key = 98, value = 4.5
+2020-11-03(화) 오전 12:25:33: reading: key = 99, value = 4
+2020-11-03(화) 오전 12:25:33: reading: key = 100, value = 3
+2020-11-03(화) 오전 12:25:33: settings changed for: throttle_median!, reimporting...
+2020-11-03(화) 오전 12:25:33: reading: key = throttle_median, value = 60
+2020-11-03(화) 오전 12:25:33: settings changed for: newlist_median!, reimporting...
+2020-11-03(화) 오전 12:25:33: reading: key = newlist_median, value = 50
+2020-11-03(화) 오전 12:25:33: settings changed for: thermal_median!, reimporting...
+2020-11-03(화) 오전 12:25:33: reading: key = thermal_median, value = 90
+2020-11-03(화) 오전 12:25:33: settings changed for: gpuplan!, reimporting...
+2020-11-03(화) 오전 12:25:33: reading: key = gpuplan, value = 1
+2020-11-03(화) 오전 12:25:33: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:25:33: reading: key = xtudefault, value = 10.5
+2020-11-03(화) 오전 12:25:34: checking XTU cmdlet
+2020-11-03(화) 오전 12:25:36: XTU ok
+2020-11-03(화) 오전 12:25:36: setting XTU: 0.5
+2020-11-03(화) 오전 12:25:38: setting GPU: performance
+2020-11-03(화) 오전 12:25:40: setting XTU: 1234
+2020-11-03(화) 오전 12:25:42: setting GPU: performance
+2020-11-03(화) 오전 12:25:42: init PowerCFG settings
+2020-11-03(화) 오전 12:25:46: init value counters: maxpwr = 2701, turbopwr = 3079
+2020-11-03(화) 오전 12:28:23: settings changed for: special_programs!, reimporting...
+2020-11-03(화) 오전 12:28:23: reading: key = devenv, value = 6
+2020-11-03(화) 오전 12:28:23: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-11-03(화) 오전 12:28:23: reading: key = 0, value = 100
+2020-11-03(화) 오전 12:28:23: reading: key = 1, value = 99
+2020-11-03(화) 오전 12:28:23: reading: key = 2, value = 98
+2020-11-03(화) 오전 12:28:23: reading: key = 3, value = 95
+2020-11-03(화) 오전 12:28:23: reading: key = 4, value = 84
+2020-11-03(화) 오전 12:28:23: reading: key = 5, value = 73
+2020-11-03(화) 오전 12:28:23: reading: key = 6, value = 65
+2020-11-03(화) 오전 12:28:23: reading: key = 7, value = 58
+2020-11-03(화) 오전 12:28:23: reading: key = 8, value = 50
+2020-11-03(화) 오전 12:28:23: reading: key = 9, value = 43
+2020-11-03(화) 오전 12:28:23: reading: key = 10, value = 32
+2020-11-03(화) 오전 12:28:23: reading: key = 11, value = 24
+2020-11-03(화) 오전 12:28:23: reading: key = 0, value = 99
+2020-11-03(화) 오전 12:28:23: reading: key = 0, value = 98
+2020-11-03(화) 오전 12:28:23: reading: key = 0, value = 95
+2020-11-03(화) 오전 12:28:23: reading: key = 1, value = 98
+2020-11-03(화) 오전 12:28:23: reading: key = 1, value = 95
+2020-11-03(화) 오전 12:28:23: reading: key = 2, value = 95
+2020-11-03(화) 오전 12:28:23: reading: key = 2, value = 84
+2020-11-03(화) 오전 12:28:23: reading: key = 3, value = 84
+2020-11-03(화) 오전 12:28:23: reading: key = 3, value = 73
+2020-11-03(화) 오전 12:28:23: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-11-03(화) 오전 12:28:23: reading: key = 11, value = 10.5
+2020-11-03(화) 오전 12:28:23: reading: key = 10, value = 10
+2020-11-03(화) 오전 12:28:23: reading: key = 9, value = 9.5
+2020-11-03(화) 오전 12:28:23: reading: key = 8, value = 8.5
+2020-11-03(화) 오전 12:28:23: reading: key = 7, value = 8
+2020-11-03(화) 오전 12:28:23: reading: key = 6, value = 7.5
+2020-11-03(화) 오전 12:28:23: reading: key = 5, value = 6.5
+2020-11-03(화) 오전 12:28:23: reading: key = 4, value = 6
+2020-11-03(화) 오전 12:28:23: reading: key = 3, value = 5
+2020-11-03(화) 오전 12:28:23: reading: key = 2, value = 4.5
+2020-11-03(화) 오전 12:28:23: reading: key = 1, value = 4
+2020-11-03(화) 오전 12:28:23: reading: key = 0, value = 3
+2020-11-03(화) 오전 12:28:23: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-11-03(화) 오전 12:28:23: reading: key = 0, value = Normal
+2020-11-03(화) 오전 12:28:23: reading: key = 1, value = Normal
+2020-11-03(화) 오전 12:28:23: reading: key = 2, value = Normal
+2020-11-03(화) 오전 12:28:23: reading: key = 3, value = Normal
+2020-11-03(화) 오전 12:28:23: reading: key = 4, value = Normal
+2020-11-03(화) 오전 12:28:23: reading: key = 5, value = Normal
+2020-11-03(화) 오전 12:28:23: reading: key = 6, value = Normal
+2020-11-03(화) 오전 12:28:23: reading: key = 7, value = Normal
+2020-11-03(화) 오전 12:28:23: settings changed for: loop_delay!, reimporting...
+2020-11-03(화) 오전 12:28:23: reading: key = loop_delay, value = 5
+2020-11-03(화) 오전 12:28:23: settings changed for: boost_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:28:23: reading: key = boost_cycle_delay, value = 30
+2020-11-03(화) 오전 12:28:23: settings changed for: newlist_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:28:23: reading: key = newlist_cycle_delay, value = 90
+2020-11-03(화) 오전 12:28:23: settings changed for: processor_guid_tweak!, reimporting...
+2020-11-03(화) 오전 12:28:23: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-11-03(화) 오전 12:28:23: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-11-03(화) 오전 12:28:23: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-11-03(화) 오전 12:28:23: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-11-03(화) 오전 12:28:23: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-11-03(화) 오전 12:28:23: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-11-03(화) 오전 12:28:23: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-11-03(화) 오전 12:28:23: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-11-03(화) 오전 12:28:23: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-11-03(화) 오전 12:28:23: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-11-03(화) 오전 12:28:23: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-11-03(화) 오전 12:28:23: settings changed for: generatedCLK!, reimporting...
+2020-11-03(화) 오전 12:28:23: reading: key = 100, value = 2701
+2020-11-03(화) 오전 12:28:23: reading: key = 99, value = 2700
+2020-11-03(화) 오전 12:28:23: reading: key = 98, value = 2600
+2020-11-03(화) 오전 12:28:23: reading: key = 95, value = 2300
+2020-11-03(화) 오전 12:28:23: reading: key = 84, value = 2000
+2020-11-03(화) 오전 12:28:23: reading: key = 73, value = 1800
+2020-11-03(화) 오전 12:28:23: reading: key = 65, value = 1600
+2020-11-03(화) 오전 12:28:23: reading: key = 58, value = 1400
+2020-11-03(화) 오전 12:28:23: reading: key = 50, value = 1200
+2020-11-03(화) 오전 12:28:23: reading: key = 43, value = 900
+2020-11-03(화) 오전 12:28:23: reading: key = 32, value = 700
+2020-11-03(화) 오전 12:28:23: reading: key = 24, value = 500
+2020-11-03(화) 오전 12:28:23: settings changed for: generatedXTU!, reimporting...
+2020-11-03(화) 오전 12:28:23: reading: key = 24, value = 10.5
+2020-11-03(화) 오전 12:28:23: reading: key = 32, value = 10
+2020-11-03(화) 오전 12:28:23: reading: key = 43, value = 9.5
+2020-11-03(화) 오전 12:28:23: reading: key = 50, value = 8.5
+2020-11-03(화) 오전 12:28:23: reading: key = 58, value = 8
+2020-11-03(화) 오전 12:28:23: reading: key = 65, value = 7.5
+2020-11-03(화) 오전 12:28:23: reading: key = 73, value = 6.5
+2020-11-03(화) 오전 12:28:23: reading: key = 84, value = 6
+2020-11-03(화) 오전 12:28:23: reading: key = 95, value = 5
+2020-11-03(화) 오전 12:28:23: reading: key = 98, value = 4.5
+2020-11-03(화) 오전 12:28:23: reading: key = 99, value = 4
+2020-11-03(화) 오전 12:28:23: reading: key = 100, value = 3
+2020-11-03(화) 오전 12:28:23: settings changed for: throttle_median!, reimporting...
+2020-11-03(화) 오전 12:28:23: reading: key = throttle_median, value = 60
+2020-11-03(화) 오전 12:28:23: settings changed for: newlist_median!, reimporting...
+2020-11-03(화) 오전 12:28:23: reading: key = newlist_median, value = 50
+2020-11-03(화) 오전 12:28:23: settings changed for: thermal_median!, reimporting...
+2020-11-03(화) 오전 12:28:23: reading: key = thermal_median, value = 90
+2020-11-03(화) 오전 12:28:23: settings changed for: gpuplan!, reimporting...
+2020-11-03(화) 오전 12:28:23: reading: key = gpuplan, value = 1
+2020-11-03(화) 오전 12:28:23: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:28:23: reading: key = xtudefault, value = 10.5
+2020-11-03(화) 오전 12:28:25: checking XTU cmdlet
+2020-11-03(화) 오전 12:28:27: XTU ok
+2020-11-03(화) 오전 12:28:27: setting XTU: 0.5
+2020-11-03(화) 오전 12:28:29: setting GPU: performance
+2020-11-03(화) 오전 12:28:31: setting XTU: 1234
+2020-11-03(화) 오전 12:29:37: settings changed for: special_programs!, reimporting...
+2020-11-03(화) 오전 12:29:37: reading: key = devenv, value = 6
+2020-11-03(화) 오전 12:29:37: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-11-03(화) 오전 12:29:37: reading: key = 0, value = 100
+2020-11-03(화) 오전 12:29:37: reading: key = 1, value = 99
+2020-11-03(화) 오전 12:29:37: reading: key = 2, value = 98
+2020-11-03(화) 오전 12:29:37: reading: key = 3, value = 95
+2020-11-03(화) 오전 12:29:37: reading: key = 4, value = 84
+2020-11-03(화) 오전 12:29:37: reading: key = 5, value = 73
+2020-11-03(화) 오전 12:29:37: reading: key = 6, value = 65
+2020-11-03(화) 오전 12:29:37: reading: key = 7, value = 58
+2020-11-03(화) 오전 12:29:37: reading: key = 8, value = 50
+2020-11-03(화) 오전 12:29:37: reading: key = 9, value = 43
+2020-11-03(화) 오전 12:29:37: reading: key = 10, value = 32
+2020-11-03(화) 오전 12:29:37: reading: key = 11, value = 24
+2020-11-03(화) 오전 12:29:37: reading: key = 0, value = 99
+2020-11-03(화) 오전 12:29:37: reading: key = 0, value = 98
+2020-11-03(화) 오전 12:29:37: reading: key = 0, value = 95
+2020-11-03(화) 오전 12:29:37: reading: key = 1, value = 98
+2020-11-03(화) 오전 12:29:37: reading: key = 1, value = 95
+2020-11-03(화) 오전 12:29:37: reading: key = 2, value = 95
+2020-11-03(화) 오전 12:29:37: reading: key = 2, value = 84
+2020-11-03(화) 오전 12:29:37: reading: key = 3, value = 84
+2020-11-03(화) 오전 12:29:37: reading: key = 3, value = 73
+2020-11-03(화) 오전 12:29:37: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-11-03(화) 오전 12:29:37: reading: key = 11, value = 10.5
+2020-11-03(화) 오전 12:29:37: reading: key = 10, value = 10
+2020-11-03(화) 오전 12:29:37: reading: key = 9, value = 9.5
+2020-11-03(화) 오전 12:29:37: reading: key = 8, value = 8.5
+2020-11-03(화) 오전 12:29:37: reading: key = 7, value = 8
+2020-11-03(화) 오전 12:29:37: reading: key = 6, value = 7.5
+2020-11-03(화) 오전 12:29:37: reading: key = 5, value = 6.5
+2020-11-03(화) 오전 12:29:37: reading: key = 4, value = 6
+2020-11-03(화) 오전 12:29:37: reading: key = 3, value = 5
+2020-11-03(화) 오전 12:29:37: reading: key = 2, value = 4.5
+2020-11-03(화) 오전 12:29:37: reading: key = 1, value = 4
+2020-11-03(화) 오전 12:29:37: reading: key = 0, value = 3
+2020-11-03(화) 오전 12:29:37: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-11-03(화) 오전 12:29:37: reading: key = 0, value = Normal
+2020-11-03(화) 오전 12:29:37: reading: key = 1, value = Normal
+2020-11-03(화) 오전 12:29:37: reading: key = 2, value = Normal
+2020-11-03(화) 오전 12:29:37: reading: key = 3, value = Normal
+2020-11-03(화) 오전 12:29:37: reading: key = 4, value = Normal
+2020-11-03(화) 오전 12:29:37: reading: key = 5, value = Normal
+2020-11-03(화) 오전 12:29:37: reading: key = 6, value = Normal
+2020-11-03(화) 오전 12:29:37: reading: key = 7, value = Normal
+2020-11-03(화) 오전 12:29:37: settings changed for: loop_delay!, reimporting...
+2020-11-03(화) 오전 12:29:37: reading: key = loop_delay, value = 5
+2020-11-03(화) 오전 12:29:37: settings changed for: boost_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:29:37: reading: key = boost_cycle_delay, value = 30
+2020-11-03(화) 오전 12:29:37: settings changed for: newlist_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:29:37: reading: key = newlist_cycle_delay, value = 90
+2020-11-03(화) 오전 12:29:37: settings changed for: processor_guid_tweak!, reimporting...
+2020-11-03(화) 오전 12:29:37: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-11-03(화) 오전 12:29:37: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-11-03(화) 오전 12:29:37: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-11-03(화) 오전 12:29:37: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-11-03(화) 오전 12:29:37: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-11-03(화) 오전 12:29:37: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-11-03(화) 오전 12:29:37: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-11-03(화) 오전 12:29:37: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-11-03(화) 오전 12:29:37: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-11-03(화) 오전 12:29:37: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-11-03(화) 오전 12:29:37: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-11-03(화) 오전 12:29:37: settings changed for: generatedCLK!, reimporting...
+2020-11-03(화) 오전 12:29:37: reading: key = 100, value = 2701
+2020-11-03(화) 오전 12:29:37: reading: key = 99, value = 2700
+2020-11-03(화) 오전 12:29:37: reading: key = 98, value = 2600
+2020-11-03(화) 오전 12:29:37: reading: key = 95, value = 2300
+2020-11-03(화) 오전 12:29:37: reading: key = 84, value = 2000
+2020-11-03(화) 오전 12:29:37: reading: key = 73, value = 1800
+2020-11-03(화) 오전 12:29:37: reading: key = 65, value = 1600
+2020-11-03(화) 오전 12:29:37: reading: key = 58, value = 1400
+2020-11-03(화) 오전 12:29:37: reading: key = 50, value = 1200
+2020-11-03(화) 오전 12:29:37: reading: key = 43, value = 900
+2020-11-03(화) 오전 12:29:37: reading: key = 32, value = 700
+2020-11-03(화) 오전 12:29:37: reading: key = 24, value = 500
+2020-11-03(화) 오전 12:29:37: settings changed for: generatedXTU!, reimporting...
+2020-11-03(화) 오전 12:29:37: reading: key = 24, value = 10.5
+2020-11-03(화) 오전 12:29:37: reading: key = 32, value = 10
+2020-11-03(화) 오전 12:29:37: reading: key = 43, value = 9.5
+2020-11-03(화) 오전 12:29:37: reading: key = 50, value = 8.5
+2020-11-03(화) 오전 12:29:37: reading: key = 58, value = 8
+2020-11-03(화) 오전 12:29:37: reading: key = 65, value = 7.5
+2020-11-03(화) 오전 12:29:37: reading: key = 73, value = 6.5
+2020-11-03(화) 오전 12:29:37: reading: key = 84, value = 6
+2020-11-03(화) 오전 12:29:37: reading: key = 95, value = 5
+2020-11-03(화) 오전 12:29:37: reading: key = 98, value = 4.5
+2020-11-03(화) 오전 12:29:37: reading: key = 99, value = 4
+2020-11-03(화) 오전 12:29:37: reading: key = 100, value = 3
+2020-11-03(화) 오전 12:29:37: settings changed for: throttle_median!, reimporting...
+2020-11-03(화) 오전 12:29:37: reading: key = throttle_median, value = 60
+2020-11-03(화) 오전 12:29:37: settings changed for: newlist_median!, reimporting...
+2020-11-03(화) 오전 12:29:37: reading: key = newlist_median, value = 50
+2020-11-03(화) 오전 12:29:37: settings changed for: thermal_median!, reimporting...
+2020-11-03(화) 오전 12:29:37: reading: key = thermal_median, value = 90
+2020-11-03(화) 오전 12:29:37: settings changed for: gpuplan!, reimporting...
+2020-11-03(화) 오전 12:29:37: reading: key = gpuplan, value = 1
+2020-11-03(화) 오전 12:29:37: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:29:37: reading: key = xtudefault, value = 10.5
+2020-11-03(화) 오전 12:29:38: checking XTU cmdlet
+2020-11-03(화) 오전 12:29:40: XTU ok
+2020-11-03(화) 오전 12:29:40: setting XTU: 0.5
+2020-11-03(화) 오전 12:29:42: setting GPU: performance
+2020-11-03(화) 오전 12:29:44: setting XTU: 10.5
+2020-11-03(화) 오전 12:29:47: setting GPU: performance
+2020-11-03(화) 오전 12:29:47: init PowerCFG settings
+2020-11-03(화) 오전 12:29:50: init value counters: maxpwr = 2701, turbopwr = 3052
+2020-11-03(화) 오전 12:29:54: newlist accumulated current pwr:3052 load:4 pivotratio:0.5
+2020-11-03(화) 오전 12:29:54: start of newlist timer
+2020-11-03(화) 오전 12:29:59: newlist accumulated current pwr:3052 load:4 pivotratio:0.333333333333333
+2020-11-03(화) 오전 12:30:41: settings changed for: special_programs!, reimporting...
+2020-11-03(화) 오전 12:30:41: reading: key = devenv, value = 6
+2020-11-03(화) 오전 12:30:41: settings changed for: programs_running_cfg_cpu!, reimporting...
+2020-11-03(화) 오전 12:30:41: reading: key = 0, value = 100
+2020-11-03(화) 오전 12:30:41: reading: key = 1, value = 99
+2020-11-03(화) 오전 12:30:41: reading: key = 2, value = 98
+2020-11-03(화) 오전 12:30:41: reading: key = 3, value = 95
+2020-11-03(화) 오전 12:30:41: reading: key = 4, value = 84
+2020-11-03(화) 오전 12:30:41: reading: key = 5, value = 73
+2020-11-03(화) 오전 12:30:41: reading: key = 6, value = 65
+2020-11-03(화) 오전 12:30:41: reading: key = 7, value = 58
+2020-11-03(화) 오전 12:30:41: reading: key = 8, value = 50
+2020-11-03(화) 오전 12:30:41: reading: key = 9, value = 43
+2020-11-03(화) 오전 12:30:41: reading: key = 10, value = 32
+2020-11-03(화) 오전 12:30:41: reading: key = 11, value = 24
+2020-11-03(화) 오전 12:30:41: reading: key = 0, value = 99
+2020-11-03(화) 오전 12:30:41: reading: key = 0, value = 98
+2020-11-03(화) 오전 12:30:41: reading: key = 0, value = 95
+2020-11-03(화) 오전 12:30:41: reading: key = 1, value = 98
+2020-11-03(화) 오전 12:30:41: reading: key = 1, value = 95
+2020-11-03(화) 오전 12:30:41: reading: key = 2, value = 95
+2020-11-03(화) 오전 12:30:41: reading: key = 2, value = 84
+2020-11-03(화) 오전 12:30:41: reading: key = 3, value = 84
+2020-11-03(화) 오전 12:30:41: reading: key = 3, value = 73
+2020-11-03(화) 오전 12:30:41: settings changed for: programs_running_cfg_xtu!, reimporting...
+2020-11-03(화) 오전 12:30:41: reading: key = 11, value = 10.5
+2020-11-03(화) 오전 12:30:41: reading: key = 10, value = 10
+2020-11-03(화) 오전 12:30:41: reading: key = 9, value = 9.5
+2020-11-03(화) 오전 12:30:41: reading: key = 8, value = 8.5
+2020-11-03(화) 오전 12:30:41: reading: key = 7, value = 8
+2020-11-03(화) 오전 12:30:41: reading: key = 6, value = 7.5
+2020-11-03(화) 오전 12:30:41: reading: key = 5, value = 6.5
+2020-11-03(화) 오전 12:30:41: reading: key = 4, value = 6
+2020-11-03(화) 오전 12:30:41: reading: key = 3, value = 5
+2020-11-03(화) 오전 12:30:41: reading: key = 2, value = 4.5
+2020-11-03(화) 오전 12:30:41: reading: key = 1, value = 4
+2020-11-03(화) 오전 12:30:41: reading: key = 0, value = 3
+2020-11-03(화) 오전 12:30:41: settings changed for: programs_running_cfg_nice!, reimporting...
+2020-11-03(화) 오전 12:30:41: reading: key = 0, value = Normal
+2020-11-03(화) 오전 12:30:41: reading: key = 1, value = Normal
+2020-11-03(화) 오전 12:30:41: reading: key = 2, value = Normal
+2020-11-03(화) 오전 12:30:41: reading: key = 3, value = Normal
+2020-11-03(화) 오전 12:30:41: reading: key = 4, value = Normal
+2020-11-03(화) 오전 12:30:41: reading: key = 5, value = Normal
+2020-11-03(화) 오전 12:30:41: reading: key = 6, value = Normal
+2020-11-03(화) 오전 12:30:41: reading: key = 7, value = Normal
+2020-11-03(화) 오전 12:30:41: settings changed for: loop_delay!, reimporting...
+2020-11-03(화) 오전 12:30:41: reading: key = loop_delay, value = 5
+2020-11-03(화) 오전 12:30:41: settings changed for: boost_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:30:41: reading: key = boost_cycle_delay, value = 30
+2020-11-03(화) 오전 12:30:41: settings changed for: newlist_cycle_delay!, reimporting...
+2020-11-03(화) 오전 12:30:41: reading: key = newlist_cycle_delay, value = 90
+2020-11-03(화) 오전 12:30:41: settings changed for: processor_guid_tweak!, reimporting...
+2020-11-03(화) 오전 12:30:41: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2020-11-03(화) 오전 12:30:41: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2020-11-03(화) 오전 12:30:41: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2020-11-03(화) 오전 12:30:41: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2020-11-03(화) 오전 12:30:41: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2020-11-03(화) 오전 12:30:41: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2020-11-03(화) 오전 12:30:41: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2020-11-03(화) 오전 12:30:41: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2020-11-03(화) 오전 12:30:41: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2020-11-03(화) 오전 12:30:41: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2020-11-03(화) 오전 12:30:41: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2020-11-03(화) 오전 12:30:41: settings changed for: generatedCLK!, reimporting...
+2020-11-03(화) 오전 12:30:41: reading: key = 100, value = 2701
+2020-11-03(화) 오전 12:30:41: reading: key = 99, value = 2700
+2020-11-03(화) 오전 12:30:41: reading: key = 98, value = 2600
+2020-11-03(화) 오전 12:30:41: reading: key = 95, value = 2300
+2020-11-03(화) 오전 12:30:41: reading: key = 84, value = 2000
+2020-11-03(화) 오전 12:30:41: reading: key = 73, value = 1800
+2020-11-03(화) 오전 12:30:41: reading: key = 65, value = 1600
+2020-11-03(화) 오전 12:30:41: reading: key = 58, value = 1400
+2020-11-03(화) 오전 12:30:41: reading: key = 50, value = 1200
+2020-11-03(화) 오전 12:30:41: reading: key = 43, value = 900
+2020-11-03(화) 오전 12:30:41: reading: key = 32, value = 700
+2020-11-03(화) 오전 12:30:41: reading: key = 24, value = 500
+2020-11-03(화) 오전 12:30:41: settings changed for: generatedXTU!, reimporting...
+2020-11-03(화) 오전 12:30:41: reading: key = 24, value = 10.5
+2020-11-03(화) 오전 12:30:41: reading: key = 32, value = 10
+2020-11-03(화) 오전 12:30:41: reading: key = 43, value = 9.5
+2020-11-03(화) 오전 12:30:41: reading: key = 50, value = 8.5
+2020-11-03(화) 오전 12:30:41: reading: key = 58, value = 8
+2020-11-03(화) 오전 12:30:41: reading: key = 65, value = 7.5
+2020-11-03(화) 오전 12:30:41: reading: key = 73, value = 6.5
+2020-11-03(화) 오전 12:30:41: reading: key = 84, value = 6
+2020-11-03(화) 오전 12:30:41: reading: key = 95, value = 5
+2020-11-03(화) 오전 12:30:41: reading: key = 98, value = 4.5
+2020-11-03(화) 오전 12:30:41: reading: key = 99, value = 4
+2020-11-03(화) 오전 12:30:41: reading: key = 100, value = 3
+2020-11-03(화) 오전 12:30:41: settings changed for: throttle_median!, reimporting...
+2020-11-03(화) 오전 12:30:41: reading: key = throttle_median, value = 60
+2020-11-03(화) 오전 12:30:41: settings changed for: newlist_median!, reimporting...
+2020-11-03(화) 오전 12:30:41: reading: key = newlist_median, value = 50
+2020-11-03(화) 오전 12:30:41: settings changed for: thermal_median!, reimporting...
+2020-11-03(화) 오전 12:30:41: reading: key = thermal_median, value = 90
+2020-11-03(화) 오전 12:30:41: settings changed for: gpuplan!, reimporting...
+2020-11-03(화) 오전 12:30:41: reading: key = gpuplan, value = 1
+2020-11-03(화) 오전 12:30:41: settings changed for: xtudefault!, reimporting...
+2020-11-03(화) 오전 12:30:41: reading: key = xtudefault, value = 10.5
+2020-11-03(화) 오전 12:30:43: checking XTU cmdlet
+2020-11-03(화) 오전 12:30:44: XTU ok
+2020-11-03(화) 오전 12:30:44: setting XTU: 0.5
+2020-11-03(화) 오전 12:30:47: setting GPU: performance
+2020-11-03(화) 오전 12:30:49: setting XTU: 10.5
+2020-11-03(화) 오전 12:30:52: setting GPU: performance
+2020-11-03(화) 오전 12:30:52: init PowerCFG settings

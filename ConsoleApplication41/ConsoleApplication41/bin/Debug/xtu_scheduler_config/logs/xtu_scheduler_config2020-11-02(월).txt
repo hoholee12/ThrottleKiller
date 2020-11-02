@@ -6849,3 +6849,54 @@
 2020-11-02(월) 오후 11:29:06: newlist accumulated current pwr:1200 load:72 pivotratio:1
 2020-11-02(월) 오후 11:29:11: newlist accumulated current pwr:1200 load:62 pivotratio:1.5
 2020-11-02(월) 오후 11:29:16: newlist accumulated current pwr:1400 load:81 pivotratio:2
+2020-11-02(월) 오후 11:29:22: newlist accumulated current pwr:1400 load:87 pivotratio:2.5
+2020-11-02(월) 오후 11:29:27: newlist accumulated current pwr:1200 load:74 pivotratio:3
+2020-11-02(월) 오후 11:29:32: newlist accumulated current pwr:1400 load:65 pivotratio:3.5
+2020-11-02(월) 오후 11:29:37: newlist accumulated current pwr:1400 load:79 pivotratio:4
+2020-11-02(월) 오후 11:29:42: newlist accumulated current pwr:1400 load:85 pivotratio:4.5
+2020-11-02(월) 오후 11:29:47: newlist accumulated current pwr:1600 load:97 pivotratio:2
+2020-11-02(월) 오후 11:29:47: start of newlist timer
+2020-11-02(월) 오후 11:29:52: newlist accumulated current pwr:1400 load:87 pivotratio:3
+2020-11-02(월) 오후 11:29:57: newlist accumulated current pwr:1400 load:87 pivotratio:4
+2020-11-02(월) 오후 11:30:02: newlist accumulated current pwr:1400 load:72 pivotratio:5
+2020-11-02(월) 오후 11:30:07: newlist accumulated current pwr:1600 load:71 pivotratio:6
+2020-11-02(월) 오후 11:30:12: newlist accumulated current pwr:1600 load:93 pivotratio:7
+2020-11-02(월) 오후 11:30:18: newlist accumulated current pwr:1400 load:87 pivotratio:8
+2020-11-02(월) 오후 11:30:23: newlist accumulated current pwr:900 load:56 pivotratio:3.5
+2020-11-02(월) 오후 11:30:28: newlist accumulated current pwr:900 load:56 pivotratio:2
+2020-11-02(월) 오후 11:30:33: newlist accumulated current pwr:1200 load:74 pivotratio:2
+2020-11-02(월) 오후 11:30:33: start of newlist timer
+2020-11-02(월) 오후 11:30:38: newlist accumulated current pwr:1400 load:76 pivotratio:2
+2020-11-02(월) 오후 11:30:38: start of newlist timer
+2020-11-02(월) 오후 11:30:43: newlist accumulated current pwr:1400 load:84 pivotratio:3
+2020-11-02(월) 오후 11:30:48: newlist accumulated current pwr:1200 load:55 pivotratio:0.5
+2020-11-02(월) 오후 11:30:48: start of newlist timer
+2020-11-02(월) 오후 11:30:52: newlist accumulated current pwr:1200 load:75 pivotratio:2
+2020-11-02(월) 오후 11:30:52: start of newlist timer
+2020-11-02(월) 오후 11:30:58: newlist accumulated current pwr:1200 load:73 pivotratio:3
+2020-11-02(월) 오후 11:31:04: newlist accumulated current pwr:1200 load:75 pivotratio:4
+2020-11-02(월) 오후 11:31:08: newlist accumulated current pwr:1200 load:50 pivotratio:0.5
+2020-11-02(월) 오후 11:31:08: start of newlist timer
+2020-11-02(월) 오후 11:31:13: newlist accumulated current pwr:1200 load:64 pivotratio:2
+2020-11-02(월) 오후 11:31:13: start of newlist timer
+2020-11-02(월) 오후 11:31:19: newlist accumulated current pwr:1400 load:87 pivotratio:2
+2020-11-02(월) 오후 11:31:19: start of newlist timer
+2020-11-02(월) 오후 11:31:24: newlist accumulated current pwr:1200 load:63 pivotratio:3
+2020-11-02(월) 오후 11:31:29: newlist accumulated current pwr:1200 load:66 pivotratio:2
+2020-11-02(월) 오후 11:31:29: start of newlist timer
+2020-11-02(월) 오후 11:31:34: newlist accumulated current pwr:1400 load:82 pivotratio:3
+2020-11-02(월) 오후 11:31:39: newlist accumulated current pwr:1200 load:60 pivotratio:1
+2020-11-02(월) 오후 11:31:44: newlist accumulated current pwr:1200 load:72 pivotratio:2
+2020-11-02(월) 오후 11:31:44: start of newlist timer
+2020-11-02(월) 오후 11:31:50: newlist accumulated current pwr:900 load:56 pivotratio:0.5
+2020-11-02(월) 오후 11:31:50: start of newlist timer
+2020-11-02(월) 오후 11:31:54: newlist accumulated current pwr:900 load:56 pivotratio:0.333333333333333
+2020-11-02(월) 오후 11:32:00: newlist accumulated current pwr:900 load:56 pivotratio:0.5
+2020-11-02(월) 오후 11:32:00: start of newlist timer
+2020-11-02(월) 오후 11:32:05: newlist accumulated current pwr:900 load:56 pivotratio:0.333333333333333
+2020-11-02(월) 오후 11:32:10: newlist accumulated current pwr:900 load:56 pivotratio:0.25
+2020-11-02(월) 오후 11:32:14: newlist accumulated current pwr:900 load:48 pivotratio:0.2
+2020-11-02(월) 오후 11:32:20: newlist accumulated current pwr:900 load:51 pivotratio:0.5
+2020-11-02(월) 오후 11:32:20: start of newlist timer
+2020-11-02(월) 오후 11:32:25: newlist accumulated current pwr:900 load:56 pivotratio:0.5
+2020-11-02(월) 오후 11:32:25: start of newlist timer
