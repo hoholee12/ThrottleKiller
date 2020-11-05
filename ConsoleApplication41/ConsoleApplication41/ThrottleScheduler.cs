@@ -80,6 +80,7 @@ namespace ThrottleSchedulerService
 
             //init value counters            
             log.WriteLog("init value counters: maxpwr = " + checker.getMaxPWR() + ", turbopwr = " + checker.getTurboPWR());
+            log.WriteLog("====================end of core init====================");
         }
 
         ///////////////////////////////////////////for client
