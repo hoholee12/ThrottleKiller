@@ -1,1 +1,1 @@
-throttle_median = 60
+throttle_median = 70

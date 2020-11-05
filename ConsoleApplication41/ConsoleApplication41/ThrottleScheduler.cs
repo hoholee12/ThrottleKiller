@@ -125,6 +125,8 @@ namespace ThrottleSchedulerService
         public void mainflow()
         {
             if (shutdownval) Environment.Exit(0);
+
+            settings.checkTimeSync();   //update changed time settings
             
             //internal sync
             if (settings.timeSync && !controller.wrong && !pause) //skip when xtu settings bad, or user request

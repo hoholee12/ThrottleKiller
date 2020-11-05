@@ -162,7 +162,7 @@ namespace ThrottleSchedulerService
             
             var handle = GetConsoleWindow();
 
-            ShowWindow(handle, SW_HIDE); // To hide
+            //ShowWindow(handle, SW_HIDE); // To hide
 
             var hello = new Program();
             hello.service();

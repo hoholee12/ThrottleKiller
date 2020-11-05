@@ -73,19 +73,23 @@ namespace ThrottleSchedulerService
         //simple locking mechanism for important stuff that cant be interrupted midway
         public bool IPClocked = false;
 
-
-        public void initTimeSync(int msec) {
+        public void checkTimeSync() {
             try
             {
-                base_msec = msec;
-                target_msec = int.Parse(loop_delay.configList["loop_delay"].ToString()) * 1000;
-                bc_target_msec = int.Parse(boost_cycle_delay.configList["boost_cycle_delay"].ToString()) * 1000;
-                new_target_msec = int.Parse(newlist_cycle_delay.configList["newlist_cycle_delay"].ToString()) * 1000;
-                resur_target_msec = int.Parse(newlist_cycle_delay.configList["newlist_cycle_delay"].ToString()) * 1000;
+                if (loop_delay.changed) target_msec = int.Parse(loop_delay.configList["loop_delay"].ToString()) * 1000;
+                if (boost_cycle_delay.changed) bc_target_msec = int.Parse(boost_cycle_delay.configList["boost_cycle_delay"].ToString()) * 1000;
+                if (newlist_cycle_delay.changed) new_target_msec = int.Parse(newlist_cycle_delay.configList["newlist_cycle_delay"].ToString()) * 1000;
+                if (newlist_cycle_delay.changed) resur_target_msec = int.Parse(newlist_cycle_delay.configList["newlist_cycle_delay"].ToString()) * 1000;
             }
-            catch (Exception) {
-                log.WriteErr("config file bug");
-            }
+            catch { }
+        }
+
+        public void initTimeSync(int msec) {            
+            base_msec = msec;
+            loop_delay.changed = true;
+            boost_cycle_delay.changed = true;
+            newlist_cycle_delay.changed = true;
+            checkTimeSync();
         }
 
         public void startThrottleSync() {
@@ -469,7 +473,7 @@ namespace ThrottleSchedulerService
 7 = normal");
             loop_delay.setContent(@"loop_delay = 5");
             boost_cycle_delay.setContent(@"boost_cycle_delay = 30");
-            newlist_cycle_delay.setContent(@"newlist_cycle_delay = 90");
+            newlist_cycle_delay.setContent(@"newlist_cycle_delay = 120");
             //ac_offset.setContent(@"ac_offset = 1");
             processor_guid_tweak.setContent(@"
 06cadf0e-64ed-448a-8927-ce7bf90eb35d = 30			# processor high threshold; lower this for performance
@@ -485,7 +489,7 @@ bc5038f7-23e0-4960-96da-33abaf5935ec = 100          # processor high clockspeed 
 ea062031-0e34-4ff1-9b6d-eb1059334028 = 100");
             generatedCLK.setContent("");
             generatedXTU.setContent("");
-            throttle_median.setContent(@"throttle_median = 60       # high threshold 30 x 2");
+            throttle_median.setContent(@"throttle_median = 70");
             newlist_median.setContent(@"newlist_median = 50");
             thermal_median.setContent(@"thermal_median = 90");
             gpuplan.setContent(@"gpuplan = 1");

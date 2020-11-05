@@ -32,7 +32,8 @@ namespace ThrottleSchedulerService
         List<int> throttle_acc = new List<int>();
 
         Process temp = null;
-        List<int> newlist_acc = new List<int>();
+        List<int> newlist_high_acc = new List<int>();
+        List<int> newlist_low_acc = new List<int>();
         int newlistcheck = 0;   //newlist check average margin
 
         int resurcheck = 0; //resur check aging margin
@@ -229,7 +230,8 @@ namespace ThrottleSchedulerService
             if (temp != null)
                 if (temp.Id != proc.Id)
                 {
-                    newlist_acc.Clear();
+                    newlist_high_acc.Clear();
+                    newlist_low_acc.Clear();
                     sm.resetNewlistSync();
                     newlistcheck = 0;
                 }
@@ -242,19 +244,26 @@ namespace ThrottleSchedulerService
             sm.startNewlistSync();
             //default cpu speed is always MaxPWR
             int currpwr = autofilterPWR(getPWR());
+
             int load = getLoad() * currpwr / getTurboPWR();        //include circumstance of throttling
             if (load > 100) load = 100;         //oob
             int throttle_median = (int)sm.throttle_median.configList["throttle_median"];
+            int upperlimit = (int)sm.processor_guid_tweak.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
 
-            //add 100 to mix
-            if (load >= throttle_median)
-            {
-                newlistcheck++;
-                load = 100;
+            
+            //capture high load
+            if (load >= throttle_median){
+                //int hload = (load - throttle_median) * 100 / (100 - throttle_median);
+                int hload = load;
+                log.WriteLog("newlist accumulation pwr:" + currpwr + " high load:" + hload);
+                newlist_high_acc.Add(hload);
             }
-
-            log.WriteLog("newlist accumulation pwr:" + currpwr + " load:" + load);
-            newlist_acc.Add(load);
+            //capture low load
+            else{
+                int lload = load * 100 / (throttle_median - 1);
+                log.WriteLog("newlist accumulation pwr:" + currpwr + " low load:" + lload);
+                newlist_low_acc.Add(lload);
+            }
 
             //if time
             if (sm.checkNewlistSync())
@@ -266,48 +275,37 @@ namespace ThrottleSchedulerService
                  * use ignoreFlag to ignore repeating high loads
                  * for games with high load on loading time and low load on gameplay
                  */
-                float favg = newlist_acc[0];
-                float lsum = 0.0f;
-                bool ignoreFlag = false;
-                for (int i = 1; i < newlist_acc.Count(); i++)
+
+                //ema for high load
+                float havg = 100.0f;
+                try { havg = newlist_high_acc[0]; }
+                catch { }
+                float hsum = 0.0f;
+                for (int i = 1; i < newlist_high_acc.Count(); i++) 
                 {
-                    //ignore
-                    if (newlist_acc[i] == 100 && ignoreFlag == false)
-                    {
-                        ignoreFlag = true;
-                        //skip the next one
-                    }
-                    else if (newlist_acc[i] == 100 && ignoreFlag == true)
-                    {
-                        continue;   //skip
-                    }
-                    else if (newlist_acc[i] != 100 && ignoreFlag == true)
-                    {
-                        ignoreFlag = false;
-                    }
-                    
-                    //favg
-                    float next = newlist_acc[i];
-                    lsum = next + favg + 1.0f;   //prevent divbyzero
-                    favg = favg * (1.0f - next / lsum) + next * (next / lsum);
-
+                    float next = newlist_high_acc[i];
+                    hsum = next + havg + 1.0f;  //prevent divbyzero
+                    havg = havg * (1.0f - next / hsum) + next * (next / hsum);
                 }
-                int avg = (int)favg;    //int version
 
-                int medload = avg;
-                log.WriteLog("EMA result medload:" + medload);
+                //ema for low load
+                float lavg = 0.0f;
+                try { lavg = newlist_low_acc[0]; }
+                catch { }
+                float lsum = 0.0f;
+                for (int i = 1; i < newlist_low_acc.Count(); i++)
+                {
+                    float next = newlist_low_acc[i];
+                    lsum = next + lavg + 1.0f;  //prevent divbyzero
+                    lavg = lavg * (1.0f - next / lsum) + next * (next / lsum);
+                }
+                log.WriteLog("EMA result low:" + (int)lavg + " high:" + (int)havg);
+                int medload = 100;                      //pcsx2
+                if (havg > lavg) medload = (int)lavg * (throttle_median - 1) / 100;   //dirt rally 2.0
 
                 //anything over throttle_median is CPU heavy and needs immediate attention!
-                //this is count instead of value
-                int countval = 100 * newlistcheck / (newlist_acc.Count() + 1);    //prevent divbyzero
-                log.WriteLog("count percentage:" + countval);
-                newlist_acc.Clear();    //clear
-                newlistcheck = 0;       //reset acc
-                if (countval >= throttle_median || medload >= throttle_median)
-                {
-                    log.WriteLog("over throttle_median.. giving CPU first");
-                    medload = 100;  //fullspeed
-                }
+                newlist_high_acc.Clear();    //clear
+                newlist_low_acc.Clear();    //clear
 
 
 
@@ -391,24 +389,21 @@ namespace ThrottleSchedulerService
                  */
                 
                 //<string, int>
-                int high = (int)sm.processor_guid_tweak.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
                 int currpwr = autofilterPWR(getPWR());
                 int load = getLoad();
                 int currclk = ts.getCLK(false);
                 int target_pwr = autofilterPWR((int)sm.generatedCLK.configList[currclk]);
                 int throttle_median = (int)sm.throttle_median.configList["throttle_median"];
+                int upperlimit = (int)sm.processor_guid_tweak.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
 
                 if (throttlecheck == 0) throttle_acc.Clear();
 
-                if (load >= high && currpwr < target_pwr)
+                if (load >= upperlimit && currpwr < target_pwr)
                 {
 
                     sm.startThrottleSync();
                     throttle_acc.Add(load);
                     throttlecheck++;
-                }
-                else {
-                    if(throttlecheck > 0) throttlecheck--;
                 }
 
                 log.WriteLog("accumulation for throttle load = " + load + " ,clk = " + currpwr + " ,throttlecheck = " + throttlecheck);
@@ -421,7 +416,7 @@ namespace ThrottleSchedulerService
                  */
 
                 //on throttleSync timer
-                if (sm.checkThrottleSync() && throttlecheck > 0)
+                if (sm.checkThrottleSync())
                 {
                     sm.throttleMode = 0;
 
@@ -440,6 +435,7 @@ namespace ThrottleSchedulerService
                         if (throttle_acc[i] == 100 && ignoreFlag == false)
                         {
                             ignoreFlag = true;
+                            favg = 100.0f;
                             //skip the next one
                         }
                         else if (throttle_acc[i] == 100 && ignoreFlag == true)
@@ -463,8 +459,16 @@ namespace ThrottleSchedulerService
                     int medload = avg;
                     log.WriteLog("EMA result medload:" + medload);
 
+                    //this is count instead of value
+                    int countval = 100 * throttlecheck / (throttle_acc.Count() + 1);    //prevent divbyzero
+                    log.WriteLog("count percentage:" + countval);
                     throttle_acc.Clear();    //clear
                     throttlecheck = 0;       //reset acc
+                    if (countval < throttle_median)
+                    {
+                        log.WriteLog("throttle check ignored.");
+                        return false;
+                    }
                     
 
                     //throttleMode notifier:
@@ -500,7 +504,8 @@ namespace ThrottleSchedulerService
                     }
 
                     //dont exceed throttle median && current clk is over limit
-                    if (medload < throttle_median && limit < currclk)
+                    int limitclk = (int)sm.programs_running_cfg_cpu.configList[indexlimit];
+                    if (medload < throttle_median && limitclk < currclk)
                     {
                         log.WriteLog("cpu throttle detected!");
                         sm.throttleMode = 1;
@@ -508,7 +513,7 @@ namespace ThrottleSchedulerService
                     else {
                         log.WriteLog("gpu throttle detected!");
                         sm.throttleMode = 2;
-                        if (limit >= currclk) log.WriteLog("reason: cpu low limit reached (newlist_median)");
+                        if (limitclk >= currclk) log.WriteLog("reason: cpu low limit reached (newlist_median)");
                     }
 
                     sm.IPClocked = false;
@@ -548,7 +553,6 @@ namespace ThrottleSchedulerService
                  */
 
                 //<string, int>
-                int high = (int)sm.processor_guid_tweak.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
                 int currtemp = getTemp();
                 int load = getLoad();
                 int limit = (int)sm.thermal_median.configList["thermal_median"];
@@ -556,12 +560,12 @@ namespace ThrottleSchedulerService
                 int accload = getLoad() * currpwr / getTurboPWR();        //include circumstance of throttling
                 if (load > 100) load = 100;         //oob
                 int throttle_median = (int)sm.throttle_median.configList["throttle_median"];
-
+                int upperlimit = (int)sm.processor_guid_tweak.configList["06cadf0e-64ed-448a-8927-ce7bf90eb35d"];
 
 
                 if (resurcheck == 0) resur_acc.Clear();
 
-                if (load >= high && currtemp < limit)
+                if (load >= upperlimit && currtemp < limit)
                 {
 
 
@@ -583,7 +587,7 @@ namespace ThrottleSchedulerService
                 log.WriteLog("accumulation for resur: load:" + accload + " temperature:" + currtemp + " resurcheck:" + resurcheck);
 
 
-                if (sm.checkResurSync() && resurcheck > 0)
+                if (sm.checkResurSync())
                 {
                     sm.resurrectMode = 0;
 
@@ -602,6 +606,7 @@ namespace ThrottleSchedulerService
                         if (resur_acc[i] == 100 && ignoreFlag == false)
                         {
                             ignoreFlag = true;
+                            favg = 100.0f;
                             //skip the next one
                         }
                         else if (resur_acc[i] == 100 && ignoreFlag == true)
@@ -625,8 +630,16 @@ namespace ThrottleSchedulerService
                     int medload = avg;
                     log.WriteLog("EMA result medload:" + medload);
 
+                    //this is count instead of value
+                    int countval = 100 * resurcheck / (resur_acc.Count() + 1);    //prevent divbyzero
+                    log.WriteLog("count percentage:" + countval);
                     resur_acc.Clear();    //clear
                     resurcheck = 0;       //reset acc
+                    if (countval < throttle_median)
+                    {
+                        log.WriteLog("resur check ignored.");
+                        return false;
+                    }
 
 
                     if (medload >= throttle_median)

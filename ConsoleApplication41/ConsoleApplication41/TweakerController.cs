@@ -392,12 +392,11 @@ namespace ThrottleSchedulerService
                     int limit = (int)sm.newlist_median.configList["newlist_median"];    //ex) 50
                     int listcount = sm.generatedCLK.configList.Count();                 //ex) 12
                     int indexlimit = listcount * limit / 100;                           //ex) 6
-
                     float xtuval = (float)sm.programs_running_cfg_xtu.configList[indexlimit];
                     if (getCLK(false) != 100 || getXTU() != xtuval || forceApply)
                     {
                         forceApply = false;
-                        log.WriteLog("newlist mode");
+                        log.WriteLog("newlist mode 100 " + xtuval);
                         //set clk to highest, set xtu to highest(newlist_median)
                         //certain limit to reduce framerate makes newlist monitor stable
                         setCLK(sm, 100, false);

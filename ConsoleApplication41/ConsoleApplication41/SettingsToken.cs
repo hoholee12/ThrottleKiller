@@ -22,6 +22,8 @@ namespace ThrottleSchedulerService
         public Type Tkey, Tval;
         public Logger log;
 
+        public bool changed = false;
+
         public SettingsToken(Logger log)
         {
             this.log = log;
@@ -150,6 +152,8 @@ namespace ThrottleSchedulerService
             //they need to work in tandem
             if (!Directory.Exists(getPath())) { Directory.CreateDirectory(getPath()); log.WriteLog("create folder: " + getPath()); }
             if (!File.Exists(getFullName())) { File.WriteAllText(getFullName(), getContent()); log.WriteLog("create file: " + getFullName()); }
+
+            changed = false;    //check if changed
             if (getLastModifiedTime() != File.GetLastWriteTime(getFullName()).Ticks)
             {
                 //update
@@ -162,6 +166,9 @@ namespace ThrottleSchedulerService
                 {
                     log.WriteLog("importing settings for: " + getName() + "...");
                 }
+
+                changed = true;    //check if changed
+
                 //reset dictionary
                 configList.Clear();
                 //reread again
