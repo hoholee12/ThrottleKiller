@@ -1,0 +1,12 @@
+pcsx2 = 0
+Hwp = 6
+chrome = 6
+Idle = 6
+notepad++ = 6
+explorer = 6
+POWERPNT = 6
+
+@append
+WindowsFormsApplication5 = 6
+Flashpoint = 6
+basilisk = 6

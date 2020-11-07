@@ -1,0 +1,9 @@
+C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\bin\Release\WindowsFormsApplication5.exe.config
+C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\bin\Release\WindowsFormsApplication5.exe
+C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\bin\Release\WindowsFormsApplication5.pdb
+C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Release\WindowsFormsApplication5.logs.resources
+C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Release\WindowsFormsApplication5.ThrottleKillerGUI.resources
+C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Release\WindowsFormsApplication5.Properties.Resources.resources
+C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Release\WindowsFormsApplication5.csproj.GenerateResource.Cache
+C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Release\WindowsFormsApplication5.exe
+C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Release\WindowsFormsApplication5.pdb

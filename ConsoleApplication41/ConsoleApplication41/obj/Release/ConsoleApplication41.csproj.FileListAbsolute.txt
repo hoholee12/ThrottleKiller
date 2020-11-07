@@ -1,0 +1,6 @@
+C:\Users\hoholee12\documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Release\ConsoleApplication41.exe.config
+C:\Users\hoholee12\documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Release\ConsoleApplication41.exe
+C:\Users\hoholee12\documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Release\ConsoleApplication41.pdb
+C:\Users\hoholee12\documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Release\OpenHardwareMonitorLib.dll
+C:\Users\hoholee12\documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\obj\Release\ConsoleApplication41.exe
+C:\Users\hoholee12\documents\visual studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\obj\Release\ConsoleApplication41.pdb
