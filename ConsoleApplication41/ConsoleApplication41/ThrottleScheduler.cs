@@ -28,11 +28,11 @@ namespace ThrottleSchedulerService
         * 7.5 writeback changes to settings file        - DONE
         * 8. sleep                                      - DONE
         * 9. loop to 2.                                 - DONE
-        * 
-        * 
         * 10. generate CLK list                         - DONE
         * 11. add mechanism for new apps                - DONE
         * 12. IPC with GUI app                          - DONE
+        * 
+        * 13. detect processor/io based workload with getProcessIoCounters  - WIP
         * 
         */
 
