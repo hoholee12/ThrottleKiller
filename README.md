@@ -2,7 +2,13 @@
 my final year school project
 
 ## Disclaimer
-finished.
+
+for xtucli, any versions above 6.1.2.11 seems to have been deprecated.
+
+
+you can get the old version here:
+
+https://files03.tchspt.com/tempd/XTU-Setup-6.1.2.11.exe
 
 ## HOW TO USE?
 ConsoleApplication41 is the Core program, WindowsFormsApplication5 is the GUI program.
