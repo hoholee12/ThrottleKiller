@@ -68,6 +68,8 @@ namespace WindowsFormsApplication5
 
         logs logWindow = null;
 
+        ToolTip tt = new ToolTip();
+
         private void OnTimerCount(Object src, System.Timers.ElapsedEventArgs args) {
 
             if (upcount == 0) location = rm.query(4);
@@ -216,6 +218,13 @@ namespace WindowsFormsApplication5
             label17.Text = "throttle median(%):";
             label18.Text = "thermal median(°C)";
 
+            tt.SetToolTip(label13, "refresh rate for GUI communication / general update speed\n\nGUI refreshes every 5 seconds by default.");
+            tt.SetToolTip(label14, "refresh rate for adding new applications to newlist");
+            tt.SetToolTip(label15, "refresh rate for changing applications profile via throttle check");
+            tt.SetToolTip(label16, "median cpu percentage for low cpu clock limit");
+            tt.SetToolTip(label17, "median cpu usage percentage for distinguishing between high / low cpu usage");
+            tt.SetToolTip(label18, "median temperature value for throttle check");
+
             label19.Text = "click refresh after few seconds!";
 
             button6.Text = "Refresh";
@@ -338,7 +347,7 @@ namespace WindowsFormsApplication5
                 textBox7.Text = File.ReadAllText(location + @"\thermal_median.txt").Split('=')[1].Trim().Split()[0];
 
 
-                label19.Text = "";
+                label19.Text = "hover over the labels to see tooltips!";
             }
             catch(Exception){
                 label19.Text = "not ready yet... try refreshing again!";
