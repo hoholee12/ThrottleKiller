@@ -67,6 +67,8 @@ namespace WindowsFormsApplication5
         bool paused = false;
 
         logs logWindow = null;
+        clklist clklistWindow = null;
+
 
         ToolTip tt = new ToolTip();
 
@@ -417,6 +419,20 @@ namespace WindowsFormsApplication5
                 label20.Text = "resume core";
                 button8.Text = "resume";
                 rm.query(6);
+            }
+        }
+
+        private void showCLKXTUListToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (location == null) throw new Exception();
+                clklistWindow = new clklist(location);
+                clklistWindow.Show();
+            }
+            catch
+            {
+                MessageBox.Show("not ready yet... try refreshing again!");
             }
         }
     }

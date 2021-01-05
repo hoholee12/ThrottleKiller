@@ -134,6 +134,7 @@ namespace ThrottleSchedulerService
             xtuapplyvalue = 0.5;
             setXTU(sm, 0.5);
             //get mhz
+            pshell.StartInfo.FileName = "xtucli";
             pshell.StartInfo.Arguments = "-m -id 6";
             pshell.Start();
             pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
@@ -141,6 +142,8 @@ namespace ThrottleSchedulerService
             pshell.WaitForExit();
             string temp = result.Last().Replace("MHz", "").Trim();
             BaseXTU = (float)Math.Round(double.Parse(temp) / 100 * 2, MidpointRounding.AwayFromZero) / 2;
+            log.WriteLog("real BaseXTU speed: " + temp + " BaseXTU: " + BaseXTU);
+
 
             //restore
             xtuapplynested = true;
@@ -221,7 +224,9 @@ namespace ThrottleSchedulerService
             pshell.StartInfo.Arguments = "-t -id 59 -v " + value;
             pshell.Start();
             pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
+            
             pshell.WaitForExit();
+            pshell.StandardOutput.ReadToEnd();  //extra delay just in case!
             
             
             int gpux = 1;   //balanced

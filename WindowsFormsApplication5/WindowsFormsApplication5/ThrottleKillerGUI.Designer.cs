@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label9 = new System.Windows.Forms.Label();
@@ -61,6 +61,8 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.button8 = new System.Windows.Forms.Button();
+            this.label20 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -74,8 +76,8 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.logsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.showLogToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label20 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
+            this.cLKListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.showCLKXTUListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -174,16 +176,16 @@
             // 
             // chart1
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(23, 34);
             this.chart1.Name = "chart1";
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chart1.Series.Add(series3);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(1110, 510);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
@@ -401,6 +403,26 @@
             this.tabPage4.Text = "tabPage4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(749, 367);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(150, 50);
+            this.button8.TabIndex = 13;
+            this.button8.Text = "button8";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(17, 380);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(82, 24);
+            this.label20.TabIndex = 12;
+            this.label20.Text = "label20";
+            this.label20.Click += new System.EventHandler(this.label20_Click);
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -502,10 +524,11 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.logsToolStripMenuItem});
+            this.logsToolStripMenuItem,
+            this.cLKListToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1192, 40);
+            this.menuStrip1.Size = new System.Drawing.Size(1192, 42);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -514,36 +537,31 @@
             this.logsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.showLogToolStripMenuItem});
             this.logsToolStripMenuItem.Name = "logsToolStripMenuItem";
-            this.logsToolStripMenuItem.Size = new System.Drawing.Size(71, 36);
+            this.logsToolStripMenuItem.Size = new System.Drawing.Size(71, 38);
             this.logsToolStripMenuItem.Text = "logs";
             this.logsToolStripMenuItem.Click += new System.EventHandler(this.logsToolStripMenuItem_Click_1);
             // 
             // showLogToolStripMenuItem
             // 
             this.showLogToolStripMenuItem.Name = "showLogToolStripMenuItem";
-            this.showLogToolStripMenuItem.Size = new System.Drawing.Size(212, 38);
+            this.showLogToolStripMenuItem.Size = new System.Drawing.Size(268, 38);
             this.showLogToolStripMenuItem.Text = "show log";
             this.showLogToolStripMenuItem.Click += new System.EventHandler(this.showLogToolStripMenuItem_Click);
             // 
-            // label20
+            // cLKListToolStripMenuItem
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(17, 380);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(82, 24);
-            this.label20.TabIndex = 12;
-            this.label20.Text = "label20";
-            this.label20.Click += new System.EventHandler(this.label20_Click);
+            this.cLKListToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.showCLKXTUListToolStripMenuItem});
+            this.cLKListToolStripMenuItem.Name = "cLKListToolStripMenuItem";
+            this.cLKListToolStripMenuItem.Size = new System.Drawing.Size(98, 38);
+            this.cLKListToolStripMenuItem.Text = "CLKlist";
             // 
-            // button8
+            // showCLKXTUListToolStripMenuItem
             // 
-            this.button8.Location = new System.Drawing.Point(749, 367);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(150, 50);
-            this.button8.TabIndex = 13;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.showCLKXTUListToolStripMenuItem.Name = "showCLKXTUListToolStripMenuItem";
+            this.showCLKXTUListToolStripMenuItem.Size = new System.Drawing.Size(311, 38);
+            this.showCLKXTUListToolStripMenuItem.Text = "show CLK/XTU list";
+            this.showCLKXTUListToolStripMenuItem.Click += new System.EventHandler(this.showCLKXTUListToolStripMenuItem_Click);
             // 
             // ThrottleKillerGUI
             // 
@@ -622,6 +640,8 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.ToolStripMenuItem cLKListToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem showCLKXTUListToolStripMenuItem;
 
     }
 }
