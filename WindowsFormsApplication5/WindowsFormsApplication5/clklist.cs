@@ -20,7 +20,7 @@ namespace WindowsFormsApplication5
         string xtupath = null;
 
 
-        public clklist(string path)
+        public clklist(string path, int topspeed)
         {
             this.path = path;
             this.clkpath = path + @"\generatedCLK.txt";
@@ -45,7 +45,8 @@ namespace WindowsFormsApplication5
                     string a = items[0].Trim();
                     string b = items[1].Split('#')[0].Trim();
 
-                    clklist.Add(int.Parse(b));
+                    if (clklist.Count() == 0) clklist.Add(topspeed);
+                    else clklist.Add(int.Parse(b));
                 }
                 
             }
@@ -76,6 +77,8 @@ namespace WindowsFormsApplication5
                 clklist.RemoveAt(0);
                 xtulist.RemoveAt(0);
             }
+
+            textBox1.AppendText(Environment.NewLine + "use this reference to tweak the 'profile' tab. first field is the process name, second field is the profile 'index'");
 
         }
 

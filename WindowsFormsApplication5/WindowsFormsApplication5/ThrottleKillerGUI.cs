@@ -227,6 +227,8 @@ namespace WindowsFormsApplication5
             tt.SetToolTip(label17, "median cpu usage percentage for distinguishing between high / low cpu usage");
             tt.SetToolTip(label18, "median temperature value for throttle check");
 
+            tt.SetToolTip(textBox1, "use CLK/XTU list reference on the menu. first field is the process name, second field is the profile 'index'");
+
             label19.Text = "click refresh after few seconds!";
 
             button6.Text = "Refresh";
@@ -427,7 +429,7 @@ namespace WindowsFormsApplication5
             try
             {
                 if (location == null) throw new Exception();
-                clklistWindow = new clklist(location);
+                clklistWindow = new clklist(location, topspeed);
                 clklistWindow.Show();
             }
             catch
