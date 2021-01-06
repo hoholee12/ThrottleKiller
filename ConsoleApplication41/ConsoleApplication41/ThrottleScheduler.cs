@@ -196,7 +196,7 @@ namespace ThrottleSchedulerService
                         //median limit
                         int limit = (int)settings.newlist_median.configList["newlist_median"];    //ex) 50
                         int listcount = settings.generatedCLK.configList.Count();                 //ex) 12
-                        int indexlimit = listcount * limit / 100;                                 //ex) 6
+                        int indexlimit = listcount - listcount * limit / 100;                     //ex) 6
 
                         //new clk value for cpu throttle (newclk)
                         var gclklist = checker.sortedCLKlist(settings);
@@ -232,7 +232,7 @@ namespace ThrottleSchedulerService
                         //median limit
                         int limit = (int)settings.newlist_median.configList["newlist_median"];    //ex) 50
                         int listcount = settings.generatedCLK.configList.Count();                 //ex) 12
-                        int indexlimit = listcount * limit / 100;                                 //ex) 6
+                        int indexlimit = listcount - listcount * limit / 100;                     //ex) 6
 
                         string name = controller.checkNameInList(currfg, settings);
                         switch (mode)

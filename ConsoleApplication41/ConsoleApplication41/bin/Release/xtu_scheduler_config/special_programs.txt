@@ -1,4 +1,9 @@
 explorer = 0
 
 @append
-devenv = 6
+chrome = 5
+WindowsFormsApplication5 = 5
+mintty = 5
+pcsx2 = 0
+pcsx2 = 1
+devenv = 5
