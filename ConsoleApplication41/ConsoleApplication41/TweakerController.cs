@@ -479,7 +479,13 @@ namespace ThrottleSchedulerService
             log.WriteLog("================start of CLK + XTU list generation================");
             log.WriteLog("do NOT run anything power intensive!!!");
 
+            Dictionary<int, int> hello = new Dictionary<int, int>();
+
+            int bcount = 0;     //val
+            int bcontender = 0; //key
+            
             int prevPWR = int.MaxValue;
+            int exPWR = prevPWR;
             
             //start looping from 100 down to 0
             int x = 0;
@@ -499,9 +505,40 @@ namespace ThrottleSchedulerService
                     sm.generatedCLK.configList.Add(i, prevPWR);
                     sm.programs_running_cfg_cpu.configList.Add(x++, i);
                     log.WriteLog("new CLK: " + i + " clockspeed: " + prevPWR);
+
+                    //contender
+                    log.WriteLog("diff: " + (exPWR - prevPWR));
+                    if (!hello.ContainsKey(exPWR - prevPWR))
+                    {
+                        hello.Add(exPWR - prevPWR, 1);
+                    }
+                    else
+                    {
+                        hello[exPWR - prevPWR]++;
+                    }
+                    exPWR = prevPWR;
                 }
-            
             }
+
+            //calculate artificial base xtu(basextu func unreliable)
+            /* howto:
+             *      1. find lowest clockspeed stepping difference(contender)
+             *      2. maxxtu - (hi - lo cpustep) / contender * xtustep
+             */
+            foreach (KeyValuePair<int, int> kv in hello)
+            {
+                if (bcount < kv.Value)
+                {
+                    bcount = kv.Value;
+                    bcontender = kv.Key;
+                }
+            }
+
+            log.WriteLog("bcontender: " + bcontender);
+
+            BaseXTU = (float)Math.Round(
+                (MaxXTU * 100 - (tc.getTurboPWR() - prevPWR) / bcontender * 50) / 100 * 2, MidpointRounding.AwayFromZero) / 2;
+
 
             //calculate proper xtu for each clk value
             float ratio = (MaxXTU - BaseXTU) * 100 / (tc.getTurboPWR() - (int)sm.generatedCLK.configList.Last().Value);

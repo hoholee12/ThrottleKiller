@@ -1,1 +1,4 @@
 explorer = 0
+
+@append
+devenv = 6

@@ -1,1 +1,0 @@
-newlist_cycle_delay = 120
