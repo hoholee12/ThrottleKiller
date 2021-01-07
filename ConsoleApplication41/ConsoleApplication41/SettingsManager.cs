@@ -432,7 +432,7 @@ namespace ThrottleSchedulerService
 
             //initialize contents
             special_programs.setContent(
-@"explorer = 0
+@"
 ");    //apps can be added
             programs_running_cfg_cpu.setContent(
 @"0 = 100
