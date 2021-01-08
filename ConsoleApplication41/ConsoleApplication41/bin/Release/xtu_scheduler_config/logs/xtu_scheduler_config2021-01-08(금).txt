@@ -1,0 +1,135 @@
+2021-01-08(금) 오전 10:32:11: settings changed for: special_programs!, reimporting...
+2021-01-08(금) 오전 10:32:11: reading: key = WindowsFormsApplication5, value = 5
+2021-01-08(금) 오전 10:32:11: reading: key = chrome, value = 5
+2021-01-08(금) 오전 10:32:11: reading: key = explorer, value = 5
+2021-01-08(금) 오전 10:32:11: reading: key = KakaoTalk, value = 5
+2021-01-08(금) 오전 10:32:11: settings changed for: programs_running_cfg_cpu!, reimporting...
+2021-01-08(금) 오전 10:32:11: reading: key = 0, value = 100
+2021-01-08(금) 오전 10:32:11: reading: key = 1, value = 99
+2021-01-08(금) 오전 10:32:11: reading: key = 2, value = 98
+2021-01-08(금) 오전 10:32:11: reading: key = 3, value = 95
+2021-01-08(금) 오전 10:32:11: reading: key = 4, value = 84
+2021-01-08(금) 오전 10:32:11: reading: key = 5, value = 65
+2021-01-08(금) 오전 10:32:11: reading: key = 6, value = 65
+2021-01-08(금) 오전 10:32:11: reading: key = 7, value = 58
+2021-01-08(금) 오전 10:32:11: reading: key = 8, value = 50
+2021-01-08(금) 오전 10:32:11: reading: key = 9, value = 43
+2021-01-08(금) 오전 10:32:11: reading: key = 10, value = 32
+2021-01-08(금) 오전 10:32:11: reading: key = 11, value = 24
+2021-01-08(금) 오전 10:32:11: settings changed for: programs_running_cfg_xtu!, reimporting...
+2021-01-08(금) 오전 10:32:11: reading: key = 11, value = 10.5
+2021-01-08(금) 오전 10:32:11: reading: key = 10, value = 10.5
+2021-01-08(금) 오전 10:32:11: reading: key = 9, value = 9.5
+2021-01-08(금) 오전 10:32:11: reading: key = 8, value = 9
+2021-01-08(금) 오전 10:32:11: reading: key = 7, value = 8.5
+2021-01-08(금) 오전 10:32:11: reading: key = 6, value = 8
+2021-01-08(금) 오전 10:32:12: reading: key = 5, value = 7.5
+2021-01-08(금) 오전 10:32:12: reading: key = 4, value = 7
+2021-01-08(금) 오전 10:32:12: reading: key = 3, value = 6.5
+2021-01-08(금) 오전 10:32:12: reading: key = 2, value = 6
+2021-01-08(금) 오전 10:32:12: reading: key = 1, value = 5.5
+2021-01-08(금) 오전 10:32:12: reading: key = 0, value = 4.5
+2021-01-08(금) 오전 10:32:12: settings changed for: programs_running_cfg_nice!, reimporting...
+2021-01-08(금) 오전 10:32:12: reading: key = 0, value = Normal
+2021-01-08(금) 오전 10:32:12: reading: key = 1, value = Normal
+2021-01-08(금) 오전 10:32:12: reading: key = 2, value = Normal
+2021-01-08(금) 오전 10:32:12: reading: key = 3, value = Normal
+2021-01-08(금) 오전 10:32:12: reading: key = 4, value = Normal
+2021-01-08(금) 오전 10:32:12: reading: key = 5, value = Normal
+2021-01-08(금) 오전 10:32:12: reading: key = 6, value = Normal
+2021-01-08(금) 오전 10:32:12: reading: key = 7, value = Normal
+2021-01-08(금) 오전 10:32:12: settings changed for: loop_delay!, reimporting...
+2021-01-08(금) 오전 10:32:12: reading: key = loop_delay, value = 5
+2021-01-08(금) 오전 10:32:12: settings changed for: boost_cycle_delay!, reimporting...
+2021-01-08(금) 오전 10:32:12: reading: key = boost_cycle_delay, value = 30
+2021-01-08(금) 오전 10:32:12: settings changed for: newlist_cycle_delay!, reimporting...
+2021-01-08(금) 오전 10:32:12: reading: key = newlist_cycle_delay, value = 120
+2021-01-08(금) 오전 10:32:12: settings changed for: processor_guid_tweak!, reimporting...
+2021-01-08(금) 오전 10:32:12: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2021-01-08(금) 오전 10:32:12: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2021-01-08(금) 오전 10:32:12: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2021-01-08(금) 오전 10:32:12: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2021-01-08(금) 오전 10:32:12: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2021-01-08(금) 오전 10:32:12: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2021-01-08(금) 오전 10:32:12: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2021-01-08(금) 오전 10:32:12: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2021-01-08(금) 오전 10:32:12: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2021-01-08(금) 오전 10:32:12: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2021-01-08(금) 오전 10:32:12: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2021-01-08(금) 오전 10:32:12: settings changed for: generatedCLK!, reimporting...
+2021-01-08(금) 오전 10:32:12: reading: key = 100, value = 2701
+2021-01-08(금) 오전 10:32:12: reading: key = 99, value = 2700
+2021-01-08(금) 오전 10:32:12: reading: key = 98, value = 2600
+2021-01-08(금) 오전 10:32:12: reading: key = 95, value = 2300
+2021-01-08(금) 오전 10:32:12: reading: key = 84, value = 2000
+2021-01-08(금) 오전 10:32:12: reading: key = 73, value = 1800
+2021-01-08(금) 오전 10:32:12: reading: key = 65, value = 1600
+2021-01-08(금) 오전 10:32:12: reading: key = 58, value = 1400
+2021-01-08(금) 오전 10:32:12: reading: key = 50, value = 1200
+2021-01-08(금) 오전 10:32:12: reading: key = 43, value = 900
+2021-01-08(금) 오전 10:32:12: reading: key = 32, value = 700
+2021-01-08(금) 오전 10:32:12: reading: key = 24, value = 500
+2021-01-08(금) 오전 10:32:12: settings changed for: generatedXTU!, reimporting...
+2021-01-08(금) 오전 10:32:12: reading: key = 24, value = 10.5
+2021-01-08(금) 오전 10:32:12: reading: key = 32, value = 10.5
+2021-01-08(금) 오전 10:32:12: reading: key = 43, value = 9.5
+2021-01-08(금) 오전 10:32:12: reading: key = 50, value = 9
+2021-01-08(금) 오전 10:32:12: reading: key = 58, value = 8.5
+2021-01-08(금) 오전 10:32:12: reading: key = 65, value = 8
+2021-01-08(금) 오전 10:32:12: reading: key = 73, value = 7.5
+2021-01-08(금) 오전 10:32:12: reading: key = 84, value = 7
+2021-01-08(금) 오전 10:32:12: reading: key = 95, value = 6.5
+2021-01-08(금) 오전 10:32:12: reading: key = 98, value = 6
+2021-01-08(금) 오전 10:32:12: reading: key = 99, value = 5.5
+2021-01-08(금) 오전 10:32:12: reading: key = 100, value = 4.5
+2021-01-08(금) 오전 10:32:12: settings changed for: throttle_median!, reimporting...
+2021-01-08(금) 오전 10:32:12: reading: key = throttle_median, value = 70
+2021-01-08(금) 오전 10:32:12: settings changed for: newlist_median!, reimporting...
+2021-01-08(금) 오전 10:32:12: reading: key = newlist_median, value = 60
+2021-01-08(금) 오전 10:32:12: settings changed for: thermal_median!, reimporting...
+2021-01-08(금) 오전 10:32:12: reading: key = thermal_median, value = 90
+2021-01-08(금) 오전 10:32:12: settings changed for: gpuplan!, reimporting...
+2021-01-08(금) 오전 10:32:12: reading: key = gpuplan, value = 1
+2021-01-08(금) 오전 10:32:12: settings changed for: xtudefault!, reimporting...
+2021-01-08(금) 오전 10:32:12: reading: key = xtudefault, value = 10.5
+2021-01-08(금) 오전 10:32:18: checking XTU cmdlet
+2021-01-08(금) 오전 10:32:59: XTU ok
+2021-01-08(금) 오전 10:32:59: setting XTU: 0.5
+2021-01-08(금) 오전 10:33:02: setting GPU: performance
+2021-01-08(금) 오전 10:33:05: setting XTU: 10.5
+2021-01-08(금) 오전 10:33:07: setting GPU: performance
+2021-01-08(금) 오전 10:33:07: init PowerCFG settings
+2021-01-08(금) 오전 10:33:18: init value counters: maxpwr = 2701, turbopwr = 3079
+2021-01-08(금) 오전 10:33:18: ====================end of core init====================
+2021-01-08(금) 오전 10:33:21: setting power: WindowsFormsApplication5 to 65
+2021-01-08(금) 오전 10:33:21: setting CLK: 65
+2021-01-08(금) 오전 10:33:21: setting XTU nested
+2021-01-08(금) 오전 10:33:21: accumulation for throttle load = 10 ,clk = 3079 ,throttlecheck = 0
+2021-01-08(금) 오전 10:33:21: accumulation for resur: load:10 temperature:61 resurcheck:0
+2021-01-08(금) 오전 10:33:27: setting power: WindowsFormsApplication5 to 65
+2021-01-08(금) 오전 10:33:27: setting XTU: 7.5
+2021-01-08(금) 오전 10:33:30: setting GPU: performance
+2021-01-08(금) 오전 10:33:31: accumulation for throttle load = 32 ,clk = 1600 ,throttlecheck = 0
+2021-01-08(금) 오전 10:33:31: accumulation for resur: load:16 temperature:62 resurcheck:1
+2021-01-08(금) 오전 10:33:31: start of resurrection timer
+2021-01-08(금) 오전 10:33:33: accumulation for throttle load = 43 ,clk = 1600 ,throttlecheck = 0
+2021-01-08(금) 오전 10:33:33: accumulation for resur: load:22 temperature:61 resurcheck:2
+2021-01-08(금) 오전 10:33:38: accumulation for throttle load = 7 ,clk = 1600 ,throttlecheck = 0
+2021-01-08(금) 오전 10:33:38: accumulation for resur: load:3 temperature:57 resurcheck:1
+2021-01-08(금) 오전 10:33:43: accumulation for throttle load = 1 ,clk = 1600 ,throttlecheck = 0
+2021-01-08(금) 오전 10:33:43: accumulation for resur: load:0 temperature:54 resurcheck:0
+2021-01-08(금) 오전 10:33:48: accumulation for throttle load = 93 ,clk = 1600 ,throttlecheck = 0
+2021-01-08(금) 오전 10:33:48: accumulation for resur: load:48 temperature:59 resurcheck:1
+2021-01-08(금) 오전 10:33:48: start of resurrection timer
+2021-01-08(금) 오전 10:33:53: accumulation for throttle load = 74 ,clk = 1600 ,throttlecheck = 0
+2021-01-08(금) 오전 10:33:53: accumulation for resur: load:38 temperature:61 resurcheck:2
+2021-01-08(금) 오전 10:33:58: accumulation for throttle load = 14 ,clk = 1600 ,throttlecheck = 0
+2021-01-08(금) 오전 10:33:58: accumulation for resur: load:7 temperature:55 resurcheck:1
+2021-01-08(금) 오전 10:34:03: accumulation for throttle load = 5 ,clk = 1600 ,throttlecheck = 0
+2021-01-08(금) 오전 10:34:03: accumulation for resur: load:2 temperature:52 resurcheck:0
+2021-01-08(금) 오전 10:34:08: accumulation for throttle load = 12 ,clk = 1600 ,throttlecheck = 0
+2021-01-08(금) 오전 10:34:08: accumulation for resur: load:6 temperature:53 resurcheck:0
+2021-01-08(금) 오전 10:34:13: accumulation for throttle load = 15 ,clk = 1200 ,throttlecheck = 0
+2021-01-08(금) 오전 10:34:13: accumulation for resur: load:5 temperature:55 resurcheck:0
+2021-01-08(금) 오전 10:34:18: accumulation for throttle load = 12 ,clk = 1600 ,throttlecheck = 0
+2021-01-08(금) 오전 10:34:18: accumulation for resur: load:6 temperature:52 resurcheck:0

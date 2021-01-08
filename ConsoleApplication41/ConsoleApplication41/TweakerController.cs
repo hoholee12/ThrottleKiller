@@ -134,16 +134,20 @@ namespace ThrottleSchedulerService
             xtuapplyvalue = 0.5;
             setXTU(sm, 0.5);
             //get mhz
-            pshell.StartInfo.FileName = "xtucli";
-            pshell.StartInfo.Arguments = "-m -id 6";
-            pshell.Start();
-            pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
-            string[] result = pshell.StandardOutput.ReadToEnd().Split(' ');
-            pshell.WaitForExit();
-            string temp = result.Last().Replace("MHz", "").Trim();
-            BaseXTU = (float)Math.Round(double.Parse(temp) / 100 * 2, MidpointRounding.AwayFromZero) / 2;
-            log.WriteLog("real BaseXTU speed: " + temp + " BaseXTU: " + BaseXTU);
-
+            //sometimes xtucli can be unreliable, try
+            try
+            {
+                pshell.StartInfo.FileName = "xtucli";
+                pshell.StartInfo.Arguments = "-m -id 6";
+                pshell.Start();
+                pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
+                string[] result = pshell.StandardOutput.ReadToEnd().Split(' ');
+                pshell.WaitForExit();
+                string temp = result.Last().Replace("MHz", "").Trim();
+                BaseXTU = (float)Math.Round(double.Parse(temp) / 100 * 2, MidpointRounding.AwayFromZero) / 2;
+                log.WriteLog("real BaseXTU speed: " + temp + " BaseXTU: " + BaseXTU);
+            }
+            catch{}
 
             //restore
             xtuapplynested = true;

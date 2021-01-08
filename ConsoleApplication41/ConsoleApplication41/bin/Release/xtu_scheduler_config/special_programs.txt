@@ -1,4 +1,4 @@
-
-
-@append
 WindowsFormsApplication5 = 5
+chrome = 5
+explorer = 5
+KakaoTalk = 5

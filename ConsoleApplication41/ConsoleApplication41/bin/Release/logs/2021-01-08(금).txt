@@ -1,0 +1,168 @@
+2021-01-08(금) 오전 10:33:18: waiting for input...
+2021-01-08(금) 오전 10:33:18: UI App requests: location
+2021-01-08(금) 오전 10:33:18: sending output: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Release\xtu_scheduler_config
+2021-01-08(금) 오전 10:33:18: waiting for input...
+2021-01-08(금) 오전 10:33:18: UI App requests: sysinfo
+2021-01-08(금) 오전 10:33:19: prev_interval = 0 system elapsed time = 4, service timer interval = 996
+2021-01-08(금) 오전 10:33:20: sending output: 3079 6 61 null 0 0 0 False
+2021-01-08(금) 오전 10:33:20: waiting for input...
+2021-01-08(금) 오전 10:33:20: UI App requests: location
+2021-01-08(금) 오전 10:33:20: sending output: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Release\xtu_scheduler_config
+2021-01-08(금) 오전 10:33:20: waiting for input...
+2021-01-08(금) 오전 10:33:20: UI App requests: location
+2021-01-08(금) 오전 10:33:20: sending output: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Release\xtu_scheduler_config
+2021-01-08(금) 오전 10:33:20: waiting for input...
+2021-01-08(금) 오전 10:33:20: UI App requests: location
+2021-01-08(금) 오전 10:33:20: sending output: C:\Users\hoholee12\Documents\Visual Studio 2013\Projects\ConsoleApplication41\ConsoleApplication41\bin\Release\xtu_scheduler_config
+2021-01-08(금) 오전 10:33:20: waiting for input...
+2021-01-08(금) 오전 10:33:20: UI App requests: topspeed
+2021-01-08(금) 오전 10:33:20: sending output: 3079
+2021-01-08(금) 오전 10:33:20: waiting for input...
+2021-01-08(금) 오전 10:33:20: UI App requests: sysinfo
+2021-01-08(금) 오전 10:33:20: sending output: 3079 6 61 null 0 0 0 False
+2021-01-08(금) 오전 10:33:20: waiting for input...
+2021-01-08(금) 오전 10:33:20: UI App requests: sysinfo
+2021-01-08(금) 오전 10:33:20: sending output: 3079 6 61 null 0 0 0 False
+2021-01-08(금) 오전 10:33:20: waiting for input...
+2021-01-08(금) 오전 10:33:20: UI App requests: sysinfo
+2021-01-08(금) 오전 10:33:20: sending output: 3079 6 61 null 0 0 0 False
+2021-01-08(금) 오전 10:33:20: waiting for input...
+2021-01-08(금) 오전 10:33:20: UI App requests: topspeed
+2021-01-08(금) 오전 10:33:20: sending output: 3079
+2021-01-08(금) 오전 10:33:20: waiting for input...
+2021-01-08(금) 오전 10:33:20: UI App requests: topspeed
+2021-01-08(금) 오전 10:33:20: sending output: 3079
+2021-01-08(금) 오전 10:33:20: waiting for input...
+2021-01-08(금) 오전 10:33:20: UI App requests: sysinfo
+2021-01-08(금) 오전 10:33:20: sending output: 3079 6 61 null 0 0 0 False
+2021-01-08(금) 오전 10:33:20: waiting for input...
+2021-01-08(금) 오전 10:33:20: UI App requests: topspeed
+2021-01-08(금) 오전 10:33:20: sending output: 3079
+2021-01-08(금) 오전 10:33:20: waiting for input...
+2021-01-08(금) 오전 10:33:20: UI App requests: topspeed
+2021-01-08(금) 오전 10:33:20: sending output: 3079
+2021-01-08(금) 오전 10:33:20: waiting for input...
+2021-01-08(금) 오전 10:33:21: prev_interval = 303 system elapsed time = 1303, service timer interval = 0.1
+2021-01-08(금) 오전 10:33:21: prev_interval = 0 system elapsed time = 0, service timer interval = 697
+2021-01-08(금) 오전 10:33:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:25: UI App requests: sysinfo
+2021-01-08(금) 오전 10:33:27: sending output: 1600 32 62 WindowsFormsApplication5 0 0 0 False
+2021-01-08(금) 오전 10:33:27: waiting for input...
+2021-01-08(금) 오전 10:33:27: UI App requests: topspeed
+2021-01-08(금) 오전 10:33:27: sending output: 3079
+2021-01-08(금) 오전 10:33:27: waiting for input...
+2021-01-08(금) 오전 10:33:30: UI App requests: sysinfo
+2021-01-08(금) 오전 10:33:31: prev_interval = 4553 system elapsed time = 5553, service timer interval = 0.1
+2021-01-08(금) 오전 10:33:31: prev_interval = 3553.1 system elapsed time = 0, service timer interval = 0.1
+2021-01-08(금) 오전 10:33:31: prev_interval = 2553.2 system elapsed time = 0, service timer interval = 0.1
+2021-01-08(금) 오전 10:33:31: prev_interval = 1553.3 system elapsed time = 0, service timer interval = 0.1
+2021-01-08(금) 오전 10:33:31: prev_interval = 553.4 system elapsed time = 0, service timer interval = 0.1
+2021-01-08(금) 오전 10:33:33: sending output: 1600 43 61 WindowsFormsApplication5 0 0 5000 False
+2021-01-08(금) 오전 10:33:33: waiting for input...
+2021-01-08(금) 오전 10:33:33: UI App requests: topspeed
+2021-01-08(금) 오전 10:33:33: sending output: 3079
+2021-01-08(금) 오전 10:33:33: waiting for input...
+2021-01-08(금) 오전 10:33:33: prev_interval = -446.5 system elapsed time = 2252, service timer interval = 0.1
+2021-01-08(금) 오전 10:33:33: prev_interval = -446.5 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:34: prev_interval = -446.5 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:35: prev_interval = -446.5 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:35: UI App requests: sysinfo
+2021-01-08(금) 오전 10:33:36: prev_interval = -446.5 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:37: sending output: 1600 9 57 WindowsFormsApplication5 0 0 10000 False
+2021-01-08(금) 오전 10:33:37: waiting for input...
+2021-01-08(금) 오전 10:33:37: UI App requests: topspeed
+2021-01-08(금) 오전 10:33:37: sending output: 3079
+2021-01-08(금) 오전 10:33:37: waiting for input...
+2021-01-08(금) 오전 10:33:38: prev_interval = 82 system elapsed time = 1082, service timer interval = 0.1
+2021-01-08(금) 오전 10:33:38: prev_interval = 0 system elapsed time = 0, service timer interval = 918
+2021-01-08(금) 오전 10:33:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:40: UI App requests: sysinfo
+2021-01-08(금) 오전 10:33:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:42: sending output: 1600 4 54 WindowsFormsApplication5 0 0 15000 False
+2021-01-08(금) 오전 10:33:42: waiting for input...
+2021-01-08(금) 오전 10:33:42: UI App requests: topspeed
+2021-01-08(금) 오전 10:33:42: sending output: 3079
+2021-01-08(금) 오전 10:33:42: waiting for input...
+2021-01-08(금) 오전 10:33:43: prev_interval = 81 system elapsed time = 1081, service timer interval = 0.1
+2021-01-08(금) 오전 10:33:43: prev_interval = 0 system elapsed time = 0, service timer interval = 919
+2021-01-08(금) 오전 10:33:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:46: UI App requests: sysinfo
+2021-01-08(금) 오전 10:33:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:48: sending output: 1600 85 59 WindowsFormsApplication5 0 0 20000 False
+2021-01-08(금) 오전 10:33:48: waiting for input...
+2021-01-08(금) 오전 10:33:48: UI App requests: topspeed
+2021-01-08(금) 오전 10:33:48: sending output: 3079
+2021-01-08(금) 오전 10:33:48: waiting for input...
+2021-01-08(금) 오전 10:33:48: prev_interval = 140 system elapsed time = 1140, service timer interval = 0.1
+2021-01-08(금) 오전 10:33:48: prev_interval = 0 system elapsed time = 0, service timer interval = 860
+2021-01-08(금) 오전 10:33:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:50: UI App requests: sysinfo
+2021-01-08(금) 오전 10:33:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:53: sending output: 1600 65 61 explorer 0 0 5000 False
+2021-01-08(금) 오전 10:33:53: waiting for input...
+2021-01-08(금) 오전 10:33:53: UI App requests: topspeed
+2021-01-08(금) 오전 10:33:53: sending output: 3079
+2021-01-08(금) 오전 10:33:53: waiting for input...
+2021-01-08(금) 오전 10:33:53: prev_interval = 100 system elapsed time = 1100, service timer interval = 0.1
+2021-01-08(금) 오전 10:33:53: prev_interval = 0 system elapsed time = 0, service timer interval = 900
+2021-01-08(금) 오전 10:33:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:55: UI App requests: sysinfo
+2021-01-08(금) 오전 10:33:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:33:57: sending output: 1600 9 55 explorer 0 0 10000 False
+2021-01-08(금) 오전 10:33:57: waiting for input...
+2021-01-08(금) 오전 10:33:57: UI App requests: topspeed
+2021-01-08(금) 오전 10:33:57: sending output: 3079
+2021-01-08(금) 오전 10:33:57: waiting for input...
+2021-01-08(금) 오전 10:33:58: prev_interval = 85 system elapsed time = 1085, service timer interval = 0.1
+2021-01-08(금) 오전 10:33:58: prev_interval = 0 system elapsed time = 0, service timer interval = 915
+2021-01-08(금) 오전 10:33:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:34:00: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:34:00: UI App requests: sysinfo
+2021-01-08(금) 오전 10:34:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:34:02: sending output: 1600 17 52 explorer 0 0 15000 False
+2021-01-08(금) 오전 10:34:02: waiting for input...
+2021-01-08(금) 오전 10:34:02: UI App requests: topspeed
+2021-01-08(금) 오전 10:34:02: sending output: 3079
+2021-01-08(금) 오전 10:34:02: waiting for input...
+2021-01-08(금) 오전 10:34:03: prev_interval = 82 system elapsed time = 1082, service timer interval = 0.1
+2021-01-08(금) 오전 10:34:03: prev_interval = 0 system elapsed time = 0, service timer interval = 918
+2021-01-08(금) 오전 10:34:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:34:05: UI App requests: sysinfo
+2021-01-08(금) 오전 10:34:05: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:34:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:34:07: sending output: 1600 5 53 explorer 0 0 20000 False
+2021-01-08(금) 오전 10:34:07: waiting for input...
+2021-01-08(금) 오전 10:34:07: UI App requests: topspeed
+2021-01-08(금) 오전 10:34:07: sending output: 3079
+2021-01-08(금) 오전 10:34:07: waiting for input...
+2021-01-08(금) 오전 10:34:08: prev_interval = 83 system elapsed time = 1083, service timer interval = 0.1
+2021-01-08(금) 오전 10:34:08: prev_interval = 0 system elapsed time = 0, service timer interval = 917
+2021-01-08(금) 오전 10:34:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:34:10: UI App requests: sysinfo
+2021-01-08(금) 오전 10:34:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:34:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:34:12: sending output: 1200 17 55 explorer 0 0 25000 False
+2021-01-08(금) 오전 10:34:12: waiting for input...
+2021-01-08(금) 오전 10:34:12: UI App requests: topspeed
+2021-01-08(금) 오전 10:34:12: sending output: 3079
+2021-01-08(금) 오전 10:34:12: waiting for input...
+2021-01-08(금) 오전 10:34:13: prev_interval = 85 system elapsed time = 1085, service timer interval = 0.1
+2021-01-08(금) 오전 10:34:13: prev_interval = 0 system elapsed time = 0, service timer interval = 915
+2021-01-08(금) 오전 10:34:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:34:15: UI App requests: sysinfo
+2021-01-08(금) 오전 10:34:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:34:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2021-01-08(금) 오전 10:34:17: sending output: 1600 12 52 explorer 0 0 30000 False
+2021-01-08(금) 오전 10:34:17: waiting for input...
+2021-01-08(금) 오전 10:34:17: UI App requests: topspeed
+2021-01-08(금) 오전 10:34:17: sending output: 3079
+2021-01-08(금) 오전 10:34:17: waiting for input...
+2021-01-08(금) 오전 10:34:18: prev_interval = 84 system elapsed time = 1084, service timer interval = 0.1
+2021-01-08(금) 오전 10:34:19: prev_interval = 0 system elapsed time = 0, service timer interval = 916
+2021-01-08(금) 오전 10:34:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
