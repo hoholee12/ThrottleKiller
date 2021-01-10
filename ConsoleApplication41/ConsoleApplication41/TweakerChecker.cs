@@ -405,6 +405,9 @@ namespace ThrottleSchedulerService
                     throttle_acc.Add(load);
                     throttlecheck++;
                 }
+                else {
+                    if(throttlecheck > 0) throttlecheck--;
+                }
 
                 log.WriteLog("accumulation for throttle load = " + load + " ,clk = " + currpwr + " ,throttlecheck = " + throttlecheck);
                 

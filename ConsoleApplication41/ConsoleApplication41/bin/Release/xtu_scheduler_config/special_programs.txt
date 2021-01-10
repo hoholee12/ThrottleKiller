@@ -2,3 +2,14 @@ WindowsFormsApplication5 = 5
 chrome = 5
 explorer = 5
 KakaoTalk = 5
+POWERPNT = 5
+ApplicationFrameHost = 5
+LockApp = 5
+
+@append
+devenv = 5
+notepad++ = 5
+vmware = 5
+VEFX Slider = 5
+TeamViewer = 5
+Idle = 5

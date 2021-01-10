@@ -94,7 +94,9 @@ namespace ThrottleSchedulerService
             while (settings.IPClocked) Thread.Sleep(100);
             settings.generatedCLK.resetFiles();
             settings.generatedXTU.resetFiles();
-            settings.special_programs.resetFiles();
+            settings.programs_running_cfg_cpu.resetFiles();
+            settings.programs_running_cfg_nice.resetFiles();
+            settings.programs_running_cfg_xtu.resetFiles();
             return log.WriteLog("clklist_reset.");
         }
         public string shutdown() {
