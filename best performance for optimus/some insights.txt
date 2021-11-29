@@ -1,0 +1,6 @@
+Key takeaway is to reduce power from iGPU and discrete GPU for the CPU to perform better.
+Use MSI afterburner or EVGA precision to underclock the discrete GPU all the way down.
+You can overclock your VRAM to compensate for the performance lost instead.
+Geforce MX450
+Core: -502Mhz
+Memory: +1000Mhz
