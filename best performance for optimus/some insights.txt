@@ -1,5 +1,5 @@
 Key takeaway is to reduce power from iGPU and discrete GPU for the CPU to perform better.
-Use MSI afterburner or EVGA precision to underclock the discrete GPU all the way down.
+Use EVGA precision X1 to underclock the discrete GPU all the way down.
 Geforce MX450
-Core: -502Mhz
-Memory: +0Mhz
+Core: -975Mhz
+Memory: +999Mhz
