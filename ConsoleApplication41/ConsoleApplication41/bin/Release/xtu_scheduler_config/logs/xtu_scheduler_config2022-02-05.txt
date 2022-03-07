@@ -1,0 +1,214 @@
+2022-02-05 오후 12:44:17: settings changed for: special_programs!, reimporting...
+2022-02-05 오후 12:44:17: reading: key = WindowsFormsApplication5, value = 5
+2022-02-05 오후 12:44:17: reading: key = chrome, value = 5
+2022-02-05 오후 12:44:17: reading: key = explorer, value = 5
+2022-02-05 오후 12:44:17: reading: key = KakaoTalk, value = 5
+2022-02-05 오후 12:44:17: reading: key = POWERPNT, value = 5
+2022-02-05 오후 12:44:17: reading: key = ApplicationFrameHost, value = 5
+2022-02-05 오후 12:44:17: reading: key = LockApp, value = 5
+2022-02-05 오후 12:44:17: reading: key = devenv, value = 5
+2022-02-05 오후 12:44:17: reading: key = notepad++, value = 5
+2022-02-05 오후 12:44:17: reading: key = vmware, value = 5
+2022-02-05 오후 12:44:17: reading: key = VEFX Slider, value = 5
+2022-02-05 오후 12:44:17: reading: key = TeamViewer, value = 5
+2022-02-05 오후 12:44:17: reading: key = Idle, value = 5
+2022-02-05 오후 12:44:17: settings changed for: programs_running_cfg_cpu!, reimporting...
+2022-02-05 오후 12:44:17: reading: key = 0, value = 100
+2022-02-05 오후 12:44:17: reading: key = 1, value = 99
+2022-02-05 오후 12:44:17: reading: key = 2, value = 98
+2022-02-05 오후 12:44:17: reading: key = 3, value = 95
+2022-02-05 오후 12:44:17: reading: key = 4, value = 84
+2022-02-05 오후 12:44:17: reading: key = 5, value = 73
+2022-02-05 오후 12:44:17: reading: key = 6, value = 65
+2022-02-05 오후 12:44:17: reading: key = 7, value = 58
+2022-02-05 오후 12:44:17: reading: key = 8, value = 50
+2022-02-05 오후 12:44:17: reading: key = 9, value = 43
+2022-02-05 오후 12:44:17: reading: key = 10, value = 32
+2022-02-05 오후 12:44:17: reading: key = 11, value = 24
+2022-02-05 오후 12:44:17: settings changed for: programs_running_cfg_xtu!, reimporting...
+2022-02-05 오후 12:44:17: reading: key = 11, value = 10.5
+2022-02-05 오후 12:44:17: reading: key = 10, value = 10.5
+2022-02-05 오후 12:44:17: reading: key = 9, value = 9.5
+2022-02-05 오후 12:44:17: reading: key = 8, value = 9
+2022-02-05 오후 12:44:17: reading: key = 7, value = 8.5
+2022-02-05 오후 12:44:17: reading: key = 6, value = 8
+2022-02-05 오후 12:44:17: reading: key = 5, value = 7.5
+2022-02-05 오후 12:44:17: reading: key = 4, value = 7
+2022-02-05 오후 12:44:17: reading: key = 3, value = 6.5
+2022-02-05 오후 12:44:17: reading: key = 2, value = 6
+2022-02-05 오후 12:44:17: reading: key = 1, value = 5.5
+2022-02-05 오후 12:44:17: reading: key = 0, value = 4.5
+2022-02-05 오후 12:44:17: settings changed for: programs_running_cfg_nice!, reimporting...
+2022-02-05 오후 12:44:17: reading: key = 0, value = Normal
+2022-02-05 오후 12:44:17: reading: key = 1, value = Normal
+2022-02-05 오후 12:44:17: reading: key = 2, value = Normal
+2022-02-05 오후 12:44:17: reading: key = 3, value = Normal
+2022-02-05 오후 12:44:17: reading: key = 4, value = Normal
+2022-02-05 오후 12:44:17: reading: key = 5, value = Normal
+2022-02-05 오후 12:44:17: reading: key = 6, value = Normal
+2022-02-05 오후 12:44:17: reading: key = 7, value = Normal
+2022-02-05 오후 12:44:17: importing settings for: loop_delay...
+2022-02-05 오후 12:44:17: reading: key = loop_delay, value = 5
+2022-02-05 오후 12:44:17: importing settings for: boost_cycle_delay...
+2022-02-05 오후 12:44:17: reading: key = boost_cycle_delay, value = 30
+2022-02-05 오후 12:44:17: importing settings for: newlist_cycle_delay...
+2022-02-05 오후 12:44:17: reading: key = newlist_cycle_delay, value = 120
+2022-02-05 오후 12:44:17: importing settings for: processor_guid_tweak...
+2022-02-05 오후 12:44:17: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2022-02-05 오후 12:44:17: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2022-02-05 오후 12:44:17: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2022-02-05 오후 12:44:17: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2022-02-05 오후 12:44:17: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2022-02-05 오후 12:44:17: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2022-02-05 오후 12:44:17: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2022-02-05 오후 12:44:17: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2022-02-05 오후 12:44:17: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2022-02-05 오후 12:44:17: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2022-02-05 오후 12:44:17: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2022-02-05 오후 12:44:17: importing settings for: generatedCLK...
+2022-02-05 오후 12:44:17: reading: key = 100, value = 2701
+2022-02-05 오후 12:44:17: reading: key = 99, value = 2700
+2022-02-05 오후 12:44:17: reading: key = 98, value = 2600
+2022-02-05 오후 12:44:17: reading: key = 95, value = 2300
+2022-02-05 오후 12:44:17: reading: key = 84, value = 2000
+2022-02-05 오후 12:44:17: reading: key = 73, value = 1800
+2022-02-05 오후 12:44:17: reading: key = 65, value = 1600
+2022-02-05 오후 12:44:17: reading: key = 58, value = 1400
+2022-02-05 오후 12:44:17: reading: key = 50, value = 1200
+2022-02-05 오후 12:44:17: reading: key = 43, value = 900
+2022-02-05 오후 12:44:17: reading: key = 32, value = 700
+2022-02-05 오후 12:44:17: reading: key = 24, value = 500
+2022-02-05 오후 12:44:17: importing settings for: generatedXTU...
+2022-02-05 오후 12:44:17: reading: key = 24, value = 10.5
+2022-02-05 오후 12:44:17: reading: key = 32, value = 10.5
+2022-02-05 오후 12:44:17: reading: key = 43, value = 9.5
+2022-02-05 오후 12:44:17: reading: key = 50, value = 9
+2022-02-05 오후 12:44:17: reading: key = 58, value = 8.5
+2022-02-05 오후 12:44:17: reading: key = 65, value = 8
+2022-02-05 오후 12:44:17: reading: key = 73, value = 7.5
+2022-02-05 오후 12:44:17: reading: key = 84, value = 7
+2022-02-05 오후 12:44:17: reading: key = 95, value = 6.5
+2022-02-05 오후 12:44:17: reading: key = 98, value = 6
+2022-02-05 오후 12:44:17: reading: key = 99, value = 5.5
+2022-02-05 오후 12:44:17: reading: key = 100, value = 4.5
+2022-02-05 오후 12:44:17: importing settings for: throttle_median...
+2022-02-05 오후 12:44:17: reading: key = throttle_median, value = 70
+2022-02-05 오후 12:44:17: settings changed for: newlist_median!, reimporting...
+2022-02-05 오후 12:44:17: reading: key = newlist_median, value = 60
+2022-02-05 오후 12:44:17: importing settings for: thermal_median...
+2022-02-05 오후 12:44:17: reading: key = thermal_median, value = 90
+2022-02-05 오후 12:44:17: importing settings for: gpuplan...
+2022-02-05 오후 12:44:17: reading: key = gpuplan, value = 1
+2022-02-05 오후 12:44:17: importing settings for: xtudefault...
+2022-02-05 오후 12:44:17: reading: key = xtudefault, value = 10.5
+2022-02-05 오후 12:44:19: checking XTU cmdlet
+2022-02-05 오후 12:44:22: XTU cmdlet missing, cannot continue.
+2022-02-05 오후 12:44:22: XTU ok
+2022-02-05 오후 12:44:22: setting XTU: 0.5
+2022-02-05 오후 12:45:03: settings changed for: special_programs!, reimporting...
+2022-02-05 오후 12:45:03: reading: key = WindowsFormsApplication5, value = 5
+2022-02-05 오후 12:45:03: reading: key = chrome, value = 5
+2022-02-05 오후 12:45:03: reading: key = explorer, value = 5
+2022-02-05 오후 12:45:03: reading: key = KakaoTalk, value = 5
+2022-02-05 오후 12:45:03: reading: key = POWERPNT, value = 5
+2022-02-05 오후 12:45:03: reading: key = ApplicationFrameHost, value = 5
+2022-02-05 오후 12:45:03: reading: key = LockApp, value = 5
+2022-02-05 오후 12:45:03: reading: key = devenv, value = 5
+2022-02-05 오후 12:45:03: reading: key = notepad++, value = 5
+2022-02-05 오후 12:45:03: reading: key = vmware, value = 5
+2022-02-05 오후 12:45:03: reading: key = VEFX Slider, value = 5
+2022-02-05 오후 12:45:03: reading: key = TeamViewer, value = 5
+2022-02-05 오후 12:45:03: reading: key = Idle, value = 5
+2022-02-05 오후 12:45:03: settings changed for: programs_running_cfg_cpu!, reimporting...
+2022-02-05 오후 12:45:03: reading: key = 0, value = 100
+2022-02-05 오후 12:45:03: reading: key = 1, value = 99
+2022-02-05 오후 12:45:03: reading: key = 2, value = 98
+2022-02-05 오후 12:45:03: reading: key = 3, value = 95
+2022-02-05 오후 12:45:03: reading: key = 4, value = 84
+2022-02-05 오후 12:45:03: reading: key = 5, value = 73
+2022-02-05 오후 12:45:03: reading: key = 6, value = 65
+2022-02-05 오후 12:45:03: reading: key = 7, value = 58
+2022-02-05 오후 12:45:03: reading: key = 8, value = 50
+2022-02-05 오후 12:45:03: reading: key = 9, value = 43
+2022-02-05 오후 12:45:03: reading: key = 10, value = 32
+2022-02-05 오후 12:45:03: reading: key = 11, value = 24
+2022-02-05 오후 12:45:03: settings changed for: programs_running_cfg_xtu!, reimporting...
+2022-02-05 오후 12:45:03: reading: key = 11, value = 10.5
+2022-02-05 오후 12:45:03: reading: key = 10, value = 10.5
+2022-02-05 오후 12:45:03: reading: key = 9, value = 9.5
+2022-02-05 오후 12:45:03: reading: key = 8, value = 9
+2022-02-05 오후 12:45:03: reading: key = 7, value = 8.5
+2022-02-05 오후 12:45:03: reading: key = 6, value = 8
+2022-02-05 오후 12:45:03: reading: key = 5, value = 7.5
+2022-02-05 오후 12:45:03: reading: key = 4, value = 7
+2022-02-05 오후 12:45:03: reading: key = 3, value = 6.5
+2022-02-05 오후 12:45:03: reading: key = 2, value = 6
+2022-02-05 오후 12:45:03: reading: key = 1, value = 5.5
+2022-02-05 오후 12:45:03: reading: key = 0, value = 4.5
+2022-02-05 오후 12:45:03: settings changed for: programs_running_cfg_nice!, reimporting...
+2022-02-05 오후 12:45:03: reading: key = 0, value = Normal
+2022-02-05 오후 12:45:03: reading: key = 1, value = Normal
+2022-02-05 오후 12:45:03: reading: key = 2, value = Normal
+2022-02-05 오후 12:45:03: reading: key = 3, value = Normal
+2022-02-05 오후 12:45:03: reading: key = 4, value = Normal
+2022-02-05 오후 12:45:03: reading: key = 5, value = Normal
+2022-02-05 오후 12:45:03: reading: key = 6, value = Normal
+2022-02-05 오후 12:45:03: reading: key = 7, value = Normal
+2022-02-05 오후 12:45:03: importing settings for: loop_delay...
+2022-02-05 오후 12:45:03: reading: key = loop_delay, value = 5
+2022-02-05 오후 12:45:03: importing settings for: boost_cycle_delay...
+2022-02-05 오후 12:45:03: reading: key = boost_cycle_delay, value = 30
+2022-02-05 오후 12:45:03: importing settings for: newlist_cycle_delay...
+2022-02-05 오후 12:45:03: reading: key = newlist_cycle_delay, value = 120
+2022-02-05 오후 12:45:03: importing settings for: processor_guid_tweak...
+2022-02-05 오후 12:45:03: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2022-02-05 오후 12:45:03: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2022-02-05 오후 12:45:03: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2022-02-05 오후 12:45:03: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2022-02-05 오후 12:45:03: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2022-02-05 오후 12:45:03: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2022-02-05 오후 12:45:03: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2022-02-05 오후 12:45:03: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2022-02-05 오후 12:45:03: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2022-02-05 오후 12:45:03: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2022-02-05 오후 12:45:03: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2022-02-05 오후 12:45:03: importing settings for: generatedCLK...
+2022-02-05 오후 12:45:03: reading: key = 100, value = 2701
+2022-02-05 오후 12:45:03: reading: key = 99, value = 2700
+2022-02-05 오후 12:45:03: reading: key = 98, value = 2600
+2022-02-05 오후 12:45:03: reading: key = 95, value = 2300
+2022-02-05 오후 12:45:03: reading: key = 84, value = 2000
+2022-02-05 오후 12:45:03: reading: key = 73, value = 1800
+2022-02-05 오후 12:45:03: reading: key = 65, value = 1600
+2022-02-05 오후 12:45:03: reading: key = 58, value = 1400
+2022-02-05 오후 12:45:03: reading: key = 50, value = 1200
+2022-02-05 오후 12:45:03: reading: key = 43, value = 900
+2022-02-05 오후 12:45:03: reading: key = 32, value = 700
+2022-02-05 오후 12:45:03: reading: key = 24, value = 500
+2022-02-05 오후 12:45:03: importing settings for: generatedXTU...
+2022-02-05 오후 12:45:03: reading: key = 24, value = 10.5
+2022-02-05 오후 12:45:03: reading: key = 32, value = 10.5
+2022-02-05 오후 12:45:03: reading: key = 43, value = 9.5
+2022-02-05 오후 12:45:03: reading: key = 50, value = 9
+2022-02-05 오후 12:45:03: reading: key = 58, value = 8.5
+2022-02-05 오후 12:45:03: reading: key = 65, value = 8
+2022-02-05 오후 12:45:03: reading: key = 73, value = 7.5
+2022-02-05 오후 12:45:03: reading: key = 84, value = 7
+2022-02-05 오후 12:45:03: reading: key = 95, value = 6.5
+2022-02-05 오후 12:45:03: reading: key = 98, value = 6
+2022-02-05 오후 12:45:03: reading: key = 99, value = 5.5
+2022-02-05 오후 12:45:03: reading: key = 100, value = 4.5
+2022-02-05 오후 12:45:03: importing settings for: throttle_median...
+2022-02-05 오후 12:45:03: reading: key = throttle_median, value = 70
+2022-02-05 오후 12:45:03: settings changed for: newlist_median!, reimporting...
+2022-02-05 오후 12:45:03: reading: key = newlist_median, value = 60
+2022-02-05 오후 12:45:03: importing settings for: thermal_median...
+2022-02-05 오후 12:45:03: reading: key = thermal_median, value = 90
+2022-02-05 오후 12:45:03: importing settings for: gpuplan...
+2022-02-05 오후 12:45:03: reading: key = gpuplan, value = 1
+2022-02-05 오후 12:45:03: importing settings for: xtudefault...
+2022-02-05 오후 12:45:03: reading: key = xtudefault, value = 10.5
+2022-02-05 오후 12:45:04: checking XTU cmdlet
+2022-02-05 오후 12:45:07: XTU cmdlet missing, cannot continue.
+2022-02-05 오후 12:45:07: XTU ok
+2022-02-05 오후 12:45:07: setting XTU: 0.5
