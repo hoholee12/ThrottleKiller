@@ -1,3 +1,12 @@
+
+# run it via task scheduler
+#  PowerShell.exe -windowstyle hidden -executionpolicy remotesigned <scriptlocation>\gpu_scheduler.ps1 <scriptlocation>
+#
+#  <scriptlocation>: you need to put this in the same directory as nvidiainspector.exe.
+#
+#  (Run whether user is logged on or not is VERY UNRELIABLE)
+
+
 #user config
 $limit = 1
 $sleeptime = 5
@@ -9,33 +18,164 @@ $memoffset = -1000
 #internal stuff
 $delta = 0
 $switching = 1
+$switching2 = 1
 $switchdelay = 0
-#logging stuff
-function msg ([string]$setting_string){
-	#print by date and time
-	$setting_string = ((get-date -format "yy-MM-dd hh:mm:ss: ") + $setting_string)
-	$setting_string
-	$setting_string >> "C:\nvidiaInspector\gpu_scheduler.log"
+
+# check custom location for settings
+$loc = ".\"
+$arg_len = $args[0].Length
+if($arg_len -ne 0){
+	if($args[0][[int]$arg_len - 1] -ne "\"){
+		$loc = $args[0] + "\"
+	
+	}
+	else{
+		$loc = $args[0]
+	
+	}
+
+}
+$env:path = $env:path + ";"+ $loc
+
+# create config files if not exist
+function checkFiles([string]$setting_string, [string]$value_string){
+	if((Test-Path ($loc + "gpu_scheduler_config\" + $setting_string + ".txt")) -ne $True){
+		if((Test-Path ($loc + "gpu_scheduler_config")) -ne $True) {
+			New-Item -path $loc -name "gpu_scheduler_config" -ItemType "directory"
+			#print information<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+			msg("created directory: " + $loc + "gpu_scheduler_config")
+		}
+		
+		New-Item -path ($loc + "gpu_scheduler_config") -name ($setting_string + ".txt"`
+		) -ItemType "file" -value $value_string
+		#print information<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+		msg("created file: " + $setting_string + " in " + $loc + "gpu_scheduler_config")
+	}
 }
 
+function checkFiles_myfiles{
+	checkFiles "blacklist_programs"`
+"ff7remake"
+}
 
+function checkSettings($setting_string){
+	$currentModifiedDate = (Get-Item ($loc + "gpu_scheduler_config\" + $setting_string + ".txt"`
+	)).LastWriteTime
+	if($global:lastModifiedDate[$setting_string] -ne $currentModifiedDate){
+		$global:isDateDifferent = $True
+		$global:lastModifiedDate.Remove($setting_string)
+		
+		#print information<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+		msg($setting_string + " has been modified, reloading...")
+		$global:reapplySettings = $True
+		findFiles $setting_string
+		
+	}
+	else{
+		$global:isDateDifferent = $False
+	}
+}
+
+# used for checking whether settings file was modified
+$global:lastModifiedDate = @{}
+$global:found_hash = @{}		#copy $found_hash after calling findFiles
+
+function findFiles($setting_string){
+	$file = Get-Content ($loc + "gpu_scheduler_config\" + $setting_string + ".txt")
+	$global:lastModifiedDate.add($setting_string, (Get-Item ($loc + "gpu_scheduler_config\"`
+	+ $setting_string + ".txt")).LastWriteTime)
+	if ($? -eq $True)
+	{
+		$global:found_hash = @{}
+		foreach ($line in $file)
+		{
+			$global:found_hash.add($line, 0)
+		}
+		# equivalent to 'eval'
+		set-variable ("global:" + $setting_string) $global:found_hash
+	}
+}
+
+findFiles "blacklist_programs"
+
+#for foreground detection
+Add-Type @"
+  using System;
+  using System.Runtime.InteropServices;
+  public class Foreground {
+    [DllImport("user32.dll")]
+    public static extern IntPtr GetForegroundWindow();
+}
+"@
+
+function does_procname_exist{
+	try{
+		$fg = [Foreground]::GetForegroundWindow()
+		$ret = get-process | ? { $_.mainwindowhandle -eq $fg }
+		foreach($key in $blacklist_programs.Keys){
+			if($ret.processname.ToLower().Contains($key.ToLower())){
+				return $true
+			}
+		}
+		#foreach($key in $blacklist_programs.Keys)		#   $key value remains globally after break
+		#{
+		#	$temp = Get-Process -ErrorAction SilentlyContinue -Name ($key + '*')
+		#	if ($temp -ne $null)
+		#	{
+		#		return $true
+		#	}
+		#}
+	}
+	catch{}
+	return $false
+}
+
+#logging stuff
+function msg([string]$setting_string){
+	#print by date and time
+	$setting_string = ((get-date -format "yy-MM-dd hh:mm:ss: ") + $setting_string)
+	$setting_string >> ($loc + "gpu_scheduler_config\gpu_scheduler.log")
+}
+msg($loc)
+
+#main logic
 while($true){
-	$delta = (((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage").CounterSamples | where CookedValue).CookedValue | measure -sum).sum
-	msg("delta: " + $delta)
-	if ($delta -ge $limit){
-		if ($switching -eq 0 -And $switchdelay -eq 1){
-			C:\nvidiaInspector\nvidiaInspector.exe -setBaseClockOffset:0,0,$clockoffset -setMemoryClockOffset:0,0,$memoffset
-			$switching = 1
-			msg("gpu is in game mode")
+	checkFiles_myfiles
+	checkSettings "blacklist_programs"
+
+	$result = does_procname_exist
+	if($result -eq $false){
+		$delta = 0
+		try{
+			$delta = (((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage").CounterSamples | where CookedValue).CookedValue | measure -sum).sum
 		}
-		$switchdelay = 1
-	}elseif($delta -lt $limit){
-		if($switching -eq 1){
-			C:\nvidiaInspector\nvidiaInspector.exe -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,$memoffset
-			$switching = 0
+		catch{}
+		msg("delta: " + $delta)
+		if ($delta -ge $limit){
+			if ($switching -eq 0 -And $switchdelay -eq 1 -Or $switching2 -eq 0){
+				nvidiaInspector -setBaseClockOffset:0,0,$clockoffset -setMemoryClockOffset:0,0,$memoffset
+				$switching = 1
+				$switching2 = 1
+				msg("gpu is in game mode")
+			}
+			$switchdelay = 1
+		}elseif($delta -lt $limit){
+			if($switching -eq 1 -Or $switching2 -eq 0){
+				nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,$memoffset
+				$switching = 0
+				$switching2 = 1
+				msg("gpu is sleeping")
+			}
+			$switchdelay = 0
+		}
+	}
+	else{
+		if($switching2 -eq 1){
+			nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,$memoffset
+			$switching2 = 0
 			msg("gpu is sleeping")
+			msg("blacklisted program found.")
 		}
-		$switchdelay = 0
 	}
 	start-sleep $sleeptime
 }
