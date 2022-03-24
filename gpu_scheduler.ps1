@@ -15,6 +15,35 @@ $sleeptime = 5
 $clockoffset = -950
 $memoffset = -1000
 
+#better cpu scheduler tuning
+$processor_power_management_guids = @{
+"06cadf0e-64ed-448a-8927-ce7bf90eb35d" = 30			# processor high threshold; lower this for performance
+"0cc5b647-c1df-4637-891a-dec35c318583" = 100
+"12a0ab44-fe28-4fa9-b3bd-4b64f44960a6" = 15			# processor low threshold; upper this for batterylife
+"40fbefc7-2e9d-4d25-a185-0cfd8574bac6" = 1
+"45bcc044-d885-43e2-8605-ee0ec6e96b59" = 100
+"465e1f50-b610-473a-ab58-00d1077dc418" = 2
+"4d2b0152-7d5c-498b-88e2-34345392a2c5" = 15
+"893dee8e-2bef-41e0-89c6-b55d0929964c" = 5			# processor low clockspeed limit
+"94d3a615-a899-4ac5-ae2b-e4d8f634367f" = 1
+"bc5038f7-23e0-4960-96da-33abaf5935ec" = 100		# processor high clockspeed limit
+"ea062031-0e34-4ff1-9b6d-eb1059334028" = 100
+}
+$guid0 = '381b4222-f694-41f0-9685-ff5bb260df2e'		# you can change to any powerplan you want as default!
+$guid1 = '54533251-82be-4824-96c1-47b60b740d00'		# processor power management
+$guid2 = 'bc5038f7-23e0-4960-96da-33abaf5935ec'		# processor high clockspeed limit
+$guid3 = '893dee8e-2bef-41e0-89c6-b55d0929964c'		# processor low clockspeed limit
+
+$guid4 = '44f3beca-a7c0-460e-9df2-bb8b99e0cba6'		# intel graphics power management
+$guid5 = '3619c3f2-afb2-4afc-b0e9-e7fef372de36'		# submenu of intel graphics power management
+foreach($temp in $processor_power_management_guids.Keys){
+	powercfg /attributes $guid1 $temp -ATTRIB_HIDE
+	powercfg /setdcvalueindex $guid0 $guid1 $temp $processor_power_management_guids[$temp]
+	powercfg /setacvalueindex $guid0 $guid1 $temp $processor_power_management_guids[$temp]
+}
+powercfg /attributes $guid4 $guid5 -ATTRIB_HIDE
+powercfg /setactive $guid0
+
 #internal stuff
 $delta = 0
 $switching = 1
