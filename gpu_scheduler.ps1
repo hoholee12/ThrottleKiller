@@ -161,7 +161,7 @@ while($true){
 			$switchdelay = 1
 		}elseif($delta -lt $limit){
 			if($switching -eq 1 -Or $switching2 -eq 0){
-				nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,$memoffset
+				nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
 				$switching = 0
 				$switching2 = 1
 				msg("gpu is sleeping")
@@ -171,7 +171,7 @@ while($true){
 	}
 	else{
 		if($switching2 -eq 1){
-			nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,$memoffset
+			nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
 			$switching2 = 0
 			msg("gpu is sleeping")
 			msg("blacklisted program found.")
