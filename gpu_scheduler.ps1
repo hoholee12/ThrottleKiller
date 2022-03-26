@@ -165,7 +165,7 @@ function msg([string]$setting_string){
 	$setting_string = ((get-date -format "yy-MM-dd hh:mm:ss: ") + $setting_string)
 	$setting_string >> ($loc + "gpu_scheduler_config\gpu_scheduler.log")
 }
-msg($loc)
+msg($loc)	#log script location
 
 #main logic
 while($true){
@@ -174,13 +174,10 @@ while($true){
 
 	$result = does_procname_exist
 	if($result -eq $false){
-		$delta = 0
-		try{
-			$delta = (((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage").CounterSamples | where CookedValue).CookedValue | measure -sum).sum
-		}
-		catch{}
-		msg("delta: " + $delta)
+		$delta = (((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage").CounterSamples`
+		| where CookedValue).CookedValue | measure -sum).sum
 		if ($delta -ge $limit){
+			msg("delta: " + $delta)	#keep logging delta when game mode
 			if ($switching -eq 0 -And $switchdelay -eq 1 -Or $switching2 -eq 0){
 				nvidiaInspector -setBaseClockOffset:0,0,$clockoffset -setMemoryClockOffset:0,0,$memoffset
 				$switching = 1
@@ -193,6 +190,7 @@ while($true){
 				nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
 				$switching = 0
 				$switching2 = 1
+				msg("delta: " + $delta)	#log delta only once on standby
 				msg("gpu is sleeping")
 			}
 			$switchdelay = 0
