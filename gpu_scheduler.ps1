@@ -8,7 +8,7 @@
 
 
 #user config
-$limit = 1
+$limit = 0
 $sleeptime = 5
 
 #gpu config
@@ -49,6 +49,7 @@ $delta = 0
 $switching = 1
 $switching2 = 1
 $switchdelay = 0
+#script assumes nothing is running at start.
 
 # check custom location for settings
 $loc = ".\"
@@ -176,7 +177,7 @@ while($true){
 	if($result -eq $false){
 		$delta = (((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage").CounterSamples`
 		| where CookedValue).CookedValue | measure -sum).sum
-		if ($delta -ge $limit){
+		if ($delta -gt $limit){
 			msg("delta: " + $delta)	#keep logging delta when game mode
 			if ($switching -eq 0 -And $switchdelay -eq 1 -Or $switching2 -eq 0){
 				nvidiaInspector -setBaseClockOffset:0,0,$clockoffset -setMemoryClockOffset:0,0,$memoffset
@@ -185,7 +186,7 @@ while($true){
 				msg("gpu is in game mode")
 			}
 			$switchdelay = 1
-		}elseif($delta -lt $limit){
+		}elseif($delta -le $limit){
 			if($switching -eq 1 -Or $switching2 -eq 0){
 				nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
 				$switching = 0
