@@ -138,12 +138,14 @@ Add-Type @"
 }
 "@
 
+$global:process_str = ""
 function does_procname_exist{
 	try{
 		$fg = [Foreground]::GetForegroundWindow()
 		$ret = get-process | ? { $_.mainwindowhandle -eq $fg }
+		$global:process_str = $ret.processname.ToLower()
 		foreach($key in $blacklist_programs.Keys){
-			if($ret.processname.ToLower().Contains($key.ToLower())){
+			if($global:process_str.Contains($key.ToLower())){
 				return $true
 			}
 		}
@@ -183,7 +185,7 @@ while($true){
 				nvidiaInspector -setBaseClockOffset:0,0,$clockoffset -setMemoryClockOffset:0,0,$memoffset
 				$switching = 1
 				$switching2 = 1
-				msg("gpu is in game mode")
+				msg($global:process_str + ": gpu is in game mode")
 			}
 			$switchdelay = 1
 		}elseif($delta -le $limit){
@@ -202,7 +204,7 @@ while($true){
 			nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
 			$switching2 = 0
 			msg("gpu is sleeping")
-			msg("blacklisted program found.")
+			msg($global:process_str + ": blacklisted program found.")
 		}
 	}
 	start-sleep $sleeptime
