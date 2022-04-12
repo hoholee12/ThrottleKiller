@@ -8,8 +8,9 @@
 
 
 #user config
-$limit = 0
+$limit = 0	#upper limit for copy usage
 $sleeptime = 5
+$limitcpu = 70	#dont underclock gpu when there is no need for cpu
 
 #gpu config
 $clockoffset = -950
@@ -46,6 +47,7 @@ powercfg /setactive $guid0
 
 #internal stuff
 $delta = 0
+$deltacpu = 0
 $switching = 1
 $switching2 = 1
 $switchdelay = 0
@@ -141,9 +143,14 @@ Add-Type @"
 $global:process_str = ""
 function does_procname_exist{
 	try{
+		$error.clear()
 		$fg = [Foreground]::GetForegroundWindow()
 		$ret = get-process | ? { $_.mainwindowhandle -eq $fg }
 		$global:process_str = $ret.processname.ToLower()
+		if($error){
+			$global:process_str = ""
+			return $false
+		}
 		foreach($key in $blacklist_programs.Keys){
 			if($global:process_str.Contains($key.ToLower())){
 				return $true
@@ -168,27 +175,29 @@ function msg([string]$setting_string){
 	$setting_string = ((get-date -format "yy-MM-dd hh:mm:ss: ") + $setting_string)
 	$setting_string >> ($loc + "gpu_scheduler_config\gpu_scheduler.log")
 }
-msg($loc)	#log script location
+msg("script started. starting location: " + $loc)	#log script location
 
 #main logic
 while($true){
+	$sw = [Diagnostics.Stopwatch]::StartNew()
 	checkFiles_myfiles
 	checkSettings "blacklist_programs"
 
 	$result = does_procname_exist
 	if($result -eq $false){
-		$delta = (((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage").CounterSamples`
-		| where CookedValue).CookedValue | measure -sum).sum
+		$delta = (((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage").CounterSamples | where CookedValue).CookedValue | measure -sum).sum
 		if ($delta -gt $limit){
 			msg("delta: " + $delta)	#keep logging delta when game mode
-			if ($switching -eq 0 -And $switchdelay -eq 1 -Or $switching2 -eq 0){
+			$deltacpu = (Get-WmiObject -class Win32_Processor)['LoadPercentage']
+			if ($switching -eq 0 -And $switchdelay -eq 1 -Or $switching2 -eq 0 -And $deltacpu -gt $limitcpu){
 				nvidiaInspector -setBaseClockOffset:0,0,$clockoffset -setMemoryClockOffset:0,0,$memoffset
 				$switching = 1
 				$switching2 = 1
 				msg($global:process_str + ": gpu is in game mode")
 			}
 			$switchdelay = 1
-		}elseif($delta -le $limit){
+		}
+		else{
 			if($switching -eq 1 -Or $switching2 -eq 0){
 				nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
 				$switching = 0
@@ -207,5 +216,6 @@ while($true){
 			msg($global:process_str + ": blacklisted program found.")
 		}
 	}
-	start-sleep $sleeptime
+	$sw.Stop()
+	start-sleep ($sleeptime - $sw.Elapsed.Seconds)
 }
