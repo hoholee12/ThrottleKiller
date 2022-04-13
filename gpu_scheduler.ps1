@@ -12,7 +12,7 @@ $limit = 0	#upper limit for copy usage
 $sleeptime = 5
 $limitcpu = 60	#dont underclock gpu when there is no need for cpu
 $delaychange = 1 #delay from sudden gpu underclock
-$delaychange2 = 4 #delay from sudden gpu normalclock
+$delaychange2 = 6 #delay from sudden gpu normalclock
 
 #gpu config
 $clockoffset = -950
