@@ -222,7 +222,7 @@ while($true){
 			nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
 			$switching2 = 0
 			msg("gpu is sleeping")
-			if ($global:process_str.Contains(" ") -eq $false){	#nothing is on focus
+			if ($global:process_str.length -le 20){	#nothing is on focus
 				msg($global:process_str + ": blacklisted or lightweight program found.")
 			}
 			msg("cpu usage: " + $deltacpu)
