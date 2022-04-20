@@ -10,9 +10,10 @@
 #user config
 $limit = 0	#upper limit for copy usage
 $sleeptime = 5
-$limitcpu = 60	#dont underclock gpu when there is no need for cpu
-$delaychange = 1 #delay from sudden gpu underclock
+$limitcpu = 70	#dont underclock gpu when there is no need for cpu
+$delaychange = 0 #delay from sudden gpu underclock
 $delaychange2 = 5 #delay from sudden gpu normalclock
+$isdebug = $false #dont print debug stuff
 
 #gpu config
 $clockoffset = -950
@@ -48,12 +49,11 @@ powercfg /attributes $guid4 $guid5 -ATTRIB_HIDE
 powercfg /setactive $guid0
 
 #internal stuff
-$delta = 0
-$deltacpu = 0
-$switching = 1
-$switching2 = 1
-$switchdelay = 0
-$switchdelay2 = 0
+$global:delta = 0
+$global:deltacpu = 0
+$global:gpuswitch = 0 #if 0 gpu limit, 1 gpu default
+$global:switchdelay = 0
+$global:switchdelay2 = 0
 #script assumes nothing is running at start.
 
 # check custom location for settings
@@ -152,10 +152,12 @@ function does_procname_exist{
 		$global:process_str = $ret.processname.ToLower()
 		if($error){
 			$global:process_str = ""
+			$global:result = $false
 			return $false
 		}
 		foreach($key in $blacklist_programs.Keys){
 			if($global:process_str.Contains($key.ToLower())){
+				$global:result = $true
 				return $true
 			}
 		}
@@ -169,6 +171,7 @@ function does_procname_exist{
 		#}
 	}
 	catch{}
+	$global:result = $false
 	return $false
 }
 
@@ -182,53 +185,70 @@ msg("script started. starting location: " + $loc)	#log script location
 
 
 $maxcpu = (Get-WmiObject -class Win32_Processor)['MaxClockSpeed']
+
 #main logic
+function gpulimit{
+	if($global:switchdelay -ge $delaychange){
+		if($global:gpuswitch -eq 0){
+			nvidiaInspector -setBaseClockOffset:0,0,$clockoffset -setMemoryClockOffset:0,0,$memoffset
+			msg("gpu is limit")
+			msg($global:process_str + ": game is running.")
+		}
+		$global:gpuswitch = 1
+	}
+	$global:switchdelay++
+	$global:switchdelay2 = 0
+}
+
+function gpudefault{
+	if($global:switchdelay2 -ge $delaychange2){
+		if($global:gpuswitch -eq 1){
+			nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
+			msg("gpu is default")
+			if ($global:result -eq $true){	#nothing is on focus
+				msg($global:process_str + ": blacklisted program found.")
+			}
+		}
+		$global:gpuswitch = 0
+	}
+	$global:switchdelay2++
+	$global:switchdelay = 0
+}
+
 while($true){
 	$sw = [Diagnostics.Stopwatch]::StartNew()
 	checkFiles_myfiles
 	checkSettings "blacklist_programs"
 
-	$result = does_procname_exist
+	$global:result = does_procname_exist
 	$getproc = Get-WmiObject -class Win32_Processor
-	$deltacpu = $getproc['LoadPercentage']
+	$global:deltacpu = $getproc['LoadPercentage']
 	$curcpu = $getproc['CurrentClockSpeed']
-	$deltacpu = $deltacpu*100/$maxcpu*$curcpu/100
-	if($result -eq $false -And $deltacpu -gt $limitcpu){
-		$delta = (((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage").CounterSamples | where CookedValue).CookedValue | measure -sum).sum
-		if ($delta -gt $limit){
-			msg("delta: " + $delta)	#keep logging delta when game mode
-			if ($switching -eq 0 -And $switchdelay -ge $delaychange -Or $switching2 -eq 0){
-				nvidiaInspector -setBaseClockOffset:0,0,$clockoffset -setMemoryClockOffset:0,0,$memoffset
-				$switching = 1
-				$switching2 = 1
-				msg($global:process_str + ": gpu is in game mode")
-			}
-			$switchdelay++
-		}
-		else{
-			if($switching -eq 1 -Or $switching2 -eq 0){
-				nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
-				$switching = 0
-				$switching2 = 1
-				msg("delta: " + $delta)	#log delta only once on standby
-				msg("gpu is sleeping")
-			}
-			$switchdelay = 0
-		}
-		$switchdelay2 = 0
+	$global:deltacpu = $global:deltacpu*100/$maxcpu*$curcpu/100
+	$global:delta = (((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage").`
+		CounterSamples | where CookedValue).CookedValue | measure -sum).sum
+	
+	if($global:result -eq $true){
+		#if blacklisted app found, gpudefault
+		gpudefault
+	}
+	elseif($global:deltacpu -le $limitcpu){
+		#if app uses less cpu than limit, gpudefault
+		gpudefault
+	}
+	elseif($global:delta -gt $limit){
+		#if app uses more cpu than limit and gpu, gpulimit
+		gpulimit
 	}
 	else{
-		if($switching2 -eq 1 -And $switchdelay2 -ge $delaychange2){
-			nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
-			$switching2 = 0
-			msg("gpu is sleeping")
-			if ($global:process_str -is [string]){	#nothing is on focus
-				msg($global:process_str + ": blacklisted or lightweight program found.")
-			}
-			msg("cpu usage: " + $deltacpu)
-		}
-		$switchdelay2++
+		#if app uses more cpu than limit but no gpu, gpudefault	
+		gpudefault
 	}
 	$sw.Stop()
+	if($isdebug -eq $true){
+		msg("cpu usage = " + $global:deltacpu + ", gpu delta = " + $global:delta)
+		msg("gpuswitch = " + $global:gpuswitch + ", switchdelay = " + $global:switchdelay`
+		+ ", switchdelay2 = " + $global:switchdelay2)
+	}
 	start-sleep ($sleeptime - $sw.Elapsed.Seconds)
 }
