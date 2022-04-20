@@ -10,7 +10,7 @@
 #user config
 $limit = 0	#upper limit for copy usage
 $sleeptime = 5
-$limitcpu = 70	#dont underclock gpu when there is no need for cpu
+$limitcpu = 60	#dont underclock gpu when there is no need for cpu
 $delaychange = 0 #delay from sudden gpu underclock
 $delaychange2 = 5 #delay from sudden gpu normalclock
 $isdebug = $false #dont print debug stuff
@@ -183,9 +183,6 @@ function msg([string]$setting_string){
 }
 msg("script started. starting location: " + $loc)	#log script location
 
-
-$maxcpu = (Get-WmiObject -class Win32_Processor)['MaxClockSpeed']
-
 #main logic
 function gpulimit{
 	if($global:switchdelay -ge $delaychange){
@@ -221,12 +218,10 @@ while($true){
 	checkSettings "blacklist_programs"
 
 	$global:result = does_procname_exist
-	$getproc = Get-WmiObject -class Win32_Processor
-	$global:deltacpu = $getproc['LoadPercentage']
-	$curcpu = $getproc['CurrentClockSpeed']
-	$global:deltacpu = $global:deltacpu*100/$maxcpu*$curcpu/100
-	$global:delta = (((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage").`
-		CounterSamples | where CookedValue).CookedValue | measure -sum).sum
+	$global:deltacpu = ((Get-Counter "\Processor(_Total)\% Processor Time" -ErrorAction SilentlyContinue).`
+	CounterSamples.CookedValue | measure -sum).sum
+	$global:delta = ((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
+	CounterSamples.CookedValue | measure -sum).sum
 	
 	if($global:result -eq $true){
 		#if blacklisted app found, gpudefault
