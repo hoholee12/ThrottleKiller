@@ -10,9 +10,9 @@
 #user config
 $limit = 0	#upper limit for copy usage
 $sleeptime = 5
-$limitcpu = 60	#dont underclock gpu when there is no need for cpu
-$delaychange = 0 #delay from sudden gpu underclock
-$delaychange2 = 5 #delay from sudden gpu normalclock
+$limitcpu = 50	#dont underclock gpu when there is no need for cpu
+$delaychange = 3 #delay from sudden gpulimit
+$delaychange2 = 1 #delay from sudden gpudefault
 $isdebug = $false #dont print debug stuff
 
 #gpu config
@@ -54,6 +54,7 @@ $global:deltacpu = 0
 $global:gpuswitch = 0 #if 0 gpu limit, 1 gpu default
 $global:switchdelay = 0
 $global:switchdelay2 = 0
+$global:policyflip = 0 #keep gpulimit until game end
 #script assumes nothing is running at start.
 
 # check custom location for settings
@@ -188,28 +189,34 @@ function gpulimit{
 	if($global:switchdelay -ge $delaychange){
 		if($global:gpuswitch -eq 0){
 			nvidiaInspector -setBaseClockOffset:0,0,$clockoffset -setMemoryClockOffset:0,0,$memoffset
-			msg("gpu is limit")
+			msg("gpulimit enabled.")
 			msg($global:process_str + ": game is running.")
 		}
 		$global:gpuswitch = 1
+		$global:policyflip = 1	#flip here for switchdelay
 	}
 	$global:switchdelay++
 	$global:switchdelay2 = 0
 }
 
 function gpudefault{
-	if($global:switchdelay2 -ge $delaychange2){
-		if($global:gpuswitch -eq 1){
-			nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
-			msg("gpu is default")
-			if ($global:result -eq $true){	#nothing is on focus
-				msg($global:process_str + ": blacklisted program found.")
+	if($global:policyflip -eq 0){
+		if($global:switchdelay2 -ge $delaychange2){
+			if($global:gpuswitch -eq 1){
+				nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
+				msg("gpudefault enabled.")
+				if ($global:result -eq $true){	#nothing is on focus
+					msg($global:process_str + ": blacklisted program found.")
+				}
 			}
+			$global:gpuswitch = 0
 		}
-		$global:gpuswitch = 0
+		$global:switchdelay2++
+		$global:switchdelay = 0
 	}
-	$global:switchdelay2++
-	$global:switchdelay = 0
+	else{
+		msg("gpudefault is bound by policyflip.")
+	}
 }
 
 while($true){
@@ -226,18 +233,25 @@ while($true){
 	if($global:result -eq $true){
 		#if blacklisted app found, gpudefault
 		gpudefault
+		$global:policyflip = 0
 	}
-	elseif($global:deltacpu -le $limitcpu){
-		#if app uses less cpu than limit, gpudefault
+	elseif($global:deltacpu -le $limitcpu -And $global:delta -le $limit){
+		#if no cpu and no gpu, gpudefault
+		gpudefault
+		$global:policyflip = 0
+	}
+	elseif($global:deltacpu -le $limitcpu -And $global:delta -gt $limit){
+		#if no cpu but yes gpu, gpudefault
 		gpudefault
 	}
-	elseif($global:delta -gt $limit){
-		#if app uses more cpu than limit and gpu, gpulimit
+	elseif($global:deltacpu -gt $limitcpu -And $global:delta -le $limit){
+		#if yes cpu but no gpu, gpudefault
+		gpudefault
+		$global:policyflip = 0
+	}
+	elseif($global:deltacpu -gt $limitcpu -And $global:delta -gt $limit){
+		#if cpu heavy game, gpulimit
 		gpulimit
-	}
-	else{
-		#if app uses more cpu than limit but no gpu, gpudefault	
-		gpudefault
 	}
 	$sw.Stop()
 	if($isdebug -eq $true){
