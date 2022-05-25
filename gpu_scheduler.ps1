@@ -92,7 +92,8 @@ function checkFiles([string]$setting_string, [string]$value_string){
 
 function checkFiles_myfiles{
 	checkFiles "blacklist_programs"`
-"ff7remake"
+"ff7remake
+flightsimulator"
 }
 
 function checkSettings($setting_string){
