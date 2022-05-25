@@ -10,6 +10,7 @@
 #user config
 $limit = 0	#upper limit for copy usage
 $sleeptime = 5
+$delaydelta = 20 # cpu = gpu + delaydelta
 $delaychange = 2 #delay from sudden gpulimit
 $delaychange2 = 2 #delay from sudden gpudefault
 $isdebug = $false #dont print debug stuff
@@ -238,7 +239,7 @@ while($true){
 	$global:delta = ((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
 	$global:delta3d = ((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
-	CounterSamples.CookedValue | measure -sum).sum
+	CounterSamples.CookedValue | measure -sum).sum + $delaydelta
 	
 	if($global:result -eq $true){
 		if($global:msgswitch -eq 0){
