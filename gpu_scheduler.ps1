@@ -10,9 +10,8 @@
 #user config
 $limit = 0	#upper limit for copy usage
 $sleeptime = 5
-$limitcpu = 50	#dont underclock gpu when there is no need for cpu
-$delaychange = 1 #delay from sudden gpulimit
-$delaychange2 = 1 #delay from sudden gpudefault
+$delaychange = 2 #delay from sudden gpulimit
+$delaychange2 = 2 #delay from sudden gpudefault
 $isdebug = $false #dont print debug stuff
 
 #gpu config
@@ -51,10 +50,12 @@ powercfg /setactive $guid0
 #internal stuff
 $global:delta = 0
 $global:deltacpu = 0
+$global:delta3d = 0
 $global:gpuswitch = 0 #if 0 gpu limit, 1 gpu default
 $global:switchdelay = 0
 $global:switchdelay2 = 0
 $global:policyflip = 0 #keep gpulimit until game end
+$global:msgswitch = 0
 #script assumes nothing is running at start.
 
 # check custom location for settings
@@ -189,8 +190,12 @@ function gpulimit{
 	if($global:switchdelay -ge $delaychange){
 		if($global:gpuswitch -eq 0){
 			nvidiaInspector -setBaseClockOffset:0,0,$clockoffset -setMemoryClockOffset:0,0,$memoffset
-			msg("gpulimit enabled.")
-			msg($global:process_str + ": game is running.")
+			if($global:result -eq $true){
+				msg($global:process_str + ": gpulimit enabled.")
+			}
+			else{
+				msg("gpulimit enabled.")
+			}
 		}
 		$global:gpuswitch = 1
 		$global:policyflip = 1	#flip here for switchdelay
@@ -204,9 +209,11 @@ function gpudefault{
 		if($global:switchdelay2 -ge $delaychange2){
 			if($global:gpuswitch -eq 1){
 				nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
-				msg("gpudefault enabled.")
-				if ($global:result -eq $true){	#nothing is on focus
-					msg($global:process_str + ": blacklisted program found.")
+				if($global:result -eq $true){
+					msg($global:process_str + ": gpudefault enabled.")
+				}
+				else{
+					msg("gpudefault enabled.")
 				}
 			}
 			$global:gpuswitch = 0
@@ -229,34 +236,50 @@ while($true){
 	CounterSamples.CookedValue | measure -sum).sum
 	$global:delta = ((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
+	$global:delta3d = ((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
+	CounterSamples.CookedValue | measure -sum).sum
 	
 	if($global:result -eq $true){
-		#if blacklisted app found, gpudefault
+		if($global:msgswitch -eq 0){
+			msg($global:process_str + ": blacklisted program for policyflip found.")
+		}
+		$global:msgswitch = 1
+		#if blacklisted app found, don't use policyflip
 		$global:policyflip = 0
-		$global:switchdelay2 = $delaychange2
-		gpudefault
+		if($global:deltacpu -le $global:delta3d -And $global:delta -gt $limit){
+			#if no cpu but yes gpu, gpudefault
+			gpudefault
+		}
+		elseif($global:deltacpu -gt $global:delta3d -And $global:delta -gt $limit){
+			#if cpu heavy game, gpulimit
+			gpulimit
+		}
 	}
-	elseif($global:deltacpu -le $limitcpu -And $global:delta -le $limit){
+	elseif($global:deltacpu -le $global:delta3d -And $global:delta -le $limit){
+		$global:msgswitch = 0
 		#if no cpu and no gpu, gpudefault
 		$global:policyflip = 0
 		gpudefault
 	}
-	elseif($global:deltacpu -le $limitcpu -And $global:delta -gt $limit){
+	elseif($global:deltacpu -le $global:delta3d -And $global:delta -gt $limit){
+		$global:msgswitch = 0
 		#if no cpu but yes gpu, gpudefault
 		gpudefault
 	}
-	elseif($global:deltacpu -gt $limitcpu -And $global:delta -le $limit){
+	elseif($global:deltacpu -gt $global:delta3d -And $global:delta -le $limit){
+		$global:msgswitch = 0
 		#if yes cpu but no gpu, gpudefault
 		$global:policyflip = 0
 		gpudefault
 	}
-	elseif($global:deltacpu -gt $limitcpu -And $global:delta -gt $limit){
+	elseif($global:deltacpu -gt $global:delta3d -And $global:delta -gt $limit){
+		$global:msgswitch = 0
 		#if cpu heavy game, gpulimit
 		gpulimit
 	}
 	$sw.Stop()
 	if($isdebug -eq $true){
-		msg("cpu usage = " + $global:deltacpu + ", gpu delta = " + $global:delta)
+		msg("cpu usage = " + $global:deltacpu + ", gpu usage = " + $global:delta3d + ", gpu delta = " + $global:delta)
 		msg("gpuswitch = " + $global:gpuswitch + ", switchdelay = " + $global:switchdelay`
 		+ ", switchdelay2 = " + $global:switchdelay2)
 	}
