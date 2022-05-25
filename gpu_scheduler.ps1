@@ -11,7 +11,7 @@
 $limit = 0	#upper limit for copy usage
 $sleeptime = 5
 $limitcpu = 50	#dont underclock gpu when there is no need for cpu
-$delaychange = 3 #delay from sudden gpulimit
+$delaychange = 1 #delay from sudden gpulimit
 $delaychange2 = 1 #delay from sudden gpudefault
 $isdebug = $false #dont print debug stuff
 
@@ -232,13 +232,14 @@ while($true){
 	
 	if($global:result -eq $true){
 		#if blacklisted app found, gpudefault
-		gpudefault
 		$global:policyflip = 0
+		$global:switchdelay2 = $delaychange2
+		gpudefault
 	}
 	elseif($global:deltacpu -le $limitcpu -And $global:delta -le $limit){
 		#if no cpu and no gpu, gpudefault
-		gpudefault
 		$global:policyflip = 0
+		gpudefault
 	}
 	elseif($global:deltacpu -le $limitcpu -And $global:delta -gt $limit){
 		#if no cpu but yes gpu, gpudefault
@@ -246,8 +247,8 @@ while($true){
 	}
 	elseif($global:deltacpu -gt $limitcpu -And $global:delta -le $limit){
 		#if yes cpu but no gpu, gpudefault
-		gpudefault
 		$global:policyflip = 0
+		gpudefault
 	}
 	elseif($global:deltacpu -gt $limitcpu -And $global:delta -gt $limit){
 		#if cpu heavy game, gpulimit
