@@ -10,8 +10,8 @@
 #user config
 $limit = 0	#upper limit for copy usage
 $sleeptime = 5
-$delaydelta = 20 # cpu = gpu + delaydelta
-$delaychange = 2 #delay from sudden gpulimit
+$delaydelta = 10 # cpu = gpu + delaydelta
+$delaychange = 0 #delay from sudden gpulimit
 $delaychange2 = 2 #delay from sudden gpudefault
 $isdebug = $false #dont print debug stuff
 
@@ -248,7 +248,11 @@ while($true){
 		$global:msgswitch = 1
 		#if blacklisted app found, don't use policyflip
 		$global:policyflip = 0
-		if($global:deltacpu -le $global:delta3d -And $global:delta -gt $limit){
+		if($global:deltacpu -le $global:delta3d -And $global:delta -le $limit){
+			#if no cpu and no gpu, gpudefault
+			gpudefault
+		}
+		elseif($global:deltacpu -le $global:delta3d -And $global:delta -gt $limit){
 			#if no cpu but yes gpu, gpudefault
 			gpudefault
 		}
