@@ -248,8 +248,8 @@ while($true){
 		$global:msgswitch = 1
 		#if blacklisted app found, don't use policyflip
 		$global:policyflip = 0
-		if($global:deltacpu -le $global:delta3d -And $global:delta -le $limit){
-			#if no cpu and no gpu, gpudefault
+		if($global:delta -le $limit){
+			#if gpu idle, gpudefault
 			gpudefault
 		}
 		elseif($global:deltacpu -le $global:delta3d -And $global:delta -gt $limit){
@@ -261,21 +261,15 @@ while($true){
 			gpulimit
 		}
 	}
-	elseif($global:deltacpu -le $global:delta3d -And $global:delta -le $limit){
+	elseif($global:delta -le $limit){
 		$global:msgswitch = 0
-		#if no cpu and no gpu, gpudefault
+		#if gpu idle, gpudefault
 		$global:policyflip = 0
 		gpudefault
 	}
 	elseif($global:deltacpu -le $global:delta3d -And $global:delta -gt $limit){
 		$global:msgswitch = 0
 		#if no cpu but yes gpu, gpudefault
-		gpudefault
-	}
-	elseif($global:deltacpu -gt $global:delta3d -And $global:delta -le $limit){
-		$global:msgswitch = 0
-		#if yes cpu but no gpu, gpudefault
-		$global:policyflip = 0
 		gpudefault
 	}
 	elseif($global:deltacpu -gt $global:delta3d -And $global:delta -gt $limit){
