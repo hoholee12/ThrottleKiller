@@ -11,7 +11,7 @@
 $limit = 0	#upper limit for copy usage
 $sleeptime = 5
 $delaydelta = 10 # cpu = gpu + delaydelta
-$delaychange = 0 #delay from sudden gpulimit
+$delaychange = 1 #delay from sudden gpulimit
 $delaychange2 = 2 #delay from sudden gpudefault
 $isdebug = $false #dont print debug stuff
 
