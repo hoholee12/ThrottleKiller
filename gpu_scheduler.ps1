@@ -225,7 +225,7 @@ function gpudefault{
 	}
 	else{
 		if($global:result -eq $true){
-			msg($global:process_str + "gpudefault is bound by policyflip.")
+			msg($global:process_str + ": gpudefault is bound by policyflip.")
 		}
 		else{
 			msg("gpudefault is bound by policyflip.")
