@@ -10,8 +10,8 @@
 #user config
 $limit = 0	#upper limit for copy usage
 $sleeptime = 5
-$delaydelta = 10 # cpu = gpu + delaydelta
-$delaychange = 1 #delay from sudden gpulimit
+$delaydelta = -10 # cpu = gpu + delaydelta
+$delaychange = 2 #delay from sudden gpulimit
 $delaychange2 = 2 #delay from sudden gpudefault
 $isdebug = $false #dont print debug stuff
 
@@ -224,7 +224,12 @@ function gpudefault{
 		$global:switchdelay = 0
 	}
 	else{
-		msg("gpudefault is bound by policyflip.")
+		if($global:result -eq $true){
+			msg($global:process_str + "gpudefault is bound by policyflip.")
+		}
+		else{
+			msg("gpudefault is bound by policyflip.")
+		}
 	}
 }
 
@@ -246,10 +251,9 @@ while($true){
 			msg($global:process_str + ": blacklisted program for policyflip found.")
 		}
 		$global:msgswitch = 1
-		#if blacklisted app found, don't use policyflip
-		$global:policyflip = 0
 		if($global:delta -le $limit){
 			#if gpu idle, gpudefault
+			$global:policyflip = 0
 			gpudefault
 		}
 		elseif($global:deltacpu -le $global:delta3d -And $global:delta -gt $limit){
@@ -270,6 +274,7 @@ while($true){
 	elseif($global:deltacpu -le $global:delta3d -And $global:delta -gt $limit){
 		$global:msgswitch = 0
 		#if no cpu but yes gpu, gpudefault
+		$global:policyflip = 0
 		gpudefault
 	}
 	elseif($global:deltacpu -gt $global:delta3d -And $global:delta -gt $limit){
