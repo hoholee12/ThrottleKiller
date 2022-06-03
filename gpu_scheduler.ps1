@@ -236,8 +236,6 @@ function gpudefault{
 #initial value
 $global:deltacpu = ((Get-Counter "\Processor(_Total)\% Processor Time" -ErrorAction SilentlyContinue).`
 CounterSamples.CookedValue | measure -sum).sum
-$global:delta = ((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
-CounterSamples.CookedValue | measure -sum).sum
 $global:delta3d = ((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
 CounterSamples.CookedValue | measure -sum).sum + $delaydelta
 
@@ -250,10 +248,11 @@ while($true){
 	#smooth it out
 	$global:deltacpu = (((Get-Counter "\Processor(_Total)\% Processor Time" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum + $global:deltacpu) / 2
-	$global:delta = (((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
-	CounterSamples.CookedValue | measure -sum).sum + $global:delta) / 2
 	$global:delta3d = (((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum + $delaydelta + $global:delta3d) / 2
+	#this should not be smoothed out
+	$global:delta = ((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
+	CounterSamples.CookedValue | measure -sum).sum
 	
 	if($global:result -eq $true){
 		if($global:msgswitch -eq 0){
