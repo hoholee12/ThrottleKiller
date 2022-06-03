@@ -10,8 +10,8 @@
 #user config
 $limit = 0	#upper limit for copy usage
 $sleeptime = 5
-$delaydelta = -10 # cpu = gpu + delaydelta
-$delaychange = 2 #delay from sudden gpulimit
+$delaydelta = -20 # cpu = gpu + delaydelta
+$delaychange = 0 #delay from sudden gpulimit
 $delaychange2 = 2 #delay from sudden gpudefault
 $isdebug = $false #dont print debug stuff
 
@@ -233,18 +233,27 @@ function gpudefault{
 	}
 }
 
+#initial value
+$global:deltacpu = ((Get-Counter "\Processor(_Total)\% Processor Time" -ErrorAction SilentlyContinue).`
+CounterSamples.CookedValue | measure -sum).sum
+$global:delta = ((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
+CounterSamples.CookedValue | measure -sum).sum
+$global:delta3d = ((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
+CounterSamples.CookedValue | measure -sum).sum + $delaydelta
+
 while($true){
 	$sw = [Diagnostics.Stopwatch]::StartNew()
 	checkFiles_myfiles
 	checkSettings "blacklist_programs"
 
 	$global:result = does_procname_exist
-	$global:deltacpu = ((Get-Counter "\Processor(_Total)\% Processor Time" -ErrorAction SilentlyContinue).`
-	CounterSamples.CookedValue | measure -sum).sum
-	$global:delta = ((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
-	CounterSamples.CookedValue | measure -sum).sum
-	$global:delta3d = ((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
-	CounterSamples.CookedValue | measure -sum).sum + $delaydelta
+	#smooth it out
+	$global:deltacpu = (((Get-Counter "\Processor(_Total)\% Processor Time" -ErrorAction SilentlyContinue).`
+	CounterSamples.CookedValue | measure -sum).sum + $global:deltacpu) / 2
+	$global:delta = (((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
+	CounterSamples.CookedValue | measure -sum).sum + $global:delta) / 2
+	$global:delta3d = (((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
+	CounterSamples.CookedValue | measure -sum).sum + $delaydelta + $global:delta3d) / 2
 	
 	if($global:result -eq $true){
 		if($global:msgswitch -eq 0){
