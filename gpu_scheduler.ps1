@@ -10,9 +10,9 @@
 #user config
 $limit = 0	#upper limit for copy usage
 $sleeptime = 5
-$delaydelta = -20 # cpu = gpu + delaydelta
+$delaydelta = -15 # cpu <> gpu + delaydelta
 $delaychange = 0 #delay from sudden gpulimit
-$delaychange2 = 2 #delay from sudden gpudefault
+$delaychange2 = 5 #delay from sudden gpudefault
 $isdebug = $false #dont print debug stuff
 
 #gpu config
@@ -93,8 +93,8 @@ function checkFiles([string]$setting_string, [string]$value_string){
 
 function checkFiles_myfiles{
 	checkFiles "blacklist_programs"`
-"ff7remake
-flightsimulator"
+"moonlight
+"
 }
 
 function checkSettings($setting_string){
