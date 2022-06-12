@@ -94,6 +94,9 @@ function checkFiles([string]$setting_string, [string]$value_string){
 function checkFiles_myfiles{
 	checkFiles "blacklist_programs"`
 "moonlight
+powerpnt
+winword
+excel
 "
 }
 
@@ -259,22 +262,11 @@ while($true){
 	
 	if($global:result -eq $true){
 		if($global:msgswitch -eq 0){
-			msg($global:process_str + ": blacklisted program for policyflip found.")
+			msg($global:process_str + ": blacklisted program found.")
 		}
 		$global:msgswitch = 1
-		if($global:delta -le $limit){
-			#if gpu idle, gpudefault
-			$global:policyflip = 0
-			gpudefault
-		}
-		elseif($global:deltacpu -le $global:delta3d -And $global:delta -gt $limit){
-			#if no cpu but yes gpu, gpudefault
-			gpudefault
-		}
-		elseif($global:deltacpu -gt $global:delta3d -And $global:delta -gt $limit){
-			#if cpu heavy game, gpulimit
-			gpulimit
-		}
+		$global:policyflip = 0
+		gpudefault
 	}
 	elseif($global:delta -le $limit){
 		$global:msgswitch = 0
