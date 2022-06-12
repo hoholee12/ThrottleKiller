@@ -208,11 +208,14 @@ function gpulimit{
 
 function gpudefault{
 	if($global:policyflip -eq 0){
-		if($global:switchdelay2 -ge $delaychange2){
+		if($global:switchdelay2 -ge $delaychange2 -Or $global:delta -le $limit){
 			if($global:gpuswitch -eq 1){
 				nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
 				if($global:result -eq $true){
 					msg($global:process_str + ": gpudefault enabled.")
+				}
+				elseif($global:delta -le $limit){
+					msg("gpudefault enabled.(gpu is off)")
 				}
 				else{
 					msg("gpudefault enabled.")
