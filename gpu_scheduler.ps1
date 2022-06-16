@@ -8,7 +8,7 @@
 
 
 #user config
-$limit = 0	#upper limit for copy usage
+$limit = 1	#upper limit for copy usage
 $sleeptime = 5
 $delaydelta = -15 # cpu <> gpu + delaydelta
 $delaychange = 0 #delay from sudden gpulimit
