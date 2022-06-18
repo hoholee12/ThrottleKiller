@@ -8,9 +8,9 @@
 
 
 #user config
-$limit = 1	#upper limit for copy usage
+$limit = 5	#upper limit for copy usage
 $sleeptime = 5
-$delaydelta = -15 # cpu <> gpu + delaydelta
+$delaydelta = -10 # cpu <> gpu + delaydelta
 $delaychange = 0 #delay from sudden gpulimit
 $delaychange2 = 5 #delay from sudden gpudefault
 $isdebug = $false #dont print debug stuff
@@ -239,24 +239,17 @@ function gpudefault{
 	}
 }
 
-#initial value
-$global:deltacpu = ((Get-Counter "\Processor(_Total)\% Processor Time" -ErrorAction SilentlyContinue).`
-CounterSamples.CookedValue | measure -sum).sum
-$global:delta3d = ((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
-CounterSamples.CookedValue | measure -sum).sum + $delaydelta
-
 while($true){
 	$sw = [Diagnostics.Stopwatch]::StartNew()
 	checkFiles_myfiles
 	checkSettings "blacklist_programs"
 
 	$global:result = does_procname_exist
-	#smooth it out
-	$global:deltacpu = (((Get-Counter "\Processor(_Total)\% Processor Time" -ErrorAction SilentlyContinue).`
-	CounterSamples.CookedValue | measure -sum).sum + $global:deltacpu) / 2
-	$global:delta3d = (((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
-	CounterSamples.CookedValue | measure -sum).sum + $delaydelta + $global:delta3d) / 2
-	#this should not be smoothed out
+	# scale cpu usage based on clockspeed
+	$global:deltacpu = ((Get-Counter "\Processor(_Total)\% Processor Time" -ErrorAction SilentlyContinue).CounterSamples.CookedValue | measure -sum).sum / ((Get-Counter -Counter "\Processor Information(_Total)\% Processor Performance" -ErrorAction SilentlyContinue).CounterSamples.CookedValue | measure -sum).sum * 100
+	# scale gpu usage based on clockspeed(assume gpudefault = gpulimit * 2)
+	$global:delta3d = ((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
+	CounterSamples.CookedValue | measure -sum).sum / 2 * (2 - $global:gpuswitch) + $delaydelta
 	$global:delta = ((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
 	
@@ -288,8 +281,8 @@ while($true){
 	$sw.Stop()
 	if($isdebug -eq $true){
 		msg("cpu usage = " + $global:deltacpu + ", gpu usage = " + $global:delta3d + ", gpu delta = " + $global:delta)
-		msg("gpuswitch = " + $global:gpuswitch + ", switchdelay = " + $global:switchdelay`
-		+ ", switchdelay2 = " + $global:switchdelay2)
+		#msg("gpuswitch = " + $global:gpuswitch + ", switchdelay = " + $global:switchdelay`
+		#+ ", switchdelay2 = " + $global:switchdelay2)
 	}
 	start-sleep ($sleeptime - $sw.Elapsed.Seconds)
 }
