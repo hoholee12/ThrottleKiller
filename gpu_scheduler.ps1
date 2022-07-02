@@ -10,9 +10,9 @@
 #user config
 $limit = 2 #upper limit for copy usage
 $sleeptime = 5
-$delaydelta = -10 # cpu <> gpu + delaydelta
-$delaychange = 0 #delay from sudden gpulimit
-$delaychange2 = 5 #delay from sudden gpudefault
+$delaydelta = 10 # cpu <> gpu + delaydelta
+$delaychange = 1 #delay from sudden gpulimit
+$delaychange2 = 1 #delay from sudden gpudefault
 $isdebug = $false #dont print debug stuff
 
 #gpu config
