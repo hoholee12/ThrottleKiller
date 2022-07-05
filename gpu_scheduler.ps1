@@ -57,6 +57,9 @@ $global:switchdelay = 0
 $global:switchdelay2 = 0
 $global:policyflip = 0 #keep gpulimit until game end
 $global:msgswitch = 0
+$global:maxcpu = 100
+$global:cputhrottle = 0
+$global:throttle_str = ""
 #script assumes nothing is running at start.
 
 # check custom location for settings
@@ -211,7 +214,7 @@ function gpulimit{
 
 function gpudefault{
 	if($global:policyflip -eq 0){
-		if($global:switchdelay2 -ge $delaychange2 -Or $global:delta -le $limit){
+		if($global:switchdelay2 -ge $delaychange2 -Or $global:delta -le $limit -And $global:cputhrottle -eq 0){
 			if($global:gpuswitch -eq 1){
 				nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
 				if($global:result -eq $true){
@@ -246,12 +249,24 @@ while($true){
 
 	$global:result = does_procname_exist
 	# scale cpu usage based on clockspeed
-	$global:deltacpu = ((Get-Counter "\Processor(_Total)\% Processor Time" -ErrorAction SilentlyContinue).CounterSamples.CookedValue | measure -sum).sum / ((Get-Counter -Counter "\Processor Information(_Total)\% Processor Performance" -ErrorAction SilentlyContinue).CounterSamples.CookedValue | measure -sum).sum * 100
+	$maxcputmp = ((Get-Counter -Counter "\Processor Information(_Total)\% Processor Performance" -ErrorAction SilentlyContinue).`
+	CounterSamples.CookedValue | measure -sum).sum
+	if($global:maxcpu -lt $maxcputmp){
+		$global:maxcpu = $maxcputmp
+	}
+	$global:load = ((Get-Counter "\Processor(_Total)\% Processor Time" -ErrorAction SilentlyContinue).`
+	CounterSamples.CookedValue | measure -sum).sum
+	$global:deltacpu = $global:load * $maxcputmp / $global:maxcpu
 	# scale gpu usage based on clockspeed(assume gpudefault = gpulimit * 2)
 	$global:delta3d = ((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum / 2 * (2 - $global:gpuswitch) + $delaydelta
 	$global:delta = ((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
+	
+	#cputhrottle flag clears when delay to gpudefault clears and process is finished
+	if($global:switchdelay2 -ge $delaychange2 -And $global:throttle_str -ne $global:process_str){
+		$global:cputhrottle = 0
+	}
 	
 	if($global:result -eq $true){
 		if($global:msgswitch -eq 0){
@@ -260,6 +275,15 @@ while($true){
 		$global:msgswitch = 1
 		$global:policyflip = 0
 		gpudefault
+	}
+	elseif($global:load -gt $processor_power_management_guids['06cadf0e-64ed-448a-8927-ce7bf90eb35d']`
+	-And $maxcputmp -lt 100){	#even less than base clockspeed
+		#cpu is throttling!!!
+		$global:msgswitch = 0
+		$global:cputhrottle = 1
+		$global:throttle_str = $global:process_str
+		msg("cpu is throttling!!!")
+		gpulimit
 	}
 	elseif($global:delta -le $limit){
 		$global:msgswitch = 0
