@@ -276,7 +276,8 @@ while($true){
 		$global:policyflip = 0
 		gpudefault
 	}
-	elseif($global:load -gt $processor_power_management_guids['06cadf0e-64ed-448a-8927-ce7bf90eb35d']`
+	#elseif($global:load -gt $processor_power_management_guids['06cadf0e-64ed-448a-8927-ce7bf90eb35d']`
+	elseif($global:load -ge 100`
 	-And $maxcputmp -lt 100){	#even less than base clockspeed
 		#cpu is throttling!!!
 		$global:msgswitch = 0
