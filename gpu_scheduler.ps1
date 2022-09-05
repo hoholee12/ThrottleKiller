@@ -8,10 +8,10 @@
 
 
 #user config
-$limit = 2 #upper limit for copy usage
+$limit = 1 #upper limit for copy usage
 $sleeptime = 5
-$delaydelta = 10 # cpu <> gpu + delaydelta
-$delaychange = 1 #delay from sudden gpulimit
+$delaydelta = 0 # cpu <> gpu + delaydelta
+$delaychange = 0 #delay from sudden gpulimit
 $delaychange2 = 1 #delay from sudden gpudefault
 $isdebug = $false #dont print debug stuff
 
@@ -270,7 +270,9 @@ while($true){
 	
 	if($global:result -eq $true){
 		if($global:msgswitch -eq 0){
-			msg($global:process_str + ": blacklisted program found.")
+			if($global:process_str.Length -le 20){
+				msg($global:process_str + ": blacklisted program found.")
+			}
 		}
 		$global:msgswitch = 1
 		$global:policyflip = 0
