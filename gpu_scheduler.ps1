@@ -10,9 +10,9 @@
 #user config
 $limit = 0 #upper limit for copy usage
 $sleeptime = 5
-$delaydelta = -5 # cpu <> gpu + delaydelta
+$delaydelta = 10 # cpudefault = cpu:gpu+20, cpulimit = cpu:gpu+0
 $delaychange = 0 #delay from sudden gpulimit
-$delaychange2 = 2 #delay from sudden gpudefault
+$delaychange2 = 1 #delay from sudden gpudefault
 $isdebug = $false #dont print debug stuff
 
 #gpu config
@@ -58,8 +58,10 @@ $global:switchdelay2 = 0
 $global:policyflip = 0 #keep gpulimit until game end
 $global:msgswitch = 0
 $global:maxcpu = 100
+$global:halfdelta = $delaydelta / 2.0
 $global:cputhrottle = 0
 $global:throttle_str = ""
+$global:status = 0 # 0 = gpudefault, 1 = gpulimit
 #script assumes nothing is running at start.
 
 # check custom location for settings
@@ -198,6 +200,7 @@ function gpulimit{
 	if($global:switchdelay -ge $delaychange){
 		if($global:gpuswitch -eq 0){
 			nvidiaInspector -setBaseClockOffset:0,0,$clockoffset -setMemoryClockOffset:0,0,$memoffset
+			$global:status = 1
 			if($global:result -eq $true){
 				msg($global:process_str + ": gpulimit enabled.")
 			}
@@ -217,6 +220,7 @@ function gpudefault{
 		if($global:switchdelay2 -ge $delaychange2 -Or $global:delta -le $limit -And $global:cputhrottle -eq 0){
 			if($global:gpuswitch -eq 1){
 				nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
+				$global:status = 0
 				if($global:result -eq $true){
 					msg($global:process_str + ": gpudefault enabled.")
 				}
@@ -262,6 +266,18 @@ while($true){
 	CounterSamples.CookedValue | measure -sum).sum / 2 * (2 - $global:gpuswitch) + $delaydelta
 	$global:delta = ((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
+	
+	if($global:status -eq 0){
+		# gpudefault
+		$global:deltacpu -= $global:halfdelta
+		$global:delta3d += $global:halfdelta
+	}
+	else{
+		# gpulimit
+		$global:deltacpu += $global:halfdelta
+		$global:delta3d -= $global:halfdelta
+	}
+	
 	
 	#cputhrottle flag clears when delay to gpudefault clears and process is finished
 	if($global:switchdelay2 -ge $delaychange2 -And $global:throttle_str -ne $global:process_str){
