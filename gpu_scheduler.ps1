@@ -1,4 +1,5 @@
 
+# gpu_scheduler.ps1
 # run it via task scheduler
 #  PowerShell.exe -windowstyle hidden -executionpolicy remotesigned <scriptlocation>\gpu_scheduler.ps1 <scriptlocation>
 #
@@ -7,19 +8,20 @@
 #  (Run whether user is logged on or not is VERY UNRELIABLE)
 
 
-#user config
-$limit = 0 #upper limit for copy usage
-$sleeptime = 5
-$delaydelta = 10 # cpudefault = cpu:gpu+20, cpulimit = cpu:gpu+0
-$delaychange = 0 #delay from sudden gpulimit
-$delaychange2 = 1 #delay from sudden gpudefault
-$isdebug = $false #dont print debug stuff
+# user config
+$limit = 0				# GPU copy usage -> game is running if more than 0%
+$sleeptime = 5			# wait 5 seconds before another run
+$delaydelta = 10		# cpudefault = cpu-5:gpu+5, cpulimit = cpu+5:gpu-5
+$deltabias = 10			# cpu:gpu+10 -> cpudefault = cpu-5:gpu+15, cpulimit = cpu+5:gpu+5
+$delaychange = 0		# do gpulimit directly
+$delaychange2 = 1		# delay once from sudden gpudefault
+$isdebug = $false		# dont print debug stuff
 
-#gpu config
+# gpu config
 $clockoffset = -950
 $memoffset = -1000
 
-#better cpu scheduler tuning
+# better cpu scheduler tuning
 $processor_power_management_guids = @{
 "06cadf0e-64ed-448a-8927-ce7bf90eb35d" = 30			# processor high threshold; lower this for performance
 "0cc5b647-c1df-4637-891a-dec35c318583" = 100
@@ -48,21 +50,21 @@ foreach($temp in $processor_power_management_guids.Keys){
 powercfg /attributes $guid4 $guid5 -ATTRIB_HIDE
 powercfg /setactive $guid0
 
-#internal stuff
+# internal stuff
 $global:delta = 0
 $global:deltacpu = 0
 $global:delta3d = 0
-$global:gpuswitch = 0 #if 0 gpu limit, 1 gpu default
+$global:gpuswitch = 0		# if 0 gpu limit, 1 gpu default
 $global:switchdelay = 0
 $global:switchdelay2 = 0
-$global:policyflip = 0 #keep gpulimit until game end
+$global:policyflip = 0		# keep gpulimit until game end
 $global:msgswitch = 0
 $global:maxcpu = 100
 $global:halfdelta = $delaydelta / 2.0
 $global:cputhrottle = 0
 $global:throttle_str = ""
-$global:status = 0 # 0 = gpudefault, 1 = gpulimit
-#script assumes nothing is running at start.
+$global:status = 0			# 0 = gpudefault, 1 = gpulimit
+# script assumes nothing is running at start.
 
 # check custom location for settings
 $loc = ".\"
@@ -85,13 +87,13 @@ function checkFiles([string]$setting_string, [string]$value_string){
 	if((Test-Path ($loc + "gpu_scheduler_config\" + $setting_string + ".txt")) -ne $True){
 		if((Test-Path ($loc + "gpu_scheduler_config")) -ne $True) {
 			New-Item -path $loc -name "gpu_scheduler_config" -ItemType "directory"
-			#print information<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+			# print information<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 			msg("created directory: " + $loc + "gpu_scheduler_config")
 		}
 		
 		New-Item -path ($loc + "gpu_scheduler_config") -name ($setting_string + ".txt"`
 		) -ItemType "file" -value $value_string
-		#print information<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+		# print information<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 		msg("created file: " + $setting_string + " in " + $loc + "gpu_scheduler_config")
 	}
 }
@@ -112,7 +114,7 @@ function checkSettings($setting_string){
 		$global:isDateDifferent = $True
 		$global:lastModifiedDate.Remove($setting_string)
 		
-		#print information<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+		# print information<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 		msg($setting_string + " has been modified, reloading...")
 		$global:reapplySettings = $True
 		findFiles $setting_string
@@ -125,7 +127,7 @@ function checkSettings($setting_string){
 
 # used for checking whether settings file was modified
 $global:lastModifiedDate = @{}
-$global:found_hash = @{}		#copy $found_hash after calling findFiles
+$global:found_hash = @{}		# copy $found_hash after calling findFiles
 
 function findFiles($setting_string){
 	$file = Get-Content ($loc + "gpu_scheduler_config\" + $setting_string + ".txt")
@@ -145,7 +147,7 @@ function findFiles($setting_string){
 
 findFiles "blacklist_programs"
 
-#for foreground detection
+# for foreground detection
 Add-Type @"
   using System;
   using System.Runtime.InteropServices;
@@ -187,15 +189,15 @@ function does_procname_exist{
 	return $false
 }
 
-#logging stuff
+# logging stuff
 function msg([string]$setting_string){
-	#print by date and time
+	# print by date and time
 	$setting_string = ((get-date -format "yy-MM-dd hh:mm:ss: ") + $setting_string)
 	$setting_string >> ($loc + "gpu_scheduler_config\gpu_scheduler.log")
 }
-msg("script started. starting location: " + $loc)	#log script location
+msg("script started. starting location: " + $loc)	# log script location
 
-#main logic
+# main logic
 function gpulimit{
 	if($global:switchdelay -ge $delaychange){
 		if($global:gpuswitch -eq 0){
@@ -209,7 +211,7 @@ function gpulimit{
 			}
 		}
 		$global:gpuswitch = 1
-		$global:policyflip = 1	#flip here for switchdelay
+		$global:policyflip = 1	# flip here for switchdelay
 	}
 	$global:switchdelay++
 	$global:switchdelay2 = 0
@@ -263,7 +265,7 @@ while($true){
 	$global:deltacpu = $global:load * $maxcputmp / $global:maxcpu
 	# scale gpu usage based on clockspeed(assume gpudefault = gpulimit * 2)
 	$global:delta3d = ((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
-	CounterSamples.CookedValue | measure -sum).sum / 2 * (2 - $global:gpuswitch) + $delaydelta
+	CounterSamples.CookedValue | measure -sum).sum / 2 * (2 - $global:gpuswitch) + $deltabias
 	$global:delta = ((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
 	
@@ -279,7 +281,7 @@ while($true){
 	}
 	
 	
-	#cputhrottle flag clears when delay to gpudefault clears and process is finished
+	# cputhrottle flag clears when delay to gpudefault clears and process is finished
 	if($global:switchdelay2 -ge $delaychange2 -And $global:throttle_str -ne $global:process_str){
 		$global:cputhrottle = 0
 	}
@@ -294,10 +296,10 @@ while($true){
 		$global:policyflip = 0
 		gpudefault
 	}
-	elseif($global:load -ge 100 -And $maxcputmp -lt 100){	#even less than base clockspeed
+	elseif($global:load -ge 100 -And $maxcputmp -lt 100){	# even less than base clockspeed
 		#elseif($global:load -gt $processor_power_management_guids['06cadf0e-64ed-448a-8927-ce7bf90eb35d']`
 
-		#cpu is throttling!!!
+		# cpu is throttling!!!
 		$global:msgswitch = 0
 		$global:cputhrottle = 1
 		$global:throttle_str = $global:process_str
@@ -306,19 +308,19 @@ while($true){
 	}
 	elseif($global:delta -le $limit){
 		$global:msgswitch = 0
-		#if gpu idle, gpudefault
+		# if gpu idle, gpudefault
 		$global:policyflip = 0
 		gpudefault
 	}
 	elseif($global:deltacpu -le $global:delta3d -And $global:delta -gt $limit){
 		$global:msgswitch = 0
-		#if no cpu but yes gpu, gpudefault
+		# if no cpu but yes gpu, gpudefault
 		$global:policyflip = 0
 		gpudefault
 	}
 	elseif($global:deltacpu -gt $global:delta3d -And $global:delta -gt $limit){
 		$global:msgswitch = 0
-		#if cpu heavy game, gpulimit
+		# if cpu heavy game, gpulimit
 		gpulimit
 	}
 	$sw.Stop()
