@@ -63,6 +63,7 @@ $global:maxcpu = 100
 $global:halfdelta = $delaydelta / 2.0
 $global:cputhrottle = 0
 $global:throttle_str = ""
+$global:prev_process = ""
 $global:status = 0			# 0 = gpudefault, 1 = gpulimit
 # script assumes nothing is running at start.
 
@@ -289,7 +290,10 @@ while($true){
 	if($global:result -eq $true){
 		if($global:msgswitch -eq 0){
 			if($global:process_str.Length -le 20){
-				msg($global:process_str + ": blacklisted program found.")
+				if($global:prev_process -ne $global:process_str){
+					$global:prev_process = $global:process_str
+					msg($global:process_str + ": blacklisted program found.")
+				}
 			}
 		}
 		$global:msgswitch = 1
