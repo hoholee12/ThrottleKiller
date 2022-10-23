@@ -11,8 +11,8 @@
 # user config
 $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
-$delaydelta = 10		# cpudefault = cpu-5:gpu+5, cpulimit = cpu+5:gpu-5
-$deltabias = 10			# cpu:gpu+10 -> cpudefault = cpu-5:gpu+15, cpulimit = cpu+5:gpu+5
+$delaydelta = 5		# cpudefault = cpu-2.5:gpu+2.5, cpulimit = cpu+2.5:gpu-2.5
+$deltabias = 10			# cpu:gpu+10 -> cpudefault = cpu-2.5:gpu+12.5, cpulimit = cpu+2.5:gpu+7.5
 $delaychange = 0		# do gpulimit directly
 $delaychange2 = 1		# delay once from sudden gpudefault
 $isdebug = $false		# dont print debug stuff
