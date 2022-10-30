@@ -11,10 +11,11 @@
 # user config
 $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
-$delaydelta = 5		# cpudefault = cpu-2.5:gpu+2.5, cpulimit = cpu+2.5:gpu-2.5
-$deltabias = 10			# cpu:gpu+10 -> cpudefault = cpu-2.5:gpu+12.5, cpulimit = cpu+2.5:gpu+7.5
+$delaydelta = 10		# gpudefault = cpu-5:gpu+5, gpulimit = cpu+5:gpu-5
+$deltabias = -20		# gpudefault = cpu-5:gpu-15, gpulimit = cpu+5:gpu-25
+$loadforcegpulimit = 80	# if load >= 80, force gpulimit
 $delaychange = 0		# do gpulimit directly
-$delaychange2 = 1		# delay once from sudden gpudefault
+$delaychange2 = 0		# delay once from sudden gpudefault
 $isdebug = $false		# dont print debug stuff
 
 # gpu config
@@ -265,8 +266,10 @@ while($true){
 	CounterSamples.CookedValue | measure -sum).sum
 	$global:deltacpu = $global:load * $maxcputmp / $global:maxcpu
 	# scale gpu usage based on clockspeed(assume gpudefault = gpulimit * 2)
+	#$global:delta3d = ((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
+	#CounterSamples.CookedValue | measure -sum).sum / 2 * (2 - $global:gpuswitch) + $deltabias
 	$global:delta3d = ((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
-	CounterSamples.CookedValue | measure -sum).sum / 2 * (2 - $global:gpuswitch) + $deltabias
+	CounterSamples.CookedValue | measure -sum).sum + $deltabias
 	$global:delta = ((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
 	
@@ -316,17 +319,25 @@ while($true){
 		$global:policyflip = 0
 		gpudefault
 	}
-	elseif($global:deltacpu -le $global:delta3d -And $global:delta -gt $limit){
-		$global:msgswitch = 0
-		# if no cpu but yes gpu, gpudefault
-		$global:policyflip = 0
-		gpudefault
+	elseif($global:delta -gt $limit){
+		if($global:load -ge $loadforcegpulimit){
+			$global:msgswitch = 0
+			# if cpu heavy game, gpulimit
+			gpulimit
+		}
+		elseif($global:deltacpu -le $global:delta3d){
+			$global:msgswitch = 0
+			# if no cpu but yes gpu, gpudefault
+			$global:policyflip = 0
+			gpudefault
+		}
+		elseif($global:deltacpu -gt $global:delta3d){
+			$global:msgswitch = 0
+			# if cpu heavy game, gpulimit
+			gpulimit
+		}	
 	}
-	elseif($global:deltacpu -gt $global:delta3d -And $global:delta -gt $limit){
-		$global:msgswitch = 0
-		# if cpu heavy game, gpulimit
-		gpulimit
-	}
+	
 	$sw.Stop()
 	if($isdebug -eq $true){
 		msg("cpu usage = " + $global:deltacpu + ", gpu usage = " + $global:delta3d + ", gpu delta = " + $global:delta)
