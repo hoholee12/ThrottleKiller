@@ -14,8 +14,8 @@ $sleeptime = 5			# wait 5 seconds before another run
 $delaydelta = 10		# gpudefault = cpu-5:gpu+5, gpulimit = cpu+5:gpu-5
 $deltabias = -20		# gpudefault = cpu-5:gpu-15, gpulimit = cpu+5:gpu-25
 $loadforcegpulimit = 80	# if load >= 80, force gpulimit
-$delaychange = 0		# do gpulimit directly
-$delaychange2 = 0		# delay once from sudden gpudefault
+$delaychange = 1		# do gpulimit directly
+$delaychange2 = 1		# delay once from sudden gpudefault
 $isdebug = $false		# dont print debug stuff
 
 # gpu config
@@ -106,6 +106,8 @@ function checkFiles_myfiles{
 powerpnt
 winword
 excel
+teamviewer
+tv
 "
 }
 
