@@ -11,10 +11,10 @@
 # user config
 $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
-$delaydelta = 10		# gpudefault = cpu-5:gpu+5, gpulimit = cpu+5:gpu-5
-$deltabias = -20		# gpudefault = cpu-5:gpu-15, gpulimit = cpu+5:gpu-25
-$loadforcegpulimit = 80	# if load >= 80, force gpulimit
-$delaychange = 1		# do gpulimit directly
+$deltabias = 20			# cpu:gpu+20
+$gpulimitbias = -20		# gpudefault = cpu:gpu+20, gpulimit = cpu:gpu+0
+$loadforcegpulimit = 90	# if cpuload >= 90, force gpulimit
+$delaychange = 1		# delay once from sudden gpulimit
 $delaychange2 = 1		# delay once from sudden gpudefault
 $isdebug = $false		# dont print debug stuff
 
@@ -61,7 +61,7 @@ $global:switchdelay2 = 0
 $global:policyflip = 0		# keep gpulimit until game end
 $global:msgswitch = 0
 $global:maxcpu = 100
-$global:halfdelta = $delaydelta / 2.0
+$global:maxgpu = 100
 $global:cputhrottle = 0
 $global:throttle_str = ""
 $global:prev_process = ""
@@ -261,31 +261,29 @@ while($true){
 	# scale cpu usage based on clockspeed
 	$maxcputmp = ((Get-Counter -Counter "\Processor Information(_Total)\% Processor Performance" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
-	if($global:maxcpu -lt $maxcputmp){
+	if($maxcputmp -gt $global:maxcpu){
 		$global:maxcpu = $maxcputmp
 	}
 	$global:load = ((Get-Counter "\Processor(_Total)\% Processor Time" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
-	$global:deltacpu = $global:load * $maxcputmp / $global:maxcpu
+	$global:deltacpu = $global:load * $global:maxcpu / 100
 	# scale gpu usage based on clockspeed(assume gpudefault = gpulimit * 2)
 	#$global:delta3d = ((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
-	#CounterSamples.CookedValue | measure -sum).sum / 2 * (2 - $global:gpuswitch) + $deltabias
+	#CounterSamples.CookedValue | measure -sum).sum / 2 * (2 - $global:gpuswitch) + $gpubias
 	$global:delta3d = ((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
-	CounterSamples.CookedValue | measure -sum).sum + $deltabias
+	CounterSamples.CookedValue | measure -sum).sum
+	if($global:delta3d -gt $global:maxgpu){
+		#dynamic adjust of max gpu load (it seems to go over 100)
+		$global:maxgpu = $global:delta3d
+	}
+	$global:delta3d = $global:delta3d * 100 / $global:maxgpu + $deltabias
 	$global:delta = ((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
 	
-	if($global:status -eq 0){
-		# gpudefault
-		$global:deltacpu -= $global:halfdelta
-		$global:delta3d += $global:halfdelta
+	if($global:status -eq 1){
+		# bias on gpulimit
+		$global:delta3d += $gpulimitbias
 	}
-	else{
-		# gpulimit
-		$global:deltacpu += $global:halfdelta
-		$global:delta3d -= $global:halfdelta
-	}
-	
 	
 	# cputhrottle flag clears when delay to gpudefault clears and process is finished
 	if($global:switchdelay2 -ge $delaychange2 -And $global:throttle_str -ne $global:process_str){
@@ -322,7 +320,7 @@ while($true){
 		gpudefault
 	}
 	elseif($global:delta -gt $limit){
-		if($global:load -ge $loadforcegpulimit){
+		if($global:deltacpu -ge $loadforcegpulimit){
 			$global:msgswitch = 0
 			# if cpu heavy game, gpulimit
 			gpulimit
