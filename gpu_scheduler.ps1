@@ -108,6 +108,7 @@ winword
 excel
 teamviewer
 tv
+tslgame
 "
 }
 
