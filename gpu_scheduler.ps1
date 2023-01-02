@@ -11,10 +11,9 @@
 # user config
 $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
-$deltabias = 20			# cpu:gpu+20
-$gpulimitbias = -20		# gpudefault = cpu:gpu+20, gpulimit = cpu:gpu+0
+$deltabias = 10			# gpudefault, if |CPU - GPU| < 20
 $loadforcegpulimit = 90	# if cpuload >= 90, force gpulimit
-$delaychange = 1		# delay once from sudden gpulimit
+$delaychange = 0		# delay once from sudden gpulimit
 $delaychange2 = 1		# delay once from sudden gpudefault
 $isdebug = $false		# dont print debug stuff
 
@@ -253,6 +252,9 @@ function gpudefault{
 	}
 }
 
+# first time
+nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
+
 while($true){
 	$sw = [Diagnostics.Stopwatch]::StartNew()
 	checkFiles_myfiles
@@ -267,7 +269,7 @@ while($true){
 	}
 	$global:load = ((Get-Counter "\Processor(_Total)\% Processor Time" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
-	$global:deltacpu = $global:load * $global:maxcpu / 100
+	$global:deltacpu = $global:load * 100 / $global:maxcpu
 	# scale gpu usage based on clockspeed(assume gpudefault = gpulimit * 2)
 	#$global:delta3d = ((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
 	#CounterSamples.CookedValue | measure -sum).sum / 2 * (2 - $global:gpuswitch) + $gpubias
@@ -277,18 +279,19 @@ while($true){
 		#dynamic adjust of max gpu load (it seems to go over 100)
 		$global:maxgpu = $global:delta3d
 	}
-	$global:delta3d = $global:delta3d * 100 / $global:maxgpu + $deltabias
+	$global:delta3d = $global:delta3d * 100 / $global:maxgpu
 	$global:delta = ((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
-	
-	if($global:status -eq 1){
-		# bias on gpulimit
-		$global:delta3d += $gpulimitbias
-	}
 	
 	# cputhrottle flag clears when delay to gpudefault clears and process is finished
 	if($global:switchdelay2 -ge $delaychange2 -And $global:throttle_str -ne $global:process_str){
 		$global:cputhrottle = 0
+	}
+	
+	# abs of delta
+	$global:deltafinal = $global:deltacpu - $global:delta3d - $global:delta
+	if($global:deltafinal -lt 0){
+		$global:deltafinal = $global:delta + $global:delta3d - $global:deltacpu
 	}
 	
 	if($global:result -eq $true){
@@ -326,17 +329,23 @@ while($true){
 			# if cpu heavy game, gpulimit
 			gpulimit
 		}
-		elseif($global:deltacpu -le $global:delta3d){
+		elseif($global:deltafinal -le $deltabias){
 			$global:msgswitch = 0
 			# if no cpu but yes gpu, gpudefault
 			$global:policyflip = 0
 			gpudefault
 		}
-		elseif($global:deltacpu -gt $global:delta3d){
+		elseif($global:deltacpu -gt $global:delta3d + $global:delta){
 			$global:msgswitch = 0
 			# if cpu heavy game, gpulimit
 			gpulimit
-		}	
+		}
+		else{
+			$global:msgswitch = 0
+			# if no cpu but yes gpu, gpudefault
+			$global:policyflip = 0
+			gpudefault
+		}
 	}
 	
 	$sw.Stop()
