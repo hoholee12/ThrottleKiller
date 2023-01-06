@@ -13,7 +13,7 @@ $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
 $deltabias = 10			# gpudefault, if |CPU - GPU| < 20
 $loadforcegpulimit = 90	# if cpuload >= 90, force gpulimit
-$powerforcethrottle = 90 # if cpupower < 90, force gpulimit
+$powerforcethrottle = 70 # if cpupower < 70, force gpulimit
 $delaychange = 0		# delay once from sudden gpulimit
 $delaychange2 = 1		# delay once from sudden gpudefault
 $isdebug = $false		# dont print debug stuff
