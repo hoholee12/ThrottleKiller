@@ -287,7 +287,8 @@ while($true){
 	CounterSamples.CookedValue | measure -sum).sum
 	
 	# cputhrottle flag clears when throttle ends
-	if($global:cputhrottle -eq 1 -And $maxcputempered -eq 0 -And $maxcputmp -ge ($global:maxcpu * $powerforcethrottle / 100)){
+	if($global:cputhrottle -eq 1 -And (($maxcputempered -eq 0 -And $maxcputmp -ge ($global:maxcpu * $powerforcethrottle / 100))`
+	-Or ($global:delta -le $limit))){
 		msg("throttling cleared.")
 		$global:cputhrottle = 0
 	}
@@ -311,7 +312,7 @@ while($true){
 		$global:policyflip = 0
 		gpudefault
 	}
-	elseif($global:deltacpu -gt 30 -And $maxcputempered -eq 0 -And $maxcputmp -lt ($global:maxcpu * $powerforcethrottle / 100)){	# even less than base clockspeed
+	elseif($global:deltacpu -gt 30 -And $maxcputempered -eq 0 -And $maxcputmp -lt ($global:maxcpu * $powerforcethrottle / 100)){
 		# cpu usage is over limit
 		# while cpu power is not max
 		# this means that cpu is throttling.
@@ -357,7 +358,8 @@ while($true){
 	
 	$sw.Stop()
 	if($isdebug -eq $true){
-		msg("cpu usage = " + $global:deltacpu + ", gpu usage = " + $global:delta3d + ", gpu delta = " + $global:delta + ", cpu power = " + $maxcputmp + "/" + ($global:maxcpu * $powerforcethrottle / 100))
+		msg("cpu usage = " + $global:deltacpu + ", gpu usage = " + $global:delta3d + ", gpu delta = " + $global:delta`
+		+ ", cpu power = " + $maxcputmp + "/" + ($global:maxcpu * $powerforcethrottle / 100))
 		#msg("gpuswitch = " + $global:gpuswitch + ", switchdelay = " + $global:switchdelay`
 		#+ ", switchdelay2 = " + $global:switchdelay2)
 	}
