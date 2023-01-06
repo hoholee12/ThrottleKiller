@@ -13,6 +13,7 @@ $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
 $deltabias = 10			# gpudefault, if |CPU - GPU| < 20
 $loadforcegpulimit = 90	# if cpuload >= 90, force gpulimit
+$powerforcethrottle = 90 # if cpupower < 90, force gpulimit
 $delaychange = 0		# delay once from sudden gpulimit
 $delaychange2 = 1		# delay once from sudden gpudefault
 $isdebug = $false		# dont print debug stuff
@@ -262,9 +263,11 @@ while($true){
 
 	$global:result = does_procname_exist
 	# scale cpu usage based on clockspeed
+	$maxcputempered = 0
 	$maxcputmp = ((Get-Counter -Counter "\Processor Information(_Total)\% Processor Performance" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
 	if($maxcputmp -gt $global:maxcpu){
+		$maxcputempered = 1
 		$global:maxcpu = $maxcputmp
 	}
 	$global:load = ((Get-Counter "\Processor(_Total)\% Processor Time" -ErrorAction SilentlyContinue).`
@@ -283,8 +286,9 @@ while($true){
 	$global:delta = ((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
 	
-	# cputhrottle flag clears when delay to gpudefault clears and process is finished
-	if($global:switchdelay2 -ge $delaychange2 -And $global:throttle_str -ne $global:process_str){
+	# cputhrottle flag clears when throttle ends
+	if($global:cputhrottle -eq 1 -And $maxcputempered -eq 0 -And $maxcputmp -ge ($global:maxcpu * $powerforcethrottle / 100)){
+		msg("throttling cleared.")
 		$global:cputhrottle = 0
 	}
 	
@@ -307,10 +311,10 @@ while($true){
 		$global:policyflip = 0
 		gpudefault
 	}
-	elseif($global:load -ge 100 -And $maxcputmp -lt 100){	# even less than base clockspeed
-		#elseif($global:load -gt $processor_power_management_guids['06cadf0e-64ed-448a-8927-ce7bf90eb35d']`
-
-		# cpu is throttling!!!
+	elseif($global:deltacpu -gt 30 -And $maxcputempered -eq 0 -And $maxcputmp -lt ($global:maxcpu * $powerforcethrottle / 100)){	# even less than base clockspeed
+		# cpu usage is over limit
+		# while cpu power is not max
+		# this means that cpu is throttling.
 		$global:msgswitch = 0
 		$global:cputhrottle = 1
 		$global:throttle_str = $global:process_str
@@ -326,23 +330,26 @@ while($true){
 	elseif($global:delta -gt $limit){
 		if($global:deltacpu -ge $loadforcegpulimit){
 			$global:msgswitch = 0
-			# if cpu heavy game, gpulimit
+			# whatever the cpu vs gpu delta may be,
+			# if cpu is high enough, treat it as a cpu intensive game.
 			gpulimit
 		}
 		elseif($global:deltafinal -le $deltabias){
 			$global:msgswitch = 0
-			# if no cpu but yes gpu, gpudefault
+			# delta between cpu and gpu is small
+			# it is not a cpu intensive game then.
 			$global:policyflip = 0
 			gpudefault
 		}
 		elseif($global:deltacpu -gt $global:delta3d + $global:delta){
 			$global:msgswitch = 0
-			# if cpu heavy game, gpulimit
+			# delta between cpu and gpu is huge
+			# cpu usage is way higher than gpu usage
+			# it is a cpu intensive game.
 			gpulimit
 		}
 		else{
 			$global:msgswitch = 0
-			# if no cpu but yes gpu, gpudefault
 			$global:policyflip = 0
 			gpudefault
 		}
@@ -350,7 +357,7 @@ while($true){
 	
 	$sw.Stop()
 	if($isdebug -eq $true){
-		msg("cpu usage = " + $global:deltacpu + ", gpu usage = " + $global:delta3d + ", gpu delta = " + $global:delta)
+		msg("cpu usage = " + $global:deltacpu + ", gpu usage = " + $global:delta3d + ", gpu delta = " + $global:delta + ", cpu power = " + $maxcputmp + "/" + ($global:maxcpu * $powerforcethrottle / 100))
 		#msg("gpuswitch = " + $global:gpuswitch + ", switchdelay = " + $global:switchdelay`
 		#+ ", switchdelay2 = " + $global:switchdelay2)
 	}
