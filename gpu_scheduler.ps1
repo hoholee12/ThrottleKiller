@@ -11,9 +11,9 @@
 # user config
 $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
-$deltabias = 10			# gpudefault, if |CPU - GPU| < 20
+$deltabias = 10			# gpudefault, if |CPU - GPU| < 10
 $loadforcegpulimit = 90	# if cpuload >= 90, force gpulimit
-$powerforcethrottle = 70 # if cpupower < 70, force gpulimit
+$powerforcethrottle = 50 # if cpupower < 50, force gpulimit. it will return back if cpupower >= 60
 $delaychange = 0		# delay once from sudden gpulimit
 $delaychange2 = 1		# delay once from sudden gpudefault
 $isdebug = $false		# dont print debug stuff
@@ -287,8 +287,8 @@ while($true){
 	CounterSamples.CookedValue | measure -sum).sum
 	
 	# cputhrottle flag clears when throttle ends
-	if($global:cputhrottle -eq 1 -And (($maxcputempered -eq 0 -And $maxcputmp -ge ($global:maxcpu * $powerforcethrottle / 100))`
-	-Or ($global:delta -le $limit))){
+	if($global:cputhrottle -eq 1 -And (($maxcputempered -eq 0 -And $maxcputmp -ge ($global:maxcpu`
+	* ($powerforcethrottle + $deltabias) / 100)) -Or ($global:delta -le $limit))){
 		msg("throttling cleared.")
 		$global:cputhrottle = 0
 	}
