@@ -288,7 +288,7 @@ while($true){
 	
 	# cputhrottle flag clears when throttle ends
 	if($global:cputhrottle -eq 1 -And (($maxcputempered -eq 0 -And $maxcputmp -ge ($global:maxcpu`
-	* ($powerforcethrottle + $deltabias) / 100)) -Or ($global:delta -le $limit))){
+	* (100 - $deltabias) / 100)) -Or ($global:delta -le $limit))){
 		msg("throttling cleared.")
 		$global:cputhrottle = 0
 	}
