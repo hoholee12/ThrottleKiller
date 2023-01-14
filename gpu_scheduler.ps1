@@ -13,7 +13,7 @@ $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
 $deltabias = 10			# gpudefault, if |CPU - GPU| < 10
 $loadforcegpulimit = 90	# if cpuload >= 90, force gpulimit
-$powerforcethrottle = 50 # if cpupower < 50, force gpulimit. it will return back if cpupower >= 60
+$powerforcethrottle = 90 # if total power < 90, force gpulimit
 $delaychange = 0		# delay once from sudden gpulimit
 $delaychange2 = 1		# delay once from sudden gpudefault
 $isdebug = $false		# dont print debug stuff
@@ -62,6 +62,7 @@ $global:policyflip = 0		# keep gpulimit until game end
 $global:msgswitch = 0
 $global:maxcpu = 100
 $global:maxgpu = 100
+$global:totalpwr = 0		# cpu power + gpu clock
 $global:cputhrottle = 0
 $global:throttle_str = ""
 $global:prev_process = ""
@@ -262,41 +263,49 @@ while($true){
 	checkSettings "blacklist_programs"
 
 	$global:result = does_procname_exist
+	
 	# scale cpu usage based on clockspeed
-	$maxcputempered = 0
+	# correct cpu load
 	$maxcputmp = ((Get-Counter -Counter "\Processor Information(_Total)\% Processor Performance" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
 	if($maxcputmp -gt $global:maxcpu){
-		$maxcputempered = 1
 		$global:maxcpu = $maxcputmp
 	}
 	$global:load = ((Get-Counter "\Processor(_Total)\% Processor Time" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
 	$global:deltacpu = $global:load * 100 / $global:maxcpu
-	# scale gpu usage based on clockspeed(assume gpudefault = gpulimit * 2)
-	#$global:delta3d = ((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
-	#CounterSamples.CookedValue | measure -sum).sum / 2 * (2 - $global:gpuswitch) + $gpubias
+	
+	# correct gpu load (it seems to go over 100)
 	$global:delta3d = ((Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
 	if($global:delta3d -gt $global:maxgpu){
-		#dynamic adjust of max gpu load (it seems to go over 100)
 		$global:maxgpu = $global:delta3d
 	}
 	$global:delta3d = $global:delta3d * 100 / $global:maxgpu
+	
+	# check gpu copy usage to ident if game is running
 	$global:delta = ((Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue | measure -sum).sum
 	
+	# estimate total power for throttle check
+	$maxpwrtempered = 0
+	$currpwr = $maxcputmp + $global:delta3d
+	if($global:totalpwr -lt $currpwr){
+		$maxpwrtempered = 1
+		$global:totalpwr = $currpwr
+	}
+	
 	# cputhrottle flag clears when throttle ends
-	if($global:cputhrottle -eq 1 -And (($maxcputempered -eq 0 -And $maxcputmp -ge ($global:maxcpu`
-	* (100 - $deltabias) / 100)) -Or ($global:delta -le $limit))){
+	if($global:cputhrottle -eq 1 -And (($global:deltacpu -gt 30 -And $maxpwrtempered -eq 0 -And $currpwr -ge ($global:totalpwr`
+	* $powerforcethrottle / 100)) -Or ($global:delta -le $limit))){
 		msg("throttling cleared.")
 		$global:cputhrottle = 0
 	}
 	
 	# abs of delta
-	$global:deltafinal = $global:deltacpu - $global:delta3d - $global:delta
+	$global:deltafinal = $global:deltacpu - $global:delta3d
 	if($global:deltafinal -lt 0){
-		$global:deltafinal = $global:delta + $global:delta3d - $global:deltacpu
+		$global:deltafinal = $global:delta3d - $global:deltacpu
 	}
 	
 	if($global:result -eq $true){
@@ -312,7 +321,7 @@ while($true){
 		$global:policyflip = 0
 		gpudefault
 	}
-	elseif($global:deltacpu -gt 30 -And $maxcputempered -eq 0 -And $maxcputmp -lt ($global:maxcpu * $powerforcethrottle / 100)){
+	elseif($global:deltacpu -gt 30 -And $maxpwrtempered -eq 0 -And $currpwr -lt ($global:totalpwr * $powerforcethrottle / 100)){
 		# cpu usage is over limit
 		# while cpu power is not max
 		# this means that cpu is throttling.
@@ -359,7 +368,7 @@ while($true){
 	$sw.Stop()
 	if($isdebug -eq $true){
 		msg("cpu usage = " + $global:deltacpu + ", gpu usage = " + $global:delta3d + ", gpu delta = " + $global:delta`
-		+ ", cpu power = " + $maxcputmp + "/" + ($global:maxcpu * $powerforcethrottle / 100))
+		+ ", cpu power = " + $currpwr + "/" + ($global:totalpwr * $powerforcethrottle / 100))
 		#msg("gpuswitch = " + $global:gpuswitch + ", switchdelay = " + $global:switchdelay`
 		#+ ", switchdelay2 = " + $global:switchdelay2)
 	}
