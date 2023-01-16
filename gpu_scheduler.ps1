@@ -13,7 +13,7 @@ $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
 $deltabias = 10			# gpudefault, if |CPU - GPU| < 10
 $loadforcegpulimit = 90	# if cpuload >= 90, force gpulimit
-$powerforcethrottle = 65 # if total power < 65, force gpulimit
+$powerforcethrottle = 70 # if total power < 70, force gpulimit
 $delaychange = 0		# delay once from sudden gpulimit
 $delaychange2 = 2		# delay once from sudden gpudefault
 $isdebug = $false		# dont print debug stuff
@@ -64,6 +64,7 @@ $global:maxcpu = 0
 $global:maxgpu = 0
 $global:totalpwr = 0		# cpu power + gpu clock
 $global:cputhrottle = 0
+$global:targetthrottle = 0
 $global:throttle_str = ""
 $global:prev_process = ""
 $global:status = 0			# 0 = gpudefault, 1 = gpulimit
@@ -224,32 +225,34 @@ function gpulimit{
 }
 
 function gpudefault{
-	if($global:policyflip -eq 0){
-		if($global:switchdelay2 -ge $delaychange2 -Or $global:delta -le $limit -And $global:cputhrottle -eq 0){
-			if($global:gpuswitch -eq 1){
-				nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
-				$global:status = 0
-				if($global:result -eq $true){
-					msg($global:process_str + ": gpudefault enabled.")
+	if($global:cputhrottle -eq 0){
+		if($global:policyflip -eq 0){
+			if($global:switchdelay2 -ge $delaychange2 -Or $global:delta -le $limit){
+				if($global:gpuswitch -eq 1){
+					nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
+					$global:status = 0
+					if($global:result -eq $true){
+						msg($global:process_str + ": gpudefault enabled.")
+					}
+					elseif($global:delta -le $limit){
+						msg("gpudefault enabled.(gpu is off)")
+					}
+					else{
+						msg("gpudefault enabled.")
+					}
 				}
-				elseif($global:delta -le $limit){
-					msg("gpudefault enabled.(gpu is off)")
-				}
-				else{
-					msg("gpudefault enabled.")
-				}
+				$global:gpuswitch = 0
 			}
-			$global:gpuswitch = 0
-		}
-		$global:switchdelay2++
-		$global:switchdelay = 0
-	}
-	else{
-		if($global:result -eq $true){
-			msg($global:process_str + ": gpudefault is bound by policyflip.")
+			$global:switchdelay2++
+			$global:switchdelay = 0
 		}
 		else{
-			msg("gpudefault is bound by policyflip.")
+			if($global:result -eq $true){
+				msg($global:process_str + ": gpudefault is bound by policyflip.")
+			}
+			else{
+				msg("gpudefault is bound by policyflip.")
+			}
 		}
 	}
 }
@@ -297,8 +300,8 @@ while($true){
 	
 	# cputhrottle flag clears when throttle ends
 	# use deltacpu instead of load
-	if($global:cputhrottle -eq 1 -And (($global:deltacpu -gt 30 -And $maxpwrtempered -eq 0 -And $currpwr -ge ($global:totalpwr`
-	* $powerforcethrottle / 100)) -Or ($global:delta -le $limit))){
+	if($global:cputhrottle -eq 1 -And (($global:load -gt 30 -And $maxpwrtempered -eq 0 -And $currpwr -ge $global:targetthrottle)`
+	-Or ($global:delta -le $limit))){
 		msg("throttling cleared.")
 		$global:cputhrottle = 0
 	}
@@ -337,6 +340,7 @@ while($true){
 			$global:cputhrottle = 1
 			$global:throttle_str = $global:process_str
 			msg("cpu is throttling!!!")
+			$global:targetthrottle = $currpwr * 100 / ($global:totalpwr * $powerforcethrottle / 100)
 			gpulimit
 		}
 		elseif($global:deltacpu -ge $loadforcegpulimit){
@@ -369,7 +373,7 @@ while($true){
 	$sw.Stop()
 	if($isdebug -eq $true){
 		msg("cpu usage = " + $load + ", reported cpu usage = " + $global:deltacpu + ", gpu usage = " + $global:delta3d + ", gpu delta = "`
-		+ $global:delta + ", cpu power = " + $currpwr + "/" + ($global:totalpwr * $powerforcethrottle / 100))
+		+ $global:delta + ", cpu power = " + $currpwr + "/" + ($global:totalpwr * $powerforcethrottle / 100) + "/" + $global:targetthrottle)
 		#msg("gpuswitch = " + $global:gpuswitch + ", switchdelay = " + $global:switchdelay`
 		#+ ", switchdelay2 = " + $global:switchdelay2)
 	}
