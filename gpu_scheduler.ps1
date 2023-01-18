@@ -224,6 +224,17 @@ function gpulimit{
 	$global:switchdelay2 = 0
 }
 
+function cpulimit{
+	if($global:cputhrottle -eq 2){
+		powercfg /setdcvalueindex $guid0 $guid1 $guid2 99
+		powercfg /setacvalueindex $guid0 $guid1 $guid2 99
+	}
+	else{
+		powercfg /setdcvalueindex $guid0 $guid1 $guid2 100
+		powercfg /setacvalueindex $guid0 $guid1 $guid2 100
+	}
+}
+
 function gpudefault{
 	if($global:cputhrottle -eq 0){
 		if($global:policyflip -eq 0){
@@ -300,10 +311,11 @@ while($true){
 	
 	# cputhrottle flag clears when throttle ends
 	# use deltacpu instead of load
-	if($global:cputhrottle -eq 1 -And (($global:load -gt 30 -And $maxpwrtempered -eq 0 -And $currpwr -ge $global:targetthrottle)`
+	if($global:cputhrottle -ne 0 -And (($global:load -gt 30 -And $maxpwrtempered -eq 0 -And $currpwr -ge $global:targetthrottle)`
 	-Or ($global:delta -le $limit))){
 		msg("throttling cleared.")
 		$global:cputhrottle = 0
+		cpulimit
 	}
 	
 	# abs of delta
@@ -336,12 +348,24 @@ while($true){
 			# cpu usage is over limit
 			# while cpu power is not max
 			# this means that cpu is throttling.
-			$global:msgswitch = 0
-			$global:cputhrottle = 1
-			$global:throttle_str = $global:process_str
-			msg("cpu is throttling!!!")
-			$global:targetthrottle = $currpwr * 100 / ($global:totalpwr * $powerforcethrottle / 100)
-			gpulimit
+			if($global:cputhrottle -eq 0){
+				$global:msgswitch = 0
+				$global:throttle_str = $global:process_str
+				msg("cpu is throttling!!! - gpulimit")
+				$global:targetthrottle = $currpwr * 100 / ($global:totalpwr * $powerforcethrottle / 100)
+				$global:cputhrottle = 1
+				gpulimit
+				cpulimit
+			}
+			else{
+				$global:msgswitch = 0
+				$global:throttle_str = $global:process_str
+				msg("cpu is still throttling!!! - cpulimit")
+				$global:targetthrottle = $currpwr * 100 / ($global:totalpwr * $powerforcethrottle / 100)
+				$global:cputhrottle = 2
+				gpulimit
+				cpulimit
+			}
 		}
 		elseif($global:deltacpu -ge $loadforcegpulimit){
 			$global:msgswitch = 0
