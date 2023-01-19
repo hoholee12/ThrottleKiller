@@ -65,6 +65,7 @@ $global:maxgpu = 0
 $global:totalpwr = 0		# cpu power + gpu clock
 $global:cputhrottle = 0
 $global:targetthrottle = 0
+$global:cpulimitval = 100
 $global:throttle_str = ""
 $global:prev_process = ""
 $global:status = 0			# 0 = gpudefault, 1 = gpulimit
@@ -225,14 +226,13 @@ function gpulimit{
 }
 
 function cpulimit{
-	if($global:cputhrottle -eq 2){
-		powercfg /setdcvalueindex $guid0 $guid1 $guid2 99
-		powercfg /setacvalueindex $guid0 $guid1 $guid2 99
+	if($global:cputhrottle -ne 2){
+		$global:cpulimitval = 100
 	}
-	else{
-		powercfg /setdcvalueindex $guid0 $guid1 $guid2 100
-		powercfg /setacvalueindex $guid0 $guid1 $guid2 100
-	}
+
+	powercfg /setdcvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
+	powercfg /setacvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
+	$global:cpulimitval = $global:cpulimitval - 1
 }
 
 function gpudefault{
