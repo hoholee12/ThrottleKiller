@@ -318,10 +318,10 @@ while($true){
 			$global:currpwr_v = $global:currpwr * ($global:currpwr_n - 1) + $maxtmp
 		}
 		$global:currpwr = $global:currpwr_v / $global:currpwr_n
-		if($global:totalpwr -lt $global:currpwr){
-			$maxpwrtempered = 1
-			$global:totalpwr = $global:currpwr
-		}
+	}
+	if($global:totalpwr -lt $global:currpwr){
+		$maxpwrtempered = 1
+		$global:totalpwr = $global:currpwr
 	}
 	
 	# cputhrottle flag clears when throttle ends
