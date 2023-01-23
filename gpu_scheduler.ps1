@@ -14,6 +14,7 @@ $sleeptime = 5			# wait 5 seconds before another run
 $deltabias = 10			# gpudefault, if |CPU - GPU| < 10
 $loadforcegpulimit = 90	# if cpuload >= 90, force gpulimit
 $powerforcethrottle = 70 # if total power < 70, force gpulimit
+$smoothness = 20		# smoothness for moving average. if 10, 9(old) + 1(new) / 10 = avg
 $delaychange = 0		# delay once from sudden gpulimit
 $delaychange2 = 2		# delay once from sudden gpudefault
 $isdebug = $false		# dont print debug stuff
@@ -63,8 +64,9 @@ $global:msgswitch = 0
 $global:maxcpu = 0
 $global:maxgpu = 0
 $global:totalpwr = 0		# cpu power + gpu clock
-$global:currpwr_n = 0
-$global:currpwr_v = 0
+$global:currpwr_n = $smoothness
+$global:currpwr_v = 100 * $global:currpwr_n
+$global:currpwr = $global:currpwr_v / $global:currpwr_n
 $global:cputhrottle = 0
 $global:targetthrottle = 0
 $global:cpulimitval = 100
@@ -308,17 +310,18 @@ while($true){
 	$maxpwrtempered = 0
 	$maxtmp = 100 * $maxcputmp / $global:maxcpu
 	# more weight if less than current
-	$global:currpwr_n = $global:currpwr_n + 1
-	if($maxtmp -lt $global:currpwr -Or $load -le 30){
-		$global:currpwr_v = $maxtmp * $global:currpwr_n
-	}
-	else{
-		$global:currpwr_v = $global:currpwr_v + $maxtmp
-	}
-	$global:currpwr = $global:currpwr_v / $global:currpwr_n
-	if($global:totalpwr -lt $global:currpwr){
-		$maxpwrtempered = 1
-		$global:totalpwr = $global:currpwr
+	if($load -gt 30){
+		if($maxtmp -lt $global:currpwr){
+			$global:currpwr_v = $maxtmp * $global:currpwr_n
+		}
+		else{
+			$global:currpwr_v = $global:currpwr * ($global:currpwr_n - 1) + $maxtmp
+		}
+		$global:currpwr = $global:currpwr_v / $global:currpwr_n
+		if($global:totalpwr -lt $global:currpwr){
+			$maxpwrtempered = 1
+			$global:totalpwr = $global:currpwr
+		}
 	}
 	
 	# cputhrottle flag clears when throttle ends
