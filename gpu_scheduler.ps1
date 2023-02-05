@@ -53,6 +53,7 @@ powercfg /attributes $guid4 $guid5 -ATTRIB_HIDE
 powercfg /setactive $guid0
 
 # internal stuff
+$global:load = 0
 $global:delta = 0
 $global:deltacpu = 0
 $global:delta3d = 0
@@ -67,6 +68,8 @@ $global:totalpwr = 0		# cpu power + gpu clock
 $global:currpwr_n = $smoothness
 $global:currpwr_v = 100 * $global:currpwr_n
 $global:currpwr = $global:currpwr_v / $global:currpwr_n
+$global:targetpwr = 0
+$global:targetload = 0
 $global:cputhrottle = 0
 $global:cpulimitval = 100
 $global:throttle_str = ""
@@ -308,7 +311,7 @@ while($true){
 	# estimate total power for throttle check
 	$maxpwrtempered = 0
 	$maxtmp = 100 * $maxcputmp / $global:maxcpu
-	$maxtmp = $maxtmp + (100 - $maxtmp) * (100 - $load) / 100
+	$maxtmp = $maxtmp + (100 - $maxtmp) * (100 - $global:load) / 100
 	# more weight if less than current
 	if($maxtmp -lt $global:currpwr){
 		$global:currpwr_v = $global:currpwr + $maxtmp * ($global:currpwr_n - 1)
@@ -317,16 +320,15 @@ while($true){
 		$global:currpwr_v = $global:currpwr * ($global:currpwr_n - 1) + $maxtmp
 	}
 	$global:currpwr = $global:currpwr_v / $global:currpwr_n
-	#$global:currpwr = $global:currpwr + (100 - $global:currpwr) * (100 - $load) / 100
+	#$global:currpwr = $global:currpwr + (100 - $global:currpwr) * (100 - $global:load) / 100
 	if($global:totalpwr -lt $global:currpwr){
 		$maxpwrtempered = 1
 		$global:totalpwr = $global:currpwr
 	}
 	
 	# cputhrottle flag clears when throttle ends
-	# use deltacpu instead of load
 	if($global:cputhrottle -ne 0 -And (($maxpwrtempered -eq 0 -And $global:currpwr -ge ($global:totalpwr * $powerforcethrottle / 100)`
-	-Or $global:delta -le $limit))){
+	-And $global:load -gt $global:targetload) -Or $global:delta -le $limit)){
 		msg("throttling cleared.")
 		$global:cputhrottle = 0
 		cpulimit
@@ -366,6 +368,11 @@ while($true){
 			if($global:cputhrottle -eq 0){
 				$global:msgswitch = 0
 				$global:throttle_str = $global:process_str
+				# prevent short term throttle clear
+				$global:targetload = $global:load * ($global:totalpwr * $powerforcethrottle / 100) / $global:currpwr
+				if($global:targetload -gt 100){
+					$global:targetload = 100
+				}
 				msg("cpu is throttling!!! - gpulimit")
 				$global:cputhrottle = 1
 				gpulimit
@@ -411,8 +418,9 @@ while($true){
 	
 	$sw.Stop()
 	if($isdebug -eq $true){
-		msg("cpu usage = " + $load + ", reported cpu usage = " + $global:deltacpu + ", gpu usage = " + $global:delta3d + ", gpu delta = "`
-		+ $global:delta + ", cpu power = " + $global:currpwr + "/" + ($global:totalpwr * $powerforcethrottle / 100))
+		msg("cpu usage = " + $global:load + ", reported cpu usage = " + $global:deltacpu + ", gpu usage = " + $global:delta3d + ", gpu delta = "`
+		+ $global:delta + ", cpu power = " + $global:currpwr + "/" + ($global:totalpwr * $powerforcethrottle / 100) + ", targetload = "`
+		+ $global:targetload)
 		#msg("gpuswitch = " + $global:gpuswitch + ", switchdelay = " + $global:switchdelay`
 		#+ ", switchdelay2 = " + $global:switchdelay2)
 	}
