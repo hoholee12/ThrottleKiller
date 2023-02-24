@@ -11,11 +11,11 @@
 # user config
 $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
-$deltabias = 30			# gpudefault, if |CPU - GPU| < 20
-$loadforcegpulimit = 60	# if cpuload >= 60, force gpulimit
+$deltabias = 40			# gpudefault, if |CPU - GPU| < 40
+$loadforcegpulimit = 80	# if cpuload >= 80, force gpulimit
 $powerforcethrottle = 80 # if total power < 80, force gpulimit
 $smoothness = 10		# smoothness for upper moving average. if 10, 9(old) + 1(new) / 10 = avg.
-$delaychange = 0		# delay once from sudden gpulimit
+$delaychange = 1		# delay once from sudden gpulimit
 $delaychange2 = 2		# delay once from sudden gpudefault
 $throttlechange = 8		# delay once from throttle clear
 $isdebug = $false		# dont print debug stuff
@@ -291,7 +291,7 @@ while($true){
 		$global:maxcpu = $maxcputmp
 	}
 	
-	# cpu load
+	# total cpu load
 	$global:load = 0
 	foreach($item in (Get-Counter "\Processor(*)\% Processor Time" -ErrorAction SilentlyContinue).`
 	CounterSamples.CookedValue){
@@ -299,14 +299,16 @@ while($true){
 			$global:load = $item
 		}
 	}
-	
-	# gpu load(for the running gpu)
-	$global:delta3d = 0
-	foreach($item in (Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage"`
-	-ErrorAction SilentlyContinue).CounterSamples.CookedValue){
-		if($global:delta3d -lt $item){
-			$global:delta3d = $item
+	$kernelload = 0
+	foreach($item in (Get-Counter "\Processor(*)\% Privileged Time" -ErrorAction SilentlyContinue).`
+	CounterSamples.CookedValue){
+		if($kernelload -lt $item){
+			$kernelload = $item
 		}
+	}
+	$global:load += $kernelload
+	if($global:load -gt 100){
+		$global:load = 100
 	}
 	
 	# check gpu copy usage to ident if game is running
@@ -316,6 +318,14 @@ while($true){
 	-ErrorAction SilentlyContinue).CounterSamples.CookedValue){
 		if($global:delta -lt $item){
 			$global:delta = $item
+		}
+	}
+	# gpu load(for the running gpu)
+	$global:delta3d = $global:delta
+	foreach($item in (Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage"`
+	-ErrorAction SilentlyContinue).CounterSamples.CookedValue){
+		if($global:delta3d -lt $item){
+			$global:delta3d = $item
 		}
 	}
 	
