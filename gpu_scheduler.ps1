@@ -12,7 +12,7 @@
 $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
 $deltabias = 30			# gpudefault, if |CPU - GPU| < 20
-$loadforcegpulimit = 90	# if cpuload >= 90, force gpulimit
+$loadforcegpulimit = 60	# if cpuload >= 60, force gpulimit
 $powerforcethrottle = 80 # if total power < 80, force gpulimit
 $smoothness = 10		# smoothness for upper moving average. if 10, 9(old) + 1(new) / 10 = avg.
 $delaychange = 0		# delay once from sudden gpulimit
@@ -290,8 +290,15 @@ while($true){
 	if($maxcputmp -gt $global:maxcpu){
 		$global:maxcpu = $maxcputmp
 	}
-	$global:load = (Get-Counter "\Processor(_Total)\% Processor Time" -ErrorAction SilentlyContinue).`
-	CounterSamples.CookedValue
+	
+	# cpu load
+	$global:load = 0
+	foreach($item in (Get-Counter "\Processor(*)\% Processor Time" -ErrorAction SilentlyContinue).`
+	CounterSamples.CookedValue){
+		if($global:load -lt $item){
+			$global:load = $item
+		}
+	}
 	
 	# gpu load(for the running gpu)
 	$global:delta3d = 0
