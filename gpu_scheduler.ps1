@@ -11,9 +11,9 @@
 # user config
 $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
-$deltabias = 40			# gpudefault, if |CPU - GPU| < 40
-$loadforcegpulimit = 80	# if cpuload >= 80, force gpulimit
-$powerforcethrottle = 80 # if total power < 80, force gpulimit
+$deltabias = 30			# gpulimit, if |CPU - GPU| < 30
+$loadforcegpulimit = 90	# if cpuload >= 90, force gpulimit
+$powerforcethrottle = 60 # if total power < 60, force gpulimit
 $smoothness = 10		# smoothness for upper moving average. if 10, 9(old) + 1(new) / 10 = avg.
 $delaychange = 1		# delay once from sudden gpulimit
 $delaychange2 = 2		# delay once from sudden gpudefault
@@ -73,6 +73,7 @@ $global:cpulimitval = 100
 $global:throttle_str = ""
 $global:prev_process = ""
 $global:status = 0			# 0 = gpudefault, 1 = gpulimit
+$global:reason = ""
 # script assumes nothing is running at start.
 
 # check custom location for settings
@@ -216,10 +217,10 @@ function gpulimit{
 			nvidiaInspector -setBaseClockOffset:0,0,$clockoffset -setMemoryClockOffset:0,0,$memoffset
 			$global:status = 1
 			if($global:result -eq $true){
-				msg($global:process_str + ": gpulimit enabled.")
+				msg($global:process_str + ": gpulimit enabled. " + $global:reason)
 			}
 			else{
-				msg("gpulimit enabled.")
+				msg("gpulimit enabled. " + $global:reason)
 			}
 		}
 		$global:gpuswitch = 1
@@ -248,13 +249,13 @@ function gpudefault{
 					nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
 					$global:status = 0
 					if($global:result -eq $true){
-						msg($global:process_str + ": gpudefault enabled.")
+						msg($global:process_str + ": gpudefault enabled. " + $global:reason)
 					}
 					elseif($global:delta -le $limit){
-						msg("gpudefault enabled.(gpu is off)")
+						msg("gpudefault enabled. (gpu is off)")
 					}
 					else{
-						msg("gpudefault enabled.")
+						msg("gpudefault enabled. " + $global:reason)
 					}
 				}
 				$global:gpuswitch = 0
@@ -391,47 +392,45 @@ while($true){
 			if($global:cputhrottle -eq 0){
 				$global:msgswitch = 0
 				$global:throttle_str = $global:process_str
-				msg("cpu is throttling!!! - gpulimit")
 				$global:cputhrottle = 1
+				$global:reason = "cpu is throttling!!!"
 				gpulimit
 				cpulimit
 			}
 			elseif($global:cputhrottle -eq 1){
 				$global:msgswitch = 0
 				$global:throttle_str = $global:process_str
-				msg("cpu is still throttling!!! - cpulimit")
 				$global:cputhrottle = 2
+				$global:reason = "cpu is still throttling!!! - cpulimit"
 				gpulimit
 				cpulimit
 			}
 		}
 		else{
 			if($global:load -ge $loadforcegpulimit){
-				if($global:deltafinal -le $deltabias){
-					$global:msgswitch = 0
-					# delta between cpu and gpu is small
-					# it is not a cpu intensive game then.
-					$global:policyflip = 0
-					gpudefault
-				}
-				elseif($global:load -gt $global:delta3d){
-					$global:msgswitch = 0
-					# delta between cpu and gpu is huge
-					# cpu usage is way higher than gpu usage
-					# it is a cpu intensive game.
-					gpulimit
-				}
-				else{
-					# more gpu power
-					$global:msgswitch = 0
-					$global:policyflip = 0
-					gpudefault
-				}
+				# cpu oriented game
+				$global:msgswitch = 0
+				$global:reason = "cpu oriented game"
+				gpulimit
 			}
-			else{
-				# most non cpu intensive games will utilize more gpu power
+			elseif($global:deltafinal -le $deltabias){
+				# cpu and gpu load diff is small (likely gpu oriented)
 				$global:msgswitch = 0
 				$global:policyflip = 0
+				$global:reason = "cpu and gpu load diff is small (likely gpu oriented)"
+				gpudefault
+			}
+			elseif($global:load -gt $global:delta3d){
+				# cpu and gpu load diff is large and cpu load is greater
+				$global:msgswitch = 0
+				$global:reason = "cpu and gpu load diff is large and cpu load is greater"
+				gpulimit
+			}
+			else{
+				# probably gpu oriented game
+				$global:msgswitch = 0
+				$global:policyflip = 0
+				$global:reason = "probably gpu oriented game"
 				gpudefault
 			}
 		}
