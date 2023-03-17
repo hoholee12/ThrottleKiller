@@ -353,7 +353,9 @@ while($true){
 	if($global:cputhrottle -ne 0 -And (($maxpwrtempered -eq 0 -And $global:currpwr -ge ($global:totalpwr`
 	* $powerforcethrottle / 100) -And $global:switchdelay3 -gt $throttlechange) -Or $global:delta`
 	-le $limit)){
-		msg("throttling cleared.")
+		if($global:cputhrottle -ne 0){
+			msg("throttling cleared.")
+		}
 		$global:cputhrottle = 0
 		cpulimit
 	}
