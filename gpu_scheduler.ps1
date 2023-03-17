@@ -117,6 +117,7 @@ excel
 teamviewer
 tv
 tslgame
+.scr
 "
 }
 
