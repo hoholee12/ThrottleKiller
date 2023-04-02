@@ -16,7 +16,7 @@ $loadforcegpulimit = 90	# if cpuload >= 90, force gpulimit
 $powerforcethrottle = 60 # if total power < 60, force gpulimit
 $smoothness = 10		# smoothness for upper moving average. if 10, 9(old) + 1(new) / 10 = avg.
 $delaychange = 1		# delay once from sudden gpulimit
-$delaychange2 = 2		# delay once from sudden gpudefault
+$delaychange2 = 1		# delay once from sudden gpudefault
 $throttlechange = 8		# delay once from throttle clear
 $isdebug = $false		# dont print debug stuff
 
@@ -330,6 +330,12 @@ while($true){
 			$global:delta3d = $item
 		}
 	}
+	foreach($item in (Get-Counter "\GPU Engine(*engtype_Graphics_1)\Utilization Percentage"`
+	-ErrorAction SilentlyContinue).CounterSamples.CookedValue){
+		if($global:delta3d -lt $item){
+			$global:delta3d = $item
+		}
+	}
 	
 	# estimate total power for throttle check
 	$maxpwrtempered = 0
@@ -441,9 +447,9 @@ while($true){
 	
 	$sw.Stop()
 	if($isdebug -eq $true){
-		msg("cpu usage = " + $global:load + ", gpu usage = " + $global:delta3d + ", gpu delta = "`
-		+ $global:delta + ", cpu power = " + $global:currpwr + "/" + ($global:totalpwr`
-		* $powerforcethrottle / 100))
+		msg("cpu usage = " + [math]::ceiling($global:load) + ", gpu usage = " + [math]::ceiling($global:delta3d)`
+		+ ", gpu delta = " + [math]::ceiling($global:delta) + ", cpu power = " + [math]::ceiling($global:currpwr)`
+		+ "/" + [math]::ceiling(($global:totalpwr * $powerforcethrottle / 100)))
 		#msg("gpuswitch = " + $global:gpuswitch + ", switchdelay = " + $global:switchdelay`
 		#+ ", switchdelay2 = " + $global:switchdelay2)
 	}
