@@ -15,8 +15,8 @@ $deltabias = 30			# gpulimit, if |CPU - GPU| < 30
 $loadforcegpulimit = 90	# if cpuload >= 90, force gpulimit
 $powerforcethrottle = 60 # if total power < 60, force gpulimit
 $smoothness = 10		# smoothness for upper moving average. if 10, 9(old) + 1(new) / 10 = avg.
-$delaychange = 1		# delay once from sudden gpulimit
-$delaychange2 = 1		# delay once from sudden gpudefault
+$delaychange = 2		# delay once from sudden gpulimit
+$delaychange2 = 2		# delay once from sudden gpudefault
 $throttlechange = 8		# delay once from throttle clear
 $isdebug = $false		# dont print debug stuff
 
@@ -324,13 +324,7 @@ while($true){
 	}
 	# gpu load(for the running gpu)
 	$global:delta3d = $global:delta
-	foreach($item in (Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage"`
-	-ErrorAction SilentlyContinue).CounterSamples.CookedValue){
-		if($global:delta3d -lt $item){
-			$global:delta3d = $item
-		}
-	}
-	foreach($item in (Get-Counter "\GPU Engine(*engtype_Graphics_1)\Utilization Percentage"`
+	foreach($item in (Get-Counter "\GPU Engine(*)\Utilization Percentage"`
 	-ErrorAction SilentlyContinue).CounterSamples.CookedValue){
 		if($global:delta3d -lt $item){
 			$global:delta3d = $item
