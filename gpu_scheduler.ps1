@@ -25,6 +25,7 @@ $clockoffset = -950
 $memoffset = -1000
 
 # better cpu scheduler tuning
+# powersettings(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\PowerSettings)
 $processor_power_management_guids = @{
 "06cadf0e-64ed-448a-8927-ce7bf90eb35d" = 30			# processor high threshold; lower this for performance
 "0cc5b647-c1df-4637-891a-dec35c318583" = 100
@@ -38,7 +39,8 @@ $processor_power_management_guids = @{
 "bc5038f7-23e0-4960-96da-33abaf5935ec" = 100		# processor high clockspeed limit
 "ea062031-0e34-4ff1-9b6d-eb1059334028" = 100
 }
-$guid0 = '381b4222-f694-41f0-9685-ff5bb260df2e'		# you can change to any powerplan you want as default!
+$guid0 = '381b4222-f694-41f0-9685-ff5bb260df2e'		# powerplan(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\
+													# Control\Power\User\PowerSchemes)
 $guid1 = '54533251-82be-4824-96c1-47b60b740d00'		# processor power management
 $guid2 = 'bc5038f7-23e0-4960-96da-33abaf5935ec'		# processor high clockspeed limit
 $guid3 = '893dee8e-2bef-41e0-89c6-b55d0929964c'		# processor low clockspeed limit
@@ -50,7 +52,10 @@ foreach($temp in $processor_power_management_guids.Keys){
 	powercfg /setdcvalueindex $guid0 $guid1 $temp $processor_power_management_guids[$temp]
 	powercfg /setacvalueindex $guid0 $guid1 $temp $processor_power_management_guids[$temp]
 }
+# for intel gpu
 powercfg /attributes $guid4 $guid5 -ATTRIB_HIDE
+powercfg /setdcvalueindex $guid0 $guid4 $guid5 2
+powercfg /setacvalueindex $guid0 $guid4 $guid5 2
 powercfg /setactive $guid0
 
 # internal stuff
