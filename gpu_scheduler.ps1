@@ -66,7 +66,7 @@ $global:gpuswitch = 0		# if 0 gpu limit, 1 gpu default
 $global:switchdelay = 0
 $global:switchdelay2 = 0
 $global:switchdelay3 = 0
-$global:switchbound = 0		# switch immediately if its off bound
+$global:switchbound = 0		# ignore delay and switch immediately
 $global:policyflip = 0		# keep gpulimit until game end
 $global:msgswitch = 0
 $global:maxcpu = 0
@@ -230,6 +230,10 @@ function gpulimit{
 			else{
 				msg("gpulimit enabled. " + $global:reason)
 			}
+			msg("cpu usage = " + [math]::ceiling($global:load) + ", gpu usage = " + [math]::ceiling(`
+			$global:delta3d) + ", gpu delta = " + [math]::ceiling($global:delta) + ", cpu power = "`
+			+ [math]::ceiling($global:currpwr) + "/" + [math]::ceiling(($global:totalpwr`
+			* $powerforcethrottle / 100)))
 		}
 		$global:gpuswitch = 1
 		$global:policyflip = 1	# flip here for switchdelay
@@ -237,17 +241,6 @@ function gpulimit{
 	$global:switchdelay++
 	$global:switchdelay2 = 0
 	$global:switchbound = 0
-}
-
-function cpulimit{
-	if($global:cputhrottle -ne 2){
-		$global:cpulimitval = 100
-	}
-	else{
-		$global:cpulimitval = 99
-	}
-	powercfg /setdcvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
-	powercfg /setacvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
 }
 
 function gpudefault{
@@ -267,6 +260,10 @@ function gpudefault{
 					else{
 						msg("gpudefault enabled. " + $global:reason)
 					}
+					msg("cpu usage = " + [math]::ceiling($global:load) + ", gpu usage = "`
+					+ [math]::ceiling($global:delta3d) + ", gpu delta = " + [math]::ceiling(`
+					$global:delta) + ", cpu power = " + [math]::ceiling($global:currpwr) + "/"`
+					+ [math]::ceiling(($global:totalpwr * $powerforcethrottle / 100)))
 				}
 				$global:gpuswitch = 0
 			}
@@ -283,6 +280,17 @@ function gpudefault{
 		}
 	}
 	$global:switchbound = 0
+}
+
+function cpulimit{
+	if($global:cputhrottle -ne 2){
+		$global:cpulimitval = 100
+	}
+	else{
+		$global:cpulimitval = 99
+	}
+	powercfg /setdcvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
+	powercfg /setacvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
 }
 
 # first time
@@ -399,16 +407,16 @@ while($true){
 		gpudefault
 	}
 	elseif($global:delta -gt $limit){
-		if($maxpwrtempered -eq 0 -And $global:currpwr -lt ($global:totalpwr * $powerforcethrottle / 100)){
-			# cpu usage is over limit
-			# while cpu power is not max
+		if($maxpwrtempered -eq 0 -And $global:currpwr -lt ($global:totalpwr`
+		* $powerforcethrottle / 100)){
+			# cpu usage is over limit while cpu power is not max
 			# this means that cpu is throttling.
 			$global:switchdelay3 = 0
+			$global:switchbound = 1
 			if($global:cputhrottle -eq 0){
 				$global:msgswitch = 0
 				$global:throttle_str = $global:process_str
 				$global:cputhrottle = 1
-				$global:switchbound = 1
 				$global:reason = "cpu is throttling!!!"
 				gpulimit
 				cpulimit
@@ -417,33 +425,39 @@ while($true){
 				$global:msgswitch = 0
 				$global:throttle_str = $global:process_str
 				$global:cputhrottle = 2
-				$global:switchbound = 1
 				$global:reason = "cpu is still throttling!!! - cpulimit"
 				gpulimit
 				cpulimit
 			}
 		}
 		else{
-			if($global:load -ge $loadforcegpulimit -And $global:delta3d -lt $loadforcegpulimit){
-				# cpu oriented game
-				$global:msgswitch = 0
-				$global:reason = "cpu oriented game"
-				$global:switchbound = 1
-				gpulimit
+			if($global:load -ge $loadforcegpulimit){
+				$global:switchbound = 1		# need this here to switch quickly on high cpuload
+				if($global:deltafinal -le $deltabias){
+					# high cpuload but cpu and gpu load diff is small
+					$global:msgswitch = 0
+					$global:policyflip = 0
+					$global:reason = "(high cpuload) cpu and gpu load diff is small"
+					gpudefault
+				}
+				elseif($global:load -gt $global:delta3d){
+					# cpu oriented game
+					$global:msgswitch = 0
+					$global:reason = "(high cpuload) cpu oriented game"
+					gpulimit
+				}
 			}
 			elseif($global:deltafinal -le $deltabias){
 				# cpu and gpu load diff is small (likely gpu oriented)
 				$global:msgswitch = 0
 				$global:policyflip = 0
-				$global:reason = "cpu and gpu load diff is small (likely gpu oriented)"
-				$global:switchbound = 1		# need this here to switch quickly on full cpuload
+				$global:reason = "cpu and gpu load diff is small"
 				gpudefault
 			}
 			elseif($global:load -gt $global:delta3d){
 				# cpu and gpu load diff is large and cpu load is greater
 				$global:msgswitch = 0
-				$global:reason = "cpu and gpu load diff is large and cpu load is greater"
-				# no switchbound here
+				$global:reason = "cpu load is greater"
 				gpulimit
 			}
 			else{
@@ -451,7 +465,6 @@ while($true){
 				$global:msgswitch = 0
 				$global:policyflip = 0
 				$global:reason = "probably gpu oriented game"
-				# no switchbound here
 				gpudefault
 			}
 		}
@@ -459,9 +472,10 @@ while($true){
 	
 	$sw.Stop()
 	if($isdebug -eq $true){
-		msg("cpu usage = " + [math]::ceiling($global:load) + ", gpu usage = " + [math]::ceiling($global:delta3d)`
-		+ ", gpu delta = " + [math]::ceiling($global:delta) + ", cpu power = " + [math]::ceiling($global:currpwr)`
-		+ "/" + [math]::ceiling(($global:totalpwr * $powerforcethrottle / 100)))
+		msg("cpu usage = " + [math]::ceiling($global:load) + ", gpu usage = " + [math]::ceiling(`
+		$global:delta3d) + ", gpu delta = " + [math]::ceiling($global:delta) + ", cpu power = "`
+		+ [math]::ceiling($global:currpwr) + "/" + [math]::ceiling(($global:totalpwr`
+		* $powerforcethrottle / 100)))
 		#msg("gpuswitch = " + $global:gpuswitch + ", switchdelay = " + $global:switchdelay`
 		#+ ", switchdelay2 = " + $global:switchdelay2)
 	}
