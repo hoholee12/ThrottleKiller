@@ -12,12 +12,13 @@
 $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
 $deltabias = 30			# gpulimit, if |CPU - GPU| < 30
-$loadforcegpulimit = 90	# if cpuload >= 90, force gpulimit
-$powerforcethrottle = 60 # if total power < 60, force gpulimit
-$smoothness = 10		# smoothness for upper moving average. if 10, 9(old) + 1(new) / 10 = avg.
-$delaychange = 2		# delay from sudden gpulimit (only under deltabias)
-$delaychange2 = 2		# delay from sudden gpudefault (only under deltabias)
-$throttlechange = 8		# delay once from throttle clear
+$loadforcegpulimit = 90	# if cpuload >= 90, force gpulimit (lower priority than deltabias)
+$powerforcethrottl = 60 # if total power < 60, force gpulimit
+$smoothness_pwr = 5		# smoothness for moving average of cpu power. if 10, 9(old) + 1(new) / 10 = avg.
+$sharpness_load = 5		# sharpness for moving average of cpu/gpu load calc. if 10, 1(old) + 9(new) / 10 = avg.
+$delaychange = 1		# delay from sudden gpulimit (only under deltabias)
+$delaychange2 = 0		# delay from sudden gpudefault (only under deltabias)
+$throttlechange = 5		# delay from sudden throttle clear
 $isdebug = $false		# dont print debug stuff
 
 # gpu config
@@ -59,6 +60,8 @@ powercfg /setacvalueindex $guid0 $guid4 $guid5 2
 powercfg /setactive $guid0
 
 # internal stuff
+$global:prev_load = 0
+$global:prev_delta3d = 0
 $global:load = 0
 $global:delta = 0
 $global:delta3d = 0
@@ -71,7 +74,7 @@ $global:policyflip = 0		# keep gpulimit until game end
 $global:msgswitch = 0
 $global:maxcpu = 0
 $global:totalpwr = 0		# cpu power + gpu clock
-$global:currpwr_n = $smoothness
+$global:currpwr_n = $smoothness_pwr
 $global:currpwr_v = 100 * $global:currpwr_n
 $global:currpwr = $global:currpwr_v / $global:currpwr_n
 $global:cputhrottle = 0
@@ -233,7 +236,7 @@ function gpulimit{
 			msg("cpu usage = " + [math]::ceiling($global:load) + ", gpu usage = " + [math]::ceiling(`
 			$global:delta3d) + ", gpu delta = " + [math]::ceiling($global:delta) + ", cpu power = "`
 			+ [math]::ceiling($global:currpwr) + "/" + [math]::ceiling(($global:totalpwr`
-			* $powerforcethrottle / 100)))
+			* $powerforcethrottl / 100)))
 		}
 		$global:gpuswitch = 1
 		$global:policyflip = 1	# flip here for switchdelay
@@ -263,7 +266,7 @@ function gpudefault{
 					msg("cpu usage = " + [math]::ceiling($global:load) + ", gpu usage = "`
 					+ [math]::ceiling($global:delta3d) + ", gpu delta = " + [math]::ceiling(`
 					$global:delta) + ", cpu power = " + [math]::ceiling($global:currpwr) + "/"`
-					+ [math]::ceiling(($global:totalpwr * $powerforcethrottle / 100)))
+					+ [math]::ceiling(($global:totalpwr * $powerforcethrottl / 100)))
 				}
 				$global:gpuswitch = 0
 			}
@@ -330,6 +333,8 @@ while($true){
 	if($global:load -gt 100){
 		$global:load = 100
 	}
+	$global:load = ($global:prev_load + $global:load * ($sharpness_load - 1)) / $sharpness_load
+	$global:prev_load = $global:load
 	
 	# check gpu copy usage to ident if game is running
 	# gpu copy usage stays dead zero if not used.
@@ -348,18 +353,21 @@ while($true){
 			$global:delta3d = $item
 		}
 	}
+	$global:delta3d = ($global:prev_delta3d + $global:delta3d * ($sharpness_load - 1)) / $sharpness_load
+	$global:prev_delta3d = $global:delta3d
 	
 	# estimate total power for throttle check
 	$maxpwrtempered = 0
 	$maxtmp = 100 * $maxcputmp / $global:maxcpu
 	$maxtmp = $maxtmp + (100 - $maxtmp) * (100 - $global:load) / 100
 	# more weight if less than current
-	if($maxtmp -lt $global:currpwr){
-		$global:currpwr_v = $global:currpwr + $maxtmp * ($global:currpwr_n - 1)
-	}
-	else{
-		$global:currpwr_v = $global:currpwr * ($global:currpwr_n - 1) + $maxtmp
-	}
+	#if($maxtmp -lt $global:currpwr){
+	#	$global:currpwr_v = $global:currpwr + $maxtmp * ($global:currpwr_n - 1)
+	#}
+	#else{
+	#	$global:currpwr_v = $global:currpwr * ($global:currpwr_n - 1) + $maxtmp
+	#}
+	$global:currpwr_v = $global:currpwr * ($global:currpwr_n - 1) + $maxtmp
 	$global:currpwr = $global:currpwr_v / $global:currpwr_n
 	#$global:currpwr = $global:currpwr + (100 - $global:currpwr) * (100 - $global:load) / 100
 	if($global:totalpwr -lt $global:currpwr){
@@ -369,7 +377,7 @@ while($true){
 	
 	# cputhrottle flag clears when throttle ends
 	if($global:cputhrottle -ne 0 -And (($maxpwrtempered -eq 0 -And $global:currpwr -ge ($global:totalpwr`
-	* $powerforcethrottle / 100) -And $global:switchdelay3 -gt $throttlechange) -Or $global:delta`
+	* $powerforcethrottl / 100) -And $global:switchdelay3 -gt $throttlechange) -Or $global:delta`
 	-le $limit)){
 		if($global:cputhrottle -ne 0){
 			msg("throttling cleared.")
@@ -408,7 +416,7 @@ while($true){
 	}
 	elseif($global:delta -gt $limit){
 		if($maxpwrtempered -eq 0 -And $global:currpwr -lt ($global:totalpwr`
-		* $powerforcethrottle / 100)){
+		* $powerforcethrottl / 100)){
 			# cpu usage is over limit while cpu power is not max
 			# this means that cpu is throttling.
 			$global:switchdelay3 = 0
@@ -475,7 +483,7 @@ while($true){
 		msg("cpu usage = " + [math]::ceiling($global:load) + ", gpu usage = " + [math]::ceiling(`
 		$global:delta3d) + ", gpu delta = " + [math]::ceiling($global:delta) + ", cpu power = "`
 		+ [math]::ceiling($global:currpwr) + "/" + [math]::ceiling(($global:totalpwr`
-		* $powerforcethrottle / 100)))
+		* $powerforcethrottl / 100)))
 		#msg("gpuswitch = " + $global:gpuswitch + ", switchdelay = " + $global:switchdelay`
 		#+ ", switchdelay2 = " + $global:switchdelay2)
 	}
