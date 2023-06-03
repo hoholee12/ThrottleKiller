@@ -11,8 +11,8 @@
 # user config
 $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
-$deltabias = 30			# gpulimit, if |CPU - GPU| < 30
-$loadforcegpulimit = 90	# if cpuload >= 90, force gpulimit (lower priority than deltabias)
+$deltabias = 20			# gpulimit, if |CPU - GPU| < 20
+$loadforcegpulimit = 80	# if cpuload >= 80, force gpulimit (lower priority than deltabias)
 $powerforcethrottl = 60 # if total power < 60, force gpulimit
 $smoothness_pwr = 5		# smoothness for moving average of cpu power. if 10, 9(old) + 1(new) / 10 = avg.
 $sharpness_load = 5		# sharpness for moving average of cpu/gpu load calc. if 10, 1(old) + 9(new) / 10 = avg.
