@@ -16,10 +16,10 @@ $loadforcegpulimit = 80	# if cpuload >= 80, force gpulimit (lower priority than 
 $powerforcethrottl = 60 # if total power < 60, force gpulimit
 $smoothness_pwr = 5		# smoothness for moving average of cpu power. if 10, 9(old) + 1(new) / 10 = avg.
 $sharpness_load = 5		# sharpness for moving average of cpu/gpu load calc. if 10, 1(old) + 9(new) / 10 = avg.
-$delaychange = 1		# delay from sudden gpulimit (only under deltabias)
-$delaychange2 = 0		# delay from sudden gpudefault (only under deltabias)
-$throttlechange = 5		# delay from sudden throttle clear
-$isdebug = $false		# dont print debug stuff
+$delaycpu = 1			# delay from sudden gpulimit (only under deltabias)
+$delaygpu = 0			# delay from sudden gpudefault (only under deltabias)
+$throttlechange = 5		# delay from sudden throttle clear (will also be used for reducing frequent switches)
+$isdebug = $true		# dont print debug stuff
 
 # gpu config
 $clockoffset = -950
@@ -69,6 +69,9 @@ $global:gpuswitch = 0		# if 0 gpu limit, 1 gpu default
 $global:switchdelay = 0
 $global:switchdelay2 = 0
 $global:switchdelay3 = 0
+$global:delaychange = $delaycpu
+$global:delaychange2 = $delaygpu
+$global:switchindicator = 0	# probably switching too much
 $global:switchbound = 0		# ignore delay and switch immediately
 $global:policyflip = 0		# keep gpulimit until game end
 $global:msgswitch = 0
@@ -222,9 +225,14 @@ msg("script started. starting location: " + $loc)	# log script location
 
 # main logic
 function gpulimit{
-	if($global:switchdelay -ge $delaychange -Or ($global:switchbound -eq 1 -And`
+	if($global:switchdelay -ge $global:delaychange -Or ($global:switchbound -eq 1 -And`
 	$global:switchdelay -ge 0)){
 		if($global:gpuswitch -eq 0){
+			# prevent from switching too fast
+			$global:switchindicator = $throttlechange
+			$global:delaychange = $delaycpu + $throttlechange
+			$global:delaychange2 = $delaygpu + $throttlechange
+					
 			nvidiaInspector -setBaseClockOffset:0,0,$clockoffset -setMemoryClockOffset:0,0,$memoffset
 			$global:status = 1
 			if($global:result -eq $true){
@@ -238,6 +246,15 @@ function gpulimit{
 			+ [math]::ceiling($global:currpwr) + "/" + [math]::ceiling(($global:totalpwr`
 			* $powerforcethrottl / 100)))
 		}
+		else{
+			if($global:switchindicator -gt 0){
+				$global:switchindicator--
+			}
+			else{						
+				$global:delaychange = $delaycpu
+				$global:delaychange2 = $delaygpu
+			}
+		}
 		$global:gpuswitch = 1
 		$global:policyflip = 1	# flip here for switchdelay
 	}
@@ -249,9 +266,14 @@ function gpulimit{
 function gpudefault{
 	if($global:cputhrottle -eq 0){
 		if($global:policyflip -eq 0){
-			if($global:switchdelay2 -ge $delaychange2 -Or $global:delta -le $limit -Or`
+			if($global:switchdelay2 -ge $global:delaychange2 -Or $global:delta -le $limit -Or`
 			($global:switchbound -eq 1 -And $global:switchdelay2 -ge 0)){
 				if($global:gpuswitch -eq 1){
+					# prevent from switching too fast
+					$global:switchindicator = $throttlechange
+					$global:delaychange = $delaycpu + $throttlechange
+					$global:delaychange2 = $delaygpu + $throttlechange
+					
 					nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
 					$global:status = 0
 					if($global:result -eq $true){
@@ -267,6 +289,15 @@ function gpudefault{
 					+ [math]::ceiling($global:delta3d) + ", gpu delta = " + [math]::ceiling(`
 					$global:delta) + ", cpu power = " + [math]::ceiling($global:currpwr) + "/"`
 					+ [math]::ceiling(($global:totalpwr * $powerforcethrottl / 100)))
+				}
+				else{
+					if($global:switchindicator -gt 0){
+						$global:switchindicator--
+					}
+					else{						
+						$global:delaychange = $delaycpu
+						$global:delaychange2 = $delaygpu
+					}
 				}
 				$global:gpuswitch = 0
 			}
@@ -352,6 +383,9 @@ while($true){
 		if($global:delta3d -lt $item){
 			$global:delta3d = $item
 		}
+	}
+	if($global:gpuswitch -eq 0){
+		$global:delta3d *= 2	# prevent gpu usage from fluctuating
 	}
 	$global:delta3d = ($global:prev_delta3d + $global:delta3d * ($sharpness_load - 1)) / $sharpness_load
 	$global:prev_delta3d = $global:delta3d
@@ -440,7 +474,6 @@ while($true){
 		}
 		else{
 			if($global:load -ge $loadforcegpulimit){
-				$global:switchbound = 1		# need this here to switch quickly on high cpuload
 				if($global:deltafinal -le $deltabias){
 					# high cpuload but cpu and gpu load diff is small
 					$global:msgswitch = 0
