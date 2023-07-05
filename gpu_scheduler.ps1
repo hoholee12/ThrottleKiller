@@ -19,11 +19,17 @@ $sharpness_load = 5		# sharpness for moving average of cpu/gpu load calc. if 10,
 $delaycpu = 1			# delay from sudden gpulimit (only under deltabias)
 $delaygpu = 0			# delay from sudden gpudefault (only under deltabias)
 $throttlechange = 5		# delay from sudden throttle clear (will also be used for reducing frequent switches)
-$isdebug = $true		# dont print debug stuff
+$isdebug = $false		# dont print debug stuff
 
-# gpu config
+# for gpulimit
 $clockoffset = -950
 $memoffset = -1000
+
+# for gpudefault
+$loadedclockoffset = -50
+$loadedmemoffset = -1000
+
+# for gpu off (all 0)
 
 # better cpu scheduler tuning
 # powersettings(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\PowerSettings)
@@ -274,15 +280,17 @@ function gpudefault{
 					$global:delaychange = $delaycpu + $throttlechange
 					$global:delaychange2 = $delaygpu + $throttlechange
 					
-					nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
 					$global:status = 0
 					if($global:result -eq $true){
+						nvidiaInspector -setBaseClockOffset:0,0,$loadedclockoffset -setMemoryClockOffset:0,0,$loadedmemoffset
 						msg($global:process_str + ": gpudefault enabled. " + $global:reason)
 					}
 					elseif($global:delta -le $limit){
+						nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
 						msg("gpudefault enabled. (gpu is off)")
 					}
 					else{
+						nvidiaInspector -setBaseClockOffset:0,0,$loadedclockoffset -setMemoryClockOffset:0,0,$loadedmemoffset
 						msg("gpudefault enabled. " + $global:reason)
 					}
 					msg("cpu usage = " + [math]::ceiling($global:load) + ", gpu usage = "`
