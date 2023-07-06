@@ -26,8 +26,8 @@ $clockoffset = -950
 $memoffset = -1000
 
 # for gpudefault(off)
-$defclockoffset = -150
-$defmemoffset = -1000
+$defclockoffset = 0
+$defmemoffset = 0
 
 # better cpu scheduler tuning
 # powersettings(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\PowerSettings)
