@@ -25,11 +25,9 @@ $isdebug = $false		# dont print debug stuff
 $clockoffset = -950
 $memoffset = -1000
 
-# for gpudefault
-$loadedclockoffset = -50
-$loadedmemoffset = -1000
-
-# for gpu off (all 0)
+# for gpudefault(off)
+$defclockoffset = -150
+$defmemoffset = -1000
 
 # better cpu scheduler tuning
 # powersettings(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\PowerSettings)
@@ -280,17 +278,15 @@ function gpudefault{
 					$global:delaychange = $delaycpu + $throttlechange
 					$global:delaychange2 = $delaygpu + $throttlechange
 					
+					nvidiaInspector -setBaseClockOffset:0,0,$defclockoffset -setMemoryClockOffset:0,0,$defmemoffset
 					$global:status = 0
 					if($global:result -eq $true){
-						nvidiaInspector -setBaseClockOffset:0,0,$loadedclockoffset -setMemoryClockOffset:0,0,$loadedmemoffset
 						msg($global:process_str + ": gpudefault enabled. " + $global:reason)
 					}
 					elseif($global:delta -le $limit){
-						nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
 						msg("gpudefault enabled. (gpu is off)")
 					}
 					else{
-						nvidiaInspector -setBaseClockOffset:0,0,$loadedclockoffset -setMemoryClockOffset:0,0,$loadedmemoffset
 						msg("gpudefault enabled. " + $global:reason)
 					}
 					msg("cpu usage = " + [math]::ceiling($global:load) + ", gpu usage = "`
@@ -336,7 +332,7 @@ function cpulimit{
 }
 
 # first time
-nvidiaInspector -setBaseClockOffset:0,0,0 -setMemoryClockOffset:0,0,0
+nvidiaInspector -setBaseClockOffset:0,0,$defclockoffset -setMemoryClockOffset:0,0,$defmemoffset
 
 while($true){
 	$sw = [Diagnostics.Stopwatch]::StartNew()
