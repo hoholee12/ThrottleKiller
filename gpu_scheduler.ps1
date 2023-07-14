@@ -59,8 +59,8 @@ foreach($temp in $processor_power_management_guids.Keys){
 }
 # for intel gpu
 powercfg /attributes $guid4 $guid5 -ATTRIB_HIDE
-powercfg /setdcvalueindex $guid0 $guid4 $guid5 2
-powercfg /setacvalueindex $guid0 $guid4 $guid5 2
+powercfg /setdcvalueindex $guid0 $guid4 $guid5 1
+powercfg /setacvalueindex $guid0 $guid4 $guid5 1
 powercfg /setactive $guid0
 
 # internal stuff
