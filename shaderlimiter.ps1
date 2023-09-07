@@ -8,8 +8,8 @@
 # - this results in vulkan programs crashing if its too big(over 300MB<)
 # - this script attempts to limit growth of shader cache files in the background
 
-$limit = 471859200		# around 450MB
-$sleeptime = 5
+$limit = 440401920		# around 420MB
+$sleeptime = 10
 
 
 # check custom location for settings
@@ -37,9 +37,12 @@ function msg([string]$setting_string){
 }
 msg("script started. starting location: " + $loc + " the shader file size limit is: " + $limit)	# log script location
 
+$repeatflag = 0
+$backupswitch = 0
+
 while($true){
 	$sw = [Diagnostics.Stopwatch]::StartNew()
-	
+	(get-childitem "$env:userprofile\AppData\LocalLow\Intel\ShaderCache\").refresh() # update directory meta
 	$files = get-childitem "$env:userprofile\AppData\LocalLow\Intel\ShaderCache\" | sort-object length -descending
 	for($i = 0; $i -lt $files.count; $i++){
 		$filename = $files[$i].fullname
@@ -48,18 +51,29 @@ while($true){
 		$filesize = $files[$i].length
 		if($filesize -le $limit){
 			try{
-				[IO.File]::OpenWrite($filename).close()
 				# backup file if its bigger
-				if((test-path "$env:userprofile\AppData\LocalLow\Intel\$name") -eq $false){
-					copy-item -path $filename -destination "$env:userprofile\AppData\LocalLow\Intel" -force -erroraction continue
-					msg("filename: " + $name + " filesize: " + $filesize + " backed up successfully")
+				if((test-path "$env:userprofile\AppData\LocalLow\Intel\$name.$backupswitch") -eq $false){
+					copy-item -path $filename -destination "$env:userprofile\AppData\LocalLow\Intel\$name.$backupswitch" -force -erroraction continue
+					if($backupswitch -eq 0){
+						$backupswitch = 1
+					}
+					else{
+						$backupswitch = 0
+					}
+					msg("filename: " + "$name.$backupswitch" + " filesize: " + $filesize + " backed up successfully")
 				}
 				else{
-					$backup = get-item "$env:userprofile\AppData\LocalLow\Intel\$name"
+					$backup = get-item "$env:userprofile\AppData\LocalLow\Intel\$name.$backupswitch"
 					if($backup.length -lt $filesize){
 						try{
-							copy-item -path $filename -destination "$env:userprofile\AppData\LocalLow\Intel" -force -erroraction continue
-							msg("filename: " + $name + " filesize: " + $filesize + " backed up successfully")
+							copy-item -path $filename -destination "$env:userprofile\AppData\LocalLow\Intel\$name.$backupswitch" -force -erroraction continue
+							if($backupswitch -eq 0){
+								$backupswitch = 1
+							}
+							else{
+								$backupswitch = 0
+							}
+							msg("filename: " + "$name.$backupswitch" + " filesize: " + $filesize + " backed up successfully")
 						}
 						catch{
 						}
@@ -71,19 +85,45 @@ while($true){
 		}
 		else{
 			try{
-				[IO.File]::OpenWrite($filename).close()
-				# restore file if its bigger
-				$deletethis = $false
-				if((test-path "$env:userprofile\AppData\LocalLow\Intel\$name") -eq $false){
-					remove-item $filename
-					msg("filename: " + $name + " filesize: " + $backup.length + " too big, deleted")
+				$backup0 = 0
+				$backup1 = 0
+				$myfail = 0
+				if((test-path "$env:userprofile\AppData\LocalLow\Intel\$name.0") -eq $true){
+					$backup0 = get-item "$env:userprofile\AppData\LocalLow\Intel\$name.0"
 				}
 				else{
-					$backup = get-item "$env:userprofile\AppData\LocalLow\Intel\$name"
+					msg("filename: " + "$name.0" + " doesnt exist")
+					$myfail++
+				}
+				
+				if((test-path "$env:userprofile\AppData\LocalLow\Intel\$name.1") -eq $true){
+					$backup1 = get-item "$env:userprofile\AppData\LocalLow\Intel\$name.1"
+				}
+				else{
+					msg("filename: " + "$name.1" + " doesnt exist")
+					$myfail++
+				}
+				
+				if($myfail -eq 2){
+					msg("filename: " + $name + " no previous backups exist. delete file manually to start limiting")
+				}
+				else{
+					
+					[IO.File]::OpenWrite($filename).close()
+					# restore file if its bigger
+
+					if($backup0.length -gt $backup1.length){
+						$backupswitch = 0
+					}
+					else{
+						$backupswitch = 1
+					}
+					$backup = get-item "$env:userprofile\AppData\LocalLow\Intel\$name.$backupswitch"
 					if($backup.length -lt $filesize){
 						try{
-							copy-item -path $backup.fullname -destination $origdir -force -erroraction continue
-							msg("filename: " + $name + " filesize: " + $backup.length + " restored successfully")
+							copy-item -path $backup.fullname -destination "$origdir\$name" -force -erroraction continue
+							msg("filename: " + "$name.$backupswitch" + " filesize: " + $backup.length + " restored successfully")
+							$repeatflag = 0
 						}
 						catch{
 						}
@@ -91,6 +131,10 @@ while($true){
 				}
 			}
 			catch{
+				if($repeatflag -eq 0){
+					msg("filename: " + $name + " is waiting to be restored")
+					$repeatflag = 1
+				}
 			}
 		}
 	}
