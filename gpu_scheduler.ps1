@@ -61,6 +61,15 @@ foreach($temp in $processor_power_management_guids.Keys){
 powercfg /attributes $guid4 $guid5 -ATTRIB_HIDE
 powercfg /setdcvalueindex $guid0 $guid4 $guid5 1
 powercfg /setacvalueindex $guid0 $guid4 $guid5 1
+
+# for proper sleep
+$guida = '501a4d13-42af-4429-9fd1-a8218c268e20'		# PCI Express
+$guidb = 'ee12f906-d277-404b-b6da-e5fa1a576df5'		# Link State Power Management
+powercfg /attributes $guida $guidb -ATTRIB_HIDE
+powercfg /setdcvalueindex $guid0 $guida $guidb 1	# moderate
+powercfg /setacvalueindex $guid0 $guida $guidb 1	# moderate
+
+# set powerplan active
 powercfg /setactive $guid0
 
 # internal stuff
