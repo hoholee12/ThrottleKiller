@@ -49,31 +49,36 @@ while($true){
 		$origdir = $files[$i].directory.fullname
 		$name = $files[$i].name
 		$filesize = $files[$i].length
+		
+		# backup file if its bigger
 		if($filesize -le $limit){
 			try{
-				# backup file if its bigger
-				if((test-path "$env:userprofile\AppData\LocalLow\Intel\$name.$backupswitch") -eq $false){
-					copy-item -path $filename -destination "$env:userprofile\AppData\LocalLow\Intel\$name.$backupswitch" -force -erroraction continue
-					if($backupswitch -eq 0){
-						$backupswitch = 1
-					}
-					else{
-						$backupswitch = 0
-					}
-					msg("filename: " + "$name.$backupswitch" + " filesize: " + $filesize + " backed up successfully")
+				# some or no file exists(try to backup two files)
+				if((test-path "$env:userprofile\AppData\LocalLow\Intel\$name.0") -eq $false`
+				-Or (test-path "$env:userprofile\AppData\LocalLow\Intel\$name.1") -eq $false){
+					copy-item -path $filename -destination "$env:userprofile\AppData\LocalLow\Intel\$name.0" -force -erroraction continue
+					copy-item -path $filename -destination "$env:userprofile\AppData\LocalLow\Intel\$name.1" -force -erroraction continue
+					msg("filename: " + $name + " filesize: " + $filesize + " backed up successfully")
 				}
+				# all files exist(try to backup every odd file)
 				else{
-					$backup = get-item "$env:userprofile\AppData\LocalLow\Intel\$name.$backupswitch"
-					if($backup.length -lt $filesize){
+					$baklength0 = (get-item "$env:userprofile\AppData\LocalLow\Intel\$name.0").length
+					$baklength1 = (get-item "$env:userprofile\AppData\LocalLow\Intel\$name.1").length
+					$baklength = $baklength0
+					if($baklength0 -lt $baklength1){
+						$baklength = $baklength1
+					}
+					# backup file if prev backup is smol
+					if($baklength -lt $filesize){
 						try{
-							copy-item -path $filename -destination "$env:userprofile\AppData\LocalLow\Intel\$name.$backupswitch" -force -erroraction continue
-							if($backupswitch -eq 0){
-								$backupswitch = 1
+							# back up one file each time
+							if($baklength0 -lt $baklength1){
+								copy-item -path $filename -destination "$env:userprofile\AppData\LocalLow\Intel\$name.0" -force -erroraction continue
 							}
 							else{
-								$backupswitch = 0
+								copy-item -path $filename -destination "$env:userprofile\AppData\LocalLow\Intel\$name.1" -force -erroraction continue
 							}
-							msg("filename: " + "$name.$backupswitch" + " filesize: " + $filesize + " backed up successfully")
+							msg("filename: " + $name + " filesize: " + $filesize + " backed up successfully")
 						}
 						catch{
 						}
@@ -85,11 +90,11 @@ while($true){
 		}
 		else{
 			try{
-				$backup0 = 0
-				$backup1 = 0
+				$baklength0 = 0
+				$baklength1 = 0
 				$myfail = 0
 				if((test-path "$env:userprofile\AppData\LocalLow\Intel\$name.0") -eq $true){
-					$backup0 = get-item "$env:userprofile\AppData\LocalLow\Intel\$name.0"
+					$baklength0 = (get-item "$env:userprofile\AppData\LocalLow\Intel\$name.0").length
 				}
 				else{
 					msg("filename: " + "$name.0" + " doesnt exist")
@@ -97,7 +102,7 @@ while($true){
 				}
 				
 				if((test-path "$env:userprofile\AppData\LocalLow\Intel\$name.1") -eq $true){
-					$backup1 = get-item "$env:userprofile\AppData\LocalLow\Intel\$name.1"
+					$baklength1 = (get-item "$env:userprofile\AppData\LocalLow\Intel\$name.1").length
 				}
 				else{
 					msg("filename: " + "$name.1" + " doesnt exist")
@@ -112,7 +117,7 @@ while($true){
 					[IO.File]::OpenWrite($filename).close()
 					# restore file if its bigger
 
-					if($backup0.length -gt $backup1.length){
+					if($baklength0 -gt $baklength1){
 						$backupswitch = 0
 					}
 					else{
