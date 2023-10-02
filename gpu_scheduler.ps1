@@ -20,7 +20,8 @@ $delaycpu = 1			# delay from sudden gpulimit (only under deltabias)
 $delaygpu = 0			# delay from sudden gpudefault (only under deltabias)
 $throttlechange = 5		# delay from sudden throttle clear (will also be used for reducing frequent switches)
 $isdebug = $false		# dont print debug stuff
-$cpulim = 50			# powersave feature. set it 100 for max performance. also works as arbitrary gpudelta limit
+$cpulim = 50			# powersave feature. set it 100 for max performance.
+$deltalim = 50			# arbitrary gpudelta limit(in case delta doesnt work)
 
 # for gpulimit
 $clockoffset = -950
@@ -30,6 +31,9 @@ $memoffset = -1000
 $defclockoffset = 0
 $defmemoffset = 0
 
+
+$opport = 100 - [math]::ceiling(100 / (Get-WmiObject Win32_Processor).NumberOfCores)
+
 # better cpu scheduler tuning
 # powersettings(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\PowerSettings)
 $processor_power_management_guids = @{
@@ -37,8 +41,8 @@ $processor_power_management_guids = @{
 "0cc5b647-c1df-4637-891a-dec35c318583" = 100
 "12a0ab44-fe28-4fa9-b3bd-4b64f44960a6" = 15			# processor low threshold; upper this for batterylife
 "40fbefc7-2e9d-4d25-a185-0cfd8574bac6" = 1			# processor low plan(0:normal, 1:step, 2:rocket)
-"45bcc044-d885-43e2-8605-ee0ec6e96b59" = 100
-"465e1f50-b610-473a-ab58-00d1077dc418" = 1			# processor high plan(0:normal, 1:step, 2:rocket)
+"45bcc044-d885-43e2-8605-ee0ec6e96b59" = $opport	# percentage of cores to opportunistically boost above high threshold
+"465e1f50-b610-473a-ab58-00d1077dc418" = 2			# processor high plan(0:normal, 1:step, 2:rocket)
 "4d2b0152-7d5c-498b-88e2-34345392a2c5" = 15
 "94d3a615-a899-4ac5-ae2b-e4d8f634367f" = 1
 "ea062031-0e34-4ff1-9b6d-eb1059334028" = 100
@@ -47,7 +51,7 @@ $guid0 = 'scheme_current'		# powerplan(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\
 													# Control\Power\User\PowerSchemes)
 $guid1 = '54533251-82be-4824-96c1-47b60b740d00'		# processor power management
 $guid2 = 'bc5038f7-23e0-4960-96da-33abaf5935ec'		# processor high clockspeed limit
-$guid3 = '893dee8e-2bef-41e0-89c6-b55d0929964c'		# processor low clockspeed limit
+$guid3 = '893dee8e-2bef-41e0-89c6-b55d0929964c'		# processor high2 clockspeed limit
 
 $guid4 = '44f3beca-a7c0-460e-9df2-bb8b99e0cba6'		# intel graphics power management
 $guid5 = '3619c3f2-afb2-4afc-b0e9-e7fef372de36'		# submenu of intel graphics power management
@@ -481,7 +485,7 @@ while($true){
 		cpulimit(1)
 		gpudefault
 	}
-	elseif($global:delta -le $limit -And $global:delta3d -le $cpulim){	# some gpus dont print copy usage
+	elseif($global:delta -le $limit -And $global:delta3d -le $deltalim){	# some gpus dont print copy usage
 		$global:msgswitch = 0
 		# if gpu idle, gpudefault
 		$global:policyflip = 0
