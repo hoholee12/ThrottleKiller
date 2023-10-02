@@ -36,9 +36,9 @@ $processor_power_management_guids = @{
 "06cadf0e-64ed-448a-8927-ce7bf90eb35d" = 30			# processor high threshold; lower this for performance
 "0cc5b647-c1df-4637-891a-dec35c318583" = 100
 "12a0ab44-fe28-4fa9-b3bd-4b64f44960a6" = 15			# processor low threshold; upper this for batterylife
-"40fbefc7-2e9d-4d25-a185-0cfd8574bac6" = 0			# processor low plan(0:normal, 1:step, 2:rocket)
+"40fbefc7-2e9d-4d25-a185-0cfd8574bac6" = 1			# processor low plan(0:normal, 1:step, 2:rocket)
 "45bcc044-d885-43e2-8605-ee0ec6e96b59" = 100
-"465e1f50-b610-473a-ab58-00d1077dc418" = 0			# processor high plan(0:normal, 1:step, 2:rocket)
+"465e1f50-b610-473a-ab58-00d1077dc418" = 1			# processor high plan(0:normal, 1:step, 2:rocket)
 "4d2b0152-7d5c-498b-88e2-34345392a2c5" = 15
 "94d3a615-a899-4ac5-ae2b-e4d8f634367f" = 1
 "ea062031-0e34-4ff1-9b6d-eb1059334028" = 100
@@ -451,11 +451,11 @@ while($true){
 			msg("throttling cleared.")
 		}
 		$global:cputhrottle = 0
-		if($global:delta -le $limit){
-			cpulimit(1)
+		if($global:cpulimitval -ne 0){
+			cpulimit(0)
 		}
 		else{
-			cpulimit(0)
+			cpulimit(1)
 		}
 	}
 	$global:switchdelay3++
