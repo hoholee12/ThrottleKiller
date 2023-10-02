@@ -20,6 +20,7 @@ $delaycpu = 1			# delay from sudden gpulimit (only under deltabias)
 $delaygpu = 0			# delay from sudden gpudefault (only under deltabias)
 $throttlechange = 5		# delay from sudden throttle clear (will also be used for reducing frequent switches)
 $isdebug = $false		# dont print debug stuff
+$cpulim = 50			# powersave feature. set it 100 for max performance. also works as arbitrary gpudelta limit
 
 # for gpulimit
 $clockoffset = -950
@@ -35,16 +36,14 @@ $processor_power_management_guids = @{
 "06cadf0e-64ed-448a-8927-ce7bf90eb35d" = 30			# processor high threshold; lower this for performance
 "0cc5b647-c1df-4637-891a-dec35c318583" = 100
 "12a0ab44-fe28-4fa9-b3bd-4b64f44960a6" = 15			# processor low threshold; upper this for batterylife
-"40fbefc7-2e9d-4d25-a185-0cfd8574bac6" = 1
+"40fbefc7-2e9d-4d25-a185-0cfd8574bac6" = 0			# processor low plan(0:normal, 1:step, 2:rocket)
 "45bcc044-d885-43e2-8605-ee0ec6e96b59" = 100
-"465e1f50-b610-473a-ab58-00d1077dc418" = 2
+"465e1f50-b610-473a-ab58-00d1077dc418" = 0			# processor high plan(0:normal, 1:step, 2:rocket)
 "4d2b0152-7d5c-498b-88e2-34345392a2c5" = 15
-"893dee8e-2bef-41e0-89c6-b55d0929964c" = 5			# processor low clockspeed limit
 "94d3a615-a899-4ac5-ae2b-e4d8f634367f" = 1
-"bc5038f7-23e0-4960-96da-33abaf5935ec" = 100		# processor high clockspeed limit
 "ea062031-0e34-4ff1-9b6d-eb1059334028" = 100
 }
-$guid0 = '381b4222-f694-41f0-9685-ff5bb260df2e'		# powerplan(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\
+$guid0 = 'scheme_current'		# powerplan(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\
 													# Control\Power\User\PowerSchemes)
 $guid1 = '54533251-82be-4824-96c1-47b60b740d00'		# processor power management
 $guid2 = 'bc5038f7-23e0-4960-96da-33abaf5935ec'		# processor high clockspeed limit
@@ -66,8 +65,13 @@ powercfg /setacvalueindex $guid0 $guid4 $guid5 1
 $guida = '501a4d13-42af-4429-9fd1-a8218c268e20'		# PCI Express
 $guidb = 'ee12f906-d277-404b-b6da-e5fa1a576df5'		# Link State Power Management
 powercfg /attributes $guida $guidb -ATTRIB_HIDE
-powercfg /setdcvalueindex $guid0 $guida $guidb 1	# moderate
-powercfg /setacvalueindex $guid0 $guida $guidb 1	# moderate
+powercfg /setdcvalueindex $guid0 $guida $guidb 1	# med
+powercfg /setacvalueindex $guid0 $guida $guidb 1	# med
+$guida = 'F15576E8-98B7-4186-B944-EAFA664402D9'		# network on standby
+powercfg /attributes 'sub_none' $guida -ATTRIB_HIDE
+powercfg /setdcvalueindex $guid0 'sub_none' $guida 0	# off
+powercfg /setacvalueindex $guid0 'sub_none' $guida 0	# off
+
 
 # set powerplan active
 powercfg /setactive $guid0
@@ -245,7 +249,7 @@ function gpulimit{
 			$global:switchindicator = $throttlechange
 			$global:delaychange = $delaycpu + $throttlechange
 			$global:delaychange2 = $delaygpu + $throttlechange
-					
+			
 			nvidiaInspector -setBaseClockOffset:0,0,$clockoffset -setMemoryClockOffset:0,0,$memoffset
 			$global:status = 1
 			if($global:result -eq $true){
@@ -329,18 +333,26 @@ function gpudefault{
 	$global:switchbound = 0
 }
 
-function cpulimit{
-	if($global:cputhrottle -ne 2){
+function cpulimit($idleness){
+	$prevlim = $global:cpulimitval
+	if($idleness -eq 1){
+		$global:cpulimitval = $cpulim
+	}
+	elseif($global:cputhrottle -ne 2){
 		$global:cpulimitval = 100
 	}
 	else{
 		$global:cpulimitval = 99
 	}
-	powercfg /setdcvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
-	powercfg /setacvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
+	if($prevlim -ne $global:cpulimitval){
+		msg("cpulimit adjusted to "+$global:cpulimitval)
+		powercfg /setdcvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
+		powercfg /setacvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
+	}
 }
 
 # first time
+cpulimit(1)
 nvidiaInspector -setBaseClockOffset:0,0,$defclockoffset -setMemoryClockOffset:0,0,$defmemoffset
 
 while($true){
@@ -383,17 +395,26 @@ while($true){
 	# check gpu copy usage to ident if game is running
 	# gpu copy usage stays dead zero if not used.
 	$global:delta = 0
-	foreach($item in (Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage"`
-	-ErrorAction SilentlyContinue).CounterSamples.CookedValue){
-		if($global:delta -lt $item){
+	$counterSamples = Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage"`
+	-ErrorAction SilentlyContinue
+	foreach ($item in $counterSamples.CounterSamples.CookedValue) {
+		if ($global:delta -lt $item) {
 			$global:delta = $item
 		}
 	}
+	#foreach($item in (Get-Counter "\GPU Engine(*engtype_Copy)\Utilization Percentage"`
+	#-ErrorAction SilentlyContinue).CounterSamples.CookedValue){
+	#	if($global:delta -lt $item){
+	#		$global:delta = $item
+	#	}
+	#}
+	
 	# gpu load(for the running gpu)
 	$global:delta3d = $global:delta
-	foreach($item in (Get-Counter "\GPU Engine(*)\Utilization Percentage"`
-	-ErrorAction SilentlyContinue).CounterSamples.CookedValue){
-		if($global:delta3d -lt $item){
+	$counterSamples = Get-Counter "\GPU Engine(*)\Utilization Percentage"`
+	-ErrorAction SilentlyContinue
+	foreach ($item in $counterSamples.CounterSamples.CookedValue) {
+		if ($global:delta3d -lt $item) {
 			$global:delta3d = $item
 		}
 	}
@@ -430,7 +451,12 @@ while($true){
 			msg("throttling cleared.")
 		}
 		$global:cputhrottle = 0
-		cpulimit
+		if($global:delta -le $limit){
+			cpulimit(1)
+		}
+		else{
+			cpulimit(0)
+		}
 	}
 	$global:switchdelay3++
 	
@@ -452,16 +478,18 @@ while($true){
 		$global:msgswitch = 1
 		$global:policyflip = 0
 		$global:switchbound = 1
+		cpulimit(1)
 		gpudefault
 	}
-	elseif($global:delta -le $limit){
+	elseif($global:delta -le $limit -And $global:delta3d -le $cpulim){	# some gpus dont print copy usage
 		$global:msgswitch = 0
 		# if gpu idle, gpudefault
 		$global:policyflip = 0
 		$global:switchbound = 1
+		cpulimit(1)
 		gpudefault
 	}
-	elseif($global:delta -gt $limit){
+	else{
 		if($maxpwrtempered -eq 0 -And $global:currpwr -lt ($global:totalpwr`
 		* $powerforcethrottl / 100)){
 			# cpu usage is over limit while cpu power is not max
@@ -473,16 +501,16 @@ while($true){
 				$global:throttle_str = $global:process_str
 				$global:cputhrottle = 1
 				$global:reason = "cpu is throttling!!!"
+				cpulimit(0)
 				gpulimit
-				cpulimit
 			}
 			elseif($global:cputhrottle -eq 1){
 				$global:msgswitch = 0
 				$global:throttle_str = $global:process_str
 				$global:cputhrottle = 2
 				$global:reason = "cpu is still throttling!!! - cpulimit"
+				cpulimit(0)
 				gpulimit
-				cpulimit
 			}
 		}
 		else{
@@ -492,12 +520,14 @@ while($true){
 					$global:msgswitch = 0
 					$global:policyflip = 0
 					$global:reason = "(high cpuload) cpu and gpu load diff is small"
+					cpulimit(0)
 					gpudefault
 				}
 				elseif($global:load -gt $global:delta3d){
 					# cpu oriented game
 					$global:msgswitch = 0
 					$global:reason = "(high cpuload) cpu oriented game"
+					cpulimit(0)
 					gpulimit
 				}
 			}
@@ -506,12 +536,14 @@ while($true){
 				$global:msgswitch = 0
 				$global:policyflip = 0
 				$global:reason = "cpu and gpu load diff is small"
+				cpulimit(0)
 				gpudefault
 			}
 			elseif($global:load -gt $global:delta3d){
 				# cpu and gpu load diff is large and cpu load is greater
 				$global:msgswitch = 0
 				$global:reason = "cpu load is greater"
+				cpulimit(0)
 				gpulimit
 			}
 			else{
@@ -519,6 +551,7 @@ while($true){
 				$global:msgswitch = 0
 				$global:policyflip = 0
 				$global:reason = "probably gpu oriented game"
+				cpulimit(0)
 				gpudefault
 			}
 		}
@@ -533,5 +566,9 @@ while($true){
 		#msg("gpuswitch = " + $global:gpuswitch + ", switchdelay = " + $global:switchdelay`
 		#+ ", switchdelay2 = " + $global:switchdelay2)
 	}
-	start-sleep ($sleeptime - $sw.Elapsed.Seconds)
+	
+	$elapsedtime = ($sleeptime - $sw.Elapsed.Seconds)
+	if($elapsedtime -gt 0){
+		start-sleep $elapsedtime
+	}
 }
