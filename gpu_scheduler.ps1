@@ -31,17 +31,16 @@ $memoffset = -1000
 $defclockoffset = 0
 $defmemoffset = 0
 
-
-$boost = [math]::ceiling(100 / (Get-WmiObject Win32_Processor).NumberOfCores)
+$boost = 100 - [math]::ceiling(100 / (Get-WmiObject Win32_Processor).NumberOfCores)
 
 # better cpu scheduler tuning
 # powersettings(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\PowerSettings)
 $processor_power_management_guids = @{
-"06cadf0e-64ed-448a-8927-ce7bf90eb35d" = 30			# processor high threshold; lower this for performance
+"06cadf0e-64ed-448a-8927-ce7bf90eb35d" = $loadforcegpulimit					# processor high threshold; lower this for performance
 "0cc5b647-c1df-4637-891a-dec35c318583" = 100
-"12a0ab44-fe28-4fa9-b3bd-4b64f44960a6" = 15			# processor low threshold; upper this for batterylife
-"40fbefc7-2e9d-4d25-a185-0cfd8574bac6" = 1			# processor low plan(0:normal, 1:step, 2:rocket)
-"465e1f50-b610-473a-ab58-00d1077dc418" = 2			# processor high plan(0:normal, 1:step, 2:rocket)
+"12a0ab44-fe28-4fa9-b3bd-4b64f44960a6" = $loadforcegpulimit - $deltabias	# processor low threshold; upper this for batterylife
+"40fbefc7-2e9d-4d25-a185-0cfd8574bac6" = 1									# processor low plan(0:normal, 1:step, 2:rocket)
+"465e1f50-b610-473a-ab58-00d1077dc418" = 2									# processor high plan(0:normal, 1:step, 2:rocket)
 "4d2b0152-7d5c-498b-88e2-34345392a2c5" = 15
 "94d3a615-a899-4ac5-ae2b-e4d8f634367f" = 1
 "ea062031-0e34-4ff1-9b6d-eb1059334028" = 100
@@ -102,8 +101,8 @@ $global:currpwr_n = $smoothness_pwr
 $global:currpwr_v = 100 * $global:currpwr_n
 $global:currpwr = $global:currpwr_v / $global:currpwr_n
 $global:cputhrottle = 0
-$global:cpulimitval = 100
-$global:cpuboost = $boost
+$global:cpulimitval = $cpulim
+$global:cpuboost = 0
 $global:throttle_str = ""
 $global:prev_process = ""
 $global:status = 0			# 0 = gpudefault, 1 = gpulimit
@@ -354,13 +353,13 @@ function cpulimit($idleness){
 	}
 	#cpuboost
 	if($idleness -eq 1){
-		$global:cpuboost = $boost
+		$global:cpuboost = 0
 	}
 	elseif($global:cputhrottle -ne 2){
-		$global:cpuboost = 100
+		$global:cpuboost = $boost
 	}
 	else{
-		$global:cpuboost = $boost
+		$global:cpuboost = 0
 	}
 	
 	#apply
