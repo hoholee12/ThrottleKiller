@@ -9,6 +9,7 @@
 # - this script attempts to limit growth of shader cache files in the background
 
 $limit = 440401920		# around 420MB
+$wiggle = 16777216		# around 16MB
 $sleeptime = 10
 
 
@@ -51,7 +52,7 @@ while($true){
 		$filesize = $files[$i].length
 		
 		# backup file if its bigger
-		if($filesize -le $limit){
+		if($filesize -le $limit -And $filesize -gt ($limit - $wiggle)){
 			try{
 				# some or no file exists(try to backup two files)
 				if((test-path "$env:userprofile\AppData\LocalLow\Intel\$name.0") -eq $false`
@@ -97,7 +98,7 @@ while($true){
 					$baklength0 = (get-item "$env:userprofile\AppData\LocalLow\Intel\$name.0").length
 				}
 				else{
-					msg("filename: " + "$name.0" + " doesnt exist")
+					#msg("filename: " + "$name.0" + " doesnt exist")
 					$myfail++
 				}
 				
@@ -105,12 +106,12 @@ while($true){
 					$baklength1 = (get-item "$env:userprofile\AppData\LocalLow\Intel\$name.1").length
 				}
 				else{
-					msg("filename: " + "$name.1" + " doesnt exist")
+					#msg("filename: " + "$name.1" + " doesnt exist")
 					$myfail++
 				}
 				
 				if($myfail -eq 2){
-					msg("filename: " + $name + " no previous backups exist. delete file manually to start limiting")
+					#msg("filename: " + $name + " no previous backups exist. delete file manually to start limiting")
 				}
 				else{
 					
