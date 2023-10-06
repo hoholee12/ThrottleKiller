@@ -21,7 +21,7 @@ $delaygpu = 0			# delay from sudden gpudefault (only under deltabias)
 $throttlechange = 5		# delay from sudden throttle clear (will also be used for reducing frequent switches)
 $isdebug = $false		# dont print debug stuff
 $cpulim = 100			# powersave feature. set it 100 for max performance.
-$deltalim = 10			# arbitrary gpudelta limit(in case delta doesnt work)
+$deltalim = 50			# arbitrary gpudelta limit(in case delta doesnt work)
 
 # for gpulimit
 $clockoffset = -950
