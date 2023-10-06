@@ -450,16 +450,23 @@ while($true){
 	
 	# gpu load(for the running gpu)
 	$global:delta3d = $global:delta
-	$counterSamples = Get-Counter "\GPU Engine(*)\Utilization Percentage"`
+	$counterSamples = Get-Counter "\GPU Engine(*engtype_3D)\Utilization Percentage"`
 	-ErrorAction SilentlyContinue
 	foreach ($item in $counterSamples.CounterSamples.CookedValue) {
 		if ($global:delta3d -lt $item) {
 			$global:delta3d = $item
 		}
 	}
-	if($global:gpuswitch -eq 0){
-		$global:delta3d *= 2	# prevent gpu usage from fluctuating
+	$counterSamples = Get-Counter "\GPU Engine(*engtype_Graphic*)\Utilization Percentage"`
+	-ErrorAction SilentlyContinue
+	foreach ($item in $counterSamples.CounterSamples.CookedValue) {
+		if ($global:delta3d -lt $item) {
+			$global:delta3d = $item
+		}
 	}
+	#if($global:gpuswitch -eq 0){
+	#	$global:delta3d *= 2	# prevent gpu usage from fluctuating
+	#}
 	$global:delta3d = ($global:prev_delta3d + $global:delta3d * ($sharpness_load - 1)) / $sharpness_load
 	$global:prev_delta3d = $global:delta3d
 	
