@@ -20,7 +20,7 @@ $delaycpu = 1			# delay from sudden gpulimit (only under deltabias)
 $delaygpu = 0			# delay from sudden gpudefault (only under deltabias)
 $throttlechange = 5		# delay from sudden throttle clear (will also be used for reducing frequent switches)
 $isdebug = $false		# dont print debug stuff
-$cpulim = 100			# powersave feature. set it 100 for max performance.
+$cpulim = 99			# arbitrary cpudelta limit(in case delta doesnt work)
 $deltalim = 50			# arbitrary gpudelta limit(in case delta doesnt work)
 
 # for gpulimit
@@ -100,7 +100,7 @@ $global:currpwr_n = $smoothness_pwr
 $global:currpwr_v = 100 * $global:currpwr_n
 $global:currpwr = $global:currpwr_v / $global:currpwr_n
 $global:cputhrottle = 0
-$global:cpulimitval = $cpulim
+$global:cpulimitval = 100
 $global:cpuboost = 0
 $global:cpuminpark = 0
 $global:throttle_str = ""
@@ -339,15 +339,12 @@ function gpudefault{
 
 $global:firsttime = $true
 function cpulimit($idleness){
-	$prevlim = $global:cpulimitval
+	$prevlimit = $global:cpulimitval
 	$prevboost = $global:cpuboost
 	$prevminpark = $global:cpuminpark
 	
-	#cpulim
-	if($idleness -eq 1){
-		$global:cpulimitval = $cpulim
-	}
-	elseif($global:cputhrottle -ne 2){
+	#cpulimit
+	if($global:cputhrottle -ne 2){
 		$global:cpulimitval = 100
 	}
 	else{
@@ -372,7 +369,7 @@ function cpulimit($idleness){
 	}
 	
 	#apply
-	if($global:firsttime -eq $true -Or $prevlim -ne $global:cpulimitval -Or $prevboost -ne $global:cpuboost`
+	if($global:firsttime -eq $true -Or $prevlimit -ne $global:cpulimitval -Or $prevboost -ne $global:cpuboost`
 	-Or $prevminpark -ne $global:cpuminpark){
 		powercfg /setdcvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
 		powercfg /setacvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
@@ -528,7 +525,7 @@ while($true){
 		gpudefault
 	}
 	elseif($global:delta -le $limit -And $global:delta3d -lt $deltalim`
-	-And $global:load -lt $loadforcegpulimit){	# some gpus dont print copy usage
+	-And $global:load -lt $cpulim){	# some gpus dont print copy usage
 		$global:msgswitch = 0
 		# if gpu idle, gpudefault
 		$global:policyflip = 0
