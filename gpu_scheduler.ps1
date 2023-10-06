@@ -38,8 +38,6 @@ $boost = 100 - $minpark
 # powersettings(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\PowerSettings)
 $processor_power_management_guids = @{
 "06cadf0e-64ed-448a-8927-ce7bf90eb35d" = $loadforcegpulimit					# processor high threshold; lower this for performance
-"0cc5b647-c1df-4637-891a-dec35c318583" = $minpark							# processor noparking minimum
-"ea062031-0e34-4ff1-9b6d-eb1059334028" = 100								# processor noparking maximum
 "12a0ab44-fe28-4fa9-b3bd-4b64f44960a6" = $loadforcegpulimit - $deltabias	# processor low threshold; upper this for batterylife
 "40fbefc7-2e9d-4d25-a185-0cfd8574bac6" = 1									# processor low plan(0:normal, 1:step, 2:rocket)
 "465e1f50-b610-473a-ab58-00d1077dc418" = 2									# processor high plan(0:normal, 1:step, 2:rocket)
@@ -51,7 +49,8 @@ $guid1 = '54533251-82be-4824-96c1-47b60b740d00'		# processor power management
 $guid2 = 'bc5038f7-23e0-4960-96da-33abaf5935ec'		# processor high clockspeed limit
 $guid3 = '893dee8e-2bef-41e0-89c6-b55d0929964c'		# processor high2 clockspeed limit
 $guidx = '45bcc044-d885-43e2-8605-ee0ec6e96b59'		# percentage of cores to opportunistically boost above high threshold
-
+$guidy = '0cc5b647-c1df-4637-891a-dec35c318583'		# processor noparking minimum
+$guidz = 'ea062031-0e34-4ff1-9b6d-eb1059334028'		# processor noparking maximum
 $guid4 = '44f3beca-a7c0-460e-9df2-bb8b99e0cba6'		# intel graphics power management
 $guid5 = '3619c3f2-afb2-4afc-b0e9-e7fef372de36'		# submenu of intel graphics power management
 foreach($temp in $processor_power_management_guids.Keys){
@@ -103,6 +102,7 @@ $global:currpwr = $global:currpwr_v / $global:currpwr_n
 $global:cputhrottle = 0
 $global:cpulimitval = $cpulim
 $global:cpuboost = 0
+$global:cpuminpark = 0
 $global:throttle_str = ""
 $global:prev_process = ""
 $global:status = 0			# 0 = gpudefault, 1 = gpulimit
@@ -337,9 +337,11 @@ function gpudefault{
 	$global:switchbound = 0
 }
 
+$global:firsttime = $true
 function cpulimit($idleness){
 	$prevlim = $global:cpulimitval
 	$prevboost = $global:cpuboost
+	$prevminpark = $global:cpuminpark
 	
 	#cpulim
 	if($idleness -eq 1){
@@ -361,23 +363,35 @@ function cpulimit($idleness){
 	else{
 		$global:cpuboost = 0
 	}
+	#cpuminpark
+	if($idleness -eq 1){
+		$global:cpuminpark = 0
+	}
+	else{
+		$global:cpuminpark = 100 - $minpark
+	}
 	
 	#apply
-	if($prevlim -ne $global:cpulimitval -Or $prevboost -ne $global:cpuboost){
+	if($global:firsttime -eq $true -Or $prevlim -ne $global:cpulimitval -Or $prevboost -ne $global:cpuboost`
+	-Or $prevminpark -ne $global:cpuminpark){
 		powercfg /setdcvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
 		powercfg /setacvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
 		powercfg /setdcvalueindex $guid0 $guid1 $guidx $global:cpuboost
 		powercfg /setacvalueindex $guid0 $guid1 $guidx $global:cpuboost
-		msg("cpulimit adjusted to "+$global:cpulimitval+", boost to "+$global:cpuboost)
+		powercfg /setdcvalueindex $guid0 $guid1 $guidy $global:cpuminpark
+		powercfg /setacvalueindex $guid0 $guid1 $guidy $global:cpuminpark
+		powercfg /setdcvalueindex $guid0 $guid1 $guidz ($global:cpuminpark + $minpark)
+		powercfg /setacvalueindex $guid0 $guid1 $guidz ($global:cpuminpark + $minpark)
+		# set powerplan active
+		powercfg /setactive $guid0
+		msg("cpulimit adjusted to "+$global:cpulimitval+", boost to "+$global:cpuboost+`
+		", minpark "+($global:cpuminpark + $minpark))
+		$global:firsttime = $false
 	}
 }
 
 # first time
-powercfg /setdcvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
-powercfg /setacvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
-powercfg /setdcvalueindex $guid0 $guid1 $guidx $global:cpuboost
-powercfg /setacvalueindex $guid0 $guid1 $guidx $global:cpuboost
-msg("cpulimit adjusted to "+$global:cpulimitval+", boost to "+$global:cpuboost)
+cpulimit(1)
 nvidiaInspector -setBaseClockOffset:0,0,$defclockoffset -setMemoryClockOffset:0,0,$defmemoffset
 
 while($true){
@@ -506,7 +520,8 @@ while($true){
 		cpulimit(1)
 		gpudefault
 	}
-	elseif($global:delta -le $limit -And $global:delta3d -le $deltalim){	# some gpus dont print copy usage
+	elseif($global:delta -le $limit -And $global:delta3d -le $deltalim`
+	-And $global:load -le $deltalim){	# some gpus dont print copy usage
 		$global:msgswitch = 0
 		# if gpu idle, gpudefault
 		$global:policyflip = 0
