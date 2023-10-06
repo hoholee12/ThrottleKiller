@@ -31,19 +31,19 @@ $memoffset = -1000
 $defclockoffset = 0
 $defmemoffset = 0
 
-$boost = 100 - [math]::ceiling(100 / (Get-WmiObject Win32_Processor).NumberOfCores)
+$minpark = [math]::ceiling(100 / (Get-WmiObject Win32_Processor).NumberOfCores)
+$boost = 100 - $minpark
 
 # better cpu scheduler tuning
 # powersettings(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\PowerSettings)
 $processor_power_management_guids = @{
 "06cadf0e-64ed-448a-8927-ce7bf90eb35d" = $loadforcegpulimit					# processor high threshold; lower this for performance
-"0cc5b647-c1df-4637-891a-dec35c318583" = 100
+"0cc5b647-c1df-4637-891a-dec35c318583" = $minpark							# processor noparking minimum
+"ea062031-0e34-4ff1-9b6d-eb1059334028" = 100								# processor noparking maximum
 "12a0ab44-fe28-4fa9-b3bd-4b64f44960a6" = $loadforcegpulimit - $deltabias	# processor low threshold; upper this for batterylife
 "40fbefc7-2e9d-4d25-a185-0cfd8574bac6" = 1									# processor low plan(0:normal, 1:step, 2:rocket)
 "465e1f50-b610-473a-ab58-00d1077dc418" = 2									# processor high plan(0:normal, 1:step, 2:rocket)
-"4d2b0152-7d5c-498b-88e2-34345392a2c5" = 15
-"94d3a615-a899-4ac5-ae2b-e4d8f634367f" = 1
-"ea062031-0e34-4ff1-9b6d-eb1059334028" = 100
+"4d2b0152-7d5c-498b-88e2-34345392a2c5" = 15									# scheduler timing in milliseconds
 }
 $guid0 = 'scheme_current'		# powerplan(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\
 													# Control\Power\User\PowerSchemes)
