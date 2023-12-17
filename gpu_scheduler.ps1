@@ -377,14 +377,14 @@ function cpulimit($idleness){
 	$prevminpark = $global:cpuminpark
 	
 	#cpulimit
-	if($global:cputhrottle -ne 2){
+	if($global:cputhrottle -ne 2 -Or $global:result -eq $true){
 		$global:cpulimitval = 100
 	}
 	else{
 		$global:cpulimitval = 99
 	}
 	#cpuminpark
-	if($idleness -eq 1){
+	if($idleness -eq 1 -And $global:result -ne $true){
 		$global:cpuminpark = 0
 	}
 	else{
