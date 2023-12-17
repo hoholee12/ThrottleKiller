@@ -22,6 +22,7 @@ $throttlechange = 5		# delay from sudden throttle clear (will also be used for r
 $isdebug = $false		# dont print debug stuff
 $cpulim = 99			# arbitrary cpudelta limit(in case delta doesnt work)
 $deltalim = 50			# arbitrary gpudelta limit(in case delta doesnt work)
+$notnvidia = 1			# dont run nvidiainspector(i dont use nvidia gpu)
 
 # for gpulimit
 $clockoffset = -950
@@ -266,6 +267,17 @@ function msg([string]$setting_string){
 }
 msg("script started. starting location: " + $loc)	# log script location
 
+function gpuset($mode){
+	if($notnvidia -ne 1){
+		if($mode -eq 1){
+			nvidiaInspector -setBaseClockOffset:0,0,$clockoffset -setMemoryClockOffset:0,0,$memoffset
+		}
+		else{
+			nvidiaInspector -setBaseClockOffset:0,0,$defclockoffset -setMemoryClockOffset:0,0,$defmemoffset
+		}
+	}
+}
+
 # main logic
 function gpulimit{
 	if($global:switchdelay -ge $global:delaychange -Or ($global:switchbound -eq 1 -And`
@@ -276,7 +288,7 @@ function gpulimit{
 			$global:delaychange = $delaycpu + $throttlechange
 			$global:delaychange2 = $delaygpu + $throttlechange
 			
-			nvidiaInspector -setBaseClockOffset:0,0,$clockoffset -setMemoryClockOffset:0,0,$memoffset
+			gpuset(1)
 			$global:status = 1
 			if($global:result -eq $true){
 				msg($global:process_str + ": gpulimit enabled. " + $global:reason)
@@ -317,7 +329,7 @@ function gpudefault{
 					$global:delaychange = $delaycpu + $throttlechange
 					$global:delaychange2 = $delaygpu + $throttlechange
 					
-					nvidiaInspector -setBaseClockOffset:0,0,$defclockoffset -setMemoryClockOffset:0,0,$defmemoffset
+					gpuset(0)
 					$global:status = 0
 					if($global:result -eq $true){
 						msg($global:process_str + ": gpudefault enabled. " + $global:reason)
@@ -394,9 +406,10 @@ function cpulimit($idleness){
 	}
 }
 
+
 # first time
 cpulimit(1)
-nvidiaInspector -setBaseClockOffset:0,0,$defclockoffset -setMemoryClockOffset:0,0,$defmemoffset
+gpuset(0)
 
 while($true){
 	$sw = [Diagnostics.Stopwatch]::StartNew()
