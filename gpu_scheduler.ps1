@@ -47,7 +47,7 @@ $processor_power_management_guids = @{
 "2ddd5a84-5a71-437e-912a-db0b8c788732" = -1					# core parking interval
 "36687f9e-e3a5-4dbf-b1dc-15eb381c6863" = -1					# processor energy performance policy
 "3b04d4fd-1cc7-4f23-ab1c-d1337819c4bb" = -1					# allow throttle state
-"447235c7-6a8d-4cc0-8e24-9eaf70b96e2b" = 2					# cpu state on parked(1:highest, 2:lowest)
+"447235c7-6a8d-4cc0-8e24-9eaf70b96e2b" = -1					# cpu state on parked(1:highest, 2:lowest)
 "45bcc044-d885-43e2-8605-ee0ec6e96b59" = -1					# opportunistically increase state
 "4b92d758-5a24-4851-a470-815d78aee119" = -1					# demote from idle threshold
 "4bdaf4e9-d103-46d7-a5f0-6280121616ef" = -1					# core parking distribution threshold
@@ -64,13 +64,16 @@ $processor_power_management_guids = @{
 "8baa4a8a-14c6-4451-8e8b-14bdbd197537" = -1					# autonomously set state or not
 "943c8cb6-6f93-4227-ad87-e9a3feec08d1" = -1					# upper threshold until parked core is considered overutilized
 "94D3A615-A899-4AC5-AE2B-E4D8F634367F" = -1					# cooling policy
+"97cfac41-2217-47eb-992d-618b1977c907" = -1					# softpark latency
+"984cf492-3bed-4488-a8f9-4286c97bf5aa" = -1
+"9943e905-9a30-4ec1-9b99-44dd3b76f7a2" = -1					# deepest idle state that should be used(0~20)
 }
 $guid0 = 'scheme_current'		# powerplan(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\
 													# Control\Power\User\PowerSchemes)
 $guid1 = '54533251-82be-4824-96c1-47b60b740d00'		# processor power management
 $guid2 = 'bc5038f7-23e0-4960-96da-33abaf5935ec'		# processor high clockspeed limit
-#$guidy = '0cc5b647-c1df-4637-891a-dec35c318583'		# processor noparking minimum
-#$guidz = 'ea062031-0e34-4ff1-9b6d-eb1059334028'		# processor noparking maximum
+$guidy = '0cc5b647-c1df-4637-891a-dec35c318583'		# processor noparking minimum
+$guidz = 'ea062031-0e34-4ff1-9b6d-eb1059334028'		# processor noparking maximum
 $guid4 = '44f3beca-a7c0-460e-9df2-bb8b99e0cba6'		# intel graphics power management
 $guid5 = '3619c3f2-afb2-4afc-b0e9-e7fef372de36'		# submenu of intel graphics power management
 foreach($temp in $processor_power_management_guids.Keys){
@@ -80,13 +83,13 @@ foreach($temp in $processor_power_management_guids.Keys){
 	if($processor_power_management_guids[$temp] -ne -1){
 		$dcsetting = $processor_power_management_guids[$temp]
 	}
-	powercfg /setacvalueindex $guid0 $guid1 $temp $dcsetting	
+	powercfg /setacvalueindex $guid0 $guid1 $temp $dcsetting
 	powercfg /setdcvalueindex $guid0 $guid1 $temp $dcsetting
 }
 # for intel gpu
-powercfg /attributes $guid4 $guid5 -ATTRIB_HIDE
-powercfg /setdcvalueindex $guid0 $guid4 $guid5 1
-powercfg /setacvalueindex $guid0 $guid4 $guid5 1
+#powercfg /attributes $guid4 $guid5 -ATTRIB_HIDE
+#powercfg /setdcvalueindex $guid0 $guid4 $guid5 1
+#powercfg /setacvalueindex $guid0 $guid4 $guid5 1
 
 # for proper sleep
 $guida = 'F15576E8-98B7-4186-B944-EAFA664402D9'		# network on standby
@@ -380,10 +383,10 @@ function cpulimit($idleness){
 	if($global:firsttime -eq $true -Or $prevlimit -ne $global:cpulimitval -Or $prevminpark -ne $global:cpuminpark){
 		powercfg /setdcvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
 		powercfg /setacvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
-		#powercfg /setdcvalueindex $guid0 $guid1 $guidy $global:cpuminpark
-		#powercfg /setacvalueindex $guid0 $guid1 $guidy $global:cpuminpark
-		#powercfg /setdcvalueindex $guid0 $guid1 $guidz ($global:cpuminpark + $minpark)
-		#powercfg /setacvalueindex $guid0 $guid1 $guidz ($global:cpuminpark + $minpark)
+		powercfg /setdcvalueindex $guid0 $guid1 $guidy $global:cpuminpark
+		powercfg /setacvalueindex $guid0 $guid1 $guidy $global:cpuminpark
+		powercfg /setdcvalueindex $guid0 $guid1 $guidz ($global:cpuminpark + $minpark)
+		powercfg /setacvalueindex $guid0 $guid1 $guidz ($global:cpuminpark + $minpark)
 		# set powerplan active
 		powercfg /setactive $guid0
 		msg("cpulimit adjusted to "+$global:cpulimitval+", minpark "+($global:cpuminpark + $minpark))
