@@ -15,13 +15,11 @@ $deltabias = 20			# gpulimit, if |CPU - GPU| < 20
 $loadforcegpulimit = 80	# if cpuload >= 80, force gpulimit (lower priority than deltabias)
 $powerforcethrottl = 60 # if total power < 60, force gpulimit
 $smoothness_pwr = 5		# smoothness for moving average of cpu power. if 10, 9(old) + 1(new) / 10 = avg.
-$sharpness_load = 5		# sharpness for moving average of cpu/gpu load calc. if 10, 1(old) + 9(new) / 10 = avg.
+$sharpness_load = 3		# sharpness for moving average of cpu/gpu load calc. if 10, 1(old) + 9(new) / 10 = avg.
 $delaycpu = 1			# delay from sudden gpulimit (only under deltabias)
 $delaygpu = 0			# delay from sudden gpudefault (only under deltabias)
 $throttlechange = 5		# delay from sudden throttle clear (will also be used for reducing frequent switches)
 $isdebug = $false		# dont print debug stuff
-$cpulim = 99			# arbitrary cpudelta limit(in case delta doesnt work)
-$deltalim = 50			# arbitrary gpudelta limit(in case delta doesnt work)
 $notnvidia = 1			# dont run nvidiainspector(i dont use nvidia gpu)
 
 # for gpulimit
@@ -33,6 +31,8 @@ $defclockoffset = 0
 $defmemoffset = 0
 
 $minpark = [math]::ceiling(100 / (Get-WmiObject Win32_Processor).NumberOfCores)
+$cpulim = $minpark * ((Get-WmiObject Win32_Processor).NumberOfCores - 1)	# arbitrary cpudelta limit(in case delta doesnt work)
+$deltalim = $minpark	# arbitrary gpudelta limit(in case delta doesnt work)
 
 # better cpu scheduler tuning
 # powersettings(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\PowerSettings)
@@ -266,6 +266,7 @@ function msg([string]$setting_string){
 	$setting_string >> ($loc + "gpu_scheduler_config\gpu_scheduler.log")
 }
 msg("script started. starting location: " + $loc)	# log script location
+msg("cpulim: " + $cpulim + " deltalim: " + $deltalim)
 
 function gpuset($mode){
 	if($notnvidia -ne 1){
