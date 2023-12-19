@@ -14,8 +14,8 @@ $sleeptime = 5			# wait 5 seconds before another run
 $deltabias = 20			# gpulimit, if |CPU - GPU| < 20
 $loadforcegpulimit = 80	# if cpuload >= 80, force gpulimit (lower priority than deltabias)
 $powerforcethrottl = 60 # if total power < 60, force gpulimit
-$smoothness_pwr = 5		# smoothness for moving average of cpu power. if 10, 9(old) + 1(new) / 10 = avg.
-$sharpness_load = 3		# sharpness for moving average of cpu/gpu load calc. if 10, 1(old) + 9(new) / 10 = avg.
+$smoothness_pwr = 5		# smoothness for moving average of cpu power. if 5, 4(old) + 1(new) / 5 = avg.
+$sharpness_load = -3	# sharpness for moving average of cpu/gpu load calc. if 3, 1(old) + 2(new) / 3 = avg. if -3, 2(old) + 1(new) / 3 = avg.
 $delaycpu = 1			# delay from sudden gpulimit (only under deltabias)
 $delaygpu = 0			# delay from sudden gpudefault (only under deltabias)
 $throttlechange = 5		# delay from sudden throttle clear (will also be used for reducing frequent switches)
@@ -31,8 +31,8 @@ $defclockoffset = 0
 $defmemoffset = 0
 
 $minpark = [math]::ceiling(100 / (Get-WmiObject Win32_Processor).NumberOfCores)
-$cpulim = $minpark * ((Get-WmiObject Win32_Processor).NumberOfCores - 1)	# arbitrary cpudelta limit(in case delta doesnt work)
-$deltalim = $minpark	# arbitrary gpudelta limit(in case delta doesnt work)
+$upperlim = $minpark * ((Get-WmiObject Win32_Processor).NumberOfCores - 1)	# arbitrary upper delta limit
+$deltalim = $minpark * ((Get-WmiObject Win32_Processor).NumberOfCores) / 2	# arbitrary under delta limit
 
 # better cpu scheduler tuning
 # powersettings(HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\PowerSettings)
@@ -266,7 +266,7 @@ function msg([string]$setting_string){
 	$setting_string >> ($loc + "gpu_scheduler_config\gpu_scheduler.log")
 }
 msg("script started. starting location: " + $loc)	# log script location
-msg("cpulim: " + $cpulim + " deltalim: " + $deltalim)
+msg("upperlim: " + $upperlim + " deltalim: " + $deltalim)
 
 function gpuset($mode){
 	if($notnvidia -ne 1){
@@ -446,7 +446,16 @@ while($true){
 	if($global:load -gt 100){
 		$global:load = 100
 	}
-	$global:load = ($global:prev_load + $global:load * ($sharpness_load - 1)) / $sharpness_load
+	if($sharpness_load -ge 2){
+		$global:load = ($global:prev_load + $global:load * ($sharpness_load - 1)) / $sharpness_load
+	}
+	elseif($sharpness_load -le -2){
+		#less than -1
+		$global:load = ($global:prev_load * (($sharpness_load * -1) - 1) + $global:load) / ($sharpness_load * -1)
+	}
+	else{
+		$global:load = ($global:prev_load + $global:load) / 2
+	}
 	$global:prev_load = $global:load
 	
 	# check gpu copy usage to ident if game is running
@@ -485,7 +494,16 @@ while($true){
 	#if($global:gpuswitch -eq 0){
 	#	$global:delta3d *= 2	# prevent gpu usage from fluctuating
 	#}
-	$global:delta3d = ($global:prev_delta3d + $global:delta3d * ($sharpness_load - 1)) / $sharpness_load
+	if($sharpness_load -ge 2){
+		$global:delta3d = ($global:prev_delta3d + $global:delta3d * ($sharpness_load - 1)) / $sharpness_load
+	}
+	elseif($sharpness_load -le -2){
+		#less than -1
+		$global:delta3d = ($global:prev_delta3d * (($sharpness_load * -1) - 1) + $global:delta3d) / ($sharpness_load * -1)
+	}
+	else{
+		$global:delta3d = ($global:prev_delta3d + $global:delta3d) / 2
+	}
 	$global:prev_delta3d = $global:delta3d
 	
 	# estimate total power for throttle check
@@ -545,8 +563,10 @@ while($true){
 		cpulimit(1)
 		gpudefault
 	}
-	elseif($global:delta -le $limit -And $global:delta3d -lt $deltalim`
-	-And $global:load -lt $cpulim){	# some gpus dont print copy usage
+	elseif($global:delta -le $limit -And`
+	(($global:delta3d -lt $upperlim -And $global:load -lt $upperlim -And $global:cpuminpark -eq 0) -Or`
+	($global:delta3d -lt $deltalim -And $global:load -lt $deltalim -And $global:cpuminpark -ne 0))){
+		# cpuminpark = 0 means cpu idle
 		$global:msgswitch = 0
 		# if gpu idle, gpudefault
 		$global:policyflip = 0
