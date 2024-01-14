@@ -234,7 +234,7 @@ function does_procname_exist{
 		$fg = [Foreground]::GetForegroundWindow()
 		$ret = get-process | ? { $_.mainwindowhandle -eq $fg }
 		$global:process_str = $ret.processname.ToLower()
-		if($error -Or ($global:process_str.Length -gt 20)){
+		if($error -Or ($global:process_str.Length -gt 20) -Or ($global:process_str -eq "explorer")){
 			$global:process_str = ""
 			$global:result = $false
 			return $false
@@ -668,8 +668,12 @@ while($true){
 	# attempt to figure out if app hogs the cpu in its entirety.
 	# if timer cycle is delayed way too far, toss it into the blacklist, so that it starts with full cores next time.
 	if($sw.Elapsed.Seconds -gt $timerlimit -And $global:result -eq $false){
-		cpulimit(0)
-		bmsg
-		msg($global:process_str + ": chucked this cpu hog into the blacklist.")
+		#check again
+		$global:result = does_procname_exist
+		if($global:result -eq $false){
+			cpulimit(0)
+			bmsg
+			msg($global:process_str + ": chucked this cpu hog into the blacklist.")
+		}
 	}
 }
