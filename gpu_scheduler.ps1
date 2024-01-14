@@ -11,6 +11,7 @@
 # user config
 $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
+$timerlimit = 5			# timer limit in seconds. if passed, the current running app will be blacklisted.
 $deltabias = 20			# gpulimit, if |CPU - GPU| < 20
 $loadforcegpulimit = 80	# if cpuload >= 80, force gpulimit (lower priority than deltabias)
 $powerforcethrottl = 60 # if total power < 60, force gpulimit
@@ -373,6 +374,11 @@ function gpudefault{
 }
 
 $global:firsttime = $true
+
+#for cpuminpark
+# cpulimit(0) -> limit cores
+# cpulimit(1) -> dont limit cores
+# cpulimit(2) -> keep status quo(for cpu throttle)
 function cpulimit($idleness){
 	$prevlimit = $global:cpulimitval
 	$prevminpark = $global:cpuminpark
@@ -388,7 +394,7 @@ function cpulimit($idleness){
 	if($idleness -eq 1 -And $global:result -ne $true){
 		$global:cpuminpark = 0
 	}
-	else{
+	elseif($idleness -ne 2){
 		$global:cpuminpark = 100 - $minpark
 	}
 	
@@ -407,6 +413,12 @@ function cpulimit($idleness){
 	}
 }
 
+# add to blacklist
+function bmsg{
+	# print by date and time
+	$mystring = "`n" + $global:process_str
+	$mystring | out-file $loc"\gpu_scheduler_config\blacklist_programs.txt" -Encoding ASCII -Append
+}
 
 # first time
 cpulimit(1)
@@ -533,12 +545,7 @@ while($true){
 			msg("throttling cleared.")
 		}
 		$global:cputhrottle = 0
-		if($global:cpulimitval -ne 0){
-			cpulimit(0)
-		}
-		else{
-			cpulimit(1)
-		}
+		cpulimit(2)
 	}
 	$global:switchdelay3++
 	
@@ -560,7 +567,7 @@ while($true){
 		$global:msgswitch = 1
 		$global:policyflip = 0
 		$global:switchbound = 1
-		cpulimit(1)
+		cpulimit(0)		#full cores on blacklisted apps
 		gpudefault
 	}
 	elseif($global:delta -le $limit -And`
@@ -571,10 +578,11 @@ while($true){
 		# if gpu idle, gpudefault
 		$global:policyflip = 0
 		$global:switchbound = 1
-		cpulimit(1)
+		cpulimit(1)		#limit cores on idle
 		gpudefault
 	}
 	else{
+		# game is running
 		if($maxpwrtempered -eq 0 -And $global:currpwr -lt ($global:totalpwr`
 		* $powerforcethrottl / 100)){
 			# cpu usage is over limit while cpu power is not max
@@ -586,7 +594,7 @@ while($true){
 				$global:throttle_str = $global:process_str
 				$global:cputhrottle = 1
 				$global:reason = "cpu is throttling!!!"
-				cpulimit(0)
+				cpulimit(2)
 				gpulimit
 			}
 			elseif($global:cputhrottle -eq 1){
@@ -594,7 +602,7 @@ while($true){
 				$global:throttle_str = $global:process_str
 				$global:cputhrottle = 2
 				$global:reason = "cpu is still throttling!!! - cpulimit"
-				cpulimit(0)
+				cpulimit(2)
 				gpulimit
 			}
 		}
@@ -642,7 +650,6 @@ while($true){
 		}
 	}
 	
-	$sw.Stop()
 	if($isdebug -eq $true){
 		msg("cpu usage = " + [math]::ceiling($global:load) + ", gpu usage = " + [math]::ceiling(`
 		$global:delta3d) + ", gpu delta = " + [math]::ceiling($global:delta) + ", cpu power = "`
@@ -652,8 +659,16 @@ while($true){
 		#+ ", switchdelay2 = " + $global:switchdelay2)
 	}
 	
-	$elapsedtime = ($sleeptime - $sw.Elapsed.Seconds)
-	if($elapsedtime -gt 0){
-		start-sleep $elapsedtime
+	$sw.Stop()
+	$remainingtime = ($sleeptime - $sw.Elapsed.Seconds)
+	if($remainingtime -gt 0){
+		start-sleep $remainingtime
+	}
+	# attempt to figure out if app hogs the cpu in its entirety.
+	# if timer cycle is delayed way too far, toss it into the blacklist, so that it starts with full cores next time.
+	if($sw.Elapsed.Seconds -gt $timerlimit -And $global:result -eq $false){
+		cpulimit(0)
+		bmsg
+		msg($global:process_str + ": chucked this cpu hog into the blacklist.")
 	}
 }
