@@ -167,14 +167,13 @@ function checkFiles([string]$setting_string, [string]$value_string){
 
 function checkFiles_myfiles{
 	checkFiles "blacklist_programs"`
-"moonlight
-powerpnt
+"powerpnt
 winword
 excel
 teamviewer
-tv
-tslgame
-.scr
+pcsx2
+mame
+rpcs3
 "
 }
 
@@ -235,7 +234,7 @@ function does_procname_exist{
 		$fg = [Foreground]::GetForegroundWindow()
 		$ret = get-process | ? { $_.mainwindowhandle -eq $fg }
 		$global:process_str = $ret.processname.ToLower()
-		if($error){
+		if($error -Or ($global:process_str.Length -gt 20)){
 			$global:process_str = ""
 			$global:result = $false
 			return $false
@@ -416,8 +415,10 @@ function cpulimit($idleness){
 # add to blacklist
 function bmsg{
 	# print by date and time
-	$mystring = "`n" + $global:process_str
-	$mystring | out-file $loc"\gpu_scheduler_config\blacklist_programs.txt" -Encoding ASCII -Append
+	if($global:process_str.Length -ne 0){
+		$mystring = "`n" + $global:process_str
+		$mystring | out-file $loc"\gpu_scheduler_config\blacklist_programs.txt" -Encoding ASCII -Append -NoNewline
+	}
 }
 
 # first time
