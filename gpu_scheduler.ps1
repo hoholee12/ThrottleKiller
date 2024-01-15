@@ -670,7 +670,7 @@ while($true){
 	if($sw.Elapsed.Seconds -gt $timerlimit -And $global:result -eq $false){
 		#check again
 		$global:result = does_procname_exist
-		if($global:result -eq $false){
+		if($global:result -eq $false -And $global:process_str -ne ""){
 			cpulimit(0)
 			bmsg
 			msg($global:process_str + ": chucked this cpu hog into the blacklist.")
