@@ -259,6 +259,18 @@ function does_procname_exist{
 	return $false
 }
 
+#ac power detection
+function acPower {
+	$ac = (Get-WmiObject -Class BatteryStatus -Namespace root\wmi -ComputerName "localhost").PowerOnLine
+	$final = $false
+	foreach ($acstat in $ac) {
+		if($acstat -eq "True"){
+			$final = $True
+		}
+	}
+	return $final
+}
+
 # logging stuff
 function msg([string]$setting_string){
 	# print by date and time
@@ -389,6 +401,13 @@ function cpulimit($idleness){
 	else{
 		$global:cpulimitval = 99
 	}
+	
+	#limit power on battery
+	$ac = acPower
+	if($ac -eq $false){
+		$global:cpulimitval = 99
+	}
+	
 	#cpuminpark
 	if($idleness -eq 1 -And $global:result -ne $true){
 		$global:cpuminpark = 0
