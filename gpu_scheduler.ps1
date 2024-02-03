@@ -11,7 +11,7 @@
 # user config
 $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
-$timerlimit = 5			# timer limit in seconds. if passed, the current running app will be blacklisted.
+$timerlimit = 10		# timer limit in seconds. if passed, the current running app will be blacklisted.
 $deltabias = 20			# gpulimit, if |CPU - GPU| < 20
 $loadforcegpulimit = 80	# if cpuload >= 80, force gpulimit (lower priority than deltabias)
 $powerforcethrottl = 60 # if total power < 60, force gpulimit
@@ -234,7 +234,8 @@ function does_procname_exist{
 		$fg = [Foreground]::GetForegroundWindow()
 		$ret = get-process | ? { $_.mainwindowhandle -eq $fg }
 		$global:process_str = $ret.processname.ToLower()
-		if($error -Or ($global:process_str.Length -gt 20) -Or ($global:process_str -eq "explorer")){
+		if($error -Or ($global:process_str.Length -gt 20) -Or ($global:process_str -eq "explorer") -Or`
+		($global:process_str -eq "mmc") -Or ($global:process_str -eq "applicationframehost")){
 			$global:process_str = ""
 			$global:result = $false
 			return $false
@@ -402,28 +403,35 @@ function cpulimit($idleness){
 		$global:cpulimitval = 99
 	}
 	
-	#limit power on battery
-	$ac = acPower
-	if($ac -eq $false){
-		$global:cpulimitval = 99
-	}
-	
 	#cpuminpark
 	if($idleness -eq 1 -And $global:result -ne $true){
-		$global:cpuminpark = 0
+		$global:cpuminpark = $minpark
 	}
 	elseif($idleness -ne 2){
-		$global:cpuminpark = 100 - $minpark
+		$global:cpuminpark = 100
+	}
+	
+	#limit power on battery
+	#TODO: print status of acPower
+	$ac = acPower
+	if($ac -eq $false){
+		if($global:cpuminpark -eq $minpark){	# idle
+			$global:cpuminpark = 0				# lower idle on battery
+		}
 	}
 	
 	#apply
+	$cpumaxpark = $global:cpuminpark + $minpark
+	if($cpumaxpark -gt 100){
+		$cpumaxpark = 100
+	}
 	if($global:firsttime -eq $true -Or $prevlimit -ne $global:cpulimitval -Or $prevminpark -ne $global:cpuminpark){
 		powercfg /setdcvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
 		powercfg /setacvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
 		powercfg /setdcvalueindex $guid0 $guid1 $guidy $global:cpuminpark
 		powercfg /setacvalueindex $guid0 $guid1 $guidy $global:cpuminpark
-		powercfg /setdcvalueindex $guid0 $guid1 $guidz ($global:cpuminpark + $minpark)
-		powercfg /setacvalueindex $guid0 $guid1 $guidz ($global:cpuminpark + $minpark)
+		powercfg /setdcvalueindex $guid0 $guid1 $guidz $cpumaxpark
+		powercfg /setacvalueindex $guid0 $guid1 $guidz $cpumaxpark
 		# set powerplan active
 		powercfg /setactive $guid0
 		msg("cpulimit adjusted to "+$global:cpulimitval+", minpark "+($global:cpuminpark + $minpark))
