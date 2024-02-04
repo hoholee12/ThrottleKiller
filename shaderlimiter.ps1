@@ -8,8 +8,21 @@
 # - this results in vulkan programs crashing if its too big(over 300MB<)
 # - this script attempts to limit growth of shader cache files in the background
 
-$limit = 440401920		# around 420MB
-$wiggle = 16777216		# around 16MB
+
+
+
+# TODO: new plan
+#		if program is unfocused
+#			backup the shader somewhere else, and delete the shader(if you can).
+#		if program is focused
+#			check foreground app name
+#			if the info exists
+#				copy the file back immediately
+#			else
+#				check growing shader file(timestamp?) and save the filename/appname to ini
+
+$limit = 268435456		# 256MB
+$wiggle = 16777216		# 16MB
 $sleeptime = 10
 
 

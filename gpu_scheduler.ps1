@@ -11,7 +11,7 @@
 # user config
 $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
-$timerlimit = 10		# timer limit in seconds. if passed, the current running app will be blacklisted.
+$timerlimit = 15		# timer limit in seconds. if passed, the current running app will be blacklisted.
 $deltabias = 20			# gpulimit, if |CPU - GPU| < 20
 $loadforcegpulimit = 80	# if cpuload >= 80, force gpulimit (lower priority than deltabias)
 $powerforcethrottl = 60 # if total power < 60, force gpulimit
@@ -434,7 +434,7 @@ function cpulimit($idleness){
 		powercfg /setacvalueindex $guid0 $guid1 $guidz $cpumaxpark
 		# set powerplan active
 		powercfg /setactive $guid0
-		msg("cpulimit adjusted to "+$global:cpulimitval+", minpark "+($global:cpuminpark + $minpark))
+		msg("cpulimit adjusted to "+$global:cpulimitval+", minpark "+$cpumaxpark)
 		$global:firsttime = $false
 	}
 }
