@@ -11,7 +11,7 @@
 # user config
 $limit = 0				# GPU copy usage -> game is running if more than 0%
 $sleeptime = 5			# wait 5 seconds before another run
-$timerlimit = 15		# timer limit in seconds. if passed, the current running app will be blacklisted.
+$timerlimit = 15		# timer limit(sec) after sleeptime. if passed, the current running app will be blacklisted.
 $deltabias = 20			# gpulimit, if |CPU - GPU| < 20
 $loadforcegpulimit = 80	# if cpuload >= 80, force gpulimit (lower priority than deltabias)
 $powerforcethrottl = 60 # if total power < 60, force gpulimit
@@ -694,7 +694,7 @@ while($true){
 	}
 	# attempt to figure out if app hogs the cpu in its entirety.
 	# if timer cycle is delayed way too far, toss it into the blacklist, so that it starts with full cores next time.
-	if($sw.Elapsed.Seconds -gt $timerlimit -And $global:result -eq $false){
+	if($sw.Elapsed.Seconds -gt ($sleeptime + $timerlimit) -And $global:result -eq $false){
 		#check again
 		$global:result = does_procname_exist
 		if($global:result -eq $false -And $global:process_str -ne ""){
