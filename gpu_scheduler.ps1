@@ -277,6 +277,7 @@ function msg([string]$setting_string){
 	# print by date and time
 	$setting_string = ((get-date -format "yy-MM-dd hh:mm:ss: ") + $setting_string)
 	$setting_string >> ($loc + "gpu_scheduler_config\gpu_scheduler.log")
+	write-output($setting_string)
 }
 msg("script started. starting location: " + $loc)	# log script location
 msg("upperlim: " + $upperlim + " deltalim: " + $deltalim)
