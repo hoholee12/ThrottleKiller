@@ -76,8 +76,6 @@ $guid1 = '54533251-82be-4824-96c1-47b60b740d00'		# processor power management
 $guid2 = 'bc5038f7-23e0-4960-96da-33abaf5935ec'		# processor high clockspeed limit
 $guidy = '0cc5b647-c1df-4637-891a-dec35c318583'		# processor noparking minimum
 $guidz = 'ea062031-0e34-4ff1-9b6d-eb1059334028'		# processor noparking maximum
-$guid4 = '44f3beca-a7c0-460e-9df2-bb8b99e0cba6'		# intel graphics power management
-$guid5 = '3619c3f2-afb2-4afc-b0e9-e7fef372de36'		# submenu of intel graphics power management
 foreach($temp in $processor_power_management_guids.Keys){
 	powercfg /attributes $guid1 $temp -ATTRIB_HIDE
 	#copy DC setting to AC for maximum battery
@@ -89,15 +87,22 @@ foreach($temp in $processor_power_management_guids.Keys){
 	powercfg /setdcvalueindex $guid0 $guid1 $temp $dcsetting
 }
 # for intel gpu
-#powercfg /attributes $guid4 $guid5 -ATTRIB_HIDE
-#powercfg /setdcvalueindex $guid0 $guid4 $guid5 1
-#powercfg /setacvalueindex $guid0 $guid4 $guid5 1
+$guid4 = '44f3beca-a7c0-460e-9df2-bb8b99e0cba6'		# intel graphics power management
+$guid5 = '3619c3f2-afb2-4afc-b0e9-e7fef372de36'		# submenu of intel graphics power management
+powercfg /attributes $guid4 $guid5 -ATTRIB_HIDE
+powercfg /setdcvalueindex $guid0 $guid4 $guid5 1	# balanced
+powercfg /setacvalueindex $guid0 $guid4 $guid5 1	# balanced
 
 # for proper sleep
 $guida = 'F15576E8-98B7-4186-B944-EAFA664402D9'		# network on standby
 powercfg /attributes 'sub_none' $guida -ATTRIB_HIDE
 powercfg /setdcvalueindex $guid0 'sub_none' $guida 0	# off
 powercfg /setacvalueindex $guid0 'sub_none' $guida 0	# off
+$guidb = '501a4d13-42af-4429-9fd1-a8218c268e20'		# pci power
+$guidc = 'ee12f906-d277-404b-b6da-e5fa1a576df5'
+powercfg /attributes $guidb $guidc -ATTRIB_HIDE
+powercfg /setdcvalueindex $guid0 $guidb $guidc 1	# moderate
+powercfg /setacvalueindex $guid0 $guidb $guidc 1	# moderate
 
 
 # set powerplan active
