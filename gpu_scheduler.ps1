@@ -20,7 +20,7 @@ $sharpness_load = -3	# sharpness for moving average of cpu/gpu load calc. if 3, 
 $delaycpu = 1			# delay from sudden gpulimit (only under deltabias)
 $delaygpu = 0			# delay from sudden gpudefault (only under deltabias)
 $throttlechange = 5		# delay from sudden throttle clear (will also be used for reducing frequent switches)
-$isdebug = $false		# dont print debug stuff
+$isdebug = $False		# dont print debug stuff
 $notnvidia = 1			# dont run nvidiainspector(i dont use nvidia gpu)
 
 # for gpulimit
@@ -242,13 +242,13 @@ function does_procname_exist{
 		if($error -Or ($global:process_str.Length -gt 20) -Or ($global:process_str -eq "explorer") -Or`
 		($global:process_str -eq "mmc") -Or ($global:process_str -eq "applicationframehost")){
 			$global:process_str = ""
-			$global:result = $false
-			return $false
+			$global:result = $False
+			return $False
 		}
 		foreach($key in $blacklist_programs.Keys){
-			if($global:process_str.Contains($key.ToLower())){
-				$global:result = $true
-				return $true
+			if($global:process_str.Trim() -eq $key.ToLower().Trim()){
+				$global:result = $True
+				return $True
 			}
 		}
 		#foreach($key in $blacklist_programs.Keys)		#   $key value remains globally after break
@@ -256,19 +256,19 @@ function does_procname_exist{
 		#	$temp = Get-Process -ErrorAction SilentlyContinue -Name ($key + '*')
 		#	if ($temp -ne $null)
 		#	{
-		#		return $true
+		#		return $True
 		#	}
 		#}
 	}
 	catch{}
-	$global:result = $false
-	return $false
+	$global:result = $False
+	return $False
 }
 
 #ac power detection
 function acPower {
 	$ac = (Get-WmiObject -Class BatteryStatus -Namespace root\wmi -ComputerName "localhost").PowerOnLine
-	$final = $false
+	$final = $False
 	foreach ($acstat in $ac) {
 		if($acstat -eq "True"){
 			$final = $True
@@ -310,7 +310,7 @@ function gpulimit{
 			
 			gpuset(1)
 			$global:status = 1
-			if($global:result -eq $true){
+			if($global:result -eq $True){
 				msg($global:process_str + ": gpulimit enabled. " + $global:reason)
 			}
 			else{
@@ -351,7 +351,7 @@ function gpudefault{
 					
 					gpuset(0)
 					$global:status = 0
-					if($global:result -eq $true){
+					if($global:result -eq $True){
 						msg($global:process_str + ": gpudefault enabled. " + $global:reason)
 					}
 					elseif($global:delta -le $limit){
@@ -380,7 +380,7 @@ function gpudefault{
 			$global:switchdelay = 0
 		}
 		else{
-			if($global:result -eq $true){
+			if($global:result -eq $True){
 				msg($global:process_str + ": gpudefault is bound by policyflip.")
 			}
 			else{
@@ -391,7 +391,7 @@ function gpudefault{
 	$global:switchbound = 0
 }
 
-$global:firsttime = $true
+$global:firsttime = $True
 
 #for cpuminpark
 # cpulimit(0) -> limit cores
@@ -402,7 +402,7 @@ function cpulimit($idleness){
 	$prevminpark = $global:cpuminpark
 	
 	#cpulimit
-	if($global:cputhrottle -ne 2 -Or $global:result -eq $true){
+	if($global:cputhrottle -ne 2 -Or $global:result -eq $True){
 		$global:cpulimitval = 100
 	}
 	else{
@@ -410,7 +410,7 @@ function cpulimit($idleness){
 	}
 	
 	#cpuminpark
-	if($idleness -eq 1 -And $global:result -ne $true){
+	if($idleness -eq 1 -And $global:result -ne $True){
 		$global:cpuminpark = $minpark
 	}
 	elseif($idleness -ne 2){
@@ -420,7 +420,7 @@ function cpulimit($idleness){
 	#limit power on battery
 	#TODO: print status of acPower
 	$ac = acPower
-	if($ac -eq $false){
+	if($ac -eq $False){
 		if($global:cpuminpark -eq $minpark){	# idle
 			$global:cpuminpark = 0				# lower idle on battery
 		}
@@ -431,7 +431,7 @@ function cpulimit($idleness){
 	if($cpumaxpark -gt 100){
 		$cpumaxpark = 100
 	}
-	if($global:firsttime -eq $true -Or $prevlimit -ne $global:cpulimitval -Or $prevminpark -ne $global:cpuminpark){
+	if($global:firsttime -eq $True -Or $prevlimit -ne $global:cpulimitval -Or $prevminpark -ne $global:cpuminpark){
 		powercfg /setdcvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
 		powercfg /setacvalueindex $guid0 $guid1 $guid2 $global:cpulimitval
 		powercfg /setdcvalueindex $guid0 $guid1 $guidy $global:cpuminpark
@@ -441,7 +441,7 @@ function cpulimit($idleness){
 		# set powerplan active
 		powercfg /setactive $guid0
 		msg("cpulimit adjusted to "+$global:cpulimitval+", minpark "+$cpumaxpark)
-		$global:firsttime = $false
+		$global:firsttime = $False
 	}
 }
 
@@ -458,7 +458,7 @@ function bmsg{
 cpulimit(1)
 gpuset(0)
 
-while($true){
+while($True){
 	$sw = [Diagnostics.Stopwatch]::StartNew()
 	checkFiles_myfiles
 	checkSettings "blacklist_programs"
@@ -589,7 +589,7 @@ while($true){
 		$global:deltafinal = $global:delta3d - $global:load
 	}
 	
-	if($global:result -eq $true){
+	if($global:result -eq $True){
 		if($global:msgswitch -eq 0){
 			if($global:process_str.Length -le 20){
 				if($global:prev_process -ne $global:process_str){
@@ -684,7 +684,7 @@ while($true){
 		}
 	}
 	
-	if($isdebug -eq $true){
+	if($isdebug -eq $True){
 		msg("cpu usage = " + [math]::ceiling($global:load) + ", gpu usage = " + [math]::ceiling(`
 		$global:delta3d) + ", gpu delta = " + [math]::ceiling($global:delta) + ", cpu power = "`
 		+ [math]::ceiling($global:currpwr) + "/" + [math]::ceiling(($global:totalpwr`
@@ -700,10 +700,10 @@ while($true){
 	}
 	# attempt to figure out if app hogs the cpu in its entirety.
 	# if timer cycle is delayed way too far, toss it into the blacklist, so that it starts with full cores next time.
-	if($sw.Elapsed.Seconds -gt ($sleeptime + $timerlimit) -And $global:result -eq $false){
+	if($sw.Elapsed.Seconds -gt ($sleeptime + $timerlimit) -And $global:result -eq $False){
 		#check again
 		$global:result = does_procname_exist
-		if($global:result -eq $false -And $global:process_str -ne ""){
+		if($global:result -eq $False -And $global:process_str -ne ""){
 			cpulimit(0)
 			bmsg
 			msg($global:process_str + ": chucked this cpu hog into the blacklist.")
