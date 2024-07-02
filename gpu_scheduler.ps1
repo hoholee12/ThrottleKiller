@@ -10,6 +10,7 @@
 
 # user config
 $limit = 0				# GPU copy usage -> game is running if more than 0%
+$glimit = 20			# GPU load -> game is running if more than 20%
 $sleeptime = 5			# wait 5 seconds before another run
 $timerlimit = 15		# timer limit(sec) after sleeptime. if passed, the current running app will be blacklisted.
 $deltabias = 20			# gpulimit, if |CPU - GPU| < 20
@@ -604,7 +605,7 @@ while($True){
 		cpulimit(0)		#full cores on blacklisted apps
 		gpudefault
 	}
-	elseif($global:delta -le $limit -And`
+	elseif($global:delta -le $limit -And $global:delta3d -lt $glimit -And`
 	(($global:delta3d -lt $upperlim -And $global:load -lt $upperlim -And $global:cpuminpark -eq 0) -Or`
 	($global:delta3d -lt $deltalim -And $global:load -lt $deltalim -And $global:cpuminpark -ne 0))){
 		# cpuminpark = 0 means cpu idle
