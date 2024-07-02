@@ -342,7 +342,8 @@ function gpulimit{
 function gpudefault{
 	if($global:cputhrottle -eq 0){
 		if($global:policyflip -eq 0){
-			if($global:switchdelay2 -ge $global:delaychange2 -Or $global:delta -le $limit -Or`
+			if($global:switchdelay2 -ge $global:delaychange2 -Or`
+			($global:delta -le $limit -And $global:delta3d -le $glimit) -Or`
 			($global:switchbound -eq 1 -And $global:switchdelay2 -ge 0)){
 				if($global:gpuswitch -eq 1){
 					# prevent from switching too fast
@@ -355,7 +356,7 @@ function gpudefault{
 					if($global:result -eq $True){
 						msg($global:process_str + ": gpudefault enabled. " + $global:reason)
 					}
-					elseif($global:delta -le $limit){
+					elseif($global:delta -le $limit -And $global:delta3d -le $glimit){
 						msg("gpudefault enabled. (gpu is off)")
 					}
 					else{
@@ -605,7 +606,7 @@ while($True){
 		cpulimit(0)		#full cores on blacklisted apps
 		gpudefault
 	}
-	elseif($global:delta -le $limit -And $global:delta3d -lt $glimit -And`
+	elseif($global:delta -le $limit -And $global:delta3d -le $glimit -And`
 	(($global:delta3d -lt $upperlim -And $global:load -lt $upperlim -And $global:cpuminpark -eq 0) -Or`
 	($global:delta3d -lt $deltalim -And $global:load -lt $deltalim -And $global:cpuminpark -ne 0))){
 		# cpuminpark = 0 means cpu idle
