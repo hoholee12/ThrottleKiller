@@ -217,7 +217,7 @@ function findFiles($setting_string){
 			$global:found_hash.add($line, 0)
 		}
 		# equivalent to 'eval'
-		set-variable ("global:" + $setting_string) $global:found_hash
+		set-variable -Name $setting_string -Value $global:found_hash -Scope Global
 	}
 }
 
@@ -246,7 +246,7 @@ function does_procname_exist{
 			$global:result = $False
 			return $False
 		}
-		foreach($key in $blacklist_programs.Keys){
+		foreach($key in $global:blacklist_programs.Keys){
 			if($global:process_str.Trim() -eq $key.ToLower().Trim()){
 				$global:result = $True
 				return $True
