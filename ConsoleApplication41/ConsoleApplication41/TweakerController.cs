@@ -174,16 +174,18 @@ namespace ThrottleSchedulerService
             if (!forceApply) if (lastXTU != 1234) return lastXTU;
             forceApply = false;
 
-
-            pshell.StartInfo.Arguments = "-t -id 59";
-            pshell.Start();
-            pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
-            string[] result = pshell.StandardOutput.ReadToEnd().Split(' ');
-            pshell.WaitForExit();
-            string temp = result.Last().Replace("x", "").Trim();
-            lastXTU = float.Parse(temp);
-
-            log.WriteLog("result = " + lastXTU);
+            try
+            {
+                pshell.StartInfo.Arguments = "-t -id 59";
+                pshell.Start();
+                pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
+                string[] result = pshell.StandardOutput.ReadToEnd().Split(' ');
+                pshell.WaitForExit();
+                string temp = result.Last().Replace("x", "").Trim();
+                lastXTU = float.Parse(temp);
+                log.WriteLog("result = " + lastXTU);
+            }
+            catch { }
             return lastXTU;
         }
 
@@ -225,13 +227,16 @@ namespace ThrottleSchedulerService
             lastXTU = (float)value;
 
             log.WriteLog("setting XTU: " + value);
-            pshell.StartInfo.Arguments = "-t -id 59 -v " + value;
-            pshell.Start();
-            pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
-            
-            pshell.WaitForExit();
-            pshell.StandardOutput.ReadToEnd();  //extra delay just in case!
-            
+            try
+            {
+                pshell.StartInfo.Arguments = "-t -id 59 -v " + value;
+                pshell.Start();
+                pshell.PriorityClass = ProcessPriorityClass.Idle;   //make sure it dont disrupt others
+
+                pshell.WaitForExit();
+                pshell.StandardOutput.ReadToEnd();  //extra delay just in case!
+            }
+            catch { }
             
             int gpux = 1;   //balanced
             

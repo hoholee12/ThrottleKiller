@@ -1,0 +1,696 @@
+2024-09-10 오전 1:09:39: settings changed for: special_programs!, reimporting...
+2024-09-10 오전 1:09:39: reading: key = WindowsFormsApplication5, value = 5
+2024-09-10 오전 1:09:39: reading: key = chrome, value = 5
+2024-09-10 오전 1:09:39: reading: key = explorer, value = 5
+2024-09-10 오전 1:09:39: reading: key = KakaoTalk, value = 5
+2024-09-10 오전 1:09:39: reading: key = POWERPNT, value = 5
+2024-09-10 오전 1:09:39: reading: key = ApplicationFrameHost, value = 5
+2024-09-10 오전 1:09:39: reading: key = LockApp, value = 5
+2024-09-10 오전 1:09:39: reading: key = devenv, value = 5
+2024-09-10 오전 1:09:39: reading: key = notepad++, value = 5
+2024-09-10 오전 1:09:39: reading: key = vmware, value = 5
+2024-09-10 오전 1:09:39: reading: key = VEFX Slider, value = 5
+2024-09-10 오전 1:09:39: reading: key = TeamViewer, value = 5
+2024-09-10 오전 1:09:39: reading: key = Idle, value = 5
+2024-09-10 오전 1:09:39: settings changed for: programs_running_cfg_cpu!, reimporting...
+2024-09-10 오전 1:09:39: reading: key = 0, value = 100
+2024-09-10 오전 1:09:39: reading: key = 1, value = 99
+2024-09-10 오전 1:09:39: reading: key = 2, value = 98
+2024-09-10 오전 1:09:39: reading: key = 3, value = 95
+2024-09-10 오전 1:09:39: reading: key = 4, value = 84
+2024-09-10 오전 1:09:39: reading: key = 5, value = 73
+2024-09-10 오전 1:09:39: reading: key = 6, value = 65
+2024-09-10 오전 1:09:39: reading: key = 7, value = 58
+2024-09-10 오전 1:09:39: reading: key = 8, value = 50
+2024-09-10 오전 1:09:39: reading: key = 9, value = 43
+2024-09-10 오전 1:09:39: reading: key = 10, value = 32
+2024-09-10 오전 1:09:39: reading: key = 11, value = 24
+2024-09-10 오전 1:09:39: settings changed for: programs_running_cfg_xtu!, reimporting...
+2024-09-10 오전 1:09:39: reading: key = 11, value = 10.5
+2024-09-10 오전 1:09:39: reading: key = 10, value = 10.5
+2024-09-10 오전 1:09:39: reading: key = 9, value = 9.5
+2024-09-10 오전 1:09:39: reading: key = 8, value = 9
+2024-09-10 오전 1:09:39: reading: key = 7, value = 8.5
+2024-09-10 오전 1:09:39: reading: key = 6, value = 8
+2024-09-10 오전 1:09:39: reading: key = 5, value = 7.5
+2024-09-10 오전 1:09:39: reading: key = 4, value = 7
+2024-09-10 오전 1:09:39: reading: key = 3, value = 6.5
+2024-09-10 오전 1:09:39: reading: key = 2, value = 6
+2024-09-10 오전 1:09:39: reading: key = 1, value = 5.5
+2024-09-10 오전 1:09:39: reading: key = 0, value = 4.5
+2024-09-10 오전 1:09:39: settings changed for: programs_running_cfg_nice!, reimporting...
+2024-09-10 오전 1:09:39: reading: key = 0, value = Normal
+2024-09-10 오전 1:09:39: reading: key = 1, value = Normal
+2024-09-10 오전 1:09:39: reading: key = 2, value = Normal
+2024-09-10 오전 1:09:39: reading: key = 3, value = Normal
+2024-09-10 오전 1:09:39: reading: key = 4, value = Normal
+2024-09-10 오전 1:09:39: reading: key = 5, value = Normal
+2024-09-10 오전 1:09:39: reading: key = 6, value = Normal
+2024-09-10 오전 1:09:39: reading: key = 7, value = Normal
+2024-09-10 오전 1:09:39: importing settings for: loop_delay...
+2024-09-10 오전 1:09:39: reading: key = loop_delay, value = 5
+2024-09-10 오전 1:09:39: importing settings for: boost_cycle_delay...
+2024-09-10 오전 1:09:39: reading: key = boost_cycle_delay, value = 30
+2024-09-10 오전 1:09:39: importing settings for: newlist_cycle_delay...
+2024-09-10 오전 1:09:39: reading: key = newlist_cycle_delay, value = 120
+2024-09-10 오전 1:09:39: importing settings for: processor_guid_tweak...
+2024-09-10 오전 1:09:39: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2024-09-10 오전 1:09:39: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2024-09-10 오전 1:09:39: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2024-09-10 오전 1:09:39: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2024-09-10 오전 1:09:39: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2024-09-10 오전 1:09:39: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2024-09-10 오전 1:09:39: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2024-09-10 오전 1:09:39: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2024-09-10 오전 1:09:39: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2024-09-10 오전 1:09:39: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2024-09-10 오전 1:09:39: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2024-09-10 오전 1:09:39: importing settings for: generatedCLK...
+2024-09-10 오전 1:09:39: reading: key = 100, value = 2701
+2024-09-10 오전 1:09:39: reading: key = 99, value = 2700
+2024-09-10 오전 1:09:39: reading: key = 98, value = 2600
+2024-09-10 오전 1:09:39: reading: key = 95, value = 2300
+2024-09-10 오전 1:09:39: reading: key = 84, value = 2000
+2024-09-10 오전 1:09:39: reading: key = 73, value = 1800
+2024-09-10 오전 1:09:39: reading: key = 65, value = 1600
+2024-09-10 오전 1:09:39: reading: key = 58, value = 1400
+2024-09-10 오전 1:09:39: reading: key = 50, value = 1200
+2024-09-10 오전 1:09:39: reading: key = 43, value = 900
+2024-09-10 오전 1:09:39: reading: key = 32, value = 700
+2024-09-10 오전 1:09:39: reading: key = 24, value = 500
+2024-09-10 오전 1:09:39: importing settings for: generatedXTU...
+2024-09-10 오전 1:09:39: reading: key = 24, value = 10.5
+2024-09-10 오전 1:09:39: reading: key = 32, value = 10.5
+2024-09-10 오전 1:09:39: reading: key = 43, value = 9.5
+2024-09-10 오전 1:09:39: reading: key = 50, value = 9
+2024-09-10 오전 1:09:39: reading: key = 58, value = 8.5
+2024-09-10 오전 1:09:39: reading: key = 65, value = 8
+2024-09-10 오전 1:09:39: reading: key = 73, value = 7.5
+2024-09-10 오전 1:09:39: reading: key = 84, value = 7
+2024-09-10 오전 1:09:39: reading: key = 95, value = 6.5
+2024-09-10 오전 1:09:39: reading: key = 98, value = 6
+2024-09-10 오전 1:09:39: reading: key = 99, value = 5.5
+2024-09-10 오전 1:09:39: reading: key = 100, value = 4.5
+2024-09-10 오전 1:09:39: importing settings for: throttle_median...
+2024-09-10 오전 1:09:39: reading: key = throttle_median, value = 70
+2024-09-10 오전 1:09:39: settings changed for: newlist_median!, reimporting...
+2024-09-10 오전 1:09:39: reading: key = newlist_median, value = 60
+2024-09-10 오전 1:09:39: importing settings for: thermal_median...
+2024-09-10 오전 1:09:39: reading: key = thermal_median, value = 90
+2024-09-10 오전 1:09:39: importing settings for: gpuplan...
+2024-09-10 오전 1:09:39: reading: key = gpuplan, value = 1
+2024-09-10 오전 1:09:39: importing settings for: xtudefault...
+2024-09-10 오전 1:09:39: reading: key = xtudefault, value = 10.5
+2024-09-10 오전 1:09:43: checking XTU cmdlet
+2024-09-10 오전 1:09:46: XTU cmdlet missing, cannot continue.
+2024-09-10 오전 1:09:46: XTU ok
+2024-09-10 오전 1:09:46: setting XTU: 0.5
+2024-09-10 오전 1:10:40: settings changed for: special_programs!, reimporting...
+2024-09-10 오전 1:10:40: reading: key = WindowsFormsApplication5, value = 5
+2024-09-10 오전 1:10:40: reading: key = chrome, value = 5
+2024-09-10 오전 1:10:40: reading: key = explorer, value = 5
+2024-09-10 오전 1:10:40: reading: key = KakaoTalk, value = 5
+2024-09-10 오전 1:10:40: reading: key = POWERPNT, value = 5
+2024-09-10 오전 1:10:40: reading: key = ApplicationFrameHost, value = 5
+2024-09-10 오전 1:10:40: reading: key = LockApp, value = 5
+2024-09-10 오전 1:10:40: reading: key = devenv, value = 5
+2024-09-10 오전 1:10:40: reading: key = notepad++, value = 5
+2024-09-10 오전 1:10:40: reading: key = vmware, value = 5
+2024-09-10 오전 1:10:40: reading: key = VEFX Slider, value = 5
+2024-09-10 오전 1:10:40: reading: key = TeamViewer, value = 5
+2024-09-10 오전 1:10:40: reading: key = Idle, value = 5
+2024-09-10 오전 1:10:40: settings changed for: programs_running_cfg_cpu!, reimporting...
+2024-09-10 오전 1:10:40: reading: key = 0, value = 100
+2024-09-10 오전 1:10:40: reading: key = 1, value = 99
+2024-09-10 오전 1:10:40: reading: key = 2, value = 98
+2024-09-10 오전 1:10:40: reading: key = 3, value = 95
+2024-09-10 오전 1:10:40: reading: key = 4, value = 84
+2024-09-10 오전 1:10:40: reading: key = 5, value = 73
+2024-09-10 오전 1:10:40: reading: key = 6, value = 65
+2024-09-10 오전 1:10:40: reading: key = 7, value = 58
+2024-09-10 오전 1:10:40: reading: key = 8, value = 50
+2024-09-10 오전 1:10:40: reading: key = 9, value = 43
+2024-09-10 오전 1:10:40: reading: key = 10, value = 32
+2024-09-10 오전 1:10:40: reading: key = 11, value = 24
+2024-09-10 오전 1:10:40: settings changed for: programs_running_cfg_xtu!, reimporting...
+2024-09-10 오전 1:10:40: reading: key = 11, value = 10.5
+2024-09-10 오전 1:10:40: reading: key = 10, value = 10.5
+2024-09-10 오전 1:10:40: reading: key = 9, value = 9.5
+2024-09-10 오전 1:10:40: reading: key = 8, value = 9
+2024-09-10 오전 1:10:40: reading: key = 7, value = 8.5
+2024-09-10 오전 1:10:40: reading: key = 6, value = 8
+2024-09-10 오전 1:10:40: reading: key = 5, value = 7.5
+2024-09-10 오전 1:10:40: reading: key = 4, value = 7
+2024-09-10 오전 1:10:40: reading: key = 3, value = 6.5
+2024-09-10 오전 1:10:40: reading: key = 2, value = 6
+2024-09-10 오전 1:10:40: reading: key = 1, value = 5.5
+2024-09-10 오전 1:10:40: reading: key = 0, value = 4.5
+2024-09-10 오전 1:10:40: settings changed for: programs_running_cfg_nice!, reimporting...
+2024-09-10 오전 1:10:40: reading: key = 0, value = Normal
+2024-09-10 오전 1:10:40: reading: key = 1, value = Normal
+2024-09-10 오전 1:10:40: reading: key = 2, value = Normal
+2024-09-10 오전 1:10:40: reading: key = 3, value = Normal
+2024-09-10 오전 1:10:40: reading: key = 4, value = Normal
+2024-09-10 오전 1:10:40: reading: key = 5, value = Normal
+2024-09-10 오전 1:10:40: reading: key = 6, value = Normal
+2024-09-10 오전 1:10:40: reading: key = 7, value = Normal
+2024-09-10 오전 1:10:40: importing settings for: loop_delay...
+2024-09-10 오전 1:10:40: reading: key = loop_delay, value = 5
+2024-09-10 오전 1:10:40: importing settings for: boost_cycle_delay...
+2024-09-10 오전 1:10:40: reading: key = boost_cycle_delay, value = 30
+2024-09-10 오전 1:10:40: importing settings for: newlist_cycle_delay...
+2024-09-10 오전 1:10:40: reading: key = newlist_cycle_delay, value = 120
+2024-09-10 오전 1:10:40: importing settings for: processor_guid_tweak...
+2024-09-10 오전 1:10:40: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2024-09-10 오전 1:10:40: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2024-09-10 오전 1:10:40: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2024-09-10 오전 1:10:40: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2024-09-10 오전 1:10:40: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2024-09-10 오전 1:10:40: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2024-09-10 오전 1:10:40: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2024-09-10 오전 1:10:40: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2024-09-10 오전 1:10:40: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2024-09-10 오전 1:10:40: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2024-09-10 오전 1:10:40: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2024-09-10 오전 1:10:40: importing settings for: generatedCLK...
+2024-09-10 오전 1:10:40: reading: key = 100, value = 2701
+2024-09-10 오전 1:10:40: reading: key = 99, value = 2700
+2024-09-10 오전 1:10:40: reading: key = 98, value = 2600
+2024-09-10 오전 1:10:40: reading: key = 95, value = 2300
+2024-09-10 오전 1:10:40: reading: key = 84, value = 2000
+2024-09-10 오전 1:10:40: reading: key = 73, value = 1800
+2024-09-10 오전 1:10:40: reading: key = 65, value = 1600
+2024-09-10 오전 1:10:40: reading: key = 58, value = 1400
+2024-09-10 오전 1:10:40: reading: key = 50, value = 1200
+2024-09-10 오전 1:10:40: reading: key = 43, value = 900
+2024-09-10 오전 1:10:40: reading: key = 32, value = 700
+2024-09-10 오전 1:10:40: reading: key = 24, value = 500
+2024-09-10 오전 1:10:40: importing settings for: generatedXTU...
+2024-09-10 오전 1:10:40: reading: key = 24, value = 10.5
+2024-09-10 오전 1:10:40: reading: key = 32, value = 10.5
+2024-09-10 오전 1:10:40: reading: key = 43, value = 9.5
+2024-09-10 오전 1:10:40: reading: key = 50, value = 9
+2024-09-10 오전 1:10:40: reading: key = 58, value = 8.5
+2024-09-10 오전 1:10:40: reading: key = 65, value = 8
+2024-09-10 오전 1:10:40: reading: key = 73, value = 7.5
+2024-09-10 오전 1:10:40: reading: key = 84, value = 7
+2024-09-10 오전 1:10:40: reading: key = 95, value = 6.5
+2024-09-10 오전 1:10:40: reading: key = 98, value = 6
+2024-09-10 오전 1:10:40: reading: key = 99, value = 5.5
+2024-09-10 오전 1:10:40: reading: key = 100, value = 4.5
+2024-09-10 오전 1:10:40: importing settings for: throttle_median...
+2024-09-10 오전 1:10:40: reading: key = throttle_median, value = 70
+2024-09-10 오전 1:10:40: settings changed for: newlist_median!, reimporting...
+2024-09-10 오전 1:10:40: reading: key = newlist_median, value = 60
+2024-09-10 오전 1:10:40: importing settings for: thermal_median...
+2024-09-10 오전 1:10:40: reading: key = thermal_median, value = 90
+2024-09-10 오전 1:10:40: importing settings for: gpuplan...
+2024-09-10 오전 1:10:40: reading: key = gpuplan, value = 1
+2024-09-10 오전 1:10:40: importing settings for: xtudefault...
+2024-09-10 오전 1:10:40: reading: key = xtudefault, value = 10.5
+2024-09-10 오전 1:10:41: checking XTU cmdlet
+2024-09-10 오전 1:10:43: XTU cmdlet missing, cannot continue.
+2024-09-10 오전 1:10:43: XTU ok
+2024-09-10 오전 1:10:43: setting XTU: 0.5
+2024-09-10 오전 1:16:09: settings changed for: special_programs!, reimporting...
+2024-09-10 오전 1:16:09: reading: key = WindowsFormsApplication5, value = 5
+2024-09-10 오전 1:16:09: reading: key = chrome, value = 5
+2024-09-10 오전 1:16:09: reading: key = explorer, value = 5
+2024-09-10 오전 1:16:09: reading: key = KakaoTalk, value = 5
+2024-09-10 오전 1:16:09: reading: key = POWERPNT, value = 5
+2024-09-10 오전 1:16:09: reading: key = ApplicationFrameHost, value = 5
+2024-09-10 오전 1:16:09: reading: key = LockApp, value = 5
+2024-09-10 오전 1:16:09: reading: key = devenv, value = 5
+2024-09-10 오전 1:16:09: reading: key = notepad++, value = 5
+2024-09-10 오전 1:16:09: reading: key = vmware, value = 5
+2024-09-10 오전 1:16:09: reading: key = VEFX Slider, value = 5
+2024-09-10 오전 1:16:09: reading: key = TeamViewer, value = 5
+2024-09-10 오전 1:16:09: reading: key = Idle, value = 5
+2024-09-10 오전 1:16:09: settings changed for: programs_running_cfg_cpu!, reimporting...
+2024-09-10 오전 1:16:09: reading: key = 0, value = 100
+2024-09-10 오전 1:16:09: reading: key = 1, value = 99
+2024-09-10 오전 1:16:09: reading: key = 2, value = 98
+2024-09-10 오전 1:16:09: reading: key = 3, value = 95
+2024-09-10 오전 1:16:09: reading: key = 4, value = 84
+2024-09-10 오전 1:16:09: reading: key = 5, value = 73
+2024-09-10 오전 1:16:09: reading: key = 6, value = 65
+2024-09-10 오전 1:16:09: reading: key = 7, value = 58
+2024-09-10 오전 1:16:09: reading: key = 8, value = 50
+2024-09-10 오전 1:16:09: reading: key = 9, value = 43
+2024-09-10 오전 1:16:09: reading: key = 10, value = 32
+2024-09-10 오전 1:16:09: reading: key = 11, value = 24
+2024-09-10 오전 1:16:09: settings changed for: programs_running_cfg_xtu!, reimporting...
+2024-09-10 오전 1:16:09: reading: key = 11, value = 10.5
+2024-09-10 오전 1:16:09: reading: key = 10, value = 10.5
+2024-09-10 오전 1:16:09: reading: key = 9, value = 9.5
+2024-09-10 오전 1:16:09: reading: key = 8, value = 9
+2024-09-10 오전 1:16:09: reading: key = 7, value = 8.5
+2024-09-10 오전 1:16:09: reading: key = 6, value = 8
+2024-09-10 오전 1:16:09: reading: key = 5, value = 7.5
+2024-09-10 오전 1:16:09: reading: key = 4, value = 7
+2024-09-10 오전 1:16:09: reading: key = 3, value = 6.5
+2024-09-10 오전 1:16:09: reading: key = 2, value = 6
+2024-09-10 오전 1:16:09: reading: key = 1, value = 5.5
+2024-09-10 오전 1:16:09: reading: key = 0, value = 4.5
+2024-09-10 오전 1:16:09: settings changed for: programs_running_cfg_nice!, reimporting...
+2024-09-10 오전 1:16:09: reading: key = 0, value = Normal
+2024-09-10 오전 1:16:09: reading: key = 1, value = Normal
+2024-09-10 오전 1:16:09: reading: key = 2, value = Normal
+2024-09-10 오전 1:16:09: reading: key = 3, value = Normal
+2024-09-10 오전 1:16:09: reading: key = 4, value = Normal
+2024-09-10 오전 1:16:09: reading: key = 5, value = Normal
+2024-09-10 오전 1:16:09: reading: key = 6, value = Normal
+2024-09-10 오전 1:16:09: reading: key = 7, value = Normal
+2024-09-10 오전 1:16:09: importing settings for: loop_delay...
+2024-09-10 오전 1:16:09: reading: key = loop_delay, value = 5
+2024-09-10 오전 1:16:09: importing settings for: boost_cycle_delay...
+2024-09-10 오전 1:16:09: reading: key = boost_cycle_delay, value = 30
+2024-09-10 오전 1:16:09: importing settings for: newlist_cycle_delay...
+2024-09-10 오전 1:16:09: reading: key = newlist_cycle_delay, value = 120
+2024-09-10 오전 1:16:10: importing settings for: processor_guid_tweak...
+2024-09-10 오전 1:16:10: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2024-09-10 오전 1:16:10: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2024-09-10 오전 1:16:10: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2024-09-10 오전 1:16:10: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2024-09-10 오전 1:16:10: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2024-09-10 오전 1:16:10: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2024-09-10 오전 1:16:10: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2024-09-10 오전 1:16:10: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2024-09-10 오전 1:16:10: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2024-09-10 오전 1:16:10: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2024-09-10 오전 1:16:10: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2024-09-10 오전 1:16:10: importing settings for: generatedCLK...
+2024-09-10 오전 1:16:10: reading: key = 100, value = 2701
+2024-09-10 오전 1:16:10: reading: key = 99, value = 2700
+2024-09-10 오전 1:16:10: reading: key = 98, value = 2600
+2024-09-10 오전 1:16:10: reading: key = 95, value = 2300
+2024-09-10 오전 1:16:10: reading: key = 84, value = 2000
+2024-09-10 오전 1:16:10: reading: key = 73, value = 1800
+2024-09-10 오전 1:16:10: reading: key = 65, value = 1600
+2024-09-10 오전 1:16:10: reading: key = 58, value = 1400
+2024-09-10 오전 1:16:10: reading: key = 50, value = 1200
+2024-09-10 오전 1:16:10: reading: key = 43, value = 900
+2024-09-10 오전 1:16:10: reading: key = 32, value = 700
+2024-09-10 오전 1:16:10: reading: key = 24, value = 500
+2024-09-10 오전 1:16:10: importing settings for: generatedXTU...
+2024-09-10 오전 1:16:10: reading: key = 24, value = 10.5
+2024-09-10 오전 1:16:10: reading: key = 32, value = 10.5
+2024-09-10 오전 1:16:10: reading: key = 43, value = 9.5
+2024-09-10 오전 1:16:10: reading: key = 50, value = 9
+2024-09-10 오전 1:16:10: reading: key = 58, value = 8.5
+2024-09-10 오전 1:16:10: reading: key = 65, value = 8
+2024-09-10 오전 1:16:10: reading: key = 73, value = 7.5
+2024-09-10 오전 1:16:10: reading: key = 84, value = 7
+2024-09-10 오전 1:16:10: reading: key = 95, value = 6.5
+2024-09-10 오전 1:16:10: reading: key = 98, value = 6
+2024-09-10 오전 1:16:10: reading: key = 99, value = 5.5
+2024-09-10 오전 1:16:10: reading: key = 100, value = 4.5
+2024-09-10 오전 1:16:10: importing settings for: throttle_median...
+2024-09-10 오전 1:16:10: reading: key = throttle_median, value = 70
+2024-09-10 오전 1:16:10: settings changed for: newlist_median!, reimporting...
+2024-09-10 오전 1:16:10: reading: key = newlist_median, value = 60
+2024-09-10 오전 1:16:10: importing settings for: thermal_median...
+2024-09-10 오전 1:16:10: reading: key = thermal_median, value = 90
+2024-09-10 오전 1:16:10: importing settings for: gpuplan...
+2024-09-10 오전 1:16:10: reading: key = gpuplan, value = 1
+2024-09-10 오전 1:16:10: importing settings for: xtudefault...
+2024-09-10 오전 1:16:10: reading: key = xtudefault, value = 10.5
+2024-09-10 오전 1:16:11: checking XTU cmdlet
+2024-09-10 오전 1:16:13: XTU cmdlet missing, cannot continue.
+2024-09-10 오전 1:16:13: XTU ok
+2024-09-10 오전 1:16:13: setting XTU: 0.5
+2024-09-10 오전 1:18:26: settings changed for: special_programs!, reimporting...
+2024-09-10 오전 1:18:26: reading: key = WindowsFormsApplication5, value = 5
+2024-09-10 오전 1:18:26: reading: key = chrome, value = 5
+2024-09-10 오전 1:18:26: reading: key = explorer, value = 5
+2024-09-10 오전 1:18:26: reading: key = KakaoTalk, value = 5
+2024-09-10 오전 1:18:26: reading: key = POWERPNT, value = 5
+2024-09-10 오전 1:18:26: reading: key = ApplicationFrameHost, value = 5
+2024-09-10 오전 1:18:26: reading: key = LockApp, value = 5
+2024-09-10 오전 1:18:26: reading: key = devenv, value = 5
+2024-09-10 오전 1:18:26: reading: key = notepad++, value = 5
+2024-09-10 오전 1:18:26: reading: key = vmware, value = 5
+2024-09-10 오전 1:18:26: reading: key = VEFX Slider, value = 5
+2024-09-10 오전 1:18:26: reading: key = TeamViewer, value = 5
+2024-09-10 오전 1:18:26: reading: key = Idle, value = 5
+2024-09-10 오전 1:18:26: settings changed for: programs_running_cfg_cpu!, reimporting...
+2024-09-10 오전 1:18:26: reading: key = 0, value = 100
+2024-09-10 오전 1:18:26: reading: key = 1, value = 99
+2024-09-10 오전 1:18:26: reading: key = 2, value = 98
+2024-09-10 오전 1:18:26: reading: key = 3, value = 95
+2024-09-10 오전 1:18:26: reading: key = 4, value = 84
+2024-09-10 오전 1:18:26: reading: key = 5, value = 73
+2024-09-10 오전 1:18:26: reading: key = 6, value = 65
+2024-09-10 오전 1:18:26: reading: key = 7, value = 58
+2024-09-10 오전 1:18:26: reading: key = 8, value = 50
+2024-09-10 오전 1:18:26: reading: key = 9, value = 43
+2024-09-10 오전 1:18:26: reading: key = 10, value = 32
+2024-09-10 오전 1:18:26: reading: key = 11, value = 24
+2024-09-10 오전 1:18:26: settings changed for: programs_running_cfg_xtu!, reimporting...
+2024-09-10 오전 1:18:26: reading: key = 11, value = 10.5
+2024-09-10 오전 1:18:26: reading: key = 10, value = 10.5
+2024-09-10 오전 1:18:26: reading: key = 9, value = 9.5
+2024-09-10 오전 1:18:26: reading: key = 8, value = 9
+2024-09-10 오전 1:18:26: reading: key = 7, value = 8.5
+2024-09-10 오전 1:18:26: reading: key = 6, value = 8
+2024-09-10 오전 1:18:26: reading: key = 5, value = 7.5
+2024-09-10 오전 1:18:26: reading: key = 4, value = 7
+2024-09-10 오전 1:18:26: reading: key = 3, value = 6.5
+2024-09-10 오전 1:18:26: reading: key = 2, value = 6
+2024-09-10 오전 1:18:26: reading: key = 1, value = 5.5
+2024-09-10 오전 1:18:26: reading: key = 0, value = 4.5
+2024-09-10 오전 1:18:26: settings changed for: programs_running_cfg_nice!, reimporting...
+2024-09-10 오전 1:18:26: reading: key = 0, value = Normal
+2024-09-10 오전 1:18:26: reading: key = 1, value = Normal
+2024-09-10 오전 1:18:26: reading: key = 2, value = Normal
+2024-09-10 오전 1:18:26: reading: key = 3, value = Normal
+2024-09-10 오전 1:18:26: reading: key = 4, value = Normal
+2024-09-10 오전 1:18:26: reading: key = 5, value = Normal
+2024-09-10 오전 1:18:26: reading: key = 6, value = Normal
+2024-09-10 오전 1:18:26: reading: key = 7, value = Normal
+2024-09-10 오전 1:18:26: importing settings for: loop_delay...
+2024-09-10 오전 1:18:26: reading: key = loop_delay, value = 5
+2024-09-10 오전 1:18:26: importing settings for: boost_cycle_delay...
+2024-09-10 오전 1:18:26: reading: key = boost_cycle_delay, value = 30
+2024-09-10 오전 1:18:26: importing settings for: newlist_cycle_delay...
+2024-09-10 오전 1:18:26: reading: key = newlist_cycle_delay, value = 120
+2024-09-10 오전 1:18:26: importing settings for: processor_guid_tweak...
+2024-09-10 오전 1:18:26: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2024-09-10 오전 1:18:26: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2024-09-10 오전 1:18:26: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2024-09-10 오전 1:18:26: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2024-09-10 오전 1:18:26: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2024-09-10 오전 1:18:26: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2024-09-10 오전 1:18:26: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2024-09-10 오전 1:18:26: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2024-09-10 오전 1:18:26: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2024-09-10 오전 1:18:26: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2024-09-10 오전 1:18:26: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2024-09-10 오전 1:18:26: importing settings for: generatedCLK...
+2024-09-10 오전 1:18:26: reading: key = 100, value = 2701
+2024-09-10 오전 1:18:26: reading: key = 99, value = 2700
+2024-09-10 오전 1:18:26: reading: key = 98, value = 2600
+2024-09-10 오전 1:18:26: reading: key = 95, value = 2300
+2024-09-10 오전 1:18:26: reading: key = 84, value = 2000
+2024-09-10 오전 1:18:26: reading: key = 73, value = 1800
+2024-09-10 오전 1:18:26: reading: key = 65, value = 1600
+2024-09-10 오전 1:18:26: reading: key = 58, value = 1400
+2024-09-10 오전 1:18:26: reading: key = 50, value = 1200
+2024-09-10 오전 1:18:26: reading: key = 43, value = 900
+2024-09-10 오전 1:18:26: reading: key = 32, value = 700
+2024-09-10 오전 1:18:26: reading: key = 24, value = 500
+2024-09-10 오전 1:18:26: importing settings for: generatedXTU...
+2024-09-10 오전 1:18:26: reading: key = 24, value = 10.5
+2024-09-10 오전 1:18:26: reading: key = 32, value = 10.5
+2024-09-10 오전 1:18:26: reading: key = 43, value = 9.5
+2024-09-10 오전 1:18:26: reading: key = 50, value = 9
+2024-09-10 오전 1:18:26: reading: key = 58, value = 8.5
+2024-09-10 오전 1:18:26: reading: key = 65, value = 8
+2024-09-10 오전 1:18:26: reading: key = 73, value = 7.5
+2024-09-10 오전 1:18:26: reading: key = 84, value = 7
+2024-09-10 오전 1:18:26: reading: key = 95, value = 6.5
+2024-09-10 오전 1:18:26: reading: key = 98, value = 6
+2024-09-10 오전 1:18:26: reading: key = 99, value = 5.5
+2024-09-10 오전 1:18:26: reading: key = 100, value = 4.5
+2024-09-10 오전 1:18:26: importing settings for: throttle_median...
+2024-09-10 오전 1:18:26: reading: key = throttle_median, value = 70
+2024-09-10 오전 1:18:26: settings changed for: newlist_median!, reimporting...
+2024-09-10 오전 1:18:26: reading: key = newlist_median, value = 60
+2024-09-10 오전 1:18:26: importing settings for: thermal_median...
+2024-09-10 오전 1:18:26: reading: key = thermal_median, value = 90
+2024-09-10 오전 1:18:26: importing settings for: gpuplan...
+2024-09-10 오전 1:18:26: reading: key = gpuplan, value = 1
+2024-09-10 오전 1:18:26: importing settings for: xtudefault...
+2024-09-10 오전 1:18:26: reading: key = xtudefault, value = 10.5
+2024-09-10 오전 1:18:34: checking XTU cmdlet
+2024-09-10 오전 1:18:56: System.InvalidOperationException: 프로세스(15792)가 끝났으므로 요청을 처리할 수 없습니다.
+   위치: System.Diagnostics.Process.GetProcessHandle(Int32 access, Boolean throwIfExited)
+   위치: System.Diagnostics.Process.set_PriorityClass(ProcessPriorityClass value)
+   위치: ThrottleSchedulerService.TweakerController..ctor(Logger log, TweakerChecker checker, SettingsManager sm) 파일 c:\Users\hoholee12\Documents\GitHub\ThrottleKiller\ConsoleApplication41\ConsoleApplication41\TweakerController.cs:줄 82
+2024-09-10 오전 1:19:00: XTU ok
+2024-09-10 오전 1:19:24: setting XTU: 0.5
+2024-09-10 오전 1:23:02: settings changed for: special_programs!, reimporting...
+2024-09-10 오전 1:23:02: reading: key = WindowsFormsApplication5, value = 5
+2024-09-10 오전 1:23:02: reading: key = chrome, value = 5
+2024-09-10 오전 1:23:02: reading: key = explorer, value = 5
+2024-09-10 오전 1:23:02: reading: key = KakaoTalk, value = 5
+2024-09-10 오전 1:23:02: reading: key = POWERPNT, value = 5
+2024-09-10 오전 1:23:02: reading: key = ApplicationFrameHost, value = 5
+2024-09-10 오전 1:23:02: reading: key = LockApp, value = 5
+2024-09-10 오전 1:23:02: reading: key = devenv, value = 5
+2024-09-10 오전 1:23:02: reading: key = notepad++, value = 5
+2024-09-10 오전 1:23:02: reading: key = vmware, value = 5
+2024-09-10 오전 1:23:02: reading: key = VEFX Slider, value = 5
+2024-09-10 오전 1:23:02: reading: key = TeamViewer, value = 5
+2024-09-10 오전 1:23:02: reading: key = Idle, value = 5
+2024-09-10 오전 1:23:02: settings changed for: programs_running_cfg_cpu!, reimporting...
+2024-09-10 오전 1:23:02: reading: key = 0, value = 100
+2024-09-10 오전 1:23:02: reading: key = 1, value = 99
+2024-09-10 오전 1:23:02: reading: key = 2, value = 98
+2024-09-10 오전 1:23:02: reading: key = 3, value = 95
+2024-09-10 오전 1:23:02: reading: key = 4, value = 84
+2024-09-10 오전 1:23:02: reading: key = 5, value = 73
+2024-09-10 오전 1:23:02: reading: key = 6, value = 65
+2024-09-10 오전 1:23:02: reading: key = 7, value = 58
+2024-09-10 오전 1:23:02: reading: key = 8, value = 50
+2024-09-10 오전 1:23:02: reading: key = 9, value = 43
+2024-09-10 오전 1:23:02: reading: key = 10, value = 32
+2024-09-10 오전 1:23:02: reading: key = 11, value = 24
+2024-09-10 오전 1:23:02: settings changed for: programs_running_cfg_xtu!, reimporting...
+2024-09-10 오전 1:23:02: reading: key = 11, value = 10.5
+2024-09-10 오전 1:23:02: reading: key = 10, value = 10.5
+2024-09-10 오전 1:23:02: reading: key = 9, value = 9.5
+2024-09-10 오전 1:23:02: reading: key = 8, value = 9
+2024-09-10 오전 1:23:02: reading: key = 7, value = 8.5
+2024-09-10 오전 1:23:02: reading: key = 6, value = 8
+2024-09-10 오전 1:23:02: reading: key = 5, value = 7.5
+2024-09-10 오전 1:23:02: reading: key = 4, value = 7
+2024-09-10 오전 1:23:02: reading: key = 3, value = 6.5
+2024-09-10 오전 1:23:02: reading: key = 2, value = 6
+2024-09-10 오전 1:23:02: reading: key = 1, value = 5.5
+2024-09-10 오전 1:23:02: reading: key = 0, value = 4.5
+2024-09-10 오전 1:23:02: settings changed for: programs_running_cfg_nice!, reimporting...
+2024-09-10 오전 1:23:02: reading: key = 0, value = Normal
+2024-09-10 오전 1:23:02: reading: key = 1, value = Normal
+2024-09-10 오전 1:23:02: reading: key = 2, value = Normal
+2024-09-10 오전 1:23:02: reading: key = 3, value = Normal
+2024-09-10 오전 1:23:02: reading: key = 4, value = Normal
+2024-09-10 오전 1:23:02: reading: key = 5, value = Normal
+2024-09-10 오전 1:23:02: reading: key = 6, value = Normal
+2024-09-10 오전 1:23:02: reading: key = 7, value = Normal
+2024-09-10 오전 1:23:02: importing settings for: loop_delay...
+2024-09-10 오전 1:23:02: reading: key = loop_delay, value = 5
+2024-09-10 오전 1:23:02: importing settings for: boost_cycle_delay...
+2024-09-10 오전 1:23:02: reading: key = boost_cycle_delay, value = 30
+2024-09-10 오전 1:23:02: importing settings for: newlist_cycle_delay...
+2024-09-10 오전 1:23:02: reading: key = newlist_cycle_delay, value = 120
+2024-09-10 오전 1:23:02: importing settings for: processor_guid_tweak...
+2024-09-10 오전 1:23:02: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2024-09-10 오전 1:23:02: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2024-09-10 오전 1:23:02: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2024-09-10 오전 1:23:02: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2024-09-10 오전 1:23:02: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2024-09-10 오전 1:23:02: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2024-09-10 오전 1:23:02: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2024-09-10 오전 1:23:02: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2024-09-10 오전 1:23:02: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2024-09-10 오전 1:23:02: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2024-09-10 오전 1:23:02: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2024-09-10 오전 1:23:02: importing settings for: generatedCLK...
+2024-09-10 오전 1:23:02: reading: key = 100, value = 2701
+2024-09-10 오전 1:23:02: reading: key = 99, value = 2700
+2024-09-10 오전 1:23:02: reading: key = 98, value = 2600
+2024-09-10 오전 1:23:02: reading: key = 95, value = 2300
+2024-09-10 오전 1:23:02: reading: key = 84, value = 2000
+2024-09-10 오전 1:23:02: reading: key = 73, value = 1800
+2024-09-10 오전 1:23:02: reading: key = 65, value = 1600
+2024-09-10 오전 1:23:02: reading: key = 58, value = 1400
+2024-09-10 오전 1:23:02: reading: key = 50, value = 1200
+2024-09-10 오전 1:23:02: reading: key = 43, value = 900
+2024-09-10 오전 1:23:02: reading: key = 32, value = 700
+2024-09-10 오전 1:23:02: reading: key = 24, value = 500
+2024-09-10 오전 1:23:02: importing settings for: generatedXTU...
+2024-09-10 오전 1:23:02: reading: key = 24, value = 10.5
+2024-09-10 오전 1:23:02: reading: key = 32, value = 10.5
+2024-09-10 오전 1:23:02: reading: key = 43, value = 9.5
+2024-09-10 오전 1:23:02: reading: key = 50, value = 9
+2024-09-10 오전 1:23:02: reading: key = 58, value = 8.5
+2024-09-10 오전 1:23:02: reading: key = 65, value = 8
+2024-09-10 오전 1:23:02: reading: key = 73, value = 7.5
+2024-09-10 오전 1:23:02: reading: key = 84, value = 7
+2024-09-10 오전 1:23:02: reading: key = 95, value = 6.5
+2024-09-10 오전 1:23:02: reading: key = 98, value = 6
+2024-09-10 오전 1:23:02: reading: key = 99, value = 5.5
+2024-09-10 오전 1:23:02: reading: key = 100, value = 4.5
+2024-09-10 오전 1:23:02: importing settings for: throttle_median...
+2024-09-10 오전 1:23:02: reading: key = throttle_median, value = 70
+2024-09-10 오전 1:23:02: settings changed for: newlist_median!, reimporting...
+2024-09-10 오전 1:23:02: reading: key = newlist_median, value = 60
+2024-09-10 오전 1:23:02: importing settings for: thermal_median...
+2024-09-10 오전 1:23:02: reading: key = thermal_median, value = 90
+2024-09-10 오전 1:23:02: importing settings for: gpuplan...
+2024-09-10 오전 1:23:02: reading: key = gpuplan, value = 1
+2024-09-10 오전 1:23:02: importing settings for: xtudefault...
+2024-09-10 오전 1:23:02: reading: key = xtudefault, value = 10.5
+2024-09-10 오전 1:23:24: settings changed for: special_programs!, reimporting...
+2024-09-10 오전 1:23:24: reading: key = WindowsFormsApplication5, value = 5
+2024-09-10 오전 1:23:24: reading: key = chrome, value = 5
+2024-09-10 오전 1:23:24: reading: key = explorer, value = 5
+2024-09-10 오전 1:23:24: reading: key = KakaoTalk, value = 5
+2024-09-10 오전 1:23:24: reading: key = POWERPNT, value = 5
+2024-09-10 오전 1:23:24: reading: key = ApplicationFrameHost, value = 5
+2024-09-10 오전 1:23:24: reading: key = LockApp, value = 5
+2024-09-10 오전 1:23:24: reading: key = devenv, value = 5
+2024-09-10 오전 1:23:24: reading: key = notepad++, value = 5
+2024-09-10 오전 1:23:24: reading: key = vmware, value = 5
+2024-09-10 오전 1:23:24: reading: key = VEFX Slider, value = 5
+2024-09-10 오전 1:23:24: reading: key = TeamViewer, value = 5
+2024-09-10 오전 1:23:24: reading: key = Idle, value = 5
+2024-09-10 오전 1:23:24: settings changed for: programs_running_cfg_cpu!, reimporting...
+2024-09-10 오전 1:23:24: reading: key = 0, value = 100
+2024-09-10 오전 1:23:24: reading: key = 1, value = 99
+2024-09-10 오전 1:23:24: reading: key = 2, value = 98
+2024-09-10 오전 1:23:24: reading: key = 3, value = 95
+2024-09-10 오전 1:23:24: reading: key = 4, value = 84
+2024-09-10 오전 1:23:24: reading: key = 5, value = 73
+2024-09-10 오전 1:23:24: reading: key = 6, value = 65
+2024-09-10 오전 1:23:24: reading: key = 7, value = 58
+2024-09-10 오전 1:23:24: reading: key = 8, value = 50
+2024-09-10 오전 1:23:24: reading: key = 9, value = 43
+2024-09-10 오전 1:23:24: reading: key = 10, value = 32
+2024-09-10 오전 1:23:24: reading: key = 11, value = 24
+2024-09-10 오전 1:23:24: settings changed for: programs_running_cfg_xtu!, reimporting...
+2024-09-10 오전 1:23:24: reading: key = 11, value = 10.5
+2024-09-10 오전 1:23:24: reading: key = 10, value = 10.5
+2024-09-10 오전 1:23:24: reading: key = 9, value = 9.5
+2024-09-10 오전 1:23:24: reading: key = 8, value = 9
+2024-09-10 오전 1:23:24: reading: key = 7, value = 8.5
+2024-09-10 오전 1:23:24: reading: key = 6, value = 8
+2024-09-10 오전 1:23:24: reading: key = 5, value = 7.5
+2024-09-10 오전 1:23:24: reading: key = 4, value = 7
+2024-09-10 오전 1:23:24: reading: key = 3, value = 6.5
+2024-09-10 오전 1:23:24: reading: key = 2, value = 6
+2024-09-10 오전 1:23:24: reading: key = 1, value = 5.5
+2024-09-10 오전 1:23:24: reading: key = 0, value = 4.5
+2024-09-10 오전 1:23:24: settings changed for: programs_running_cfg_nice!, reimporting...
+2024-09-10 오전 1:23:24: reading: key = 0, value = Normal
+2024-09-10 오전 1:23:24: reading: key = 1, value = Normal
+2024-09-10 오전 1:23:24: reading: key = 2, value = Normal
+2024-09-10 오전 1:23:24: reading: key = 3, value = Normal
+2024-09-10 오전 1:23:24: reading: key = 4, value = Normal
+2024-09-10 오전 1:23:24: reading: key = 5, value = Normal
+2024-09-10 오전 1:23:24: reading: key = 6, value = Normal
+2024-09-10 오전 1:23:24: reading: key = 7, value = Normal
+2024-09-10 오전 1:23:24: importing settings for: loop_delay...
+2024-09-10 오전 1:23:24: reading: key = loop_delay, value = 5
+2024-09-10 오전 1:23:24: importing settings for: boost_cycle_delay...
+2024-09-10 오전 1:23:24: reading: key = boost_cycle_delay, value = 30
+2024-09-10 오전 1:23:24: importing settings for: newlist_cycle_delay...
+2024-09-10 오전 1:23:24: reading: key = newlist_cycle_delay, value = 120
+2024-09-10 오전 1:23:24: importing settings for: processor_guid_tweak...
+2024-09-10 오전 1:23:24: reading: key = 06cadf0e-64ed-448a-8927-ce7bf90eb35d, value = 30
+2024-09-10 오전 1:23:24: reading: key = 0cc5b647-c1df-4637-891a-dec35c318583, value = 100
+2024-09-10 오전 1:23:24: reading: key = 12a0ab44-fe28-4fa9-b3bd-4b64f44960a6, value = 15
+2024-09-10 오전 1:23:24: reading: key = 40fbefc7-2e9d-4d25-a185-0cfd8574bac6, value = 1
+2024-09-10 오전 1:23:24: reading: key = 45bcc044-d885-43e2-8605-ee0ec6e96b59, value = 100
+2024-09-10 오전 1:23:24: reading: key = 465e1f50-b610-473a-ab58-00d1077dc418, value = 2
+2024-09-10 오전 1:23:24: reading: key = 4d2b0152-7d5c-498b-88e2-34345392a2c5, value = 15
+2024-09-10 오전 1:23:24: reading: key = 893dee8e-2bef-41e0-89c6-b55d0929964c, value = 5
+2024-09-10 오전 1:23:24: reading: key = 94d3a615-a899-4ac5-ae2b-e4d8f634367f, value = 1
+2024-09-10 오전 1:23:24: reading: key = bc5038f7-23e0-4960-96da-33abaf5935ec, value = 100
+2024-09-10 오전 1:23:24: reading: key = ea062031-0e34-4ff1-9b6d-eb1059334028, value = 100
+2024-09-10 오전 1:23:24: importing settings for: generatedCLK...
+2024-09-10 오전 1:23:24: reading: key = 100, value = 2701
+2024-09-10 오전 1:23:24: reading: key = 99, value = 2700
+2024-09-10 오전 1:23:24: reading: key = 98, value = 2600
+2024-09-10 오전 1:23:24: reading: key = 95, value = 2300
+2024-09-10 오전 1:23:24: reading: key = 84, value = 2000
+2024-09-10 오전 1:23:24: reading: key = 73, value = 1800
+2024-09-10 오전 1:23:24: reading: key = 65, value = 1600
+2024-09-10 오전 1:23:24: reading: key = 58, value = 1400
+2024-09-10 오전 1:23:24: reading: key = 50, value = 1200
+2024-09-10 오전 1:23:24: reading: key = 43, value = 900
+2024-09-10 오전 1:23:24: reading: key = 32, value = 700
+2024-09-10 오전 1:23:24: reading: key = 24, value = 500
+2024-09-10 오전 1:23:24: importing settings for: generatedXTU...
+2024-09-10 오전 1:23:24: reading: key = 24, value = 10.5
+2024-09-10 오전 1:23:24: reading: key = 32, value = 10.5
+2024-09-10 오전 1:23:24: reading: key = 43, value = 9.5
+2024-09-10 오전 1:23:24: reading: key = 50, value = 9
+2024-09-10 오전 1:23:24: reading: key = 58, value = 8.5
+2024-09-10 오전 1:23:24: reading: key = 65, value = 8
+2024-09-10 오전 1:23:24: reading: key = 73, value = 7.5
+2024-09-10 오전 1:23:24: reading: key = 84, value = 7
+2024-09-10 오전 1:23:24: reading: key = 95, value = 6.5
+2024-09-10 오전 1:23:24: reading: key = 98, value = 6
+2024-09-10 오전 1:23:24: reading: key = 99, value = 5.5
+2024-09-10 오전 1:23:24: reading: key = 100, value = 4.5
+2024-09-10 오전 1:23:24: importing settings for: throttle_median...
+2024-09-10 오전 1:23:24: reading: key = throttle_median, value = 70
+2024-09-10 오전 1:23:24: settings changed for: newlist_median!, reimporting...
+2024-09-10 오전 1:23:24: reading: key = newlist_median, value = 60
+2024-09-10 오전 1:23:24: importing settings for: thermal_median...
+2024-09-10 오전 1:23:24: reading: key = thermal_median, value = 90
+2024-09-10 오전 1:23:24: importing settings for: gpuplan...
+2024-09-10 오전 1:23:24: reading: key = gpuplan, value = 1
+2024-09-10 오전 1:23:24: importing settings for: xtudefault...
+2024-09-10 오전 1:23:24: reading: key = xtudefault, value = 10.5
+2024-09-10 오전 1:23:26: checking XTU cmdlet
+2024-09-10 오전 1:23:27: XTU cmdlet missing, cannot continue.
+2024-09-10 오전 1:23:27: XTU ok
+2024-09-10 오전 1:23:27: setting XTU: 0.5
+2024-09-10 오전 1:23:27: setting GPU: performance
+2024-09-10 오전 1:23:28: setting XTU: 10.5
+2024-09-10 오전 1:23:28: setting GPU: performance
+2024-09-10 오전 1:23:28: init PowerCFG settings
+2024-09-10 오전 1:23:35: init value counters: maxpwr = 2419, turbopwr = 3676
+2024-09-10 오전 1:23:35: ====================end of core init====================
+2024-09-10 오전 1:24:25: settings changed for: special_programs!, reimporting...
+2024-09-10 오전 1:24:25: reading: key = WindowsFormsApplication5, value = 5
+2024-09-10 오전 1:24:25: reading: key = chrome, value = 5
+2024-09-10 오전 1:24:25: reading: key = explorer, value = 5
+2024-09-10 오전 1:24:25: reading: key = KakaoTalk, value = 5
+2024-09-10 오전 1:24:25: reading: key = POWERPNT, value = 5
+2024-09-10 오전 1:24:25: reading: key = ApplicationFrameHost, value = 5
+2024-09-10 오전 1:24:25: reading: key = LockApp, value = 5
+2024-09-10 오전 1:24:25: reading: key = devenv, value = 5
+2024-09-10 오전 1:24:25: reading: key = notepad++, value = 5
+2024-09-10 오전 1:24:25: reading: key = vmware, value = 5
+2024-09-10 오전 1:24:25: reading: key = VEFX Slider, value = 5
+2024-09-10 오전 1:24:25: reading: key = TeamViewer, value = 5
+2024-09-10 오전 1:24:25: reading: key = Idle, value = 5
+2024-09-10 오전 1:24:25: settings changed for: programs_running_cfg_cpu!, reimporting...
+2024-09-10 오전 1:24:25: reading: key = 0, value = 100
+2024-09-10 오전 1:24:25: reading: key = 1, value = 99
+2024-09-10 오전 1:24:25: reading: key = 2, value = 98
+2024-09-10 오전 1:24:25: reading: key = 3, value = 95
+2024-09-10 오전 1:24:25: reading: key = 4, value = 84
+2024-09-10 오전 1:24:25: reading: key = 5, value = 73
+2024-09-10 오전 1:24:25: reading: key = 6, value = 65
+2024-09-10 오전 1:24:25: reading: key = 7, value = 58
+2024-09-10 오전 1:24:25: reading: key = 8, value = 50
+2024-09-10 오전 1:24:25: reading: key = 9, value = 43
+2024-09-10 오전 1:24:25: reading: key = 10, value = 32
+2024-09-10 오전 1:24:25: reading: key = 11, value = 24
+2024-09-10 오전 1:24:25: settings changed for: programs_running_cfg_xtu!, reimporting...
+2024-09-10 오전 1:24:25: reading: key = 11, value = 10.5
+2024-09-10 오전 1:24:25: reading: key = 10, value = 10.5
+2024-09-10 오전 1:24:25: reading: key = 9, value = 9.5
+2024-09-10 오전 1:24:25: reading: key = 8, value = 9
+2024-09-10 오전 1:24:25: reading: key = 7, value = 8.5
+2024-09-10 오전 1:24:25: reading: key = 6, value = 8
+2024-09-10 오전 1:24:25: reading: key = 5, value = 7.5
+2024-09-10 오전 1:24:25: reading: key = 4, value = 7
+2024-09-10 오전 1:24:25: reading: key = 3, value = 6.5
+2024-09-10 오전 1:24:25: reading: key = 2, value = 6
+2024-09-10 오전 1:24:25: reading: key = 1, value = 5.5
+2024-09-10 오전 1:24:25: reading: key = 0, value = 4.5
+2024-09-10 오전 1:24:25: tidying up config files.
+2024-09-10 오전 1:25:16: paused.
+2024-09-10 오전 1:25:18: resumed.
+2024-09-10 오전 1:25:23: create file: C:\Users\hoholee12\Documents\GitHub\ThrottleKiller\ConsoleApplication41\ConsoleApplication41\bin\Release\xtu_scheduler_config\generatedCLK.txt
+2024-09-10 오전 1:25:23: create file: C:\Users\hoholee12\Documents\GitHub\ThrottleKiller\ConsoleApplication41\ConsoleApplication41\bin\Release\xtu_scheduler_config\generatedXTU.txt
+2024-09-10 오전 1:25:23: create file: C:\Users\hoholee12\Documents\GitHub\ThrottleKiller\ConsoleApplication41\ConsoleApplication41\bin\Release\xtu_scheduler_config\programs_running_cfg_cpu.txt
+2024-09-10 오전 1:25:23: create file: C:\Users\hoholee12\Documents\GitHub\ThrottleKiller\ConsoleApplication41\ConsoleApplication41\bin\Release\xtu_scheduler_config\programs_running_cfg_nice.txt
+2024-09-10 오전 1:25:23: create file: C:\Users\hoholee12\Documents\GitHub\ThrottleKiller\ConsoleApplication41\ConsoleApplication41\bin\Release\xtu_scheduler_config\programs_running_cfg_xtu.txt
+2024-09-10 오전 1:25:23: clklist_reset.

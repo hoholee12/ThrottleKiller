@@ -1,0 +1,376 @@
+2024-09-10 오전 1:23:35: waiting for input...
+2024-09-10 오전 1:23:36: prev_interval = 0 system elapsed time = 2, service timer interval = 998
+2024-09-10 오전 1:23:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:57: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:58: UI App requests: location
+2024-09-10 오전 1:23:58: sending output: C:\Users\hoholee12\Documents\GitHub\ThrottleKiller\ConsoleApplication41\ConsoleApplication41\bin\Release\xtu_scheduler_config
+2024-09-10 오전 1:23:58: waiting for input...
+2024-09-10 오전 1:23:58: UI App requests: sysinfo
+2024-09-10 오전 1:23:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:23:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:00: sending output: 3676 7 46 null 0 0 0 True
+2024-09-10 오전 1:24:00: waiting for input...
+2024-09-10 오전 1:24:00: UI App requests: topspeed
+2024-09-10 오전 1:24:00: sending output: 3676
+2024-09-10 오전 1:24:00: waiting for input...
+2024-09-10 오전 1:24:00: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:02: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:03: UI App requests: sysinfo
+2024-09-10 오전 1:24:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:05: sending output: 3676 15 45 null 0 0 0 True
+2024-09-10 오전 1:24:05: waiting for input...
+2024-09-10 오전 1:24:05: UI App requests: topspeed
+2024-09-10 오전 1:24:05: sending output: 3676
+2024-09-10 오전 1:24:05: waiting for input...
+2024-09-10 오전 1:24:05: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:08: UI App requests: sysinfo
+2024-09-10 오전 1:24:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:10: sending output: 3676 14 47 null 0 0 0 True
+2024-09-10 오전 1:24:10: waiting for input...
+2024-09-10 오전 1:24:10: UI App requests: topspeed
+2024-09-10 오전 1:24:10: sending output: 3676
+2024-09-10 오전 1:24:10: waiting for input...
+2024-09-10 오전 1:24:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:13: UI App requests: sysinfo
+2024-09-10 오전 1:24:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:15: sending output: 3676 16 46 null 0 0 0 True
+2024-09-10 오전 1:24:15: waiting for input...
+2024-09-10 오전 1:24:15: UI App requests: topspeed
+2024-09-10 오전 1:24:15: sending output: 3676
+2024-09-10 오전 1:24:15: waiting for input...
+2024-09-10 오전 1:24:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:18: UI App requests: sysinfo
+2024-09-10 오전 1:24:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:20: sending output: 3676 8 47 null 0 0 0 True
+2024-09-10 오전 1:24:20: waiting for input...
+2024-09-10 오전 1:24:20: UI App requests: topspeed
+2024-09-10 오전 1:24:20: sending output: 3676
+2024-09-10 오전 1:24:20: waiting for input...
+2024-09-10 오전 1:24:21: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:23: UI App requests: sysinfo
+2024-09-10 오전 1:24:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:25: sending output: 3676 9 63 null 0 0 0 True
+2024-09-10 오전 1:24:25: waiting for input...
+2024-09-10 오전 1:24:25: UI App requests: cleanup
+2024-09-10 오전 1:24:25: sending output: tidying up config files.
+2024-09-10 오전 1:24:25: waiting for input...
+2024-09-10 오전 1:24:25: UI App requests: topspeed
+2024-09-10 오전 1:24:25: sending output: 3676
+2024-09-10 오전 1:24:25: waiting for input...
+2024-09-10 오전 1:24:26: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:28: UI App requests: sysinfo
+2024-09-10 오전 1:24:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:30: sending output: 3676 8 47 null 0 0 0 True
+2024-09-10 오전 1:24:30: waiting for input...
+2024-09-10 오전 1:24:30: UI App requests: topspeed
+2024-09-10 오전 1:24:30: sending output: 3676
+2024-09-10 오전 1:24:30: waiting for input...
+2024-09-10 오전 1:24:31: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:33: UI App requests: sysinfo
+2024-09-10 오전 1:24:34: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:35: sending output: 3676 13 47 null 0 0 0 True
+2024-09-10 오전 1:24:35: waiting for input...
+2024-09-10 오전 1:24:35: UI App requests: topspeed
+2024-09-10 오전 1:24:35: sending output: 3676
+2024-09-10 오전 1:24:35: waiting for input...
+2024-09-10 오전 1:24:36: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:38: UI App requests: sysinfo
+2024-09-10 오전 1:24:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:40: sending output: 3676 19 57 null 0 0 0 True
+2024-09-10 오전 1:24:40: waiting for input...
+2024-09-10 오전 1:24:40: UI App requests: topspeed
+2024-09-10 오전 1:24:40: sending output: 3676
+2024-09-10 오전 1:24:40: waiting for input...
+2024-09-10 오전 1:24:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:43: UI App requests: sysinfo
+2024-09-10 오전 1:24:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:45: sending output: 3676 11 47 null 0 0 0 True
+2024-09-10 오전 1:24:45: waiting for input...
+2024-09-10 오전 1:24:45: UI App requests: topspeed
+2024-09-10 오전 1:24:45: sending output: 3676
+2024-09-10 오전 1:24:45: waiting for input...
+2024-09-10 오전 1:24:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:48: UI App requests: sysinfo
+2024-09-10 오전 1:24:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:50: sending output: 3676 11 47 null 0 0 0 True
+2024-09-10 오전 1:24:50: waiting for input...
+2024-09-10 오전 1:24:50: UI App requests: topspeed
+2024-09-10 오전 1:24:50: sending output: 3676
+2024-09-10 오전 1:24:50: waiting for input...
+2024-09-10 오전 1:24:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:53: UI App requests: sysinfo
+2024-09-10 오전 1:24:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:55: sending output: 3676 7 47 null 0 0 0 True
+2024-09-10 오전 1:24:55: waiting for input...
+2024-09-10 오전 1:24:55: UI App requests: topspeed
+2024-09-10 오전 1:24:55: sending output: 3676
+2024-09-10 오전 1:24:55: waiting for input...
+2024-09-10 오전 1:24:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:57: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:24:58: UI App requests: sysinfo
+2024-09-10 오전 1:24:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:00: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:00: sending output: 3676 8 45 null 0 0 0 True
+2024-09-10 오전 1:25:00: waiting for input...
+2024-09-10 오전 1:25:00: UI App requests: topspeed
+2024-09-10 오전 1:25:00: sending output: 3676
+2024-09-10 오전 1:25:01: waiting for input...
+2024-09-10 오전 1:25:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:02: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:03: UI App requests: sysinfo
+2024-09-10 오전 1:25:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:05: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:05: sending output: 3676 12 48 null 0 0 0 True
+2024-09-10 오전 1:25:05: waiting for input...
+2024-09-10 오전 1:25:05: UI App requests: topspeed
+2024-09-10 오전 1:25:05: sending output: 3676
+2024-09-10 오전 1:25:05: waiting for input...
+2024-09-10 오전 1:25:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:08: UI App requests: sysinfo
+2024-09-10 오전 1:25:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:10: sending output: 3676 23 45 null 0 0 0 True
+2024-09-10 오전 1:25:10: waiting for input...
+2024-09-10 오전 1:25:10: UI App requests: topspeed
+2024-09-10 오전 1:25:10: sending output: 3676
+2024-09-10 오전 1:25:10: waiting for input...
+2024-09-10 오전 1:25:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:13: UI App requests: sysinfo
+2024-09-10 오전 1:25:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:16: sending output: 3676 2 46 null 0 0 0 True
+2024-09-10 오전 1:25:16: waiting for input...
+2024-09-10 오전 1:25:16: UI App requests: pause
+2024-09-10 오전 1:25:16: sending output: paused.
+2024-09-10 오전 1:25:16: waiting for input...
+2024-09-10 오전 1:25:16: UI App requests: topspeed
+2024-09-10 오전 1:25:16: sending output: 3676
+2024-09-10 오전 1:25:16: waiting for input...
+2024-09-10 오전 1:25:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:18: UI App requests: resume
+2024-09-10 오전 1:25:18: sending output: resumed.
+2024-09-10 오전 1:25:18: waiting for input...
+2024-09-10 오전 1:25:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:18: UI App requests: sysinfo
+2024-09-10 오전 1:25:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:21: sending output: 3676 17 48 null 0 0 0 True
+2024-09-10 오전 1:25:21: waiting for input...
+2024-09-10 오전 1:25:21: UI App requests: topspeed
+2024-09-10 오전 1:25:21: sending output: 3676
+2024-09-10 오전 1:25:21: waiting for input...
+2024-09-10 오전 1:25:21: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:23: UI App requests: reset
+2024-09-10 오전 1:25:23: sending output: clklist_reset.
+2024-09-10 오전 1:25:23: waiting for input...
+2024-09-10 오전 1:25:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:23: UI App requests: sysinfo
+2024-09-10 오전 1:25:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:26: sending output: 3676 6 46 null 0 0 0 True
+2024-09-10 오전 1:25:26: waiting for input...
+2024-09-10 오전 1:25:26: UI App requests: topspeed
+2024-09-10 오전 1:25:26: sending output: 3676
+2024-09-10 오전 1:25:26: waiting for input...
+2024-09-10 오전 1:25:26: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:28: UI App requests: sysinfo
+2024-09-10 오전 1:25:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:31: sending output: 3676 16 47 null 0 0 0 True
+2024-09-10 오전 1:25:31: waiting for input...
+2024-09-10 오전 1:25:31: UI App requests: topspeed
+2024-09-10 오전 1:25:31: sending output: 3676
+2024-09-10 오전 1:25:31: waiting for input...
+2024-09-10 오전 1:25:31: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:33: UI App requests: sysinfo
+2024-09-10 오전 1:25:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:34: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:36: sending output: 3676 2 46 null 0 0 0 True
+2024-09-10 오전 1:25:36: waiting for input...
+2024-09-10 오전 1:25:36: UI App requests: topspeed
+2024-09-10 오전 1:25:36: sending output: 3676
+2024-09-10 오전 1:25:36: waiting for input...
+2024-09-10 오전 1:25:36: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:38: UI App requests: sysinfo
+2024-09-10 오전 1:25:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:41: sending output: 3676 9 46 null 0 0 0 True
+2024-09-10 오전 1:25:41: waiting for input...
+2024-09-10 오전 1:25:41: UI App requests: topspeed
+2024-09-10 오전 1:25:41: sending output: 3676
+2024-09-10 오전 1:25:41: waiting for input...
+2024-09-10 오전 1:25:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:43: UI App requests: sysinfo
+2024-09-10 오전 1:25:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:46: sending output: 3676 13 56 null 0 0 0 True
+2024-09-10 오전 1:25:46: waiting for input...
+2024-09-10 오전 1:25:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:46: waiting for input...
+2024-09-10 오전 1:25:46: UI App requests: topspeed
+2024-09-10 오전 1:25:46: sending output: 3676
+2024-09-10 오전 1:25:46: waiting for input...
+2024-09-10 오전 1:25:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:48: UI App requests: sysinfo
+2024-09-10 오전 1:25:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:51: sending output: 3676 9 46 null 0 0 0 True
+2024-09-10 오전 1:25:51: waiting for input...
+2024-09-10 오전 1:25:51: UI App requests: topspeed
+2024-09-10 오전 1:25:51: sending output: 3676
+2024-09-10 오전 1:25:51: waiting for input...
+2024-09-10 오전 1:25:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:52: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:53: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:53: UI App requests: sysinfo
+2024-09-10 오전 1:25:54: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:55: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:56: sending output: 3676 12 45 null 0 0 0 True
+2024-09-10 오전 1:25:56: waiting for input...
+2024-09-10 오전 1:25:56: UI App requests: topspeed
+2024-09-10 오전 1:25:56: sending output: 3676
+2024-09-10 오전 1:25:56: waiting for input...
+2024-09-10 오전 1:25:56: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:57: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:58: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:25:58: UI App requests: sysinfo
+2024-09-10 오전 1:25:59: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:00: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:01: sending output: 3676 10 46 null 0 0 0 True
+2024-09-10 오전 1:26:01: waiting for input...
+2024-09-10 오전 1:26:01: UI App requests: topspeed
+2024-09-10 오전 1:26:01: sending output: 3676
+2024-09-10 오전 1:26:01: waiting for input...
+2024-09-10 오전 1:26:01: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:02: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:03: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:03: UI App requests: sysinfo
+2024-09-10 오전 1:26:04: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:05: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:06: sending output: 3676 17 46 null 0 0 0 True
+2024-09-10 오전 1:26:06: waiting for input...
+2024-09-10 오전 1:26:06: UI App requests: topspeed
+2024-09-10 오전 1:26:06: sending output: 3676
+2024-09-10 오전 1:26:06: waiting for input...
+2024-09-10 오전 1:26:06: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:07: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:08: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:08: UI App requests: sysinfo
+2024-09-10 오전 1:26:09: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:10: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:11: sending output: 3676 14 48 null 0 0 0 True
+2024-09-10 오전 1:26:11: waiting for input...
+2024-09-10 오전 1:26:11: UI App requests: topspeed
+2024-09-10 오전 1:26:11: sending output: 3676
+2024-09-10 오전 1:26:11: waiting for input...
+2024-09-10 오전 1:26:11: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:12: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:13: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:13: UI App requests: sysinfo
+2024-09-10 오전 1:26:14: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:15: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:16: sending output: 3676 10 48 null 0 0 0 True
+2024-09-10 오전 1:26:16: waiting for input...
+2024-09-10 오전 1:26:16: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:17: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:18: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:19: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:20: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:21: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:22: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:23: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:24: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:25: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:26: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:27: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:28: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:29: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:30: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:31: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:32: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:33: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:34: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:35: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:36: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:37: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:38: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:39: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:40: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:41: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:42: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:43: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:44: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:45: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:46: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:47: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:48: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:49: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:50: prev_interval = 0 system elapsed time = 0, service timer interval = 1000
+2024-09-10 오전 1:26:51: prev_interval = 0 system elapsed time = 0, service timer interval = 1000

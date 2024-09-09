@@ -5,8 +5,6 @@ KakaoTalk = 5
 POWERPNT = 5
 ApplicationFrameHost = 5
 LockApp = 5
-
-@append
 devenv = 5
 notepad++ = 5
 vmware = 5
