@@ -137,6 +137,7 @@ $global:throttle_str = ""
 $global:prev_process = ""
 $global:status = 0			# 0 = gpudefault, 1 = gpulimit
 $global:reason = ""
+$global:throttleclearmsgdelivered = 0
 # script assumes nothing is running at start.
 
 # check custom location for settings
@@ -285,6 +286,10 @@ function msg([string]$setting_string){
 	$setting_string >> ($loc + "gpu_scheduler_config\gpu_scheduler.log")
 	write-output($setting_string)
 }
+# move old log from prev session
+copy-item ($loc + "gpu_scheduler_config\gpu_scheduler.log") ($loc + "gpu_scheduler_config\gpu_scheduler_" + (get-date -format "yy-MM-dd_hh-mm-ss") + ".log")
+remove-item ($loc + "gpu_scheduler_config\gpu_scheduler.log")
+
 msg("script started. starting location: " + $loc)	# log script location
 msg("upperlim: " + $upperlim + " deltalim: " + $deltalim)
 
@@ -577,8 +582,9 @@ while($True){
 	if($global:cputhrottle -ne 0 -And (($maxpwrtempered -eq 0 -And $global:currpwr -ge ($global:totalpwr`
 	* $powerforcethrottl / 100) -And $global:switchdelay3 -gt $throttlechange) -Or $global:delta`
 	-le $limit)){
-		if($global:cputhrottle -ne 0){
+		if($global:throttleclearmsgdelivered -ne 1){
 			msg("throttling cleared.")
+			$global:throttleclearmsgdelivered = 1
 		}
 		$global:cputhrottle = 0
 		cpulimit(2)
@@ -641,6 +647,7 @@ while($True){
 				cpulimit(2)
 				gpulimit
 			}
+			$global:throttleclearmsgdelivered = 0
 		}
 		else{
 			if($global:load -ge $loadforcegpulimit){

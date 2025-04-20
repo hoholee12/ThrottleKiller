@@ -49,6 +49,10 @@ function msg([string]$setting_string){
 	$setting_string = ((get-date -format "yy-MM-dd hh:mm:ss: ") + $setting_string)
 	$setting_string >> ($loc + "shaderlimiter.log")
 }
+# move old log from prev session
+copy-item ($loc + "shaderlimiter.log") ($loc + "shaderlimiter_" + (get-date -format "yy-MM-dd_hh-mm-ss") + ".log")
+remove-item ($loc + "shaderlimiter.log")
+
 msg("script started. starting location: " + $loc + " the shader file size limit is: " + $limit)	# log script location
 
 $repeatflag = 0
