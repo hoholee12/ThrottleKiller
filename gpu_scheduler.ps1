@@ -137,7 +137,6 @@ $global:throttle_str = ""
 $global:prev_process = ""
 $global:status = 0			# 0 = gpudefault, 1 = gpulimit
 $global:reason = ""
-$global:throttleclearmsgdelivered = 0
 # script assumes nothing is running at start.
 
 # check custom location for settings
@@ -578,17 +577,6 @@ while($True){
 		$global:totalpwr = $global:currpwr
 	}
 	
-	# cputhrottle flag clears when throttle ends
-	if($global:cputhrottle -ne 0 -And (($maxpwrtempered -eq 0 -And $global:currpwr -ge ($global:totalpwr`
-	* $powerforcethrottl / 100) -And $global:switchdelay3 -gt $throttlechange) -Or $global:delta`
-	-le $limit)){
-		if($global:throttleclearmsgdelivered -ne 1){
-			msg("throttling cleared.")
-			$global:throttleclearmsgdelivered = 1
-		}
-		$global:cputhrottle = 0
-		cpulimit(2)
-	}
 	$global:switchdelay3++
 	
 	# abs of delta
@@ -647,9 +635,19 @@ while($True){
 				cpulimit(2)
 				gpulimit
 			}
-			$global:throttleclearmsgdelivered = 0
 		}
-		else{
+		else{			
+			# cputhrottle flag clears when throttle ends
+			# this is placed here to make sure this only happens when no throttling cpulimit is done at the same cycle
+			if($global:cputhrottle -ne 0 -And (($maxpwrtempered -eq 0 -And $global:currpwr -ge ($global:totalpwr`
+			* $powerforcethrottl / 100) -And $global:switchdelay3 -gt $throttlechange) -Or $global:delta`
+			-le $limit)){
+				msg("throttling cleared.")
+				$global:cputhrottle = 0
+				cpulimit(2)
+			}
+			
+			# throttle code ended. continue other shit
 			if($global:load -ge $loadforcegpulimit){
 				if($global:deltafinal -le $deltabias){
 					# high cpuload but cpu and gpu load diff is small
