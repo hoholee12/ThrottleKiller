@@ -9,20 +9,21 @@
 
 
 # user config
-$limit = 0				# GPU copy usage -> game is running if more than 0%
-$glimit = 20			# GPU load -> game is running if more than 20%
-$sleeptime = 5			# wait 5 seconds before another run
-$timerlimit = 15		# timer limit(sec) after sleeptime. if passed, the current running app will be blacklisted.
-$deltabias = 20			# gpulimit, if |CPU - GPU| < 20
-$loadforcegpulimit = 80	# if cpuload >= 80, force gpulimit (lower priority than deltabias)
+$limit = 0              # GPU copy usage -> game is running if more than 0%
+$glimit = 20            # GPU load -> game is running if more than 20%
+$sleeptime = 5          # wait 5 seconds before another run
+$timerlimit = 15        # timer limit(sec) after sleeptime. if passed, the current running app will be blacklisted.
+$deltabias = 20         # gpulimit, if |CPU - GPU| < 20
+$loadforcegpulimit = 80 # if cpuload >= 80, force gpulimit (lower priority than deltabias)
 $powerforcethrottl = 60 # if total power < 60, force gpulimit
-$smoothness_pwr = 5		# smoothness for moving average of cpu power. if 5, 4(old) + 1(new) / 5 = avg.
-$sharpness_load = -3	# sharpness for moving average of cpu/gpu load calc. if 3, 1(old) + 2(new) / 3 = avg. if -3, 2(old) + 1(new) / 3 = avg.
-$delaycpu = 1			# delay from sudden gpulimit (only under deltabias)
-$delaygpu = 0			# delay from sudden gpudefault (only under deltabias)
-$throttlechange = 5		# delay from sudden throttle clear (will also be used for reducing frequent switches)
-$isdebug = $False		# dont print debug stuff
-$notnvidia = 1			# dont run nvidiainspector(i dont use nvidia gpu)
+$smoothness_pwr = 5     # smoothness for moving average of cpu power. if 5, 4(old) + 1(new) / 5 = avg.
+$sharpness_load = -3    # sharpness for moving average of cpu/gpu load calc. if 3, 1(old) + 2(new) / 3 = avg. if -3, 2(old) + 1(new) / 3 = avg.
+$delaycpu = 1           # delay from sudden gpulimit (only under deltabias)
+$delaygpu = 0           # delay from sudden gpudefault (only under deltabias)
+$throttlechange = 5     # delay from sudden throttle clear (will also be used for reducing frequent switches)
+$applybatteryprof = 1   # apply battery profile on acpower (does 3/4 core parking on idle)
+$isdebug = $False       # dont print debug stuff
+$notnvidia = 1          # dont run nvidiainspector(i dont use nvidia gpu)
 
 # for gpulimit
 $clockoffset = -950
@@ -426,7 +427,7 @@ function cpulimit($idleness){
 	#limit power on battery
 	#TODO: print status of acPower
 	$ac = acPower
-	if($ac -eq $False){
+	if($ac -eq $False -Or $applybatteryprof -eq 1){
 		if($global:cpuminpark -eq $minpark){	# idle
 			$global:cpuminpark = 0				# lower idle on battery
 		}
