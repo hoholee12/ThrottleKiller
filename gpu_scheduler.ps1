@@ -100,11 +100,11 @@ $guida = 'F15576E8-98B7-4186-B944-EAFA664402D9'		# network on standby
 powercfg /attributes 'sub_none' $guida -ATTRIB_HIDE
 powercfg /setdcvalueindex $guid0 'sub_none' $guida 0	# off
 powercfg /setacvalueindex $guid0 'sub_none' $guida 0	# off
-$guidb = '501a4d13-42af-4429-9fd1-a8218c268e20'		# pci power
+$guidb = '501a4d13-42af-4429-9fd1-a8218c268e20'		# pci link state power
 $guidc = 'ee12f906-d277-404b-b6da-e5fa1a576df5'
 powercfg /attributes $guidb $guidc -ATTRIB_HIDE
-powercfg /setdcvalueindex $guid0 $guidb $guidc 1	# moderate
-powercfg /setacvalueindex $guid0 $guidb $guidc 1	# moderate
+powercfg /setdcvalueindex $guid0 $guidb $guidc 2	# maximum
+powercfg /setacvalueindex $guid0 $guidb $guidc 2	# maximum
 
 
 # set powerplan active
